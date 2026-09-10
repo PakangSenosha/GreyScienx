@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { getResearcherBySubdomain } from "./lib/catalog";
+import { researcherHosts } from "./lib/hosts";
 
 const reserved = new Set([
   "www",
@@ -24,18 +24,18 @@ function subdomainFromHost(host: string) {
   return null;
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const host = request.headers.get("host") || "";
   const subdomain = subdomainFromHost(host);
   if (!subdomain || reserved.has(subdomain)) {
     return NextResponse.next();
   }
 
-  const researcher = getResearcherBySubdomain(subdomain);
-  if (!researcher) return NextResponse.next();
+  const researcherSlug = researcherHosts[subdomain];
+  if (!researcherSlug) return NextResponse.next();
 
   const url = request.nextUrl.clone();
-  const prefix = `/r/${researcher.slug}`;
+  const prefix = `/r/${researcherSlug}`;
   if (url.pathname === "/" || url.pathname === "") {
     url.pathname = prefix;
     return NextResponse.rewrite(url);
