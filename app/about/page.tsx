@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { researchers } from "@/lib/catalog";
@@ -63,9 +64,9 @@ export default function AboutPage() {
             </p>
             <p className="domain-chip">{researcherHost(founder)}</p>
             <p>
-              <a className="button button-ghost" href={researcherPath(founder)}>
+              <Link className="button button-ghost" href={researcherPath(founder)}>
                 Researcher home
-              </a>
+              </Link>
             </p>
           </div>
         </section>

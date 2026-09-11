@@ -42,6 +42,8 @@ export type Figure = {
   src: string;
   alt: string;
   caption: string;
+  width: number;
+  height: number;
 };
 
 export type ResearchPaper = {

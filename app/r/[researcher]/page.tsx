@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -75,7 +76,7 @@ export default async function ResearcherPage({ params }: ResearcherPageProps) {
           <p className="eyebrow">Research sites</p>
           <div className="research-cards">
             {papers.map((paper) => (
-              <a
+              <Link
                 className="research-card"
                 href={paperPath(researcher, paper)}
                 key={paper.slug}
@@ -90,7 +91,7 @@ export default async function ResearcherPage({ params }: ResearcherPageProps) {
                     {paperHostPath(researcher, paper)}
                   </p>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </section>

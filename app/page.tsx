@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { papers, researchers } from "@/lib/catalog";
@@ -28,12 +29,12 @@ export default function HomePage() {
               The original armchair paper stays downloadable.
             </p>
             <div className="hero-actions">
-              <a className="button button-primary" href="/submit">
+              <Link className="button button-primary" href="/submit">
                 Submit research
-              </a>
-              <a className="button button-secondary" href={researcherPath(founder)}>
+              </Link>
+              <Link className="button button-secondary" href={researcherPath(founder)}>
                 {founder.name}
-              </a>
+              </Link>
             </div>
             <p className="file-meta">
               {researcherHost(founder)} / research-title
@@ -114,7 +115,7 @@ export default function HomePage() {
                 );
                 if (!researcher) return null;
                 return (
-                  <a
+                  <Link
                     className="research-card"
                     href={paperPath(researcher, paper)}
                     key={paper.slug}
@@ -129,7 +130,7 @@ export default function HomePage() {
                         {paperHostPath(researcher, paper)}
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 );
               })}
             </div>
@@ -151,12 +152,12 @@ export default function HomePage() {
               {researcherHost(founder)}
             </p>
             <div className="hero-actions">
-              <a className="button button-primary" href={researcherPath(founder)}>
+              <Link className="button button-primary" href={researcherPath(founder)}>
                 Open researcher home
-              </a>
-              <a className="button button-secondary" href="/about">
+              </Link>
+              <Link className="button button-secondary" href="/about">
                 About GreyScienx
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -175,9 +176,9 @@ export default function HomePage() {
               Paste a manuscript. GreyScienx writes the finding, the numbers, the evidence,
               and the method into the research-site layout used by the live papers.
             </p>
-            <a className="button button-paper" href="/submit">
+            <Link className="button button-paper" href="/submit">
               Submit research
-            </a>
+            </Link>
           </div>
         </section>
       </main>

@@ -100,6 +100,8 @@ export const papers: ResearchPaper[] = [
         alt: "Hurst, directional accuracy, and entropy diagnostics supporting a random-walk-compatible interpretation",
         caption:
           "Memory remained near Brownian, predictive accuracy stayed near 50%, and normalized uncertainty remained close to its maximum.",
+        width: 2667,
+        height: 1992,
       },
       qualification: {
         title: "What “random” means here",
@@ -134,6 +136,8 @@ export const papers: ResearchPaper[] = [
         alt: "Matrix showing which frozen cross-asset development gates passed and failed",
         caption:
           "Predeclared development gates. The positive stock diagnostic was ineligible by design.",
+        width: 2200,
+        height: 960,
       },
     },
     method: {

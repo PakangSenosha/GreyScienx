@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { papersFor, researchers } from "@/lib/catalog";
@@ -34,7 +35,7 @@ export default function ResearchersPage() {
             {researchers.map((researcher) => {
               const count = papersFor(researcher.slug).length;
               return (
-                <a
+                <Link
                   className="research-card"
                   href={researcherPath(researcher)}
                   key={researcher.slug}
@@ -48,7 +49,7 @@ export default function ResearchersPage() {
                       {researcherHost(researcher)} · {count} research {count === 1 ? "site" : "sites"}
                     </p>
                   </div>
-                </a>
+                </Link>
               );
             })}
           </div>

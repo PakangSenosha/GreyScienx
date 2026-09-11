@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import Link from "next/link";
+import { useMemo, useSyncExternalStore } from "react";
 import { ResearchSite } from "./ResearchSite";
 import { SiteHeader } from "./SiteHeader";
 import { SiteFooter } from "./SiteFooter";
@@ -13,24 +14,34 @@ type PreviewPayload = {
   warning?: string;
 };
 
+const previewKey = "greyscienx-preview";
+const subscribe = () => () => undefined;
+const getServerPreview = () => null;
+const getBrowserPreview = () => sessionStorage.getItem(previewKey);
+const getServerHydrated = () => false;
+const getBrowserHydrated = () => true;
+
 export function PreviewSite() {
-  const [payload, setPayload] = useState<PreviewPayload | null>(null);
-  const [missing, setMissing] = useState(false);
-
-  useEffect(() => {
-    const raw = sessionStorage.getItem("greyscienx-preview");
-    if (!raw) {
-      setMissing(true);
-      return;
-    }
+  const raw = useSyncExternalStore(
+    subscribe,
+    getBrowserPreview,
+    getServerPreview,
+  );
+  const hydrated = useSyncExternalStore(
+    subscribe,
+    getBrowserHydrated,
+    getServerHydrated,
+  );
+  const payload = useMemo(() => {
+    if (!raw) return null;
     try {
-      setPayload(JSON.parse(raw) as PreviewPayload);
+      return JSON.parse(raw) as PreviewPayload;
     } catch {
-      setMissing(true);
+      return null;
     }
-  }, []);
+  }, [raw]);
 
-  if (missing) {
+  if (hydrated && !payload) {
     return (
       <>
         <SiteHeader />
@@ -43,9 +54,9 @@ export function PreviewSite() {
             Submit a manuscript first. GreyScienx will write the research site into this preview.
           </p>
           <p style={{ marginTop: 28 }}>
-            <a className="button button-primary" href="/submit">
+            <Link className="button button-primary" href="/submit">
               Submit research
-            </a>
+            </Link>
           </p>
         </main>
         <SiteFooter />
@@ -53,7 +64,7 @@ export function PreviewSite() {
     );
   }
 
-  if (!payload) {
+  if (!hydrated || !payload) {
     return (
       <>
         <SiteHeader />
@@ -69,6 +80,8 @@ export function PreviewSite() {
       paper={payload.paper}
       researcher={payload.researcher}
       preview
+      previewSource={payload.source}
+      previewWarning={payload.warning}
     />
   );
 }

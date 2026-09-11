@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Brand } from "./Brand";
 
 type SiteHeaderProps = {
@@ -17,17 +18,17 @@ export function SiteHeader({
       <Brand />
       <nav aria-label="Primary navigation">
         {links.map((link) => (
-          <a key={link.href} href={link.href}>
+          <Link key={link.href} href={link.href}>
             {link.label}
-          </a>
+          </Link>
         ))}
-        <a
+        <Link
           className="nav-download"
           href={action.href}
           download={action.download || undefined}
         >
           {action.label}
-        </a>
+        </Link>
       </nav>
     </header>
   );

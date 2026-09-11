@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import { Brand } from "./Brand";
 import { PaperCover } from "./PaperCover";
 import { SiteFooter } from "./SiteFooter";
@@ -8,12 +10,16 @@ type ResearchSiteProps = {
   paper: ResearchPaper;
   researcher: Researcher;
   preview?: boolean;
+  previewSource?: string;
+  previewWarning?: string;
 };
 
 export function ResearchSite({
   paper,
   researcher,
   preview = false,
+  previewSource,
+  previewWarning,
 }: ResearchSiteProps) {
   const home = researcherPath(researcher);
   const pdfName = paper.pdf.filename;
@@ -30,21 +36,33 @@ export function ResearchSite({
           <a href="#results">Results</a>
           <a href="#findings">Findings</a>
           <a href="#method">Method</a>
-          <a
-            className="nav-download"
-            href={paper.pdf.href}
-            download={pdfName}
-          >
-            Download PDF
-          </a>
+          {preview ? (
+            <Link className="nav-download" href="/submit">
+              Edit submission
+            </Link>
+          ) : (
+            <a
+              className="nav-download"
+              href={paper.pdf.href}
+              download={pdfName}
+            >
+              Download PDF
+            </a>
+          )}
         </nav>
       </header>
 
       <main id="main">
         {preview ? (
-          <p className="preview-banner">
-            Distillation preview · not yet published to {paperHostPath(researcher, paper)}
-          </p>
+          <div className="preview-banner" role="status">
+            <span>
+              Distillation preview · {previewSource === "model" ? "AI draft" : "local draft"} ·
+              not yet published to {paperHostPath(researcher, paper)}
+            </span>
+            {previewWarning ? (
+              <span className="preview-warning">Model unavailable; local distillation shown.</span>
+            ) : null}
+          </div>
         ) : null}
 
         <section className="hero" id="top">
@@ -62,18 +80,31 @@ export function ResearchSite({
             </h1>
             <p className="dek">{paper.dek}</p>
             <div className="hero-actions">
-              <a className="button button-primary" href={paper.pdf.href} download={pdfName}>
-                <span>Download the research</span>
-                <span aria-hidden="true">↓</span>
-              </a>
-              <a
-                className="button button-secondary"
-                href={paper.pdf.href}
-                target="_blank"
-                rel="noopener"
-              >
-                Read in browser
-              </a>
+              {preview ? (
+                <>
+                  <span className="button button-primary button-disabled">
+                    PDF attaches at publication
+                  </span>
+                  <Link className="button button-secondary" href="/submit">
+                    Edit submission
+                  </Link>
+                </>
+              ) : (
+                <>
+                  <a className="button button-primary" href={paper.pdf.href} download={pdfName}>
+                    <span>Download the research</span>
+                    <span aria-hidden="true">↓</span>
+                  </a>
+                  <a
+                    className="button button-secondary"
+                    href={paper.pdf.href}
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Read in browser
+                  </a>
+                </>
+              )}
             </div>
             <p className="file-meta">
               PDF · {paper.pdf.pages} pages · {paper.pdf.size} · Original manuscript
@@ -82,14 +113,20 @@ export function ResearchSite({
 
           <div className="paper-stage" aria-label="Preview of the research paper">
             <div className="paper-shadow" aria-hidden="true" />
-            <a
-              href={paper.pdf.href}
-              target="_blank"
-              rel="noopener"
-              className="paper-preview"
-            >
-              <PaperCover paper={paper} researcher={researcher} />
-            </a>
+            {preview ? (
+              <div className="paper-preview">
+                <PaperCover paper={paper} researcher={researcher} />
+              </div>
+            ) : (
+              <a
+                href={paper.pdf.href}
+                target="_blank"
+                rel="noopener"
+                className="paper-preview"
+              >
+                <PaperCover paper={paper} researcher={researcher} />
+              </a>
+            )}
             <span className="page-chip">{paper.pdf.pages} pages</span>
           </div>
         </section>
@@ -135,10 +172,12 @@ export function ResearchSite({
             </div>
             {paper.results.figure ? (
               <figure className="randomness-figure">
-                <img
+                <Image
                   src={paper.results.figure.src}
                   alt={paper.results.figure.alt}
-                  loading="lazy"
+                  width={paper.results.figure.width}
+                  height={paper.results.figure.height}
+                  sizes="(max-width: 900px) calc(100vw - 48px), 900px"
                 />
                 <figcaption>{paper.results.figure.caption}</figcaption>
               </figure>
@@ -169,10 +208,12 @@ export function ResearchSite({
             </div>
             {paper.evidence.figure ? (
               <figure className="chart-card">
-                <img
+                <Image
                   src={paper.evidence.figure.src}
                   alt={paper.evidence.figure.alt}
-                  loading="lazy"
+                  width={paper.evidence.figure.width}
+                  height={paper.evidence.figure.height}
+                  sizes="(max-width: 900px) calc(100vw - 48px), 900px"
                 />
                 <figcaption>{paper.evidence.figure.caption}</figcaption>
               </figure>
@@ -232,7 +273,7 @@ export function ResearchSite({
             ) : (
               <div className="integrity">
                 <span>Researcher home</span>
-                <a href={home}>{researcher.name}</a>
+                <Link href={home}>{researcher.name}</Link>
               </div>
             )}
           </div>
@@ -249,9 +290,15 @@ export function ResearchSite({
           </div>
           <div>
             <p>{paper.downloadNote}</p>
-            <a className="button button-paper" href={paper.pdf.href} download={pdfName}>
-              Download PDF <span aria-hidden="true">↓</span>
-            </a>
+            {preview ? (
+              <span className="button button-paper button-disabled">
+                PDF attaches at publication
+              </span>
+            ) : (
+              <a className="button button-paper" href={paper.pdf.href} download={pdfName}>
+                Download PDF <span aria-hidden="true">↓</span>
+              </a>
+            )}
           </div>
         </section>
       </main>

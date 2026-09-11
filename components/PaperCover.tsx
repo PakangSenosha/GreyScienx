@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ResearchPaper, Researcher } from "@/lib/types";
 
 type PaperCoverProps = {
@@ -8,11 +9,13 @@ type PaperCoverProps = {
 export function PaperCover({ paper, researcher }: PaperCoverProps) {
   if (paper.previewImage) {
     return (
-      <img
+      <Image
         src={paper.previewImage}
         alt={`First page of ${paper.title} ${paper.titleAccent}`}
-        width={816}
-        height={1056}
+        width={1224}
+        height={1584}
+        sizes="(max-width: 900px) 78vw, 470px"
+        priority
       />
     );
   }
