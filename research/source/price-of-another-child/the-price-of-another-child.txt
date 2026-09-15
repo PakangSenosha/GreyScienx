@@ -1,0 +1,880 @@
+GREYSCIENCX RESEARCH 06
+
+
+
+
+The Price of Another Child
+When fertility policy becomes cheaper than population ageing
+
+
+
+
+             R0.72m                                  +R0.96m                            20+ years
+ LOWEST MEDIAN COST PER ADDITIONAL BIRTH       STRONG-LABOUR NET FISCAL VALUE   BEFORE NEW WORKERS REACH THE TAX BASE
+
+
+
+
+South Africa | 13 September 2026 | Armchair policy model
+GREYSCIENX                                                                                                    THE PRICE OF ANOTHER CHILD
+
+
+
+
+Inside the note
+A map of the argument, model, evidence, and qualifications.
+
+
+
+
+Part I: The finding                                                                                                                      3
+
+
+Part II: South Africa is ageing before it is rich                                                                                        4
+
+
+Part III: A birth has three counterfactuals                                                                                              5
+
+
+Part IV: What the seven policies actually buy                                                                                            7
+
+
+Part V: Why ordinary child grants often fail to restore fertility                                                                        8
+
+
+Part VI: Housing versus childcare                                                                                                        9
+
+
+Part VII: Male work, female work and the time bargain                                                                                  10
+
+
+Part VIII: Relationship stability and delayed family formation                                                                         11
+
+
+Part IX: Postponed is not the same as forgone                                                                                          12
+
+
+Part X: The lifetime account                                                                                                           13
+
+   What the lifetime account cannot decide . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+
+Part XI: The break-even map                                                                                                            15
+
+
+Part XII: Can fertility decline become effectively irreversible?                                                                       16
+
+
+Part XIII: The policy design that survives the model                                                                                   17
+
+
+Part XIV: The answer                                                                                                                   18
+
+
+Notes: Scope, assumptions and sources                                                                                                  19
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                               02
+GREYSCIENX                                                                                       THE PRICE OF ANOTHER CHILD
+
+
+
+
+   PART I
+
+   The finding
+
+
+
+Part I: The finding
+A government cannot buy a birth in the same way that it buys a bridge. It can make parenthood less expensive, less
+risky or less exhausting. It can pay people who were already going to have children. It can move a birth from 2031 to
+2028 without changing the eventual number of children. It can also fail entirely.
+
+That uncertainty is the centre of this study.
+
+The model follows one million prospective households for five years, assumes 350,000 births without a new policy and
+tests seven deliberately stylised interventions.
+
+The result is not that the largest payment produces the cheapest birth. The result is that programmes become efficient
+only when they reach the households whose desired child is blocked by the particular constraint being removed.
+
+In the average model run, the median cost of one permanently additional birth ranges from about R720,000 for free
+childcare to R4.18 million for a parent tax exemption. The targeted family package costs about R780,000 per added
+birth and produces nearly 99,000 additional births per million prospective households. A cash top-up costs about R1.76
+million per added birth and produces only about 12,000.
+
+ Policy                     Five-year programme   Median additional births   Median cost per       10th-90th percentile
+                            cost                                             additional birth      cost
+
+ Cash grant top-up          R21.0bn               11,800                     R1.76m                R0.81m-R3.96m
+
+ Free childcare             R32.0bn               44,100                     R0.72m                R0.41m-R1.28m
+
+ Family housing             R54.0bn               51,100                     R1.05m                R0.57m-R1.97m
+
+ Parent tax exemption       R42.0bn               10,000                     R4.18m                R1.83m-R9.81m
+
+ Debt forgiveness           R20.0bn               18,200                     R1.10m                R0.56m-R2.18m
+
+ Shorter, flexible work     R36.0bn               44,000                     R0.81m                R0.46m-R1.45m
+
+ Targeted family bundle     R77.5bn               98,600                     R0.78m                R0.48m-R1.27m
+
+
+
+The second result is harsher. Discounted to birth, an additional person's lifetime production is worth R1.45 million in a
+weak labour market, R3.73 million in an average one and R5.83 million in a strong one. Government captures only a
+share as tax and also pays for education, health, services and old age.
+
+Net lifetime fiscal value is negative R610,000 in the weak labour market, positive R190,000 in the average labour market
+and positive R960,000 in the strong one. None of the programmes repays itself in the average case. Under the strong
+outcome, childcare, flexible work and the bundle frequently do.
+
+Fertility policy becomes cheaper than ageing only when three conditions hold together: the policy
+causes completed births rather than subsidising or rescheduling them; the future economy employs
+those children productively; and government starts early enough for the new workers to arrive before
+the fiscal emergency.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                 03
+GREYSCIENX                                                                                         THE PRICE OF ANOTHER CHILD
+
+
+
+
+   PART II
+
+   South Africa is ageing before it is rich
+
+
+
+Part II: South Africa is ageing before it is rich
+South Africa is not yet an old country, but the direction has changed. Statistics South Africa's 2025 population
+estimates put the population at 63.1 million. About 26.2 percent was younger than 15 and 10.5 percent was 60 or older.
+The total fertility rate fell from 2.78 children per woman in 2008 to 2.21 in 2025.
+
+A fertility rate near replacement does not create an immediate population decline. Population momentum, mortality
+and migration continue to matter. It does, however, narrow the future base of workers relative to older people if the
+decline persists.
+
+This creates a distinctive South African problem. The country can age while a large share of the working-age population
+remains excluded from employment. In the second quarter of 2026, Stats SA reported an official unemployment rate of
+33.6 percent and a youth unemployment rate of 47.4 percent. Women faced 37.5 percent unemployment, compared
+with 30.3 percent for men.
+
+The usual ageing story imagines a shrinking workforce that is fully employed. South Africa may instead have too few
+future workers and too few jobs for the workers it already has. Producing more births without fixing employment can
+enlarge the population while leaving the fiscal base weak.
+
+Current child support is important poverty policy but is not designed as a purchase price for additional fertility.
+National Treasury's 2026 Budget Review sets the child support grant at R580 a month in 2026/27. That payment can
+improve nutrition, schooling and household stability even if it causes no extra births. Judging it only by fertility would
+miss its actual purpose.
+
+The question in this report is narrower: if government deliberately wanted one more completed birth, which constraints
+would be cheapest to remove, and when would the future return justify the present cost?
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                    04
+GREYSCIENX                                                                                       THE PRICE OF ANOTHER CHILD
+
+
+
+
+   PART III
+
+   A birth has three counterfactuals
+
+
+
+Part III: A birth has three counterfactuals
+Every programme-funded birth belongs to one of three groups.
+
+The first group would have happened without the programme. The payment may still reduce poverty or improve
+childhood, but the birth is not additional. This is the largest group in almost any broad programme because most
+recipients are not deciding at the margin.
+
+The second group is brought forward. A couple that planned a child in three years has the child next year because the
+subsidy is temporary. The programme raises births during the policy window but leaves completed family size
+unchanged. This can briefly improve age structure, but it does not create a permanently larger generation.
+
+The third group is permanently additional. A household that expected one child ends with two, or a household that
+expected none ends with one. Only this group can be credited as a lasting demographic response.
+
+The distinction is easy to state and extremely difficult to observe. A birth certificate records what happened, not what
+would have happened without policy. A rise in births after a grant may reflect the economy, migration, the age
+structure of women, a recovery after an earlier shock or simple timing.
+
+The model therefore refuses to give any policy a single response. It runs 30,000 alternative worlds. Programme cost
+varies. The number of induced births varies. The share that is permanent varies. Male employment, female employment,
+housing pressure, care availability, time pressure and relationship stability move together and separately.
+
+The whiskers in Figure 1 are not confidence intervals from South African programme data. They are decision ranges
+generated by declared assumptions. Their purpose is to prevent a point estimate from pretending that government
+knows the behavioural counterfactual.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                  05
+GREYSCIENX                                                                                                              THE PRICE OF ANOTHER CHILD
+
+
+
+
+Figure 1. The black line marks the R0.96 million net fiscal value of an additional birth in the strong labour-market case. A policy to the left can
+pass that fiscal test; one to the right cannot. Wide whiskers are the price of behavioural uncertainty.
+
+The cheapest median estimates belong to childcare, the integrated bundle and flexible work. Their rankings overlap
+because the uncertainty is large. Housing and debt relief can also be efficient when they are accurately targeted. The
+parent tax exemption performs worst because it spends heavily on a relatively small group of formal taxpayers and
+assumes only a modest change in completed fertility.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                                             06
+GREYSCIENX                                                                                                 THE PRICE OF ANOTHER CHILD
+
+
+
+
+   PART IV
+
+   What the seven policies actually buy
+
+
+
+Part IV: What the seven policies actually buy
+The policies are stylised national experiments, each offered to the same population of one million prospective
+households over five years. The costs are incremental public or employer costs in constant 2026 rand. They are not
+estimates of a current South African bill.
+
+ Intervention                          Model design                     Constraint it tries to remove    Main reason for deadweight
+
+ Cash grant top-up                     R1,000 a month for five years    Daily cost of a child            Paid to nearly every birth,
+                                       on all births                                                     including those already
+                                                                                                         planned
+
+ Free childcare                        Subsidised care for 65% of       Care fees and maternal career    Some families already use
+                                       births for five years            loss                             informal or paid care
+
+ Family housing                        150,000 deeply subsidised        Space, rent and tenure           Housing is valuable even when
+                                       family homes                     insecurity                       it changes no birth decision
+
+ Parent tax exemption                  Five-year relief for 300,000     Formal-sector opportunity cost   Excludes people below the tax
+                                       taxpayers                                                         threshold and rewards many
+                                                                                                         existing plans
+
+ Debt forgiveness                      R80,000 for 250,000              Student and household            Debt may not be the binding
+                                       constrained adults               balance sheets                   fertility constraint
+
+ Shorter, flexible work                Four-day or flexible schedules   Time, commuting and career       Many jobs cannot be
+                                       for 400,000 workers              conflict                         reorganised at the assumed
+                                                                                                         cost
+
+ Targeted family bundle                Housing, childcare, debt and     Several constraints at once      High upfront cost and
+                                       work support for 250,000                                          demanding administration
+
+
+
+The bundle is not cheapest because bundling is magic. It performs well because the assumed recipients are carefully
+selected households with a stated desire for another child and more than one binding constraint. If the targeting
+system cannot identify them, its cost rapidly approaches that of a universal package.
+
+The cash programme has a different weakness. It is broad and simple, but small relative to the lifetime cost and risk of
+parenthood. A payment that is valuable for household welfare can still be too small to change completed fertility.
+Making the payment larger increases the response, but it also increases the windfall paid to every family that would
+have had a child anyway.
+
+The classic evidence does not imply that cash never works. Kevin Milligan's study of Quebec's newborn allowance
+found that fertility responded to substantial tax incentives. The more general lesson is that response varies across
+family type and income. A government importing the headline effect into another country would be assuming away the
+very uncertainty that matters most.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                                07
+GREYSCIENX                                                                                                             THE PRICE OF ANOTHER CHILD
+
+
+
+
+    PART V
+
+    Why ordinary child grants often fail to
+    restore fertility
+
+
+Part V: Why ordinary child grants often fail to
+restore fertility
+An ordinary child grant is usually designed to support a child after birth. The fertility decision is made before birth and
+concerns far more than the next month's cash.
+
+Prospective parents consider whether they can form and maintain a household, find an adequate home, preserve
+employment, arrange care, survive illness or separation, and carry years of expenses. A small grant can make life
+materially better without changing that decision.
+
+There are five reasons the measured fertility effect may be weak.
+
+First, the grant is inframarginal. It reaches households whose plans were already settled. Second, it is small relative to
+housing and lost earnings. Third, it may be uncertain: a temporary or politically vulnerable promise does not insure an
+eighteen-year obligation. Fourth, it arrives after some decisive costs, including partnership formation, housing deposits
+and career planning. Fifth, it may relieve poverty without making parenthood compatible with work.
+
+This is not failure in the programme's social purpose. It is a mismatch between the instrument and the demographic
+objective.
+
+In the model, 350,000 births occur without the new programme. Cash creates a median 12,000 permanently additional
+births and roughly 20,000 births that are mainly shifted forward. The state pays R21 billion across the entire programme
+to change the completed-fertility decision of a relatively small group.
+
+
+
+
+Figure 2. Coral represents births that remain additional after the timing effect is removed. Grey represents births brought into the five-year window
+but not added to completed family size. The dashed line shows the much larger baseline cohort that would arrive without any new policy.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                                         08
+GREYSCIENX                                                                                      THE PRICE OF ANOTHER CHILD
+
+
+
+
+   PART VI
+
+   Housing versus childcare
+
+
+
+Part VI: Housing versus childcare
+Housing and childcare solve different stages of the same problem.
+
+Housing matters before conception. A couple may postpone living together, marriage or a second child because the
+dwelling is too small, tenure is insecure or moving would make commuting impossible. Housing support can therefore
+unlock household formation. It is also a durable asset or service with benefits that extend beyond fertility.
+
+Childcare matters most after the birth is imagined. It lowers the expected conflict between employment and care. Its
+value is not only the fee. Reliable care can preserve job tenure, earnings progression, pension contributions and
+bargaining power inside the household.
+
+South African household data suggests that formal care is far from universal. The 2025 General Household Survey
+reports that 36.3 percent of children aged zero to four attended an early childhood development facility and 50.2
+percent stayed at home. Only 31.4 percent of children lived with both biological parents, while 45.9 percent lived with
+their mother only. Those figures do not prove a fertility response, but they show why a model based only on a stable
+two-parent household and formal childcare would miss much of the country.
+
+The same report notes that 42.6 percent of households were female-headed. Stats SA's 2026 care-work analysis finds
+that female-headed households were much more likely than male-headed households to have no employed member
+and that unpaid care remains disproportionately performed by women.
+
+The model gives childcare a median cost of R720,000 per permanently additional birth, compared with R1.05 million for
+family housing. That is not a universal ranking. Childcare wins when employment is available and a parent fears losing
+it. Housing wins when the household cannot form or cannot obtain adequate space.
+
+The practical answer is diagnostic targeting. Ask whether the blocked household lacks money, space, care, time or
+confidence in the relationship. Paying the wrong constraint creates a generous programme with a weak birth response.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                              09
+GREYSCIENX                                                                                      THE PRICE OF ANOTHER CHILD
+
+
+
+
+   PART VII
+
+   Male work, female work and the time
+   bargain
+
+
+Part VII: Male work, female work and the time
+bargain
+Employment affects fertility through income and risk, but not symmetrically.
+
+Male unemployment can reduce household formation and the confidence that a long obligation can be financed.
+Female unemployment can reduce income too, but employment may also raise the opportunity cost of time away from
+work. A secure job with inflexible hours can make a child harder to accommodate; no job can make the child
+unaffordable. The relationship is therefore not a simple line from more employment to more births.
+
+The model treats male employment mainly as household security and female employment as both security and
+exposure to career-care conflict. Childcare and flexible work respond more strongly to female employment because
+their value rises when a job can be preserved. Housing and debt support respond more to combined household
+stability.
+
+Working hours matter even when childcare is nominally affordable. Commutes, school closing times, sick days and
+unpredictable shifts create coordination costs that money alone may not solve. A four-day week can help if the
+reduction is genuine and income is preserved. It can hurt if five days of output are compressed into four longer days or
+if wages fall.
+
+Recent international evidence is suggestive rather than transferable. A 2026 CEPR study of work from home and fertility
+reports higher realised and planned fertility among people who work remotely, especially where both partners do. The
+association and research design do not establish that the same response would occur for South African workers, many
+of whose jobs cannot be done remotely.
+
+Flexible work in this model therefore means more than remote work. It includes predictable shifts, usable parental
+leave, reduced commuting, four-day schedules where production permits them, and protection from career penalties.
+Its median cost per added birth is R810,000, but the true cost could sit anywhere from roughly R460,000 to R1.45
+million under the simulation.
+
+The employer may also receive part of the return through lower turnover and retained experience. The fiscal
+comparison in this report does not credit those private benefits to government. A cost-sharing design could therefore
+be more rational than a fully public subsidy.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                              10
+GREYSCIENX                                                                                           THE PRICE OF ANOTHER CHILD
+
+
+
+
+   PART VIII
+
+   Relationship stability and delayed family
+   formation
+
+
+Part VIII: Relationship stability and delayed family
+formation
+Fertility policy often starts too late in the chain of decisions. A child normally requires a relationship or a credible
+solo-parenting plan, a household, and enough certainty to make an irreversible commitment.
+
+South Africans are formalising relationships later. Stats SA's 2024 marriages and divorces release reports median ages
+of 39 for bridegrooms and 35 for brides in civil marriages. Registered marriages and unions fell 2.6 percent from 2023,
+and 41.7 percent of divorces in 2024 came from marriages lasting less than ten years.
+
+Marriage records do not capture every cohabiting partnership, and marriage is not a requirement for parenthood. They
+still reveal that a policy aimed only at costs after birth may ignore delayed union formation and perceived separation
+risk.
+
+A household considering a second child asks what happens if one partner leaves, becomes unemployed or becomes ill.
+Free childcare may protect the working parent in that state. Housing tied to the relationship may make separation more
+dangerous. A tax exemption received mainly by the higher earner may not insure the caregiver at all.
+
+For that reason, the model gives relationship instability a larger negative effect on the bundle, housing and debt
+response than on a simple cash payment. The intended policy lesson is not that government should subsidise marriage.
+It is that benefits should remain usable through household change, and that individual entitlements can be more
+credible than benefits conditional on a couple remaining together.
+
+The age of motherhood is also moving later. Stats SA recorded an increase in the median age of mothers from 26.6 in
+2005 to 28.3 in 2024. Later timing can reflect education, improved choice and better career opportunity. It can also
+reduce the time available to recover a postponed birth.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                   11
+GREYSCIENX                                                                                          THE PRICE OF ANOTHER CHILD
+
+
+
+
+   PART IX
+
+   Postponed is not the same as forgone
+
+
+
+Part IX: Postponed is not the same as forgone
+A temporary programme can produce a baby boom and no long-run increase in family size. Households pull births
+forward to qualify before an expiry date, then have fewer births later.
+
+That timing effect is not worthless. Earlier births change the spacing between generations and may slightly improve a
+near-term dependency path. They can also ease individual biological constraints. But they should not be valued as if
+they create extra lifetime taxpayers.
+
+The model's average case assumes that 38 percent of cash-induced births, 67 percent of childcare-induced births and
+82 percent of bundle-induced births remain additional after timing is removed. Those shares are assumptions, not
+findings. The simulation varies them on every run.
+
+ Policy                     Worst-case added births   Average-case added   Best-case added births    Worst / average / best
+                                                      births                                         cost per added birth
+
+ Cash grant top-up          3,800                     14,400               25,200                    R6.25m / R1.45m / R0.77m
+
+ Free childcare             18,300                    49,600               78,600                    R1.96m / R0.65m / R0.37m
+
+ Family housing             22,700                    58,500               91,500                    R2.66m / R0.92m / R0.54m
+
+ Parent tax exemption       3,300                     12,500               21,200                    R14.04m / R3.37m /
+                                                                                                     R1.82m
+
+ Debt forgiveness           7,100                     21,300               34,600                    R3.15m / R0.94m / R0.53m
+
+ Shorter, flexible work     19,000                    49,700               78,100                    R2.12m / R0.72m / R0.42m
+
+ Targeted family bundle     43,600                    108,200              167,600                   R1.99m / R0.72m / R0.43m
+
+
+
+The fixed scenarios differ from the Monte Carlo medians because the simulation combines many skewed uncertainties.
+The average-case table is a clean reference scenario. Figure 1 reports the distribution of simulated outcomes.
+
+The table shows why evaluation must continue long after the first birth spike. A programme should track completed
+family size, births by age and parity, and a credible comparison group. It should also record whether the same families
+would have qualified without changing their plans.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                     12
+GREYSCIENX                                                                                                          THE PRICE OF ANOTHER CHILD
+
+
+
+
+    PART X
+
+    The lifetime account
+
+
+
+Part X: The lifetime account
+An additional child creates costs immediately and tax revenue much later. Discounting makes that timing decisive.
+
+The model follows the person from birth to age 100. It includes stylised public spending on childhood health,
+education, working-age services, old-age support and healthcare. It gives the person age-specific survival, employment,
+production, real earnings growth and an effective tax share. Every future amount is discounted to the date of birth at 3
+percent a year.
+
+The weak labour market employs 42 percent of working-age capacity and begins with output of R255,000 per
+employed worker. The average case uses 70 percent and R345,000. The strong case uses 86 percent and R410,000. Real
+productivity growth ranges from 0.7 to 1.9 percent. The effective share of production collected as tax ranges from 24.5
+to 33 percent.
+
+These scenarios are not forecasts of an individual salary. They compress formal work, informal work, unemployment,
+wages, consumption taxes and payroll taxes into a lifetime average. Their purpose is to show that fertility and
+employment policy are complements.
+
+
+
+
+Figure 3. Public cost is almost R0.97 million at birth in every scenario. Taxes depend on employment and productivity. Production is much larger
+than tax revenue but belongs to workers, firms and consumers as well as government.
+
+
+ Lifetime outcome at birth                     Weak labour market               Average labour market             Strong labour market
+
+ Discounted taxes                              R0.36m                           R1.16m                            R1.92m
+
+ Discounted public cost                        R0.97m                           R0.97m                            R0.97m
+
+ Net fiscal value                              -R0.61m                          +R0.19m                           +R0.96m
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                                      13
+GREYSCIENX                                                                                      THE PRICE OF ANOTHER CHILD
+
+
+
+
+ Lifetime outcome at birth            Weak labour market          Average labour market       Strong labour market
+
+ Discounted economic production       R1.45m                      R3.73m                      R5.83m
+
+
+
+The public cost is held constant to isolate the labour-market effect. In reality, better employment can reduce household
+grant dependence and improve health, while high productivity may raise expectations for public services. Those
+feedbacks could move the result in either direction.
+
+The model also avoids a common accounting trick. It does not call all production a government return. If an additional
+worker produces R5.83 million in discounted output, most of that value becomes wages, profits and consumer benefit.
+Only R1.92 million arrives as modelled tax.
+
+
+What the lifetime account cannot decide
+A positive fiscal value does not prove that a larger population is socially optimal. More people can require housing,
+water, electricity, transport and capital before they produce at the assumed level. If investment fails to keep pace,
+output per person can fall even while total output rises. Environmental limits and congestion are also absent from the
+account.
+
+A negative fiscal value does not prove that the person is a loss. Children, family life and the continuation of
+communities have value that is not a tax receipt. Unpaid care and household production are economic activity even
+when national accounts and tax systems barely see them. An extra child can also alter parents' employment, saving,
+health and transfers to other relatives.
+
+The model values a marginal person while holding institutions constant. A much larger generation could change wages,
+housing prices, politics, innovation and the capital stock. A much smaller generation could induce automation,
+immigration or a reorganisation of care. These general-equilibrium responses belong in a national population model,
+not in a simple programme test.
+
+The narrow account remains useful because it imposes discipline. A minister who claims that a birth incentive will pay
+for pensions is making a fiscal claim. That claim should be tested against net tax revenue, timing and public cost.
+Broader social reasons can justify a policy, but they should be stated as broader social reasons rather than hidden
+inside an inflated estimate of future tax.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                14
+GREYSCIENX                                                                                                             THE PRICE OF ANOTHER CHILD
+
+
+
+
+    PART XI
+
+    The break-even map
+
+
+
+Part XI: The break-even map
+The fiscal break-even point depends on two uncertain quantities: how many births are permanently additional and
+what those future people contribute after public costs.
+
+At an average net fiscal value of R190,000, a R20 billion programme needs about 105,000 permanently additional births
+merely to repay its public cost. None of the average-case policies reaches its required threshold. At the strong value of
+R960,000, the same programme needs about 21,000 additional births. Several policies become plausible.
+
+
+
+
+Figure 4. Points above a break-even line repay their modelled public cost. Under the strong labour-market line, free childcare, flexible work and the
+bundle clear the threshold in the clean average scenario. Under the average line, none does.
+
+The uncertainty simulation gives the same lesson. Against the strong worker value, childcare breaks even in 74 percent
+of runs, the bundle in 71 percent, flexible work in 64 percent, housing in 43 percent, debt forgiveness in 40 percent,
+cash in 16 percent and the tax exemption in 1 percent. Against the average value, the probability is effectively zero.
+
+This does not mean that childcare has no case in the average economy. The fiscal test ignores several benefits:
+children's development, maternal earnings, lower poverty, household wellbeing, gender equality and the option value
+of allowing people to realise desired families. Some of those benefits can also raise tax revenue but are not modelled
+here.
+
+An ageing argument cannot justify any price. A programme that claims a narrow budget return must state the required
+number of permanently additional births and measure whether they appeared. Better targeting, a stronger permanent
+response or a more productive labour market can pass the test; calling a transfer an investment cannot.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                                         15
+GREYSCIENX                                                                                                          THE PRICE OF ANOTHER CHILD
+
+
+
+
+    PART XII
+
+    Can fertility decline become effectively
+    irreversible?
+
+
+Part XII: Can fertility decline become effectively
+irreversible?
+No fertility rate is mechanically irreversible. Preferences, institutions, migration and economic conditions can change.
+The danger is economic and social lock-in.
+
+After a long period of low fertility, the population contains fewer prospective parents. Schools, housing, workplaces and
+neighbourhoods adapt to fewer children. Partnership norms and expectations change. Employers design careers
+around uninterrupted work. People learn from peers that late or no parenthood is normal. A temporary postponement
+can become permanent when biological and relationship windows close.
+
+The model illustrates this lock-in by starting the same cash and bundle policies in 2026, 2040 and 2060. It gradually
+shrinks both the prospective-parent pool and its assumed response. It also reduces the share of induced births that
+remain permanent.
+
+
+
+
+Figure 5. This is an illustrative adaptation path, not a demographic forecast. By 2060 the same bundle produces about 39,000 additional births
+rather than 108,000, while its real cost per added birth rises from R0.72 million to R2.40 million.
+
+The cash programme's cost per added birth rises from R1.45 million in 2026 to R5.02 million in 2060. The bundle rises
+from R0.72 million to R2.40 million. At that point, even the strong-labour fiscal value of R0.96 million is too small.
+
+This is the practical meaning of effective irreversibility: not that births cannot recover, but that the subsidy required to
+restore them becomes larger than the fiscal value government can plausibly recoup. A country may still act for social or
+cultural reasons, but it can no longer claim an easy budget return.
+
+Starting early has another advantage. It permits experimentation. Government can compare regions or eligible cohorts,
+observe completed fertility, stop ineffective instruments and expand those that remove genuine constraints. A late
+emergency encourages large universal promises made before the response is understood.
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                                        16
+GREYSCIENX                                                                                        THE PRICE OF ANOTHER CHILD
+
+
+
+
+   PART XIII
+
+   The policy design that survives the model
+
+
+
+Part XIII: The policy design that survives the model
+The model favours a targeted family option rather than a universal baby bonus.
+
+Eligibility would begin with stated fertility intention, age, household formation and identifiable constraints. The package
+would be modular. A household blocked by care receives care. A household blocked by space receives a housing
+pathway. A household blocked by rigid hours receives a work arrangement. Benefits would follow the caregiver or child
+through relationship change and would not depend on remaining with a partner.
+
+The programme should not promise a free house to every birth. That would create enormous deadweight and invite
+strategic timing. Housing support can instead take the form of priority access, rental guarantees, additional space,
+serviced land, long leases or a recoverable equity stake. Debt relief can be conditional, capped and spread over time
+rather than written off at conception.
+
+Childcare should be reliable, geographically accessible and compatible with actual shifts. A nominal place that closes
+before a parent's workday does not remove the constraint. A childcare programme also needs quality safeguards.
+Earlier evidence from Quebec shows why utilisation, maternal employment and child outcomes must be evaluated
+separately; the Baker, Gruber and Milligan study found large changes in childcare use and maternal labour supply
+alongside concerns about some child and parent outcomes.
+
+Flexible work should be occupation-specific. Remote work cannot help a nurse, miner, driver or retail worker in the
+same way it helps an office worker. Predictable schedules, shift exchanges, reduced commuting, part-time career
+protection and compressed weeks may be more relevant than home working.
+
+The evaluation contract should be written before launch.
+
+1. Publish the five-year cost, not only the monthly benefit.
+
+2. Estimate baseline births for a credible comparison group.
+
+3. Separate births brought forward from completed-family additions.
+
+4. Report response by age, parity, income, employment, sex of household head and province.
+
+5. Measure maternal and paternal employment, earnings and pension contributions.
+
+6. Follow children for health, care quality and education outcomes.
+
+7. Re-estimate cost per additional birth every year and stop automatic expansion when the denominator is unknown.
+
+8. Pair the programme with employment and productivity policy, because the future worker creates no fiscal dividend
+    without work.
+
+9. Keep a near-term ageing plan. The first policy-induced workers enter the labour force only around the mid-2040s.
+
+The preferred pilot in this model is not the cheapest grant. It is a constrained package aimed at households that already
+want a child but face a measurable housing, care or time barrier. Its budget should be released in stages, with
+randomised or quasi-experimental evaluation where ethical and administratively feasible.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                17
+GREYSCIENX                                                                                          THE PRICE OF ANOTHER CHILD
+
+
+
+
+   PART XIV
+
+   The answer
+
+
+
+Part XIV: The answer
+Subsidising fertility becomes cheaper than financing population ageing only under a demanding joint test.
+
+The policy must produce enough permanently additional births that its cost per changed birth falls below the
+discounted value of the future worker. The future economy must employ that worker productively enough for lifetime
+taxes to exceed lifetime public costs. The birth must arrive early enough to contribute before the ageing deficit
+becomes acute. And the programme must deliver benefits beyond fertility well enough that failure to change births is
+not pure waste.
+
+Under this study's average labour market, the additional person has a net fiscal value of only R190,000 at birth. None of
+the modelled fertility programmes is cheaper than that. Under the strong labour market, the value rises to R960,000.
+Free childcare, flexible work and a targeted bundle then become plausible; cash top-ups and parent tax exemptions
+remain weak because too much spending goes to plans that were already going to happen.
+
+The deepest result is that fertility policy is really institutional policy. People do not merely buy children from disposable
+income. They decide whether a child fits inside housing, work, care, partnership and time. A small grant can protect a
+child without changing fertility. A carefully targeted service can change fertility without looking like a birth payment.
+
+The fiscally rational pro-natal policy is not the policy that pays most. It is the policy that finds a
+genuinely blocked desired birth, removes the binding constraint, preserves the parent's productive life
+and gives the future child an economy in which work exists.
+
+Even then, the new generation is not a substitute for present reform. Fertility support can improve the workforce of the
+2040s and 2050s. It cannot pay next year's pensions.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                  18
+GREYSCIENX                                                                                         THE PRICE OF ANOTHER CHILD
+
+
+
+
+   NOTES
+
+   Scope, assumptions and sources
+
+
+
+Notes: Scope, assumptions and sources
+This is an armchair scenario model, not a demographic forecast, programme evaluation, benefit-cost appraisal or
+official costing. All money is constant 2026 rand. The model follows one million prospective households for five years
+and assumes 350,000 baseline births without a new policy.
+
+The seven programme budgets are constructed assumptions, listed in Part I. Programme costs vary by 12 percent
+around them in the simulation.
+
+Every policy has an assumed central number of gross induced births and an assumed share that remains additional
+after timing is removed. Gross response uncertainty is lognormal, with policy-specific dispersion. Permanence is drawn
+from a beta distribution. Six shared conditions also vary: female employment, male employment, housing, care,
+working-time compatibility and relationship stability. Policy-specific weights determine sensitivity to each condition.
+The model runs 30,000 draws using a fixed seed for reproducibility.
+
+The fixed worst case reduces response to 55 percent of the central case, lowers permanence by 22 points and raises
+cost by 12 percent. The best case raises response to 138 percent, permanence by 10 points and lowers cost by 8
+percent. These are stress tests, not confidence intervals.
+
+The lifetime account follows ages zero to 100. Survival is a stylised schedule. Public cost is R28,000 annually at ages
+zero to four, R42,000 at ages five to seventeen, R34,000 at ages eighteen to twenty-two, R22,000 at ages twenty-three
+to sixty-four, R67,000 at ages sixty-five to eighty-four and R82,000 thereafter, all before survival and discounting. The
+model applies a 3 percent real discount rate.
+
+The weak, average and strong labour scenarios vary employment, initial output, productivity growth and the effective
+tax share. Public costs are deliberately held constant. Production includes output during partial employment at ages
+eighteen to twenty-two and limited work after sixty-five. It excludes unpaid care, household production, environmental
+costs, capital deepening, congestion, migration, intergenerational transfers and the effect of population size on
+institutions or innovation.
+
+The fiscal break-even probability compares each simulated programme cost per permanently additional birth with the
+deterministic net fiscal value in the average or strong labour scenario. It does not include the welfare value of children,
+parental preferences, distribution, maternal career gains, lower child poverty or strategic national value. Production is
+reported separately and is not treated as public revenue.
+
+The delayed-start illustration reduces the modelled pool of prospective parents by 1 percent and the institutional
+fertility response by 1.4 percent for every year after 2026, compounds a small real delivery-cost increase, and reduces
+permanence by 0.45 percentage points per year subject to a floor. These values are intentionally transparent
+assumptions used to show lock-in, not estimates of South Africa's future fertility.
+
+Primary South African context comes from Stats SA's Mid-year Population Estimates 2025, QLFS Q2 2026, its gender
+labour-market analysis, General Household Survey 2025, Recorded Live Births 2024, Marriages and Divorces 2024,
+Gender Disparities in Care Work 2026 and the National Treasury 2026 Budget Review.
+
+The international evidence is used only as mechanism context, not as a South African calibration. It includes Milligan's
+Quebec tax-incentive study, Baker, Gruber and Milligan's universal childcare study, and Aksoy and co-authors' 2026
+work-from-home and fertility study.
+
+
+
+
+GREYSCIENCX | RESEARCH 06                                                                                                 19
+

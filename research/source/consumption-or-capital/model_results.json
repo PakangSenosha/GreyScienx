@@ -1,0 +1,224 @@
+{
+  "valuation_basis": "constant 2026 rand, discounted to 2020 where stated",
+  "real_grant_envelope_r_billion": 253.54,
+  "transfer_welfare_totals_undiscounted": {
+    "Conservative": 237.26,
+    "Central": 426.89,
+    "Severe": 742.78
+  },
+  "industry_assumptions": {
+    "Best": {
+      "lag": 2,
+      "survival": 0.92,
+      "asset_growth": 0.05,
+      "public_cash_yield": 0.05,
+      "social_spillover_yield": 0.04
+    },
+    "Average": {
+      "lag": 4,
+      "survival": 0.68,
+      "asset_growth": 0.025,
+      "public_cash_yield": 0.03,
+      "social_spillover_yield": 0.025
+    },
+    "Worst": {
+      "lag": 6,
+      "survival": 0.35,
+      "asset_growth": -0.01,
+      "public_cash_yield": 0.01,
+      "social_spillover_yield": 0.005
+    }
+  },
+  "break_even_years": {
+    "0.035": {
+      "Conservative": {
+        "Best": {
+          "asset_inclusive": 2027,
+          "operating_flows_only": 2037
+        },
+        "Average": {
+          "asset_inclusive": 2041,
+          "operating_flows_only": 2061
+        },
+        "Worst": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        }
+      },
+      "Central": {
+        "Best": {
+          "asset_inclusive": 2034,
+          "operating_flows_only": 2044
+        },
+        "Average": {
+          "asset_inclusive": 2080,
+          "operating_flows_only": 2100
+        },
+        "Worst": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        }
+      },
+      "Severe": {
+        "Best": {
+          "asset_inclusive": 2045,
+          "operating_flows_only": 2056
+        },
+        "Average": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        },
+        "Worst": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        }
+      }
+    },
+    "0.060": {
+      "Conservative": {
+        "Best": {
+          "asset_inclusive": 2027,
+          "operating_flows_only": 2039
+        },
+        "Average": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        },
+        "Worst": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        }
+      },
+      "Central": {
+        "Best": {
+          "asset_inclusive": 2040,
+          "operating_flows_only": 2051
+        },
+        "Average": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        },
+        "Worst": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        }
+      },
+      "Severe": {
+        "Best": {
+          "asset_inclusive": 2064,
+          "operating_flows_only": 2076
+        },
+        "Average": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        },
+        "Worst": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        }
+      }
+    },
+    "0.100": {
+      "Conservative": {
+        "Best": {
+          "asset_inclusive": 2032,
+          "operating_flows_only": 2048
+        },
+        "Average": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        },
+        "Worst": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        }
+      },
+      "Central": {
+        "Best": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        },
+        "Average": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        },
+        "Worst": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        }
+      },
+      "Severe": {
+        "Best": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        },
+        "Average": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        },
+        "Worst": {
+          "asset_inclusive": null,
+          "operating_flows_only": null
+        }
+      }
+    }
+  },
+  "values_at_2050": {
+    "0.035": {
+      "transfer": {
+        "Conservative": 213.59,
+        "Central": 384.31,
+        "Severe": 668.69
+      },
+      "industry_asset_inclusive": {
+        "Best": 816.63,
+        "Average": 260.74,
+        "Worst": 38.62
+      },
+      "industry_flows_only": {
+        "Best": 535.59,
+        "Average": 152.55,
+        "Worst": 12.99
+      }
+    },
+    "0.060": {
+      "transfer": {
+        "Conservative": 199.1,
+        "Central": 358.22,
+        "Severe": 623.3
+      },
+      "industry_asset_inclusive": {
+        "Best": 485.68,
+        "Average": 152.29,
+        "Worst": 21.01
+      },
+      "industry_flows_only": {
+        "Best": 348.34,
+        "Average": 99.41,
+        "Worst": 8.48
+      }
+    },
+    "0.100": {
+      "transfer": {
+        "Conservative": 179.28,
+        "Central": 322.56,
+        "Severe": 561.26
+      },
+      "industry_asset_inclusive": {
+        "Best": 235.06,
+        "Average": 71.2,
+        "Worst": 8.68
+      },
+      "industry_flows_only": {
+        "Best": 189.86,
+        "Average": 53.8,
+        "Worst": 4.55
+      }
+    }
+  },
+  "interpretation": {
+    "asset_inclusive": "discounted operating benefits plus residual public asset and undeployed pipeline cash at the valuation horizon",
+    "flows_only": "discounted public cash and net wage, supplier and consumer spillovers; residual asset excluded",
+    "never": "no crossing by 2100"
+  }
+}

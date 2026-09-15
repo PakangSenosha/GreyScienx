@@ -1,0 +1,829 @@
+{
+  "gap_bn": 150.0,
+  "groups": [
+    "Workers",
+    "Pensioners",
+    "Children",
+    "Future taxpayers"
+  ],
+  "interventions": [
+    {
+      "key": "income_tax",
+      "name": "Worker income-tax surcharge",
+      "policy_unit": "+3 percentage points",
+      "maximum": "+3 pp",
+      "mature_yield_bn": 100,
+      "first_year_share": 1.0,
+      "maturity_year": 1,
+      "welfare_cost": 1.02,
+      "political_cost": 1.25,
+      "burden": [
+        0.78,
+        0.05,
+        0.12,
+        0.05
+      ],
+      "vulnerable_pensioner_share": 0.02,
+      "group": "Current taxes"
+    },
+    {
+      "key": "consumption_tax",
+      "name": "Broad consumption-tax increase",
+      "policy_unit": "+2 percentage points",
+      "maximum": "+2 pp",
+      "mature_yield_bn": 55,
+      "first_year_share": 1.0,
+      "maturity_year": 1,
+      "welfare_cost": 1.28,
+      "political_cost": 1.3,
+      "burden": [
+        0.45,
+        0.2,
+        0.25,
+        0.1
+      ],
+      "vulnerable_pensioner_share": 0.18,
+      "group": "Current taxes"
+    },
+    {
+      "key": "contributions",
+      "name": "Higher retirement contributions",
+      "policy_unit": "+4 percentage points",
+      "maximum": "+4 pp",
+      "mature_yield_bn": 24,
+      "first_year_share": 0.1,
+      "maturity_year": 10,
+      "welfare_cost": 0.48,
+      "political_cost": 0.72,
+      "burden": [
+        0.85,
+        0.05,
+        0.08,
+        0.02
+      ],
+      "vulnerable_pensioner_share": 0.02,
+      "group": "Pre-funding"
+    },
+    {
+      "key": "retirement_age",
+      "name": "Raise pension and grant age",
+      "policy_unit": "+5 years",
+      "maximum": "+5 years",
+      "mature_yield_bn": 55,
+      "first_year_share": 0.18,
+      "maturity_year": 6,
+      "welfare_cost": 0.88,
+      "political_cost": 1.7,
+      "burden": [
+        0.27,
+        0.63,
+        0.06,
+        0.04
+      ],
+      "vulnerable_pensioner_share": 0.78,
+      "group": "Work longer"
+    },
+    {
+      "key": "benefit_cut",
+      "name": "Reduce pension benefits",
+      "policy_unit": "-10 percent",
+      "maximum": "-10%",
+      "mature_yield_bn": 36,
+      "first_year_share": 1.0,
+      "maturity_year": 1,
+      "welfare_cost": 1.58,
+      "political_cost": 2.15,
+      "burden": [
+        0.04,
+        0.91,
+        0.03,
+        0.02
+      ],
+      "vulnerable_pensioner_share": 0.92,
+      "group": "Broad pension restraint"
+    },
+    {
+      "key": "means_test",
+      "name": "Means-test affluent pensioners",
+      "policy_unit": "Top quarter targeted",
+      "maximum": "Top 25%",
+      "mature_yield_bn": 30,
+      "first_year_share": 0.72,
+      "maturity_year": 2,
+      "welfare_cost": 0.54,
+      "political_cost": 1.32,
+      "burden": [
+        0.03,
+        0.93,
+        0.01,
+        0.03
+      ],
+      "vulnerable_pensioner_share": 0.12,
+      "group": "Targeted pension measures"
+    },
+    {
+      "key": "solidarity_tax",
+      "name": "Solidarity tax on high pensions",
+      "policy_unit": "+5 percentage points",
+      "maximum": "+5 pp",
+      "mature_yield_bn": 18,
+      "first_year_share": 1.0,
+      "maturity_year": 1,
+      "welfare_cost": 0.46,
+      "political_cost": 0.82,
+      "burden": [
+        0.02,
+        0.95,
+        0.0,
+        0.03
+      ],
+      "vulnerable_pensioner_share": 0.04,
+      "group": "Targeted pension measures"
+    },
+    {
+      "key": "pension_wealth_tax",
+      "name": "Tax private pension wealth",
+      "policy_unit": "0.5 percent annually",
+      "maximum": "0.5%",
+      "mature_yield_bn": 25,
+      "first_year_share": 0.85,
+      "maturity_year": 2,
+      "welfare_cost": 0.66,
+      "political_cost": 1.46,
+      "burden": [
+        0.05,
+        0.9,
+        0.0,
+        0.05
+      ],
+      "vulnerable_pensioner_share": 0.05,
+      "group": "Targeted pension measures"
+    },
+    {
+      "key": "indexation",
+      "name": "Index benefits below inflation",
+      "policy_unit": "3 points below CPI",
+      "maximum": "-3 pp",
+      "mature_yield_bn": 28,
+      "first_year_share": 0.32,
+      "maturity_year": 5,
+      "welfare_cost": 1.12,
+      "political_cost": 1.02,
+      "burden": [
+        0.03,
+        0.92,
+        0.02,
+        0.03
+      ],
+      "vulnerable_pensioner_share": 0.78,
+      "group": "Broad pension restraint"
+    },
+    {
+      "key": "inflation",
+      "name": "Inflation surprise",
+      "policy_unit": "+5 percentage points",
+      "maximum": "+5 pp",
+      "mature_yield_bn": 42,
+      "first_year_share": 1.0,
+      "maturity_year": 1,
+      "welfare_cost": 1.82,
+      "political_cost": 0.62,
+      "burden": [
+        0.43,
+        0.3,
+        0.16,
+        0.11
+      ],
+      "vulnerable_pensioner_share": 0.62,
+      "group": "Broad pension restraint"
+    },
+    {
+      "key": "health_cut",
+      "name": "Reduce age-related healthcare",
+      "policy_unit": "-10 percent",
+      "maximum": "-10%",
+      "mature_yield_bn": 35,
+      "first_year_share": 1.0,
+      "maturity_year": 1,
+      "welfare_cost": 2.05,
+      "political_cost": 2.05,
+      "burden": [
+        0.2,
+        0.59,
+        0.16,
+        0.05
+      ],
+      "vulnerable_pensioner_share": 0.88,
+      "group": "Service cuts"
+    },
+    {
+      "key": "non_age_cut",
+      "name": "Cut non-age government spending",
+      "policy_unit": "-5 percent",
+      "maximum": "-5%",
+      "mature_yield_bn": 80,
+      "first_year_share": 1.0,
+      "maturity_year": 1,
+      "welfare_cost": 1.62,
+      "political_cost": 0.78,
+      "burden": [
+        0.38,
+        0.06,
+        0.46,
+        0.1
+      ],
+      "vulnerable_pensioner_share": 0.05,
+      "group": "Service cuts"
+    },
+    {
+      "key": "borrowing",
+      "name": "Additional annual borrowing",
+      "policy_unit": "R75 billion",
+      "maximum": "R75bn",
+      "mature_yield_bn": 75,
+      "first_year_share": 1.0,
+      "maturity_year": 1,
+      "welfare_cost": 1.3,
+      "political_cost": 0.32,
+      "burden": [
+        0.04,
+        0.01,
+        0.05,
+        0.9
+      ],
+      "vulnerable_pensioner_share": 0.02,
+      "group": "Borrowing"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Balanced transition",
+      "levels": {
+        "income_tax": 0.26400000000000035,
+        "consumption_tax": 0.0,
+        "contributions": 1.0,
+        "retirement_age": 0.4,
+        "benefit_cut": 0.0,
+        "means_test": 0.8,
+        "solidarity_tax": 1.0,
+        "pension_wealth_tax": 0.6,
+        "indexation": 0.2,
+        "inflation": 0.0,
+        "health_cut": 0.0,
+        "non_age_cut": 0.0,
+        "borrowing": 0.2
+      },
+      "closure_by_intervention": {
+        "income_tax": 26.400000000000034,
+        "consumption_tax": 0.0,
+        "contributions": 24.0,
+        "retirement_age": 22.0,
+        "benefit_cut": 0.0,
+        "means_test": 24.0,
+        "solidarity_tax": 18.0,
+        "pension_wealth_tax": 15.0,
+        "indexation": 5.6,
+        "inflation": 0.0,
+        "health_cut": 0.0,
+        "non_age_cut": 0.0,
+        "borrowing": 15.0
+      },
+      "mature_closure_bn": 150.00000000000003,
+      "first_year_closure_bn": 97.58200000000004,
+      "welfare_index": 64.54880000000001,
+      "political_resistance_index": 98.17237333333337,
+      "group_loss": {
+        "Workers": 32.359860000000026,
+        "Pensioners": 43.867648,
+        "Children": 5.228608000000003,
+        "Future taxpayers": 15.367084000000002
+      },
+      "group_loss_share": {
+        "Workers": 33.42159730312571,
+        "Pensioners": 45.30695948904806,
+        "Children": 5.400160292161384,
+        "Future taxpayers": 15.871282915664835
+      },
+      "vulnerable_pensioner_loss": 18.402192,
+      "annual_path": {
+        "structural_closure": [
+          82.58200000000004,
+          98.51200000000003,
+          105.47200000000004,
+          112.43200000000003,
+          119.39200000000002,
+          125.40000000000003,
+          127.80000000000003,
+          130.20000000000005,
+          132.60000000000002,
+          135.00000000000003
+        ],
+        "annual_borrowing": [
+          67.41799999999996,
+          51.48799999999997,
+          44.52799999999996,
+          37.56799999999997,
+          30.607999999999976,
+          24.599999999999966,
+          22.199999999999974,
+          19.799999999999955,
+          17.399999999999977,
+          14.999999999999972
+        ],
+        "debt_stock": [
+          67.41799999999996,
+          120.92853999999994,
+          169.0843961999999,
+          211.72492808599986,
+          248.68467592857985,
+          280.7452162064372,
+          311.3675726926303,
+          340.50859987340914,
+          368.1238578696114,
+          394.1675736056998
+        ]
+      },
+      "grouped_closure": {
+        "Current taxes": 26.400000000000034,
+        "Pre-funding": 24.0,
+        "Work longer": 22.0,
+        "Broad pension restraint": 5.6,
+        "Targeted pension measures": 57.0,
+        "Service cuts": 0.0,
+        "Borrowing": 15.0
+      }
+    },
+    {
+      "name": "Targeted solidarity",
+      "levels": {
+        "income_tax": 0.45,
+        "consumption_tax": 0.1409090909090917,
+        "contributions": 1.0,
+        "retirement_age": 0.0,
+        "benefit_cut": 0.0,
+        "means_test": 0.8,
+        "solidarity_tax": 1.0,
+        "pension_wealth_tax": 0.8,
+        "indexation": 0.0,
+        "inflation": 0.0,
+        "health_cut": 0.0,
+        "non_age_cut": 0.0,
+        "borrowing": 0.15
+      },
+      "closure_by_intervention": {
+        "income_tax": 45.0,
+        "consumption_tax": 7.7500000000000435,
+        "contributions": 24.0,
+        "retirement_age": 0.0,
+        "benefit_cut": 0.0,
+        "means_test": 24.0,
+        "solidarity_tax": 18.0,
+        "pension_wealth_tax": 20.0,
+        "indexation": 0.0,
+        "inflation": 0.0,
+        "health_cut": 0.0,
+        "non_age_cut": 0.0,
+        "borrowing": 11.25
+      },
+      "mature_closure_bn": 150.00000000000003,
+      "first_year_closure_bn": 118.68000000000004,
+      "welfare_index": 68.37433333333337,
+      "political_resistance_index": 99.11496000000004,
+      "group_loss": {
+        "Workers": 44.76215400000002,
+        "Pensioners": 36.59744500000001,
+        "Children": 7.86347900000001,
+        "Future taxpayers": 13.338422000000001
+      },
+      "group_loss_share": {
+        "Workers": 43.6442076217684,
+        "Pensioners": 35.68341434163891,
+        "Children": 7.667086577321905,
+        "Future taxpayers": 13.005291459270772
+      },
+      "vulnerable_pensioner_loss": 5.021904000000007,
+      "annual_path": {
+        "structural_closure": [
+          107.43000000000004,
+          119.55000000000004,
+          121.95000000000005,
+          124.35000000000005,
+          126.75000000000004,
+          129.15000000000003,
+          131.55000000000004,
+          133.95000000000005,
+          136.35000000000005,
+          138.75000000000006
+        ],
+        "annual_borrowing": [
+          42.569999999999965,
+          30.44999999999996,
+          28.049999999999955,
+          25.64999999999995,
+          23.249999999999957,
+          20.849999999999966,
+          18.44999999999996,
+          16.049999999999955,
+          13.649999999999949,
+          11.249999999999943
+        ],
+        "debt_stock": [
+          42.569999999999965,
+          74.29709999999992,
+          104.57601299999988,
+          133.36329338999982,
+          160.61419219169977,
+          186.28261795745073,
+          210.32109649617422,
+          232.6807293910594,
+          253.31115127279114,
+          272.1604858109748
+        ]
+      },
+      "grouped_closure": {
+        "Current taxes": 52.75000000000004,
+        "Pre-funding": 24.0,
+        "Work longer": 0.0,
+        "Broad pension restraint": 0.0,
+        "Targeted pension measures": 62.0,
+        "Service cuts": 0.0,
+        "Borrowing": 11.25
+      }
+    },
+    {
+      "name": "Work-and-save transition",
+      "levels": {
+        "income_tax": 0.4,
+        "consumption_tax": 0.15,
+        "contributions": 1.0,
+        "retirement_age": 0.2,
+        "benefit_cut": 0.0,
+        "means_test": 0.6,
+        "solidarity_tax": 1.0,
+        "pension_wealth_tax": 0.6,
+        "indexation": 0.2410714285714298,
+        "inflation": 0.0,
+        "health_cut": 0.0,
+        "non_age_cut": 0.0,
+        "borrowing": 0.12
+      },
+      "closure_by_intervention": {
+        "income_tax": 40.0,
+        "consumption_tax": 8.25,
+        "contributions": 24.0,
+        "retirement_age": 11.0,
+        "benefit_cut": 0.0,
+        "means_test": 18.0,
+        "solidarity_tax": 18.0,
+        "pension_wealth_tax": 15.0,
+        "indexation": 6.750000000000034,
+        "inflation": 0.0,
+        "health_cut": 0.0,
+        "non_age_cut": 0.0,
+        "borrowing": 9.0
+      },
+      "mature_closure_bn": 150.00000000000003,
+      "first_year_closure_bn": 107.50000000000001,
+      "welfare_index": 66.02613333333335,
+      "political_resistance_index": 96.19960000000003,
+      "group_loss": {
+        "Workers": 42.345060000000004,
+        "Pensioners": 37.636764000000035,
+        "Children": 7.703028000000001,
+        "Future taxpayers": 11.354348000000002
+      },
+      "group_loss_share": {
+        "Workers": 42.755858286415865,
+        "Pensioners": 38.00188612185884,
+        "Children": 7.777756686241404,
+        "Future taxpayers": 11.464498905483886
+      },
+      "vulnerable_pensioner_loss": 13.770600000000027,
+      "annual_path": {
+        "structural_closure": [
+          98.5,
+          111.14150000000002,
+          116.49300000000004,
+          121.84450000000004,
+          127.19600000000003,
+          131.40000000000003,
+          133.80000000000004,
+          136.20000000000002,
+          138.60000000000002,
+          141.00000000000003
+        ],
+        "annual_borrowing": [
+          51.5,
+          38.85849999999998,
+          33.50699999999996,
+          28.15549999999996,
+          22.803999999999974,
+          18.599999999999966,
+          16.19999999999996,
+          13.799999999999983,
+          11.399999999999977,
+          8.999999999999972
+        ],
+        "debt_stock": [
+          51.5,
+          91.90349999999998,
+          128.16760499999992,
+          160.16813314999987,
+          187.77717714449986,
+          212.01049245883482,
+          234.57080723259983,
+          255.40793144957783,
+          274.47016939306513,
+          291.704274474857
+        ]
+      },
+      "grouped_closure": {
+        "Current taxes": 48.25,
+        "Pre-funding": 24.0,
+        "Work longer": 11.0,
+        "Broad pension restraint": 6.750000000000034,
+        "Targeted pension measures": 51.0,
+        "Service cuts": 0.0,
+        "Borrowing": 9.0
+      }
+    },
+    {
+      "name": "Protect basic benefits",
+      "levels": {
+        "income_tax": 0.4300000000000005,
+        "consumption_tax": 0.0,
+        "contributions": 1.0,
+        "retirement_age": 0.0,
+        "benefit_cut": 0.0,
+        "means_test": 0.8,
+        "solidarity_tax": 1.0,
+        "pension_wealth_tax": 0.8,
+        "indexation": 0.0,
+        "inflation": 0.0,
+        "health_cut": 0.0,
+        "non_age_cut": 0.0,
+        "borrowing": 0.28
+      },
+      "closure_by_intervention": {
+        "income_tax": 43.00000000000006,
+        "consumption_tax": 0.0,
+        "contributions": 24.0,
+        "retirement_age": 0.0,
+        "benefit_cut": 0.0,
+        "means_test": 24.0,
+        "solidarity_tax": 18.0,
+        "pension_wealth_tax": 20.0,
+        "indexation": 0.0,
+        "inflation": 0.0,
+        "health_cut": 0.0,
+        "non_age_cut": 0.0,
+        "borrowing": 21.000000000000004
+      },
+      "mature_closure_bn": 150.00000000000006,
+      "first_year_closure_bn": 118.68000000000006,
+      "welfare_index": 69.01200000000004,
+      "political_resistance_index": 94.0780266666667,
+      "group_loss": {
+        "Workers": 40.36829400000005,
+        "Pensioners": 35.20197,
+        "Children": 6.372564000000007,
+        "Future taxpayers": 21.575172000000002
+      },
+      "group_loss_share": {
+        "Workers": 38.99640062597812,
+        "Pensioners": 34.00565119109718,
+        "Children": 6.155996058656468,
+        "Future taxpayers": 20.841952124268232
+      },
+      "vulnerable_pensioner_loss": 3.9299940000000015,
+      "annual_path": {
+        "structural_closure": [
+          97.68000000000006,
+          109.80000000000005,
+          112.20000000000006,
+          114.60000000000005,
+          117.00000000000006,
+          119.40000000000006,
+          121.80000000000005,
+          124.20000000000006,
+          126.60000000000005,
+          129.00000000000006
+        ],
+        "annual_borrowing": [
+          52.319999999999936,
+          40.199999999999946,
+          37.79999999999994,
+          35.39999999999995,
+          32.99999999999994,
+          30.599999999999937,
+          28.199999999999946,
+          25.79999999999994,
+          23.39999999999995,
+          20.999999999999943
+        ],
+        "debt_stock": [
+          52.319999999999936,
+          94.08959999999988,
+          134.71228799999983,
+          174.15365663999978,
+          212.3782663391997,
+          249.34961432937564,
+          285.03010275925686,
+          319.38100584203454,
+          352.3624360172955,
+          383.93330909781434
+        ]
+      },
+      "grouped_closure": {
+        "Current taxes": 43.00000000000006,
+        "Pre-funding": 24.0,
+        "Work longer": 0.0,
+        "Broad pension restraint": 0.0,
+        "Targeted pension measures": 62.0,
+        "Service cuts": 0.0,
+        "Borrowing": 21.000000000000004
+      }
+    },
+    {
+      "name": "Low visible pain",
+      "levels": {
+        "income_tax": 0.0,
+        "consumption_tax": 0.0,
+        "contributions": 0.8,
+        "retirement_age": 0.0,
+        "benefit_cut": 0.0,
+        "means_test": 0.10666666666666665,
+        "solidarity_tax": 0.8,
+        "pension_wealth_tax": 0.0,
+        "indexation": 0.2,
+        "inflation": 0.55,
+        "health_cut": 0.0,
+        "non_age_cut": 0.4,
+        "borrowing": 0.7
+      },
+      "closure_by_intervention": {
+        "income_tax": 0.0,
+        "consumption_tax": 0.0,
+        "contributions": 19.2,
+        "retirement_age": 0.0,
+        "benefit_cut": 0.0,
+        "means_test": 3.1999999999999993,
+        "solidarity_tax": 14.4,
+        "pension_wealth_tax": 0.0,
+        "indexation": 5.6,
+        "inflation": 23.1,
+        "health_cut": 0.0,
+        "non_age_cut": 32.0,
+        "borrowing": 52.5
+      },
+      "mature_closure_bn": 150.0,
+      "first_year_closure_bn": 128.01600000000002,
+      "welfare_index": 107.34413333333335,
+      "political_resistance_index": 53.51471999999999,
+      "group_loss": {
+        "Workers": 41.222235000000005,
+        "Pensioners": 25.603171000000003,
+        "Children": 28.219765,
+        "Future taxpayers": 65.971029
+      },
+      "group_loss_share": {
+        "Workers": 25.601296639716992,
+        "Pensioners": 15.900990707767292,
+        "Children": 17.52604085800062,
+        "Future taxpayers": 40.97167179451508
+      },
+      "vulnerable_pensioner_loss": 29.455512,
+      "annual_path": {
+        "structural_closure": [
+          75.51599999999999,
+          79.28399999999999,
+          82.156,
+          85.028,
+          87.9,
+          89.82,
+          91.74000000000001,
+          93.66,
+          95.58000000000001,
+          97.5
+        ],
+        "annual_borrowing": [
+          74.48400000000001,
+          70.71600000000001,
+          67.844,
+          64.972,
+          62.099999999999994,
+          60.18000000000001,
+          58.25999999999999,
+          56.34,
+          54.41999999999999,
+          52.5
+        ],
+        "debt_stock": [
+          74.48400000000001,
+          147.43452000000002,
+          219.7015556,
+          291.26460226800003,
+          362.1025403360401,
+          433.1456165461213,
+          504.3999850425049,
+          575.8719845937801,
+          647.5681441315935,
+          719.4951884555413
+        ]
+      },
+      "grouped_closure": {
+        "Current taxes": 0.0,
+        "Pre-funding": 19.2,
+        "Work longer": 0.0,
+        "Broad pension restraint": 28.700000000000003,
+        "Targeted pension measures": 17.6,
+        "Service cuts": 32.0,
+        "Borrowing": 52.5
+      }
+    }
+  ],
+  "frontier": [
+    {
+      "welfare_index": 93.22953333333334,
+      "political_resistance_index": 61.044026666666674
+    },
+    {
+      "welfare_index": 92.56653333333334,
+      "political_resistance_index": 61.30762666666667
+    },
+    {
+      "welfare_index": 89.51653333333333,
+      "political_resistance_index": 62.71829333333333
+    },
+    {
+      "welfare_index": 87.92986666666667,
+      "political_resistance_index": 63.50677333333334
+    },
+    {
+      "welfare_index": 85.54306666666666,
+      "political_resistance_index": 64.74229333333335
+    },
+    {
+      "welfare_index": 84.85286666666666,
+      "political_resistance_index": 65.11189333333334
+    },
+    {
+      "welfare_index": 84.01986666666667,
+      "political_resistance_index": 65.60469333333334
+    },
+    {
+      "welfare_index": 81.75746666666666,
+      "political_resistance_index": 67.03829333333334
+    },
+    {
+      "welfare_index": 81.10646666666666,
+      "political_resistance_index": 67.48069333333333
+    },
+    {
+      "welfare_index": 80.77146666666667,
+      "political_resistance_index": 67.77749333333334
+    },
+    {
+      "welfare_index": 79.85913333333335,
+      "political_resistance_index": 68.68096000000001
+    },
+    {
+      "welfare_index": 79.32013333333335,
+      "political_resistance_index": 69.27232000000001
+    },
+    {
+      "welfare_index": 75.50793333333336,
+      "political_resistance_index": 73.94160000000002
+    },
+    {
+      "welfare_index": 72.26226666666669,
+      "political_resistance_index": 78.15360000000001
+    },
+    {
+      "welfare_index": 71.98693333333335,
+      "political_resistance_index": 78.53866666666667
+    },
+    {
+      "welfare_index": 69.28213333333336,
+      "political_resistance_index": 83.01440000000002
+    },
+    {
+      "welfare_index": 68.51586666666668,
+      "political_resistance_index": 84.73237333333336
+    },
+    {
+      "welfare_index": 64.54880000000001,
+      "political_resistance_index": 98.17237333333337
+    },
+    {
+      "welfare_index": 64.14120000000004,
+      "political_resistance_index": 107.29440000000007
+    }
+  ],
+  "notes": {
+    "prices": "constant 2026 rand",
+    "real_interest_rate": 0.03,
+    "welfare_index": "Modelled welfare loss divided by the R150bn gap and multiplied by 100.",
+    "political_index": "Modelled resistance cost divided by the R150bn gap and multiplied by 100."
+  }
+}

@@ -1,0 +1,442 @@
+# The Welfare Cost of Not Paying the Grant
+
+## What South Africa would have asked poor households to surrender in the R350 industrialisation counterfactual
+
+# PART I: The result in one sitting
+
+## The short answer
+
+The R350 industrialisation counterfactual does not begin with free money. It begins with a transfer taken away from people who were selected precisely because they had little or no formal income. Converting the Social Relief of Distress grant into factories may create a valuable public asset later, but it also creates an immediate social liability: less food, less electricity, fewer trips, weaker informal demand, more costly borrowing and a greater risk that short hardship becomes long damage.
+
+Across the 2020/21 to 2026/27 programme envelope, the grant represents about **R253.5 billion in constant 2026 purchasing power**. This study values the explicit welfare cost of withholding that envelope at between **R237 billion and R743 billion in welfare-equivalent 2026 rand**. The central scenario is **R426.9 billion**, or about **R1.68 of social cost for every R1 withheld**.
+
+That is not a claim that the Treasury would receive a R426.9 billion invoice. It is a common unit for four different losses: consumption at the bottom of the income distribution; the extra burden of replacing cash with costly credit; health and human-capital scarring; and labour income that the transfer may have helped recipients reach. It deliberately leaves crime, unrest, household dissolution and other rare or hard-to-attribute outcomes outside the priced total.
+
+> **The central finding:** the industrial fund imagined in Paper 1 must clear a social hurdle, not merely preserve its capital. The average industrial outcome does not. Only an exceptionally well-executed industrial programme clearly beats the central welfare cost, and even then the people who gain later are not automatically the people who sacrificed first.
+
+The purpose of the estimate is not to prove that cash transfers are always better than investment. It is to stop a false comparison between a visible factory and an invisible absence. A meal not bought, a job interview not reached and a debt rolled over at punitive cost do not appear on a public balance sheet. They remain economic costs.
+
+## The headline ledger
+
+| Measure | Model result | Meaning |
+|---|---:|---|
+| Grant envelope, 2020/21-2026/27 | R253.5bn real | Same resource base as Paper 1, restated in 2026 purchasing power |
+| Direct household consumption displaced | R202.8bn-R251.0bn | The share of the grant assumed to be spent rather than retained |
+| Gross local activity associated with that spending | R223.1bn-R364.0bn | A scenario multiplier; shown separately and not added to welfare cost |
+| Explicit welfare-equivalent cost | R237.3bn-R742.8bn | Distribution, credit, scarring and labour components combined |
+| Central estimate | R426.9bn | R1.68 of welfare cost per R1 withheld |
+| Additional poverty exposure | 2.5m-11.0m person-years | Scenario total of additional people below a poverty line over seven years |
+
+The range is wide because a counterfactual cannot be observed directly. The conservative case assumes extensive household adjustment, a modest value placed on consumption at the bottom, limited debt substitution and little persistent harm. The severe case assumes nearly all the transfer was immediately useful, poor households could not replace it cheaply, and repeated deprivation damaged health and future opportunity. The central case sits between them; it is an analytical benchmark, not a forecast or confidence interval.
+
+![Welfare cost ledger](assets/welfare-ledger.png)
+
+*Figure 1. The explicit modelled welfare cost. Values are constant 2026 consumption-equivalent rand, not fiscal expenditure, GDP or a cash compensation bill.*
+
+## Why a rand is not always a rand
+
+A rand transferred to a household near the food-poverty line is likely to buy something urgent. A rand left with a middle-income household may buy something useful. A rand retained inside a public fund may eventually buy a productive asset. Financial accounting treats those rand as equal; welfare analysis does not have to.
+
+This paper therefore applies a distributional weight to direct consumption. In the conservative, central and severe cases, R1 of consumption at the recipient margin is valued at R1.10, R1.50 and R2.00 respectively. These weights are normative assumptions. A reader who believes all consumption should receive the same weight can reject them and use the unweighted consumption column. A reader who believes preventing hunger deserves an even larger weight can increase them. Transparency is preferable to pretending that the choice does not exist.
+
+The local spending multiplier is different. When a recipient buys food from a spaza shop, the first purchase is the household's consumption and the trader's revenue. Some of that revenue then pays a wholesaler, taxi, assistant or supplier. Counting both the full household benefit and every subsequent rand as separate welfare would double-count the same transaction. The multiplier is therefore used to show economic circulation, not inserted as an extra block in the welfare ledger.
+
+## What the model does not claim
+
+This is a structured armchair model informed by observed South African evidence. It is not an official costing, a randomised trial, a general-equilibrium model or a forecast of crime. Its values should be read as decision ranges.
+
+The model does not assume that every recipient would have starved without the transfer. Households pool income, cut consumption, borrow, seek help, sell assets and substitute across foods. Those responses are the reason the cost is not simply the entire grant plus a multiplier. Yet coping is not the same as avoiding a loss. Borrowing replaces cash today with repayment tomorrow; selling an asset replaces consumption with lower resilience; relying on another household member shifts the burden rather than eliminating it.
+
+Nor does the model claim that the grant caused every positive labour outcome reported in every study. Early evidence found a large increase in job-search activity among recipients relative to comparable non-recipients. Later work found a smaller increase in employment, concentrated in wage or formal work, which faded with longer exposure. These findings are not identical, so the priced labour component is deliberately small.
+
+---
+
+# PART II: The grant at household scale
+
+## Small nationally, consequential at the margin
+
+The original SRD amount was R350 a month and the current amount is R370. In May 2026, Statistics South Africa placed the food poverty line at **R868 per person per month**, the lower-bound poverty line at **R1,457**, and the upper-bound line at **R2,962**. R370 was therefore only about **43 per cent of the food poverty line**. It could not finance an adequate life. That does not make it trivial.
+
+Near subsistence, the relevant question is not whether R370 can support a person alone. It is whether the last R370 prevents the household from crossing a damaging margin: one fewer meal, a disconnected electricity meter, no taxi fare to search for work, no mobile data, an unpaid clinic trip or a new loan. [Statistics South Africa, National Poverty Lines 2026](https://www.statssa.gov.za/publications/P03101/P031012026.pdf).
+
+![Grant adequacy](assets/grant-adequacy.png)
+
+*Figure 2. Monthly grant amounts against the May 2026 national poverty lines. The comparison shows both truths at once: the transfer is inadequate as an income floor and meaningful as marginal cash.*
+
+The country in which that marginal rand arrives remains exceptionally poor. Statistics South Africa estimates that, in 2023, **17.6 per cent** of people were below the food poverty line, **37.9 per cent** below the lower-bound line and **66.7 per cent** below the upper-bound line. Rural lower-bound poverty was **54.7 per cent**, compared with **29.1 per cent** in urban areas. [Statistics South Africa, Poverty Trends in South Africa 2023](https://www.statssa.gov.za/publications/Report-03-10-06/Report-03-10-062023.pdf).
+
+## An individual grant enters a shared household
+
+The SRD grant is paid to an individual, but its effects do not stop there. The Department of Social Development's rapid assessment found that **70 per cent of surveyed recipients lived in households with four or more people**. In the same assessment, **53.1 per cent** said they combined the grant with other household income, another **35.0 per cent** sometimes pooled it, and only **11.9 per cent** said they never did. These are overlapping descriptions of household context, not a causal flow in which every large household pools in the same way. [Department of Social Development, Rapid Assessment of the SRD Grant](https://www.gov.za/sites/default/files/gcis_documents/Final%20Special%20COVID19%20SRD%20Grant%20Report.pdf).
+
+![Household diffusion](assets/household-diffusion.png)
+
+*Figure 3. The payment is individual; the budget is often collective. The household-size and pooling statistics are separate survey findings that together explain why recipient counts understate the population exposed to withdrawal.*
+
+This diffusion changes the counterfactual. If eight million people receive a payment, it does not follow that only eight million people consume it. A recipient may buy a shared bag of maize meal, contribute to prepaid electricity or pay transport used to collect another household member's grant. Conversely, pooling can dilute the per-person gain. The same R370 spread across five people is smaller per head, but its removal can disrupt a shared essential.
+
+The household is also where apparent substitution becomes misleading. If a grandmother's pension covers the meal after the unemployed adult loses SRD, national expenditure has not discovered free food. The older person's income has been reallocated, perhaps away from medicine, clothing or savings. A narrow recipient-only model would miss the transfer within the family.
+
+## What the money was used for
+
+Surveyed applicants overwhelmingly identified **food** as the main expenditure: 93.3 per cent cited it. Electricity was also prominent at 31.9 per cent. Because respondents could name more than one use, the shares should not be added. The pattern nonetheless matters. It places the grant near the bottom of the needs hierarchy, where substitution is difficult and delays can become biological costs.
+
+Food spending is economically ordinary and socially fundamental. It does not leave behind a bridge or machine, so it is easy to describe as consumption that “disappears.” But the meal is the output. It preserves energy, health, school participation and the capacity to search for work. Treating it as a failed investment mistakes the purpose of the transfer.
+
+Electricity, data and transport are similarly mixed goods. They provide current consumption and maintain access to institutions. A prepaid electricity purchase keeps food refrigerated and a phone charged. Mobile data can be entertainment, job search, schoolwork or access to government systems. Taxi fare can be consumption in the national accounts and an input into future earnings for the person travelling to an interview.
+
+## The consumption counterfactual
+
+The central scenario assumes that **93 per cent** of the real grant envelope would have been spent by recipient households over the relevant horizon. Withholding the programme therefore removes about **R235.8 billion** of direct consumption in constant 2026 rand. The conservative case assumes an 80 per cent spending share and loses R202.8 billion; the severe case assumes 99 per cent and loses R251.0 billion.
+
+These are not estimates of GDP loss. Imports, taxes, inventories and supply responses matter. They are estimates of household spending no longer available. The calculation also does not say the remaining share was economically idle. Some may have been retained temporarily, transferred to relatives, used to settle debt or carried into the next month. The spending share is a modelling device for separating immediate consumption from other uses.
+
+---
+
+# PART III: From the household to the local economy
+
+## The township multiplier is a circulation story
+
+Qualitative research with informal traders found several ways that income transfers support local business: more customer demand, more reliable stock purchases, greater ability to pay transport costs, firm survival and, in some cases, entry by new traders. The evidence supports a local-circulation mechanism but does not establish one universal national multiplier. [Agence Française de Développement, Local Economic Development Effects of Income Transfers](https://www.afd.fr/sites/afd/files/2023-05-04-18-29/The-local-economic-development-effects-of-income-transfers-in-South-Africa.pdf).
+
+The model therefore treats the multiplier as a scenario assumption. The conservative case uses 1.10, the central case 1.25 and the severe case 1.45. Applied to direct consumption, those assumptions imply **R223 billion to R364 billion of gross local activity associated with the grant**. The central case is R294.7 billion.
+
+![Consumption and local activity](assets/consumption-and-local-activity.png)
+
+*Figure 4. Direct household spending and the larger gross activity it may support. The second bar includes the first and is not added again in the welfare total.*
+
+The strongest local effects are likely where three conditions coincide: households have little spare income, traders serve geographically concentrated recipient communities, and supply can respond without prices absorbing the transfer. The weakest effects occur when spending leaks quickly into imports or large national chains, local supply is fixed, or the transfer merely replaces other household spending.
+
+## Why losing demand can destroy more than sales
+
+A small shop can survive a modest fall in sales if the loss is brief. A persistent fall may push it below the fixed-cost threshold needed to remain open. That creates a nonlinear effect. The community first loses recipient spending, then loses the convenience, credit relationships and local employment supplied by the trader. Re-entry later may require capital that no longer exists.
+
+Rural and township economies are especially exposed to this threshold problem because many enterprises are thinly capitalised. Their owners cannot necessarily borrow through a formal overdraft to bridge a demand shock. Stock variety shrinks, operating hours fall, household and business cash are mixed, and closure can follow. These mechanisms justify showing local activity, but the paper does not convert every turnover loss into welfare because profits, wages and consumer surplus would overlap with already valued consumption.
+
+## Spatial incidence
+
+The national budget is collected centrally; grant expenditure is dispersed. This makes withdrawal geographically asymmetric. The fiscal saving appears in Pretoria, while reduced transactions appear in thousands of local markets. If an industrial fund later invests in a port, smelter or metropolitan industrial park, the spatial winners may be far from the households that financed it through foregone relief.
+
+That is not an argument against concentrated infrastructure. Productive assets often require scale. It is an argument for recording geography. A valid compensation plan must ask where the welfare cost was incurred, where the industrial benefit arrives, and whether transport, skills and hiring channels connect the two.
+
+## Informal borrowing is not an equal substitute
+
+When cash disappears, households do not simply accept a matching decline in consumption. They borrow from relatives, shops, stokvels, employers or informal lenders; delay bills; run arrears; sell assets; or request advances against future income. This cushions the first month and moves the cost into later months.
+
+The model prices only the additional financing burden, not the borrowed principal. In the central scenario, 20 per cent of the missing grant is temporarily replaced with credit, the real cost of that replacement is 25 per cent a year, and the average burden persists for three years. That produces a **R48.3 billion** replacement-credit cost. The conservative case produces R8.2 billion; the severe case R176.6 billion.
+
+These numbers are openly hypothetical because robust national evidence on SRD-specific informal debt substitution is weak. Their purpose is to prevent a common mistake: if households borrow R100 after losing R100, measured consumption may initially change little, but welfare has not been preserved. The household now owes principal, interest, fees, favours or future purchases to a particular shop. Credit can also expose borrowers to coercion and loss of social capital, costs not fully captured here.
+
+---
+
+# PART IV: Poverty and food security
+
+## The evidence is strongest during the pandemic shock
+
+Research simulating the pandemic period estimated that the SRD grant and related top-ups reduced the rise in upper-bound poverty to about **1.1 to 3.4 percentage points**, corresponding to roughly **0.7 million to 2.0 million fewer people in poverty** than in a no-relief counterfactual. This is not a permanent annual estimate and should not be repeated mechanically through 2027. It anchors the first two years of the scenario paths. [Bassier, Budlender and Goldman, Social Protection During South Africa's National Lockdown](https://sa-tied-archive.wider.unu.edu/sites/default/files/SA-TIED-WP210.pdf).
+
+The central path places 1.35 million additional people below a poverty line in each of the first two fiscal years without SRD. It then declines to 0.6 million by 2026/27 as the acute shock passes and households, other grants and the labour market adjust. Summed across years, that is **6.35 million person-years of additional poverty**. The conservative and severe paths total 2.48 million and 11.0 million person-years.
+
+![Poverty scenarios](assets/poverty-scenarios.png)
+
+*Figure 5. Only the first two years are anchored to the published pandemic-era range. Later years are explicit scenarios, not measured effects.*
+
+A person-year is a unit of exposure, not a unique person. One million people below the line for two years equals two million person-years. This makes duration visible. A short fall and persistent poverty may contain the same number of people at one date but have very different effects on nutrition, debt and future earnings.
+
+## Food insecurity before relief
+
+The early pandemic baseline shows the severity of the shock into which SRD arrived. NIDS-CRAM reported that **47 per cent of households ran out of money to buy food in April 2020**. Adult hunger and child hunger were widespread. Households initially shielded children through savings, borrowing and support from others, but those buffers were not indefinitely sustainable. Later survey work warned that ending relief and grant top-ups would raise food insecurity. [NIDS-CRAM, Hunger in South Africa](https://cramsurvey.org/wp-content/uploads/2021/05/11.-Van-der-Berg-S.-Patel-L.-_-Bridgman-G.-2021-Hunger-in-South-Africa-Results-from-Wave-4-of-NIDS-CRAM.pdf); [NIDS-CRAM reports](https://cramsurvey.org/reports/).
+
+It would be wrong to attribute the entire pandemic food crisis to the absence of R350. Lockdowns, job loss, mobility restrictions, school closures and supply disruption all mattered. The narrower claim is more defensible: in a setting where millions already lacked food money, removing a broadly used food-oriented transfer would have worsened the margin.
+
+## Short hardship can become long damage
+
+The welfare loss from a missed meal is not confined to that day. Repeated undernutrition can reduce immunity, worsen chronic conditions and affect child development. Electricity disconnection can damage stored food. Unpaid transport can delay clinic care. Stress can affect mental health, household conflict and decision-making. School participation can weaken when children are hungry or lack data, transport or basic materials.
+
+The model represents these pathways with a **health and human-capital scarring surcharge** equal to 2, 8 or 20 per cent of the real grant envelope. In the central case this is R20.3 billion. The value is not a clinical estimate and should not be quoted as one. It is a transparent allowance for harms that a consumption-only calculation would otherwise set to zero.
+
+The asymmetry matters. If a household later receives more income, it can repay a bill or buy food. It cannot always reverse an untreated illness, recover a school year perfectly, repurchase an asset at the old price or undo the effect of prolonged hunger during a sensitive period. The industrial counterfactual must therefore account for timing as well as total rand.
+
+## Children are indirect recipients
+
+South Africa's child poverty makes household diffusion especially important. Statistics South Africa estimates that **49.1 per cent of children were money-poor in 2023**, while **57.3 per cent** were multidimensionally poor. Among money-poor children, 78.2 per cent were also multidimensionally deprived. [Statistics South Africa, Child Poverty in South Africa 2026](https://www.statssa.gov.za/?p=19395).
+
+An unemployed adult's SRD payment is not a child grant, yet children share food, housing, electricity and care with the recipient. Removing the adult transfer can therefore reduce resources in a child-grant household. The interaction is easy to miss if programmes are evaluated in administrative silos.
+
+The model does not assign a separate child multiplier because that would risk double-counting household consumption and scarring. Children instead strengthen the reason for the distributional weight and the persistence allowance. A future version with linked household microdata could estimate exposure by household composition directly.
+
+---
+
+# PART V: Work, search and the dignity question
+
+## Cash can support labour-market participation
+
+The intuitive criticism of an unconditional unemployment grant is that it may weaken the incentive to work. At R350 or R370, the income effect is small relative to even low wages, while the transfer can relax practical barriers to search: transport, data, printing, childcare, clothing and the ability to wait for a first payday.
+
+Early quasi-experimental analysis reported that SRD receipt increased the probability of active job search by more than 25 percentage points among comparable recipients and non-recipients. That is a large estimate from an unusual pandemic period and should not be treated as a permanent national parameter. [Köhler and Bhorat, Can Cash Transfers Aid Labour Market Recovery?](https://africaportal.org/wp-content/uploads/2023/06/DPRU_WP_202108.pdf).
+
+Later research using additional data found a different pattern: approximately a **three-percentage-point increase in employment probability**, mainly wage or formal employment, with effects concentrated in the short term and declining toward zero with longer exposure. In that specification, job search itself was not significantly affected. [Bhorat, Köhler and de Villiers, Can a Poverty-Targeted Social Protection Programme Improve Labour Market Outcomes?](https://www.afd.fr/sites/default/files/2023-03-02-12-20/Cash-Transfers-to-the-Unemployed_Economic-Activity_South-Africa.pdf).
+
+The correct conclusion is not that one study is “right” and the other irrelevant. They measure different periods, outcomes and exposure lengths. Together they reject the simplest assumption that every grant rand merely displaces work. The labour effect may be enabling, small, temporary and context-dependent.
+
+## The model prices labour cautiously
+
+The explicit labour-income component is only **R0.9 billion, R4.6 billion or R13.5 billion** across the three scenarios. Even the severe value is modest relative to the envelope. It is an allowance for missed employment enabled by search liquidity and household stability, not a full estimate derived by applying a three-point treatment effect to every recipient.
+
+This restraint is deliberate. A proper labour model would need monthly receipt, eligibility, pre-treatment employment history, wages, duration, sector and local vacancies. It would also separate people who use the transfer to search from people whose barriers are structural and cannot be solved by R370. The current model acknowledges the channel without allowing uncertain labour estimates to dominate the answer.
+
+## Participation beyond recorded search
+
+Administrative and survey definitions can miss economically relevant activity. A recipient may use grant money to travel to a piece job, buy a small quantity of stock, maintain a phone number for employers, renew an identity document or contribute to childcare while looking for work. Some of these actions never appear as formal “job search” and may not result in employment within the survey window.
+
+The reverse is also possible. Cash may allow a person to refuse dangerous or exploitative work, lowering recorded employment while raising welfare. A labour-only evaluation would call that a failure. A dignity-based evaluation may not. The study therefore treats employment as one pathway, not the sole purpose of social relief.
+
+---
+
+# PART VI: The explicit welfare price
+
+## Four priced components
+
+The central **R426.9 billion** total contains four conceptually separate blocks.
+
+1. **Distribution-weighted consumption: R353.7 billion.** The central model assumes R235.8 billion of direct spending and gives consumption at the recipient margin a welfare weight of 1.5. This is the largest component because food and basic services dominate reported uses.
+
+2. **Replacement-credit burden: R48.3 billion.** This is the extra cost of temporarily substituting borrowing for part of the missing cash. It excludes principal to avoid counting the same consumption twice.
+
+3. **Health and human-capital scarring: R20.3 billion.** This transparent surcharge represents persistent harm not captured by current spending.
+
+4. **Labour-income enablement: R4.6 billion.** This cautious allowance recognises that small cash can finance search and entry into work.
+
+The model does **not** add the R294.7 billion central local-activity estimate, because it contains the original consumption and transactions that may overlap with income already captured elsewhere. It also leaves social instability unpriced. The total is therefore explicit rather than exhaustive.
+
+| Component | Conservative | Central | Severe | Status |
+|---|---:|---:|---:|---|
+| Direct consumption displaced | R202.8bn | R235.8bn | R251.0bn | Scenario assumption applied to observed envelope |
+| Distribution-weighted consumption | R223.1bn | R353.7bn | R502.0bn | Normative valuation |
+| Replacement-credit burden | R8.2bn | R48.3bn | R176.6bn | Scenario; limited direct evidence |
+| Health and human-capital scarring | R5.1bn | R20.3bn | R50.7bn | Transparent persistence allowance |
+| Labour-income enablement | R0.9bn | R4.6bn | R13.5bn | Cautious allowance informed by labour studies |
+| **Total welfare-equivalent cost** | **R237.3bn** | **R426.9bn** | **R742.8bn** | Not a fiscal bill |
+
+## The cost arrives before the return
+
+The central cost accumulates to about R44 billion after the first fiscal year, R113 billion after the second and R173 billion after the third. It reaches R300 billion by 2024/25 and R427 billion by 2026/27. The industrial assets in Paper 1, by contrast, require deployment, construction, commissioning and decades of operation before their full value appears.
+
+![Central cost timeline](assets/central-cost-timeline.png)
+
+*Figure 6. The central welfare-equivalent cost allocated across the real annual grant envelope. This timing is approximate, but the asymmetry is fundamental: hardship is immediate while most industrial returns are delayed.*
+
+This creates a financing problem and a moral problem. Financially, the industrial programme must survive the period before returns without relying on benefits that have not yet materialised. Morally, a later national gain does not automatically compensate a household that bore hunger or debt years earlier.
+
+Discounting deepens the asymmetry. Paper 1 expresses later industrial value in 2026 present-value terms, reducing the weight of distant returns. Most welfare losses in this paper occur during or close to 2020-2027. Restating historical amounts in 2026 purchasing power makes them comparable, but it does not make a 2048 dividend arrive in 2021.
+
+## What remains outside the number
+
+The explicit ledger omits several plausible costs because available evidence cannot price them credibly without false precision:
+
+- the value of stress, shame and loss of autonomy;
+- household conflict, migration or dissolution caused by financial pressure;
+- informal reciprocity obligations incurred when relatives substitute for the grant;
+- business closures and lost local market variety beyond the multiplier display;
+- crime, protest, repression and emergency public spending;
+- political trust and willingness to comply with future crisis measures;
+- mortality or morbidity attributable specifically to withdrawal;
+- administrative savings or errors avoided by never creating the programme.
+
+The omissions run in both directions. The model also does not price possible negative effects of the grant on labour supply, fraud, exclusion errors, payment costs or local prices. The correct interpretation is therefore a transparent partial welfare account, not a total social balance sheet.
+
+---
+
+# PART VII: Paper 1 meets Paper 2
+
+## Factories now face a hurdle rate
+
+Paper 1 estimated the 2026 present value of the industrial programme's terminal public asset plus annual recoverable public cash at **R42.2 billion in the worst case, R233.3 billion in the average case and R693.7 billion in the best case**. Those values can now be compared with the no-grant welfare cost.
+
+Against the conservative welfare estimate, the average industrial outcome is approximately break-even before considering unpriced effects: it falls short by about R4 billion. Against the central estimate it falls short by R194 billion. The best industrial outcome exceeds the central welfare cost by about **R267 billion**, but fails to clear the severe cost by about R49 billion.
+
+![Industrial welfare matrix](assets/industrial-welfare-matrix.png)
+
+*Figure 7. Paper 1 public industrial value less Paper 2 welfare cost. Positive cells mean the industrial value clears the stated hardship scenario before unpriced distributional and social risks.*
+
+The matrix changes the policy claim. It is no longer enough to say that R253.5 billion could become R304 billion of productive assets. Under the central welfare valuation, an average industrial outcome destroys net social value even though the public asset survives. The programme must be closer to exceptional than average, or it must be financed without removing the minimum income floor.
+
+## National gain is not personal compensation
+
+Suppose the best industrial case creates a large asset and many lasting jobs. It still does not follow that former recipients receive those jobs. Industrial employment may demand specific skills, be concentrated in different provinces, arrive years later or go to people who were children during the grant period. Some original recipients will have aged, moved, become disabled, found other work or died.
+
+An illustrative matching exercise makes the scale visible. If the best 2050 asset supports one lasting job per R1.0 million of capital and former recipient households capture 25 per cent of those jobs, approximately **197,000 jobs** reach that group. That is equal to only **2.46 per cent** of an eight-million-recipient benchmark. Under the average case, the comparable number is around 30,000; under the worst, roughly 1,000.
+
+![Jobs compensation](assets/jobs-compensation.png)
+
+*Figure 8. An illustrative access test, not an employment forecast. Capital per job and the former-recipient capture share are assumptions designed to show that aggregate job creation and compensation are different questions.*
+
+The point is not that industrial employment is unimportant. It is that “jobs later” cannot settle a debt to “households now” without a transmission mechanism. If compensation matters, the programme needs explicit bridges: geographic targeting, training guarantees, transport links, procurement from recipient communities, worker ownership, or a share of dividends returned through social protection.
+
+## Can later industrial employment compensate recipients?
+
+Later employment can compensate in three senses, and each has a different test.
+
+**Fiscal compensation** occurs if industrial taxes and dividends eventually finance transfers or services worth more than the grant. This can happen even when former recipients are not hired, but it requires a durable public claim on returns.
+
+**Household compensation** occurs if the same people or their households receive jobs, wages, supplier contracts or asset ownership sufficient to exceed their earlier losses. This requires matching, not aggregate job counts.
+
+**National compensation** occurs if total social gains exceed total social costs even though winners and losers differ. This is the weakest ethical standard and the easiest to satisfy on paper. It is credible only if the political system openly accepts the distributional choice or compensates losers.
+
+Paper 1's best case plausibly achieves national compensation against the central ledger. It does not demonstrate household compensation. The average case achieves neither under central assumptions.
+
+## The better counterfactual is rarely all-or-nothing
+
+The original thought experiment diverts the entire grant envelope into industry. Real policy has more options. Government can preserve a minimum income floor while financing industrial capital through a mixture of reprioritisation from lower-value programmes, windfall revenue, development-finance co-investment, infrastructure bonds tied to bankable cash flows, pension-fund participation with proper risk pricing, or a smaller phased public contribution.
+
+The welfare hurdle also suggests sequencing. Keep relief in place while unemployment and food insecurity are acute. Build the investment institution, pipeline and governance capacity first. Divert money only as projects become ready and when recipients have credible alternatives. A delayed but disciplined industrial programme may dominate an immediate transfer cut followed by years of undeployed cash.
+
+---
+
+# PART VIII: Social stability and policy design
+
+## Crime and unrest belong in the risk register
+
+Income loss can increase private desperation, weaken informal trade, create arrears and intensify conflict over services. Those pathways can contribute to crime or protest. But causal attribution is difficult: crime and unrest also respond to policing, politics, prices, organised networks, local leadership, inequality and triggering events.
+
+The model therefore uses a qualitative risk ladder rather than attaching an arbitrary rand value. Private coping comes first. Local strain follows as demand falls and arrears spread. Public friction may then rise through protest, crime risk and service conflict. In the tail lies systemic shock: unrest, emergency spending and lost capital.
+
+![Social risk ladder](assets/social-risk-ladder.png)
+
+*Figure 9. A plausible escalation sequence, not a prediction. The final stage is deliberately unpriced because rare-event distributions and attribution are too uncertain for a credible central estimate.*
+
+This treatment is conservative in one sense: a major episode could overwhelm the priced ledger. It is cautious in another: the paper does not claim that paying R350 prevents unrest. The Public Service Commission concluded that pandemic relief reduced vulnerability and supported social stability, but that broad assessment cannot isolate the causal effect of SRD from other relief and institutions. [Public Service Commission, Assessment of COVID-19 Mitigating Mechanisms](https://www.psc.gov.za/documents/reports/2022/COVID19_Mitigating_Mechanisms_Report_March_2022_F.pdf).
+
+## A welfare-aware industrial policy
+
+A policy that wants both protection and production should use four rules.
+
+**First, protect the subsistence floor.** The portion of the grant that prevents food poverty should not be treated as the easiest discretionary line to convert into capital. If targeting improves, savings should come from reduced leakage and higher-income recipients rather than from the last rand of food expenditure.
+
+**Second, charge every industrial project the full social hurdle.** Project appraisal should include the financing cost, deployment delay, expected impairment and the welfare cost of any transfer withdrawn to fund it. A positive accounting return is insufficient.
+
+**Third, make compensation concrete.** If poor households finance an asset through foregone transfers, give them a traceable claim: community equity, a social dividend, training places, supplier access or a legally protected future revenue stream. Vague promises of national growth are not compensation contracts.
+
+**Fourth, separate emergency relief from permanent income policy.** A crisis grant can be temporary while the structural problem remains. The long-run choice should be made openly among a permanent income floor, unemployment insurance reform, job-search support, public employment and industrial policy. Repeated annual extensions without a settled design make both households and investors plan under uncertainty.
+
+## The verdict
+
+Had the SRD grant never been introduced, South Africa would have conserved a large fiscal resource. It would also have removed a concentrated stream of purchasing power from households facing mass unemployment and severe food insecurity. The immediate consequences would likely have included lower consumption, deeper poverty, weaker informal demand and more private coping through debt and transfers from other household members. The risk of persistent health, education and labour-market harm would have risen.
+
+The explicit welfare price is **R237 billion to R743 billion**, with **R427 billion** as the central scenario. The estimate is uncertain, but zero is not a plausible default. Once that cost is placed beside Paper 1, the industrialisation counterfactual becomes demanding: the average industrial outcome fails, the worst case fails decisively, and only the best case produces a comfortable central surplus.
+
+The policy lesson is not “pay grants instead of building factories.” It is: **do not finance factories by pretending the people who surrender food, liquidity and resilience have surrendered nothing**. Protect the minimum floor, build only projects that clear the full social hurdle, and give the households that financed the transition a visible claim on the future asset.
+
+---
+
+# APPENDIX A: Scenario book
+
+## Core assumptions
+
+| Assumption | Conservative | Central | Severe |
+|---|---:|---:|---:|
+| Share of grant used for consumption | 80% | 93% | 99% |
+| Local activity multiplier | 1.10 | 1.25 | 1.45 |
+| Welfare weight on low-income consumption | 1.10 | 1.50 | 2.00 |
+| Missing cash temporarily replaced by credit | 10% | 20% | 30% |
+| Real annual cost of replacement credit | 15% | 25% | 35% |
+| Average persistence of credit burden | 2 years | 3 years | 4 years |
+| Health and human-capital scarring allowance | 2% of envelope | 8% | 20% |
+| Labour-income enablement lost | R0.9bn | R4.6bn | R13.5bn |
+| Additional poverty exposure | 2.48m person-years | 6.35m | 11.0m |
+
+The assumptions are intentionally legible. Consumption share describes how much of the transfer becomes direct household spending. The local multiplier describes gross circulation and is not included in the welfare total. The welfare weight is a social-value judgement. Credit cost counts only the extra burden of substitution. Scarring is a compact allowance for persistence. Labour income is small because causal evidence varies by study and period.
+
+## Annual real resource base
+
+| Fiscal year | Constant 2026 value used |
+|---|---:|
+| 2020/21 | R26.04bn |
+| 2021/22 | R40.78bn |
+| 2022/23 | R35.85bn |
+| 2023/24 | R37.60bn |
+| 2024/25 | R37.64bn |
+| 2025/26 | R38.73bn |
+| 2026/27 | R36.89bn |
+| **Total** | **R253.54bn** |
+
+This is the same constant-rand programme ledger used in Paper 1. Historical years combine reported expenditure; the latest years include a revised estimate and a budget allocation. The 2026 Budget Review extends SRD at R370 a month to 31 March 2027, while Vote 19 provides the programme allocation used here. [National Treasury, 2026 Budget Review](https://www.treasury.gov.za/documents/National%20Budget/2026/review/FullBR.pdf); [National Treasury, 2026 ENE Vote 19](https://www.treasury.gov.za/documents/National%20Budget/2026/ene/Vote%2019%20Social%20Development.pdf).
+
+## Sensitivity: remove the welfare weight
+
+A reader may prefer a strictly unweighted consumption ledger. Under that interpretation, the central direct consumption loss is R235.8 billion rather than R353.7 billion. Adding the same central credit, scarring and labour components produces approximately **R309.0 billion**, or R1.22 per rand withheld. This remains above Paper 1's average industrial public value of R233.3 billion.
+
+At the opposite extreme, a reader may argue that a rand preventing hunger should receive more than a weight of two. The severe figure would rise. The purpose of presenting the weight separately is to expose the ethical choice rather than hiding it in technical language.
+
+## Sensitivity: no credit or scarring
+
+If all debt, health, child and labour pathways are set to zero, the minimum central valuation becomes the weighted consumption component alone: R353.7 billion. If the central welfare weight is also removed, it becomes R235.8 billion. The first remains well above the average industrial result; the second is close to it. This identifies the decisive hinge: an all-or-nothing industrial diversion is defensible only if both the social value of low-income consumption is treated narrowly and the industrial programme performs at least around the average case.
+
+---
+
+# APPENDIX B: Evidence map and limitations
+
+## What is observed and what is assumed
+
+| Topic | Evidence used | Model treatment |
+|---|---|---|
+| Programme scale | DSD and National Treasury expenditure and budget documents | Historical/revised ledger in constant 2026 rand |
+| Poverty lines | Statistics South Africa, May 2026 | Context; not used to infer recipient income precisely |
+| Household use | DSD rapid assessment | Supports high consumption share and household diffusion |
+| Pandemic poverty effect | Bassier, Budlender and Goldman | Anchors first two years at 0.7m-2.0m people |
+| Food insecurity | NIDS-CRAM | Establishes crisis baseline and coping constraints |
+| Local informal economy | Plagerson and co-authors | Supports mechanism; multiplier remains a scenario |
+| Labour outcomes | Köhler/Bhorat and later Bhorat/Köhler/de Villiers | Small priced allowance; no single treatment effect imposed |
+| Child poverty | Statistics South Africa | Motivates household and persistence analysis |
+| Debt substitution | General household coping logic | Explicit scenario; no claim of measured national SRD effect |
+| Health and human capital | Established pathway, weak programme-specific pricing | Transparent surcharge |
+| Crime and unrest | Plausible mechanism, weak causal attribution | Qualitative and unpriced |
+
+## Major limitations
+
+**No recipient-level microsimulation.** The model does not reconstruct every household's income, grant combination, location and composition. It cannot show precisely how many people cross each poverty line in each month.
+
+**No general-equilibrium closure.** Taxes, imports, monetary policy, labour demand, inflation, exchange rates and government borrowing are not solved together. Local activity is a scenario display rather than a national GDP estimate.
+
+**No precise counterfactual financing path.** “Never introduced” could mean lower borrowing, lower taxes, higher other spending or the industrial fund in Paper 1. Each changes second-round effects. The comparison uses the Paper 1 reprioritisation case.
+
+**Selection and implementation matter.** Surveyed grant applicants are not interchangeable with all unemployed people. Administrative exclusions, delayed payments and take-up affect realised impacts. The model works from programme envelopes, not perfect monthly receipt.
+
+**Pandemic estimates do not automatically generalise.** Behaviour during lockdown differed from later years. This is why only the first two poverty years are research-anchored and the later path declines.
+
+**Welfare-equivalent rand are not fiscal rand.** The distributional weight is a social valuation. It is appropriate for comparing policy choices, not for entering a departmental budget or estimating tax revenue.
+
+## Reproducibility
+
+The accompanying model stores the annual constant-rand envelope, all three assumption sets, poverty paths and Paper 1 comparison values. It generates every figure from the same scenario ledger. Results are rounded for the report; calculations use unrounded values. The model contains no hidden optimisation and no visible equations are required to follow the argument.
+
+---
+
+# APPENDIX C: Source ledger
+
+## Public finance and programme design
+
+- [National Treasury, Estimates of National Expenditure 2026, Vote 19: Social Development](https://www.treasury.gov.za/documents/National%20Budget/2026/ene/Vote%2019%20Social%20Development.pdf)
+- [National Treasury, Budget Review 2026](https://www.treasury.gov.za/documents/National%20Budget/2026/review/FullBR.pdf)
+- [Parliamentary Budget Office, Pre-budget Brief on the SRD Grant, February 2025](https://www.parliament.gov.za/storage/app/media/PBO/Budget_Analysis/2025/17-02-2025/PBO_pre_budget_brief_on_SRD_Feb_2025.pdf)
+- [Department of Social Development, Rapid Assessment of the SRD Grant](https://www.gov.za/sites/default/files/gcis_documents/Final%20Special%20COVID19%20SRD%20Grant%20Report.pdf)
+
+## Poverty, hunger and children
+
+- [Statistics South Africa, National Poverty Lines 2026](https://www.statssa.gov.za/publications/P03101/P031012026.pdf)
+- [Statistics South Africa, Poverty Trends in South Africa 2023](https://www.statssa.gov.za/publications/Report-03-10-06/Report-03-10-062023.pdf)
+- [Statistics South Africa, Child Poverty in South Africa 2026](https://www.statssa.gov.za/?p=19395)
+- [Bassier, Budlender and Goldman, Social Protection During South Africa's National Lockdown](https://sa-tied-archive.wider.unu.edu/sites/default/files/SA-TIED-WP210.pdf)
+- [NIDS-CRAM, Hunger in South Africa: Results from Wave 4](https://cramsurvey.org/wp-content/uploads/2021/05/11.-Van-der-Berg-S.-Patel-L.-_-Bridgman-G.-2021-Hunger-in-South-Africa-Results-from-Wave-4-of-NIDS-CRAM.pdf)
+- [World Bank, South Africa Social Assistance Programs and Systems Review](https://documents1.worldbank.org/curated/en/398231633427716574/pdf/South-Africa-Social-Assistance-Programs-and-Systems-Review-Policy-Brief.pdf)
+
+## Labour and local economic effects
+
+- [Köhler and Bhorat, Can Cash Transfers Aid Labour Market Recovery?](https://africaportal.org/wp-content/uploads/2023/06/DPRU_WP_202108.pdf)
+- [Bhorat, Köhler and de Villiers, Cash Transfers to the Unemployed and Economic Activity](https://www.afd.fr/sites/default/files/2023-03-02-12-20/Cash-Transfers-to-the-Unemployed_Economic-Activity_South-Africa.pdf)
+- [Plagerson and co-authors, Local Economic Development Effects of Income Transfers](https://www.afd.fr/sites/afd/files/2023-05-04-18-29/The-local-economic-development-effects-of-income-transfers-in-South-Africa.pdf)
+- [Statistics South Africa, Quarterly Labour Force Survey Q2 2026](https://www.statssa.gov.za/publications/P0211/Media%20Release%20QLFS%20Q2%202026.pdf)
+
+## Reading note
+
+Sources are used at different levels of confidence. Official documents establish programme amounts and national poverty benchmarks. Quasi-experimental and simulation papers inform poverty and labour mechanisms. Qualitative research supports local-economy pathways. Scenario assumptions fill gaps where no credible national causal estimate exists. A number appearing in a chart should therefore be read together with its status label, not detached from it.

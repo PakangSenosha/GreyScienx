@@ -1,0 +1,187 @@
+{
+  "resource_envelope_r_bn_2026": 253.54,
+  "stage_value_weights": {
+    "Resource": 0.12,
+    "Primary\nrefining": 0.16,
+    "Advanced\nmaterials": 0.2,
+    "Core\ncomponents": 0.22,
+    "System\nassembly": 0.22,
+    "Services &\nrecycling": 0.08
+  },
+  "portfolio_local_value_share": {
+    "Current footprint": 0.376,
+    "Focused integration": 0.6629,
+    "Frontier partnership": 0.8141
+  },
+  "chain_local_value_share": {
+    "Current footprint": {
+      "Manganese": 0.2832,
+      "PGM / hydrogen": 0.44,
+      "Vanadium / VRFB": 0.435
+    },
+    "Focused integration": {
+      "Manganese": 0.615,
+      "PGM / hydrogen": 0.6968,
+      "Vanadium / VRFB": 0.692
+    },
+    "Frontier partnership": {
+      "Manganese": 0.7744,
+      "PGM / hydrogen": 0.8446,
+      "Vanadium / VRFB": 0.835
+    }
+  },
+  "capital_allocation_r_bn": {
+    "Power, water, rail and ports": 76.06,
+    "Manganese materials hub": 43.1,
+    "PGM and hydrogen components": 38.03,
+    "Vanadium and VRFB chain": 27.89,
+    "Shared chemicals and parks": 25.35,
+    "Supplier and working capital": 17.75,
+    "R&D, testing, skills and IP": 15.21,
+    "Contingency and closure reserve": 10.14
+  },
+  "bottleneck_scores": {
+    "Reliable, competitively priced power": 95,
+    "Bankable long-term offtake": 92,
+    "Project governance and commissioning": 90,
+    "Technology licensing and operating partner": 84,
+    "Rail, port and specialised logistics": 80,
+    "Water, reagents and effluent treatment": 75,
+    "Process-engineering and production skills": 72,
+    "Supplier finance and working capital": 64
+  },
+  "readiness_items": [
+    {
+      "item": "Manganese ore",
+      "chain": "Manganese",
+      "readiness": 91,
+      "strategic_upside": 38,
+      "capital_intensity": 20
+    },
+    {
+      "item": "Manganese alloys",
+      "chain": "Manganese",
+      "readiness": 63,
+      "strategic_upside": 54,
+      "capital_intensity": 48
+    },
+    {
+      "item": "High-purity Mn sulphate",
+      "chain": "Manganese",
+      "readiness": 74,
+      "strategic_upside": 91,
+      "capital_intensity": 43
+    },
+    {
+      "item": "Precursor / cathode material",
+      "chain": "Manganese",
+      "readiness": 58,
+      "strategic_upside": 84,
+      "capital_intensity": 67
+    },
+    {
+      "item": "Battery cells",
+      "chain": "Manganese",
+      "readiness": 30,
+      "strategic_upside": 88,
+      "capital_intensity": 96
+    },
+    {
+      "item": "Pack, BMS and integration",
+      "chain": "Manganese",
+      "readiness": 68,
+      "strategic_upside": 70,
+      "capital_intensity": 44
+    },
+    {
+      "item": "PGM refining",
+      "chain": "PGM / hydrogen",
+      "readiness": 86,
+      "strategic_upside": 58,
+      "capital_intensity": 42
+    },
+    {
+      "item": "Catalyst powder and inks",
+      "chain": "PGM / hydrogen",
+      "readiness": 72,
+      "strategic_upside": 86,
+      "capital_intensity": 38
+    },
+    {
+      "item": "Membrane-electrode assemblies",
+      "chain": "PGM / hydrogen",
+      "readiness": 58,
+      "strategic_upside": 90,
+      "capital_intensity": 55
+    },
+    {
+      "item": "Electrolyser / fuel-cell stacks",
+      "chain": "PGM / hydrogen",
+      "readiness": 46,
+      "strategic_upside": 82,
+      "capital_intensity": 72
+    },
+    {
+      "item": "Hydrogen system integration",
+      "chain": "PGM / hydrogen",
+      "readiness": 52,
+      "strategic_upside": 77,
+      "capital_intensity": 78
+    },
+    {
+      "item": "PGM recycling",
+      "chain": "PGM / hydrogen",
+      "readiness": 78,
+      "strategic_upside": 74,
+      "capital_intensity": 34
+    },
+    {
+      "item": "Vanadium pentoxide",
+      "chain": "Vanadium / VRFB",
+      "readiness": 70,
+      "strategic_upside": 59,
+      "capital_intensity": 45
+    },
+    {
+      "item": "VRFB electrolyte",
+      "chain": "Vanadium / VRFB",
+      "readiness": 79,
+      "strategic_upside": 79,
+      "capital_intensity": 32
+    },
+    {
+      "item": "Stack materials",
+      "chain": "Vanadium / VRFB",
+      "readiness": 50,
+      "strategic_upside": 72,
+      "capital_intensity": 52
+    },
+    {
+      "item": "VRFB stacks",
+      "chain": "Vanadium / VRFB",
+      "readiness": 57,
+      "strategic_upside": 82,
+      "capital_intensity": 61
+    },
+    {
+      "item": "VRFB system integration",
+      "chain": "Vanadium / VRFB",
+      "readiness": 72,
+      "strategic_upside": 75,
+      "capital_intensity": 55
+    },
+    {
+      "item": "Electrolyte leasing / recovery",
+      "chain": "Vanadium / VRFB",
+      "readiness": 73,
+      "strategic_upside": 77,
+      "capital_intensity": 36
+    }
+  ],
+  "interpretation": {
+    "focused_capture_percent": 66.3,
+    "frontier_capture_percent": 81.4,
+    "current_capture_percent": 37.6,
+    "note": "All localisation shares, stage weights, readiness scores and capital allocations are transparent scenarios, not forecasts or investment advice."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "valuation_basis": "constant 2026 rand unless stated",
+  "completed_nominal_spending_through_2025_26_r_billion": 188.95,
+  "current_2026_27_allocation_r_billion": 36.89,
+  "programme_envelope_through_2026_27_nominal_r_billion": 225.84,
+  "programme_envelope_constant_2026_r_billion": 253.54,
+  "gross_mechanical_fund_at_march_2027_nominal_r_billion": {
+    "4%": 256.82,
+    "8%": 292.22,
+    "12%": 332.6
+  },
+  "real_associated_debt_cost": 0.048,
+  "scenarios": {
+    "Best": {
+      "assumptions": {
+        "deployment_lag_years": 2,
+        "capital_survival_share": 0.92,
+        "real_asset_growth": 0.05,
+        "public_cash_yield": 0.05
+      },
+      "2026": {
+        "productive_asset": 179.87,
+        "pipeline_cash": 75.62,
+        "book_value": 255.49,
+        "associated_debt": 291.4,
+        "net_borrowed_position": -18.91
+      },
+      "2050": {
+        "productive_asset": 788.82,
+        "annual_public_cash": 39.44,
+        "cumulative_public_cash": 583.35,
+        "associated_debt": 897.76,
+        "net_borrowed_position": 474.4
+      },
+      "productive_asset_per_real_rand_2050": 3.11
+    },
+    "Average": {
+      "assumptions": {
+        "deployment_lag_years": 4,
+        "capital_survival_share": 0.68,
+        "real_asset_growth": 0.025,
+        "public_cash_yield": 0.03
+      },
+      "2026": {
+        "productive_asset": 71.41,
+        "pipeline_cash": 150.86,
+        "book_value": 222.27,
+        "associated_debt": 291.4,
+        "net_borrowed_position": -67.18
+      },
+      "2050": {
+        "productive_asset": 303.68,
+        "annual_public_cash": 9.11,
+        "cumulative_public_cash": 161.47,
+        "associated_debt": 897.76,
+        "net_borrowed_position": -432.61
+      },
+      "productive_asset_per_real_rand_2050": 1.2
+    },
+    "Worst": {
+      "assumptions": {
+        "deployment_lag_years": 6,
+        "capital_survival_share": 0.35,
+        "real_asset_growth": -0.01,
+        "public_cash_yield": 0.01
+      },
+      "2026": {
+        "productive_asset": 9.12,
+        "pipeline_cash": 227.49,
+        "book_value": 236.61,
+        "associated_debt": 291.4,
+        "net_borrowed_position": -54.79
+      },
+      "2050": {
+        "productive_asset": 71.95,
+        "annual_public_cash": 0.72,
+        "cumulative_public_cash": 16.62,
+        "associated_debt": 897.76,
+        "net_borrowed_position": -809.19
+      },
+      "productive_asset_per_real_rand_2050": 0.28
+    }
+  }
+}

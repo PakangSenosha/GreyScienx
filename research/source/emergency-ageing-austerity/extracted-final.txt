@@ -1,0 +1,778 @@
+GREYSCIENX RESEARCH | STUDY V
+
+Emergency Ageing
+Austerity
+Closing a fiscal gap without choosing a sacrificial generation
+
+R150bn
+
+13
+
+5
+
+Hypothetical annual fiscal gap
+
+Tax, pension, service and debt levers
+
+Efficient policy packages compared
+
+South Africa | Distributional fiscal simulator | Constant 2026 rand
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+Inside the note
+A map of the argument, model, evidence, and qualifications.
+
+Part I: The finding
+
+3
+
+Part II: What is an ageing emergency?
+
+4
+
+Part III: The thirteen levers
+
+5
+
+Part IV: How the simulator judges a package
+
+6
+
+Part V: Capacity and timing
+
+7
+
+Part VI: Five efficient combinations
+
+8
+
+Part VII: Who pays?
+
+9
+
+Part VIII: The efficient frontier
+
+10
+
+Part IX: Taxes and pre-funding
+
+11
+
+Part X: Pension policy is not one lever
+
+12
+
+Part XI: Inflation, services and debt
+
+13
+
+Part XII: The policy answer
+
+14
+
+Notes: Scope, limitations and sources
+
+15
+
+Study V | September 2026
+
+02
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART I
+
+The finding
+
+Part I: The finding
+There is no painless ageing-austerity package. There are only different choices about who pays, when they pay and
+whether the adjustment protects future productive capacity.
+This study imposes a hypothetical R150 billion annual ageing-related fiscal gap in constant 2026 rand. It then asks
+thirteen policy levers to close it: worker and consumption taxes, pension contributions, a later retirement age, benefit
+reductions, means testing, solidarity taxes, pension-wealth taxation, weaker indexation, inflation, healthcare cuts,
+non-age spending cuts and borrowing.
+Five packages sit near different points of the political and welfare trade-off. All close R150 billion once fully
+implemented. None is declared the single correct answer.
+Package
+
+Welfare-loss index
+
+Political resistance
+
+Year-one borrowing
+
+Debt after 10 years
+
+Balanced transition
+
+64.5
+
+98.2
+
+R67bn
+
+R394bn
+
+Targeted solidarity
+
+68.4
+
+99.1
+
+R43bn
+
+R272bn
+
+Work-and-save transition
+
+66.0
+
+96.2
+
+R52bn
+
+R292bn
+
+Protect basic benefits
+
+69.0
+
+94.1
+
+R52bn
+
+R384bn
+
+Low visible pain
+
+107.3
+
+53.5
+
+R75bn
+
+R720bn
+
+Lower index values are better. These are internal model scores, not percentages and not estimates of national
+wellbeing.
+The balanced transition has the lowest total welfare loss among the five selected packages. It uses R57 billion of
+targeted pension measures, R24 billion of additional pre-funding, R26 billion of worker tax, R22 billion from a phased
+retirement-age change, R6 billion of weaker indexation and R15 billion of continuing borrowing. It avoids healthcare
+and non-age service cuts.
+The targeted-solidarity package is slightly more costly in the welfare index but creates the smallest ten-year debt
+bridge because more of its adjustment works immediately. It leans more heavily on current taxes and affluent
+pensioners while avoiding a higher retirement age and broad benefit restraint.
+The politically easiest package is the worst social bargain. "Low visible pain" avoids large visible tax and benefit changes
+by using inflation, diffuse spending cuts and R52.5 billion of continuing annual borrowing. Its political-resistance score
+is almost half that of the balanced package, but its welfare loss is two-thirds higher and its emergency debt reaches
+about R720 billion after ten years.
+
+The efficient answer is a portfolio: target capacity to pay, preserve basic benefits and high-return
+services, announce slow reforms early, and use borrowing only as a bridge. Political invisibility is not
+economic efficiency.
+
+Study V | September 2026
+
+03
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART II
+
+What is an ageing emergency?
+
+Part II: What is an ageing emergency?
+An ageing-related deficit is the part of the public shortfall created when age-linked spending and healthcare grow
+faster than the tax base that supports them. It is not identical to the current budget deficit. A government can have an
+ageing gap while its headline budget is balanced, or a large budget deficit for reasons unrelated to ageing.
+The R150 billion figure is a stress-test target, not a forecast. It is large enough to require genuine trade-offs but smaller
+than South Africa's present annual debt-service bill. It is roughly 5.6 percent of the R2.67 trillion in spending announced
+in the 2026 Budget Speech.
+The pressure is plausible in direction. Statistics South Africa reports that the number of people aged 60 or older rose
+from 3.6 million in 2002 to 6.6 million in 2025. Grants were the main income source for 60.1 percent of
+older-person-headed households in 2024, while 68.5 percent of older people relied on public health facilities.
+National Treasury's 2026 Estimates of National Expenditure reports about 4.2 million old-age grant beneficiaries in
+2025/26 and a target of 4.3 million in 2026/27. The Budget Speech sets the old-age grant at R2,400 a month from April
+2026 and allocates R292.8 billion to all social grants.
+The emergency begins when ordinary parameter changes are postponed for so long that government must adjust
+quickly. A one-year delay may appear compassionate, but repeated delay narrows the menu. Gradual contribution
+changes and retirement-age transitions no longer arrive in time, leaving abrupt taxes, broad benefit cuts, service
+reductions, inflation or borrowing.
+
+Study V | September 2026
+
+04
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART III
+
+The thirteen levers
+
+Part III: The thirteen levers
+Each policy is capped at a deliberately visible but not unlimited level. The fiscal yield is the maximum mature annual
+contribution assigned by the model. These are scenario capacities, not official costings.
+Intervention
+
+Modelled maximum
+
+Mature annual yield
+
+First-year share
+
+Worker income-tax surcharge
+
++3 points
+
+R100bn
+
+100%
+
+Broad consumption-tax increase
+
++2 points
+
+R55bn
+
+100%
+
+Higher retirement contributions
+
++4 points
+
+R24bn
+
+10%
+
+Raise pension and grant age
+
++5 years
+
+R55bn
+
+18%
+
+Reduce pension benefits
+
+-10%
+
+R36bn
+
+100%
+
+Means-test affluent pensioners
+
+Top quarter targeted
+
+R30bn
+
+72%
+
+Solidarity tax on high pensions
+
++5 points
+
+R18bn
+
+100%
+
+Tax private pension wealth
+
+0.5% annually
+
+R25bn
+
+85%
+
+Index benefits below inflation
+
+3 points below CPI
+
+R28bn
+
+32%
+
+Inflation surprise
+
++5 points
+
+R42bn
+
+100%
+
+Reduce age-related healthcare
+
+-10%
+
+R35bn
+
+100%
+
+Cut non-age government spending
+
+-5%
+
+R80bn
+
+100%
+
+Additional annual borrowing
+
+R75bn
+
+R75bn
+
+100%
+
+The contribution lever measures reduced future public dependence once higher private saving has matured. It does not
+pretend that pension contributions are immediate tax revenue. The retirement-age and indexation levers also phase in.
+Borrowing closes a cash gap today but never closes the structural gap; it moves the bill forward and adds interest.
+The model divides every lever into five tranches. Early tranches have lower welfare and political costs. Later tranches
+become progressively more painful. This captures a basic policy reality without equations: the first rand from a broad
+tax base is usually easier than the last, and moderate reform is less disruptive than forcing one instrument to its limit.
+
+Study V | September 2026
+
+05
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART IV
+
+How the simulator judges a package
+
+Part IV: How the simulator judges a package
+The simulator applies four tests.
+First, a mature package must close the full R150 billion annual gap. Second, it records how quickly the structural
+measures arrive and fills the transition shortfall with borrowing. Third, it assigns the welfare loss to workers, pensioners,
+children and future taxpayers. Fourth, it gives each intervention a political-resistance cost based on visibility,
+concentration and likely organisation.
+Group
+
+Typical burdens in the model
+
+Why the burden matters
+
+Workers
+
+Income tax, consumption tax,
+contributions and some inflation
+
+Lower disposable income can reduce
+consumption and labour supply
+
+Pensioners
+
+Retirement-age changes, benefits,
+indexation, health and targeted taxes
+
+Fixed incomes and short adjustment
+horizons raise vulnerability
+
+Children
+
+Consumption tax and cuts to education
+or household services
+
+Losses can compound across an entire
+lifetime
+
+Future taxpayers
+
+Borrowing and foregone productive
+investment
+
+They pay without voting in the decision
+
+The welfare weights distinguish a rand transferred from a high pension income from a rand removed from a basic grant
+or essential treatment. Means testing and solidarity taxes therefore impose less welfare loss per rand raised than broad
+benefit or healthcare cuts. Higher contributions also receive a relatively low cost because most of the contribution
+becomes the worker's asset, although current liquidity still falls.
+The political score is deliberately different. Borrowing, inflation and diffuse spending restraint initially face less
+resistance than a visible pension cut or retirement-age increase. The model does not reward that invisibility as welfare.
+It exposes the divergence.
+The optimisation is not a moral calculator. Its weights are declared assumptions. It omits administrative gaming, tax
+avoidance, labour-market responses, party competition and legal constraints. The ranking is useful only to the extent
+that the reader agrees with the relative burdens.
+
+Study V | September 2026
+
+06
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART V
+
+Capacity and timing
+
+Part V: Capacity and timing
+No single bounded intervention closes the R150 billion gap. A maximum worker income-tax surcharge reaches R100
+billion in the model, non-age cuts R80 billion and borrowing R75 billion. Every other lever is smaller.
+
+Figure 1. Grey bars show mature annual fiscal capacity; coral bars show the first-year effect. Higher contributions, retirement ages and indexation
+changes need time.
+
+The timing difference changes emergency policy. Taxes, broad benefit cuts, healthcare cuts and borrowing can affect
+the first budget immediately. A later retirement age applies only to newly affected cohorts if it is phased fairly. Higher
+contributions reduce disposable income now but reduce public dependence much later. Lower indexation begins
+gently and compounds.
+This creates a two-part problem. Government needs a structural package that eventually closes R150 billion and a
+financing plan for the years before it matures. Treating these as one decision creates two common errors: counting
+future pension savings as cash available today, or treating temporary borrowing as a permanent solution.
+
+Study V | September 2026
+
+07
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART VI
+
+Five efficient combinations
+
+Part VI: Five efficient combinations
+The five packages are constrained optimisations. Each protects a different value and then selects the least costly
+available tranches under that constraint.
+
+Figure 2. Mature annual contribution to the R150 billion gap. "Borrowing" is the annual portion that remains unclosed structurally even after the
+package matures.
+
+Package
+
+Main design choice
+
+What it avoids
+
+Balanced transition
+
+Diversified targeted measures,
+pre-funding, modest tax and age reform
+
+Health and non-age service cuts
+
+Targeted solidarity
+
+Affluent-pension measures plus current
+tax
+
+Retirement-age and broad benefit
+reductions
+
+Work-and-save transition
+
+Contributions, limited age change and
+targeted pension revenue
+
+Large service cuts and inflation
+
+Protect basic benefits
+
+Taxes, pre-funding and affluent-pension
+measures
+
+Basic benefit, indexation and healthcare
+cuts
+
+Low visible pain
+
+Borrowing, inflation and diffuse cuts
+
+Large visible current tax or pension
+reform
+
+The balanced package uses the full four-point contribution increase, all three targeted pension instruments and
+roughly a two-year age movement. Targeted solidarity replaces age and broad-benefit restraint with R52.8 billion of
+current tax and R62 billion from affluent pensioners, giving it the smallest transition debt. Protect basic benefits avoids
+benefit, indexation and healthcare cuts, but still asks affluent pensioners to contribute.
+
+Study V | September 2026
+
+08
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART VII
+
+Who pays?
+
+Part VII: Who pays?
+Closing the same fiscal gap does not produce the same social outcome. The balanced package assigns 45 percent of its
+modelled welfare loss to pensioners, 33 percent to workers, 5 percent to children and 16 percent to future taxpayers.
+Much of the pensioner share is deliberately concentrated on affluent households.
+
+Figure 3. Shares refer to weighted welfare loss, not rands of tax or spending. A smaller total loss can have a larger percentage assigned to one
+group.
+
+Targeted solidarity shifts 44 percent of welfare loss to workers because it uses more income and consumption tax, while
+pensioners carry 36 percent. The work-and-save package is similar, but slightly less dependent on current taxation and
+more dependent on later work.
+Protecting basic benefits moves 21 percent of loss to future taxpayers, mainly because R21 billion of annual borrowing
+remains after maturity. Low visible pain moves 41 percent of welfare loss to the future and 18 percent to children
+through borrowing, inflation and non-age cuts.
+The figure also reveals an important limitation of generational categories. A worker may be a future pensioner. A
+pensioner may support children in the same household. A child benefits when an old-age grant stabilises household
+food spending. The incidence categories identify the first-round bearer, not the complete household network.
+
+Study V | September 2026
+
+09
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART VIII
+
+The efficient frontier
+
+Part VIII: The efficient frontier
+Welfare efficiency and political ease do not select the same policies. The frontier traces the best available package as
+the optimiser gives progressively more weight to political resistance.
+
+Figure 4. Lower-left is preferred. Named packages include additional distributional protections, so some sit above the unconstrained frontier.
+
+Near the right-hand end, the optimiser minimises total welfare loss. It accepts visible taxes, targeting and pre-funding.
+Moving left reduces political resistance by substituting borrowing, inflation and diffuse cuts. The welfare curve rises
+slowly at first, then sharply as the apparently easy instruments dominate.
+The balanced, work-and-save and targeted packages cluster near a welfare-loss index of 65 to 68 but have resistance
+scores around 96 to 99. This is the central political challenge: the packages that preserve services and limit debt require
+governments to announce who pays.
+Low visible pain has a resistance score of only 53.5, yet its welfare index rises to 107.3. It is not inefficient because the
+model forgot politics. It is inefficient because it optimises politics at the expense of unrepresented or weakly
+represented groups.
+There is no unique point where the frontier becomes morally correct. A government choosing among these packages
+must state its distributional priorities rather than hiding them inside technical language.
+
+Study V | September 2026
+
+10
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART IX
+
+Taxes and pre-funding
+
+Part IX: Taxes and pre-funding
+The tax options differ in both incidence and credibility. A worker income-tax surcharge is progressive if it follows the
+existing schedule, but the tax base is relatively narrow. National Treasury estimates final personal income tax of R844.8
+billion for 2026/27 and about 8.34 million individuals above the tax threshold. A R100 billion maximum model yield is
+therefore substantial, roughly 12 percent of projected personal income tax, and should be read as a high stress-test
+bound. National Treasury
+A broad consumption-tax increase raises revenue quickly and reaches informal as well as formal earners. That breadth
+is its strength and its distributional weakness. Lower-income households consume more of their income, so zero-rating,
+rebates or compensating grants matter. The model assigns a quarter of its welfare burden to children through
+household budgets.
+Higher pension contributions are different. They reduce current take-home pay but build private assets. SARS states
+that deductible retirement-fund contributions are generally limited to 27.5 percent of remuneration or taxable income,
+subject to the statutory cap. The model's four-point increase should fit inside that broad legal context for many
+workers, but not for everyone.
+Pre-funding is economically attractive and fiscally slow. Its full R24 billion modelled relief appears only after ten years. It
+therefore belongs in an early ageing strategy, not as the sole response once the emergency has arrived.
+
+Study V | September 2026
+
+11
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART X
+
+Pension policy is not one lever
+
+Part X: Pension policy is not one lever
+Pension restraint can be targeted by wealth, spread across all benefits, delayed through indexation or imposed through
+a later age. These choices are not equivalent.
+Means testing and a solidarity tax preserve the benefit floor while asking more from people with private capacity. They
+score well on welfare in this model, but they require reliable income and asset information. Poor administration can
+create exclusion errors, avoidance, arbitrary thresholds and high compliance costs.
+A private pension-wealth tax broadens the target but creates valuation and liquidity problems. It may also contradict
+earlier policy promises made to encourage long-term saving. The model therefore gives it a higher political cost than a
+solidarity tax on pension income.
+A broad ten-percent benefit reduction is immediate and administratively simple. It is also blunt. It removes the same
+percentage from a low-income recipient and an affluent pensioner unless the system contains a floor. For that reason,
+none of the four welfare-focused packages uses more than a small fraction of the available broad cut.
+Reduced indexation is slower and less visible. Three percentage points below inflation eventually closes R28 billion in
+the scenario, but only about one-third appears in the first year. Its cumulative character can turn a modest initial
+adjustment into a large real-income loss for the oldest pensioners.
+Raising the pension and grant age creates fiscal savings only if affected people can work or receive suitable bridge
+support. The balanced package uses roughly a two-year shift, while targeted solidarity uses none. This reflects the
+earlier GreyScienx finding that a legal retirement age does not create a job.
+
+Study V | September 2026
+
+12
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART XI
+
+Inflation, services and debt
+
+Part XI: Inflation, services and debt
+Inflation is the most deceptive benefit cut. It reduces the real value of nominal pensions, wages and cash balances
+without a line item called "austerity." It also changes interest rates, exchange rates, contracts and expectations across
+the economy.
+South Africa's monetary framework now targets 3 percent inflation with a one-point tolerance band. The South African
+Reserve Bank describes price stability as protection for purchasing power and a foundation for investment and
+balanced growth. The model's five-point inflation surprise is therefore an adverse scenario, not a policy
+recommendation. Its apparent political ease ignores later monetary tightening and credibility loss.
+Healthcare cuts are visible in suffering rather than in a pension statement. Their maximum model yield is R35 billion,
+but they carry the highest welfare cost per rand. That judgement is reinforced by the high public-health reliance of
+older South Africans reported by Statistics South Africa.
+Non-age cuts can raise more, up to R80 billion in the model, because the spending base is broad. But "non-age" does
+not mean unnecessary. It includes education, housing, transport, safety and economic infrastructure. Reducing it can
+protect current benefits by weakening the future tax base.
+Borrowing is necessary during transition and dangerous as a permanent residual. National Treasury's 2026 Budget
+Review projects debt-service costs at 20.8 percent of main-budget revenue in 2026/27, after 21.3 percent in 2025/26.
+The starting fiscal system therefore has limited room for an open-ended ageing liability.
+
+Figure 5. Annual borrowing covers the difference between the R150 billion gap and structural measures as they mature. Debt compounds at a
+modelled 3 percent real rate.
+
+Ten-year debt ranges from R272 billion under targeted solidarity to R720 billion under low visible pain; the
+work-and-save, basic-benefit and balanced packages lie between R292 billion and R394 billion.
+
+Study V | September 2026
+
+13
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+PART XII
+
+The policy answer
+
+Part XII: The policy answer
+The study does not select one package because the ranking depends on values and timing.
+Choose the balanced transition when the priority is the lowest total welfare loss and government can credibly phase
+reform. Choose targeted solidarity when the emergency is immediate, data systems can distinguish affluent pensioners
+and limiting transition debt matters. Choose work-and-save when the labour market can support later work and
+households can absorb higher contributions. Choose protection of basic benefits when poverty and healthcare risks
+dominate, accepting more tax and borrowing. Reject low visible pain unless a genuine temporary shock makes short
+borrowing unavoidable and a funded exit is legislated at the same time.
+Decision rule
+
+Preferred direction
+
+Main safeguard
+
+Minimise total welfare loss
+
+Balanced mix of targeting, saving, tax and
+gradual age reform
+
+Protect low-income pensioners and
+bridge workers
+
+Minimise transition debt
+
+Targeted solidarity plus current tax
+
+Strong administration and anti-avoidance
+
+Protect basic benefits
+
+Tax affluent pensions and workers,
+pre-fund, borrow modestly
+
+Debt ceiling and scheduled review
+
+Protect children and growth
+
+Avoid health, education and
+infrastructure cuts
+
+Explicit expenditure floors
+
+Reduce visible opposition
+
+Borrowing and hidden real cuts
+
+Recognise that this is politically easy, not
+socially efficient
+
+Six design principles survive every package.
+1. Publish the full incidence: show workers, pensioners, children and future taxpayers separately.
+2. Separate the first-year cash plan from the mature structural plan.
+3. Use capacity-to-pay instruments before basic benefits and essential healthcare.
+4. Preserve education, infrastructure and preventative health because austerity can create the next fiscal crisis.
+5. Put automatic expiry dates on emergency taxes and explicit review dates on benefit rules.
+6. Cap continuing borrowing and disclose the interest-adjusted burden inherited by future taxpayers.
+
+Efficient austerity is not the package with the fewest protests this year. It is the package that closes the
+gap while doing the least lifetime damage and preserving political consent across generations.
+The fiscal arithmetic can identify feasible combinations. It cannot decide how much hardship society owes each group.
+That decision remains political. The model's contribution is to make the exchange explicit: every protected constituency
+creates a payer elsewhere, and every delayed reform creates a future taxpayer who was absent from the vote.
+
+Study V | September 2026
+
+14
+
+GREYSCIENX
+
+GREYSCIENX | AGEING AUSTERITY
+
+NOTES
+
+Scope, limitations and sources
+
+Notes: Scope, limitations and sources
+This is an armchair scenario model, not an actuarial valuation, official fiscal projection, tax forecast or policy
+recommendation. All values are constant 2026 rand. The annual ageing-related gap is fixed at R150 billion. It does not
+grow with GDP, demographics or healthcare prices. The model closes the mature annual gap exactly, but slow
+interventions require transition borrowing.
+Each intervention has a modelled maximum fiscal capacity, first-year realisation share, maturity period, welfare cost,
+political-resistance cost, four-group incidence and vulnerable-pensioner exposure. Each lever is divided into five
+tranches with rising marginal costs. A linear optimiser selects tranches subject to each named package's policy caps.
+The efficient frontier varies the weight placed on political resistance.
+The welfare-loss index divides weighted modelled loss by the R150 billion gap and multiplies by 100. It is an ordinal
+comparison inside this model. It is not a percentage of GDP, happiness or income. The political-resistance index is
+constructed similarly and is not an opinion-poll estimate. Group shares distribute weighted welfare loss, not fiscal cash.
+The transition path assumes a 3 percent real interest rate. Income taxes, consumption taxes, broad benefit cuts,
+inflation, healthcare cuts, non-age cuts and borrowing have their full fiscal effect in year one. Means testing and
+pension-wealth taxation mature over two years, a retirement-age change over six, indexation over five and higher
+contributions over ten.
+The contribution channel is long-run relief from reduced dependence, not revenue paid to the budget. The
+retirement-age channel combines delayed grants or pensions and continued tax contribution, but the model does not
+reproduce occupation-specific employment or disability. The inflation channel omits the full monetary-policy and
+balance-sheet response. Borrowing is counted as cash financing but not structural closure.
+The model omits behavioural tax responses, avoidance, labour supply, unemployment, firm investment, household
+transfers, pension-fund balance sheets, public-service pension rules, medical inflation, provincial budgets, legal rights,
+administration, take-up and distribution within the four broad groups. Affluent-pension measures are assumed to be
+administratively possible. In practice, data quality and avoidance could materially reduce yield.
+Primary context comes from Statistics South Africa's older-population report, the 2026 Budget Speech, the 2026
+Estimates of National Expenditure, the 2026 Budget Review fiscal-policy chapter, its tax-policy chapter, the SARS
+retirement-contribution guidance and the South African Reserve Bank's April 2026 Monetary Policy Review.
+
+Study V | September 2026
+
+15
+
+

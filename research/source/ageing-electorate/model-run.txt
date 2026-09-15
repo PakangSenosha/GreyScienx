@@ -1,0 +1,224 @@
+{
+  "Renewal": {
+    "status_quo": {
+      "older_overtakes_young": 2040,
+      "median_voter_reaches_60": null,
+      "metrics_2025": {
+        "adult_median": 39.0,
+        "voter_median": 43.0,
+        "older_adult_share": 15.102974828375284,
+        "older_vote_share": 20.742049333250623,
+        "young_adult_share": 40.658900441212666,
+        "young_vote_share": 34.32204483913333,
+        "youth_support": 71.8685884970006
+      },
+      "metrics_2100": {
+        "adult_median": 48.0,
+        "voter_median": 54.0,
+        "older_adult_share": 32.62599994102978,
+        "older_vote_share": 40.73379565066361,
+        "young_adult_share": 27.28987166288696,
+        "young_vote_share": 21.247050357181447,
+        "youth_support": 63.8254009076795
+      },
+      "allocation_2025": [
+        25.458310162207617,
+        25.382239992679324,
+        25.40883231269481,
+        18.750617532418243,
+        4.999999999999997
+      ],
+      "allocation_2100": [
+        28.53537207634112,
+        26.87829254340672,
+        23.294602330448438,
+        16.29173304980372,
+        4.999999999999999
+      ]
+    },
+    "feedback": {
+      "older_overtakes_young": 2038,
+      "median_voter_reaches_60": null,
+      "metrics_2025": {
+        "adult_median": 39.0,
+        "voter_median": 43.0,
+        "older_adult_share": 15.102974828375284,
+        "older_vote_share": 21.342381968661414,
+        "young_adult_share": 40.658900441212666,
+        "young_vote_share": 33.9846943555033,
+        "youth_support": 71.84892236697284
+      },
+      "metrics_2100": {
+        "adult_median": 48.0,
+        "voter_median": 55.0,
+        "older_adult_share": 32.62599994102978,
+        "older_vote_share": 41.83636723348472,
+        "young_adult_share": 27.28987166288696,
+        "young_vote_share": 20.435858491955045,
+        "youth_support": 63.05108153791127
+      },
+      "allocation_2025": [
+        25.539078915833166,
+        25.419796193332374,
+        25.35447759143053,
+        18.68664729940393,
+        4.9999999999999964
+      ],
+      "allocation_2100": [
+        28.69581305405269,
+        26.95522163988288,
+        23.186736265576144,
+        16.162229040488292,
+        5.0
+      ]
+    }
+  },
+  "Baseline ageing": {
+    "status_quo": {
+      "older_overtakes_young": 2039,
+      "median_voter_reaches_60": null,
+      "metrics_2025": {
+        "adult_median": 39.0,
+        "voter_median": 43.0,
+        "older_adult_share": 15.102974828375284,
+        "older_vote_share": 20.742049333250623,
+        "young_adult_share": 40.658900441212666,
+        "young_vote_share": 34.32204483913333,
+        "youth_support": 71.8685884970006
+      },
+      "metrics_2100": {
+        "adult_median": 52.0,
+        "voter_median": 57.0,
+        "older_adult_share": 37.78106984358512,
+        "older_vote_share": 45.98335455358424,
+        "young_adult_share": 23.51591096525871,
+        "young_vote_share": 17.917047096870842,
+        "youth_support": 60.73471901072213
+      },
+      "allocation_2025": [
+        25.458310162207617,
+        25.382239992679324,
+        25.40883231269481,
+        18.750617532418243,
+        4.999999999999997
+      ],
+      "allocation_2100": [
+        29.356042611249098,
+        27.277712535386463,
+        22.722039854613772,
+        15.64420499875067,
+        5.000000000000001
+      ]
+    },
+    "feedback": {
+      "older_overtakes_young": 2038,
+      "median_voter_reaches_60": null,
+      "metrics_2025": {
+        "adult_median": 39.0,
+        "voter_median": 43.0,
+        "older_adult_share": 15.102974828375284,
+        "older_vote_share": 21.342381968661414,
+        "young_adult_share": 40.658900441212666,
+        "young_vote_share": 33.9846943555033,
+        "youth_support": 71.84892236697284
+      },
+      "metrics_2100": {
+        "adult_median": 52.0,
+        "voter_median": 58.0,
+        "older_adult_share": 37.78106984358512,
+        "older_vote_share": 47.17137595272091,
+        "young_adult_share": 23.51591096525871,
+        "young_vote_share": 17.04865882873904,
+        "youth_support": 59.910037108294496
+      },
+      "allocation_2025": [
+        25.539078915833166,
+        25.419796193332374,
+        25.35447759143053,
+        18.68664729940393,
+        4.9999999999999964
+      ],
+      "allocation_2100": [
+        29.5293863089055,
+        27.360833010274067,
+        22.605025110976385,
+        15.504755569844027,
+        4.999999999999998
+      ]
+    }
+  },
+  "Accelerated ageing": {
+    "status_quo": {
+      "older_overtakes_young": 2038,
+      "median_voter_reaches_60": 2085,
+      "metrics_2025": {
+        "adult_median": 39.0,
+        "voter_median": 43.0,
+        "older_adult_share": 15.102974828375284,
+        "older_vote_share": 20.742049333250623,
+        "young_adult_share": 40.658900441212666,
+        "young_vote_share": 34.32204483913333,
+        "youth_support": 71.8685884970006
+      },
+      "metrics_2100": {
+        "adult_median": 59.0,
+        "voter_median": 63.0,
+        "older_adult_share": 48.66630338829484,
+        "older_vote_share": 56.61977324184537,
+        "young_adult_share": 17.606884368906837,
+        "young_vote_share": 12.915713098071976,
+        "youth_support": 55.23654598831277
+      },
+      "allocation_2025": [
+        25.458310162207617,
+        25.382239992679324,
+        25.40883231269481,
+        18.750617532418243,
+        4.999999999999997
+      ],
+      "allocation_2100": [
+        30.92268855852043,
+        28.02112365331933,
+        21.604733402883408,
+        14.451454385276838,
+        5.000000000000001
+      ]
+    },
+    "feedback": {
+      "older_overtakes_young": 2037,
+      "median_voter_reaches_60": 2081,
+      "metrics_2025": {
+        "adult_median": 39.0,
+        "voter_median": 43.0,
+        "older_adult_share": 15.102974828375284,
+        "older_vote_share": 21.342381968661414,
+        "young_adult_share": 40.658900441212666,
+        "young_vote_share": 33.9846943555033,
+        "youth_support": 71.84892236697284
+      },
+      "metrics_2100": {
+        "adult_median": 59.0,
+        "voter_median": 63.0,
+        "older_adult_share": 48.66630338829484,
+        "older_vote_share": 57.8759660779057,
+        "young_adult_share": 17.606884368906837,
+        "young_vote_share": 12.0366777444822,
+        "youth_support": 54.38514442162385
+      },
+      "allocation_2025": [
+        25.539078915833166,
+        25.419796193332374,
+        25.35447759143053,
+        18.68664729940393,
+        4.9999999999999964
+      ],
+      "allocation_2100": [
+        31.105797541836154,
+        28.10864710873141,
+        21.47968799929672,
+        14.305867350135735,
+        5.000000000000001
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Balanced transition",
+    "first_year_closure_bn": 97.6,
+    "welfare_index": 64.5,
+    "political_index": 98.2,
+    "year_10_debt_bn": 394.2,
+    "burden_share": {
+      "Workers": 33.4,
+      "Pensioners": 45.3,
+      "Children": 5.4,
+      "Future taxpayers": 15.9
+    },
+    "closure": {
+      "Current taxes": 26.4,
+      "Pre-funding": 24.0,
+      "Work longer": 22.0,
+      "Broad pension restraint": 5.6,
+      "Targeted pension measures": 57.0,
+      "Service cuts": 0.0,
+      "Borrowing": 15.0
+    }
+  },
+  {
+    "name": "Targeted solidarity",
+    "first_year_closure_bn": 118.7,
+    "welfare_index": 68.4,
+    "political_index": 99.1,
+    "year_10_debt_bn": 272.2,
+    "burden_share": {
+      "Workers": 43.6,
+      "Pensioners": 35.7,
+      "Children": 7.7,
+      "Future taxpayers": 13.0
+    },
+    "closure": {
+      "Current taxes": 52.8,
+      "Pre-funding": 24.0,
+      "Work longer": 0.0,
+      "Broad pension restraint": 0.0,
+      "Targeted pension measures": 62.0,
+      "Service cuts": 0.0,
+      "Borrowing": 11.2
+    }
+  },
+  {
+    "name": "Work-and-save transition",
+    "first_year_closure_bn": 107.5,
+    "welfare_index": 66.0,
+    "political_index": 96.2,
+    "year_10_debt_bn": 291.7,
+    "burden_share": {
+      "Workers": 42.8,
+      "Pensioners": 38.0,
+      "Children": 7.8,
+      "Future taxpayers": 11.5
+    },
+    "closure": {
+      "Current taxes": 48.2,
+      "Pre-funding": 24.0,
+      "Work longer": 11.0,
+      "Broad pension restraint": 6.8,
+      "Targeted pension measures": 51.0,
+      "Service cuts": 0.0,
+      "Borrowing": 9.0
+    }
+  },
+  {
+    "name": "Protect basic benefits",
+    "first_year_closure_bn": 118.7,
+    "welfare_index": 69.0,
+    "political_index": 94.1,
+    "year_10_debt_bn": 383.9,
+    "burden_share": {
+      "Workers": 39.0,
+      "Pensioners": 34.0,
+      "Children": 6.2,
+      "Future taxpayers": 20.8
+    },
+    "closure": {
+      "Current taxes": 43.0,
+      "Pre-funding": 24.0,
+      "Work longer": 0.0,
+      "Broad pension restraint": 0.0,
+      "Targeted pension measures": 62.0,
+      "Service cuts": 0.0,
+      "Borrowing": 21.0
+    }
+  },
+  {
+    "name": "Low visible pain",
+    "first_year_closure_bn": 128.0,
+    "welfare_index": 107.3,
+    "political_index": 53.5,
+    "year_10_debt_bn": 719.5,
+    "burden_share": {
+      "Workers": 25.6,
+      "Pensioners": 15.9,
+      "Children": 17.5,
+      "Future taxpayers": 41.0
+    },
+    "closure": {
+      "Current taxes": 0.0,
+      "Pre-funding": 19.2,
+      "Work longer": 0.0,
+      "Broad pension restraint": 28.7,
+      "Targeted pension measures": 17.6,
+      "Service cuts": 32.0,
+      "Borrowing": 52.5
+    }
+  }
+]
