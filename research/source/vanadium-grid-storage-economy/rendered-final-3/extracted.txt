@@ -1,0 +1,1342 @@
+GREYSCIENX / PAPER 7 / SEPTEMBER 2026
+
+The Vanadium Grid-Storage
+Economy
+Can South Africa turn vanadium, electrolyte and domestic storage demand into a
+competitive long-duration battery industry?
+
+4.5%
+
+≈16 h
+
+8m L/y
+
+of 2025 world vanadium output
+
+central model parity
+
+BELCO electrolyte design
+
+South Africa | Vanadium | Long-duration energy storage
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+Inside the note
+A map of the argument, model, evidence, and qualifications.
+
+PART I: The answer
+
+4
+
+Build for the hours lithium finds hardest . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Seven findings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+PART II: What a vanadium flow battery actually is
+
+6
+
+Energy in liquid, power in a stack . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+The chain is wider than vanadium
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .7
+
+PART III: The resource advantage - and its limit
+
+8
+
+A useful position, not mineral sovereignty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+Vanadium demand must not be confused with steel demand . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+PART IV: South Africa's real starting point
+
+9
+
+BELCO proves capability, not utilisation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+The Vametco mini-grid is a useful but small proof point . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+Corporate distress is part of the technology economics
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+PART V: The domestic market
+
+11
+
+Storage has moved from experiment to infrastructure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+A technology-neutral market still needs duration-specific products . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+PART VI: Counting value without counting the same vanadium four times
+
+13
+
+One tonne, four alternative endpoints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+Ten modules, not one imaginary megafactory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+PART VII: Where flow batteries compete
+
+16
+
+Four hours is the wrong battlefield . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Capital cost is not lifetime cost . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+GreyScienx | Paper 7
+
+02
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+The non-price attributes can decide a real project . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+PART VIII: The central project
+
+18
+
+A 100 MW battery that can run for ten hours . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+Best, central and adverse cases . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+PART IX: Price, cycling and finance
+
+20
+
+The model is most sensitive to use . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+Electrolyte leasing relocates the balance sheet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+Recycling closes the loop only if designed in advance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+PART X: Applications, competition and the limits of the niche
+
+23
+
+The best first customers are not identical . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Lithium is not the only competitor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+
+PART XI: An industrial strategy that can survive contact with the market
+
+24
+
+Four R20 billion portfolios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+A staged programme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+/ Stage 1: prove the product, 2026-2028 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+/ Stage 2: standardise and aggregate, 2028-2031 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+/ Stage 3: buy long-duration performance, 2030-2035 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+/ Stage 4: deepen selectively, after utilisation is proven . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+
+What the state should buy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+
+PART XII: Risks, counterarguments and verdict
+
+26
+
+The strongest case against the strategy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+Twelve failure modes to design out . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+Decision gates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+Final verdict . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+
+Model assumptions and interpretation
+
+28
+
+Sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+
+GreyScienx | Paper 7
+
+03
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART I
+
+The answer
+
+PART I: The answer
+Build for the hours lithium finds hardest
+South Africa can build a meaningful vanadium battery industry, but not by assuming that a domestic mineral
+automatically creates a domestic technology advantage. The country produced about 5,000 tonnes of vanadium in
+2025, roughly 4.5 per cent of estimated world output, and held about 520,000 tonnes of reported reserves, around 2.5
+per cent of the world total. That is a useful industrial base, not a commanding resource monopoly. China and Russia
+remain much larger producers. US Geological Survey, *Mineral Commodity Summaries 2026*.
+
+Figure 1. South Africa is a material vanadium producer, but it does not dominate supply. Production and reserve shares use different denominators
+and should not be added.
+
+The country nevertheless has three advantages that rarely occur together. It has vanadium-bearing mineral and
+processing experience. It has a real, growing need for stationary electricity storage. And it has already built a
+commercial-scale vanadium-electrolyte facility in the East London Industrial Development Zone. These advantages
+create a credible opening for a mine-to-storage industry.
+They do not eliminate the harder facts. Lithium-iron-phosphate batteries already dominate new stationary
+deployments. Their supply chain is enormous, their prices have fallen quickly, financiers understand them, and South
+African procurement has largely been designed around four-hour lithium systems. Vanadium-redox-flow batteries, or
+VRFBs, are less efficient and often dearer at short durations. Their suppliers are smaller, their bankability is weaker and
+their operational record is less standardised.
+
+GreyScienx | Paper 7
+
+04
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+The strategic question is therefore not whether vanadium can store electricity. It can. The question is where the whole
+system - capital, charging losses, replacements, life, safety, degradation, recyclability and finance - beats the
+alternatives.
+
+The central conclusion: South Africa should build a focused long-duration-storage platform around
+qualified electrolyte, tanks, pumps, balance-of-system equipment, power electronics, containerisation,
+project integration and closed-loop recovery. It should partner for membranes and stacks until demand
+and manufacturing yield justify deeper localisation. The first market should be high-cycle, fire-sensitive
+and space-tolerant stationary applications at roughly twelve to twenty-four hours, not the four-hour
+market already occupied by lithium-ion batteries.
+Under this paper's central assumptions, lifetime cost parity with lithium iron phosphate appears at about sixteen hours.
+That is a model result, not a physical law. Cheap lithium, low cycling, high interest rates or poor flow-battery
+performance move the crossing point later. Strong cycling, lower-cost vanadium, patient finance and valuable safety or
+longevity move it earlier.
+
+Seven findings
+First, the domestic demand is real but not automatically vanadium demand. South Africa's 2025 Integrated
+Resource Plan assigns 8.5 GW to storage by 2039, while Eskom and the battery independent-power-producer
+programme are already procuring material capacity. Yet the official cost basis is a four-hour lithium-ion battery. A
+storage target creates an opportunity to compete; it is not an order book for VRFBs. Department of Electricity and
+Energy, *Integrated Resource Plan 2025*.
+Second, duration is the market wedge. The power equipment in a flow battery and the energy-holding electrolyte
+can be sized separately. Adding hours largely means adding tanks and electrolyte, whereas a lithium system adds
+complete battery modules. This makes flow batteries progressively more interesting as duration increases.
+Third, electrolyte is strategically important but commercially incomplete. The Bushveld Electrolyte Company, or
+BELCO, was designed for eight million litres a year and was described as capable of serving roughly 200 MWh annually.
+A single 100 MW, ten-hour project in this model needs about fifty million litres - more than six years of that design
+output. One facility is a base from which to scale, not a full industrial ecosystem. Bushveld Minerals, BELCO.
+Fourth, factory capacity is not demand. Bushveld Minerals later moved away from its integrated energy strategy and
+sought to divest the energy business; related operating entities subsequently entered business rescue. This is not proof
+that VRFB chemistry failed. It is evidence that a mining company can overextend itself by carrying mine risk,
+commodity-price risk, technology development, manufacturing and project finance at the same time. Bushveld
+Minerals, *Annual Report 2023*; Matuson Associates, Bushveld Minerals business rescue.
+Fifth, the best early localisation is not necessarily the most glamorous. Tanks, piping, pumps, thermal
+management, skids, containers, civil works, controls, power electronics, commissioning and maintenance can create
+more robust domestic income than an underused membrane plant. Imported stacks inside a locally integrated,
+warranted system may be a better first industrial product than nominally local stacks with no bankable customer.
+Sixth, leasing changes who finances the vanadium; it does not make it free. Electrolyte can remain the property of
+a lessor and be recovered after the project. This lowers project capital and can protect residual value. But a commercial
+lease must still cover the metal, financing, insurance, price risk, logistics and recovery. A public or development-finance
+vehicle can reduce the cost if it genuinely has cheaper capital and disciplined take-back rights.
+Seventh, South Africa should export systems only after it can service them. A complete storage container has
+more gross sales than exported oxide, but much of its invoice belongs to non-vanadium components and warranty
+obligations. The defensible export product is not a container with a South African flag. It is a tested, certified system
+with performance data, a solvent guarantor, spare parts and technicians who can keep it operating for two decades.
+
+GreyScienx | Paper 7
+
+05
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART II
+
+What a vanadium flow battery actually is
+
+PART II: What a vanadium flow battery actually is
+Energy in liquid, power in a stack
+A vanadium-redox-flow battery stores energy in two tanks of water-based electrolyte containing vanadium ions in
+different oxidation states. Pumps circulate the liquids through an electrochemical stack. During charging, electrical
+energy changes the ions' oxidation states. During discharge, the process reverses and releases electricity. A membrane
+separates the two sides while allowing charge-carrying ions to pass.
+This architecture separates two functions that are bundled together inside a conventional battery cell. The stack and
+power electronics determine how quickly the battery can charge or discharge. The amount of electrolyte and tank
+volume determine how much energy it can store. A 100 MW four-hour plant and a 100 MW twenty-hour plant can use
+similar power equipment but very different tank volumes.
+
+Figure 2. The chain contains several distinct businesses. The recommended early strategy owns electrolyte, mechanical balance of system,
+integration and recovery while using qualified partnerships for the most difficult electrochemical components.
+
+The separation produces the technology's main economic attraction. At long duration, the cost of added energy
+capacity can rise more slowly than in a modular lithium system. It also creates operating advantages. The aqueous
+electrolyte is non-flammable, the system can cycle deeply without the same degradation mechanism as lithium cells,
+and the liquid can be rebalanced or recovered. Tanks and piping can be designed for a long service life, while stacks are
+replaced or refurbished separately.
+The same architecture creates disadvantages. Pumps consume energy. The stack, membrane and plumbing add
+complexity. Round-trip efficiency is commonly lower than for lithium-ion systems, so more electricity must be bought
+to deliver the same output. The footprint is larger. Electrolyte contains a valuable commodity whose price can move
+
+GreyScienx | Paper 7
+
+06
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+sharply. Leakage and contamination must be controlled. And a twenty-year technical life does not help if the supplier
+providing the warranty fails after five.
+
+The chain is wider than vanadium
+Mining produces vanadium-bearing ore or recovers vanadium as a co-product from steel-related feedstock.
+Economics depend on ore grade, recovery, power, labour, logistics and the prices of associated products.
+Refining converts feedstock into vanadium pentoxide or other high-purity compounds. Battery electrolyte requires
+consistent purity: contaminants that are acceptable in metallurgical use can impair electrochemical performance.
+Electrolyte production dissolves and chemically conditions vanadium into the required ionic states. The product is
+heavy and mostly water, which favours production near the deployment market once quality can be guaranteed.
+Membranes permit ionic transport while limiting unwanted crossover. They are a small physical component with a
+large effect on efficiency, durability and cost.
+Stacks contain repeating electrochemical cells, electrodes, bipolar plates, seals and compression structures.
+Manufacturing yield, electrical resistance, leak prevention and field durability matter more than the mere presence of a
+local assembly line.
+Pumps and balance-of-system equipment move electrolyte, manage pressure and temperature, monitor the plant
+and keep it safe. These are promising localisation areas because South Africa already has industrial fluid-handling,
+mining-equipment and fabrication capabilities.
+Power electronics and controls connect the direct-current battery to the alternating-current grid. Inverters,
+transformers, switchgear, protection systems, dispatch software and grid-code compliance are central to what the
+customer buys.
+Containerisation and civil integration convert components into a project: tanks, bunding, pipework, buildings,
+foundations, fire and environmental systems, commissioning and site acceptance.
+Operation, leasing and recovery continue for decades. Monitoring, electrolyte testing, stack refurbishment, vanadium
+rebalancing and end-of-life take-back can create a recurring service industry.
+The further downstream the country moves, the smaller vanadium becomes as a share of the invoice. That is not a
+reason to remain upstream. It is a reason to measure domestic value honestly.
+
+GreyScienx | Paper 7
+
+07
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART III
+
+The resource advantage - and its limit
+
+PART III: The resource advantage - and its limit
+A useful position, not mineral sovereignty
+South Africa was the third-ranked vanadium producer in 2024, according to the US Geological Survey. Production fell
+from an estimated 8,050 tonnes in 2024 to 5,000 tonnes in 2025 in the 2026 commodity summary. China accounted for
+about 82,000 tonnes and Russia 21,000 tonnes in 2025. South Africa's 520,000 tonnes of reported reserves compare
+with a world total of roughly 21 million tonnes. USGS, South Africa minerals information; USGS, *Mineral Commodity
+Summaries 2026*.
+These figures matter because industrial strategies often begin with an exaggerated premise: that South Africa “has the
+vanadium” and can therefore set the terms of the downstream market. It cannot. It has enough material and knowledge
+to support a domestic chain, but customers can source vanadium elsewhere and competing countries can build
+factories without South African ore.
+The advantage is more practical:
+- established knowledge of vanadium-bearing ores and refining;
+- the possibility of traceable local feedstock and shorter working-capital chains;
+- an incentive to develop purification, electrolyte analytics and recycling;
+- a domestic customer base that can validate products near the factory; and
+- industrial capabilities in tanks, piping, mining equipment, power systems and project construction.
+The resource is most valuable when paired with a customer problem. South Africa has that problem in abundance:
+variable renewable generation, weak networks, costly diesel backup, congested substations and industrial users that
+place a high value on continuity.
+
+Vanadium demand must not be confused with steel demand
+Most vanadium is used in steel alloys, not batteries. The battery industry therefore competes with a larger incumbent
+market for feedstock. A storage boom can lift the value of vanadium, but a high metal price also makes electrolyte
+expensive and can damage VRFB competitiveness. The supplier benefits from a price increase while the battery
+developer suffers.
+That conflict is one reason vertical integration is not automatically stabilising. A group owning both mine and battery
+company can transfer material internally, but the economic opportunity cost remains. If steel buyers pay more,
+subsidising the battery arm means foregoing mining profit. If vanadium prices collapse, the battery looks cheaper but
+the mine's balance sheet deteriorates.
+A durable industry therefore needs commercial tools rather than accounting illusions: long-term offtake bands,
+transparent transfer pricing, indexed customer contracts, metal leasing, inventory finance and recovery rights.
+
+GreyScienx | Paper 7
+
+08
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART IV
+
+South Africa's real starting point
+
+PART IV: South Africa's real starting point
+BELCO proves capability, not utilisation
+The Bushveld Electrolyte Company facility at the East London Industrial Development Zone is the clearest physical
+starting point. Bushveld described the plant as designed to produce eight million litres of vanadium electrolyte a year
+using more than 1,100 tonnes of vanadium-oxide equivalent, with possible expansion to 32 million litres. A 2023
+company presentation described commissioning as completed and indicated capacity equivalent to about 200 MWh a
+year. The ELIDZ announced the investment in April 2024 at about R400 million and 59 direct jobs. Bushveld Minerals,
+BELCO; East London IDZ, new investments; Bushveld Minerals, *H1 2023 Results Presentation*.
+Public descriptions do not establish sustained output, qualification volumes or an order book. This distinction matters.
+Commissioning proves that equipment can be installed and brought into operation. Commercialisation requires repeat
+batches that meet customer specifications, sales at a viable margin, working capital, transport arrangements, bankable
+warranties and projects large enough to use the line.
+
+Figure 3. Under the paper's physical assumptions, a 100 MW, ten-hour VRFB requires about fifty million litres of electrolyte - 6.25 years of BELCO's
+eight-million-litre annual design capacity. Bushveld described a somewhat higher MWh equivalence; chemistry and litres per kWh vary by design.
+
+The comparison cuts both ways. A single utility project can overwhelm the existing line, which makes expansion
+plausible. Yet an eight-million-litre plant can also sit underused if projects do not reach financial close. The industrial
+bottleneck is not merely litres. It is bankable demand timed to production.
+
+GreyScienx | Paper 7
+
+09
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+The Vametco mini-grid is a useful but small proof point
+Bushveld reported a hybrid mini-grid at the Vametco mine combining 3.5 MW of solar with a 1 MW, 4 MWh VRFB. It
+demonstrates local integration and gives operators experience with the technology. Four megawatt-hours, however, is
+far from the scale required to establish a competitive manufacturing supply chain. A demonstration becomes industrial
+evidence only when it produces open operating data and repeat orders. Bushveld Minerals, *Annual Report and
+Financial Results 2022*.
+
+Corporate distress is part of the technology economics
+Bushveld's later retreat from vertical integration is one of the most important facts in this paper. The 2023 annual
+report described a strategy to focus on core mining and divest the energy business, including BELCO. Subsequent
+business-rescue proceedings involving Bushveld-related entities make the bankability problem concrete.
+This history should not be simplified into “flow batteries failed.” Commodity operations, debt, operational performance
+and corporate structure all matter. Nor should it be ignored as irrelevant finance. A twenty-five-year battery depends
+on its supplier's ability to honour warranties, supply spares, maintain software and process electrolyte. Corporate
+durability is a component of levelised cost.
+The institutional lesson is to separate risks:
+- mines should sell qualified material under transparent contracts;
+- an electrolyte vehicle should carry inventory and recovery rights;
+- technology partners should guarantee stacks and membranes;
+- project companies should finance operating assets against customer revenue; and
+- public support should pay for measurable learning, not absorb every loss in one conglomerate.
+
+GreyScienx | Paper 7
+
+10
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART V
+
+The domestic market
+
+PART V: The domestic market
+Storage has moved from experiment to infrastructure
+South Africa's power system needs several different products that are casually grouped under “storage.” Millisecond
+response stabilises frequency. One to four hours can shift solar energy into the evening peak or defer local network
+upgrades. Eight to twenty-four hours can cover longer ramps, reduce curtailment or support an industrial micro-grid
+through a prolonged interruption. Multi-day shortages require still more energy and may favour pumped hydro,
+thermal storage, fuels, demand response or a portfolio rather than electrochemical batteries alone.
+The 2025 Integrated Resource Plan reports about 0.2 GW of battery storage installed, all by Eskom, and assigns 8.5 GW
+of storage by 2039. Eskom's first battery phase covers 199.04 MW and 833.16 MWh across eight sites, an average
+duration of roughly 4.2 hours. Separately, the first three bid windows of the Battery Energy Storage Independent Power
+Producer Procurement Programme total 1.744 GW of power capacity: 513 MW, 615 MW and 616 MW. Energy capacity,
+operating specification and site contracts determine the actual market, so gigawatts alone cannot be converted into
+electrolyte demand. Eskom, Battery Energy Storage System; Eskom, *Integrated Report 2025*; South African
+Government, BESIPPPP Bid Window 3.
+
+Figure 4. Installed capacity, awarded procurement and the 2039 planning allocation are different categories. The 8.5 GW figure is a system-plan
+opportunity, not a contracted VRFB pipeline.
+
+Official planning assumptions reveal the commercial challenge. The Electric Power Research Institute's cost work for the
+IRP models a 100 MW, four-hour lithium-ion battery. Procurement shaped around that reference naturally rewards the
+
+GreyScienx | Paper 7
+
+11
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+mature incumbent. A bidder offering a long-duration flow battery may have to price unused hours into a contract that
+pays mainly for four. EPRI, *Supply-Side Cost and Performance Data for IRP 2023/2024*.
+
+A technology-neutral market still needs duration-specific
+products
+“Technology neutral” should not mean buying one generic battery service and accepting the cheapest short-duration
+bid. It should mean defining the system problem and allowing any technology to solve it.
+A serious procurement programme would purchase separate products:
+Product
+
+Indicative need
+
+Relevant contenders
+
+What must be paid for
+
+Fast grid response
+
+seconds to 1 hour
+
+lithium-ion, flywheels, demand
+response
+
+speed, availability, accuracy
+
+Evening shifting
+
+2-6 hours
+
+lithium-ion, pumped storage
+
+usable delivered energy and
+cycles
+
+Long daily shifting
+
+8-16 hours
+
+flow batteries, pumped
+storage, thermal, lithium
+
+duration, throughput and
+degradation
+
+Industrial continuity
+
+4-24 hours
+
+hybrid batteries, solar,
+generators, demand response
+
+reliability and avoided outage
+cost
+
+Multi-day adequacy
+
+24+ hours
+
+pumped hydro, thermal, fuels,
+portfolios
+
+seasonal availability and firm
+capacity
+
+VRFBs should win only where their attributes are valuable. A local-content preference can help a credible product cross
+its early scale gap, but it should not force an expensive technology into an unsuitable service.
+
+GreyScienx | Paper 7
+
+12
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART VI
+
+Counting value without counting the same
+vanadium four times
+
+PART VI: Counting value without counting the same
+vanadium four times
+One tonne, four alternative endpoints
+The model follows one tonne of contained vanadium into alternative products. It uses an analytical
+vanadium-pentoxide price of USD8 per pound, not a claim about the spot price on the publication date. It assumes
+1.785 tonnes of V2O5 per tonne of contained vanadium, 0.087 kilograms of vanadium per litre of electrolyte and fifty
+litres per kWh of storage.
+
+Figure 5. Gross sales and South African value added are shown for alternative endpoints. They are not sequential values and must not be summed.
+A complete system's invoice is mostly enabled by, rather than physically composed of, vanadium.
+
+As V2O5, one tonne of contained vanadium supports about USD31,500 of gross sales and an assumed USD22,000 of
+South African value. As qualified electrolyte, it supports about USD57,500 of sales and USD31,600 of local value. In an
+energy block, the model gives about USD50,600 of sales and USD24,300 of local value. In a complete ten-hour system
+it enables about USD102,500 of sales and USD36,900 of local value.
+Why does the energy block appear worth less than the electrolyte? Because these are separate stylised endpoints using
+different assumed prices and local shares, not a literal production account. The chart is designed to stop a more serious
+mistake: adding the oxide, electrolyte, energy block and system invoice as if the same tonne were sold four times.
+
+GreyScienx | Paper 7
+
+13
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+Gross system revenue is not mineral beneficiation. The system includes stacks, membranes, tanks, pumps, inverters,
+switchgear, software, civil works, finance, testing and warranty. The policy target should be domestic value added, not
+the invoice value of imported components passing through a local assembler.
+
+Ten modules, not one imaginary megafactory
+The model compares ten illustrative investments at independent scales. They are not a single mass-balanced chain. A
+250 MW membrane plant does not necessarily feed the 100 MW stack line; the refining module does not necessarily
+supply only the electrolyte module. The purpose is to compare capital intensity, jobs, export potential and capability.
+
+Figure 6. Illustrative annual local value versus capital required. Bubble size represents direct jobs. Project integration and equipment modules can
+deliver attractive value per rand without requiring ownership of the whole chain.
+
+Module
+
+Illustrative scale
+
+Capital
+
+Annual local value
+
+Direct jobs
+
+Vanadium mining
+
+5 kt V/y
+
+R4.0bn
+
+R1.60bn
+
+600
+
+V2O5 refining
+
+8 kt/y
+
+R3.0bn
+
+R1.30bn
+
+300
+
+Electrolyte
+
+8m L/y
+
+R0.4bn
+
+R0.30bn
+
+59
+
+Membranes
+
+250 MW/y
+
+R1.2bn
+
+R0.55bn
+
+160
+
+VRFB stacks
+
+100 MW/y
+
+R1.8bn
+
+R0.80bn
+
+250
+
+Pumps and balance of
+system
+
+100 MW/y
+
+R1.0bn
+
+R0.70bn
+
+300
+
+Power electronics
+
+250 MW/y
+
+R1.2bn
+
+R0.90bn
+
+280
+
+Container systems
+
+100 MW / 1 GWh/y
+
+R3.5bn
+
+R2.40bn
+
+500
+
+Project integration
+
+same annual flow
+
+R0.8bn
+
+R0.85bn
+
+350
+
+Electrolyte recovery
+
+8m L/y service
+
+R0.6bn
+
+R0.30bn
+
+80
+
+GreyScienx | Paper 7
+
+14
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+These are scenario assumptions, not investment quotations. They include direct operating jobs, not multiplier claims.
+The figures are most useful comparatively: electrolyte is relatively cheap to establish but creates few direct jobs; system
+integration and electrical equipment create more labour and learning; mining creates significant value but is exposed
+to resource and commodity cycles.
+
+Figure 7. No module simultaneously maximises jobs, exports, value and technological depth. An industrial portfolio is more resilient than a single
+flagship plant.
+
+GreyScienx | Paper 7
+
+15
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART VII
+
+Where flow batteries compete
+
+PART VII: Where flow batteries compete
+Four hours is the wrong battlefield
+The International Energy Agency estimates that about 87 GW of utility-scale battery storage was added globally in 2025
+and that lithium iron phosphate supplied roughly 90 per cent of battery deployments. Utility-scale systems were
+around four-fifths of new battery capacity. Durations are increasing, with more projects at four hours or longer, but the
+industrial fact remains: lithium-ion manufacturing enjoys scale, competition and rapid cost reduction that VRFB
+producers cannot match by assertion. IEA, “Battery storage is scaling up and taking on a larger system role”; IEA,
+*Global Energy Review 2026: Battery storage*.
+The model calibrates a 100 MW, ten-hour plant to the Pacific Northwest National Laboratory's 2024 central estimates:
+about USD379/kWh installed for LFP and USD446/kWh for VRFB. It then separates each technology into a
+power-related and energy-related component to extend the comparison across duration. PNNL's values are United
+States planning estimates, not South African bids. Pacific Northwest National Laboratory, *Energy Storage Technology
+Cost and Performance Assessment: Flow Batteries*.
+
+Figure 8. The stylised installed-cost curves are calibrated at ten hours. Flow batteries carry higher power-system cost but add energy capacity more
+cheaply, producing a duration advantage in the model.
+
+At four hours, the model estimates USD498/kWh for LFP and USD785/kWh for VRFB. At ten hours, the calibrated values
+are USD379 and USD446. At sixteen hours, they almost converge at USD349 and USD361. At twenty-four hours, VRFB
+falls below LFP at USD314 versus USD333.
+
+GreyScienx | Paper 7
+
+16
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+The result is intuitive rather than predictive. Every actual project has site-specific engineering, supply-chain, financing
+and procurement costs. It says that the flow-battery business case improves with duration; it does not identify the exact
+winning bid price.
+
+Capital cost is not lifetime cost
+The paper's lifetime calculation assumes twenty-five operating years, an 8 per cent real discount rate, 250 full cycles a
+year and charging electricity at R0.75/kWh. LFP round-trip efficiency is set at 85 per cent and VRFB at 72 per cent. The
+LFP system receives a replacement equal to 65 per cent of its initial installed cost in year fourteen. The VRFB receives a
+stack-related replacement in year fifteen while tanks and electrolyte continue.
+
+Figure 9. Under central assumptions, lifetime delivered-energy cost is close at about sixteen hours and favours VRFB at twenty-four hours.
+Charging losses keep the less-efficient flow battery from winning as early as installed cost alone suggests.
+
+At ten hours, the model produces a lifetime storage cost of R4.41/kWh for LFP and R4.93/kWh for VRFB. At sixteen
+hours, the values are almost equal: R4.14 and R4.15. At twenty-four hours, VRFB falls to R3.71 against R3.98 for LFP.
+These are costs of storing and returning energy under the stated model, including charging electricity - not the
+wholesale price of generated electricity. They omit site-specific network works, taxes, development fees and revenues
+from multiple grid services. They should not be used as tariffs.
+
+The non-price attributes can decide a real project
+VRFBs may be competitive before simple lifetime-cost parity when a customer values:
+- low fire propagation risk near people, warehouses or hazardous industry;
+- repeated deep cycling and high lifetime energy throughput;
+- separate expansion of energy duration without replacing the power block;
+- recoverable electrolyte with residual commodity value;
+- operation over a long project life with replaceable stacks; or
+- lower dependence on imported lithium cells.
+
+GreyScienx | Paper 7
+
+17
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART VIII
+
+The central project
+
+PART VIII: The central project
+A 100 MW battery that can run for ten hours
+The central case is a 100 MW, 1,000 MWh VRFB. At USD446/kWh and an analytical exchange rate of R18 to the dollar,
+installed capital is about R8.0 billion. An equivalent LFP project is USD379 million, or about R6.8 billion before any
+South African project adjustments.
+The flow battery requires an assumed fifty million litres of electrolyte. At BELCO's design rate of eight million litres a
+year, the electrolyte alone represents 6.25 plant-years. This highlights a sequencing problem. If South Africa waits for
+one enormous project before expanding the plant, the project cannot be supplied on schedule. If it expands before
+bankable orders, the factory may sit idle.
+The answer is staged capacity supported by a portfolio of projects rather than a single bet:
+1. qualify batches with multiple stack suppliers;
+2. secure smaller industrial and municipal deployments;
+3. standardise a container and control architecture;
+4. contract a first 100-250 MWh fleet with transparent performance reporting;
+5. expand electrolyte production against contracted megawatt-hours; and
+6. finance the first gigawatt-hour project only after operating data and warranties are bankable.
+
+Best, central and adverse cases
+Driver
+
+Best case
+
+Central case
+
+Adverse case
+
+Project duration
+
+16-24 hours
+
+10-16 hours
+
+4-8 hours
+
+Annual cycling
+
+350-450
+
+250
+
+150-200
+
+Real finance cost
+
+patient, concessional
+
+8%
+
+12% or more
+
+Vanadium input
+
+leased or low-price band
+
+analytical USD8/lb V2O5
+
+high and volatile
+
+Stack performance
+
+qualified, long life
+
+one mid-life replacement
+
+early degradation/replacement
+
+Customer revenue
+
+availability plus energy and
+grid services
+
+energy-shifting contract
+
+one narrow revenue stream
+
+Domestic content
+
+tanks, BOS, electronics,
+integration and service
+
+partial localisation
+
+imported system with local
+badge
+
+Industrial outcome
+
+repeat fleet and exports
+
+viable niche
+
+stranded factory
+
+In the best case, South Africa develops a repeatable sixteen- to twenty-four-hour product, uses development finance
+for electrolyte inventory, publishes high-quality operating data and builds local service. The industry wins projects
+
+GreyScienx | Paper 7
+
+18
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+where land is available and safety, cycling and life matter. It exports selected systems into African mining, island and
+weak-grid markets.
+In the central case, VRFBs remain a niche. Several hundred megawatt-hours support electrolyte, integration and service
+capability, but most national battery procurement remains lithium-ion. The industry is valuable without becoming
+dominant.
+In the adverse case, policy mandates a local technology before it is bankable. A plant is expanded ahead of orders,
+public buyers specify four-hour services, costs rise, suppliers fail and the state inherits warranties. The failure is then
+wrongly described either as proof that beneficiation never works or as sabotage by imported batteries. In reality, the
+sequence was wrong.
+
+Figure 10. The central project is most credible when long duration is paired with regular use. At ten hours, lifetime cost falls strongly as annual
+cycling rises; low utilisation can overwhelm a favourable metal price.
+
+GreyScienx | Paper 7
+
+19
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART IX
+
+Price, cycling and finance
+
+PART IX: Price, cycling and finance
+The model is most sensitive to use
+A long-lived battery earns its economics by moving energy many times. A system designed for daily cycling but used
+only once every two or three days spreads its capital across far fewer delivered kilowatt-hours. The same problem
+affects both technologies, but it is particularly damaging to a high-capital emerging technology.
+The sensitivity map changes annual cycles from 150 to 450 and the vanadium-related part of capital cost from 60 to
+180 per cent of its central value. The strongest policy implication is not to forecast a heroic vanadium price. It is to
+procure a service that will actually use the asset and to write dispatch rules that permit the required throughput.
+High cycling is not free revenue. The market must contain enough daily price spread, curtailment avoidance, capacity
+value, network benefit or reliability value to pay for the delivered energy and losses. Stacking revenues can help, but
+the same unit cannot always promise all services simultaneously. Contracts should specify priorities and avoid counting
+incompatible revenues.
+
+Electrolyte leasing relocates the balance sheet
+The World Bank's South African critical-minerals analysis cites an industry estimate that electrolyte can represent about
+40 per cent of the cost of a typical four-hour VRFB. The share varies with duration, metal price and system design.
+Because the vanadium is not consumed in normal operation, a lessor can own the electrolyte, charge rent and recover it
+later. World Bank, *South Africa: Critical Minerals for the Energy Transition*.
+
+GreyScienx | Paper 7
+
+20
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+Figure 11. Leasing removes roughly 40 per cent of the illustrative project's upfront capital, but the present value of commercial rent can exceed the
+financed amount. Concessional capital improves the result; it does not abolish cost.
+
+For the central R8.0 billion project, the model assigns R3.2 billion to electrolyte. Removing that amount from
+construction capital could materially improve project affordability. At a 9 per cent annual lease charge over twenty-five
+years, however, the present value of rent discounted at 8 per cent exceeds the upfront electrolyte value. A 7 per cent
+concessional lease comes closer to the financed amount.
+Leasing is therefore valuable for liquidity, risk allocation and residual value, not as free money. A credible lease needs:
+- legal title to the electrolyte even if the project company fails;
+- testing and metering of volume, concentration and contamination;
+- insurance and environmental responsibility;
+- access rights for recovery;
+- a price-adjustment rule that neither destroys the user at high prices nor the owner at low prices;
+- a reserve for transport and reprocessing; and
+- a solvent entity capable of funding metal inventory for decades.
+A development-finance institution, mining company and private infrastructure investor could share this vehicle. The
+public contribution should be cheaper capital or first-loss support with a capped exposure, not an unlimited guarantee
+for technology or commodity losses.
+
+Recycling closes the loop only if designed in advance
+Vanadium electrolyte can be tested, rebalanced, filtered, reprocessed and redeployed. The recovery business is
+attractive because it retains the metal, reduces future working capital and gives customers an end-of-life route. But
+recovery will not happen automatically. Plants need compatible chemistry, records, sampling standards, transport rules
+and contractual ownership.
+The country should establish a national electrolyte passport recording origin, composition, ownership, operational
+history and recovery status. This could become a commercial standard rather than a bureaucratic register. It would
+make leased inventory auditable and help secondary electrolyte earn the same trust as virgin product.
+
+GreyScienx | Paper 7
+
+21
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+Figure 12. The commercial target follows from the financing analysis: VRFB attractiveness rises with duration, frequent cycling, available space and
+a high value placed on fire safety and long life.
+
+GreyScienx | Paper 7
+
+22
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART X
+
+Applications, competition and the limits
+of the niche
+
+PART X: Applications, competition and the limits of
+the niche
+The best first customers are not identical
+Mines and industrial micro-grids offer concentrated demand, land, engineering staff and a high cost of interruption.
+Solar-plus-storage can reduce diesel use and peak purchases. The risk is that many industrial outages are multi-day or
+unpredictable; batteries may still need generators or grid supply.
+Municipal networks can use storage to manage peaks, support constrained feeders and improve power quality.
+Municipal credit quality and technical capacity vary widely. A battery cannot repair a structurally insolvent distribution
+business.
+Renewable plants can shift energy, reduce curtailment and make output firmer. Their revenue depends on market
+rules and grid access. Co-location is helpful only if the connection and contract value the stored output.
+Eskom substations can provide a large anchor market and disciplined testing. Public procurement cycles, grid-code
+requirements and counterparty risk still matter. The state should not use Eskom as a buyer of last resort for products
+the system does not need.
+Data centres, warehouses and dense urban sites value safety but often value compact footprint and efficiency even
+more. VRFBs can compete at suitable campuses, but lithium systems with strong fire engineering may remain
+preferable.
+Residential and mobile applications are poor targets. Flow batteries are bulky and mechanically complex. South
+Africa should resist the urge to make every battery technology serve every market.
+
+Lithium is not the only competitor
+At long duration, VRFBs also compete with pumped hydro, compressed air, thermal storage, sodium-ion batteries,
+iron-air and other flow chemistries, hydrogen-derived fuels, flexible generation, new transmission and demand
+response. Some of these technologies may add hours more cheaply or solve a different constraint.
+A storage project should first ask whether storage is the least-cost solution. A transmission line can move diverse
+generation across regions. Demand response can eliminate a peak without storing a unit of energy. A flexible industrial
+load can absorb surplus electricity. Gas, hydro or renewable fuels may cover rare multi-day events more cheaply than a
+battery used a few times a year.
+The US Department of Energy's Storage Innovations 2030 programme targets a 90 per cent cost reduction for
+technologies providing ten hours or more. That ambition means the competitive landscape is moving. South African
+policy should support capabilities that can serve more than one chemistry - power electronics, controls, tanks,
+fabrication, integration, testing and recycling - so a technological surprise does not strand the entire strategy. US
+Department of Energy, Storage Innovations 2030.
+
+GreyScienx | Paper 7
+
+23
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART XI
+
+An industrial strategy that can survive
+contact with the market
+
+PART XI: An industrial strategy that can survive
+contact with the market
+Four R20 billion portfolios
+The model compares four ways to allocate an illustrative R20 billion industrial envelope. These are not budget
+proposals. They expose the trade-offs between upstream security, technology depth, jobs, exports and delivery risk.
+
+Figure 13. A technology-neutral storage platform produces the strongest central balance in the model. The fully integrated chain has deeper
+ambition but higher coordination and demand risk.
+
+Portfolio
+
+Annual local value
+
+Annual exports
+
+Direct jobs
+
+Delivery score
+
+Mineral base
+
+R5.4bn
+
+R9.0bn
+
+2,200
+
+0.85
+
+Electrolyte-led
+
+R4.8bn
+
+R3.5bn
+
+1,800
+
+0.70
+
+Full VRFB chain
+
+R6.5bn
+
+R4.0bn
+
+3,000
+
+0.60
+
+Technology-neutral
+storage
+
+R7.4bn
+
+R5.2bn
+
+3,600
+
+0.80
+
+The mineral-base portfolio expands mining, refining, logistics and reliable energy. It has strong export potential and
+lower technology-market risk, but captures less learning from storage.
+The electrolyte-led portfolio builds purification, electrolyte capacity, leasing and recovery. It uses the mineral
+advantage directly, but demand is tied to a still-small technology market.
+
+GreyScienx | Paper 7
+
+24
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+The full-chain portfolio attempts membranes, stacks, systems, projects and exports together. It creates strategic depth
+if it succeeds. It also concentrates qualification, utilisation, warranty and finance risks in one programme.
+The technology-neutral storage portfolio supports vanadium electrolyte while building cross-chemistry capabilities:
+inverters, switchgear, controls, thermal management, containers, safety testing, grid integration, field service and
+recycling. It produces the best central balance because those capabilities can serve LFP, sodium-ion and future
+long-duration technologies as well as VRFBs.
+
+A staged programme
+/ Stage 1: prove the product, 2026-2028
+Qualify locally produced electrolyte with at least two independent stack suppliers. Audit BELCO's equipment,
+ownership, operating condition and batch capability before committing public capital. Establish an accredited test
+centre that can run long-cycle, efficiency, contamination, leak, pump and stack-degradation protocols. Publish standard
+test results.
+Procure several 5-25 MWh industrial and municipal pilots with different duty cycles. Each contract should disclose
+availability, delivered energy, auxiliary consumption, degradation, maintenance hours and cost. Government pays partly
+for the data; suppliers earn later orders only by meeting gates.
+
+/ Stage 2: standardise and aggregate, 2028-2031
+Develop one or two standard South African system architectures using local tanks, piping, controls, switchgear, civil
+design and maintenance. Aggregate demand across mines, municipalities and renewable projects so suppliers see a
+fleet rather than isolated demonstrations.
+Create a ring-fenced electrolyte-leasing vehicle with capped public exposure. Expand production only against signed
+projects and framework orders. Establish take-back and electrolyte-passport rules.
+
+/ Stage 3: buy long-duration performance, 2030-2035
+Run competitive tenders for eight-, twelve-, sixteen- and twenty-four-hour services. Pay for delivered availability,
+efficiency, throughput, response and life. Allow all technologies to bid. Give a transparent, declining credit for verified
+local value added, not a permanent technology reservation.
+Use contracts long enough to support finance but include step-in rights, spare-parts requirements and
+supplier-replacement plans. Require the project company to survive the failure of any single upstream shareholder.
+
+/ Stage 4: deepen selectively, after utilisation is proven
+Localise stack plates, electrodes or membranes only after recurring demand can use a commercial line and a
+technology partner transfers real process knowledge. Export complete systems first to markets where South African
+firms can maintain them: regional mines, utilities and isolated grids. Enter distant markets through a bankable OEM or
+engineering partner.
+
+What the state should buy
+The state should purchase four public goods:
+1. credible test data, openly reported under a common protocol;
+2. early demand, awarded competitively for a defined system service;
+3. shared infrastructure, including laboratories, standards and grid-integration facilities; and
+4. patient but capped finance, especially for recoverable electrolyte inventory.
+It should not promise a domestic manufacturer a protected market regardless of performance, finance an expansion
+without orders, or treat every imported component as policy failure. Localisation is a learning path. A rigid percentage
+can encourage invoice engineering while weakening the product.
+
+GreyScienx | Paper 7
+
+25
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+PART XII
+
+Risks, counterarguments and verdict
+
+PART XII: Risks, counterarguments and verdict
+The strongest case against the strategy
+The sceptical argument is formidable. LFP already has the factories, developers and warranties. Global storage costs
+continue to fall. South Africa is not a dominant vanadium producer. Flow batteries are less efficient and bulkier. The
+country's first major integrated champion suffered financial distress. Public procurement has a poor record of
+converting industrial promises into globally competitive firms. Why risk scarce capital?
+The answer cannot be patriotism. It must be portfolio economics. South Africa will spend large amounts on storage in
+any event. Reserving a small, disciplined share of that demand for long-duration competition can reveal whether VRFBs
+provide value under local conditions. The country can localise broadly useful electrical and mechanical capabilities even
+if vanadium's market share remains small. Electrolyte and recovery use a genuine resource-processing advantage. The
+experiments can be staged, measured and stopped.
+The case collapses if support is open-ended, procurement hides performance, or the technology is forced into
+four-hour projects. It strengthens if contracts buy long-duration service, factories expand after orders, and public
+capital earns a claim on recoverable metal rather than underwriting an unbounded corporate structure.
+
+Twelve failure modes to design out
+Ore exceptionalism. Treating domestic resources as proof of downstream competitiveness.
+Four-hour protectionism. Reserving an incumbent lithium service for a higher-cost flow system.
+Capacity theatre. Announcing litres or megawatts of factory capacity without utilisation or customer qualification.
+Vertical balance-sheet overload. Asking one mining group to carry every risk from shaft to power project.
+Single-supplier dependence. Building a public fleet whose membrane, stack or software has no substitute.
+Warranty hollowing. Accepting a twenty-year technical claim from a thinly capitalised company.
+Imported-value inflation. Calling the full system invoice domestic beneficiation.
+Metal-price optimism. Assuming low vanadium prices for battery customers while promising high prices to miners.
+Efficiency denial. Ignoring the extra electricity required by a lower round-trip efficiency.
+Revenue stacking fiction. Counting grid services that cannot be delivered simultaneously.
+Pilot permanence. Keeping subsidised demonstrations alive without graduation or closure gates.
+Chemistry lock-in. Building capabilities that cannot adapt if another long-duration technology wins.
+
+Decision gates
+The programme should proceed only through explicit gates.
+
+GreyScienx | Paper 7
+
+26
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+Gate
+
+Evidence required
+
+Decision if failed
+
+Electrolyte quality
+
+repeated independent qualification
+
+fix process before expanding
+
+Demonstration
+
+availability, efficiency and degradation
+targets
+
+redesign or stop procurement
+
+Bankability
+
+warranty reserve, step-in rights, service
+plan
+
+use stronger partner or do not finance
+
+Demand
+
+signed projects covering a credible share
+of capacity
+
+defer factory expansion
+
+Local value
+
+audited domestic wages, inputs and
+margin
+
+reduce localisation support
+
+Export readiness
+
+certification, reference fleet and service
+partner
+
+remain regional/domestic
+
+Recovery
+
+enforceable title and tested take-back
+process
+
+do not scale leasing vehicle
+
+Final verdict
+South Africa can create a vanadium grid-storage economy, but it is unlikely to be a giant integrated national champion
+selling every component to the world. A more plausible success is a specialised industrial cluster: vanadium purification
+and electrolyte; domestic tanks, pumps and containers; strong power electronics and grid integration; a fleet of
+high-cycle long-duration projects; and a recovery system that keeps the metal working for decades.
+The market should be won at the system boundary where flow batteries are genuinely different. At four hours, LFP's
+scale and efficiency are difficult to beat. At sixteen to twenty-four hours, with frequent cycling and valuable fire safety,
+the economics become contestable. That is where procurement should test the technology.
+The mineral does not guarantee the industry. The industry will exist only if South African firms can transform a tonne of
+vanadium into a reliable service that a customer is willing to finance, use and buy again.
+
+GreyScienx | Paper 7
+
+27
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+SECTION
+
+Model assumptions and interpretation
+
+Model assumptions and interpretation
+This paper is a transparent scenario exercise, not a forecast, engineering design, feasibility study or investment
+recommendation. All rand values are constant 2026 rand unless stated. The analytical exchange rate is R18 per US
+dollar. The vanadium-pentoxide input is USD8 per pound. These are fixed model inputs chosen to make comparisons
+reproducible; they are not current-price claims.
+The storage-cost curves are calibrated to PNNL's 2024 estimates for a 100 MW, ten-hour installation: USD379/kWh for
+LFP and USD446/kWh for VRFB. Power-related and energy-related cost shares are simplified so duration can vary.
+Actual bids will differ by country, site, taxes, financing, supplier, grid works and contract.
+Lifetime storage cost uses twenty-five years, an 8 per cent real discount rate, 250 full cycles per year and charging
+electricity at R0.75/kWh. Round-trip efficiency is 85 per cent for LFP and 72 per cent for VRFB. The LFP replacement is
+65 per cent of initial installed cost in year fourteen. The VRFB stack-related replacement occurs in year fifteen. Residual
+values are not credited except conceptually in the leasing discussion.
+Electrolyte intensity is modelled at fifty litres per kWh and 0.087 kilograms of vanadium per litre. Commercial designs
+vary. BELCO's own public MWh equivalence is therefore reported separately from the model's physical conversion.
+The value ladder follows one tonne of contained vanadium into alternative endpoints. Endpoints must not be summed.
+The complete-system figure measures sales enabled by vanadium, not value physically created by the metal. Local
+shares are assumptions designed to prevent imported inputs from being counted as South African value.
+The ten industrial modules are independent illustrative projects and are not mass-balanced. Capital, sales, exports, jobs,
+energy and water are scenario values for comparing structures. Direct jobs exclude induced and economy-wide
+multiplier claims.
+The R20 billion portfolios are judgement-based combinations of modules and enabling investments. Their “delivery
+score” is an index, not an observed probability. It rewards modularity, transferable capability, demand diversity and
+lower coordination risk.
+
+Sources
+- US Geological Survey. *Mineral Commodity Summaries 2026*.
+- US Geological Survey. South Africa country minerals information.
+- Department of Electricity and Energy. *Integrated Resource Plan 2025*.
+- Electric Power Research Institute. *Supply-Side Cost and Performance Data for IRP 2023/2024*.
+- Eskom. Battery Energy Storage System programme.
+- Eskom. *Integrated Report 2025*.
+- South African Government. BESIPPPP Bid Window 3 announcement.
+- International Energy Agency. “Battery storage is scaling up and taking on a larger system role”.
+- International Energy Agency. *Global Energy Review 2026: Battery storage*.
+
+GreyScienx | Paper 7
+
+28
+
+GREYSCIENX
+
+THE VANADIUM GRID-STORAGE ECONOMY
+
+- Pacific Northwest National Laboratory. *Energy Storage Technology Cost and Performance Assessment: Flow
+Batteries*.
+- Pacific Northwest National Laboratory. Energy Storage Cost and Performance Database.
+- US Department of Energy. *2022 Grid Energy Storage Technology Cost and Performance Assessment*.
+- US Department of Energy. *Flow Batteries Technology Strategy Assessment*.
+- US Department of Energy. Storage Innovations 2030.
+- Bushveld Minerals. BELCO.
+- Bushveld Minerals. *H1 2023 Results Presentation*.
+- Bushveld Minerals. *Annual Report 2023*.
+- Bushveld Minerals. *Annual Report and Financial Results 2022*.
+- East London Industrial Development Zone. ELIDZ unveils new investments.
+- Matuson Associates. Bushveld Minerals business rescue.
+- World Bank. *South Africa: Critical Minerals for the Energy Transition*.
+- South African Government. Cabinet approval of the South African Renewable Energy Masterplan.
+
+GreyScienx | Paper 7
+
+29
+
+

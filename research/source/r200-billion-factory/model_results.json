@@ -1,0 +1,97 @@
+{
+  "envelope_r_bn": 225.0,
+  "allocation_r_bn": {
+    "Production plants": 96,
+    "Power + grid": 35,
+    "Water + effluent": 14,
+    "Rail, port + logistics": 18,
+    "Parks + common services": 12,
+    "Supplier + working capital": 20,
+    "Skills, R&D + testing": 8,
+    "Worker access + housing": 7,
+    "Contingency": 15
+  },
+  "production_chains": {
+    "Manganese materials + batteries": {
+      "capital": 45,
+      "sites": 9,
+      "jobs": 4550,
+      "sales": 42,
+      "power_mw": 380
+    },
+    "PGM components + hydrogen systems": {
+      "capital": 29,
+      "sites": 10,
+      "jobs": 2900,
+      "sales": 34,
+      "power_mw": 155
+    },
+    "Vanadium + long-duration storage": {
+      "capital": 18,
+      "sites": 10,
+      "jobs": 2700,
+      "sales": 25,
+      "power_mw": 120
+    },
+    "Shared machinery + recycling": {
+      "capital": 4,
+      "sites": 5,
+      "jobs": 950,
+      "sales": 7,
+      "power_mw": 45
+    }
+  },
+  "phases": [
+    [
+      "Prepare",
+      0,
+      2,
+      18
+    ],
+    [
+      "Utilities",
+      1,
+      5,
+      61
+    ],
+    [
+      "Wave 1 plants",
+      2,
+      6,
+      45
+    ],
+    [
+      "Wave 2 plants",
+      4,
+      8,
+      51
+    ],
+    [
+      "Deep localisation",
+      6,
+      10,
+      35
+    ],
+    [
+      "Reserve",
+      0,
+      10,
+      15
+    ]
+  ],
+  "central": {
+    "plant_modules": 34,
+    "direct_operating_jobs": 11100,
+    "supplier_jobs_estimate": 9990,
+    "annual_sales_r_bn": 108,
+    "reliable_power_mw": 700,
+    "water_million_m3_y": 12,
+    "build_years": 10
+  },
+  "notes": [
+    "Scenario, not forecast or feasibility study.",
+    "Plant modules inherit stylised assumptions from GreyScienx Papers 5-7.",
+    "Jobs are direct unless labelled supplier estimate.",
+    "All amounts are constant 2026 rand."
+  ]
+}

@@ -1,0 +1,765 @@
+GREYSCIENX / PAPER 8 / SEPTEMBER 2026
+
+
+
+
+The R200-Billion Factory
+What physical industrial system could approximately R200-R250 billion actually
+build?
+
+
+
+
+              R225bn                                        34            11,100
+           modelled capital envelope                     plant modules   direct operating jobs
+
+
+
+
+South Africa | Industrial systems | Capital allocation
+GREYSCIENX                                                                                                          THE R200-BILLION FACTORY
+
+
+
+
+Inside the note
+A map of the argument, model, evidence, and qualifications.
+
+
+
+
+PART I: The answer                                                                                                                           4
+
+   It builds an industrial programme, not one factory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+
+   Seven findings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+
+PART II: What R225 billion means in context                                                                                                  6
+
+   Large enough to matter, not large enough to ignore choices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+
+   Capital budget is not total economic cost . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+
+PART III: The production core                                                                                                                8
+
+   Thirty-four modules in four families . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+
+   Why not spend all R225 billion on plants? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+
+PART IV: Power, water, logistics and land                                                                                                  10
+
+   The production core behaves like a new industrial town . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+
+   Land must be ready, not merely designated . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+
+PART V: Geography                                                                                                                          12
+
+   Five nodes, one connected portfolio . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+
+PART VI: Construction and employment                                                                                                       13
+
+   The jobs arrive in two waves . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+
+   R8 billion for skills is operating infrastructure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+
+PART VII: Time                                                                                                                             15
+
+   Ten years, three investment decisions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+
+PART VIII: Utilisation, working capital and customers                                                                                      16
+
+   The plant is valuable only when it runs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+
+PART IX: Overruns and the reserve                                                                                                          17
+
+
+GreyScienx | Paper 8                                                                                                                        02
+GREYSCIENX                                                                                                            THE R200-BILLION FACTORY
+
+
+
+
+   A contingency is not enough to cure weak execution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+
+PART X: Three outcomes                                                                                                                       18
+
+   The budget does not determine the result . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+
+PART XI: Governance                                                                                                                          19
+
+   Treat each module as a falsifiable proposition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+
+PART XII: Verdict                                                                                                                            20
+
+   What R225 billion can honestly buy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+
+Model assumptions and interpretation                                                                                                         21
+
+   Sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+
+
+
+GreyScienx | Paper 8                                                                                                                          03
+GREYSCIENX                                                                                                               THE R200-BILLION FACTORY
+
+
+
+
+    PART I
+
+    The answer
+
+
+
+PART I: The answer
+It builds an industrial programme, not one factory
+R225 billion is large enough to alter South Africa's industrial structure, but too small to repair every constraint and too
+large to spend intelligently as one project. The useful mental picture is not a giant factory behind one fence. It is a
+ten-year programme containing prepared sites, reliable utilities, about three dozen production modules, laboratories,
+colleges, supplier finance, logistics connections and customers.
+
+The model allocates R225 billion in constant 2026 rand. Only R96 billion, or 43 per cent, goes directly into production
+plants. R35 billion provides power and grid connections; R14 billion water and effluent systems; R18 billion rail, port
+and logistics upgrades; R12 billion industrial parks and common services; R20 billion supplier and working capital; R8
+billion skills, research and testing; R7 billion worker transport and housing; and R15 billion contingency.
+
+
+
+
+Figure 1. More than half of the illustrative envelope enables production rather than buying production equipment. The distinction is essential: a
+plant without power, water, logistics, skills, working capital or customers is not productive capital.
+
+The central conclusion: A credible R225 billion programme could establish 34 industrial modules across
+manganese-battery materials, PGM-hydrogen components, vanadium storage and shared machinery or
+recycling. In the central case it supports about 11,100 direct operating jobs, roughly 10,000 supplier
+jobs, R108 billion of annual sales, 700 MW of reliable power demand and twelve million cubic metres of
+
+
+
+
+GreyScienx | Paper 8                                                                                                                                04
+GREYSCIENX                                                                                        THE R200-BILLION FACTORY
+
+
+
+annual industrial water demand. It takes close to a decade, not one budget year, and its success
+depends more on utilisation and execution than on the number of ribbon cuttings.
+
+The numbers are scenarios, not quotations or forecasts. Plant sizes inherit the transparent stylised assumptions
+developed in GreyScienx Papers 5, 6 and 7. Their purpose is physical discipline. They force a large monetary promise to
+answer mundane questions: how many lines, where, connected to what, staffed by whom, producing how much, and
+sold to which customer?
+
+
+Seven findings
+First, R225 billion is a portfolio, not a blank cheque. South Africa's 2026 Budget projects R1.07 trillion of
+public-sector infrastructure spending over three years. The paper's hypothetical programme is therefore material but
+not unprecedented in relation to the national capital plan. It would equal about one fifth of that three-year total and
+would compete with roads, water, energy and social infrastructure for scarce engineering and fiscal capacity. National
+Treasury, *Budget Review 2026*.
+
+Second, enabling infrastructure consumes 35 per cent before supplier finance, skills or contingency. Industrial
+machinery is useless when grid connections arrive late, effluent permits fail or freight cannot move.
+
+Third, the production core is deliberately modular. Thirty-four modules are easier to stage, benchmark and close
+than one integrated conglomerate. Failure in a cathode line should not automatically take down an electrolyte plant or
+a catalyst facility.
+
+Fourth, construction jobs are temporary. The programme peaks near 40,000 direct construction jobs in the model
+but settles near 11,100 direct operating jobs. Presenting the peak as permanent employment would be misleading.
+
+Fifth, capacity utilisation is the economic hinge. At 40 per cent average use, the production portfolio creates almost
+no local value after its fixed burden in the model. Above 70 per cent, the case becomes materially stronger.
+
+Sixth, geography should follow economic function. The plan uses five connected nodes rather than one national
+megasite: Northern Cape mineral processing; Gauteng components, research and finance; Limpopo and North West
+PGM systems; Gqeberha/Coega battery and export production; and an East London/Durban storage and automotive
+corridor.
+
+Seventh, the reserve is a governance instrument. The R15 billion contingency is released only at stage gates. If it is
+allocated politically on day one, it is not a reserve.
+
+
+
+
+GreyScienx | Paper 8                                                                                                   05
+GREYSCIENX                                                                                                              THE R200-BILLION FACTORY
+
+
+
+
+    PART II
+
+    What R225 billion means in context
+
+
+
+PART II: What R225 billion means in context
+Large enough to matter, not large enough to ignore choices
+The 2026 Budget estimates public-sector infrastructure expenditure of R1.066 trillion over 2026/27-2028/29. Transport
+and logistics account for R417.6 billion, energy R213.6 billion and water and sanitation R185.2 billion. State-owned
+companies are expected to execute R445.5 billion, provinces R217.8 billion and municipalities R205.7 billion. National
+Treasury, *Budget Review 2026*, Annexure D.
+
+This comparison prevents two opposite errors. The first is to describe R225 billion as impossibly large. Government and
+public entities already manage capital programmes several times that size. The second is to describe it as enough to
+rebuild the whole industrial economy. National infrastructure requirements are much larger, and the existing pipeline
+already claims construction firms, engineers, transformers, municipal approvals and fiscal space.
+
+The programme must therefore be additional in capability, not merely additional in invoices. It should concentrate on
+gaps that allow private factories and existing assets to work: dedicated connections, common treatment facilities,
+testing, logistics interfaces, supplier credit and skills.
+
+
+
+
+Figure 2. The physical sequence matters. Land and permits precede utilities; utilities precede plant commissioning; operations require people and
+inputs; and the whole chain depends on customers.
+
+
+
+
+GreyScienx | Paper 8                                                                                                                            06
+GREYSCIENX                                                                                            THE R200-BILLION FACTORY
+
+
+
+
+Capital budget is not total economic cost
+The R225 billion envelope does not include every lifetime cost. Plants need feedstock, wages, electricity, maintenance,
+inventory and replacements. A battery-material facility may require months of expensive chemical stock before
+receiving customer payment. A hydrogen-component producer may spend years qualifying a product. A public capital
+allocation can build the asset while leaving the operating company insolvent.
+
+The model therefore includes R20 billion for supplier development and working capital. This is not a grant to keep weak
+businesses alive. It is a revolving facility for qualifying suppliers, financing inventory and bridging verified orders. Loans
+should be priced, secured where possible and withdrawn when the customer disappears.
+
+
+
+
+GreyScienx | Paper 8                                                                                                       07
+GREYSCIENX                                                                                                                THE R200-BILLION FACTORY
+
+
+
+
+    PART III
+
+    The production core
+
+
+
+PART III: The production core
+Thirty-four modules in four families
+
+
+
+
+Figure 3. The R96 billion production core is divided among four families. Jobs are direct operating positions at modelled utilisation, not
+construction or economy-wide multiplier claims.
+
+The manganese-materials and battery family receives R45 billion across nine modules. It includes high-purity
+manganese, sulphate, precursor or cathode materials, cell production, pack assembly and recycling. It is the largest
+allocation because chemical processing and cell manufacture are capital intensive. It does not attempt to turn all South
+African manganese into batteries; export markets and qualified customers remain limiting.
+
+The PGM-component and hydrogen-system family receives R29 billion across ten modules. It prioritises catalysts,
+inks, coated membranes, membrane-electrode assemblies, selected stacks, system integration and recycling. It treats
+green-hydrogen production as a customer project with separate electricity economics rather than a compulsory sink for
+factory output.
+
+The vanadium and long-duration-storage family receives R18 billion across ten modules. It combines refining and
+electrolyte with pumps, tanks, power electronics, containerisation, project integration and recovery. Stack and
+membrane localisation deepen only after a fleet proves demand.
+
+The shared machinery and recycling family receives R4 billion across five smaller modules. It provides process skids,
+fluid handling, enclosures, industrial controls, testing and recovery services usable across multiple technologies. This is
+the smallest allocation but one of the best protections against technological substitution.
+
+
+GreyScienx | Paper 8                                                                                                                           08
+GREYSCIENX                                                                                        THE R200-BILLION FACTORY
+
+
+
+
+ Family                Production capital   Modules           Direct operating    Annual sales        Reliable power
+                                                              jobs
+
+ Manganese materials   R45bn                9                 4,550               R42bn               380 MW
+ and batteries
+
+ PGM components        R29bn                10                2,900               R34bn               155 MW
+ and hydrogen
+ systems
+
+ Vanadium and          R18bn                10                2,700               R25bn               120 MW
+ long-duration
+ storage
+
+ Shared machinery      R4bn                 5                 950                 R7bn                45 MW
+ and recycling
+
+
+
+The table is not a tender schedule. Module scales are independent, and downstream sales contain imported inputs.
+Annual sales are not GDP, local value added or profit. The plan must audit each measure separately.
+
+
+Why not spend all R225 billion on plants?
+Because the additional plant would compete for missing connections, skills and customers. The marginal rand
+eventually buys less productive capacity. A second cell factory may look impressive but destroy value if both factories
+operate at 45 per cent. A shared testing laboratory or rail siding can raise utilisation across several plants.
+
+Industrial policy should optimise the system, not maximise factory count.
+
+
+
+
+GreyScienx | Paper 8                                                                                                      09
+GREYSCIENX                                                                                                             THE R200-BILLION FACTORY
+
+
+
+
+    PART IV
+
+    Power, water, logistics and land
+
+
+
+PART IV: Power, water, logistics and land
+The production core behaves like a new industrial town
+The central portfolio requires about 700 MW of reliable connected power. That is demand, not necessarily continuous
+consumption at nameplate. Energy-intensive manganese refining dominates, while component assembly uses less
+energy but requires exceptional power quality. On-site renewables and storage can reduce cost and interruption, but
+they do not eliminate grid, land or backup requirements.
+
+
+
+
+Figure 4. Manganese materials dominate the modelled utility burden. The right-hand line reports industrial water; both measures are illustrative
+engineering envelopes rather than site designs.
+
+Annual industrial water demand reaches about twelve million cubic metres. The total is modest relative to national
+consumption but can be decisive in a water-constrained district. High-quality process water, wastewater treatment,
+chemical recovery and reliable municipal bulk supply matter more than the national average.
+
+The plan sets aside R14 billion for water and effluent systems. Common treatment at an industrial park can lower unit
+cost and improve compliance, but it concentrates risk. A treatment failure can stop every tenant. Facilities need
+redundancy, clear ownership and tariffs that fund maintenance.
+
+The R18 billion logistics allocation is targeted rather than national. It finances sidings, loading equipment, port
+interfaces, hazardous-material handling, storage and digital scheduling associated with selected nodes. It cannot repair
+the entire freight network. National reforms remain necessary.
+
+
+
+
+GreyScienx | Paper 8                                                                                                                           10
+GREYSCIENX                                                                                          THE R200-BILLION FACTORY
+
+
+
+
+Land must be ready, not merely designated
+An industrial development zone is not prepared because a map has been approved. A ready site has title, zoning,
+environmental authorisation, bulk services, geotechnical work, road and rail access, grid capacity, water allocation,
+waste routes, security and a delivery authority able to contract.
+
+The programme should fund sites in phases. A site receives production equipment only when the utility and permitting
+package is bankable. This reverses the common sequence in which machinery is ordered first and public agencies
+spend years solving access afterward.
+
+
+
+
+GreyScienx | Paper 8                                                                                                     11
+GREYSCIENX                                                                                                               THE R200-BILLION FACTORY
+
+
+
+
+    PART V
+
+    Geography
+
+
+
+PART V: Geography
+Five nodes, one connected portfolio
+
+
+
+
+Figure 5. The map is schematic, not geographic. Allocation follows combinations of resource access, existing industry, skills, ports and customers
+rather than provincial equality.
+
+Northern Cape hosts manganese processing and renewable-linked utilities near ore and rail. The node requires water
+discipline and reliable export logistics. It should not host downstream production that gains more from engineering
+labour or automotive customers elsewhere.
+
+Gauteng concentrates laboratories, component companies, universities, finance, software, certification and
+headquarters. Its value is coordination and skill depth, not ore proximity.
+
+Limpopo and North West connect PGM components and mining-equipment systems to mines, refineries and early
+customers. Some precision manufacturing can remain in Gauteng while field integration occurs near users.
+
+Gqeberha and Coega combine port infrastructure, automotive capability, industrial land and export orientation.
+Battery materials, packs and related systems can share logistics and quality disciplines with automotive suppliers.
+
+East London and Durban provide electrolyte, storage-system and automotive opportunities linked to ports and
+existing industrial bases. The paper groups them as a corridor for modelling; they remain separate cities with different
+utilities and institutions.
+
+
+
+
+GreyScienx | Paper 8                                                                                                                                 12
+GREYSCIENX                                                                                                           THE R200-BILLION FACTORY
+
+
+
+
+    PART VI
+
+    Construction and employment
+
+
+
+PART VI: Construction and employment
+The jobs arrive in two waves
+
+
+
+
+Figure 6. Construction peaks around year four and then falls. Permanent operating and supplier employment rises more slowly. The distinction
+should be built into every public announcement.
+
+The model peaks near 40,000 construction jobs. These positions are real and valuable, but temporary. By year ten,
+direct operation stabilises around 11,100 positions. An illustrative supplier ratio adds roughly 10,000 jobs. Induced
+service employment is not quantified because it depends on wages, imports, location and household spending.
+
+Modern mineral processing is capital intensive. R225 billion will not directly absorb millions of unemployed people. Its
+employment case is that productive, exporting firms create durable skilled and semi-skilled work, demand local services
+and relieve foreign-exchange constraints. It must be paired with labour-intensive sectors, urban services and broad
+employment policy.
+
+The programme also changes the type of work. Construction needs civil trades and project supervision. Commissioning
+needs instrumentation, process control and vendor engineers. Operation needs technicians, chemists, maintenance
+teams, quality managers, logistics specialists and sales engineers. Training people only for the final plant leaves the
+construction and commissioning bottlenecks untouched.
+
+
+
+
+GreyScienx | Paper 8                                                                                                                           13
+GREYSCIENX                                                                                           THE R200-BILLION FACTORY
+
+
+
+
+R8 billion for skills is operating infrastructure
+The skills allocation funds industry-linked TVET programmes, apprenticeships, university laboratories, conversion
+courses, vendor training and production-management capacity. Support follows verified placements and competency,
+not enrolment alone.
+
+Plants should sign training contracts before financial close. Imported specialists may be necessary in the first years, but
+every work permit for a scarce role should carry a counterpart and transfer plan. The objective is not to ban foreign
+expertise; it is to prevent permanent dependence.
+
+
+
+
+GreyScienx | Paper 8                                                                                                      14
+GREYSCIENX                                                                                                            THE R200-BILLION FACTORY
+
+
+
+
+    PART VII
+
+    Time
+
+
+
+PART VII: Time
+Ten years, three investment decisions
+
+
+
+
+Figure 7. Spending overlaps, but commitment is staged. The reserve remains available across the decade and is not treated as an ordinary
+programme line.
+
+Years 0-2: prepare. Select nodes, complete bankable feasibility, obtain permits, negotiate offtake, establish technical
+standards and commission shared laboratories. Small pilots may proceed. Large process equipment should not be
+ordered on the basis of a concept note.
+
+Years 1-5: enable. Build grid connections, generation, water, effluent, roads, rail interfaces and common services.
+Utility schedules must be contractual and visible to plant lenders.
+
+Years 2-6: Wave 1 plants. Build modules with proven feedstock, technology partners and customers: high-purity
+materials, catalysts, electrolyte, pack and storage integration, machinery and recycling.
+
+Years 4-8: Wave 2 plants. Add cathode, cell, stack or electrolyser capacity only when Wave 1 provides qualification,
+supplier and customer evidence.
+
+Years 6-10: deepen. Localise harder components, expand successful lines, acquire technology and export systems.
+Close or sell modules that fail rather than preserving them as monuments.
+
+National Treasury reported that the Budget Facility for Infrastructure approved nine projects worth R55.5 billion in the
+2025 cycle, with R15.3 billion funded by the facility. The scale demonstrates why project preparation and co-financing
+must be institutional rather than improvised. National Treasury, *2025 Budget presentation*.
+
+
+GreyScienx | Paper 8                                                                                                                       15
+GREYSCIENX                                                                                                                 THE R200-BILLION FACTORY
+
+
+
+
+    PART VIII
+
+    Utilisation, working capital and customers
+
+
+
+PART VIII: Utilisation, working capital and
+customers
+The plant is valuable only when it runs
+
+
+
+
+Figure 8. The stylised portfolio barely covers its fixed operating burden at low utilisation. Seventy per cent is a programme gate, not a universal
+plant break-even point.
+
+At 40 per cent average utilisation, the production portfolio's local value after its stylised fixed burden is near zero. At 55
+per cent it reaches roughly R4.5 billion annually; at 70 per cent about R12 billion; at 85 per cent roughly R19 billion; and
+at 95 per cent about R24 billion.
+
+The precise curve is assumed. The lesson is robust. A project can be technically complete and economically unfinished.
+Underuse raises unit cost, slows learning, weakens suppliers and turns debt into a burden.
+
+Every module therefore needs a utilisation plan containing customer concentration, minimum order volume, price
+corridor, qualification period, export logistics and downside response. Government procurement can anchor demand
+where the state genuinely needs the product. It should not create permanent artificial consumption.
+
+Working capital deserves equal attention. A profitable exporter can fail while carrying inventory and waiting for
+payment. The R20 billion facility should finance verified orders and receivables, with risk-sharing from commercial
+banks. It should report arrears, restructurings and losses like a bank, not hide them as industrial support.
+
+
+
+
+GreyScienx | Paper 8                                                                                                                                  16
+GREYSCIENX                                                                                                       THE R200-BILLION FACTORY
+
+
+
+
+    PART IX
+
+    Overruns and the reserve
+
+
+
+PART IX: Overruns and the reserve
+A contingency is not enough to cure weak execution
+
+
+
+
+Figure 9. A moderate overrun can be absorbed by scope and reserve management. Combined cost escalation and delay can leave barely
+two-thirds of planned productive capacity operating.
+
+The on-plan case delivers the full productive system. A 10 per cent overrun reduces effective scope to 94 per cent after
+using part of the reserve. At 20 per cent, delivered scope falls to 86 per cent. Combining a 20 per cent overrun with a
+two-year delay reduces it to 78 per cent; a 35 per cent overrun and three-year delay to 64 per cent.
+
+Delay is expensive even when the construction invoice does not rise. Management and interest continue, technology
+ages, customers find other suppliers and trained workers leave. The correct response is not always to inject more
+money. Some modules should be cancelled so the remaining system can operate.
+
+The R15 billion reserve is held centrally. Release requires an independent explanation of cause, remaining economics
+and alternatives. It cannot cover ordinary operating losses or replace missing customer revenue.
+
+
+
+
+GreyScienx | Paper 8                                                                                                                  17
+GREYSCIENX                                                                                                              THE R200-BILLION FACTORY
+
+
+
+
+    PART X
+
+    Three outcomes
+
+
+
+PART X: Three outcomes
+The budget does not determine the result
+
+
+
+
+Figure 10. The central case reaches 86 per cent of planned operating capacity, 11,100 direct jobs and R58 billion of annual exports. The axes use
+stated units, with direct jobs expressed in hundreds.
+
+In the high-execution case, utilities arrive on time, commercial partners transfer usable know-how, average utilisation
+approaches 90 per cent and successful modules expand. Roughly 14,500 direct operating jobs and R82 billion of annual
+exports become possible.
+
+In the central case, several modules are delayed or downsized. The programme delivers 86 per cent of planned
+capacity, 11,100 direct jobs and R58 billion of exports. It creates a material industrial platform without transforming the
+labour market by itself.
+
+In the adverse case, projects are selected politically, infrastructure is late and factories operate around half capacity.
+Only 55 per cent of planned productive capacity functions, direct jobs settle near 6,500 and exports near R24 billion.
+Capital exists physically but much of it is economically stranded.
+
+
+
+
+GreyScienx | Paper 8                                                                                                                            18
+GREYSCIENX                                                                                         THE R200-BILLION FACTORY
+
+
+
+
+    PART XI
+
+    Governance
+
+
+
+PART XI: Governance
+Treat each module as a falsifiable proposition
+Every project passes six gates: prepared site, utility contract, technology and operator, customer or credible market,
+complete financing, and measurable local value. Approval is conditional. A project that loses its offtake returns to
+appraisal.
+
+The programme publishes a quarterly physical account: land prepared, megawatts connected, water commissioned,
+equipment installed, qualification achieved, capacity used, output sold, local value, employment, accidents and cash
+exposure. Monetary expenditure without physical progress is an alarm.
+
+Governance should separate portfolio owner, project appraiser and plant operator. Political leaders define objectives
+and risk appetite. Independent specialists test projects. Competitive firms operate plants. The state can hold equity
+without appointing every manager.
+
+South Africa's Infrastructure Fund already uses blended structures and project preparation. The DBSA reported R37.6
+billion of Budget Facility for Infrastructure approvals since inception and a mandate to crowd in investment. The
+industrial programme should build on those institutions while keeping commercial manufacturing risk distinct from
+public utility obligations. DBSA, *Integrated Annual Report 2025*.
+
+
+
+
+GreyScienx | Paper 8                                                                                                     19
+GREYSCIENX                                                                                            THE R200-BILLION FACTORY
+
+
+
+
+    PART XII
+
+    Verdict
+
+
+
+PART XII: Verdict
+What R225 billion can honestly buy
+It can buy a serious industrial option: 34 production modules, five connected nodes, the utility systems to run them,
+laboratories to qualify them, colleges to staff them, working capital to fulfil orders and a reserve to stop one failure
+consuming the programme.
+
+It cannot buy automatic competitiveness, millions of permanent jobs, guaranteed exports or immunity from commodity
+and technology cycles. Those outcomes depend on customers, management, prices and repeated operational
+performance.
+
+The best plan is therefore selective and sequential. It builds the parts South Africa is ready to operate; imports or
+partners for what it is not; deepens only after utilisation; and closes projects that fail. R225 billion should not be judged
+by how completely it is spent. It should be judged by how much competitive production remains ten and twenty years
+later.
+
+
+
+
+GreyScienx | Paper 8                                                                                                       20
+GREYSCIENX                                                                                         THE R200-BILLION FACTORY
+
+
+
+
+    SECTION
+
+    Model assumptions and interpretation
+
+
+
+Model assumptions and interpretation
+All amounts are constant 2026 rand. The R225 billion envelope is the midpoint of the requested R200-R250 billion
+range. Allocations and module outcomes are scenarios, not forecasts, engineering designs or procurement estimates.
+
+Production-module costs and operating characteristics draw on the transparent illustrative modules in GreyScienx
+Papers 5-7. The portfolio is not mass-balanced. A downstream plant's full output is not assumed to use only domestic
+upstream production.
+
+Jobs are direct unless labelled supplier estimates. Construction employment is a time profile, not permanent. Annual
+sales are not GDP, value added, exports, tax revenue or profit. The utilisation curve uses a stylised fixed burden to
+demonstrate sensitivity.
+
+Geographic nodes are schematic. Site selection requires detailed land, grid, water, logistics, environmental, labour and
+customer analysis. The paper does not recommend a specific parcel or procurement.
+
+
+Sources
+ - National Treasury. *Budget Review 2026*.
+
+ - National Treasury. *2026 Budget Highlights*.
+
+ - National Treasury. *2025 Budget presentation*.
+
+ - National Treasury. *Medium Term Budget Policy Statement 2025*.
+
+ - Development Bank of Southern Africa. *Integrated Annual Report 2025*.
+
+ - Development Bank of Southern Africa. Infrastructure Fund project preparation.
+
+ - The Presidency. 2025 Sustainable Infrastructure Development Symposium address.
+
+ - GreyScienx. The South African Critical-Minerals Industrial Complex, Paper 4.
+
+ - GreyScienx. The Manganese-to-Battery Economy, Paper 5.
+
+ - GreyScienx. The Platinum-to-Hydrogen Economy, Paper 6.
+
+ - GreyScienx. The Vanadium Grid-Storage Economy, Paper 7.
+
+
+
+
+GreyScienx | Paper 8                                                                                                    21
+

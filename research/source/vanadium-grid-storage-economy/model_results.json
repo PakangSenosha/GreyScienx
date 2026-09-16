@@ -1,0 +1,217 @@
+{
+  "units": {
+    "currency": "constant 2026 rand unless stated",
+    "usd_zar_model_rate": 18.0,
+    "analytical_v2o5_price_usd_lb": 8.0
+  },
+  "endowment": {
+    "south_africa_2025_t_v": 5000,
+    "world_2025_t_v": 110000,
+    "south_africa_reserves_kt_v": 520,
+    "world_reserves_kt_v": 21000
+  },
+  "value_ladder": [
+    {
+      "stage": "V2O5 product",
+      "gross_usd": 31481.973599999998,
+      "local_share": 0.7,
+      "local_value_usd": 22037.381519999995
+    },
+    {
+      "stage": "Qualified electrolyte",
+      "gross_usd": 57471.2643678161,
+      "local_share": 0.55,
+      "local_value_usd": 31609.195402298858
+    },
+    {
+      "stage": "VRFB energy block",
+      "gross_usd": 50574.71264367816,
+      "local_share": 0.48,
+      "local_value_usd": 24275.862068965518
+    },
+    {
+      "stage": "Complete 10 h system",
+      "gross_usd": 102528.7356321839,
+      "local_share": 0.36,
+      "local_value_usd": 36910.3448275862
+    }
+  ],
+  "modules": [
+    {
+      "stage": "Vanadium mining",
+      "scale": "5 kt V/y",
+      "capex": 4.0,
+      "sales": 2.8,
+      "exports": 2.35,
+      "value": 1.6,
+      "jobs": 600,
+      "energy": 400,
+      "water": 0.8
+    },
+    {
+      "stage": "V2O5 refining",
+      "scale": "8 kt/y",
+      "capex": 3.0,
+      "sales": 2.5,
+      "exports": 1.9,
+      "value": 1.3,
+      "jobs": 300,
+      "energy": 250,
+      "water": 0.5
+    },
+    {
+      "stage": "Electrolyte",
+      "scale": "8m L/y",
+      "capex": 0.4,
+      "sales": 0.55,
+      "exports": 0.35,
+      "value": 0.3,
+      "jobs": 59,
+      "energy": 20,
+      "water": 0.05
+    },
+    {
+      "stage": "Membranes",
+      "scale": "250 MW/y",
+      "capex": 1.2,
+      "sales": 1.8,
+      "exports": 1.1,
+      "value": 0.55,
+      "jobs": 160,
+      "energy": 15,
+      "water": 0.02
+    },
+    {
+      "stage": "VRFB stacks",
+      "scale": "100 MW/y",
+      "capex": 1.8,
+      "sales": 2.5,
+      "exports": 1.5,
+      "value": 0.8,
+      "jobs": 250,
+      "energy": 25,
+      "water": 0.02
+    },
+    {
+      "stage": "Pumps + BOS",
+      "scale": "100 MW/y",
+      "capex": 1.0,
+      "sales": 1.8,
+      "exports": 0.85,
+      "value": 0.7,
+      "jobs": 300,
+      "energy": 15,
+      "water": 0.02
+    },
+    {
+      "stage": "Power electronics",
+      "scale": "250 MW/y",
+      "capex": 1.2,
+      "sales": 2.7,
+      "exports": 1.3,
+      "value": 0.9,
+      "jobs": 280,
+      "energy": 20,
+      "water": 0.01
+    },
+    {
+      "stage": "Container systems",
+      "scale": "100 MW / 1 GWh/y",
+      "capex": 3.5,
+      "sales": 8.0,
+      "exports": 3.8,
+      "value": 2.4,
+      "jobs": 500,
+      "energy": 50,
+      "water": 0.03
+    },
+    {
+      "stage": "Project integration",
+      "scale": "100 MW / 1 GWh/y",
+      "capex": 0.8,
+      "sales": 1.5,
+      "exports": 0.45,
+      "value": 0.85,
+      "jobs": 350,
+      "energy": 5,
+      "water": 0.01
+    },
+    {
+      "stage": "Electrolyte recovery",
+      "scale": "8m L/y service",
+      "capex": 0.6,
+      "sales": 0.5,
+      "exports": 0.2,
+      "value": 0.3,
+      "jobs": 80,
+      "energy": 10,
+      "water": 0.04
+    }
+  ],
+  "belco": {
+    "design_litres_per_year": 8000000,
+    "model_mwh_per_year": 160,
+    "jobs": 59,
+    "reported_investment_r_million": 400
+  },
+  "storage_costs": [
+    {
+      "duration_h": 4,
+      "lfp_capex_usd_kwh": 497.5,
+      "vrfb_capex_usd_kwh": 785.0,
+      "lfp_lcos_r_kwh": 5.517814219051726,
+      "vrfb_lcos_r_kwh": 8.067461114962555
+    },
+    {
+      "duration_h": 8,
+      "lfp_capex_usd_kwh": 398.75,
+      "vrfb_capex_usd_kwh": 502.5,
+      "lfp_lcos_r_kwh": 4.597710096056385,
+      "vrfb_lcos_r_kwh": 5.454899820906199
+    },
+    {
+      "duration_h": 10,
+      "lfp_capex_usd_kwh": 379.0,
+      "vrfb_capex_usd_kwh": 446.0,
+      "lfp_lcos_r_kwh": 4.413689271457319,
+      "vrfb_lcos_r_kwh": 4.932387562094928
+    },
+    {
+      "duration_h": 12,
+      "lfp_capex_usd_kwh": 365.8333333333333,
+      "vrfb_capex_usd_kwh": 408.33333333333337,
+      "lfp_lcos_r_kwh": 4.291008721724606,
+      "vrfb_lcos_r_kwh": 4.584046056220748
+    },
+    {
+      "duration_h": 16,
+      "lfp_capex_usd_kwh": 349.375,
+      "vrfb_capex_usd_kwh": 361.25,
+      "lfp_lcos_r_kwh": 4.137658034558716,
+      "vrfb_lcos_r_kwh": 4.1486191738780205
+    },
+    {
+      "duration_h": 24,
+      "lfp_capex_usd_kwh": 332.9166666666667,
+      "vrfb_capex_usd_kwh": 314.1666666666667,
+      "lfp_lcos_r_kwh": 3.984307347392826,
+      "vrfb_lcos_r_kwh": 3.713192291535295
+    }
+  ],
+  "central_project": {
+    "power_mw": 100,
+    "duration_h": 10,
+    "energy_mwh": 1000,
+    "lfp_capex_usd_m": 379,
+    "vrfb_capex_usd_m": 446,
+    "vrfb_capex_r_bn": 8.028,
+    "electrolyte_litres_m": 50,
+    "belco_years_output": 6.25
+  },
+  "notes": [
+    "Scenarios are not forecasts or investment advice.",
+    "Value-ladder endpoints are alternatives and must not be summed.",
+    "Module scales are independent and not mass-balanced.",
+    "LCOS is a model result sensitive to cycling, replacement, efficiency, finance and charging-energy assumptions."
+  ]
+}

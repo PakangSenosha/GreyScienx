@@ -1,0 +1,163 @@
+{
+  "units": {
+    "currency": "constant 2026 rand unless stated",
+    "usd_zar_model_rate": 18.0
+  },
+  "ladder": [
+    {
+      "stage": "44% ore",
+      "output_t": 2273,
+      "price_usd_t": 200,
+      "local_share": 0.65,
+      "sales_usdm": 0.4546,
+      "local_value_usdm": 0.29549000000000003
+    },
+    {
+      "stage": "HPMSM",
+      "output_t": 3125,
+      "price_usd_t": 1800,
+      "local_share": 0.45,
+      "sales_usdm": 5.625,
+      "local_value_usdm": 2.53125
+    },
+    {
+      "stage": "Cathode material",
+      "output_t": 8850,
+      "price_usd_t": 15000,
+      "local_share": 0.28,
+      "sales_usdm": 132.75,
+      "local_value_usdm": 37.17
+    },
+    {
+      "stage": "Battery cells",
+      "output_gwh": 4.545,
+      "price_usd_kwh": 80,
+      "local_share": 0.2,
+      "sales_usdm": 363.6,
+      "local_value_usdm": 72.72000000000001
+    },
+    {
+      "stage": "Pack / system",
+      "output_gwh": 4.545,
+      "price_usd_kwh": 120,
+      "local_share": 0.32,
+      "sales_usdm": 545.4,
+      "local_value_usdm": 174.528
+    }
+  ],
+  "modules": [
+    {
+      "stage": "Ore extraction",
+      "scale": "5 Mt ore/y",
+      "capex": 10.0,
+      "sales": 18.0,
+      "exports": 15.0,
+      "value": 9.0,
+      "jobs": 2000,
+      "energy": 300,
+      "water": 2.5,
+      "freight": 5.0
+    },
+    {
+      "stage": "High-purity Mn",
+      "scale": "100 kt/y",
+      "capex": 8.0,
+      "sales": 4.0,
+      "exports": 3.6,
+      "value": 1.8,
+      "jobs": 500,
+      "energy": 700,
+      "water": 0.5,
+      "freight": 0.15
+    },
+    {
+      "stage": "HPMSM",
+      "scale": "30 kt/y",
+      "capex": 4.5,
+      "sales": 0.972,
+      "exports": 0.9,
+      "value": 0.437,
+      "jobs": 180,
+      "energy": 90,
+      "water": 0.18,
+      "freight": 0.035
+    },
+    {
+      "stage": "pCAM / CAM",
+      "scale": "20 kt/y",
+      "capex": 7.0,
+      "sales": 5.4,
+      "exports": 4.0,
+      "value": 1.5,
+      "jobs": 450,
+      "energy": 50,
+      "water": 0.1,
+      "freight": 0.025
+    },
+    {
+      "stage": "Battery cells",
+      "scale": "5 GWh/y",
+      "capex": 18.0,
+      "sales": 7.2,
+      "exports": 2.5,
+      "value": 1.44,
+      "jobs": 900,
+      "energy": 200,
+      "water": 0.1,
+      "freight": 0.1
+    },
+    {
+      "stage": "Packs / systems",
+      "scale": "2 GWh/y",
+      "capex": 3.0,
+      "sales": 4.32,
+      "exports": 1.0,
+      "value": 1.51,
+      "jobs": 500,
+      "energy": 20,
+      "water": 0.02,
+      "freight": 0.05
+    },
+    {
+      "stage": "Recycling",
+      "scale": "10 kt feed/y",
+      "capex": 2.0,
+      "sales": 0.54,
+      "exports": 0.2,
+      "value": 0.32,
+      "jobs": 250,
+      "energy": 25,
+      "water": 0.03,
+      "freight": 0.01
+    }
+  ],
+  "hpmsm_break_even": {
+    "central_capex_r_bn": 4.5,
+    "capacity_t_y": 30000,
+    "opex_usd_t": 1100,
+    "at_75_percent_utilisation_usd_t": 2453.9,
+    "at_90_percent_utilisation_usd_t": 2228.3
+  },
+  "africa_demand_scenarios_gwh": {
+    "2030": {
+      "low": 5,
+      "central": 12,
+      "high": 25
+    },
+    "2040": {
+      "low": 15,
+      "central": 45,
+      "high": 90
+    },
+    "2050": {
+      "low": 30,
+      "central": 90,
+      "high": 180
+    }
+  },
+  "notes": [
+    "Model outputs are scenarios, not forecasts or investment advice.",
+    "Product ladder end points are alternative system boundaries and must not be summed.",
+    "Module scales are independent; employment is direct operating employment only."
+  ]
+}
