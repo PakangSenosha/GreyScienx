@@ -9,11 +9,11 @@ export default function NotFound() {
       <main className="page-shell">
         <p className="eyebrow">404</p>
         <div className="hub-copy">
-          <h2>This research site is not on GreyScienx.</h2>
-          <p>The researcher home or paper path does not match a published site.</p>
+          <h2>This page is not on GreyScienx.</h2>
+          <p>The address does not match a published paper or page.</p>
           <p>
-            <Link className="button button-ghost" href="/">
-              Back to the press
+            <Link className="button button-ghost" href="/research">
+              Open the research archive
             </Link>
           </p>
         </div>

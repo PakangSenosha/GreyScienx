@@ -16,6 +16,24 @@ export type Researcher = {
   links: SiteLink[];
 };
 
+export type ArchivePaper = {
+  number: string;
+  slug: string;
+  title: string;
+  description: string;
+  href: string;
+  pages: number;
+  size: string;
+};
+
+export type ResearchSeries = {
+  number: string;
+  slug: string;
+  title: string;
+  description: string;
+  papers: ArchivePaper[];
+};
+
 export type Stat = {
   value: string;
   label: string;

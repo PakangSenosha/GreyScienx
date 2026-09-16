@@ -1,184 +1,181 @@
 import Link from "next/link";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { papers, researchers } from "@/lib/catalog";
-import { site } from "@/lib/site";
-import { paperHostPath, paperPath, researcherHost, researcherPath } from "@/lib/urls";
+import { papers, researchSeries } from "@/lib/catalog";
+
+const editorialPrinciples = [
+  {
+    number: "01",
+    title: "Begin with the question",
+    body: "Start from a problem worth understanding without forcing it into a disciplinary category first.",
+  },
+  {
+    number: "02",
+    title: "Expose the reasoning",
+    body: "Make the evidence, assumptions, models, uncertainty and failure conditions visible.",
+  },
+  {
+    number: "03",
+    title: "Publish the full record",
+    body: "Keep the complete manuscript available as the source of record.",
+  },
+];
 
 export default function HomePage() {
-  const founder = researchers[0];
-
   return (
     <>
       <SiteHeader />
       <main>
-        <section className="hero hero-solo" id="top">
+        <section className="hero hero-solo home-hero" id="top">
           <div className="brand-wave wave-one" aria-hidden="true" />
           <div className="brand-wave wave-two" aria-hidden="true" />
           <div className="brand-wave wave-three" aria-hidden="true" />
           <div className="hero-copy">
-            <p className="eyebrow">GreyScienx · Semi-professional research</p>
+            <p className="eyebrow">Independent research publication</p>
             <h1>
-              Each paper
+              Questions worth
               <br />
-              <em>becomes a site.</em>
+              <em>modelling.</em>
             </h1>
             <p className="dek">
-              GreyScienx is a research press built by {site.founder.name}, {site.founder.role}.
-              Researchers get a home. Submitted work is distilled into a public research site.
-              The original armchair paper stays downloadable.
+              GreyScienx publishes readable, model-led research across fields of study. The
+              archive preserves complete papers and organises related questions into series.
             </p>
             <div className="hero-actions">
-              <Link className="button button-primary" href="/submit">
-                Submit research
-              </Link>
-              <Link className="button button-secondary" href={researcherPath(founder)}>
-                {founder.name}
-              </Link>
-            </div>
-            <p className="file-meta">
-              {researcherHost(founder)} / research-title
-            </p>
-          </div>
-        </section>
-
-        <section className="number-band" aria-label="GreyScienx scope">
-          <div>
-            <strong>{researchers.length}</strong>
-            <span>researcher homes</span>
-          </div>
-          <div>
-            <strong>{papers.length}</strong>
-            <span>research sites</span>
-          </div>
-          <div>
-            <strong>AI</strong>
-            <span>distills the paper</span>
-          </div>
-          <div>
-            <strong>PDF</strong>
-            <span>original manuscript</span>
-          </div>
-        </section>
-
-        <section className="section-grid">
-          <div className="section-label">
-            <span>01</span>
-            <p>How it works</p>
-          </div>
-          <div className="hub-copy">
-            <p className="kicker">A paper is not a feed item.</p>
-            <h2>Submit the armchair paper. GreyScienx writes the site.</h2>
-            <p>
-              The layout is shared. The findings are not. Once a manuscript is in, the press
-              extracts the result, the quantities, the evidence, and the method, then places
-              them on a dedicated research site under the researcher&apos;s name.
-            </p>
-            <div className="work-grid">
-              <article>
-                <span>01</span>
-                <h3>Researcher home</h3>
-                <p>
-                  Each researcher receives a GreyScienx address, for example {researcherHost(founder)}.
-                </p>
-              </article>
-              <article>
-                <span>02</span>
-                <h3>Research site</h3>
-                <p>
-                  Each paper gets its own site at {researcherHost(founder)}/research-title, using the GreyScienx template.
-                </p>
-              </article>
-              <article>
-                <span>03</span>
-                <h3>Original paper</h3>
-                <p>
-                  The distillation is public. The manuscript remains available for download and in-browser reading.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section className="section-grid">
-          <div className="section-label">
-            <span>02</span>
-            <p>Live research</p>
-          </div>
-          <div className="hub-copy">
-            <p className="kicker">First sites on the press</p>
-            <h2>Two papers. Two sites. One researcher.</h2>
-            <div className="research-cards">
-              {papers.map((paper) => {
-                const researcher = researchers.find(
-                  (item) => item.slug === paper.researcherSlug,
-                );
-                if (!researcher) return null;
-                return (
-                  <Link
-                    className="research-card"
-                    href={paperPath(researcher, paper)}
-                    key={paper.slug}
-                  >
-                    <div className="research-card-body">
-                      <p className="research-card-field">{paper.field}</p>
-                      <h3>
-                        {paper.title} {paper.titleAccent}
-                      </h3>
-                      <p>{paper.dek}</p>
-                      <p className="research-card-host">
-                        {paperHostPath(researcher, paper)}
-                      </p>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-
-        <section className="method section-grid">
-          <div className="section-label light">
-            <span>03</span>
-            <p>Founder</p>
-          </div>
-          <div className="method-copy">
-            <p className="eyebrow light-text">{site.founder.shortRole}</p>
-            <h2>{site.founder.name}.</h2>
-            <p className="randomness-intro" style={{ color: "#c8c8c8" }}>
-              {founder.bio}
-            </p>
-            <p className="domain-chip" style={{ background: "#161616", color: "#fff" }}>
-              {researcherHost(founder)}
-            </p>
-            <div className="hero-actions">
-              <Link className="button button-primary" href={researcherPath(founder)}>
-                Open researcher home
+              <Link className="button button-primary" href="/research">
+                Browse all research
               </Link>
               <Link className="button button-secondary" href="/about">
                 About GreyScienx
               </Link>
             </div>
+            <p className="file-meta">Open manuscripts · Transparent assumptions · No field boundary</p>
           </div>
         </section>
 
-        <section className="download-panel">
+        <section className="number-band" aria-label="GreyScienx at a glance">
           <div>
-            <p className="eyebrow light-text">Submit</p>
-            <h2>
-              Distill a paper
-              <br />
-              into the template.
-            </h2>
+            <strong>{papers.length}</strong>
+            <span>published papers</span>
+          </div>
+          <div>
+            <strong>{researchSeries.length}</strong>
+            <span>research series</span>
+          </div>
+          <div>
+            <strong>PDF</strong>
+            <span>source of record</span>
+          </div>
+          <div>
+            <strong>All</strong>
+            <span>fields of study</span>
+          </div>
+        </section>
+
+        <section className="section-grid" id="research">
+          <div className="section-label">
+            <span>01</span>
+            <p>Research programmes</p>
+          </div>
+          <div className="hub-copy">
+            <p className="kicker">The complete archive</p>
+            <h2>Research organised by series.</h2>
+            <p>
+              Related papers sit together so a reader can follow an argument from its first
+              question to its wider system. The archive stays text-led and opens directly into
+              the complete manuscripts.
+            </p>
+            <div className="series-card-grid">
+              {researchSeries.map((series) => (
+                <Link className="series-card" href={`/research#${series.slug}`} key={series.slug}>
+                  <span>{series.number}</span>
+                  <h3>{series.title}</h3>
+                  <p>{series.description}</p>
+                  <small>{series.papers.length} {series.papers.length === 1 ? "paper" : "papers"}</small>
+                </Link>
+              ))}
+            </div>
+            <p className="archive-link">
+              <Link className="button button-ghost" href="/research">
+                Open the full archive
+              </Link>
+            </p>
+          </div>
+        </section>
+
+        <section className="method section-grid programme-section">
+          <div className="section-label light">
+            <span>02</span>
+            <p>Publication model</p>
+          </div>
+          <div className="method-copy">
+            <p className="eyebrow light-text">How the work is built</p>
+            <h2>Research without a departmental boundary.</h2>
+            <p className="programme-intro">
+              The subject can change completely. The discipline of the publication does not:
+              frame the question clearly, show how the conclusion was reached and preserve
+              enough detail for a critical reader to disagree.
+            </p>
+            <div className="theme-grid">
+              {editorialPrinciples.map((item) => (
+                <article key={item.number}>
+                  <span>{item.number}</span>
+                  <h3>{item.title}</h3>
+                  <p>{item.body}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="section-grid principles-section">
+          <div className="section-label">
+            <span>03</span>
+            <p>Editorial standard</p>
+          </div>
+          <div className="hub-copy">
+            <p className="kicker">Readable does not mean vague</p>
+            <h2>The argument first. The machinery still exposed.</h2>
+            <div className="principle-list">
+              <article>
+                <strong>Accessible, but sourced</strong>
+                <p>Write for a serious general reader and connect important claims to evidence.</p>
+              </article>
+              <article>
+                <strong>Models, not oracles</strong>
+                <p>Use scenarios to test scale and trade-offs. Resist false precision.</p>
+              </article>
+              <article>
+                <strong>Evidence before decoration</strong>
+                <p>Keep the public archive simple and let the manuscript carry the full analysis.</p>
+              </article>
+              <article>
+                <strong>Failure stays visible</strong>
+                <p>Limitations, counterarguments and conditions for being wrong remain in the work.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section className="author-panel publication-panel">
+          <div>
+            <p className="eyebrow light-text">GreyScienx</p>
+            <h2>A home for the work.</h2>
           </div>
           <div>
             <p>
-              Paste a manuscript. GreyScienx writes the finding, the numbers, the evidence,
-              and the method into the research-site layout used by the live papers.
+              GreyScienx currently carries its founding body of research. Its structure is
+              broader than one person or discipline, so future collaborators can be added
+              without changing the publication&apos;s identity.
             </p>
-            <Link className="button button-paper" href="/submit">
-              Submit research
-            </Link>
+            <div className="hero-actions">
+              <Link className="button button-paper" href="/about">
+                About the publication
+              </Link>
+              <Link className="button button-secondary" href="/about/pakang-senosha">
+                About the founder
+              </Link>
+            </div>
           </div>
         </section>
       </main>

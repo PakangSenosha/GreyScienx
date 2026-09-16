@@ -7,7 +7,7 @@ type SiteFooterProps = {
 
 export function SiteFooter({
   left = site.name,
-  right = `${site.founder.name} · ${site.founder.role}`,
+  right = site.tagline,
 }: SiteFooterProps) {
   return (
     <footer>

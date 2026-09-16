@@ -1,4 +1,4 @@
-import type { ResearchPaper, Researcher } from "./types";
+import type { ResearchSeries, Researcher } from "./types";
 
 export const researchers: Researcher[] = [
   {
@@ -8,7 +8,7 @@ export const researchers: Researcher[] = [
     givenName: "Pakang",
     affiliation: "University of Pretoria",
     role: "MSc Epidemiology and Biostatistics",
-    bio: "Pakang Senosha is an MSc student in Epidemiology and Biostatistics at the University of Pretoria and the founder of GreyScienx. The press exists for semi-professional research that deserves a public site, a downloadable manuscript, and a clear statement of what was found.",
+    bio: "Pakang Senosha is an MSc student in Epidemiology and Biostatistics at the University of Pretoria and the founder of GreyScienx.",
     location: "Pretoria, South Africa",
     email: "senoshapakang@gmail.com",
     links: [
@@ -18,368 +18,300 @@ export const researchers: Researcher[] = [
   },
 ];
 
-export const papers: ResearchPaper[] = [
+export const researchSeries: ResearchSeries[] = [
   {
-    slug: "searching-for-trading-edges",
-    researcherSlug: "pakang-senosha",
-    protocol: "Evidence protocol 01",
-    field: "Quantitative finance",
-    title: "Searching for",
-    titleAccent: "Trading Edges.",
-    dek: "A reproducibility audit and frozen cross-asset study spanning synthetic indices, equities, foreign exchange, metal proxies, and cryptocurrency.",
-    date: "6 September 2026",
-    pdf: {
-      href: "/papers/searching-for-trading-edges/manuscript.pdf",
-      pages: 43,
-      size: "1.12 MB",
-      filename: "Searching-for-Trading-Edges.pdf",
-    },
-    previewImage: "/papers/searching-for-trading-edges/preview.png",
-    stats: [
-      { value: "60", label: "registered studies" },
-      { value: "37", label: "documented equations" },
-      { value: "1,560", label: "hashed artifacts" },
-      { value: "73/73", label: "engine tests passed" },
+    number: "01",
+    slug: "household-economics",
+    title: "Household Economics",
+    description:
+      "How household formation changes the cost of living, saving and lifetime financial resilience.",
+    papers: [
+      {
+        number: "01",
+        slug: "economics-of-living-together",
+        title: "The Economics of Living Together",
+        description:
+          "A Gauteng lifetime scenario comparing early cohabitation, delayed cohabitation and separate households.",
+        href: "/research/household-economics/greyscienx-economics-of-living-together.pdf",
+        pages: 19,
+        size: "0.57 MB",
+      },
     ],
-    finding: {
-      kicker:
-        "After selection, causality, costs, uncertainty, concentration, and drawdown were tested:",
-      headline:
-        "No tested strategy established a reproducible, implementation-ready edge.",
-      body: "At the sampled horizons, next-period direction remained close to a fair coin. Small nonlinear, tail, and regime effects appeared, but none became stable net predictability. This is a finite conclusion about the tested rules and data, not a universal proof.",
-    },
-    results: {
-      eyebrow: "The measured distribution",
-      headline: "The dominant fingerprint was random-walk compatible.",
-      intro:
-        "The principal Volatility 75 forensic sample contained 39,999 M1 returns. Its marginal distribution was nearly Gaussian, its sign sequence was almost maximally uncertain, and ordered out-of-sample models did not predict direction better than chance.",
-      metrics: [
-        {
-          value: "−0.00263",
-          label: "Lag-one return autocorrelation",
-          note: "Economically negligible linear memory.",
-        },
-        {
-          value: "0.8375",
-          label: "Runs-test p-value",
-          note: "The ordering of return signs did not reject randomness.",
-        },
-        {
-          value: "0.9999998",
-          label: "Direction entropy, bits",
-          note: "Almost the one-bit maximum of a fair binary sequence.",
-        },
-        {
-          value: "0.99898",
-          label: "Estimated entropy rate",
-          note: "Prior directions removed almost none of the uncertainty.",
-        },
-        {
-          value: "49.88%",
-          label: "Walk-forward accuracy",
-          note: "Approximate 95% interval: 49.10% to 50.67%.",
-        },
-        {
-          value: "p = 0.58",
-          label: "Permutation test",
-          note: "No statistically credible directional forecast.",
-        },
-        {
-          value: "0.489–0.506",
-          label: "DFA Hurst estimates",
-          note: "M1, M5, and M15 remained close to Brownian H=0.5.",
-        },
-        {
-          value: "0.00293",
-          label: "Mean cross-index |correlation|",
-          note: "V10, V25, and V75 exposed no common generator factor.",
-        },
-      ],
-      figure: {
-        src: "/papers/searching-for-trading-edges/random-walk-diagnostics.png",
-        alt: "Hurst, directional accuracy, and entropy diagnostics supporting a random-walk-compatible interpretation",
-        caption:
-          "Memory remained near Brownian, predictive accuracy stayed near 50%, and normalized uncertainty remained close to its maximum.",
-        width: 2667,
-        height: 1992,
-      },
-      qualification: {
-        title: "What “random” means here",
-        body: "The data were not perfectly featureless. Mutual-information, jump, volatility, and state diagnostics found small departures from literal Gaussian iid behavior. Those departures did not survive as reproducible, cost-covering directional strategies.",
-      },
-    },
-    evidence: {
-      cards: [
-        {
-          value: "152.31%",
-          title: "Trend path, then concentration failure",
-          body: "The 60-day cross-asset trend path was positive in development, but Bitcoin supplied 70.12% of positive contribution.",
-        },
-        {
-          value: "−13.14%",
-          title: "Direct FX replication",
-          body: "The frozen 13-pair trend replication lost money after costs and failed its mean, interval, profit-factor, and stress gates.",
-        },
-        {
-          value: "−5.78 bps",
-          title: "Drift Switch after spread",
-          body: "A small +0.42 bps gross drift could not cover approximately 6.2 bps of round-trip spread on the frozen DSI30 screen.",
-        },
-        {
-          value: "51.79%",
-          title: "Selected Vol90 floating drawdown",
-          body: "The reproduced high-return path breached the risk ceiling when open positions were marked to market at M1 closes.",
-        },
-      ],
-      figure: {
-        src: "/papers/searching-for-trading-edges/development-gates.png",
-        alt: "Matrix showing which frozen cross-asset development gates passed and failed",
-        caption:
-          "Predeclared development gates. The positive stock diagnostic was ineligible by design.",
-        width: 2200,
-        height: 960,
-      },
-    },
-    method: {
-      eyebrow: "What a candidate had to survive",
-      headline: "A profitable backtest was only the beginning.",
-      steps: [
-        {
-          title: "Enough evidence",
-          body: "At least 200 trade events or 36 calendar months.",
-        },
-        {
-          title: "Positive net mean",
-          body: "Returns calculated after stated trading and financing costs.",
-        },
-        {
-          title: "Uncertainty above zero",
-          body: "A dependent-data bootstrap interval with a strictly positive lower bound.",
-        },
-        {
-          title: "Economic quality",
-          body: "Profit factor above 1.10 and positive spread and delay stresses.",
-        },
-        {
-          title: "Breadth",
-          body: "No instrument or year could supply more than half the positive contribution.",
-        },
-        {
-          title: "Controlled risk",
-          body: "Development drawdown had to remain better than −40%.",
-        },
-        {
-          title: "Multiple testing",
-          body: "Global and family false-discovery-rate q-values below 0.10.",
-        },
-        {
-          title: "Independent confirmation",
-          body: "Only a complete gate pass could unlock the untouched annual holdout.",
-        },
-      ],
-    },
-    inside: {
-      eyebrow: "The complete record",
-      headline:
-        "Every registered study. Every equation family. Every material correction.",
-      items: [
-        "Synthetic-index indicators and bots",
-        "Generator forensics and information theory",
-        "Evolutionary genomes and HMM gates",
-        "Neural networks and PPO reinforcement learning",
-        "Prospective and zero-refit transfer tests",
-        "Stocks, FX, metal proxies, and cryptocurrency",
-        "37 equations with disciplinary provenance",
-        "EXP-001 through EXP-060 evidence register",
-      ],
-      integrity: "SHA-256 e56d602346c7b063…",
-    },
-    downloadNote:
-      "The paper is provided as a single, searchable 43-page PDF with all tables, equations, figures, references, and the complete study register.",
-    footerNote: "Research cutoff: 6 September 2026 · No orders were sent during the audit.",
   },
   {
-    slug: "wits-staff-education",
-    researcherSlug: "pakang-senosha",
-    protocol: "Evidence protocol 02",
-    field: "Higher education · provenance",
-    title: "Academic provenance in",
-    titleAccent: "South African higher education.",
-    dek: "A full-census methods and results study of first tertiary education as a geographic provenance proxy for 4,333 University of the Witwatersrand staff profiles.",
-    date: "September 2026",
-    pdf: {
-      href: "/papers/wits-staff-education/manuscript.pdf",
-      pages: 18,
-      size: "PDF",
-      filename: "Wits-Staff-Education-Methods-and-Results.pdf",
-    },
-    stats: [
-      { value: "4,333", label: "staff profiles" },
-      { value: "87.5%", label: "domestic first degree" },
-      { value: "12.5%", label: "international first degree" },
-      { value: "42", label: "feeder countries" },
-    ],
-    finding: {
-      kicker:
-        "First tertiary education was used as the earliest systematically recorded provenance proxy:",
-      headline:
-        "International first education is rare overall, and rises sharply with academic rank.",
-      body: "Among staff with a specified awarding institution, 87.5% completed their first degree in South Africa and 12.5% completed it abroad. International first education is uncommon among associate lecturers and lecturers, then climbs to more than one in three full professors and nearly half of research associates. Pre-tertiary school records were absent from the directory.",
-    },
-    results: {
-      eyebrow: "The measured distribution",
-      headline: "The first-degree map is domestic, with a seniority gradient.",
-      intro:
-        "The census covered 4,333 public directory profiles across five faculties. Direct citizenship and birthplace are protected under POPIA, so earliest recorded tertiary education was treated as the available provenance proxy.",
-      metrics: [
-        {
-          value: "87.55%",
-          label: "Domestic first degree",
-          note: "3,087 of 3,526 staff with a specified awarding institution.",
-        },
-        {
-          value: "12.45%",
-          label: "International first degree",
-          note: "439 staff, spanning 42 sovereign jurisdictions.",
-        },
-        {
-          value: "4.12%",
-          label: "Associate lecturers trained abroad",
-          note: "Junior teaching lines remain overwhelmingly domestic.",
-        },
-        {
-          value: "4.71%",
-          label: "Lecturers trained abroad",
-          note: "The core teaching corps is locally trained.",
-        },
-        {
-          value: "35.80%",
-          label: "Full professors trained abroad",
-          note: "More than one in three chairs holds an international first degree.",
-        },
-        {
-          value: "46.34%",
-          label: "Research associates trained abroad",
-          note: "Nearly half of this research-intensive rank is internationally trained.",
-        },
-        {
-          value: "37.8%",
-          label: "United Kingdom share",
-          note: "166 staff; the largest international feeder jurisdiction.",
-        },
-        {
-          value: "0.0%",
-          label: "Pre-tertiary records",
-          note: "No high-school or primary-school fields survived the directory audit.",
-        },
-      ],
-      qualification: {
-        title: "What the proxy can and cannot say",
-        body: "First undergraduate institution is a provenance and academic-socialisation indicator, not a citizenship test. Postgraduate mobility is common and was not used as the origin marker. Unspecified records (807) include administrative and hospital titles without an awarding body.",
+    number: "02",
+    slug: "population-futures",
+    title: "Population Futures",
+    description:
+      "Twelve connected studies of ageing, work, fertility, retirement, inheritance and fiscal pressure.",
+    papers: [
+      {
+        number: "01",
+        slug: "when-retirement-becomes-impossible",
+        title: "When Retirement Becomes Impossible",
+        description: "The demographic and financial limits of retirement at 60.",
+        href: "/research/population-futures/when-retirement-becomes-impossible.pdf",
+        pages: 14,
+        size: "1.01 MB",
       },
-    },
-    evidence: {
-      cards: [
-        {
-          value: "39.0%",
-          title: "Inequality Studies",
-          body: "The Southern Centre for Inequality Studies had the highest international first-education share among departments with at least 30 validated records.",
-        },
-        {
-          value: "37.8%",
-          title: "School of Governance",
-          body: "Public-policy and administration staff showed high international integration relative to the university mean.",
-        },
-        {
-          value: "35.6%",
-          title: "School of Physics",
-          body: "Pure-science units clustered with research centres, not with clinical hospital divisions.",
-        },
-        {
-          value: "95–100%",
-          title: "Clinical domestic retention",
-          body: "Hospital-based medical divisions were almost entirely South African trained, consistent with CMSA licensing pathways.",
-        },
-      ],
-    },
-    method: {
-      eyebrow: "What the census had to survive",
-      headline: "A public directory was treated as a population, not a sample.",
-      steps: [
-        {
-          title: "Full census ingestion",
-          body: "4,333 profiles were harvested from 289 directory pages, then opened for qualifications, biography, and identifiers.",
-        },
-        {
-          title: "Pre-tertiary audit",
-          body: "Biographies and qualification fields were scanned for matric, high school, and primary school tokens. Detection was 0.0%.",
-        },
-        {
-          title: "Deterministic NLP parsing",
-          body: "Qualification strings were decomposed into degree tokens, awarding bodies, and a hierarchical academic taxonomy.",
-        },
-        {
-          title: "Geographic resolution",
-          body: "Institutions were mapped onto the South African higher-education network or 40+ international jurisdictions.",
-        },
-        {
-          title: "First-education proxy",
-          body: "The earliest recorded tertiary award was used as the provenance marker, not later master’s, doctoral, or fellowship mobility.",
-        },
-        {
-          title: "Rank and faculty cuts",
-          body: "International share was computed on valid records by designation, faculty, and department.",
-        },
-        {
-          title: "Privacy constraint",
-          body: "Citizenship, birthplace, and naturalisation are not published. Educational provenance is the observable substitute.",
-        },
-        {
-          title: "Open manuscript",
-          body: "Methods, classification rules, and empirical tables remain available as a downloadable paper.",
-        },
-      ],
-    },
-    inside: {
-      eyebrow: "The complete record",
-      headline: "Census, parser, ranks, faculties, and feeder countries.",
-      items: [
-        "Wits public staff directory harvest",
-        "Qualification and first-education parser",
-        "South African university taxonomy",
-        "International institution disambiguation",
-        "Academic-rank seniority gradient",
-        "Faculty and departmental bifurcation",
-        "42 international feeder countries",
-        "Open methods-and-results manuscript",
-      ],
-    },
-    downloadNote:
-      "The original methods-and-results paper is available as a searchable PDF, including the classification rules, rank tables, and feeder-country register.",
-    footerNote:
-      "Census: September 2026 · Source: University of the Witwatersrand public staff directory.",
+      {
+        number: "02",
+        slug: "todays-unemployment-is-tomorrows-pension-crisis",
+        title: "Today’s Unemployment Is Tomorrow’s Pension Crisis",
+        description: "Youth unemployment followed across a lifetime and into old-age dependence.",
+        href: "/research/population-futures/todays-unemployment-is-tomorrows-pension-crisis.pdf",
+        pages: 15,
+        size: "0.83 MB",
+      },
+      {
+        number: "03",
+        slug: "does-raising-the-retirement-age-actually-work",
+        title: "Does Raising the Retirement Age Actually Work?",
+        description: "Later retirement tested against youth unemployment, productivity and disability.",
+        href: "/research/population-futures/does-raising-the-retirement-age-actually-work.pdf",
+        pages: 15,
+        size: "0.95 MB",
+      },
+      {
+        number: "04",
+        slug: "the-politics-of-an-ageing-electorate",
+        title: "The Politics of an Ageing Electorate",
+        description: "How voter age structure can redirect spending and intergenerational transfers.",
+        href: "/research/population-futures/the-politics-of-an-ageing-electorate.pdf",
+        pages: 15,
+        size: "0.93 MB",
+      },
+      {
+        number: "05",
+        slug: "emergency-ageing-austerity",
+        title: "Emergency Ageing Austerity",
+        description: "Policy packages for closing an ageing-related fiscal deficit with lower welfare loss.",
+        href: "/research/population-futures/emergency-ageing-austerity.pdf",
+        pages: 15,
+        size: "1.06 MB",
+      },
+      {
+        number: "06",
+        slug: "the-price-of-another-child",
+        title: "The Price of Another Child",
+        description: "When fertility support becomes cheaper than financing demographic decline.",
+        href: "/research/population-futures/the-price-of-another-child.pdf",
+        pages: 19,
+        size: "1.00 MB",
+      },
+      {
+        number: "07",
+        slug: "the-hundred-year-life",
+        title: "The Hundred-Year Life",
+        description: "Education, work, housing and family life redesigned for 100–120 year lives.",
+        href: "/research/population-futures/the-hundred-year-life.pdf",
+        pages: 23,
+        size: "1.10 MB",
+      },
+      {
+        number: "08",
+        slug: "inheritance-after-retirement",
+        title: "Inheritance After Retirement",
+        description: "The economic value of inheritance arriving at 40, 55, 70 or 85.",
+        href: "/research/population-futures/inheritance-after-retirement.pdf",
+        pages: 20,
+        size: "1.03 MB",
+      },
+      {
+        number: "09",
+        slug: "how-to-shrink-a-country-without-breaking-it",
+        title: "How to Shrink a Country Without Breaking It",
+        description: "Housing, cities and public infrastructure under population contraction.",
+        href: "/research/population-futures/how-to-shrink-a-country-without-breaking-it.pdf",
+        pages: 22,
+        size: "1.29 MB",
+      },
+      {
+        number: "10",
+        slug: "the-scarce-worker-economy",
+        title: "The Scarce-Worker Economy",
+        description: "Automation, productivity and immigration as substitutes for missing workers.",
+        href: "/research/population-futures/the-scarce-worker-economy.pdf",
+        pages: 23,
+        size: "1.40 MB",
+      },
+      {
+        number: "11",
+        slug: "the-population-system",
+        title: "The Population System",
+        description: "A synthesis of the ten population studies as one connected policy system.",
+        href: "/research/population-futures/the-population-system.pdf",
+        pages: 29,
+        size: "1.08 MB",
+      },
+      {
+        number: "12",
+        slug: "extreme-fiscal-pressure",
+        title: "Extreme Fiscal Pressure",
+        description: "How emergency government measures introduced in 2050 could alter the population system.",
+        href: "/research/population-futures/extreme-fiscal-pressure.pdf",
+        pages: 29,
+        size: "1.76 MB",
+      },
+    ],
+  },
+  {
+    number: "03",
+    slug: "r350-counterfactual",
+    title: "The R350 Counterfactual",
+    description:
+      "What South Africa might have built with the SRD budget—and what society would have lost by withholding it.",
+    papers: [
+      {
+        number: "01",
+        slug: "the-r350-industrialisation-counterfactual",
+        title: "The R350 Industrialisation Counterfactual",
+        description: "The productive-capital alternative to repeated emergency cash transfers.",
+        href: "/research/r350-counterfactual/the-r350-industrialisation-counterfactual.pdf",
+        pages: 21,
+        size: "1.38 MB",
+      },
+      {
+        number: "02",
+        slug: "the-welfare-cost-of-not-paying-the-grant",
+        title: "The Welfare Cost of Not Paying the Grant",
+        description: "The poverty, consumption and social cost omitted from the industrialisation counterfactual.",
+        href: "/research/r350-counterfactual/the-welfare-cost-of-not-paying-the-grant.pdf",
+        pages: 27,
+        size: "1.44 MB",
+      },
+      {
+        number: "03",
+        slug: "consumption-today-or-productive-capital-tomorrow",
+        title: "Consumption Today or Productive Capital Tomorrow?",
+        description: "The timing and distributional trade-off between relief and investment.",
+        href: "/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow.pdf",
+        pages: 24,
+        size: "1.55 MB",
+      },
+      {
+        number: "04",
+        slug: "the-public-capital-multiplier",
+        title: "The Public-Capital Multiplier",
+        description: "When state-financed productive assets generate durable economic capacity.",
+        href: "/research/r350-counterfactual/the-public-capital-multiplier.pdf",
+        pages: 19,
+        size: "1.40 MB",
+      },
+      {
+        number: "05",
+        slug: "the-r200-billion-factory",
+        title: "The R200 Billion Factory",
+        description: "A concrete industrial deployment scenario at the scale of the grant programme.",
+        href: "/research/r350-counterfactual/the-r200-billion-factory.pdf",
+        pages: 21,
+        size: "1.46 MB",
+      },
+    ],
+  },
+  {
+    number: "04",
+    slug: "strategic-industrialisation",
+    title: "Strategic Industrialisation",
+    description:
+      "Industrial systems that move South African mineral and capital capacity further up the value chain.",
+    papers: [
+      {
+        number: "01",
+        slug: "the-south-african-critical-minerals-industrial-complex",
+        title: "The South African Critical Minerals Industrial Complex",
+        description: "An integrated strategy for converting mineral endowment into industrial depth.",
+        href: "/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex.pdf",
+        pages: 25,
+        size: "2.00 MB",
+      },
+      {
+        number: "02",
+        slug: "the-platinum-to-hydrogen-economy",
+        title: "The Platinum-to-Hydrogen Economy",
+        description: "A value-chain model connecting platinum reserves to a hydrogen industrial base.",
+        href: "/research/strategic-industrialisation/the-platinum-to-hydrogen-economy.pdf",
+        pages: 29,
+        size: "1.97 MB",
+      },
+      {
+        number: "03",
+        slug: "the-manganese-to-battery-economy",
+        title: "The Manganese-to-Battery Economy",
+        description: "A route from mineral extraction to higher-value battery production.",
+        href: "/research/strategic-industrialisation/the-manganese-to-battery-economy.pdf",
+        pages: 28,
+        size: "2.02 MB",
+      },
+      {
+        number: "04",
+        slug: "the-vanadium-grid-storage-economy",
+        title: "The Vanadium Grid-Storage Economy",
+        description: "Domestic grid storage as an anchor market for vanadium industrialisation.",
+        href: "/research/strategic-industrialisation/the-vanadium-grid-storage-economy.pdf",
+        pages: 29,
+        size: "2.17 MB",
+      },
+      {
+        number: "05",
+        slug: "the-capital-goods-economy",
+        title: "The Capital-Goods Economy",
+        description: "The equipment, capabilities and supplier networks behind durable industrialisation.",
+        href: "/research/strategic-industrialisation/the-capital-goods-economy.pdf",
+        pages: 29,
+        size: "1.48 MB",
+      },
+      {
+        number: "06",
+        slug: "the-mineral-sovereign-wealth-fund",
+        title: "The Mineral Sovereign Wealth Fund",
+        description: "A fiscal architecture for converting exhaustible resources into permanent public wealth.",
+        href: "/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund.pdf",
+        pages: 20,
+        size: "1.37 MB",
+      },
+    ],
+  },
+  {
+    number: "05",
+    slug: "african-convergence",
+    title: "African Convergence",
+    description:
+      "South Africa’s economy, cities and industrial role in a substantially richer African continent.",
+    papers: [
+      {
+        number: "01",
+        slug: "south-africa-in-a-richer-africa",
+        title: "South Africa in a Richer Africa",
+        description: "The macroeconomic consequences of broad African income convergence.",
+        href: "/research/african-convergence/south-africa-in-a-richer-africa.pdf",
+        pages: 26,
+        size: "1.48 MB",
+      },
+      {
+        number: "02",
+        slug: "johannesburg-as-africas-financial-capital",
+        title: "Johannesburg as Africa’s Financial Capital",
+        description: "The conditions under which Johannesburg could finance a continent-scale economy.",
+        href: "/research/african-convergence/johannesburg-as-africas-financial-capital.pdf",
+        pages: 38,
+        size: "1.41 MB",
+      },
+      {
+        number: "03",
+        slug: "the-factory-for-african-urbanisation",
+        title: "The Factory for African Urbanisation",
+        description: "South African production positioned around the infrastructure of African city growth.",
+        href: "/research/african-convergence/the-factory-for-african-urbanisation.pdf",
+        pages: 29,
+        size: "1.51 MB",
+      },
+    ],
   },
 ];
 
+export const papers = researchSeries.flatMap((series) => series.papers);
+
 export function getResearcher(slug: string) {
   return researchers.find((researcher) => researcher.slug === slug);
-}
-
-export function getResearcherBySubdomain(subdomain: string) {
-  const key = subdomain.toLowerCase();
-  return researchers.find(
-    (researcher) =>
-      researcher.subdomain === key || researcher.slug === key,
-  );
-}
-
-export function getPaper(researcherSlug: string, paperSlug: string) {
-  return papers.find(
-    (paper) =>
-      paper.researcherSlug === researcherSlug && paper.slug === paperSlug,
-  );
-}
-
-export function papersFor(researcherSlug: string) {
-  return papers.filter((paper) => paper.researcherSlug === researcherSlug);
 }

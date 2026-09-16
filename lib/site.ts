@@ -1,9 +1,9 @@
 export const site = {
   name: "GreyScienx",
   domain: "greyscienx.com",
-  tagline: "Semi-professional research, distilled into its own site.",
+  tagline: "Independent research across fields.",
   description:
-    "GreyScienx is a research press for semi-professional work. Each researcher has a home. Each paper becomes a site. The original manuscript stays available.",
+    "GreyScienx is an independent research publication for readable papers, transparent methods, connected research series, and downloadable manuscripts across fields of study.",
   founder: {
     name: "Pakang Senosha",
     role: "MSc Epidemiology and Biostatistics, University of Pretoria",

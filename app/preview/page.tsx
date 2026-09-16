@@ -1,11 +1,5 @@
-import type { Metadata } from "next";
-import { PreviewSite } from "@/components/PreviewSite";
-
-export const metadata: Metadata = {
-  title: "Distillation preview",
-  robots: { index: false, follow: false },
-};
+import { permanentRedirect } from "next/navigation";
 
 export default function PreviewPage() {
-  return <PreviewSite />;
+  permanentRedirect("/");
 }

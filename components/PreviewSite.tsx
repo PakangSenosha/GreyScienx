@@ -54,8 +54,8 @@ export function PreviewSite() {
             Submit a manuscript first. GreyScienx will write the research site into this preview.
           </p>
           <p style={{ marginTop: 28 }}>
-            <Link className="button button-primary" href="/submit">
-              Submit research
+            <Link className="button button-primary" href="/">
+              Back to GreyScienx
             </Link>
           </p>
         </main>

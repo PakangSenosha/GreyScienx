@@ -37,8 +37,8 @@ export function ResearchSite({
           <a href="#findings">Findings</a>
           <a href="#method">Method</a>
           {preview ? (
-            <Link className="nav-download" href="/submit">
-              Edit submission
+            <Link className="nav-download" href="/">
+              GreyScienx
             </Link>
           ) : (
             <a
@@ -85,8 +85,8 @@ export function ResearchSite({
                   <span className="button button-primary button-disabled">
                     PDF attaches at publication
                   </span>
-                  <Link className="button button-secondary" href="/submit">
-                    Edit submission
+                  <Link className="button button-secondary" href="/">
+                    Back to GreyScienx
                   </Link>
                 </>
               ) : (

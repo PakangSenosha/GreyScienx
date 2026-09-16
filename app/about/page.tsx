@@ -2,17 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { researchers } from "@/lib/catalog";
-import { site } from "@/lib/site";
-import { researcherHost, researcherPath } from "@/lib/urls";
 
 export const metadata: Metadata = {
   title: "About",
+  description: "About GreyScienx, an independent research publication across fields of study.",
 };
 
 export default function AboutPage() {
-  const founder = researchers[0];
-
   return (
     <>
       <SiteHeader />
@@ -21,53 +17,89 @@ export default function AboutPage() {
           <div className="brand-wave wave-one" aria-hidden="true" />
           <div className="brand-wave wave-two" aria-hidden="true" />
           <div className="hero-copy">
-            <p className="eyebrow">About the press</p>
+            <p className="eyebrow">About GreyScienx</p>
             <h1>
-              Semi-professional
+              Research should
               <br />
-              <em>research, public.</em>
+              <em>stand on its own.</em>
             </h1>
-            <p className="dek">{site.description}</p>
+            <p className="dek">
+              GreyScienx is an independent publication for clear research across fields of
+              study. It organises related work into readable series while preserving every
+              complete manuscript.
+            </p>
           </div>
         </section>
 
         <section className="section-grid">
           <div className="section-label">
             <span>01</span>
-            <p>The idea</p>
+            <p>The publication</p>
           </div>
           <div className="hub-copy">
-            <h2>A paper should be able to stand as a site.</h2>
+            <h2>A paper is more than a feed item.</h2>
             <p>
-              GreyScienx is not a journal and not a social feed. It is a layout and an address
-              system for work that already exists as an armchair paper: methods, results,
-              limitations, and a file people can download.
+              GreyScienx is organised around research objects rather than a stream of posts.
+              Each paper receives a stable place in a named series, with the original manuscript
+              available to readers who want the full record.
             </p>
             <p>
-              The domain is {site.domain}. A researcher lives at a subdomain. A paper lives
-              on a path under that name. The same template receives every distillation so
-              readers always know where the finding, the numbers, and the manuscript are.
+              The publication is field-neutral. A project may be quantitative or qualitative,
+              theoretical or empirical, narrow or speculative. What matters is that its claims,
+              reasoning, uncertainty and limitations can be inspected.
+            </p>
+          </div>
+        </section>
+
+        <section className="section-grid about-method">
+          <div className="section-label">
+            <span>02</span>
+            <p>The standard</p>
+          </div>
+          <div className="hub-copy">
+            <h2>Simple at the front. Complete underneath.</h2>
+            <p>
+              The public archive is deliberately text-led. It helps readers see how papers relate
+              without turning the work into a dashboard or a gallery of graphs.
+            </p>
+            <p>
+              The manuscript remains authoritative. Sources, assumptions, model details,
+              qualifications and failure cases belong there and remain downloadable.
             </p>
           </div>
         </section>
 
         <section className="section-grid">
           <div className="section-label">
-            <span>02</span>
-            <p>Who built it</p>
+            <span>03</span>
+            <p>The structure</p>
           </div>
           <div className="hub-copy">
-            <h2>{site.founder.name}.</h2>
+            <h2>Neutral enough to grow.</h2>
             <p>
-              {founder.bio} The first two GreyScienx sites are his: a reproducibility audit of
-              trading edges, and a census of first tertiary education among Wits staff.
+              GreyScienx currently publishes its founding body of work. The publication is not
+              presented as a personal portfolio or limited to a fixed list of subjects. New
+              fields—and, later, additional collaborators—can enter without changing its core
+              editorial identity.
             </p>
-            <p className="domain-chip">{researcherHost(founder)}</p>
-            <p>
-              <Link className="button button-ghost" href={researcherPath(founder)}>
-                Researcher home
+          </div>
+        </section>
+
+        <section className="author-panel compact-author-panel publication-panel">
+          <div>
+            <p className="eyebrow light-text">Separate from the publication</p>
+            <h2>The founder.</h2>
+          </div>
+          <div>
+            <p>The founder&apos;s background and current research archive live on their own pages.</p>
+            <div className="hero-actions">
+              <Link className="button button-paper" href="/about/pakang-senosha">
+                About Pakang Senosha
               </Link>
-            </p>
+              <Link className="button button-secondary" href="/research">
+                Browse the archive
+              </Link>
+            </div>
           </div>
         </section>
       </main>
