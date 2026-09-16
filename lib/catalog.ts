@@ -315,3 +315,14 @@ export const papers = researchSeries.flatMap((series) => series.papers);
 export function getResearcher(slug: string) {
   return researchers.find((researcher) => researcher.slug === slug);
 }
+
+export function getSeries(slug: string) {
+  return researchSeries.find((series) => series.slug === slug);
+}
+
+export function getPaper(seriesSlug: string, paperSlug: string) {
+  const series = getSeries(seriesSlug);
+  const paper = series?.papers.find((entry) => entry.slug === paperSlug);
+  if (!series || !paper) return null;
+  return { series, paper };
+}

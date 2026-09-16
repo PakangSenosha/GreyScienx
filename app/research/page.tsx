@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { ShareResearch } from "@/components/ShareResearch";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { papers, researchSeries } from "@/lib/catalog";
+import { articlePath } from "@/lib/urls";
 
 export const metadata: Metadata = {
   title: "Research archive",
@@ -75,20 +78,17 @@ export default function ResearchPage() {
 
               <div className="paper-list">
                 {series.papers.map((paper) => (
-                  <a
-                    className="paper-row"
-                    href={paper.href}
-                    key={paper.slug}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <span className="paper-number">{series.number}.{paper.number}</span>
-                    <span className="paper-copy">
-                      <strong>{paper.title}</strong>
-                      <span>{paper.description}</span>
-                    </span>
-                    <span className="paper-meta">PDF · {paper.pages} pages · {paper.size} ↗</span>
-                  </a>
+                  <article className="paper-row" key={paper.slug}>
+                    <Link className="paper-row-link" href={articlePath(series, paper)}>
+                      <span className="paper-number">{series.number}.{paper.number}</span>
+                      <span className="paper-copy">
+                        <strong>{paper.title}</strong>
+                        <span>{paper.description}</span>
+                      </span>
+                      <span className="paper-meta">{paper.pages} pages · {paper.size}</span>
+                    </Link>
+                    <ShareResearch href={articlePath(series, paper)} title={paper.title} />
+                  </article>
                 ))}
               </div>
             </section>
