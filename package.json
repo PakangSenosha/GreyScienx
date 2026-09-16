@@ -25,7 +25,6 @@
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.54.10",
-    "@rolldown/binding-win32-x64-msvc": "^1.2.8",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -36,6 +35,9 @@
     "typescript": "^5",
     "vite": "^8.3.0",
     "wrangler": "^4.132.0"
+  },
+  "optionalDependencies": {
+    "@rolldown/binding-win32-x64-msvc": "^1.2.8"
   },
   "type": "module"
 }

@@ -1,0 +1,7 @@
+/research
+/skills
+/dist
+.vinext
+.wrangler
+__pycache__
+*.pyc
