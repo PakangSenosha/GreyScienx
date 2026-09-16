@@ -7,8 +7,8 @@
   ],
   "routes": [
     {
-      "pattern": "greyscienx.com",
-      "custom_domain": true
+      "pattern": "greyscienx.com/*",
+      "zone_name": "greyscienx.com"
     }
   ],
   "main": "vinext/server/fetch-handler",
