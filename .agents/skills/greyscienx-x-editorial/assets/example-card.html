@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1080, initial-scale=1">
+  <title>GreyScienx research card</title>
+  <style>
+    :root { --black: #131200; --true-black: #000000; --coral: #f26157; --white: #fbfffe; --grey-100: #f0f1f2; --grey-300: #cccccc; --grey-500: #777777; --grey-700: #3d3d3d; }
+    * { box-sizing: border-box; }
+    html, body { width: 1080px; height: 1350px; margin: 0; overflow: hidden; }
+    body { background: var(--white); color: var(--black); font-family: "Segoe UI", Arial, sans-serif; }
+    #card { position: relative; width: 1080px; height: 1350px; padding: 66px 72px 54px; background: var(--white); display: grid; grid-template-rows: auto auto minmax(0, 1fr) auto; gap: 30px; }
+    #card::before { content: ""; position: absolute; inset: 0 0 auto; height: 10px; background: var(--coral); }
+    .masthead { display: flex; align-items: flex-start; justify-content: space-between; gap: 36px; border-bottom: 3px solid var(--black); padding-bottom: 23px; }
+    .brand-logo { display: block; width: 306px; height: auto; flex: 0 0 auto; }
+    .edition { max-width: 560px; color: var(--grey-700); font-size: 19px; font-weight: 800; letter-spacing: 1.5px; line-height: 1.25; text-align: right; text-transform: uppercase; }
+    .eyebrow { margin: 0 0 16px; color: var(--coral); font-size: 20px; font-weight: 950; letter-spacing: 2px; text-transform: uppercase; }
+    h1 { max-width: 920px; margin: 0; color: var(--true-black); font-size: 66px; font-weight: 950; letter-spacing: -3.6px; line-height: 0.98; }
+    .deck { max-width: 900px; margin: 18px 0 0; color: var(--grey-700); font-size: 25px; font-weight: 600; line-height: 1.35; }
+    .evidence { min-height: 0; display: flex; flex-direction: column; border-top: 1px solid var(--grey-300); padding-top: 26px; }
+    .visual-label { display: flex; justify-content: space-between; gap: 20px; margin-bottom: 16px; color: var(--grey-700); font-size: 17px; font-weight: 850; letter-spacing: 1.2px; text-transform: uppercase; }
+    .visual-label span:last-child { color: var(--coral); text-align: right; }
+    .figure { min-height: 0; flex: 1; display: flex; align-items: center; justify-content: center; background: var(--grey-100); border: 3px solid var(--black); padding: 28px 30px; overflow: hidden; }
+    .figure img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .stat-wrap { width: 100%; text-align: left; }
+    .stat { color: var(--coral); font-size: 180px; font-weight: 950; letter-spacing: -10px; line-height: 0.82; }
+    .stat-label { max-width: 780px; margin-top: 34px; color: var(--black); font-size: 35px; font-weight: 850; letter-spacing: -1px; line-height: 1.2; }
+    .bars { width: 100%; display: flex; flex-direction: column; gap: 30px; }
+    .bar-row { display: grid; grid-template-columns: 215px minmax(0, 1fr) 145px; align-items: center; gap: 20px; }
+    .bar-name { color: var(--black); font-size: 23px; font-weight: 800; line-height: 1.12; }
+    .bar-track { height: 50px; background: #dedede; border-left: 3px solid var(--black); }
+    .bar-fill { height: 100%; min-width: 4px; background: var(--black); }
+    .bar-row.primary .bar-fill { background: var(--coral); }
+    .bar-value { color: var(--black); font-size: 24px; font-weight: 950; text-align: right; }
+    .caption { margin: 17px 0 0; color: var(--grey-700); font-size: 19px; font-weight: 600; line-height: 1.4; }
+    .footer { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 35px; align-items: end; border-top: 3px solid var(--black); padding-top: 22px; }
+    .source { color: var(--grey-700); font-size: 16px; font-weight: 650; line-height: 1.35; }
+    .url { color: var(--true-black); font-size: 21px; font-weight: 950; letter-spacing: -0.3px; text-align: right; }
+    #card.dark { background: var(--true-black); color: var(--white); }
+    #card.dark::before { height: 12px; }
+    #card.dark h1, #card.dark .url { color: var(--white); }
+    #card.dark .masthead, #card.dark .footer { border-color: var(--white); }
+    #card.dark .edition, #card.dark .deck, #card.dark .source, #card.dark .caption { color: var(--grey-300); }
+    #card.dark .evidence { border-color: var(--grey-700); }
+    #card.dark .figure { background: #11110d; border-color: var(--white); }
+    #card.dark .stat-label, #card.dark .bar-name, #card.dark .bar-value { color: var(--white); }
+    #card.dark .bar-track { border-color: var(--white); background: #3a3a36; }
+    #card.dark .bar-fill { background: var(--white); }
+    #card.dark .bar-row.primary .bar-fill { background: var(--coral); }
+  </style>
+</head>
+<body>
+  <article id="card">
+    <header class="masthead"><img class="brand-logo" id="brandLogo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDcuODEzIiBoZWlnaHQ9Ijg4LjAwMCIgdmlld0JveD0iMCAwIDYwNy44MTMgODguMDAwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+CiAgPHRpdGxlIGlkPSJ0aXRsZSI+R3JleVNjaWVueDwvdGl0bGU+CiAgPGRlc2MgaWQ9ImRlc2MiPkdyZXlTY2llbnggb3V0bGluZWQgd29yZG1hcmsuIEdSRVkgdXNlcyB0aGUgZm9yZWdyb3VuZCBjb2xvdXIgYW5kIFNDSUVOWCB1c2VzIGNvcmFsLjwvZGVzYz4KICA8bWV0YWRhdGE+R2VuZXJhdGVkIGJ5IHNjcmlwdHMvYnVpbGRfbG9nby5weSBmcm9tIGZvbnQgU0hBLTI1NiBhZWI5ZTRhNmVjNWNjNTlmNGQ3MmRmODE4OTAzMmQ3ZGJiMjhmNDUxNjFjZjE1NTIxNzQ4MThiNTQ2NWRhYzRlLiBHbHlwaHMgYXJlIG91dGxpbmVkOyB0aGUgU1ZHIGhhcyBubyBydW50aW1lIGZvbnQgZGVwZW5kZW5jeS48L21ldGFkYXRhPgogIDxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0xMzQxIDk2UTExMzEgLTI1IDgxOSAtMjVRNDczIC0yNSAyNzMuNSAxNjYuNVE3NCAzNTggNzQgNjk0UTc0IDEwMzIgMjkyLjAgMTI0NS4wUTUxMCAxNDU4IDg3MiAxNDU4UTExMDAgMTQ1OCAxMjc0IDEzOTVWMTA5MlExMTA4IDExODggODY4IDExODhRNjY3IDExODggNTQwLjUgMTA1Ny41UTQxNCA5MjcgNDE0IDcwOVE0MTQgNDg4IDUyNy41IDM2Ny4wUTY0MSAyNDYgODM0IDI0NlE5NTAgMjQ2IDEwMTggMjc5VjU1OUg3MzFWODE3SDEzNDFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0LjAwMCA4MC4wMDApIHNjYWxlKDAuMDUwMjA5MjEgLTAuMDUwMjA5MjEpIi8+CiAgPHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTEzNjcgMEg5OTZMNzczIDM2OVE3NDggNDExIDcyNS4wIDQ0NC4wUTcwMiA0NzcgNjc4LjUgNTAwLjVRNjU1IDUyNCA2MjkuNSA1MzYuNVE2MDQgNTQ5IDU3NCA1NDlINDg3VjBIMTY0VjE0MzRINjc2UTExOTggMTQzNCAxMTk4IDEwNDRRMTE5OCA5NjkgMTE3NS4wIDkwNS41UTExNTIgODQyIDExMTAuMCA3OTEuMFExMDY4IDc0MCAxMDA4LjUgNzAzLjBROTQ5IDY2NiA4NzYgNjQ1VjY0MVE5MDggNjMxIDkzOC4wIDYwOC41UTk2OCA1ODYgOTk2LjAgNTU2LjBRMTAyNCA1MjYgMTA0OS41IDQ5MS41UTEwNzUgNDU3IDEwOTYgNDI0Wk00ODcgMTE5MlY3OTNINjI3UTczMSA3OTMgNzk0IDg1M1E4NTggOTE0IDg1OCAxMDA0UTg1OCAxMTkyIDYzMyAxMTkyWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzUuNDA1IDgwLjAwMCkgc2NhbGUoMC4wNTAyMDkyMSAtMC4wNTAyMDkyMSkiLz4KICA8cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMTAyNCAwSDE2NFYxNDM0SDk5MVYxMTcxSDQ4N1Y4NTJIOTU2VjU5MEg0ODdWMjYySDEwMjRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDAuODM0IDgwLjAwMCkgc2NhbGUoMC4wNTAyMDkyMSAtMC4wNTAyMDkyMSkiLz4KICA8cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMTI0NSAxNDM0IDc3OCA1MTBWMEg0NTVWNTA0TDAgMTQzNEgzNjlMNjAwIDg5OVE2MDYgODg0IDYzMyA3ODJINjM3UTY1MCA4NTQgNjY4IDg5NUw5MDMgMTQzNFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE5My44NjIgODAuMDAwKSBzY2FsZSgwLjA1MDIwOTIxIC0wLjA1MDIwOTIxKSIvPgogIDxwYXRoIGZpbGw9IiNGMjYxNTciIGQ9Ik05OCA1NVYzNzVRMTg1IDMwMiAyODcuMCAyNjUuNVEzODkgMjI5IDQ5MyAyMjlRNTU0IDIyOSA1OTkuNSAyNDAuMFE2NDUgMjUxIDY3NS41IDI3MC41UTcwNiAyOTAgNzIxLjAgMzE2LjVRNzM2IDM0MyA3MzYgMzc0UTczNiA0MTYgNzEyLjAgNDQ5LjBRNjg4IDQ4MiA2NDYuNSA1MTAuMFE2MDUgNTM4IDU0OC4wIDU2NC4wUTQ5MSA1OTAgNDI1IDYxN1EyNTcgNjg3IDE3NC41IDc4OC4wUTkyIDg4OSA5MiAxMDMyUTkyIDExNDQgMTM3LjAgMTIyNC41UTE4MiAxMzA1IDI1OS41IDEzNTcuMFEzMzcgMTQwOSA0MzkuMCAxNDMzLjVRNTQxIDE0NTggNjU1IDE0NThRNzY3IDE0NTggODUzLjUgMTQ0NC41UTk0MCAxNDMxIDEwMTMgMTQwM1YxMTA0UTk3NyAxMTI5IDkzNC41IDExNDguMFE4OTIgMTE2NyA4NDcuMCAxMTc5LjVRODAyIDExOTIgNzU3LjUgMTE5OC4wUTcxMyAxMjA0IDY3MyAxMjA0UTYxOCAxMjA0IDU3My4wIDExOTMuNVE1MjggMTE4MyA0OTcuMCAxMTY0LjBRNDY2IDExNDUgNDQ5LjAgMTExOC41UTQzMiAxMDkyIDQzMiAxMDU5UTQzMiAxMDIzIDQ1MS4wIDk5NC41UTQ3MCA5NjYgNTA1LjAgOTQwLjVRNTQwIDkxNSA1OTAuMCA4OTAuNVE2NDAgODY2IDcwMyA4NDBRNzg5IDgwNCA4NTcuNSA3NjMuNVE5MjYgNzIzIDk3NS4wIDY3Mi4wUTEwMjQgNjIxIDEwNTAuMCA1NTUuNVExMDc2IDQ5MCAxMDc2IDQwM1ExMDc2IDI4MyAxMDMwLjUgMjAxLjVROTg1IDEyMCA5MDcuMCA2OS41UTgyOSAxOSA3MjUuNSAtMy4wUTYyMiAtMjUgNTA3IC0yNVEzODkgLTI1IDI4Mi41IC01LjBRMTc2IDE1IDk4IDU1WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU0LjU3MiA4MC4wMDApIHNjYWxlKDAuMDUwMjA5MjEgLTAuMDUwMjA5MjEpIi8+CiAgPHBhdGggZmlsbD0iI0YyNjE1NyIgZD0iTTExOTIgNTFRMTAzNSAtMjUgNzgyIC0yNVE0NTIgLTI1IDI2My4wIDE2OS4wUTc0IDM2MyA3NCA2ODZRNzQgMTAzMCAyODYuNSAxMjQ0LjBRNDk5IDE0NTggODM4IDE0NThRMTA0OCAxNDU4IDExOTIgMTQwNVYxMDk0UTEwNDggMTE4MCA4NjQgMTE4MFE2NjIgMTE4MCA1MzguMCAxMDUzLjBRNDE0IDkyNiA0MTQgNzA5UTQxNCA1MDEgNTMxLjAgMzc3LjVRNjQ4IDI1NCA4NDYgMjU0UTEwMzUgMjU0IDExOTIgMzQ2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzEwLjUxMyA4MC4wMDApIHNjYWxlKDAuMDUwMjA5MjEgLTAuMDUwMjA5MjEpIi8+CiAgPHBhdGggZmlsbD0iI0YyNjE1NyIgZD0iTTQ4NyAwSDE2NFYxNDM0SDQ4N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM3Mi45ODAgODAuMDAwKSBzY2FsZSgwLjA1MDIwOTIxIC0wLjA1MDIwOTIxKSIvPgogIDxwYXRoIGZpbGw9IiNGMjYxNTciIGQ9Ik0xMDI0IDBIMTY0VjE0MzRIOTkxVjExNzFINDg3Vjg1Mkg5NTZWNTkwSDQ4N1YyNjJIMTAyNFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMy44NjYgODAuMDAwKSBzY2FsZSgwLjA1MDIwOTIxIC0wLjA1MDIwOTIxKSIvPgogIDxwYXRoIGZpbGw9IiNGMjYxNTciIGQ9Ik0xNDU0IDBIMTEyOEw1MzcgOTAxUTQ4NSA5ODAgNDY1IDEwMjBINDYxUTQ2OSA5NDQgNDY5IDc4OFYwSDE2NFYxNDM0SDUxMkwxMDgxIDU2MVExMTIwIDUwMiAxMTUzIDQ0NEgxMTU3UTExNDkgNDk0IDExNDkgNjQxVjE0MzRIMTQ1NFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ1Ni44OTQgODAuMDAwKSBzY2FsZSgwLjA1MDIwOTIxIC0wLjA1MDIwOTIxKSIvPgogIDxwYXRoIGZpbGw9IiNGMjYxNTciIGQ9Ik0xMzM1IDBIOTUyTDcwNSA0NjdRNjkxIDQ5MyA2NzYgNTYzSDY3MlE2NjUgNTMwIDYzOSA0NjNMMzkxIDBINkw0NjMgNzE3TDQ1IDE0MzRINDM4TDY0MyAxMDA0UTY2NyA5NTMgNjg2IDg4M0g2OTBRNzAyIDkyNSA3MzUgMTAwOEw5NjMgMTQzNEgxMzIzTDg5MyA3MjNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MzYuNDMyIDgwLjAwMCkgc2NhbGUoMC4wNTAyMDkyMSAtMC4wNTAyMDkyMSkiLz4KPC9zdmc+Cg==" alt="GreyScienx"><div class="edition" id="edition"></div></header>
+    <section><p class="eyebrow" id="eyebrow"></p><h1 id="headline"></h1><p class="deck" id="deck"></p></section>
+    <section class="evidence">
+      <div class="visual-label"><span id="visualTitle"></span><span id="qualifier"></span></div>
+      <div class="figure" id="figure">
+        <img id="chartImage" alt="">
+        <div class="stat-wrap" id="statWrap"><div class="stat" id="stat"></div><div class="stat-label" id="statLabel"></div></div>
+        <div class="bars" id="bars"></div>
+      </div>
+      <p class="caption" id="caption"></p>
+    </section>
+    <footer class="footer"><div class="source" id="source"></div><div class="url" id="url"></div></footer>
+  </article>
+  <script>
+    const DATA = {"edition": "HOUSEHOLD ECONOMICS · PAPER 01", "eyebrow": "The ten-year head start", "headline": "Ten years of shared housing can become a R4 million wealth gap", "deck": "A Gauteng household model comparing the same R50,000 monthly income.", "visualTitle": "Household wealth at age 75", "qualifier": "Average model · constant 2026 rand", "bars": [{"name": "Together from 25", "value": 13.833, "label": "R13.8m", "primary": true}, {"name": "Together from 35", "value": 9.861, "label": "R9.9m", "primary": false}], "caption": "Moving in at 25 rather than 35 produces R3.972 million more combined household wealth at 75 in the average scenario.", "source": "GreyScienx armchair model · Not a forecast · Combined household wealth", "url": "greyscienx.com/research"};
+    const byId = (id) => document.getElementById(id);
+    const text = (id, value) => { byId(id).textContent = value || ""; };
+    const card = byId("card");
+    if (DATA.theme === "dark") {
+      card.classList.add("dark");
+      byId("brandLogo").src = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDcuODEzIiBoZWlnaHQ9Ijg4LjAwMCIgdmlld0JveD0iMCAwIDYwNy44MTMgODguMDAwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+CiAgPHRpdGxlIGlkPSJ0aXRsZSI+R3JleVNjaWVueDwvdGl0bGU+CiAgPGRlc2MgaWQ9ImRlc2MiPkdyZXlTY2llbnggb3V0bGluZWQgd29yZG1hcmsuIEdSRVkgdXNlcyB0aGUgZm9yZWdyb3VuZCBjb2xvdXIgYW5kIFNDSUVOWCB1c2VzIGNvcmFsLjwvZGVzYz4KICA8bWV0YWRhdGE+R2VuZXJhdGVkIGJ5IHNjcmlwdHMvYnVpbGRfbG9nby5weSBmcm9tIGZvbnQgU0hBLTI1NiBhZWI5ZTRhNmVjNWNjNTlmNGQ3MmRmODE4OTAzMmQ3ZGJiMjhmNDUxNjFjZjE1NTIxNzQ4MThiNTQ2NWRhYzRlLiBHbHlwaHMgYXJlIG91dGxpbmVkOyB0aGUgU1ZHIGhhcyBubyBydW50aW1lIGZvbnQgZGVwZW5kZW5jeS48L21ldGFkYXRhPgogIDxwYXRoIGZpbGw9IiNGQkZGRkUiIGQ9Ik0xMzQxIDk2UTExMzEgLTI1IDgxOSAtMjVRNDczIC0yNSAyNzMuNSAxNjYuNVE3NCAzNTggNzQgNjk0UTc0IDEwMzIgMjkyLjAgMTI0NS4wUTUxMCAxNDU4IDg3MiAxNDU4UTExMDAgMTQ1OCAxMjc0IDEzOTVWMTA5MlExMTA4IDExODggODY4IDExODhRNjY3IDExODggNTQwLjUgMTA1Ny41UTQxNCA5MjcgNDE0IDcwOVE0MTQgNDg4IDUyNy41IDM2Ny4wUTY0MSAyNDYgODM0IDI0NlE5NTAgMjQ2IDEwMTggMjc5VjU1OUg3MzFWODE3SDEzNDFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0LjAwMCA4MC4wMDApIHNjYWxlKDAuMDUwMjA5MjEgLTAuMDUwMjA5MjEpIi8+CiAgPHBhdGggZmlsbD0iI0ZCRkZGRSIgZD0iTTEzNjcgMEg5OTZMNzczIDM2OVE3NDggNDExIDcyNS4wIDQ0NC4wUTcwMiA0NzcgNjc4LjUgNTAwLjVRNjU1IDUyNCA2MjkuNSA1MzYuNVE2MDQgNTQ5IDU3NCA1NDlINDg3VjBIMTY0VjE0MzRINjc2UTExOTggMTQzNCAxMTk4IDEwNDRRMTE5OCA5NjkgMTE3NS4wIDkwNS41UTExNTIgODQyIDExMTAuMCA3OTEuMFExMDY4IDc0MCAxMDA4LjUgNzAzLjBROTQ5IDY2NiA4NzYgNjQ1VjY0MVE5MDggNjMxIDkzOC4wIDYwOC41UTk2OCA1ODYgOTk2LjAgNTU2LjBRMTAyNCA1MjYgMTA0OS41IDQ5MS41UTEwNzUgNDU3IDEwOTYgNDI0Wk00ODcgMTE5MlY3OTNINjI3UTczMSA3OTMgNzk0IDg1M1E4NTggOTE0IDg1OCAxMDA0UTg1OCAxMTkyIDYzMyAxMTkyWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzUuNDA1IDgwLjAwMCkgc2NhbGUoMC4wNTAyMDkyMSAtMC4wNTAyMDkyMSkiLz4KICA8cGF0aCBmaWxsPSIjRkJGRkZFIiBkPSJNMTAyNCAwSDE2NFYxNDM0SDk5MVYxMTcxSDQ4N1Y4NTJIOTU2VjU5MEg0ODdWMjYySDEwMjRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDAuODM0IDgwLjAwMCkgc2NhbGUoMC4wNTAyMDkyMSAtMC4wNTAyMDkyMSkiLz4KICA8cGF0aCBmaWxsPSIjRkJGRkZFIiBkPSJNMTI0NSAxNDM0IDc3OCA1MTBWMEg0NTVWNTA0TDAgMTQzNEgzNjlMNjAwIDg5OVE2MDYgODg0IDYzMyA3ODJINjM3UTY1MCA4NTQgNjY4IDg5NUw5MDMgMTQzNFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE5My44NjIgODAuMDAwKSBzY2FsZSgwLjA1MDIwOTIxIC0wLjA1MDIwOTIxKSIvPgogIDxwYXRoIGZpbGw9IiNGMjYxNTciIGQ9Ik05OCA1NVYzNzVRMTg1IDMwMiAyODcuMCAyNjUuNVEzODkgMjI5IDQ5MyAyMjlRNTU0IDIyOSA1OTkuNSAyNDAuMFE2NDUgMjUxIDY3NS41IDI3MC41UTcwNiAyOTAgNzIxLjAgMzE2LjVRNzM2IDM0MyA3MzYgMzc0UTczNiA0MTYgNzEyLjAgNDQ5LjBRNjg4IDQ4MiA2NDYuNSA1MTAuMFE2MDUgNTM4IDU0OC4wIDU2NC4wUTQ5MSA1OTAgNDI1IDYxN1EyNTcgNjg3IDE3NC41IDc4OC4wUTkyIDg4OSA5MiAxMDMyUTkyIDExNDQgMTM3LjAgMTIyNC41UTE4MiAxMzA1IDI1OS41IDEzNTcuMFEzMzcgMTQwOSA0MzkuMCAxNDMzLjVRNTQxIDE0NTggNjU1IDE0NThRNzY3IDE0NTggODUzLjUgMTQ0NC41UTk0MCAxNDMxIDEwMTMgMTQwM1YxMTA0UTk3NyAxMTI5IDkzNC41IDExNDguMFE4OTIgMTE2NyA4NDcuMCAxMTc5LjVRODAyIDExOTIgNzU3LjUgMTE5OC4wUTcxMyAxMjA0IDY3MyAxMjA0UTYxOCAxMjA0IDU3My4wIDExOTMuNVE1MjggMTE4MyA0OTcuMCAxMTY0LjBRNDY2IDExNDUgNDQ5LjAgMTExOC41UTQzMiAxMDkyIDQzMiAxMDU5UTQzMiAxMDIzIDQ1MS4wIDk5NC41UTQ3MCA5NjYgNTA1LjAgOTQwLjVRNTQwIDkxNSA1OTAuMCA4OTAuNVE2NDAgODY2IDcwMyA4NDBRNzg5IDgwNCA4NTcuNSA3NjMuNVE5MjYgNzIzIDk3NS4wIDY3Mi4wUTEwMjQgNjIxIDEwNTAuMCA1NTUuNVExMDc2IDQ5MCAxMDc2IDQwM1ExMDc2IDI4MyAxMDMwLjUgMjAxLjVROTg1IDEyMCA5MDcuMCA2OS41UTgyOSAxOSA3MjUuNSAtMy4wUTYyMiAtMjUgNTA3IC0yNVEzODkgLTI1IDI4Mi41IC01LjBRMTc2IDE1IDk4IDU1WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU0LjU3MiA4MC4wMDApIHNjYWxlKDAuMDUwMjA5MjEgLTAuMDUwMjA5MjEpIi8+CiAgPHBhdGggZmlsbD0iI0YyNjE1NyIgZD0iTTExOTIgNTFRMTAzNSAtMjUgNzgyIC0yNVE0NTIgLTI1IDI2My4wIDE2OS4wUTc0IDM2MyA3NCA2ODZRNzQgMTAzMCAyODYuNSAxMjQ0LjBRNDk5IDE0NTggODM4IDE0NThRMTA0OCAxNDU4IDExOTIgMTQwNVYxMDk0UTEwNDggMTE4MCA4NjQgMTE4MFE2NjIgMTE4MCA1MzguMCAxMDUzLjBRNDE0IDkyNiA0MTQgNzA5UTQxNCA1MDEgNTMxLjAgMzc3LjVRNjQ4IDI1NCA4NDYgMjU0UTEwMzUgMjU0IDExOTIgMzQ2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzEwLjUxMyA4MC4wMDApIHNjYWxlKDAuMDUwMjA5MjEgLTAuMDUwMjA5MjEpIi8+CiAgPHBhdGggZmlsbD0iI0YyNjE1NyIgZD0iTTQ4NyAwSDE2NFYxNDM0SDQ4N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM3Mi45ODAgODAuMDAwKSBzY2FsZSgwLjA1MDIwOTIxIC0wLjA1MDIwOTIxKSIvPgogIDxwYXRoIGZpbGw9IiNGMjYxNTciIGQ9Ik0xMDI0IDBIMTY0VjE0MzRIOTkxVjExNzFINDg3Vjg1Mkg5NTZWNTkwSDQ4N1YyNjJIMTAyNFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMy44NjYgODAuMDAwKSBzY2FsZSgwLjA1MDIwOTIxIC0wLjA1MDIwOTIxKSIvPgogIDxwYXRoIGZpbGw9IiNGMjYxNTciIGQ9Ik0xNDU0IDBIMTEyOEw1MzcgOTAxUTQ4NSA5ODAgNDY1IDEwMjBINDYxUTQ2OSA5NDQgNDY5IDc4OFYwSDE2NFYxNDM0SDUxMkwxMDgxIDU2MVExMTIwIDUwMiAxMTUzIDQ0NEgxMTU3UTExNDkgNDk0IDExNDkgNjQxVjE0MzRIMTQ1NFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ1Ni44OTQgODAuMDAwKSBzY2FsZSgwLjA1MDIwOTIxIC0wLjA1MDIwOTIxKSIvPgogIDxwYXRoIGZpbGw9IiNGMjYxNTciIGQ9Ik0xMzM1IDBIOTUyTDcwNSA0NjdRNjkxIDQ5MyA2NzYgNTYzSDY3MlE2NjUgNTMwIDYzOSA0NjNMMzkxIDBINkw0NjMgNzE3TDQ1IDE0MzRINDM4TDY0MyAxMDA0UTY2NyA5NTMgNjg2IDg4M0g2OTBRNzAyIDkyNSA3MzUgMTAwOEw5NjMgMTQzNEgxMzIzTDg5MyA3MjNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MzYuNDMyIDgwLjAwMCkgc2NhbGUoMC4wNTAyMDkyMSAtMC4wNTAyMDkyMSkiLz4KPC9zdmc+Cg==";
+    }
+    ["edition", "eyebrow", "headline", "deck", "visualTitle", "qualifier", "caption", "source", "url"].forEach((key) => text(key, DATA[key]));
+    const image = byId("chartImage");
+    const statWrap = byId("statWrap");
+    const bars = byId("bars");
+    image.style.display = "none"; statWrap.style.display = "none"; bars.style.display = "none";
+    if (DATA.chartImage) {
+      image.src = DATA.chartImage; image.style.display = "block";
+    } else if (DATA.stat) {
+      text("stat", DATA.stat); text("statLabel", DATA.statLabel); statWrap.style.display = "block";
+    } else if (Array.isArray(DATA.bars)) {
+      const max = Math.max(...DATA.bars.map((item) => Number(item.value) || 0), 1);
+      DATA.bars.forEach((item) => {
+        const row = document.createElement("div"); row.className = `bar-row${item.primary ? " primary" : ""}`;
+        const name = document.createElement("div"); name.className = "bar-name"; name.textContent = item.name;
+        const track = document.createElement("div"); track.className = "bar-track";
+        const fill = document.createElement("div"); fill.className = "bar-fill"; fill.style.width = `${Math.max(0, Number(item.value) || 0) / max * 100}%`;
+        const value = document.createElement("div"); value.className = "bar-value"; value.textContent = item.label;
+        track.appendChild(fill); row.append(name, track, value); bars.appendChild(row);
+      });
+      bars.style.display = "flex";
+    }
+  </script>
+</body>
+</html>

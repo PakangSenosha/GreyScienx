@@ -1,0 +1,1022 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:WPL-001
+  slug: inherited-geography
+  title: Inherited Geography
+  subtitle: The Racial Property-Wealth Dividend
+  series_id: GSX:WPL
+  series_slug: wealth-and-place
+  series_title: Wealth and Place
+  series_number: '06'
+  paper_number: '01'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/wealth-and-place/inherited-geography
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - inheritance
+  - housing
+  - lifetime-wealth
+  - south-africa
+  keywords:
+  - Inheritance
+  - Housing
+  - Lifetime wealth
+  - South Africa
+  - inherited
+  - geography
+  - south
+  - africas
+  - unequal
+  - property
+  - continue
+  - compound
+  - differences
+  - wealth
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2024 prices where the manuscript states a price basis
+research_definition:
+  central_question: How does South Africa's unequal property geography continue to compound into differences in wealth?
+  short_answer: 'For matched descendants, the central scenario produces median marketable net worth after forty years of R3.67 million with a titled township home and R5.24 million with a middle-value suburban home. The difference is R1.57 million, in constant 2024 rand. Limitation: These are scenarios, not forecasts and not estimates for a racial group. The comparison shows that inherited property conditions can be large enough to matter. It does not show what share of the national wealth gap that mechanism causes.'
+  abstract: How South Africa’s unequal property geography continues to compound into differences in wealth.
+  motivation: How South Africa’s unequal property geography continues to compound into differences in wealth.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - How does inherited property geography relate to South Africa's racial wealth gap?
+  - How do the type, location, and tenure of inherited property carry advantage across generations?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:WPL-001:R01
+  - GSX:WPL-001:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - How does South Africa's unequal property geography continue to compound into differences in wealth?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:WPL-001:M01
+    name: Matched-descendant property scenarios
+    purpose: Descendants with the same education, real salary, household size and saving behaviour receive different inherited property conditions. The central case is a Monte Carlo scenario in constant 2024 rand over forty years.
+    model_class: matched counterfactual
+    statement: Descendants with the same education, real salary, household size and saving behaviour receive different inherited property conditions. The central case is a Monte Carlo scenario in constant 2024 rand over forty years.
+    inputs:
+    - property bundle
+    - education
+    - salary
+    - household size
+    - saving behaviour
+    outputs:
+    - median marketable net worth
+    time_step: annual over forty years
+    implementation_file: research/source/inherited-geography/model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:WPL-001:A01
+    name: Matched descendants
+    statement: The modelled descendants share education, real salary, household size and saving behaviour. The property condition changes.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript modelled answer
+    source_ids:
+    - GSX:WPL-001:PDF
+    evidence_strength: model design
+    sensitivity: high
+    alternatives:
+    - Different earnings or saving behaviour
+  - id: A02
+    canonical_id: GSX:WPL-001:A02
+    name: No identified causal share
+    statement: No national source follows an inherited property from parent to heir while jointly observing population group, title, location, competing claims, marketability and later wealth.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:WPL-001:PDF
+    evidence_strength: data limit
+    sensitivity: high
+    alternatives:
+    - A linked inheritance register
+  - id: A03
+    canonical_id: GSX:WPL-001:A03
+    name: Observed wealth benchmarks
+    statement: In 2017 NIDS data cited by the manuscript, median Black household net worth was about R70,100 and median White household net worth was R1,364,900.
+    value: '70100'
+    unit: rand, 2017 median Black household net worth
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript descriptive answer, citing Chelwa, Maboshe and Hamilton (2024)
+    source_ids:
+    - GSX:WPL-001:PDF
+    evidence_strength: cited survey statistic
+    sensitivity: moderate
+    alternatives:
+    - A later wealth survey
+  parameters:
+  - id: P01
+    name: Matched descendants
+    symbol: see the manuscript
+    description: The modelled descendants share education, real salary, household size and saving behaviour. The property condition changes.
+    value: qualitative
+    unit: see the statement
+    price_year: '2024'
+    scenario_values:
+      central: qualitative
+    source_ids:
+    - GSX:WPL-001:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - Descendants with the same education, real salary, household size and saving behaviour receive different inherited property conditions. The central case is a Monte Carlo scenario in constant 2024 rand over forty years.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:WPL-001:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Central Monte Carlo case, forty years
+  role: baseline
+  description: In the central Monte Carlo case, median marketable net worth after forty years is R3.04 million with no inherited property, R3.15 million with a communal family residence, R3.67 million with a titled township home, R5.24 million with a middle-value suburban home, R10.59 million with high-value property and R6.51 million with a productive farm, in constant 2024 rand.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: Inherited Geography
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/wealth-and-place/inherited-geography
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/inherited-geography/manuscript.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - These are scenarios, not forecasts and not estimates for a racial group. The comparison shows that inherited property conditions can be large enough to matter. It does not show what share of the national wealth gap that mechanism causes.
+  source_register:
+  - id: GSX:WPL-001:PDF
+    type: manuscript
+    title: Inherited Geography
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/wealth-and-place/inherited-geography-racial-property-wealth-dividend.pdf
+    access_date: '2026-09-27'
+    locator: 31 pages; 1.37 MB
+    supports:
+    - GSX:WPL-001:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:WPL-001:SRC01
+    type: web_reference
+    title: Chelwa, Maboshe and Hamilton (2024)
+    author_or_publisher: doi.org
+    date: see cited resource
+    url: https://doi.org/10.1080/09538259.2024.2318962
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC02
+    type: web_reference
+    title: Simson and Mahmoudzadeh (2024)
+    author_or_publisher: eprints.lse.ac.uk
+    date: see cited resource
+    url: https://eprints.lse.ac.uk/125939/3/III-WP-146.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC03
+    type: web_reference
+    title: Statistics South Africa, Census 2022
+    author_or_publisher: census.statssa.gov.za
+    date: see cited resource
+    url: https://census.statssa.gov.za/assets/documents/2022/P03014_Census_2022_Statistical_Release.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC04
+    type: web_reference
+    title: CAHF, South Africa Housing Market Report 2024
+    author_or_publisher: wcpdf.org.za
+    date: see cited resource
+    url: https://www.wcpdf.org.za/wp-content/uploads/2024/07/CAHF_V8-National-Property-Market-Report-2024-Final.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC05
+    type: web_reference
+    title: Statistics South Africa, Census 2022
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?p=16716
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC06
+    type: web_reference
+    title: Chatterjee, Czajka and Gethin (2022)
+    author_or_publisher: doi.org
+    date: see cited resource
+    url: https://doi.org/10.1093/wber/lhab012
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC07
+    type: web_reference
+    title: Mbewe and Woolard (2016)
+    author_or_publisher: opensaldru.uct.ac.za
+    date: see cited resource
+    url: https://www.opensaldru.uct.ac.za/handle/11090/843
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC08
+    type: web_reference
+    title: Casale and Oyenubi (2026)
+    author_or_publisher: doi.org
+    date: see cited resource
+    url: https://doi.org/10.1111/saje.70014
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC09
+    type: web_reference
+    title: Kirsten and Patel, SALDRU (2025)
+    author_or_publisher: saldru.uct.ac.za
+    date: see cited resource
+    url: https://saldru.uct.ac.za/articles/2025-11-26-spatial-inertia-and-racial-stratification-housing-wealth-post-apartheid-south-africa
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC10
+    type: web_reference
+    title: Naude (2008)
+    author_or_publisher: doi.org
+    date: see cited resource
+    url: https://doi.org/10.1016/j.cities.2008.04.004
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC11
+    type: web_reference
+    title: OECD Economic Survey 2025
+    author_or_publisher: oecd.org
+    date: see cited resource
+    url: https://www.oecd.org/en/publications/oecd-economic-surveys-south-africa-2025_7e6a132a-en/full-report/enhancing-job-creation-and-workforce-integration-in-a-changing-economy_e1449aca.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC12
+    type: web_reference
+    title: OECD Economic Survey 2022
+    author_or_publisher: oecd.org
+    date: see cited resource
+    url: https://www.oecd.org/en/publications/oecd-economic-surveys-south-africa-2022_d6a7301d-en/full-report/component-6.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC13
+    type: web_reference
+    title: Department of Rural Development and Land Reform, Land Audit 2017
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/sites/default/files/gcis_document/201802/landauditreport13feb2018.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC14
+    type: web_reference
+    title: Statistics South Africa, Commercial Agriculture 2017
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?p=13144
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC15
+    type: web_reference
+    title: Clark and Luwaya (2017)
+    author_or_publisher: parliament.gov.za
+    date: see cited resource
+    url: https://www.parliament.gov.za/storage/app/media/Pages/2017/october/High_Level_Panel/Commissioned_Report_land/Commisioned_Report_on_Tenure_Reform_LARC.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC16
+    type: web_reference
+    title: Zantsi et al. (2025)
+    author_or_publisher: doi.org
+    date: see cited resource
+    url: https://doi.org/10.3389/fsufs.2025.1682797
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC17
+    type: web_reference
+    title: Middelberg (2014)
+    author_or_publisher: doi.org
+    date: see cited resource
+    url: https://doi.org/10.1080/03031853.2014.922033
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC18
+    type: web_reference
+    title: Bolt (2021)
+    author_or_publisher: doi.org
+    date: see cited resource
+    url: https://doi.org/10.1093/afraf/adab001
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC19
+    type: web_reference
+    title: SARB (2023)
+    author_or_publisher: resbank.co.za
+    date: see cited resource
+    url: https://www.resbank.co.za/content/dam/sarb/what-we-do/financial-stability/Interlinkages%20between%20SA%20households%27%20financial%20position%20and%20the%20domestic%20financial%20system.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC20
+    type: web_reference
+    title: “Ensuring access to water for food production by emerging farmers in South Africa.”
+    author_or_publisher: doi.org
+    date: see cited resource
+    url: https://doi.org/10.17159/wsa/2020.v46.i2.8237
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC21
+    type: web_reference
+    title: “Cross-Sectional Features of Wealth Inequality in South Africa.”
+    author_or_publisher: hdl.handle.net
+    date: see cited resource
+    url: https://hdl.handle.net/11090/843
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC22
+    type: web_reference
+    title: _Living Conditions of Households in South Africa 2014/15_.
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0310/P03102014.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:WPL-001:SRC23
+    type: web_reference
+    title: _Census of Commercial Agriculture 2017_.
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/Report-11-02-01/CoCA%202017%20Fact%20Sheets.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:WPL-001:R01
+    statement: In the central Monte Carlo case, median marketable net worth after forty years is R3.04 million with no inherited property, R3.15 million with a communal family residence, R3.67 million with a titled township home, R5.24 million with a middle-value suburban home, R10.59 million with high-value property and R6.51 million with a productive farm, in constant 2024 rand.
+    value: '5.24'
+    unit: million constant 2024 rand, middle-value suburban median
+    price_year: '2024'
+    year_or_period: Central Monte Carlo case, forty years
+    scenario_id: Central Monte Carlo case, forty years
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:WPL-001:PDF
+    reproducible_from:
+    - GSX:WPL-001:M01
+  - id: R02
+    canonical_id: GSX:WPL-001:R02
+    statement: The modelled gap between the titled-township and middle-suburb medians is R1.57 million. The gap between the communal-residence and high-property cases is R7.44 million.
+    value: '1.57'
+    unit: million constant 2024 rand
+    price_year: '2024'
+    year_or_period: Central case differences after forty years
+    scenario_id: Central case differences after forty years
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:WPL-001:PDF
+    reproducible_from:
+    - GSX:WPL-001:M01
+  headline_results:
+  - GSX:WPL-001:R01
+  sensitivity_results:
+  - GSX:WPL-001:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - These are scenarios, not forecasts and not estimates for a racial group. The comparison shows that inherited property conditions can be large enough to matter. It does not show what share of the national wealth gap that mechanism causes.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:WPL-001:C01
+    claim: For matched descendants, the central scenario produces median marketable net worth after forty years of R3.67 million with a titled township home and R5.24 million with a middle-value suburban home. The difference is R1.57 million, in constant 2024 rand.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:WPL-001:A01
+    derived_from_results: &id004
+    - GSX:WPL-001:R01
+    - GSX:WPL-001:R02
+    supported_by_sources:
+    - GSX:WPL-001:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: These are scenarios, not forecasts and not estimates for a racial group. The comparison shows that inherited property conditions can be large enough to matter. It does not show what share of the national wealth gap that mechanism causes.
+    sensitivity: high
+    retrieval_text: For matched descendants, the central scenario produces median marketable net worth after forty years of R3.67 million with a titled township home and R5.24 million with a middle-value suburban home. The difference is R1.57 million, in constant 2024 rand.
+    citation_text: GreyScienx, GSX:WPL-001:C01, version 1.0.
+    href: https://greyscienx.com/research/wealth-and-place/inherited-geography/claims/C01
+  - id: C02
+    canonical_id: GSX:WPL-001:C02
+    claim: The manuscript states that the causal share of the racial wealth gap attributable to inherited property geography cannot be identified from currently available data.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:WPL-001:A02
+    - GSX:WPL-001:A03
+    derived_from_results:
+    - GSX:WPL-001:R02
+    supported_by_sources:
+    - GSX:WPL-001:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: There is no core causal estimate. Observed gaps, probate records and the matched model answer different questions and are not averaged into one percentage.
+    sensitivity: high
+    retrieval_text: The manuscript states that the causal share of the racial wealth gap attributable to inherited property geography cannot be identified from currently available data.
+    citation_text: GreyScienx, GSX:WPL-001:C02, version 1.0.
+    href: https://greyscienx.com/research/wealth-and-place/inherited-geography/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - These are scenarios, not forecasts and not estimates for a racial group. The comparison shows that inherited property conditions can be large enough to matter. It does not show what share of the national wealth gap that mechanism causes.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: These are scenarios, not forecasts and not estimates for a racial group. The comparison shows that inherited property conditions can be large enough to matter. It does not show what share of the national wealth gap that mechanism causes.
+  limitations:
+  - These are scenarios, not forecasts and not estimates for a racial group. The comparison shows that inherited property conditions can be large enough to matter. It does not show what share of the national wealth gap that mechanism causes.
+  - There is no core causal estimate. Observed gaps, probate records and the matched model answer different questions and are not averaged into one percentage.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - These are scenarios, not forecasts and not estimates for a racial group. The comparison shows that inherited property conditions can be large enough to matter. It does not show what share of the national wealth gap that mechanism causes.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/inherited-geography/manuscript.md
+    pdf: https://greyscienx.com/research/wealth-and-place/inherited-geography-racial-property-wealth-dividend.pdf
+    html: https://greyscienx.com/research/wealth-and-place/inherited-geography
+    clean_markdown: https://greyscienx.com/research/wealth-and-place/inherited-geography/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/inherited-geography/manuscript.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:WPL-001:PDF
+    result_ids:
+    - GSX:WPL-001:R01
+  figures:
+  - id: F01
+    title: Observed formal-wealth thresholds
+    caption: Figure 1. Probate and survey evidence agree on the ordering but not the level. Probate misses unreported and off-register assets most severely for Black and Coloured households. NIDS captures a broader wealth concept but undersamples the top and relies partly on self-valuation. The disagreement is information, not noise to be averaged away.
+    alt_text: Observed formal-wealth thresholds
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/inherited-geography/figures/observed-formal-wealth-threshold.png
+    data_file: research/source/inherited-geography/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:WPL-001:R01
+    source_ids:
+    - GSX:WPL-001:PDF
+  - id: F02
+    title: Property bundle
+    caption: Figure 2. The heatmap is a visual summary of model assumptions, not observed racial averages. It shows why one word - property - can conceal six different economic capacities.
+    alt_text: Property bundle
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/inherited-geography/figures/property-bundle-heatmap.png
+    data_file: research/source/inherited-geography/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:WPL-001:R01
+    source_ids:
+    - GSX:WPL-001:PDF
+  - id: F03
+    title: Matched descendant trajectories
+    caption: Figure 3. Lines show medians; faint bands show the interquartile range. The no-property line has no modeled property uncertainty. All descendants have the same salary and saving behavior.
+    alt_text: Matched descendant trajectories
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/inherited-geography/figures/matched-descendant-trajectories.png
+    data_file: research/source/inherited-geography/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:WPL-001:R01
+    source_ids:
+    - GSX:WPL-001:PDF
+  - id: F04
+    title: Distribution overlap
+    caption: Figure 4. Property type shifts the distribution; it does not fix the outcome. Values above R30 million are clipped in the figure, not in the model results.
+    alt_text: Distribution overlap
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/inherited-geography/figures/distribution-overlap-40-years.png
+    data_file: research/source/inherited-geography/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:WPL-001:R01
+    source_ids:
+    - GSX:WPL-001:PDF
+  - id: F05
+    title: Channel decomposition
+    caption: Figure 5. Mean components are shown because mean channel contributions add arithmetically. They should be read beside the median distributions, which are less sensitive to the upper tail.
+    alt_text: Channel decomposition
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/inherited-geography/figures/channel-decomposition-40-years.png
+    data_file: research/source/inherited-geography/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:WPL-001:R01
+    source_ids:
+    - GSX:WPL-001:PDF
+  - id: F06
+    title: Synthetic group intake overlap
+    caption: Figure 6. Curves include only modeled receivers so their overlap is visible; unconditional distributions contain many zeros. The scenarios describe aggregate historical sorting and are not observed group means.
+    alt_text: Synthetic group intake overlap
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/inherited-geography/figures/synthetic-group-intake-overlap.png
+    data_file: research/source/inherited-geography/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:WPL-001:R01
+    source_ids:
+    - GSX:WPL-001:PDF
+  - id: F07
+    title: Agricultural property module
+    caption: Figure 7. Marketable value applies a title and marketability factor; broader resource value retains the underlying land resource. Both add reinvested productive income. Neither prices social or customary value.
+    alt_text: Agricultural property module
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/inherited-geography/figures/agricultural-module.png
+    data_file: research/source/inherited-geography/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:WPL-001:R01
+    source_ids:
+    - GSX:WPL-001:PDF
+  - id: F08
+    title: Sensitivity
+    caption: Figure 8. One-at-a-time sensitivity around the middle-suburb central case. Appreciation and division among heirs have the largest forty-year effects. The chart is an assumption diagnostic, not a confidence interval.
+    alt_text: Sensitivity
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/inherited-geography/figures/sensitivity-tornado.png
+    data_file: research/source/inherited-geography/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:WPL-001:R01
+    source_ids:
+    - GSX:WPL-001:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/inherited-geography/model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/inherited-geography/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/inherited-geography/model.py
+  - research/source/inherited-geography/model_results.json
+  data_files:
+  - research/source/inherited-geography/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: not recorded
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/inherited-geography/model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - Monte Carlo draws have no published seed.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - none recorded
+  predecessor_studies:
+  - none
+  successor_studies:
+  - none
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - inheritance
+  - housing
+  - lifetime-wealth
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:WPL-001:C01
+    predicate: depends_on
+    object_id: GSX:WPL-001:A01
+    note: Registered dependency.
+  - subject_id: GSX:WPL-001:C01
+    predicate: derived_from
+    object_id: GSX:WPL-001:R01
+    note: Registered result.
+  - subject_id: GSX:WPL-001:C01
+    predicate: derived_from
+    object_id: GSX:WPL-001:R02
+    note: Registered result.
+  - subject_id: GSX:WPL-001:C02
+    predicate: depends_on
+    object_id: GSX:WPL-001:A02
+    note: Registered dependency.
+  - subject_id: GSX:WPL-001:C02
+    predicate: depends_on
+    object_id: GSX:WPL-001:A03
+    note: Registered dependency.
+  - subject_id: GSX:WPL-001:C02
+    predicate: derived_from
+    object_id: GSX:WPL-001:R02
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. Inherited Geography. GSX:WPL-001. Version 1.0.
+  machine_citation: GreyScienx, GSX:WPL-001, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/wealth-and-place/inherited-geography
+    html: https://greyscienx.com/research/wealth-and-place/inherited-geography
+    markdown: https://greyscienx.com/research/wealth-and-place/inherited-geography/markdown
+    json: https://greyscienx.com/api/v1/research/inherited-geography
+    pdf: https://greyscienx.com/research/wealth-and-place/inherited-geography-racial-property-wealth-dividend.pdf
+    api: https://greyscienx.com/api/v1/research/inherited-geography
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: Inherited Geography
+    identifier: GSX:WPL-001
+    url: https://greyscienx.com/research/wealth-and-place/inherited-geography
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: How South Africa’s unequal property geography continues to compound into differences in wealth.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: For matched descendants, the central scenario produces median marketable net worth after forty years of R3.67 million with a titled township home and R5.24 million with a middle-value suburban home. The difference is R1.57 million, in constant 2024 rand.
+    claim_ids:
+    - GSX:WPL-001:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:WPL-001:PDF
+    page: manuscript Part I
+    token_estimate: 39
+  question_aliases:
+  - How does inherited property geography relate to South Africa's racial wealth gap?
+  - How do the type, location, and tenure of inherited property carry advantage across generations?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:WPL-001, version 1.0
+    claim_level_pattern: GreyScienx, GSX:WPL-001:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  - 2 cited external links could not be verified because the server returned a transient error or the request did not complete.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:WPL-001
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:WPL-001

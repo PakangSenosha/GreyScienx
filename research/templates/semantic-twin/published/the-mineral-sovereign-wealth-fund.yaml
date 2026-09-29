@@ -1,0 +1,949 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:IND-006
+  slug: the-mineral-sovereign-wealth-fund
+  title: The Mineral Sovereign Wealth Fund
+  subtitle: Can South Africa turn temporary mineral advantages into a permanent national financial asset?
+  series_id: GSX:IND
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  series_number: '04'
+  paper_number: '06'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - critical-minerals
+  - fiscal-policy
+  - industrialisation
+  - south-africa
+  keywords:
+  - Critical minerals
+  - Fiscal policy
+  - Industrialisation
+  - South Africa
+  - mineral
+  - sovereign
+  - wealth
+  - fund
+  - fiscal
+  - architecture
+  - converts
+  - exhaustible
+  - resources
+  - permanent
+  - public
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: What fiscal architecture converts exhaustible mineral resources into permanent public wealth?
+  short_answer: 'Under the central rule, the fund reaches about R586 billion by 2060 and transfers about R16 billion that year, rising to R1.48 trillion and R43 billion by 2125, in constant 2026 rand. Limitation: A fund does not create a fiscal surplus. If the deposit is matched by new borrowing at a higher cost, the country has a leveraged portfolio rather than national savings. The transfer is a marginal public income, not a self-financing welfare state.'
+  abstract: A fiscal architecture for converting exhaustible resources into permanent public wealth.
+  motivation: A fiscal architecture for converting exhaustible resources into permanent public wealth.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - How can a sovereign wealth fund hold mineral rents for the public?
+  - What happens to public wealth when mineral revenue is saved rather than spent once?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:IND-006:R01
+  - GSX:IND-006:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - What fiscal architecture converts exhaustible mineral resources into permanent public wealth?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:IND-006:M01
+    name: Mineral savings-fund paths
+    purpose: Royalties, windfall mining tax and dividends are deposited by rule into a separate fund. The central case waits 15 years and then withdraws 3 percent of the trailing five-year fund value.
+    model_class: fund accumulation scenario
+    statement: Royalties, windfall mining tax and dividends are deposited by rule into a separate fund. The central case waits 15 years and then withdraws 3 percent of the trailing five-year fund value.
+    inputs:
+    - deposit share
+    - real return
+    - waiting period
+    - withdrawal rate
+    - leakage
+    outputs:
+    - fund value
+    - budget transfer
+    time_step: annual
+    implementation_file: research/source/mineral-sovereign-wealth-fund/model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:IND-006:A01
+    name: Deposit rule
+    statement: All royalties first enter the National Revenue Fund. Only a fraction of royalties, windfall mining tax and public-industrial dividends is transferred to the savings fund. Mineral and petroleum royalties were R10.6 billion in 2024/25.
+    value: '10.6'
+    unit: billion rand of royalties in 2024/25
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript findings, citing the royalty base
+    source_ids:
+    - GSX:IND-006:PDF
+    evidence_strength: budget fact used as the deposit base
+    sensitivity: moderate
+    alternatives:
+    - A larger deposit share
+    - Saving revenue while borrowing the same amount
+  - id: A02
+    canonical_id: GSX:IND-006:A02
+    name: Central withdrawal rule
+    statement: Withdrawals wait 15 years and then equal 3 percent of the trailing five-year fund value.
+    value: '3'
+    unit: percent of the trailing five-year fund value
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:IND-006:PDF
+    evidence_strength: rule
+    sensitivity: high
+    alternatives:
+    - Withdrawal after five years at 5 percent
+  - id: A03
+    canonical_id: GSX:IND-006:A03
+    name: Separate institutions
+    statement: The industrial holding company and the savings fund are different balance sheets. The fund is diversified away from South African minerals, the rand and the domestic business cycle.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript findings
+    source_ids:
+    - GSX:IND-006:PDF
+    evidence_strength: institutional design
+    sensitivity: high
+    alternatives:
+    - Using the fund to finance the holding company
+  parameters:
+  - id: P01
+    name: Deposit rule
+    symbol: see the manuscript
+    description: All royalties first enter the National Revenue Fund. Only a fraction of royalties, windfall mining tax and public-industrial dividends is transferred to the savings fund. Mineral and petroleum royalties were R10.6 billion in 2024/25.
+    value: '10.6'
+    unit: billion rand of royalties in 2024/25
+    price_year: '2026'
+    scenario_values:
+      central: '10.6'
+    source_ids:
+    - GSX:IND-006:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - Royalties, windfall mining tax and dividends are deposited by rule into a separate fund. The central case waits 15 years and then withdraws 3 percent of the trailing five-year fund value.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:IND-006:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Central case
+  role: baseline
+  description: In the central case the fund reaches about R258 billion in 2042, R586 billion in 2060, R893 billion in 2080 and R1.48 trillion in 2125, in constant 2026 rand.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The Mineral Sovereign Wealth Fund
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/mineral-sovereign-wealth-fund/report.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - A fund does not create a fiscal surplus. If the deposit is matched by new borrowing at a higher cost, the country has a leveraged portfolio rather than national savings. The transfer is a marginal public income, not a self-financing welfare state.
+  source_register:
+  - id: GSX:IND-006:PDF
+    type: manuscript
+    title: The Mineral Sovereign Wealth Fund
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund.pdf
+    access_date: '2026-09-27'
+    locator: 20 pages; 1.37 MB
+    supports:
+    - GSX:IND-006:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:IND-006:SRC01
+    type: web_reference
+    title: SARS, “Mineral and Petroleum Resource Royalty”
+    author_or_publisher: sars.gov.za
+    date: see cited resource
+    url: https://www.sars.gov.za/types-of-tax/mineral-and-petroleum-resource-royalty/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC02
+    type: web_reference
+    title: National Treasury, Budget Speech 2020
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/national%20budget/2020/speech/speech.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC03
+    type: web_reference
+    title: The Presidency, parliamentary reply on the sovereign wealth fund
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/news/speeches/president-cyril-ramaphosa-replies-questions-national-assembly-11-may-2023
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC04
+    type: web_reference
+    title: SARS and National Treasury, Tax Statistics 2025 Highlights
+    author_or_publisher: sars.gov.za
+    date: see cited resource
+    url: https://www.sars.gov.za/wp-content/uploads/2025taxstats/2025-Tax-Statistics-Highlights.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC05
+    type: web_reference
+    title: National Treasury, Budget Review 2026
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/national%20budget/2026/review/FullBR.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC06
+    type: web_reference
+    title: Norwegian Ministry of Finance, National Budget 2023
+    author_or_publisher: regjeringen.no
+    date: see cited resource
+    url: https://www.regjeringen.no/contentassets/a19ed57924e84fd7bc4109605dbdd29a/national_budget-_2023_3.1.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC07
+    type: web_reference
+    title: Norges Bank Investment Management, Annual Report 2025
+    author_or_publisher: nbim.no
+    date: see cited resource
+    url: https://www.nbim.no/en/news-and-insights/reports/2025/annual-report-2025/web-report-annual-report-2025/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC08
+    type: web_reference
+    title: National Treasury, Budget Highlights 2026
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/National%20Budget/2026/2026%20Budget%20Highlights.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC09
+    type: web_reference
+    title: Temasek, “Net Portfolio Value Grows to S$518 billion”
+    author_or_publisher: temasek.com.sg
+    date: see cited resource
+    url: https://www.temasek.com.sg/en/news-and-resources/news-room/news/2026/temasek-net-portfolio-value-grows-to-518b-up-49b-from-last-year
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC10
+    type: web_reference
+    title: International Forum of Sovereign Wealth Funds, Santiago Principles
+    author_or_publisher: ifswf.org
+    date: see cited resource
+    url: https://www.ifswf.org/media-download/15326
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC11
+    type: web_reference
+    title: IMF, A New Fiscal Framework for Resource-Rich Countries
+    author_or_publisher: imf.org
+    date: see cited resource
+    url: https://www.imf.org/en/publications/wp/issues/2023/11/03/a-new-fiscal-framework-for-resource-rich-countries-541132
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-006:SRC12
+    type: web_reference
+    title: IMF, How to Design a Fiscal Strategy in a Resource-Rich Country
+    author_or_publisher: elibrary.imf.org
+    date: see cited resource
+    url: https://www.elibrary.imf.org/view/journals/061/2021/001/article-A001-en.xml
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:IND-006:R01
+    statement: In the central case the fund reaches about R258 billion in 2042, R586 billion in 2060, R893 billion in 2080 and R1.48 trillion in 2125, in constant 2026 rand.
+    value: '586'
+    unit: billion constant 2026 rand in 2060
+    price_year: '2026'
+    year_or_period: Central case
+    scenario_id: Central case
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:IND-006:PDF
+    reproducible_from:
+    - GSX:IND-006:M01
+  - id: R02
+    canonical_id: GSX:IND-006:R02
+    statement: The central annual budget transfer rises from about R6 billion when withdrawals begin to R16 billion in 2060 and R43 billion in 2125.
+    value: '16'
+    unit: billion constant 2026 rand in 2060
+    price_year: '2026'
+    year_or_period: Central withdrawal path
+    scenario_id: Central withdrawal path
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:IND-006:PDF
+    reproducible_from:
+    - GSX:IND-006:M01
+  headline_results:
+  - GSX:IND-006:R01
+  sensitivity_results:
+  - GSX:IND-006:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - A fund does not create a fiscal surplus. If the deposit is matched by new borrowing at a higher cost, the country has a leveraged portfolio rather than national savings. The transfer is a marginal public income, not a self-financing welfare state.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:IND-006:C01
+    claim: Under the central rule, the fund reaches about R586 billion by 2060 and transfers about R16 billion that year, rising to R1.48 trillion and R43 billion by 2125, in constant 2026 rand.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:IND-006:A01
+    - GSX:IND-006:A02
+    - GSX:IND-006:A03
+    derived_from_results: &id004
+    - GSX:IND-006:R01
+    - GSX:IND-006:R02
+    supported_by_sources:
+    - GSX:IND-006:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: A fund does not create a fiscal surplus. If the deposit is matched by new borrowing at a higher cost, the country has a leveraged portfolio rather than national savings. The transfer is a marginal public income, not a self-financing welfare state.
+    sensitivity: high
+    retrieval_text: Under the central rule, the fund reaches about R586 billion by 2060 and transfers about R16 billion that year, rising to R1.48 trillion and R43 billion by 2125, in constant 2026 rand.
+    citation_text: GreyScienx, GSX:IND-006:C01, version 1.0.
+    href: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund/claims/C01
+  - id: C02
+    canonical_id: GSX:IND-006:C02
+    claim: The adverse case withdraws earlier, draws a larger share and earns only 1.5 percent real. The manuscript says that path ends the century with almost nothing.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:IND-006:A02
+    - GSX:IND-006:A03
+    derived_from_results:
+    - GSX:IND-006:R02
+    supported_by_sources:
+    - GSX:IND-006:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The permanent character of the fund is the withdrawal rule, not the label. The rule has to survive a future government that wants the money.
+    sensitivity: high
+    retrieval_text: The adverse case withdraws earlier, draws a larger share and earns only 1.5 percent real. The manuscript says that path ends the century with almost nothing.
+    citation_text: GreyScienx, GSX:IND-006:C02, version 1.0.
+    href: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - A fund does not create a fiscal surplus. If the deposit is matched by new borrowing at a higher cost, the country has a leveraged portfolio rather than national savings. The transfer is a marginal public income, not a self-financing welfare state.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: A fund does not create a fiscal surplus. If the deposit is matched by new borrowing at a higher cost, the country has a leveraged portfolio rather than national savings. The transfer is a marginal public income, not a self-financing welfare state.
+  limitations:
+  - A fund does not create a fiscal surplus. If the deposit is matched by new borrowing at a higher cost, the country has a leveraged portfolio rather than national savings. The transfer is a marginal public income, not a self-financing welfare state.
+  - The permanent character of the fund is the withdrawal rule, not the label. The rule has to survive a future government that wants the money.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - A fund does not create a fiscal surplus. If the deposit is matched by new borrowing at a higher cost, the country has a leveraged portfolio rather than national savings. The transfer is a marginal public income, not a self-financing welfare state.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/mineral-sovereign-wealth-fund/report.md
+    pdf: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund.pdf
+    html: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund
+    clean_markdown: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/mineral-sovereign-wealth-fund/report.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:IND-006:PDF
+    result_ids:
+    - GSX:IND-006:R01
+  figures:
+  - id: F01
+    title: Fund paths
+    caption: Figure 1. The scenarios vary the deposit share, institutional leakage, real return, waiting period and withdrawal rate. The best case is deliberately demanding; the adverse case shows how early withdrawals and weak returns can leave the fund almost exhausted.
+    alt_text: Fund paths
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/mineral-sovereign-wealth-fund/assets/fund-paths.png
+    data_file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-006:R01
+    source_ids:
+    - GSX:IND-006:PDF
+  - id: F02
+    title: Fund architecture
+    caption: Figure 2. A complete chain of custody keeps revenue on budget while separating concentrated industrial risk from the diversified savings portfolio.
+    alt_text: Fund architecture
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/mineral-sovereign-wealth-fund/assets/fund-flow.png
+    data_file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-006:R01
+    source_ids:
+    - GSX:IND-006:PDF
+  - id: F03
+    title: Mineral royalties
+    caption: Figure 3. The fall from R25.3 billion in 2022/23 to R10.6 billion in 2024/25 illustrates why a permanent spending promise cannot be based on one commodity peak. Later bars are National Treasury estimates and forecasts.
+    alt_text: Mineral royalties
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/mineral-sovereign-wealth-fund/assets/royalties.png
+    data_file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-006:R01
+    source_ids:
+    - GSX:IND-006:PDF
+  - id: F04
+    title: Deposit stream
+    caption: Figure 4. The model deliberately lets mineral-linked deposits fade. Permanence comes from converting the flow into financial assets, not assuming mining revenue lasts forever.
+    alt_text: Deposit stream
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/mineral-sovereign-wealth-fund/assets/deposit-stream.png
+    data_file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-006:R01
+    source_ids:
+    - GSX:IND-006:PDF
+  - id: F05
+    title: Withdrawals
+    caption: Figure 5. The annual transfer follows a trailing average rather than the latest market value. This smooths market shocks but cannot rescue an excessive long-run withdrawal rate.
+    alt_text: Withdrawals
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/mineral-sovereign-wealth-fund/assets/withdrawals.png
+    data_file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-006:R01
+    source_ids:
+    - GSX:IND-006:PDF
+  - id: F06
+    title: Sustainability map
+    caption: Figure 6. The map holds deposits at R12 billion a year through 2080 to isolate the return-withdrawal relationship. High ending values are compounding scenarios, not forecasts.
+    alt_text: Sustainability map
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/mineral-sovereign-wealth-fund/assets/sustainability-map.png
+    data_file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-006:R01
+    source_ids:
+    - GSX:IND-006:PDF
+  - id: F07
+    title: Budget scale
+    caption: Figure 7. Current budget figures are shown only to establish scale. The modelled 2060 transfer is in constant 2026 rand and should not be read as a forecast of future programme costs.
+    alt_text: Budget scale
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/mineral-sovereign-wealth-fund/assets/budget-scale.png
+    data_file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-006:R01
+    source_ids:
+    - GSX:IND-006:PDF
+  - id: F08
+    title: Debt trade-off
+    caption: Figure 8. The rates are illustrative real rates. Avoided debt service is more certain than an investment return; the figure excludes liquidity, diversification and strategic benefits that may justify a small fund.
+    alt_text: Debt trade-off
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/mineral-sovereign-wealth-fund/assets/debt-tradeoff.png
+    data_file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-006:R01
+    source_ids:
+    - GSX:IND-006:PDF
+  - id: F09
+    title: Portfolio design
+    caption: Figure 9. The illustrative allocation places 80 per cent in global equities and bonds, 10 per cent in inflation-linked assets or cash and 10 per cent in liquid domestic assets. It is a risk design, not an investment recommendation.
+    alt_text: Portfolio design
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/mineral-sovereign-wealth-fund/assets/portfolio.png
+    data_file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-006:R01
+    source_ids:
+    - GSX:IND-006:PDF
+  - id: F10
+    title: Governance locks
+    caption: 'Figure 10. The four locks divide authority: Parliament legislates the purpose, the budget records every flow, an independent manager invests, and the spending rule limits access.'
+    alt_text: Governance locks
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/mineral-sovereign-wealth-fund/assets/governance.png
+    data_file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-006:R01
+    source_ids:
+    - GSX:IND-006:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/mineral-sovereign-wealth-fund/model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/mineral-sovereign-wealth-fund/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/mineral-sovereign-wealth-fund/model.py
+  - research/source/mineral-sovereign-wealth-fund/model_results.json
+  data_files:
+  - research/source/mineral-sovereign-wealth-fund/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/mineral-sovereign-wealth-fund/model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:IND-001
+    slug: the-south-african-critical-minerals-industrial-complex
+    title: The South African Critical Minerals Industrial Complex
+    href: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex
+    relationship: same_series
+  - id: GSX:IND-002
+    slug: the-platinum-to-hydrogen-economy
+    title: The Platinum-to-Hydrogen Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy
+    relationship: same_series
+  - id: GSX:IND-003
+    slug: the-manganese-to-battery-economy
+    title: The Manganese-to-Battery Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy
+    relationship: same_series
+  - id: GSX:IND-004
+    slug: the-vanadium-grid-storage-economy
+    title: The Vanadium Grid-Storage Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-vanadium-grid-storage-economy
+    relationship: same_series
+  - id: GSX:IND-005
+    slug: the-capital-goods-economy
+    title: The Capital-Goods Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:IND-004
+    title: The Vanadium Grid-Storage Economy
+    paper_number: '04'
+  successor_studies:
+  - none
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - critical-minerals
+  - fiscal-policy
+  - industrialisation
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:IND-006:C01
+    predicate: depends_on
+    object_id: GSX:IND-006:A01
+    note: Registered dependency.
+  - subject_id: GSX:IND-006:C01
+    predicate: depends_on
+    object_id: GSX:IND-006:A02
+    note: Registered dependency.
+  - subject_id: GSX:IND-006:C01
+    predicate: depends_on
+    object_id: GSX:IND-006:A03
+    note: Registered dependency.
+  - subject_id: GSX:IND-006:C01
+    predicate: derived_from
+    object_id: GSX:IND-006:R01
+    note: Registered result.
+  - subject_id: GSX:IND-006:C01
+    predicate: derived_from
+    object_id: GSX:IND-006:R02
+    note: Registered result.
+  - subject_id: GSX:IND-006:C02
+    predicate: depends_on
+    object_id: GSX:IND-006:A02
+    note: Registered dependency.
+  - subject_id: GSX:IND-006:C02
+    predicate: depends_on
+    object_id: GSX:IND-006:A03
+    note: Registered dependency.
+  - subject_id: GSX:IND-006:C02
+    predicate: derived_from
+    object_id: GSX:IND-006:R02
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The Mineral Sovereign Wealth Fund. GSX:IND-006. Version 1.0.
+  machine_citation: GreyScienx, GSX:IND-006, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund
+    html: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund
+    markdown: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund/markdown
+    json: https://greyscienx.com/api/v1/research/the-mineral-sovereign-wealth-fund
+    pdf: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund.pdf
+    api: https://greyscienx.com/api/v1/research/the-mineral-sovereign-wealth-fund
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The Mineral Sovereign Wealth Fund
+    identifier: GSX:IND-006
+    url: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: A fiscal architecture for converting exhaustible resources into permanent public wealth.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: Under the central rule, the fund reaches about R586 billion by 2060 and transfers about R16 billion that year, rising to R1.48 trillion and R43 billion by 2125, in constant 2026 rand.
+    claim_ids:
+    - GSX:IND-006:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:IND-006:PDF
+    page: manuscript Part I
+    token_estimate: 32
+  question_aliases:
+  - How can a sovereign wealth fund hold mineral rents for the public?
+  - What happens to public wealth when mineral revenue is saved rather than spent once?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:IND-006, version 1.0
+    claim_level_pattern: GreyScienx, GSX:IND-006:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:IND-006
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:IND-006

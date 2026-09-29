@@ -1,0 +1,84 @@
+{
+  "schema_version": "GreyScienxModelManifest 1.0",
+  "models": [
+    {
+      "package": "economics-of-living-together",
+      "study_slug": "economics-of-living-together",
+      "script": "research/source/expanded_lifetime_model.py",
+      "baseline": "research/source/economics-of-living-together/model_results.json",
+      "generated": "research/source/economics-of-living-together/model_results.json"
+    },
+    {
+      "package": "retirement",
+      "script": "research/source/retirement_model.py",
+      "baseline": "research/source/retirement/model_results.json",
+      "generated": "research/work/retirement/model_results.json"
+    },
+    {
+      "package": "unemployment-pension",
+      "script": "research/source/unemployment_pension_model.py",
+      "baseline": "research/source/unemployment-pension/model_results.json",
+      "generated": "research/work/unemployment-pension/model_results.json"
+    },
+    {
+      "package": "retirement-age",
+      "script": "research/source/retirement_age_model.py",
+      "baseline": "research/source/retirement-age/model_results.json",
+      "generated": "research/work/retirement-age/model_results.json"
+    },
+    {
+      "package": "ageing-electorate",
+      "script": "research/source/ageing_electorate_model.py",
+      "baseline": "research/source/ageing-electorate/model_results.json",
+      "generated": "research/work/ageing-electorate/model_results.json"
+    },
+    {
+      "package": "emergency-ageing-austerity",
+      "script": "research/source/emergency_ageing_austerity_model.py",
+      "baseline": "research/source/emergency-ageing-austerity/model_results.json",
+      "generated": "research/work/emergency-ageing-austerity/model_results.json"
+    },
+    {
+      "package": "price-of-another-child",
+      "script": "research/source/price_of_another_child_model.py",
+      "baseline": "research/source/price-of-another-child/model_results.json",
+      "generated": "research/work/price-of-another-child/model_results.json"
+    },
+    {
+      "package": "hundred-year-life",
+      "script": "research/source/hundred_year_life_model.py",
+      "baseline": "research/source/hundred-year-life/model_results.json",
+      "generated": "research/work/hundred-year-life/model_results.json"
+    },
+    {
+      "package": "inheritance-after-retirement",
+      "script": "research/source/inheritance_after_retirement_model.py",
+      "baseline": "research/source/inheritance-after-retirement/model_results.json",
+      "generated": "research/work/inheritance-after-retirement/model_results.json"
+    },
+    {
+      "package": "how-to-shrink-a-country",
+      "script": "research/source/how_to_shrink_a_country_model.py",
+      "baseline": "research/source/how-to-shrink-a-country/model_results.json",
+      "generated": "research/work/how-to-shrink-a-country/model_results.json"
+    },
+    {
+      "package": "scarce-worker-economy",
+      "script": "research/source/scarce_worker_economy_model.py",
+      "baseline": "research/source/scarce-worker-economy/model_results.json",
+      "generated": "research/work/scarce-worker-economy/model_results.json"
+    },
+    {
+      "package": "population-system",
+      "script": "research/source/papers_11_12_model.py",
+      "baseline": "research/source/population-system/model_results.json",
+      "generated": "research/work/population-system/model_results.json"
+    },
+    {
+      "package": "extreme-fiscal-pressure",
+      "script": "research/source/papers_11_12_model.py",
+      "baseline": "research/source/extreme-fiscal-pressure/model_results.json",
+      "generated": "research/work/extreme-fiscal-pressure/model_results.json"
+    }
+  ]
+}

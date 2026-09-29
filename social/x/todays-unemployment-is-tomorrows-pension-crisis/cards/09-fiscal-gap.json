@@ -1,0 +1,14 @@
+{
+  "theme": "dark",
+  "edition": "POPULATION FUTURES · PAPER 02.02",
+  "eyebrow": "The lifetime fiscal gap",
+  "headline": "The largest public loss arrives before the grant bill",
+  "deck": "One million excluded lives weaken the modeled lifetime balance through missing taxes and higher transfers.",
+  "visualTitle": "Secure cohort minus excluded cohort",
+  "qualifier": "Undiscounted · constant 2026 rand",
+  "stat": "R1.80tn",
+  "statLabel": "About R1.25tn missing taxes + R0.56tn additional grants · healthcare held equal",
+  "caption": "The headline is the unrounded model difference. The displayed components are rounded and therefore sum to R1.81tn.",
+  "source": "GreyScienx illustrative one-million-person cohorts",
+  "url": "greyscienx.com/research"
+}

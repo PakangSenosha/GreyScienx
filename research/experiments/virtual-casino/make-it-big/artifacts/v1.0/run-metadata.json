@@ -1,0 +1,10 @@
+{
+  "experimentId": "greyscienx-vc-make-it-big-v1.0",
+  "protocolVersion": "1.0.0",
+  "status": "completed-local-reference-study",
+  "generatedAt": "2026-09-22T00:00:00.000Z",
+  "configHash": "3a5c1103424647456778442db8552422b2f9f094f7420af44fbf63bea9b781a4",
+  "sourceHash": "11542dbed3e79f5509521a4acec493e28a4e210439154e0c4e67236f262a756f",
+  "simulationSeed": "greyscienx-vc-make-it-big-v1.0-reference",
+  "prng": "xoshiro128** with cyrb128 stream initialisation"
+}

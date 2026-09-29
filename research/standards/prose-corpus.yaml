@@ -1,0 +1,78 @@
+schema_version: GreyScienxProseCorpus 1.0
+status: reference_manifest
+purpose: >-
+  A transparent reference set for clear expository structure. The corpus guides surface tone only;
+  it does not supply evidence, facts, claims, or wording for GreyScienx manuscripts.
+licence_note: >-
+  The linked Wikipedia articles are available under Wikipedia's stated CC BY-SA terms. GreyScienx
+  stores links and selection notes here, not copied article text. Editors must verify attribution and
+  the live licence before creating any derivative corpus snapshot.
+selection_criteria:
+  - Defines technical terms before relying on them.
+  - Separates description, mechanism, evidence and limitation.
+  - Uses navigable headings and compact explanatory paragraphs.
+  - Covers demographic, economic, institutional and modelling subject matter relevant to the archive.
+  - Serves as a structural reference rather than an authority for GreyScienx claims.
+references:
+  - id: PC01
+    title: Demography
+    url: https://en.wikipedia.org/wiki/Demography
+    use: Definitions, scope and neutral organisation.
+  - id: PC02
+    title: Population ageing
+    url: https://en.wikipedia.org/wiki/Population_ageing
+    use: Mechanism-led demographic explanation.
+  - id: PC03
+    title: Economic growth
+    url: https://en.wikipedia.org/wiki/Economic_growth
+    use: Separation of measures, causes and qualifications.
+  - id: PC04
+    title: Fiscal policy
+    url: https://en.wikipedia.org/wiki/Fiscal_policy
+    use: Policy concepts and competing mechanisms.
+  - id: PC05
+    title: Pension
+    url: https://en.wikipedia.org/wiki/Pension
+    use: Institutional definitions and system distinctions.
+  - id: PC06
+    title: Urban economics
+    url: https://en.wikipedia.org/wiki/Urban_economics
+    use: Linking household, land and city-scale mechanisms.
+  - id: PC07
+    title: Economic model
+    url: https://en.wikipedia.org/wiki/Economic_model
+    use: Model boundaries and abstraction.
+  - id: PC08
+    title: Industrial policy
+    url: https://en.wikipedia.org/wiki/Industrial_policy
+    use: Neutral presentation of policy rationales and objections.
+  - id: PC09
+    title: Intergenerational equity
+    url: https://en.wikipedia.org/wiki/Intergenerational_equity
+    use: Distribution across cohorts and time.
+  - id: PC10
+    title: Economy of South Africa
+    url: https://en.wikipedia.org/wiki/Economy_of_South_Africa
+    use: Geographic and institutional exposition.
+measurable_constraints:
+  required:
+    - Open with the question, scope or answer rather than organisational promotion.
+    - Label modelled outputs as modelled, simulated, estimated or counterfactual.
+    - Carry the principal limitation with every answer-sized claim.
+    - Define abbreviations on first use.
+    - Use headings that describe content rather than rhetorical mood.
+    - Keep citations attached to the statement they support.
+  prohibited:
+    - Treating a scenario as a forecast.
+    - Treating a catalog summary as an extracted finding.
+    - Copying sentences from the reference corpus without quotation and attribution.
+    - Using the reference corpus as evidence for a research claim.
+validation:
+  automated:
+    - Stable claim, assumption, result and model identifiers.
+    - Evidence-status labels and linked limitations.
+    - Machine-readable headings and citation payloads.
+  editorial:
+    - Clarity, proportionality and neutral tone.
+    - Accuracy of paraphrase and source attribution.
+    - Whether necessary technical detail is explained at the reader's level.

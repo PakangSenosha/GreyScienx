@@ -1,0 +1,419 @@
+{
+  "schema_version": "GreyScienxAutomatedPdfRenderAudit 1.0",
+  "generated_at": "2026-09-28T22:05:27.131Z",
+  "scope": "Automated page-level render-integrity check. Every PDF page must rasterise at a valid size. Ink-density observations help identify suspicious blank pages but do not replace human visual review.",
+  "passed": true,
+  "document_count": 29,
+  "page_count": 674,
+  "passed_documents": 29,
+  "failed_documents": 0,
+  "documents": [
+    {
+      "study_id": "GSX:SRD-003",
+      "pdf_path": "public/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow.pdf",
+      "expected_pages": 24,
+      "rendered_pages": 24,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.027683,
+      "maximum_ink_ratio": 0.990415,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-003",
+      "pdf_path": "public/research/population-futures/does-raising-the-retirement-age-actually-work.pdf",
+      "expected_pages": 15,
+      "rendered_pages": 15,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.055241,
+      "maximum_ink_ratio": 0.989878,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:HH-001",
+      "pdf_path": "public/research/household-economics/greyscienx-economics-of-living-together.pdf",
+      "expected_pages": 19,
+      "rendered_pages": 19,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.04714,
+      "maximum_ink_ratio": 0.99265,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-005",
+      "pdf_path": "public/research/population-futures/emergency-ageing-austerity.pdf",
+      "expected_pages": 15,
+      "rendered_pages": 15,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.049733,
+      "maximum_ink_ratio": 0.993777,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-012",
+      "pdf_path": "public/research/population-futures/extreme-fiscal-pressure.pdf",
+      "expected_pages": 29,
+      "rendered_pages": 29,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.036589,
+      "maximum_ink_ratio": 0.993598,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-009",
+      "pdf_path": "public/research/population-futures/how-to-shrink-a-country-without-breaking-it.pdf",
+      "expected_pages": 22,
+      "rendered_pages": 22,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.030634,
+      "maximum_ink_ratio": 0.99172,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-008",
+      "pdf_path": "public/research/population-futures/inheritance-after-retirement.pdf",
+      "expected_pages": 20,
+      "rendered_pages": 20,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.022944,
+      "maximum_ink_ratio": 0.994045,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:WPL-001",
+      "pdf_path": "public/research/wealth-and-place/inherited-geography-racial-property-wealth-dividend.pdf",
+      "expected_pages": 31,
+      "rendered_pages": 31,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.034478,
+      "maximum_ink_ratio": 0.992114,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:AFR-002",
+      "pdf_path": "public/research/african-convergence/johannesburg-as-africas-financial-capital.pdf",
+      "expected_pages": 38,
+      "rendered_pages": 38,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.027272,
+      "maximum_ink_ratio": 0.991398,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:AFR-001",
+      "pdf_path": "public/research/african-convergence/south-africa-in-a-richer-africa.pdf",
+      "expected_pages": 26,
+      "rendered_pages": 26,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.026699,
+      "maximum_ink_ratio": 0.993026,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:IND-005",
+      "pdf_path": "public/research/strategic-industrialisation/the-capital-goods-economy.pdf",
+      "expected_pages": 29,
+      "rendered_pages": 29,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.025912,
+      "maximum_ink_ratio": 0.992489,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:AFR-003",
+      "pdf_path": "public/research/african-convergence/the-factory-for-african-urbanisation.pdf",
+      "expected_pages": 29,
+      "rendered_pages": 29,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.02298,
+      "maximum_ink_ratio": 0.992185,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:HH-002",
+      "pdf_path": "public/research/household-economics/the-first-three-years-advantage.pdf",
+      "expected_pages": 20,
+      "rendered_pages": 20,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.067973,
+      "maximum_ink_ratio": 0.992149,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-007",
+      "pdf_path": "public/research/population-futures/the-hundred-year-life.pdf",
+      "expected_pages": 23,
+      "rendered_pages": 23,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.019224,
+      "maximum_ink_ratio": 0.995082,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:IND-003",
+      "pdf_path": "public/research/strategic-industrialisation/the-manganese-to-battery-economy.pdf",
+      "expected_pages": 28,
+      "rendered_pages": 28,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.036624,
+      "maximum_ink_ratio": 0.993508,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:IND-006",
+      "pdf_path": "public/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund.pdf",
+      "expected_pages": 20,
+      "rendered_pages": 20,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.02965,
+      "maximum_ink_ratio": 0.995082,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:IND-002",
+      "pdf_path": "public/research/strategic-industrialisation/the-platinum-to-hydrogen-economy.pdf",
+      "expected_pages": 29,
+      "rendered_pages": 29,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.054239,
+      "maximum_ink_ratio": 0.993508,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-004",
+      "pdf_path": "public/research/population-futures/the-politics-of-an-ageing-electorate.pdf",
+      "expected_pages": 15,
+      "rendered_pages": 15,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.056457,
+      "maximum_ink_ratio": 0.992918,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-011",
+      "pdf_path": "public/research/population-futures/the-population-system.pdf",
+      "expected_pages": 29,
+      "rendered_pages": 29,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.036016,
+      "maximum_ink_ratio": 0.993741,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-006",
+      "pdf_path": "public/research/population-futures/the-price-of-another-child.pdf",
+      "expected_pages": 19,
+      "rendered_pages": 19,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.067473,
+      "maximum_ink_ratio": 0.993884,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:SRD-004",
+      "pdf_path": "public/research/r350-counterfactual/the-public-capital-multiplier.pdf",
+      "expected_pages": 19,
+      "rendered_pages": 19,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.029346,
+      "maximum_ink_ratio": 0.995082,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:SRD-005",
+      "pdf_path": "public/research/r350-counterfactual/the-r200-billion-factory.pdf",
+      "expected_pages": 21,
+      "rendered_pages": 21,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.032547,
+      "maximum_ink_ratio": 0.995082,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:SRD-001",
+      "pdf_path": "public/research/r350-counterfactual/the-r350-industrialisation-counterfactual.pdf",
+      "expected_pages": 21,
+      "rendered_pages": 21,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.050841,
+      "maximum_ink_ratio": 0.989449,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-010",
+      "pdf_path": "public/research/population-futures/the-scarce-worker-economy.pdf",
+      "expected_pages": 23,
+      "rendered_pages": 23,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.038288,
+      "maximum_ink_ratio": 0.992507,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:IND-001",
+      "pdf_path": "public/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex.pdf",
+      "expected_pages": 25,
+      "rendered_pages": 25,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.048892,
+      "maximum_ink_ratio": 0.989521,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:IND-004",
+      "pdf_path": "public/research/strategic-industrialisation/the-vanadium-grid-storage-economy.pdf",
+      "expected_pages": 29,
+      "rendered_pages": 29,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.072837,
+      "maximum_ink_ratio": 0.993508,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:SRD-002",
+      "pdf_path": "public/research/r350-counterfactual/the-welfare-cost-of-not-paying-the-grant.pdf",
+      "expected_pages": 27,
+      "rendered_pages": 27,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.017043,
+      "maximum_ink_ratio": 0.990951,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-002",
+      "pdf_path": "public/research/population-futures/todays-unemployment-is-tomorrows-pension-crisis.pdf",
+      "expected_pages": 15,
+      "rendered_pages": 15,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.065237,
+      "maximum_ink_ratio": 0.991327,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    },
+    {
+      "study_id": "GSX:POP-001",
+      "pdf_path": "public/research/population-futures/when-retirement-becomes-impossible.pdf",
+      "expected_pages": 14,
+      "rendered_pages": 14,
+      "rendered_dimensions": [
+        "199x281"
+      ],
+      "minimum_ink_ratio": 0.06994,
+      "maximum_ink_ratio": 0.991184,
+      "near_blank_pages": [],
+      "passed": true,
+      "failures": []
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,11 @@
+cohortId,label,worlds,medianOfWorldMedianPnlCents,p05WorldMedianPnlCents,p95WorldMedianPnlCents,medianRuinRate,medianAheadRate
+small_frequent,"Small bets, frequent",1000,-109935,-138090,-81455,0,0.25
+small_infrequent,"Small bets, infrequent",1000,-20983,-25824,-16194,0,0.2
+medium_frequent,"Medium bets, frequent",1000,-393670,-449837,-320958,0,0.2
+medium_infrequent,"Medium bets, infrequent",1000,-84129,-108786,-60688,0,0.26
+large_frequent,"Large bets, frequent",1000,-966210,-989609,-870743,0.22,0.24
+large_infrequent,"Large bets, infrequent",1000,-172792,-228738,-116091,0,0.28
+loss_chasing,Loss-chasing,1000,-617647,-736252,-464318,0.02,0.26
+strict_limits,Strict limits,1000,-123608,-155807,-91596,0,0.24
+variable_staking,Variable / random staking,1000,-399203,-483104,-314519,0,0.22
+random_control,Random control,1000,-254334,-331539,-177321,0,0.26

@@ -1,0 +1,486 @@
+{
+  "study": "The Hundred-Year Life",
+  "prices": "constant 2026 rand",
+  "core_assumptions": {
+    "start_monthly_salary": 30000,
+    "real_wage_growth": 0.012,
+    "tax_share": 0.25,
+    "real_discount_rate": 0.03,
+    "pension_contribution": 0.15,
+    "pension_real_return": 0.04
+  },
+  "designs": [
+    {
+      "key": "conventional",
+      "name": "Conventional three-stage",
+      "stages": [
+        {
+          "start": 20,
+          "end": 22,
+          "kind": "Education",
+          "label": "University",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 23,
+          "end": 64,
+          "kind": "Full work",
+          "label": "One career",
+          "work_fraction": 1.0
+        },
+        {
+          "start": 65,
+          "end": 120,
+          "kind": "Retirement",
+          "label": "Full retirement",
+          "work_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "key": "long_career",
+      "name": "Long career",
+      "stages": [
+        {
+          "start": 20,
+          "end": 22,
+          "kind": "Education",
+          "label": "University",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 23,
+          "end": 44,
+          "kind": "Full work",
+          "label": "Career 1",
+          "work_fraction": 1.0
+        },
+        {
+          "start": 45,
+          "end": 45,
+          "kind": "Education",
+          "label": "Retrain",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 46,
+          "end": 69,
+          "kind": "Full work",
+          "label": "Career 2",
+          "work_fraction": 1.0
+        },
+        {
+          "start": 70,
+          "end": 70,
+          "kind": "Education",
+          "label": "Retrain",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 71,
+          "end": 84,
+          "kind": "Full work",
+          "label": "Career 3",
+          "work_fraction": 1.0
+        },
+        {
+          "start": 85,
+          "end": 94,
+          "kind": "Phased work",
+          "label": "Half-time",
+          "work_fraction": 0.5
+        },
+        {
+          "start": 95,
+          "end": 120,
+          "kind": "Retirement",
+          "label": "Retirement",
+          "work_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "key": "multi_stage",
+      "name": "Multi-stage life",
+      "stages": [
+        {
+          "start": 20,
+          "end": 24,
+          "kind": "Education",
+          "label": "University",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 25,
+          "end": 39,
+          "kind": "Full work",
+          "label": "Career 1",
+          "work_fraction": 1.0
+        },
+        {
+          "start": 40,
+          "end": 42,
+          "kind": "Education",
+          "label": "University at 40",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 43,
+          "end": 59,
+          "kind": "Full work",
+          "label": "Career 2",
+          "work_fraction": 1.0
+        },
+        {
+          "start": 60,
+          "end": 62,
+          "kind": "Break",
+          "label": "Care / reset",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 63,
+          "end": 64,
+          "kind": "Education",
+          "label": "University at 60",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 65,
+          "end": 79,
+          "kind": "Full work",
+          "label": "Career 3",
+          "work_fraction": 1.0
+        },
+        {
+          "start": 80,
+          "end": 81,
+          "kind": "Education",
+          "label": "University at 80",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 82,
+          "end": 89,
+          "kind": "Full work",
+          "label": "Career 4",
+          "work_fraction": 0.8
+        },
+        {
+          "start": 90,
+          "end": 99,
+          "kind": "Phased work",
+          "label": "Portfolio work",
+          "work_fraction": 0.4
+        },
+        {
+          "start": 100,
+          "end": 120,
+          "kind": "Retirement",
+          "label": "Late retirement",
+          "work_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "key": "portfolio",
+      "name": "Portfolio life",
+      "stages": [
+        {
+          "start": 20,
+          "end": 22,
+          "kind": "Education",
+          "label": "University",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 23,
+          "end": 34,
+          "kind": "Full work",
+          "label": "Career 1",
+          "work_fraction": 1.0
+        },
+        {
+          "start": 35,
+          "end": 37,
+          "kind": "Break",
+          "label": "Family / travel",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 38,
+          "end": 54,
+          "kind": "Full work",
+          "label": "Career 2",
+          "work_fraction": 1.0
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "kind": "Education",
+          "label": "Retrain",
+          "work_fraction": 0.0
+        },
+        {
+          "start": 57,
+          "end": 74,
+          "kind": "Full work",
+          "label": "Career 3",
+          "work_fraction": 1.0
+        },
+        {
+          "start": 75,
+          "end": 99,
+          "kind": "Phased work",
+          "label": "Flexible work",
+          "work_fraction": 0.5
+        },
+        {
+          "start": 100,
+          "end": 120,
+          "kind": "Retirement",
+          "label": "Late retirement",
+          "work_fraction": 0.0
+        }
+      ]
+    }
+  ],
+  "life_accounts": {
+    "85": {
+      "conventional": {
+        "death_age": 85,
+        "work_equivalent_years": 42.0,
+        "education_years": 3.0,
+        "break_years": 0.0,
+        "retirement_years": 20.0,
+        "pv_earnings": 8994711.036776608,
+        "pv_taxes": 2248677.759194152,
+        "pv_public_cost": 1177459.6267744338,
+        "net_fiscal": 1071218.1324197182
+      },
+      "long_career": {
+        "death_age": 85,
+        "work_equivalent_years": 60.0,
+        "education_years": 5.0,
+        "break_years": 0.0,
+        "retirement_years": 0.0,
+        "pv_earnings": 12283652.19693385,
+        "pv_taxes": 3070913.0492334627,
+        "pv_public_cost": 993243.0854087786,
+        "net_fiscal": 2077669.963824684
+      },
+      "multi_stage": {
+        "death_age": 85,
+        "work_equivalent_years": 49.39999999999999,
+        "education_years": 12.0,
+        "break_years": 3.0,
+        "retirement_years": 0.0,
+        "pv_earnings": 10438079.906825876,
+        "pv_taxes": 2609519.976706469,
+        "pv_public_cost": 1268409.5765793081,
+        "net_fiscal": 1341110.4001271608
+      },
+      "portfolio": {
+        "death_age": 85,
+        "work_equivalent_years": 52.0,
+        "education_years": 5.0,
+        "break_years": 3.0,
+        "retirement_years": 0.0,
+        "pv_earnings": 10371856.661170138,
+        "pv_taxes": 2592964.1652925345,
+        "pv_public_cost": 1026522.5299076712,
+        "net_fiscal": 1566441.6353848632
+      }
+    },
+    "100": {
+      "conventional": {
+        "death_age": 100,
+        "work_equivalent_years": 42.0,
+        "education_years": 3.0,
+        "break_years": 0.0,
+        "retirement_years": 35.0,
+        "pv_earnings": 8994711.036776608,
+        "pv_taxes": 2248677.759194152,
+        "pv_public_cost": 1326885.1978524555,
+        "net_fiscal": 921792.5613416964
+      },
+      "long_career": {
+        "death_age": 100,
+        "work_equivalent_years": 65.0,
+        "education_years": 5.0,
+        "break_years": 0.0,
+        "retirement_years": 5.0,
+        "pv_earnings": 12709507.5205253,
+        "pv_taxes": 3177376.880131325,
+        "pv_public_cost": 1068057.2940175359,
+        "net_fiscal": 2109319.586113789
+      },
+      "multi_stage": {
+        "death_age": 100,
+        "work_equivalent_years": 57.39999999999996,
+        "education_years": 12.0,
+        "break_years": 3.0,
+        "retirement_years": 0.0,
+        "pv_earnings": 11179930.129314343,
+        "pv_taxes": 2794982.5323285856,
+        "pv_public_cost": 1313417.2787112421,
+        "net_fiscal": 1481565.2536173435
+      },
+      "portfolio": {
+        "death_age": 100,
+        "work_equivalent_years": 59.5,
+        "education_years": 5.0,
+        "break_years": 3.0,
+        "retirement_years": 0.0,
+        "pv_earnings": 10838065.629316548,
+        "pv_taxes": 2709516.407329137,
+        "pv_public_cost": 1071530.2320396055,
+        "net_fiscal": 1637986.1752895315
+      }
+    },
+    "120": {
+      "conventional": {
+        "death_age": 120,
+        "work_equivalent_years": 42.0,
+        "education_years": 3.0,
+        "break_years": 0.0,
+        "retirement_years": 55.0,
+        "pv_earnings": 8994711.036776608,
+        "pv_taxes": 2248677.759194152,
+        "pv_public_cost": 1446412.348242303,
+        "net_fiscal": 802265.4109518491
+      },
+      "long_career": {
+        "death_age": 120,
+        "work_equivalent_years": 65.0,
+        "education_years": 5.0,
+        "break_years": 0.0,
+        "retirement_years": 25.0,
+        "pv_earnings": 12709507.5205253,
+        "pv_taxes": 3177376.880131325,
+        "pv_public_cost": 1187584.4444073832,
+        "net_fiscal": 1989792.435723942
+      },
+      "multi_stage": {
+        "death_age": 120,
+        "work_equivalent_years": 57.39999999999996,
+        "education_years": 12.0,
+        "break_years": 3.0,
+        "retirement_years": 20.0,
+        "pv_earnings": 11179930.129314343,
+        "pv_taxes": 2794982.5323285856,
+        "pv_public_cost": 1432944.4291010895,
+        "net_fiscal": 1362038.1032274961
+      },
+      "portfolio": {
+        "death_age": 120,
+        "work_equivalent_years": 59.5,
+        "education_years": 5.0,
+        "break_years": 3.0,
+        "retirement_years": 20.0,
+        "pv_earnings": 10838065.629316548,
+        "pv_taxes": 2709516.407329137,
+        "pv_public_cost": 1191057.3824294528,
+        "net_fiscal": 1518459.0248996841
+      }
+    }
+  },
+  "pension_funded_ratios": {
+    "65": {
+      "85": 1.0303774523080103,
+      "100": 0.7134200976847912,
+      "120": 0.5725393965367904
+    },
+    "75": {
+      "85": 2.6459001379510787,
+      "100": 1.2961507742727558,
+      "120": 0.9205240619656081
+    },
+    "85": {
+      "85": null,
+      "100": 2.6874672388039946,
+      "120": 1.493111223117837
+    },
+    "95": {
+      "85": null,
+      "100": 9.73438322078623,
+      "120": 2.560170371808788
+    }
+  },
+  "retraining": [
+    {
+      "training_age": 40,
+      "work_end_age": 95,
+      "total_cost": 799697.7237044155,
+      "benefit": 2447736.7515748995,
+      "net_value": 1648039.0278704842,
+      "payback_years": 12
+    },
+    {
+      "training_age": 60,
+      "work_end_age": 95,
+      "total_cost": 950499.5230166959,
+      "benefit": 2292950.141971565,
+      "net_value": 1342450.618954869,
+      "payback_years": 11
+    },
+    {
+      "training_age": 80,
+      "work_end_age": 95,
+      "total_cost": 1141932.5089725568,
+      "benefit": 1254995.4494516512,
+      "net_value": 113062.9404790944,
+      "payback_years": 13
+    }
+  ],
+  "mortgages": [
+    {
+      "term_years": 20,
+      "monthly_payment": 9395.347431326087,
+      "total_interest": 634883.3835182609,
+      "balance_age_65": 0.0,
+      "balance_age_85": 0.0
+    },
+    {
+      "term_years": 40,
+      "monthly_payment": 6275.733564341048,
+      "total_interest": 1392352.110883703,
+      "balance_age_65": 0.0,
+      "balance_age_85": 0.0
+    },
+    {
+      "term_years": 60,
+      "monthly_payment": 5386.649088998903,
+      "total_interest": 2258387.34407921,
+      "balance_age_65": 928797.1081391461,
+      "balance_age_85": 0.0
+    }
+  ],
+  "marriage_survival_examples": {
+    "20": 0.7241527808987586,
+    "40": 0.5688124513331385,
+    "60": 0.44679467278997886,
+    "80": 0.3509513182519784,
+    "90": 0.31104005778916205
+  },
+  "adult_generations": {
+    "85": {
+      "25": 3,
+      "32": 3
+    },
+    "100": {
+      "25": 4,
+      "32": 3
+    },
+    "120": {
+      "25": 5,
+      "32": 4
+    }
+  },
+  "warnings": [
+    "Living to 100 or 120 is a hypothetical scenario, not a South African forecast.",
+    "Marriage survival is a mechanical hazard illustration, not a prediction.",
+    "The mortgage uses a constant real rate and excludes fees, taxes, maintenance and default.",
+    "The pension matrix assumes uninterrupted contributions and deterministic death ages."
+  ]
+}

@@ -1,0 +1,1386 @@
+ SOUTH AFRICA Housing Market Report - 2024
+                                                                Contents
+                                                                1. How big is the market?............................….. 2
+                                                                2. Market overview by market segment…..…… 3
+                                                                3. Government-subsidised properties ..……..… 4
+                                                                4. New transactions………………………………….. 5
+                                                                5. Resale transactions ………………..……….……. 6
+                                                                6. First-time homeowners …………………....…….7
+                                                                7. Mortgage market…………………....…..….……..8
+                                                                8. Bonded transactions by market segment……9
+                                                                9. Down-market mortgage lending……...……. 10
+                                                                10. Freehold vs. sectional title properties ..…… 11
+                                                                11. Comparing metros……………………….....……12
+                                                                12. Comparing provinces ……………..…….……... 13
+Executive Summary                                               13. Implications for affordable housing..…….... 14
+                                                                14. Report methodology………………………….… 15
+Based on title deeds data as of 31 December 2023, this
+report offers an analysis South Africa’s residential            About this report
+property market with a particular focus on the bottom of
+the property ladder, including affordable housing and           This report utilises deeds registry data as of 31
+houses delivered through South Africa’s national                December 2023 which was obtained from Lightstone
+subsidised housing programme. Market segmentation by            Pty Ltd. in March 2024. Because of this, the report only
+property value enables a more nuanced view of housing           covers properties which appear on the deeds registry
+                                                                (the formal market) – it does not include backyard units
+stock and performance in the low value market. Indicators
+                                                                and informal settlement dwellings. According to the
+also reveal trends in access to finance by low income           2023 General Household Survey, 12.2% of South African
+households and mortgage lending activity at the bottom          households live in informal dwellings.
+end of the housing market.
+                                                                The 2022 Census indicates that there are now 17.8
+The data reflects that, after two years of increased            million households in South Africa, of which 23.2% live
+market activity post-COVID, transactions in 2023 took a         in rented dwellings. Given that more than one family
+knock, with 20% fewer transactions taking place and 26%         might live in a rental property with a single title deed—
+fewer bonds issued than in 2022. This is likely due to rising   for example, a high-rise building—the data in this report
+                                                                also does not provide a clear picture of the
+interest rates which were sustained into 2024.
+                                                                approximately 4.1 million households who stay in rented
+                                                                dwellings.
+In 2023, South Africa’s residential property market
+comprised 6.91 million properties and was valued at             This report uses seven market segments to provide a
+R6.789 trillion. Importantly, 76% of those properties were      more nuanced picture of the overall residential property
+valued under R1.2 million while two-thirds were valued at       market, with particular attention to lower value
+R900 000 or less. The stock of low-value residential            properties. Valuations are provided by Lightstone and
+properties is largely due to government’s massive public        are not based on municipal valuation rolls. See page 15
+investment in housing over the years. At present 32% of         for further information on the methodology.
+residential properties were subsidised by government,
+                                                                This report was written by Alison Tshangana. To access
+comprising 2.183 million units. Given that this report is       this report, as well as online dashboards, visit: CAHF’s
+based on deeds data, it does not include the large number       Citymark page:
+of houses that are part of the title deed backlog. If these     http://housingfinanceafrica.org/projects/citymark-
+properties were also included, the share of government-         analysis-of-residential-property-markets-in-south-
+subsidised properties in the overall residential market         africas-eight-metros/
+would be 43%.
+
+
+
+                                                                                                                             1
+  1. How big is the market?
+        Size and distribution of the residential property market
+At the end of 2023, the total value of the residential property market in South Africa reached R6.789 trillion, comprising
+over 6.91 million properties. Residential properties make up 89.3% of total properties in the country, by volume.
+Compared to 2022, the total residential property portfolio increased nominally by just 2.17% in value, compared to a
+larger 3.78% increase from 2021 to 2022 as the economy emerged from COVID.
+
+Residential property is the most substantial component of household asset wealth for many South Africans. These
+properties range from sectional title and freehold properties, to residential dwellings in private estates; they include
+government-subsidised properties (GSP), homes occupied by their owners or rented to others, and holiday homes; and
+they span rural areas, mining towns, small towns, secondary or intermediary cities, and metro municipalities.
+
+Urbanisation plays a pivotal role in driving demand for housing in urban areas. According to UN Habitat (World Cities
+Report 2022), South Africa is one of the most urbanised countries in Africa, with approximately 67% of the population
+living in urban areas in 2020, rising to 72% by 2030. According to the 2022 Census, 40% of the population live in the
+metros. As a consequence, 57% of residential properties country-wide are located in the eight metros, constituting 68%
+of the total value of the residential market. South Africa’s annual average rate of change of the urban population
+dropped from to 1.97% for 2015-2020, to 1.72% for 2020-2025, and will continue to slowly decline to 2035 (UN-Habitat).
+This would suggest that the increased demand for housing in urban areas will continue to increase, but at a slower rate
+going forward.
+                                                                                Looking at the provincial distribution of residential properties,
+Provincial share of total value of residential property                         the top pie graph shows that Gauteng and the Western Cape
+market, 2023
+Total value of SA residential property market: R6.789 trillion                  contain the lion’s share of the total value of the national
+                                                                                market (38% and 30% respectively). Cape Town alone
+                                                                                accounts for one fifth of the total value of South Africa's
+                          Gauteng                Northern Cape
+                        R2.558 trillion               1%
+                                                                                residential property market (20.7%) while Johannesburg
+                            38%                     Limpopo                     contains another 16.3%.
+                                                       2%
+                                                          North West
+                                                               3%
+                                                     Free State                 Our analysis of the residential market divides the properties
+                                                         3%
+    Western Cape                                                                into seven market segments by value, with the focus on the
+    R2.014 trillion            KwaZulu-Natal       Mpumalanga
+        30%                     R845 billion            4% Eastern Cape         lower end of the property ladder:
+                                   13%                        R435 billion
+                                                                 6%
+                                                                                • Entry market—properties worth R300 000 or less
+  Source: CAHF's Citymark, using deeds registry data supplied by Lightstone     • Affordable market—R300 000 - R600 000
+  Pty. as at 31 December 2023 (sourced March 2024).
+                                                                                • Conventional market —R600 000 - R900 000
+                                                                                • High-end market—R900 000 - R1.2 million
+  Number of residential properties by market segment, 2023
+                                                                                • Lower luxury market—R1.2 million – R1.5 million
+  Total number of residential properties: 6 910 933                             • Mid luxury market—R1.5 million – R3million
+                         360 387                                                • Top luxury market—R3 million and above
+                           5%
+        886 714
+         13%                                      1 986 940                     At the end of 2023, the majority of residential properties in
+                                                     29%
+                                                                                South Africa (nearly 66%) were valued at R900 000 or less
+  423 812                                                                       (bottom pie graph). Of the total residential properties, 29%
+    6%
+                                                                                were entry-level homes valued less than R300 000 (1.987
+                                                                                million residential properties). The majority of houses in the
+  654 306
+    9%                                                                          entry-level market (69%) are government-subsidised homes,
+                                                                                demonstrating the enormous impact of public investment in
+                                                                                the sector.
+                                               1 443 818
+            1 154 956                             21%
+               17%
+                                                                                Within the housing sector, definitions of ‘affordable housing’
+            Under R300 000
+            R300 000 - R600 000
+                                                                                vary amongst developers, lenders and government. However
+            R600 000 - R900 000                                                 regardless of the precise threshold for ‘affordable’, its clear
+            R900 000 - R1.2m                                                    that most of the residential property market—in volume—is at
+            R1.2m - R1.5m
+            R1.5m - R3m
+                                                                                the lower end. Approximately 76% of all residential properties
+            Over R3m                                                            are valued under R1.2 million.
+    Source: CAHF's Citymark, using deeds registry data supplied by Lightstone
+    Pty. as at 31 December 2023 (sourced March 2024).
+
+
+
+
+                                                                                                                                                    2
+2. Market overview
+   Number of residential properties by market segment
+
+As shown in the top graph, the
+                                             Residential properties by market segment, 2019-2023
+distribution of residential properties
+                                                                                           7 000 000
+across market segments has not                                                                                   3.7%       4.2%             4.8%             5.1%          5.2%
+
+changed significantly over the last five                                                  6 000 000             10.6%       11.7%            12.4%            12.9%       12.8%
+
+
+
+
+                                             Number of residential properties
+                                                                                                                 5.3%                                                                  Over R3m
+years. It is noted that the share of total                                                                       8.5%
+                                                                                                                            5.6%             6.1%             6.2%          6.1%
+                                                                                                                                                                                       R1.5m - R3m
+                                                                                          5 000 000                         8.9%             9.0%             9.0%          9.5%
+houses that are valued over R1.2 million                                                                                                                                               R1.2m - R1.5m
+                                                                                                                15.9%                                                                  R900 000 - R1.2m
+has grown from 19.6% in 2019 to 24.1%                                                     4 000 000                        16.7%             16.3%            16.7%         16.7%      R600 000 - R900 000
+in 2023. This is likely due to property                                                                                                                                                R300 000 - R600 000
+                                                                                           3 000 000            23.6%                                                                  Under R300 000
+                                                                                                                           22.4%
+appreciation—these figures are in                                                                                                            21.6%            20.8%       20.9%
+
+nominal terms and do not account for                                                      2 000 000
+inflation. Thus it is expected that more                                                   1 000 000            32.4%      30.5%             29.8%            29.4%       28.8%
+properties would move into the higher
+market segments over time.                                                                                0
+                                                                                                                 2019      2020              2021             2022          2023
+
+The middle graph takes a closer look at                  Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023
+                                                         (sourced March 2024).
+market segmentation by separating
+residential properties in metros from
+those outside metros (i.e. in the local           Number of residential properties by market segment
+                                                  for metros and non-metros, 2023
+municipalities). Despite 49% of all
+                                                                                                         1 400 000   43%
+government-subsidised housing being
+                                                                                residential properties
+
+
+
+
+                                                                                                         1 200 000                                                                  Under R300 000
+located in the metros, only 18% of
+                                                                                     Number of
+
+
+
+
+                                                                                                                                                                                    R300 000 - R600 000
+properties in metros are valued less than                                                                1 000 000                                      23%
+                                                                                                                                                                                    R600 000 - R900 000
+R300 000, compared to 43% outside the                                                                     800 000                                 18%     18%
+                                                                                                                                                                                    R900 000 - R1.2m
+metros in local municipalities. The                                                                                                                                   16%           R1.2m - R1.5m
+                                                                                                          600 000       18%                                                         R1.5m - R3m
+metros also have a larger portion of                                                                                       15%
+                                                                                                                                                                                    Over R3m
+                                                                                                                                                               10%
+properties in the so-called affordable                                                                    400 000
+                                                                                                                                        9%                           7%     7%
+                                                                                                                             8%
+segment between R300 000 and                                                                              200 000                  5%
+                                                                                                                                             3%
+R900 000 (23%).                                                                                                 0
+                                                                                                                        Outside metros                  Eight metros
+The different profiles of the residential
+                                                                                     Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December
+property market between metros and                                                   2023 (sourced March 2024).
+non-metros is to be expected. Local
+municipalities contain the intermediate
+                                                               Number of residential properties by province by market segment, 2023
+cities which are growing and serve as
+                                                                                        2 500 000
+important economic nodes. However
+                                                  Number of residential properties
+
+
+
+
+                                                                                                                                                                            Under R300 000
+the rural areas—with more low value                                                     2 000 000                                                                           R300 000 - R600 000
+freehold properties—would also fall                                                                                                                                         R600 000 - R900 000
+                                                                                                                                                                            R900 000 - R1.2m
+within the non-metro, local municipality                                                 1 500 000                                                                          R1.2m - R1.5m
+areas.                                                                                                                                                                      R1.5m - R3m
+                                                                                                                                                                            Over R3m
+                                                                                        1 000 000
+As shown in the bottom graph, Gauteng
+and Western Cape contain larger                                                                500 000
+numbers of high-end properties valued
+over R1.5 million. In fact, in 2023 the                                                                   0
+
+number of residential properties in
+Gauteng which are valued below
+R900 000 was greater than all the
+properties in the Western Cape               Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December
+                                             2023 (sourced March 2024).
+combined.
+
+
+
+
+                                                                                                                                                                                                             3
+3. Number of government-subsidised properties
+                                     As share of each market segment
+
+Total residential properties: Metro and                                                 Total residential properties: GSP and                 Number of government-subsidised properties
+non-metro, 2023                                                                         non-GSP, 2023                                         by market segment, 2023
+Total residential properties: 6 910 933                                                 Total residential properties : 6 910 933              Total number of GSP: 2 183 183
+
+                                                                                                                                                                      R600 000 - R900 000
+                                                                                                                            Of which
+                                                                                       Of which                                                R300 000 - R600 000       164 014 ; 7%
+    Of which                                                                                                            1 077 928 (49%)
+                                                                                    2 831 329 (60%)                                               635 153; 29%
+ 1 077 928 (28%)                                                                                                            in metros
+                                                                                       in metros
+     are GSP
+                                                                                                                                                                                R900 000 - R1.2m
+                                                              Non-metro                                            GSP
+                                                                                                                                                                                   15 105 ; 1%
+                                              Metros           3 001 676                                        2 183 183
+                                             3 909 257            43%                                              32%
+                                                57%                                                   Non-subsidy
+                                                                                                       4 727 750                                  Under R300 000
+                                                                                                                                                                                   Over R1.2m
+                                                                                                          68%                                                                      2 718 ; 0.5%
+                                                                         Of which                                                                 1 376 193 ; 63%
+                                                                      1 105 255 (37%)
+                                                                          are GSP
+
+
+ Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023 (sourced March 2024).
+
+
+ Government-subsidised housing accounts for a massive portion of South Africa’s housing stock: in 2023, GSP made
+ up 32% of residential properties in South Africa, totalling 2.18 million units. It should be noted that this figure
+ differs from the total number of houses delivered by government due to the fact that the figures in this report are
+ taken from the Deeds Office and thus only reflect those units where title deeds were handed over to the beneficiary. If
+ all GSP units were included, then GSP would comprise 43% of total residential properties in the country.
+
+ Of the total GSP, 49% are found in the eight metros (middle pie graph). Within the metros, 28% of residential
+ properties were subsidised by government, while in the local municipalities GSP make up 37% of houses (left pie
+ graph).
+
+ Over time, GSP have appreciated and shifted into higher market segments. As shown in the right-hand pie graph, the
+ bulk of GSP (63%) were in the entry-level market valued under R300 000, however a sizable portion (29%) were in the
+ affordable market between R300 000 and R600 000, and a further 7% were in the conventional market (R600 000 -
+ R900 000). A small slice (1.5%) were valued over R900 000, showing the potential appreciation of GSP.
+
+ The majority of this public housing investment has been in Gauteng and the Western Cape, which contain 35% and
+ 18% of total GSP respectively. In the provinces with smaller populations, government investment is responsible for a
+ substantial portion of today’s residential property market. In the Free State and Northern Cape, GSP make up nearly
+ 50% of all residential units; KZN is the province with the smallest portion of GSP (25%) which is still sizable.
+
+           GSP vs. non GSP by market segment, 2023                                                                                               As shown in the bottom graph,
+                                     2 000 000
+                                                                                                                                                 government’s housing
+                                                                                              Government-subsidised
+                                                   610 747                                                                                       programme has played a massive
+  Number of residential properties
+
+
+
+
+                                                   30.7%                                      Non-subsidy
+                                     1 500 000
+                                                                                                                                                 role in shaping the supply and
+                                                                                                                                                 segmentation of the market. The
+                                                                  818 665                                                                        availability of stock in the entry-
+                                     1 000 000                     56.7%
+                                                                                                                                                 level market is predominantly
+                                                   1376 193                    990 942
+                                                    69.3%                       85.8%                                                            attributable to public investment:
+                                      500 000                                                                          885 848
+                                                                  625 153                     639 201                  99.9%                     69.3% of units valued under R300
+                                                                  43.3%                        97.7%       421 993                  360 354
+                                                                               164 014                     99.6%                     100%        000 were GSP. In the affordable
+                                            0                                   14.2%
+                                                                                                                                                 market (R300 000 – R600 000),
+                                                 Under R300 R300 000 - R600 000 - R900 000 -               R1.2m -    R1.5m -     Over R3m
+                                                    000     R600 000 R900 000       R1.2m                  R1.5m       R3m                       43.3% of the residential
+                                                                                          Market segment
+                                                                                                                                                 properties were government-
+                                                                                                                                                 subsidised.
+   Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023 (sourced March 2024).
+
+
+
+
+                                                                                                                                                                                                   4
+4. Residential market activity in South Africa
+                          Market for new build
+
+Due to a number of factors, including the significant impact of government housing programmes, the new and resale
+markets behave quite differently, and therefore are considered separately in this report. New residential transactions
+on the deeds registry serve as a proxy for new construction and include houses that were built by a private developer,
+as well as units that were built through government programmes and transferred to beneficiaries.
+Nationally, the new build market is relatively
+                                                                                                               New transactions of residential properties by market segment, 2019-2023
+small: in 2023, there were 49 893 new
+                                                                                                                                            70 000
+transactions, constituting one quarter of
+                                                                                                                                                                                                         3 894
+total new and resale transactions.                                                                                                          60 000                                          3 563
+                                                                                                                                                                                                         9 300
+
+
+
+
+                                                                                                               Number of new transactions
+                                                                                                                                                               2 399
+                                                                                                                                                                                            8 545
+                                                                                                                                            50 000             6 943        2 128                        4 174
+As SA began its recovery from COVID,                                                                                                                           3 023        5 577           4 189                    3 460
+                                                                                                                                                                                                         6 018
+construction activity and new registrations                                                                                                 40 000
+                                                                                                                                                               4 678        2 634           5 656                     7 437             Over R3m
+                                                                                                                                                                            4 861                                    3 018              R1.5m - R3m
+rebounded in 2021 and 2022 (top graph).                                                                                                                      12 382                                      15 455      5 008              R1.2m - R1.5m
+                                                                                                                                                                                            15 878
+However we have seen a steep 24% drop in                                                                                                    30 000                          13 260                                                      R900 000 - R1.2m
+                                                                                                                                                                                                                     10 233
+new transactions in 2023—approximately                                                                                                                         9 057                                     8 371
+                                                                                                                                                                                                                                        R600 000 - R900 000
+                                                                                                                                            20 000                          6 536           7 601                                       R300 000 - R600 000
+15 600 fewer new transactions than in 2022.                                                                                                                                                                          6 086
+                                                                                                                                                                                                                                        Under R300 000
+The drop in new transactions was felt across                                                                                                10 000           18 599         16 806       16 469          18 267
+                                                                                                                                                                                                                     14 651
+all market segments.
+                                                                                                                                                  -
+                                                                                                                                                               2019         2020            2021         2022        2023
+In 2023, more than half of total new                                                                            Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023
+transactions (54%) were for residential                                                                         (sourced March 2024).
+
+properties valued R900 000 or less. The great
+majority of new transactions at the bottom                                           New transactions: GSP vs. non-GSP, 2014-2023
+                                                                                                                             70 000
+of the property ladder was due to
+                                                                                  Number of new transactions
+
+
+
+
+                                                                                                                          60 000
+government building. Of the 14 651 new                                                                                                                                                                                                 19 915
+                                                                                                                                                                 20 893                                                       20 498
+transactions in the entry-level market, 83%                                                                                50 000                     18 253               19 881    26 472     30 150
+                                                                                                                                                                                                          21 414
+were government-subsidised.                                                                                               40 000                                                                                   18 806                       15 908
+
+                                                                                                                            30 000
+As shown in the middle graph, in 2023,                                                                                                                                                                                        41 403
+                                                                                                                                                                                                                                       45 564
+                                                                                                                          20 000                      39 696     40 807    39 310    36 804     35 441    35 667
+15 908 GSP were newly registered at the                                                                                                                                                                            32 996                       33 985
+                                                                                                                            10 000
+Deeds Office in 2023. In total, 32% of all new
+transactions were for government-subsidised                                                                                                  -
+                                                                                                                                                      2014       2015      2016       2017      2018      2019     2020       2021     2022     2023
+properties. Again, this data only includes
+                                                                                                                                                                                            Non-GSP        GSP
+RDP houses where beneficiaries received
+                                                                                                               Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023
+their title deed. Actual delivery could be                                                                     (sourced March 2024).
+higher, with the difference due to delays in
+transferring title on houses which have been
+built and handed over to beneficiaries.
+The distribution of new transactions in the country is quite skewed geographically. As shown in the bottom graph,
+the largest portion of new registrations are taking place in Gauteng and the Western Cape, although both were
+impacted by the overall decline of new transactions in 2023. Of all new transactions in 2023, 56% were in the eight
+metros.
+ New transactions by province, 2012-2023
+                                35000
+   Number of new transactions
+
+
+
+
+                                30000                                                                                                                                                                               Gauteng
+                                                                                                                                                                                                                    Western Cape
+                                25000                                                                                                                                                                               KwaZulu-Natal
+                                                                                                                                                                                                                    Limpopo
+                                20000                                                                                                                                                                               Eastern Cape
+                                                                                                                                                                                                                    North West
+                                15000                                                                                                                                                                               Mpumalanga
+                                                                                                                                                                                                                    Free State
+                                10000
+
+                                 5000
+
+                                   0
+                                        2012   2013   2014   2015   2016   2017                      2018                                        2019      2020           2021       2022       2023
+
+Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023 (sourced March 2024).
+
+
+
+
+                                                                                                                                                                                                                                                              5
+5. Residential market activity in South Africa
+     Resale market
+
+Similar to the decline in new transactions in       Resale transactions of residential properties by market segment, 2019-2023
+                                                                                        200 000
+2023, the resale market also experienced a                                                                                         20 594
+notable reduction in market activity in 2023.                                                                                                   21 209
+
+
+
+
+                                                     Number of resale transactions
+As can be seen in the top graph, resale activity                                        150 000       9 912                        55 496
+                                                                                                                                                               17 411
+has been declining since 2021. The total                                                                              10 606                    52 973                            Over R3m
+                                                                                                      34 261                                                                      R1.5m - R3m
+number of resale transactions dropped by 19%                                                                          36 219                                   40 903             R1.2m - R1.5m
+                                                                                                                                   23 405
+to 150 738 in 2023—approximately 35 000                                                 100 000       17 076                                    21 721                            R900 000 - R1.2m
+                                                                                                                      16 840                                                      R600 000 - R900 000
+fewer resale transactions compared to the                                                             23 588                       29 075
+                                                                                                                                                25 712
+                                                                                                                                                               17 379
+                                                                                                                                                                                  R300 000 - R600 000
+                                                                                                                      21 849
+previous year. The decline was felt in all                                                                                                                     21 848             Under R300 000
+                                                                                         50 000       35 526                       37 013
+market segments.                                                                                                      30 951
+                                                                                                                                                34 613
+                                                                                                                                                               27 821
+                                                                                                      24 622                       21 795       19 240
+                                                                                                                      18 551                                   16 492
+In 2023, 35% of resale transactions were for                                                          10 157                       10 032        9 729
+                                                                                                                       7 517                                    8 884
+                                                                                              -
+residential properties valued at R900 000 or                                                          2019            2020         2021         2022           2023
+below. 39% were for higher value properties          Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023
+over R1.5 million.                                   (sourced March 2024).
+
+
+Of the total resale activity in 2023, two-thirds    Resale transactions: GSP vs. non-GSP, 2014-2023
+                                                                                                                                                                         14 934
+took place in the metros. 17% of the                                                    200 000                                                                                      14 731
+                                                        Number of resale transactions
+
+
+
+
+transactions were in Cape Town, 16% in                                                              11 682     11 428
+                                                                                                                          12 103   12 262   12 064 12 793
+                                                                                                                                                                                              13 147
+Johannesburg, and another 11% in Tshwane.                                               150 000                                                                 10 283
+
+Just over a third (34%) of the resale
+transactions took place in the local                                                    100 000
+                                                                                                                                                                         182 476 170 466
+municipalities (outside the metros).                                                                152 818 156 504 150 130 145 679 143 658 142 349
+                                                                                                                                                               132 250                        137 591
+                                                                                         50 000
+Resale transactions of GSP is another
+important market segment to watch. On the                                                     -
+whole, the GSP are older stock: 1.96 million or                                                     2014       2015       2016     2017     2018        2019    2020     2021        2022     2023
+
+90% of the GSP are over 8 years old, and thus                                                                                        Non-GSP            GSP
+
+no longer governed by the pre-emptive clause         Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023
+                                                     (sourced March 2024).
+in the Housing Act which restricts sale. This
+then opens up the older GSP as potential             Bonded resale transactions of GSP by lender, 2023
+supply in the resale market. Approximately           Total bonded resale of GSP = 3 879
+8.7% of the resale transactions in 2023 were of                                          Standard Bank                                                                                   1 090 (28.1%)
+GSP (13 147)—this proportion has remained
+                                                                                             Nedbank                                                                              985 (25.4%)
+largely consistent over the last 10 years.
+                                                                                                   FNB                                                         695 (17.9%)
+
+Of these GSP resale transactions, 17% were of                                                     Absa                                                    624 (16.1%)
+
+GSP that were less than 8 years old. This                                               SA Home Loans                                     388 (10.0%)
+
+would include transactions which were                                                             Other           60 (1.5%)
+exempted from the 8-year prohibition by the        Not Applicable/Unknown                                       29 (0.7%)
+province as a result of a waiver application (as                                              Investec         8 (0.2%)
+would be the case in the Western Cape),
+                                                                                                          -             200         400          600            800          1 000          1 200
+transactions that happened on properties             Source: CAHF's Citymark, using deeds          data
+                                                                                          registryof    supplied by Lightstone             31 December 2023
+                                                                                                                               Pty. asofatGSP
+                                                                                       Number        bonded   resale  transactions
+older than 8 years but for which title deeds         (sourced March 2024).
+                                                     Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023
+were only more recently delivered, or                (sourced March 2024).
+
+transactions which were not in compliance
+with the resale restriction.
+
+Mortgage lenders are moving into the GSP resale market. Of the 13 147 resale transactions of GSP in 2023, 30% or
+3 879 were financed with a mortgage—totaling R2.174 billion in value. These properties fetched an average resale
+transaction price of R560 570. In contrast, the average price for a resale transaction without a mortgage was
+R235 137. Standard Bank issued the highest number of bonds for the resale purchase of GSP (28%, or 1 090), with
+Nedbank second at 25% of the total.
+
+
+                                                                                                                                                                                                         6
+                          6. First-time homeowners
+                          Accessing the property market via new and resale markets
+
+                      The number of households who become homeowners for the                                                                How first-time home owners acquired their homes, 2023
+                      first time each year serves as an important indicator of how                                                          Total first-time home owners: 93 092
+                      inclusive and accessible the housing market is. During 2023,                                                            Resale transaction                                            New transaction
+                                                                                                                                                   of GSP                                                  of non-subsidised
+                      93 092 households in South Africa became homeowners, 21%                                                                    8 436; 9%                                                      house
+                                                                                                                                                                                                              18 415; 20%
+                      fewer than in 2022. This particular category of buyers is a key
+                      driver of market activity: 44% of all transactions in 2023 were by
+                      FTHOs.                                                                                                                                                                                    New transaction
+                                                                                                                                             Resale transaction                                                     of GSP
+                                                                                                                                             of non-subsidised                                                    15 297; 16%
+                                                                                                                                                   house
+                      Analysing FTHOs also provides useful insight into how the                                                                 50 944; 55%
+                      housing market is growing, and how households are joining the
+                      property ladder. In order to be eligible for a government-
+                      subsidised home, individuals cannot have previously owned                                                              Note: Excludes ‘Not applicable’ sales type and ‘Not applicable’ buyer type.
+                      property, thus all beneficiaries of new GSP are first-time                                                             Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty.
+                                                                                                                                             as at 31 December 2023 (sourced March 2024).
+                      homeowners. Yet, despite the contribution of government’s
+                      housing programme, the majority of FTHO in South Africa don’t
+                      receive a subsidy house but instead purchase their homes                                                              The figures below consider FTHO transactions by
+                      through the resale market.                                                                                            market segment. Due to government’s housing
+                                                                                                                                            programme, FTHOs make up nearly all of new
+                      Of the 93 092 households that became FTHO in 2023, 15 297
+                                                                                                                                            transactions of houses valued under R300 000
+                      (16%) were beneficiaries of government-subsidised housing.
+                                                                                                                                            (96%). Within the range of housing valued
+                      Another 8 436 households (9%) formally purchased a GSP on
+                                                                                                                                            between R300 000 and R900 000, 51% of
+                      the resale market, demonstrating that older GSP stock can
+                                                                                                                                            transactions involve households who are
+                      provide a supply of affordable housing for those entering the
+                                                                                                                                            acquiring a home for the first time. This
+                      property market
+                                                                                                                                            underlines the importance of housing finance
+                      The remaining first-time homeowners bought                                                                            instruments targeted to this demographic group,
+                      approximately 70 000 homes (non-subsidised), of which 27%                                                             to enable market activity.
+                      were new and 73% were resale (non-GSP) properties. Overall,
+                                                                                                                                            Not surprisingly, the deeds data shows that most
+                      the main avenue through which most first-time homeowners
+                                                                                                                                            FTHOs enter the market at the lower levels. In
+                      step on to the property ladder is the resale market with 66% of
+                                                                                                                                            2023, over half (59%) of FTHO transactions were
+                      all FTHO purchasing an existing (non-subsidised) home. The
+                                                                                                                                            for properties valued under R900 000. Of these,
+                      resale market is therefore a critical avenue for ensuring access
+                                                                                                                                            54% were financed with a bond.
+                      to the market for first-time homeowners—its proper functioning
+                      is thus a key ingredient to an inclusive market.
+
+           First-time home-owners (FTHO) as a share of total, new and resale                                                                     First-time homeowner transactions by market
+           transactions by market segment, 2023                                                                                                  segment, 2023
+                                                                                                                                                 Total FTHO transactions: 93 092
+                          100%        96%
+                                                                                     FTHO as share of total transactions                                                                                       Over R3m
+                                                                                     FTHO as share of new transactions                                                      R1.5m - R3m                        3 934 ; 4%
+                                  81%              82%
+                                                                                     FTHO as share of resale transactions                                                   14 202 ; 15%
+Percent of transactions
+
+
+
+
+                           75%                                 70%
+                                                                                                                                  68%
+                                          63%
+                                                                                                                                                                         R900 000 - R1.2m
+                                                58%                            54%                                                                                                                             R1.2m - R1.5m
+                                                       53% 53%     51%
+                                                                                                                                                                           12 208 ; 13%
+                                                                                                                                                                                                                 7 943 ; 9%
+                          50%                                                    43%     44%                                    44%
+                                                                         43%
+                                                                                             38%                                      39%                              R600 000 - R900 000
+                                                                                       37%            36%
+                                                                                                                                                                          21 346 ; 23%
+                                                                                                   27%      28%
+                                                                                                                    22%
+                          25%                                                                                                                                          R300 000 - R600 000
+                                                                                                                  17%     18%
+                                                                                                                                                                           13 813 ; 15%
+
+                                                                                                                                                                          Under R300 000
+                            0%                                                                                                                                             19 646 ; 21%
+                                  Under R300 R300 000 - R600 000 - R900 000 -           R1.2m -    R1.5m - R3m Over R3m           Total
+                                     000     R600 000 R900 000       R1.2m              R1.5m
+
+                                                                   Market segment
+                          Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023 (sourced March 2024).
+
+
+
+
+                                                                                                                                                                                                                                  8
+7. Mortgage market
+Size and value of outstanding bonds
+
+The Lightstone data also provides a view of South                                        Number of bonded and non-bonded transactions, 2012-2023
+Africa’s overall residential mortgage market, in
+terms of the size of the market and activity. The                                                                    160 000
+
+total number of bonded transactions in 2023 was                                                                      140 000
+
+
+
+
+                                                                                          Number of transactions
+only 110 498, a steep 25.5% drop in mortgage
+                                                                                                                     120 000
+lending compared to 2022 volumes. As a result,
+there were 37 834 fewer bonded transactions in                                                                       100 000
+2023 compared to the previous year.                                                                                   80 000
+
+The number of bonded transactions has varied                                                                          60 000
+
+over the last few years, largely due to COVID and                                                                     40 000
+                                                                                                                                                                                             Bonded
+its impact on interest rates. As shown in the top                                                                                                                                            Not bonded
+                                                                                                                      20 000
+graph, in 2020, the number of bonded
+transactions dropped slightly by 4.0% and then                                                                              0
+                                                                                                                                  2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023
+sharply rebounded in 2021 by 33.2%, far
+surpassing 2019 levels. 2022 then saw a 5.8%                                                                       Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31
+                                                                                                                   December 2023 (sourced March 2024).
+decrease, followed by 2023’s significant drop of
+                                                                                                                   NB: These figures include new and resale transactions, as well as transactions recorded as
+25.5%. That having been said, the 2023 number of                                                                   ‘non-applicable’ for type of transaction.
+bonded transactions is only slightly less than the
+average for 2012-2019.
+
+High interest rates are the main driver behind the drop in new bonds. The prime rate went from from 7.25% at
+beginning of 2022 to 10.5% by the year’s end. In 2023, there were three more hikes as the SA Reserve Bank
+struggled to contain inflation, reaching 11.75% where it has remained to date (July 2024). Data from the National
+Credit Regulator suggests that the decline in mortgage lending looks to continue in 2024, as their data indicates a
+18.71% drop in the number of mortgages granted in Q1 2024 compared to Q1 2023.
+
+The total value of outstanding mortgages in South Africa, at the end of 2023, was R1.428 trillion, which constitutes a
+2.88% decline from the previous year. As shown in the bottom graph, the growth rate of the value of mortgages
+outstanding rose sharply in 2021 and 2022 (6.85% and 6.46% respectively), but then returned to a more moderate
+growth rate in 2023 (2.88%).
+
+Although the value of the total bonds outstanding has been growing (in nominal terms), the number of outstanding
+bonds have been slowly but steadily declining over the last 10 years, as can be shown by the negative nominal
+annual growth rates reflected in the bottom graph. In 2023, the volume of outstanding bonds dropped by 0.77%, to
+2.241 million mortgages outstanding at the end of 2023. The number of outstanding bonds in 2023 is 4% less than
+ten years ago.
+ Nominal growth rates of volume and value of outstanding bonds, 2012-2023
+                        10%
+
+
+                        8%             Growth rate of volume of outstanding bonds                                                                      6,85%
+                                                                                                                                                                     6,46%
+                                       Growth rate of value of outstanding bonds
+                        6%
+  Nominal growth rate
+
+
+
+
+                                                     3,53%                             3,74%                              3,45%         3,33%
+                                                                             3,14%                                                                                                  2,88%
+                        4%               3,04%                   2,98%
+                              2,33%
+
+                        2%
+
+
+                        0%
+
+                              -0,33%                                                  -0,38%                              -0,33%        -0,13%         -0,30%        -0,10%
+                                         -0,41%      -0,56%
+                        -2%                                      -0,92%      -0,76%                                                                                                 -0,77%
+
+
+                        -4%
+                              2013        2014        2015        2016        2017     2018                                2019          2020           2021          2022           2023
+
+  Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023 (sourced March 2024).
+
+
+
+
+                                                                                                                                                                                                                9
+8. Housing finance
+Bonded transactions by market segment
+
+The most common way homebuyers finance                New and resale transactions by bonded and non-bonded, 2023
+home purchases is with mortgages, and in South
+Africa, 53% of new and resale residential                                     RESALE                                                                                  NEW
+transactions were bonded in 2023. Given the                                Bonded 83 926                                                                        Bonded 22 594
+predominance of resale activity in comparison to                          56% of total resale                                                                   45% of total new
+                                                                            transactions                                                                          transactions
+new build, the large majority of bonded
+transactions are in the resale market—nearly
+80%. In 2023, 59% of resale transactions were
+bonded (top graph).                                                                                                                                               NEW
+                                                                                                                                                               Non-bonded
+                                                                                                 RESALE                                                          27 299
+The new build market is slightly different, as                                                  Non-bonded
+                                                                                                  66 812
+overall only 45% of new transactions are bonded
+due to the number of new transactions which are       Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31
+housing beneficiaries obtaining government            December 2023 (sourced March 2024).
+
+subsidised units for free. However if GSP are
+removed from the calculation, 69% of new              Bonded transactions as a share of total new and resale
+transactions are bonded.                              transactions, by market segment, 2023
+                                                                                                80%
+The bottom graph shows the proportions of
+transactions—new and resale—that were bonded                                                                            64%         63%      63%
+in 2023, by market segment. Only 6% of entry-                                                                                                         61%
+                                                       % of total new and resale transactions
+
+
+
+
+level transactions were bonded, rising to 46% for                                               60%
+                                                                                                                                                                 54%         53%
+transactions valued R300 000 to R600 000.
+Between R600 000 and R3 million, the rate stays                                                                 46%
+                                                                   that are bonded
+
+
+
+
+at 62%-64%.
+                                                                                                40%
+
+For the resale market, the bulk of bonded
+transactions are at the upper end of the property
+ladder, particularly in the R1.5 - R3 million range                                             20%
+(bottom table). Of the 83 926 resale bonded
+transactions in 2023, 30% were for properties                                                           6%
+valued below R900 000. Beginning at about the
+R600 000 mark, resale transactions are bonded                                                   0%
+                                                                                                       Under R300 000 R600 000 R900 000 R1.2m - R1.5m - Over R3m             Total
+approximately 60% of the time.                                                                        R300 000 - R600 - R900 - R1.2m R1.5m       R3m
+                                                                                                                 000    000
+
+According to the NCR, only 1.57% of the                                                                                         Market segment
+mortgages granted in 2023 went to households          Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December
+                                                      2023 (sourced March 2024).
+with a monthly income below R15 000. However,
+there is evidence of some bonds issued for
+transactions of low value properties: 1 070 bonds
+for resale transactions of properties under                                                                      New transactions
+                                                                                                                       Non-       Percent
+                                                                                                                                                        Resale transactions
+                                                                                                                                                                 Non-      Percent
+R300 000 and 349 bonds for new transactions in        Market segment                                      Bonded     bonded       bonded          Bonded       bonded      bonded
+
+the same segment (bottom table). Notably, in          Under R300 000                                            349        14 302         2.4%         1 070         7 814           12.0%
+                                                      R300 000 –
+the R300 000 to R600 000 segment, nearly half         R600 000                                                 2 391        3 695         39.3%        7 885         8 607           47.8%
+                                                      R600 000 –
+(48%) of resale transactions are financed with a      R900 000                                                7 549        2 684          73.8%       16 734        11 087           60.1%
+mortgage, providing additional evidence that the      R900 000 - R1.2m                                         3 766        1 242         75.2%      13 249          8 599           60.6%
+lower end of the property market can be               R1.2m - R1.5m                                           2 023           995         67.0%      10 798          6 581           62.1%
+supported with formal credit.                         R1.5m - R3m                                             4 593        2 844          61.8%      24 922         15 981           60.9%
+                                                      Over R3m                                                1 923         1 537         55.6%       9 268          8 143           53.2%
+                                                      Total                                                  22 594       27 299          45.3%      83 926        66 812            55.7%
+
+                                                      Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December
+                                                      2023 (sourced March 2024).
+
+
+
+
+                                                                                                                                                                                             9
+ 9. Housing finance
+ Which banks are lending down-market?
+
+ Overall, Standard Bank South Africa (SBSA) had the                                                                                 Bonded transactions by lender, 2023
+                                                                                                                                    Total bonded transactions: 110 498
+ largest market share of residential bonded transactions
+ in South Africa in 2023 at 26%. This was followed by                                                                                                                                       Standard Bank
+                                                                                                                                                                            Other            28 191 ; 26%
+ First National Bank (FNB) with 23%, and Absa with 21%
+                                                                                                                                                                          1 532 ; 1%
+ (top pie graph).                                                                                                                                                                                                                  FNB
+                                                                                                                                                                                                                               25 872 ; 23%
+ The figures reflect gains by FNB in the last two years. In                                                                         Not Applicable/Unknown
+                                                                                                                                           3 227 ; 3%
+ 2021, FNB had just 17% market share behind both
+ Standard Bank and Absa. As can be shown in the middle
+ graph to the right, the number of bonded transactions                                                                          SA Home Loans
+                                                                                                                                   3 990 ; 4%
+ financed by Absa and SBSA notably dropped in 2022                                                                                                                                                                                Absa
+                                                                                                                                                                                                                               23 631 ; 21%
+ and continued to fall in 2023, while FNB and Nedbank
+ experienced much smaller declines in 2023.                                                                                                                                             Nedbank
+                                                                                                                                                                        Investec       19 545 ; 18%
+ In which market segments are banks concentrating their                                                                                                                4 510 ; 4%
+
+ lending? All the major banks were active in each market                                                                              NB: The total numbers of transactions in this graph is larger than the figures on
+ segment in 2023, as can be seen in the bottom-right                                                                                  page 9 because this graph includes transactions that are recorded as neither new
+                                                                                                                                      nor resale but as ‘non-applicable’.
+ graph. Standard Bank has the largest share of bonded
+                                                                                                                                      Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as
+ transactions in every market segment, except for ‘Under                                                                              at 31 December 2023 (sourced March 2024).
+ R300 000’, where the largest portion of bonds were
+ issued by Nedbank (20.1%).
+                                                                                                                                       Bonded transactions by lender (top four banks), 2019-2023
+ Are mortgages being offered at the lower end of the
+                                                                                                                                                                       60 000
+ property ladder? Notably, the number of bonds issued
+                                                                                                                                                                                                                                2019
+ for transactions valued R600 000 to R900 000 reached
+                                                                                                                                       Number of bonded transactions
+
+
+
+
+                                                                                                                                                                       50 000                                                   2020
+ nearly 25 000 in 2023, indicating a good appetite by the                                                                                                                                                                       2021
+ banks to lend in this segment.                                                                                                                                        40 000                                                   2022
+                                                                                                                                                                                                                                2023
+                                                                                                                                                                       30 000
+ The bottom pie graph displays market share for bonded
+ transactions under R900 000 and shows the high level of                                                                                                               20 000
+ activity of Nedbank at the lower end of the market,
+ compared to higher value properties. In 2023, a total of                                                                                                               10 000
+ 36 981 bonded transactions took place for residential
+ properties valued under R900 000.                                                                                                                                          -
+                                                                                                                                                                                 Standard Bank        FNB         Absa         Nedbank
+                                                                                                                                      Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as
+                                                                                                                                      at 31 December 2023 (sourced March 2024).
+
+
+
+ Bonded transactions under R900 000 by lender, 2023                                                 Bonded transactions by lender by market segment, 2023
+                         Other                                     Standard Bank                                                     35 000                                                            Other
+                         416 ; 1%                                                                                                                                                                      Unknown
+                                                                     8 808 ; 24%                                                                                                                       SA Home Loans
+            Unknown                                                                                                                 30 000                                                             Investec
+            1 623 ; 5%                                                                                                                                                                                 Nedbank
+                                                                                                                                                                                                       Absa
+                                                                                                    Number of bonded transactions
+
+
+
+
+                                                                                                                                    25 000                                                             FNB
+SA Home Loans
+                                                                                                                                                                                                       Standard Bank
+   1 973 ; 5%                                                                  FNB
+                                                                                                                                    20 000
+                                                                            8 518 ; 23%
+   Investec
+    311 ; 1%                                                                                                                         15 000
+
+
+                                                                                                                                    10 000
+
+          Nedbank                                                                                                                     5 000
+         8 189 ; 22%
+                                                               Absa; 7 143 ; 19%
+                                                                                                                                                        -
+                                                                                                                                                                          Under R300 000 R600 000 R900 000 R1.2m -     R1.5m - Over R3m
+                                                                                                                                                                         R300 000 - R600  - R900 - R1.2m R1.5m          R3m
+                                                                                                                                                                                    000     000
+                                                                                                                                                                                                       Market segment
+ Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023 (sourced March 2024).
+
+
+
+
+                                                                                                                                                                                                                                              10
+10. Freehold vs. sectional title properties
+What type of properties are being built and where?
+
+
+                                                                                                                                   Freehold1 properties are owned in their entirety,
+Metro and non-metro housing stock by property type, 2023
+                                                                                                                                   most commonly a single home on a single stand. A
+                                    4 000 000
+                                                        2%                                                                         sectional title property is typically a single unit in a
+                                                       18%                                                                         shared context, such as a block of flats or complex
+Number of residential
+
+
+
+
+                                                                  1%
+                                    3 000 000           6%
+                                                                                                                                   of townhouses. Both these property types can also
+    properties
+
+
+
+
+                                                                                    5%
+                                                                          5%
+                                                                                                                                   exist within a private estate. Sectional title
+                                                                                            Sectional Title (estate)
+                                    2 000 000                                                                                      properties are important from an affordability
+                                                                                            Sectional Title (outside estate)
+                                                        74%             89%                 Freehold (estate)                      perspective because often they offer a less
+                                    1 000 000                                               Freehold (outside estate)              expensive option for ownership, compared to
+                                                                                                                                   freehold properties.
+                                           0
+                                                      Metros       Non-metros
+                                                                                                                                   Country-wide, 86% of residential properties are
+Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31
+December 2023 (sourced March 2024).                                                                                                freehold, and just 14% sectional title. Sectional title
+                                                                                                                                   units are concentrated in urban areas. Within the
+                                                                                                                                   metros, sectional title make up 18% of total
+     New transactions per market segment by property type, 2023                                                                    properties—and 82% of all sectional title units are
+                                                                                                                                   located in the eight metros (top graph). Their
+                                                  Over R3m                                                                         existence contributes to more densified cities and
+                                                R1.5m - R3m
+                                                                                                                                   increased affordable housing supply.
+                                                                                       Sectional title (estate)
+                   Market segment
+
+
+
+
+                                                                                       Sectional title (outside estate)
+                                           R1.2m - R1.5m                               Freehold (estate)                           Only 6% of all properties are located in residential
+                                                                                       Freehold (outside estate)                   estates. Of these properties, just over half (52%)
+                                        R900 000 - R1.2m
+                                                                                                                                   are in the eight metros. As might be expected, the
+                                    R600 000 - R900 000                                                                            bulk of estate properties are in the upper market
+                                                                                                                                   segments.
+                                     R300 000 - R600 000
+
+                                         Under R300 000                                                                            What type of properties are being built? In 2023,
+                                                                                                                                   most of the new registrations at the lower end of
+                                                              -   2 500        5 000       7 500       10 000          12 500      the property ladder were freehold properties
+                                                                       Number of new transactions                                  outside of private estates, primarily delivered
+Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31                                            through government housing programmes.
+December 2023 (sourced March 2024).
+                                                                                                                                   However there are also notable numbers of
+                                                                                                                                   freehold (outside estate) properties being built that
+                                                                                                                                   are valued between R300 000 and R900 000, as
+New transactions per metros and non-metro areas by property type, 2023                                                             shown in the middle graph. From R1.5 million and
+                                      30 000                                                                                       up, more freehold houses are built inside private
+                                                        2 426
+                                                                                                                                   estates than outside.
+Number of new tranactions
+
+
+
+
+                                      25 000                                                    Freehold (estate)
+                                                                                                Freehold (outside estate)
+                                      20 000                               2 668                Sectional Title (estate)
+                                                                                                                                   As shown in the middle graph, new sales of
+                                                        11 558
+                                                                                                Sectional Title (outside estate)   sectional title properties in 2023 were more evenly
+                                      15 000                                                                                       spread across market segments, with 41% valued
+                                                         2 177
+                                                                           14 711                                                  below R900 000. Notably there were 1 931 new
+                                      10 000
+                                                                                                                                   transactions of sectional title properties below
+                                       5 000            11 770                                                                     R300 000, and another 1 491 in the R300 000 to
+                                                                            799
+                                                                           3 784                                                   R600 000 range.
+                                           -
+                                                       Metros          Non-metros
+                                                                                                                                   The bottom graph demonstrates that more of the
+     Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31
+     December 2023 (sourced March 2024).
+                                                                                                                                   new transactions are happening in the metros
+                                                                                                                                   compared to local municipalities. One half of the
+                                                                                                                                   new transactions in metros were sectional title—on
+                                                                                                                                   par with freehold properties. This underlines the
+                                                                                                                                   importance of sectional title in densification. 76%
+                                                                                                                                   of new sectional title units outside of estates were
+                                                                                                                                   built in the metros.
+
+
+                                                                                                                                                                                              11
+11. Comparing South Africa’s eight metros
+
+With respect to the volume of properties, Johannesburg had the largest residential property market across the
+eight metros — with a total number of 846 797 residential properties in 2023, compared to Buffalo City with the
+lowest at 125 421. In terms of value, Cape Town has the largest residential property market, at R1.402 trillion,
+followed by Johannesburg with R1.104 trillion. In contrast, Mangaung has a much smaller market totaling
+R95.6 billion—1/15th the size of Cape Town.
+
+Johannesburg is the metro with the largest number of government-subsidised properties—over 225 500 units.
+However Nelson Mandela Bay hosts the biggest percentage of GSP—42% of their residential properties were
+subsidised by government. In contrast, eThekwini has the smallest portion of GSP at 22%.
+
+With respect to property types, the metro with the largest percentage of freehold properties in private estates
+is Tshwane (8%), while Johannesburg has a larger share of sectional title properties (outside of estates) than
+the other metros—26%.
+
+Metro residential properties by market segment, 2023                                                                                                       Value of metro residential property
+                                                                                                                                                           markets, 2023
+  City of Johannesburg
+                                                                                                                                                                                         R billion
+     City of Cape Town
+                                                                                                                                                           City of Cape Town              R1 402.20
+             Ekurhuleni
+                                                                                                                                                           City of Johannesburg           R1 104.35
+       City of Tshwane                                                                                                                                     City of Tshwane                  R651.64
+                                                                                                                       Under R300 000
+             eThekwini                                                                                                 R300 000 - R600 000                 Ekurhuleni                       R574.79
+                                                                                                                       R600 000 - R900 000
+             Mangaung                                                                                                  R900 000 - R1.2m                    eThekwini                        R503.68
+                                                                                                                       R1.2m - R1.5m
+            Buffalo City                                                                                               R1.5m - R3m                         Nelson Mandela Bay               R167.27
+
+                             -        100 000 200 000 300 000 400 000 500 000 600 000 700 000 800 000 900 000                                              Mangaung                         R100.85
+                                                        Number of residential properties
+                                                                                                                                                           Buffalo City                      R95.59
+ Metro residential properties by GSP vs. non GSP, 2023                                                                                                     Total for metros              R4 600.36
+City of Johannesburg                225 635                                                    621 162                                                     Metros as share of total
+                                                                                                                                                           residential property market           67.8%
+  City of Cape Town                208 286                                               609 233
+
+          Ekurhuleni              176 602                                   443 018
+
+    City of Tshwane              149 841                               451 506
+
+Nelson Mandela Bay           105 107          139 262
+
+           eThekwini         103 078                        370 570
+
+          Mangaung          68 279 112 257                                                            GSP
+                                                                                                      Non-subsidy
+         Buffalo City             84 321
+
+                        -          100 000 200 000 300 000 400 000 500 000 600 000 700 000 800 000 900 000
+                                                                  Number of residential properties
+ Metro residential properties by property type, 2023
+    City of Cape Town                                                614 396                                         57 037      130 460     15 626
+
+ City of Johannesburg                                             547 455                                   60 646             229 005             9 691
+
+            Ekurhuleni                                      498 805                                41 982 71 752     7 081
+
+      City of Tshwane                               390 929                           50 708      130 456     29 254
+
+             eThekwini                            358 241                         105 817        3 616
+
+  Nelson Mandela Bay                    212 332               25 706                                            Freehold (outside estate)
+                                                                                                                Freehold (estate)
+            Mangaung                155 478              23 004
+                                                                                                                Sectional title (outside estate)
+           Buffalo City           111 147        6 499                                                          Sectional title (estate)
+
+                            -          100 000      200 000         300 000     400 000          500 000     600 000         700 000     800 000      900 000
+
+                                                                        Number of residential properties
+  Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023 (sourced March 2024).
+
+
+
+                                                                                                                                                                                                         12
+12. Comparing South Africa’s nine provinces
+
+                                            Number of residential properties by province and market segment, 2023
+Gauteng exceeds the other provinces
+in both number of residential                 Gauteng
+properties and total value of the         Western Cape
+residential property market.                 KwaZulu-…
+Gauteng’s market is valued at R2.56
+                                          Eastern Cape
+trillion, comprising 38% of the total
+                                             Free State
+value of South Africa’s residential                                                                                           Under R300 000
+                                                                                                                              R300 000 - R600 000
+property market. Gauteng also             Mpumalanga
+                                                                                                                              R600 000 - R900 000
+contains 35% of the total number of         North West                                                                        R900 000 - R1.2m
+                                                                                                                              R1.2m - R1.5m
+residential properties in the country.        Limpopo                                                                         R1.5m - R3m
+The Western Cape comes second,                Northern…
+                                                                                                                              Over R3m
+with 30% of the total value of the SA
+                                                          -                500 000              1000 000        1500 000          2000 000            2500 000
+residential property market, but just
+                                                                                  Number of residential properties
+18% of the total number of
+properties.
+                                            Number of residential properties by province: GSP and non-GSP
+
+Except for Western Cape and                   Gauteng                 649 445                                         1761 698
+
+Gauteng, all the provinces have their     Western Cape         358 908                       887 055
+largest share of residential properties   Eastern Cape        270 108           422 186
+in the entry-level market segment,
+                                             Free State       243 498 283 894
+under R300 000. In the Free State,
+                                             KwaZulu-… 223 201                    660 993                                        GSP
+59% of the residential properties are
+in the entry market.                      Mpumalanga                 239 256                                                     Non-GSP
+
+                                            North West           214 992
+However, the residential property             Northern…         96 098
+markets of the Western Cape and
+                                              Limpopo           161 578
+Gauteng have a different
+composition. In Gauteng, a small                          -                     500 000            1000 000          1500 000           2000 000
+portion of the properties are valued                                                         Number of residential properties
+less than R300 000 (16%), but 63% are
+under R900 000. For the Western           Number of residential properties by province and property type, 2023
+Cape, only 47% are below R900 000.
+                                                    Gauteng                                     1740 498
+
+With respect to government-                   Western Cape                         966 147
+
+subsidised housing, in the Northern          KwaZulu-Natal                  704 173
+
+Cape and Free State, nearly 50% of             Eastern Cape                633 966
+residential property is GSP (48% and              Free State            490 696
+46% respectively). In contrast,                                                                                      Freehold (outside estate)
+                                               Mpumalanga             349 055                                        Freehold (estate)
+government housing programmes
+                                                                                                                     Sectional title (outside estate)
+account for a much smaller portion of            North West           302 592
+                                                                                                                     Sectional title (estate)
+residential properties in KZN—just                  Limpopo 206 246
+25%.                                          Northern Cape
+
+                                                                 -                 500 000         1000 000        1500 000        2000 000           2500 000
+Given the three large metros within
+                                                                                             Number of residential properties
+its borders, Gauteng also had the
+largest number of sectional title             Source: CAHF's Citymark, using deeds registry data supplied by Lightstone Pty. as at 31 December 2023
+properties, comprising 52% of all the         (sourced March 2024).
+
+sectional title units in the country.
+Approximately 75% of South Africa’s
+estate properties are in Western Cape
+and Gauteng.
+
+
+
+
+                                                                                                                                                                 13
+13. Implications for affordable housing
+
+Growing housing market, with lower value housing                         very limited delivery of properties financed by the
+comprising the lion’s share of stock                                     private sector, apart from government-subsidised
+                                                                         housing programmes. This poses a serious challenge to
+Over the years, the number of residential properties
+                                                                         many South African households whose incomes only
+has been growing, along with the total value of that
+                                                                         allow them to purchase entry or affordable properties.
+stock. Over the last ten years, 715 500 residential
+                                                                         Affordable housing that has been built but whose titles
+properties have been added to the deeds registry, and
+                                                                         have not yet been allocated do not reflect on deeds
+the total value of residential stock has increased by
+                                                                         registry. Unless the titles are delivered, these
+61% (in nominal terms), to R9.631 trillion.
+                                                                         affordable units will remain ‘dead capital’.
+Definitions of the ‘gap market’ and affordable housing
+                                                                         Skewed mortgage market
+vary in the sector. The Banking Association South
+Africa (BASA) sets the upper household income limit at                   Although the value of the total bonds outstanding has
+R29 600/month which allows a household to qualify for                    been growing (in nominal terms), the number of
+a bond of approximately R820 000 at current interest                     outstanding bonds has been slowly but steadily
+rates.* Government’s First Home Finance (FHF)                            declining over the last 10 years. The total number of
+programme, which provides subsidies to the ‘gap’                         bonded transactions in 2023 was only 110 498, a steep
+market, has an upper eligibility threshold of R22                        25.5% drop in mortgage lending compared to 2022
+000/month, which would enable a household to qualify                     volumes.
+for a bond of approximately R600 000.
+                                                                         In recent years, lenders are issuing fewer bonds for the
+Regardless of the exact figure for ‘affordable’ housing,                 purchases of houses valued under R900 000. Of all the
+the data tells us that 21% of residential stock (1.44                    bonded transactions in 2023, one third were for houses
+million properties) are valued at R600 000 to R900 000;                  in the three lowest market segments (under R900 000).
+and 2/3 of total stock is valued at R900 000 or less—                    Nedbank has the largest market share for bonded
+indicating that lower-value housing is a substantial                     transactions under R900 000, but there is great
+majority of the market, not a small sub-segment or                       potential for all the banks to expand their lending
+niche.                                                                   down market.
+The availability of stock in the entry-level market is                   Recommendations
+predominantly attributable to public investment: 69%
+of units valued under R300 000 were GSP.                                 At present the FHF subsidy is largely distributed to
+                                                                         households at the top end of the eligible income
+Reduced transactions in low value market as interest                     bracket, and in many cases, ‘gap’ households are
+rates dampen activity                                                    unable to access a bond and purchase a new houses
+Transactions are also good indicators of a property                      even with a subsidy. However, a key opportunity exists
+market’s activity and health. On the whole,                              in the residential resale market, where resale market
+transactions dropped a notable 20% compared to                           prices are often for values lower than what is available
+2022, likely due largely to sustained high interest rates                in the new build market. More attention must be paid
+in 2023. Total transactions in 2023 amounted to                          to enabling ‘gap’ households to purchase on the resale
+approximately 213 500, indicating an overall churn rate                  market which offers lower prices. Leveraging the
+of 3.09% for SA’s residential market. Looking                            potential of the resale market depends on resolving
+exclusively at residential properties valued under                       the title deeds backlog and addressing the incidence of
+R900 000 that were not subsidised by government, the                     informal transactions, both of which undermine
+churn rate was just 2.45%. In 2023, only 41% of                          healthy market functioning and constrain transaction
+transactions were for properties valued under                            values. Targeted transaction support and title deed
+R900 000, compared to 61% ten years ago.                                 restoration efforts are needed. This would also
+                                                                         increase municipal revenue.
+The share of new transactions that are at the lower end
+of the market seems to be dropping. Five years ago,                      Expanding FHF activity in the resale market can have
+52% of new transactions (excluding GSP) were valued                      the effect of broadening effective demand by both
+under R900 000, compared to just 44% in 2023. In the                     subsidy beneficiaries and the sellers of resale
+lowest market segments under R600 000, there is                          properties who become buyers of the next property up
+                                                                         the ladder. This will enable better filtering in the
+* Assuming 30% premium to income ratio, 10% deposit, 20 year bond, and   market and additionally assist affordable housing
+prime interest rate 11.75%.
+                                                                         developers to raise construction finance.
+
+                                                                                                                               14
+   13. Implications for affordable housing
+Conclusions                                                     observed in the affordable segment since 2020 in terms of
+Growing housing market, but plenty of room for more             bonded transactions.
+growth                                                          • Of all the bonded transactions in 2021, only 10% were in the
+• As expected, the number of residential properties has           two lowest market segments and less than 1% were for
+  been growing year on year. Over the last 9 years, the           properties valued under R300 000. Absa and Standard Bank
+  number of residential properties recorded on the deeds          are the most active in the lower end, but there is great
+  registry has grown by a total of 607 823, from 6.1 million      potential for all the banks to expand their lending down
+  properties in 2012 to 6.7 million properties in 2021. This      market.
+  is almost a 10% increase. Correspondingly, the total
+                                                                The significance of government subsidised properties for first-
+  value of properties has also increased over the same
+                                                                time homeowners
+  period of time from R3.6 trillion to R6.3 trillion, a
+  promising 73% increase in value.                              • Most first-time home buyers access their properties in the
+                                                                  lower and mid market segments. Government subsidised
+• Transactions are good indicators of a property market’s         properties play a significant role for first time
+  activity and health. While there were 6.7 million               homebuyers/owners. 15% of first-time homeowners in 2021
+  properties in 2021 in South Africa, only 270 156                were recipients of government subsidised properties and
+  transactions (new and resale) were recorded; most 0f            another 8% bought government subsidised properties on
+  which were in the conventional, high-end and mid-               the resale market. There is a lot more potential to grow the
+  luxury markets. In fact, the least transactions were in the     number of GSPs available for transaction in the resale
+  entry market segment which is telling of an underserved         market should the barriers to formally buy and sell them be
+  market.                                                         addressed. Removing the pre-emptive clause and resolving
+Minimal availability of properties and market activity in the     the title deeds backlog could both have a significant impact
+lower market segments                                             on housing available for the bottom end of the ‘gap
+                                                                  market’.
+• Relative the to the high-end and the market segments
+  above it, entry and affordable markets are seeing             Recommendations
+  significantly less new delivery and, as stated above,
+                                                                Municipalities are keen to improve the functioning of the
+  transactions. This is especially true for the entry market
+                                                                residential property market in their areas, and to help
+  where, apart from government-subsidised housing
+                                                                households get on and move up the property ladder.
+  programmes, there is limited delivery of properties
+  financed by the private sector. Resale transactions in the    Beyond the delivery of subsidized housing, a key opportunity
+  affordable segment have been on a decline since 2012          exists in the residential resale market, where resale market
+  and new transactions have been declining since 2015.          prices are often for values lower than what is available in the
+  Likewise, resale entry market transactions have also          new build market. Leveraging the potential of the resale
+  been declining since 2012 while new entry transactions        market depends on resolving the title deeds backlog and
+  have been declining since 2018. However, an increase in       addressing the incidence of informal transactions, both of
+  2021 is noted after the dip of 2020 due to COVID-19.          which undermine healthy market functioning and constrain
+                                                                transaction values. Intentional and targeted transaction
+• Overall, the number of properties within these two
+                                                                support and title deed restoration efforts are needed. This
+  market segments has been falling for the last 9 years
+                                                                would also increase municipal revenue.
+  due to reduced delivery and some of the properties
+  filtering onto the conventional market. This poses a
+                                                                Municipalities can also offer non-financial incentives, such as
+  serious challenge to many South African households
+                                                                expedited municipal application processes, land release, and
+  whose incomes only allow them to purchase entry or
+                                                                reductions in compliance costs and development charges.
+  affordable properties. Affordable housing that has been
+                                                                The government’s support for a finance linked subsidy
+  built but whose titles have not yet been allocated do not
+                                                                creates an important opportunity to stimulate the
+  reflect on deeds registry. Unless the titles are delivered,
+                                                                affordability of low-moderate income households. Applying
+  these affordable units will remain ‘dead capital’.
+                                                                this in the resale market as well as in the new build market
+Skewed mortgage market                                          can have the effect of broadening effective demand by both
+                                                                FLISP beneficiaries and the sellers of resale properties who
+• Although the mortgage market has seen considerable            become buyers of the next property up the ladder. This will
+  growth with a 33% increase since 2020, the lower              ultimately enable developers raise construction finance,
+  market segments have received limited growth. The             increasing the potential for new supply in the affordable and
+  entry market saw a 21% increase and a 12% increase was        conventional markets, just where it is needed.
+
+                                                                                                                             14
+ 14. Report methodology
+
+
+What is the source of the data?                              How is transaction price determined?
+To produce our Citymark research, CAHF uses South            The prices or transaction amounts listed are those
+African deeds registry data as cleaned and prepared          listed on the deeds registry, with no adjustment for
+to our specifications by our partners at Lightstone,         inflation (the nominal price). In the case of
+one of the leading property data firms in South Africa.      government-subsidised properties, the original
+This report only reflects the formal property market         transaction price recorded in the deeds registry when
+that is registered on the Deeds Registry. Informal or        a beneficiary receives their title deed is typically
+untitled properties, such as those in informal               based on the subsidy quantum although different
+settlements, or which comprise part of the national          methodologies are used depending on the
+titling backlog, are therefore not reflected in the          municipality or implementing agent for the housing
+analysis.                                                    project.
+How are the indicators derived?                              How are government-subsidised properties
+                                                             identified?
+About one-third of the indicators are simply counts of
+conditions within suburbs, such as numbers of                Government-subsidised houses are not explicitly
+properties, sales or average values. CAHF uses these         recognised or marked on the title deed. Therefore we
+building blocks to create the remaining indicators,          use a proxy to identify government- subsidised
+based on our experience in housing finance and real          properties that is based on common programme
+estate development. All of the indicators can be             characteristics of BNG/RDP houses, including the
+shown at the suburb, municipality or metro levels, up        year, first registration price and buyer type, maximum
+to the national level, allowing for comparisons and          prices, and proximity to other similar housing types.
+benchmarking.
+
+Why use market segments?
+
+Market segmentation allows for analysis of how
+categories of properties have performed differently
+over time. Most properties under R300 000 were
+developed through government intervention with
+resale restrictions. Properties between R300 000 and
+R1.2 million are of current interest to investors and
+developers keen on providing more affordable
+housing within those segments. However it must be
+noted that the market segments used in this analysis         The Centre for Affordable Housing Finance in Africa
+are static, and are not adjusted for inflation across the    (CAHF) is a research NGO whose mission is to expand
+years. Thus a house valued at R300 000 in 2012 was           Africa’s housing markets for all of its residents,
+relatively more expensive than a R300 000 house              through disseminating research and market
+today. Furthermore, a particular property may move           intelligence, and supporting cross-sector
+into a different market segment as it depreciates or         collaborations and a market-based approach.
+appreciates. This report utilises seven market
+segments, with thinner segmentation at the lower             www.housingfinanceafrica.org
+end of the market to enable a closer examination of
+low value properties.
+                                                            This residential property market report of the
+How is the value determined?                                Citymark Programme was produced with the
+The property values in this report are not taken from       generous support of the Agence Française de
+municipal valuation roles. Instead the value is             Développement (AFD) .
+provided by Lightstone using their own proprietary
+methodology which takes into consideration a range
+of indicators, including transaction price, the level of
+sales activity in an area, and the extent of mortgage
+lending.
+
+
+                                                                                                                      15
+

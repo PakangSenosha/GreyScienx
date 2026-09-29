@@ -1,0 +1,962 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:SRD-003
+  slug: consumption-today-or-productive-capital-tomorrow
+  title: Consumption Today or Productive Capital Tomorrow?
+  subtitle: When does public investment create more lifetime social value than the R350 delivered to a poor household now?
+  series_id: GSX:SRD
+  series_slug: r350-counterfactual
+  series_title: The R350 Counterfactual
+  series_number: '03'
+  paper_number: '03'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: counterfactual
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - grants
+  - industrialisation
+  - fiscal-policy
+  - south-africa
+  keywords:
+  - Social grants
+  - Industrialisation
+  - Fiscal policy
+  - South Africa
+  - consumption
+  - today
+  - productive
+  - capital
+  - tomorrow
+  - timing
+  - distributional
+  - trade
+  - 'off'
+  - relief
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: What is the timing and distributional trade-off between relief today and productive capital tomorrow?
+  short_answer: 'At a 6 percent real discount rate, the best industrial case overtakes the central value of the cash transfer in 2040 when the surviving public asset is counted, and in 2051 when only operating benefits are counted. Limitation: There is no universal year when a factory becomes better than a cash transfer. The best case requires exceptional execution and a credible residual asset. The original households are not necessarily repaid even if the aggregate account later wins.'
+  abstract: The timing and distributional trade-off between relief and investment.
+  motivation: The timing and distributional trade-off between relief and investment.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - Who bears the wait if grant spending is redirected toward investment?
+  - How does the R350 choice split between consumption and productive capital?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: the alternative use of the same resource or rule
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:SRD-003:R01
+  - GSX:SRD-003:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - What is the timing and distributional trade-off between relief today and productive capital tomorrow?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:SRD-003:M01
+    name: Transfer versus industrial present-value comparison
+    purpose: The model compares the present value of the grant's social benefits with the present value of the industrial alternative, using the shared R253.5 billion envelope and a stated real discount rate.
+    model_class: present-value counterfactual
+    statement: The model compares the present value of the grant's social benefits with the present value of the industrial alternative, using the shared R253.5 billion envelope and a stated real discount rate.
+    inputs:
+    - welfare cost of the transfer
+    - industrial operating benefits
+    - surviving public asset
+    - discount rate
+    outputs:
+    - break-even year
+    - present value in 2050
+    time_step: annual from 2020
+    implementation_file: research/source/consumption-or-capital/model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:SRD-003:A01
+    name: Shared envelope and welfare values
+    statement: The comparison uses the R253.5 billion constant-2026-rand envelope and Paper 2's central welfare value of R426.9 billion, which is R358.2 billion in 2020 present value at 6 percent.
+    value: '358.2'
+    unit: billion 2020 present-value rand at 6 percent
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript central comparison table
+    source_ids:
+    - GSX:SRD-003:PDF
+    evidence_strength: inherited from the companion papers
+    sensitivity: moderate
+    alternatives:
+    - Conservative or severe welfare values
+  - id: A02
+    canonical_id: GSX:SRD-003:A02
+    name: Central discount rate
+    statement: The central comparison uses a 6 percent real discount rate. The paper also reports 3.5 percent and the 10 percent public-project benchmark.
+    value: '6'
+    unit: percent real discount rate
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:SRD-003:PDF
+    evidence_strength: normative timing weight
+    sensitivity: high
+    alternatives:
+    - 3.5 percent
+    - 10 percent
+  - id: A03
+    canonical_id: GSX:SRD-003:A03
+    name: Asset-inclusive test
+    statement: Counting the surviving public asset is legitimate only if the asset is viable, maintained, publicly owned and capable of being sold or of continuing to produce.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript definition of break-even
+    source_ids:
+    - GSX:SRD-003:PDF
+    evidence_strength: accounting condition
+    sensitivity: high
+    alternatives:
+    - Flow-only test
+  parameters:
+  - id: P01
+    name: Shared envelope and welfare values
+    symbol: see the manuscript
+    description: The comparison uses the R253.5 billion constant-2026-rand envelope and Paper 2's central welfare value of R426.9 billion, which is R358.2 billion in 2020 present value at 6 percent.
+    value: '358.2'
+    unit: billion 2020 present-value rand at 6 percent
+    price_year: '2026'
+    scenario_values:
+      central: '358.2'
+    source_ids:
+    - GSX:SRD-003:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The model compares the present value of the grant's social benefits with the present value of the industrial alternative, using the shared R253.5 billion envelope and a stated real discount rate.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:SRD-003:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Central comparison, 6 percent real discount rate
+  role: baseline
+  description: At 6 percent, the best industrial case overtakes the central transfer value in 2040 if the surviving asset is counted, and in 2051 if only operating benefits are counted.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: Consumption Today or Productive Capital Tomorrow?
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/consumption-or-capital/report.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - There is no universal year when a factory becomes better than a cash transfer. The best case requires exceptional execution and a credible residual asset. The original households are not necessarily repaid even if the aggregate account later wins.
+  source_register:
+  - id: GSX:SRD-003:PDF
+    type: manuscript
+    title: Consumption Today or Productive Capital Tomorrow?
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow.pdf
+    access_date: '2026-09-27'
+    locator: 24 pages; 1.55 MB
+    supports:
+    - GSX:SRD-003:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:SRD-003:SRC01
+    type: web_reference
+    title: National Treasury, 2026 Estimates of National Expenditure, Vote 19
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/National%20Budget/2026/ene/Vote%2019%20Social%20Development.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC02
+    type: web_reference
+    title: National Treasury, 2026 Budget Review
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/National%20Budget/2026/review/FullBR.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC03
+    type: web_reference
+    title: South Africa's Country Investment Strategy
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/sites/default/files/gcis_document/202205/46426gon2118.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC04
+    type: web_reference
+    title: HM Treasury, Green Book 2026
+    author_or_publisher: gov.uk
+    date: see cited resource
+    url: https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government/the-green-book-2026
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC05
+    type: web_reference
+    title: National Treasury, Guideline on Budget Submissions for Large Strategic Infrastructure Proposals
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/publications/guidelines/GUIDELINE%20ON%20BUDGET%20SUBMISSIONS%20FOR%20LARGE%20STRATEGIC%20INFRASTRUCTURE%20PROPOSALS%20final%2021%2004%2021.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC06
+    type: web_reference
+    title: The Impact of Public Infrastructure Investment on South Africa's Economy
+    author_or_publisher: link.springer.com
+    date: see cited resource
+    url: https://link.springer.com/article/10.1007/s11135-023-01804-7
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC07
+    type: web_reference
+    title: GTAC, Bi-annual Infrastructure Trends Report 2026
+    author_or_publisher: gtac.gov.za
+    date: see cited resource
+    url: https://www.gtac.gov.za/wp-content/uploads/2026/03/Bi-Annual-Infrastructure-Trends-Report-2026_1st-Edition-2026_2.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC08
+    type: web_reference
+    title: IMF, How Strong Infrastructure Governance Can End Waste in Public Investment
+    author_or_publisher: imf.org
+    date: see cited resource
+    url: https://www.imf.org/en/Blogs/Articles/2020/09/03/blog090320-how-strong-infrastructure-governance-can-end-waste-in-public-investment
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC09
+    type: web_reference
+    title: National Treasury, Capital Planning Guidelines
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/publications/guidelines/2015-16/Capital%20Planning%20Guidelines%202016.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC10
+    type: web_reference
+    title: Van Heerden, A Supply-side Alternative for SRD Grants in South Africa
+    author_or_publisher: onlinelibrary.wiley.com
+    date: see cited resource
+    url: https://onlinelibrary.wiley.com/doi/full/10.1111/saje.12370
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC11
+    type: web_reference
+    title: Parliamentary Budget Office, Pre-budget Brief on the SRD Grant
+    author_or_publisher: parliament.gov.za
+    date: see cited resource
+    url: https://www.parliament.gov.za/storage/app/media/PBO/Budget_Analysis/2025/17-02-2025/PBO_pre_budget_brief_on_SRD_Feb_2025.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC12
+    type: web_reference
+    title: Department of Social Development, Rapid Assessment of the SRD Grant
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/sites/default/files/gcis_documents/Final%20Special%20COVID19%20SRD%20Grant%20Report.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC13
+    type: web_reference
+    title: Bassier, Budlender and Goldman, Social Protection During South Africa's National Lockdown
+    author_or_publisher: sa-tied-archive.wider.unu.edu
+    date: see cited resource
+    url: https://sa-tied-archive.wider.unu.edu/sites/default/files/SA-TIED-WP210.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC14
+    type: web_reference
+    title: Plagerson and co-authors, Local Economic Development Effects of Income Transfers
+    author_or_publisher: afd.fr
+    date: see cited resource
+    url: https://www.afd.fr/sites/afd/files/2023-05-04-18-29/The-local-economic-development-effects-of-income-transfers-in-South-Africa.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-003:SRC15
+    type: web_reference
+    title: South African Reserve Bank, Cash Transfers and Prices
+    author_or_publisher: resbank.co.za
+    date: see cited resource
+    url: https://www.resbank.co.za/content/dam/sarb/publications/working-papers/2024/cash-transfers-and-prices-what-is-the-impact-of-social-welfare-on-prices.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:SRD-003:R01
+    statement: At 6 percent, the best industrial case overtakes the central transfer value in 2040 if the surviving asset is counted, and in 2051 if only operating benefits are counted.
+    value: '2040'
+    unit: break-even year, asset-inclusive best case
+    price_year: '2026'
+    year_or_period: Central comparison, 6 percent real discount rate
+    scenario_id: Central comparison, 6 percent real discount rate
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:SRD-003:PDF
+    reproducible_from:
+    - GSX:SRD-003:M01
+  - id: R02
+    canonical_id: GSX:SRD-003:R02
+    statement: At 6 percent, best-case industrial value in 2050 is R485.7 billion in present value. Average industrial value is R152.3 billion, R205.9 billion short of the central transfer. At a 10 percent discount rate, none of the industrial cases crosses by 2100.
+    value: '152.3'
+    unit: billion 2020 present-value rand, average industrial case in 2050
+    price_year: '2026'
+    year_or_period: 6 percent and 10 percent discount-rate tests
+    scenario_id: 6 percent and 10 percent discount-rate tests
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:SRD-003:PDF
+    reproducible_from:
+    - GSX:SRD-003:M01
+  headline_results:
+  - GSX:SRD-003:R01
+  sensitivity_results:
+  - GSX:SRD-003:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - There is no universal year when a factory becomes better than a cash transfer. The best case requires exceptional execution and a credible residual asset. The original households are not necessarily repaid even if the aggregate account later wins.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:SRD-003:C01
+    claim: At a 6 percent real discount rate, the best industrial case overtakes the central value of the cash transfer in 2040 when the surviving public asset is counted, and in 2051 when only operating benefits are counted.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:SRD-003:A01
+    - GSX:SRD-003:A02
+    - GSX:SRD-003:A03
+    derived_from_results: &id004
+    - GSX:SRD-003:R01
+    supported_by_sources:
+    - GSX:SRD-003:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: There is no universal year when a factory becomes better than a cash transfer. The best case requires exceptional execution and a credible residual asset. The original households are not necessarily repaid even if the aggregate account later wins.
+    sensitivity: high
+    retrieval_text: At a 6 percent real discount rate, the best industrial case overtakes the central value of the cash transfer in 2040 when the surviving public asset is counted, and in 2051 when only operating benefits are counted.
+    citation_text: GreyScienx, GSX:SRD-003:C01, version 1.0.
+    href: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow/claims/C01
+  - id: C02
+    canonical_id: GSX:SRD-003:C02
+    claim: The average and worst industrial cases do not overtake the central transfer value by 2100 at 6 percent. At the 10 percent public-project benchmark, none of the industrial cases crosses by 2100.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:SRD-003:A01
+    - GSX:SRD-003:A02
+    derived_from_results:
+    - GSX:SRD-003:R02
+    supported_by_sources:
+    - GSX:SRD-003:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The discount rate does not change the factory's physical output. It changes how much present sacrifice the model treats as justified.
+    sensitivity: high
+    retrieval_text: The average and worst industrial cases do not overtake the central transfer value by 2100 at 6 percent. At the 10 percent public-project benchmark, none of the industrial cases crosses by 2100.
+    citation_text: GreyScienx, GSX:SRD-003:C02, version 1.0.
+    href: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - There is no universal year when a factory becomes better than a cash transfer. The best case requires exceptional execution and a credible residual asset. The original households are not necessarily repaid even if the aggregate account later wins.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: There is no universal year when a factory becomes better than a cash transfer. The best case requires exceptional execution and a credible residual asset. The original households are not necessarily repaid even if the aggregate account later wins.
+  limitations:
+  - There is no universal year when a factory becomes better than a cash transfer. The best case requires exceptional execution and a credible residual asset. The original households are not necessarily repaid even if the aggregate account later wins.
+  - The discount rate does not change the factory's physical output. It changes how much present sacrifice the model treats as justified.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - There is no universal year when a factory becomes better than a cash transfer. The best case requires exceptional execution and a credible residual asset. The original households are not necessarily repaid even if the aggregate account later wins.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/consumption-or-capital/report.md
+    pdf: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow.pdf
+    html: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow
+    clean_markdown: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/consumption-or-capital/report.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:SRD-003:PDF
+    result_ids:
+    - GSX:SRD-003:R01
+  figures:
+  - id: F01
+    title: Break-even paths
+    caption: Figure 1. The central comparison. The transfer delivers almost all of its value by 2027. The best industrial path overtakes it in 2040 only when the surviving public asset is treated as real social wealth.
+    alt_text: Break-even paths
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/consumption-or-capital/assets/break-even-paths.png
+    data_file: research/source/consumption-or-capital/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-003:R01
+    source_ids:
+    - GSX:SRD-003:PDF
+  - id: F02
+    title: R1 choice
+    caption: Figure 2. The complete choice. Cash produces value quickly and close to the intended recipient. Capital offers a longer claim, conditional on the pipeline and on who eventually receives its benefits.
+    alt_text: R1 choice
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/consumption-or-capital/assets/r1-choice.png
+    data_file: research/source/consumption-or-capital/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-003:R01
+    source_ids:
+    - GSX:SRD-003:PDF
+  - id: F03
+    title: Timing gap
+    caption: Figure 3. Undiscounted annual social value. The bars are delivered transfer welfare. The line is the average industrial operating benefit after deployment. Pipeline cash retains financial value but does not yet produce output.
+    alt_text: Timing gap
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/consumption-or-capital/assets/timing-gap.png
+    data_file: research/source/consumption-or-capital/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-003:R01
+    source_ids:
+    - GSX:SRD-003:PDF
+  - id: F04
+    title: Discount sensitivity
+    caption: Figure 4. Asset-inclusive break-even years. “Never” means no crossing by 2100, not proof that crossing is impossible under every longer horizon or alternative assumption.
+    alt_text: Discount sensitivity
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/consumption-or-capital/assets/discount-sensitivity.png
+    data_file: research/source/consumption-or-capital/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-003:R01
+    source_ids:
+    - GSX:SRD-003:PDF
+  - id: F05
+    title: Flow-only break-even
+    caption: Figure 5. The strict cash-and-spillover test. Excluding the residual asset prevents a weak or unsaleable book value from deciding the result.
+    alt_text: Flow-only break-even
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/consumption-or-capital/assets/flow-only-break-even.png
+    data_file: research/source/consumption-or-capital/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-003:R01
+    source_ids:
+    - GSX:SRD-003:PDF
+  - id: F06
+    title: Value matrix
+    caption: Figure 6. Net social value of choosing industry rather than the grant by 2050. Positive cells favour industry. The comparison uses 2020 present values and includes the residual public asset.
+    alt_text: Value matrix
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/consumption-or-capital/assets/value-matrix-2050.png
+    data_file: research/source/consumption-or-capital/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-003:R01
+    source_ids:
+    - GSX:SRD-003:PDF
+  - id: F07
+    title: Reinvestment sensitivity
+    caption: Figure 7. Productive asset paths under the average deployment and survival assumptions. The curves differ only in real growth after depreciation, making maintenance and reinvestment the hinge.
+    alt_text: Reinvestment sensitivity
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/consumption-or-capital/assets/reinvestment-sensitivity.png
+    data_file: research/source/consumption-or-capital/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-003:R01
+    source_ids:
+    - GSX:SRD-003:PDF
+  - id: F08
+    title: Benefit timing
+    caption: Figure 8. Timing shares exclude the residual asset and compare only discounted operating benefits. “Different generations” is shorthand for different periods; some people live through several bars.
+    alt_text: Benefit timing
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/consumption-or-capital/assets/benefit-timing.png
+    data_file: research/source/consumption-or-capital/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-003:R01
+    source_ids:
+    - GSX:SRD-003:PDF
+  - id: F09
+    title: Hybrid frontier
+    caption: Figure 9. A linear allocation between central transfer welfare and each industrial outcome. The shaded area is uncertainty, not a statistical confidence interval.
+    alt_text: Hybrid frontier
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/consumption-or-capital/assets/hybrid-frontier.png
+    data_file: research/source/consumption-or-capital/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-003:R01
+    source_ids:
+    - GSX:SRD-003:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/consumption-or-capital/model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/consumption-or-capital/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/consumption-or-capital/model.py
+  - research/source/consumption-or-capital/model_results.json
+  data_files:
+  - research/source/consumption-or-capital/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/consumption-or-capital/model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:SRD-001
+    slug: the-r350-industrialisation-counterfactual
+    title: The R350 Industrialisation Counterfactual
+    href: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual
+    relationship: same_series
+  - id: GSX:SRD-002
+    slug: the-welfare-cost-of-not-paying-the-grant
+    title: The Welfare Cost of Not Paying the Grant
+    href: https://greyscienx.com/research/r350-counterfactual/the-welfare-cost-of-not-paying-the-grant
+    relationship: same_series
+  - id: GSX:SRD-004
+    slug: the-public-capital-multiplier
+    title: The Public-Capital Multiplier
+    href: https://greyscienx.com/research/r350-counterfactual/the-public-capital-multiplier
+    relationship: same_series
+  - id: GSX:SRD-005
+    slug: the-r200-billion-factory
+    title: The R200 Billion Factory
+    href: https://greyscienx.com/research/r350-counterfactual/the-r200-billion-factory
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:SRD-002
+    title: The Welfare Cost of Not Paying the Grant
+    paper_number: '02'
+  successor_studies:
+  - id: GSX:SRD-004
+    title: The Public-Capital Multiplier
+    paper_number: '04'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - grants
+  - industrialisation
+  - fiscal-policy
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:SRD-003:C01
+    predicate: depends_on
+    object_id: GSX:SRD-003:A01
+    note: Registered dependency.
+  - subject_id: GSX:SRD-003:C01
+    predicate: depends_on
+    object_id: GSX:SRD-003:A02
+    note: Registered dependency.
+  - subject_id: GSX:SRD-003:C01
+    predicate: depends_on
+    object_id: GSX:SRD-003:A03
+    note: Registered dependency.
+  - subject_id: GSX:SRD-003:C01
+    predicate: derived_from
+    object_id: GSX:SRD-003:R01
+    note: Registered result.
+  - subject_id: GSX:SRD-003:C02
+    predicate: depends_on
+    object_id: GSX:SRD-003:A01
+    note: Registered dependency.
+  - subject_id: GSX:SRD-003:C02
+    predicate: depends_on
+    object_id: GSX:SRD-003:A02
+    note: Registered dependency.
+  - subject_id: GSX:SRD-003:C02
+    predicate: derived_from
+    object_id: GSX:SRD-003:R02
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. Consumption Today or Productive Capital Tomorrow?. GSX:SRD-003. Version 1.0.
+  machine_citation: GreyScienx, GSX:SRD-003, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow
+    html: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow
+    markdown: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow/markdown
+    json: https://greyscienx.com/api/v1/research/consumption-today-or-productive-capital-tomorrow
+    pdf: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow.pdf
+    api: https://greyscienx.com/api/v1/research/consumption-today-or-productive-capital-tomorrow
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: Consumption Today or Productive Capital Tomorrow?
+    identifier: GSX:SRD-003
+    url: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: The timing and distributional trade-off between relief and investment.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: At a 6 percent real discount rate, the best industrial case overtakes the central value of the cash transfer in 2040 when the surviving public asset is counted, and in 2051 when only operating benefits are counted.
+    claim_ids:
+    - GSX:SRD-003:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:SRD-003:PDF
+    page: manuscript Part I
+    token_estimate: 37
+  question_aliases:
+  - Who bears the wait if grant spending is redirected toward investment?
+  - How does the R350 choice split between consumption and productive capital?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:SRD-003, version 1.0
+    claim_level_pattern: GreyScienx, GSX:SRD-003:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:SRD-003
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:SRD-003

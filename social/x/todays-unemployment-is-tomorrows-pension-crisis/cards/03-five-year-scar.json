@@ -1,0 +1,15 @@
+{
+  "edition": "POPULATION FUTURES · PAPER 02.02",
+  "eyebrow": "Temporary is not costless",
+  "headline": "Five early jobless years remain visible at retirement",
+  "deck": "Recovery closes the wage scar. It cannot restore every lost year of compounding.",
+  "visualTitle": "Private retirement wealth at 60",
+  "qualifier": "Modelled · constant 2026 rand",
+  "bars": [
+    {"name": "Stable formal", "value": 4.84, "label": "R4.84m", "primary": false},
+    {"name": "Youth shock", "value": 3.99, "label": "R3.99m", "primary": true}
+  ],
+  "caption": "The five-year shock leaves 18% less wealth at 60, even after stable formal work resumes.",
+  "source": "GreyScienx cohort model · 3% net real return",
+  "url": "greyscienx.com/research"
+}

@@ -1,0 +1,318 @@
+{
+  "schema_version": "GreyScienxLiveDeploymentValidation 1.0",
+  "generated_at": "2026-09-29T03:18:06.181Z",
+  "origin": "https://greyscienx.com",
+  "worker_version": null,
+  "passed": true,
+  "summary": {
+    "checks": 29,
+    "passed": 29,
+    "failed": 0,
+    "sitemap_urls_checked": 533,
+    "warnings": 1
+  },
+  "warnings": [
+    "Search-engine ingestion is not immediate or controlled by the deployment; crawlability is verified, while public index inclusion requires later observation or Search Console/Bing Webmaster data."
+  ],
+  "checks": [
+    {
+      "name": "dns_apex_resolves",
+      "passed": true,
+      "a": [
+        {
+          "address": "172.67.153.222",
+          "ttl": 299
+        },
+        {
+          "address": "104.21.56.168",
+          "ttl": 299
+        }
+      ],
+      "aaaa": [
+        {
+          "address": "2606:4700:3033::6815:38a8",
+          "ttl": 299
+        },
+        {
+          "address": "2606:4700:3034::ac43:99de",
+          "ttl": 299
+        }
+      ],
+      "ns": [
+        "holly.ns.cloudflare.com",
+        "harvey.ns.cloudflare.com"
+      ],
+      "www": [
+        {
+          "address": "172.67.153.222",
+          "ttl": 300
+        },
+        {
+          "address": "104.21.56.168",
+          "ttl": 300
+        }
+      ]
+    },
+    {
+      "name": "dns_uses_cloudflare_nameservers",
+      "passed": true,
+      "nameservers": [
+        "holly.ns.cloudflare.com",
+        "harvey.ns.cloudflare.com"
+      ]
+    },
+    {
+      "name": "www_redirects_to_apex",
+      "passed": true,
+      "status": 308,
+      "location": "https://greyscienx.com/research"
+    },
+    {
+      "name": "https_homepage",
+      "passed": true,
+      "status": 200,
+      "final_url": "https://greyscienx.com/",
+      "elapsed_ms": 167,
+      "server": "cloudflare",
+      "cf_ray": "a427d683def173c3-JNB"
+    },
+    {
+      "name": "homepage_canonical_and_jsonld",
+      "passed": true
+    },
+    {
+      "name": "robots_allows_and_discovers_sitemaps",
+      "passed": true,
+      "status": 200,
+      "content_type": "text/plain"
+    },
+    {
+      "name": "sitemap_documents",
+      "passed": true,
+      "documents": [
+        {
+          "path": "/sitemap.xml",
+          "status": 200,
+          "content_type": "application/xml",
+          "urls": 445
+        },
+        {
+          "path": "/sitemap-research.xml",
+          "status": 200,
+          "content_type": "application/xml; charset=utf-8",
+          "urls": 482
+        },
+        {
+          "path": "/sitemap-series.xml",
+          "status": 200,
+          "content_type": "application/xml; charset=utf-8",
+          "urls": 8
+        },
+        {
+          "path": "/sitemap-datasets.xml",
+          "status": 200,
+          "content_type": "application/xml; charset=utf-8",
+          "urls": 29
+        },
+        {
+          "path": "/sitemap-standards.xml",
+          "status": 200,
+          "content_type": "application/xml; charset=utf-8",
+          "urls": 2
+        }
+      ],
+      "unique_urls": 533,
+      "duplicate_entries": 433
+    },
+    {
+      "name": "sitemap_urls_are_canonical",
+      "passed": true
+    },
+    {
+      "name": "all_sitemap_urls_resolve",
+      "passed": true,
+      "checked": 533,
+      "successful": 533,
+      "failures": []
+    },
+    {
+      "name": "search_indexing_readiness",
+      "passed": true,
+      "robots_status": 200,
+      "sitemap_documents": 5,
+      "canonical_urls_checked": 533,
+      "note": "This validates crawlability and discovery surfaces, not third-party crawler ingestion."
+    },
+    {
+      "name": "llms_discovery",
+      "passed": true,
+      "status": 200,
+      "cache_control": "public, max-age=3600",
+      "bytes": 2116
+    },
+    {
+      "name": "rss_feed",
+      "passed": true,
+      "status": 200,
+      "content_type": "application/rss+xml; charset=utf-8"
+    },
+    {
+      "name": "machine_readable_research_index",
+      "passed": true,
+      "status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "bytes": 16598
+    },
+    {
+      "name": "indexnow_key_is_published",
+      "passed": true,
+      "status": 200,
+      "key_location": "https://greyscienx.com/indexnow-key.txt"
+    },
+    {
+      "name": "google_search_console_verification_file",
+      "passed": true,
+      "files": [
+        {
+          "file": "google05f03a9002f40d98.html",
+          "status": 200,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "research_api",
+      "passed": true,
+      "status": 200,
+      "content_type": "application/json",
+      "reported_items": 29
+    },
+    {
+      "name": "research_search",
+      "passed": true,
+      "status": 200,
+      "cache_control": "public, max-age=300",
+      "result_count": 20,
+      "first_result": "GSX:POP-001"
+    },
+    {
+      "name": "representative_article",
+      "passed": true,
+      "status": 200,
+      "elapsed_ms": 41
+    },
+    {
+      "name": "content_negotiation_json",
+      "passed": true,
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "name": "content_negotiation_markdown",
+      "passed": true,
+      "status": 200,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "name": "mcp_discovery",
+      "passed": true,
+      "status": 200,
+      "protocol_version": "2025-03-26",
+      "tool_count": 22,
+      "cache_control": "no-store"
+    },
+    {
+      "name": "mcp_initialize",
+      "passed": true,
+      "status": 200,
+      "protocol_version": "2025-03-26",
+      "server_version": "1.2.0"
+    },
+    {
+      "name": "mcp_tools_list",
+      "passed": true,
+      "status": 200,
+      "tool_count": 22
+    },
+    {
+      "name": "mcp_tool_call",
+      "passed": true,
+      "status": 200,
+      "is_error": false,
+      "returned_expected_study": true
+    },
+    {
+      "name": "mcp_sse_delivery",
+      "passed": true,
+      "status": 200,
+      "content_type": "text/event-stream; charset=utf-8"
+    },
+    {
+      "name": "edge_static_asset_cache",
+      "passed": true,
+      "requests": [
+        {
+          "url": "https://greyscienx.com/brand/greyscienx-wordmark.svg",
+          "status": 200,
+          "elapsed_ms": 18,
+          "cache_status": "HIT",
+          "cache_control": "public, max-age=0, must-revalidate",
+          "etag": "W/\"9e8c7f9fde0d9445918bedbec256674a\"",
+          "cf_ray": "a427d6b208f6f01f-JNB"
+        },
+        {
+          "url": "https://greyscienx.com/brand/greyscienx-wordmark.svg",
+          "status": 200,
+          "elapsed_ms": 23,
+          "cache_status": "HIT",
+          "cache_control": "public, max-age=0, must-revalidate",
+          "etag": "W/\"9e8c7f9fde0d9445918bedbec256674a\"",
+          "cf_ray": "a427d6b22ecac479-JNB"
+        },
+        {
+          "url": "https://greyscienx.com/brand/greyscienx-wordmark.svg",
+          "status": 200,
+          "elapsed_ms": 21,
+          "cache_status": "HIT",
+          "cache_control": "public, max-age=0, must-revalidate",
+          "etag": "W/\"9e8c7f9fde0d9445918bedbec256674a\"",
+          "cf_ray": "a427d6b24c0db72b-JNB"
+        }
+      ]
+    },
+    {
+      "name": "edge_pdf_cache",
+      "passed": true,
+      "requests": [
+        {
+          "url": "https://greyscienx.com/research/population-futures/when-retirement-becomes-impossible.pdf",
+          "status": 200,
+          "elapsed_ms": 21,
+          "cache_status": "HIT",
+          "cache_control": "public, max-age=0, must-revalidate",
+          "etag": "\"e995808f34fdbc648a9308a82061214f\"",
+          "cf_ray": "a427d6b26df22fcb-JNB"
+        },
+        {
+          "url": "https://greyscienx.com/research/population-futures/when-retirement-becomes-impossible.pdf",
+          "status": 200,
+          "elapsed_ms": 44,
+          "cache_status": "HIT",
+          "cache_control": "public, max-age=0, must-revalidate",
+          "etag": "\"e995808f34fdbc648a9308a82061214f\"",
+          "cf_ray": "a427d6b29ea9bd1a-JNB"
+        }
+      ]
+    },
+    {
+      "name": "mcp_cache_is_disabled",
+      "passed": true,
+      "cache_control": "no-store"
+    },
+    {
+      "name": "search_cache_policy",
+      "passed": true,
+      "cache_control": "public, max-age=300"
+    }
+  ]
+}

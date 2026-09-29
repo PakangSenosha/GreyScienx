@@ -1,0 +1,25 @@
+{
+  "edition": "HOUSEHOLD ECONOMICS · PAPER 01.01",
+  "eyebrow": "The monthly dividend",
+  "headline": "One shared home releases R8,500 a month",
+  "deck": "Same R50,000 monthly income. Fewer duplicated household costs.",
+  "visualTitle": "Monthly household cost at age 25",
+  "qualifier": "Average scenario · constant 2026 rand",
+  "bars": [
+    {
+      "name": "Two separate homes",
+      "value": 44.8,
+      "label": "R44,800",
+      "primary": false
+    },
+    {
+      "name": "One shared home",
+      "value": 36.3,
+      "label": "R36,300",
+      "primary": true
+    }
+  ],
+  "caption": "The R8,500 difference comes from lower duplicated household costs—not higher income.",
+  "source": "GreyScienx lifetime model · Hypothetical Gauteng household",
+  "url": "greyscienx.com/research"
+}

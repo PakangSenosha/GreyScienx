@@ -1,0 +1,862 @@
+{
+  "model_identity": {
+    "seed": 20260920,
+    "draws_per_scenario": 100000,
+    "currency": "constant 2024 South African rand",
+    "horizons_years": [
+      20,
+      40,
+      60
+    ],
+    "matched_salary": 420000.0,
+    "matched_saving_rate": 0.08,
+    "financial_return_real": 0.035,
+    "interpretation": "scenario model, not forecast or causal estimate"
+  },
+  "matched_descendants": {
+    "none": {
+      "label": "No inherited property",
+      "initial_inherited_equity": {
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "mean": 0.0
+      },
+      "initial_liquid_equivalent": {
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "mean": 0.0
+      },
+      "horizons": {
+        "20": {
+          "marketable_net_worth": {
+            "p10": 1049686.7521005012,
+            "p25": 1049686.7521005012,
+            "median": 1049686.7521005012,
+            "p75": 1049686.7521005012,
+            "p90": 1049686.7521005012,
+            "mean": 1049686.7521005012
+          },
+          "broader_resource_value": {
+            "p10": 1049686.7521005012,
+            "p25": 1049686.7521005012,
+            "median": 1049686.7521005012,
+            "p75": 1049686.7521005012,
+            "p90": 1049686.7521005012,
+            "mean": 1049686.7521005012
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 0.0,
+          "probability_over_10m": 0.0
+        },
+        "40": {
+          "marketable_net_worth": {
+            "p10": 3038852.3183844173,
+            "p25": 3038852.3183844173,
+            "median": 3038852.3183844173,
+            "p75": 3038852.3183844173,
+            "p90": 3038852.3183844173,
+            "mean": 3038852.3183844173
+          },
+          "broader_resource_value": {
+            "p10": 3038852.3183844173,
+            "p25": 3038852.3183844173,
+            "median": 3038852.3183844173,
+            "p75": 3038852.3183844173,
+            "p90": 3038852.3183844173,
+            "mean": 3038852.3183844173
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.0
+        },
+        "60": {
+          "marketable_net_worth": {
+            "p10": 6996871.809765881,
+            "p25": 6996871.809765881,
+            "median": 6996871.809765881,
+            "p75": 6996871.809765881,
+            "p90": 6996871.809765881,
+            "mean": 6996871.809765876
+          },
+          "broader_resource_value": {
+            "p10": 6996871.809765881,
+            "p25": 6996871.809765881,
+            "median": 6996871.809765881,
+            "p75": 6996871.809765881,
+            "p90": 6996871.809765881,
+            "mean": 6996871.809765876
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.0
+        }
+      },
+      "property_momentum_40": {
+        "median_increment_over_no_property": 0.0,
+        "increment_per_rand_initial_liquid_equivalent": 0.0
+      },
+      "decomposition_40_means": {
+        "same_earnings_and_saving": 3038852.3183844173,
+        "marketable_property_equity": 0.0,
+        "reinvested_housing_savings": 0.0,
+        "reinvested_rental_income": 0.0,
+        "reinvested_farm_income": 0.0,
+        "opportunity_channel_extended_case_mean": 0.0,
+        "opportunity_channel_use_probability": 0.0,
+        "opportunity_channel_conditional_median": 0.0
+      }
+    },
+    "communal": {
+      "label": "Rural or communal family residence",
+      "initial_inherited_equity": {
+        "p10": 47299.936451263944,
+        "p25": 68656.76971077564,
+        "median": 107774.26747874997,
+        "p75": 175233.0152522103,
+        "p90": 283210.1732953737,
+        "mean": 143318.08543238303
+      },
+      "initial_liquid_equivalent": {
+        "p10": 6570.480601710807,
+        "p25": 10192.573151733883,
+        "median": 16838.704276265576,
+        "p75": 28777.537190646737,
+        "p90": 47394.26679355396,
+        "mean": 23402.836017751964
+      },
+      "horizons": {
+        "20": {
+          "marketable_net_worth": {
+            "p10": 1067187.3346123784,
+            "p25": 1077311.5216114505,
+            "median": 1097564.0607497916,
+            "p75": 1137190.974255958,
+            "p90": 1212572.1179054293,
+            "mean": 1124310.7681303823
+          },
+          "broader_resource_value": {
+            "p10": 1111730.174800265,
+            "p25": 1141609.4902376095,
+            "median": 1197820.4220161035,
+            "p75": 1298886.8855130665,
+            "p90": 1471698.1805313563,
+            "mean": 1256334.649604478
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 0.0,
+          "probability_over_10m": 0.0
+        },
+        "40": {
+          "marketable_net_worth": {
+            "p10": 3075467.1056748508,
+            "p25": 3098882.319888074,
+            "median": 3147226.0277970573,
+            "p75": 3246064.268066112,
+            "p90": 3442359.778909617,
+            "mean": 3218566.510674234
+          },
+          "broader_resource_value": {
+            "p10": 3125711.346892793,
+            "p25": 3170823.3703611335,
+            "median": 3259582.130391212,
+            "p75": 3425217.4438639684,
+            "p90": 3729356.0906333136,
+            "mean": 3364892.570842438
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.0
+        },
+        "60": {
+          "marketable_net_worth": {
+            "p10": 7069701.899036058,
+            "p25": 7120350.359961789,
+            "median": 7228498.477066141,
+            "p75": 7456240.996942623,
+            "p90": 7909836.951874326,
+            "mean": 7398300.838763056
+          },
+          "broader_resource_value": {
+            "p10": 7127329.906062854,
+            "p25": 7202782.114325425,
+            "median": 7354674.191932252,
+            "p75": 7655172.105066374,
+            "p90": 8229757.973671971,
+            "mean": 7561563.368952267
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.00617
+        }
+      },
+      "property_momentum_40": {
+        "median_increment_over_no_property": 108373.70941263996,
+        "increment_per_rand_initial_liquid_equivalent": 6.435988638709834
+      },
+      "decomposition_40_means": {
+        "same_earnings_and_saving": 3038852.3183844173,
+        "marketable_property_equity": 28556.169775429684,
+        "reinvested_housing_savings": 140801.83577825502,
+        "reinvested_rental_income": 10356.186736131735,
+        "reinvested_farm_income": 0.0,
+        "opportunity_channel_extended_case_mean": 19.825702002097334,
+        "opportunity_channel_use_probability": 0.03985,
+        "opportunity_channel_conditional_median": 176.67948214000523
+      }
+    },
+    "township": {
+      "label": "Titled township home",
+      "initial_inherited_equity": {
+        "p10": 103888.51909357186,
+        "p25": 146145.15789691408,
+        "median": 221467.75250124265,
+        "p75": 354325.188882111,
+        "p90": 544063.0487418559,
+        "mean": 280724.1390809668
+      },
+      "initial_liquid_equivalent": {
+        "p10": 76809.74138576235,
+        "p25": 108957.31346561914,
+        "median": 166222.87506283904,
+        "p75": 266670.7366340616,
+        "p90": 411113.26302587026,
+        "mean": 211541.89733067955
+      },
+      "horizons": {
+        "20": {
+          "marketable_net_worth": {
+            "p10": 1198811.208992651,
+            "p25": 1262316.8317633092,
+            "median": 1376651.3825756635,
+            "p75": 1575825.7075423575,
+            "p90": 1865918.010511277,
+            "mean": 1467894.3936692341
+          },
+          "broader_resource_value": {
+            "p10": 1230983.8889850124,
+            "p25": 1307069.057271441,
+            "median": 1443208.2224475103,
+            "p75": 1682399.0146094933,
+            "p90": 2027083.0204884454,
+            "mean": 1551814.2623362627
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 0.00208,
+          "probability_over_10m": 0.0
+        },
+        "40": {
+          "marketable_net_worth": {
+            "p10": 3316072.56328163,
+            "p25": 3441630.7364743943,
+            "median": 3669221.48235238,
+            "p75": 4066263.785249714,
+            "p90": 4647553.168446078,
+            "mean": 3855426.050755099
+          },
+          "broader_resource_value": {
+            "p10": 3354704.9902305636,
+            "p25": 3495540.5756829875,
+            "median": 3751195.638847426,
+            "p75": 4196344.196455685,
+            "p90": 4849225.657849727,
+            "mean": 3958750.3637757567
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 1e-05
+        },
+        "60": {
+          "marketable_net_worth": {
+            "p10": 7509169.45867343,
+            "p25": 7757146.83228819,
+            "median": 8221852.906683044,
+            "p75": 9028792.34518962,
+            "p90": 10232879.98838612,
+            "mean": 8617458.731889041
+          },
+          "broader_resource_value": {
+            "p10": 7557632.3227883065,
+            "p25": 7826229.587739257,
+            "median": 8325776.881407391,
+            "p75": 9193059.97648613,
+            "p90": 10486397.076503748,
+            "mean": 8746581.283019055
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.11817
+        }
+      },
+      "property_momentum_40": {
+        "median_increment_over_no_property": 630369.1639679628,
+        "increment_per_rand_initial_liquid_equivalent": 3.7923129637220963
+      },
+      "decomposition_40_means": {
+        "same_earnings_and_saving": 3038852.3183844173,
+        "marketable_property_equity": 315710.68191577564,
+        "reinvested_housing_savings": 403300.5377260443,
+        "reinvested_rental_income": 97562.5127288609,
+        "reinvested_farm_income": 0.0,
+        "opportunity_channel_extended_case_mean": 7471.860126208771,
+        "opportunity_channel_use_probability": 0.09932,
+        "opportunity_channel_conditional_median": 47211.304699659566
+      }
+    },
+    "middle_suburb": {
+      "label": "Middle-value suburban home",
+      "initial_inherited_equity": {
+        "p10": 327159.6122536338,
+        "p25": 472790.36602261744,
+        "median": 733838.4434604258,
+        "p75": 1162133.0112675063,
+        "p90": 1689172.5723629605,
+        "mean": 898070.0336126938
+      },
+      "initial_liquid_equivalent": {
+        "p10": 290305.5977442548,
+        "p25": 419617.7835632083,
+        "median": 652781.0963275412,
+        "p75": 1033730.1947165082,
+        "p90": 1504732.646327522,
+        "mean": 799396.2419290296
+      },
+      "horizons": {
+        "20": {
+          "marketable_net_worth": {
+            "p10": 1580009.6051107105,
+            "p25": 1821002.6730221799,
+            "median": 2258381.127283859,
+            "p75": 2974100.1647982057,
+            "p90": 3881553.3793990384,
+            "mean": 2542350.4516869676
+          },
+          "broader_resource_value": {
+            "p10": 1630099.8766208934,
+            "p25": 1892702.4624346911,
+            "median": 2368936.2627551304,
+            "p75": 3151959.7906306903,
+            "p90": 4136220.3856251496,
+            "mean": 2678000.2655381006
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 0.2435,
+          "probability_over_10m": 0.00034
+        },
+        "40": {
+          "marketable_net_worth": {
+            "p10": 3971838.9939251957,
+            "p25": 4420450.070414299,
+            "median": 5236582.267967302,
+            "p75": 6577233.665764807,
+            "p90": 8336810.384904425,
+            "mean": 5793137.580945838
+          },
+          "broader_resource_value": {
+            "p10": 4039703.741445014,
+            "p25": 4518789.712484663,
+            "median": 5392190.752804179,
+            "p75": 6826360.004092217,
+            "p90": 8694262.231117884,
+            "mean": 5982723.973897739
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.04168
+        },
+        "60": {
+          "marketable_net_worth": {
+            "p10": 8641376.134100819,
+            "p25": 9488682.316927264,
+            "median": 11033262.602531366,
+            "p75": 13615400.373820936,
+            "p90": 17085170.56411946,
+            "mean": 12158316.444227116
+          },
+          "broader_resource_value": {
+            "p10": 8735653.329409633,
+            "p25": 9625312.793102957,
+            "median": 11250428.723709736,
+            "p75": 13967497.829656662,
+            "p90": 17598066.018365182,
+            "mean": 12427659.74235783
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.65893
+        }
+      },
+      "property_momentum_40": {
+        "median_increment_over_no_property": 2197729.949582885,
+        "increment_per_rand_initial_liquid_equivalent": 3.366718126408713
+      },
+      "decomposition_40_means": {
+        "same_earnings_and_saving": 3038852.3183844173,
+        "marketable_property_equity": 1536868.1452009394,
+        "reinvested_housing_savings": 914324.4393233738,
+        "reinvested_rental_income": 303092.6780371078,
+        "reinvested_farm_income": 0.0,
+        "opportunity_channel_extended_case_mean": 35883.14927142487,
+        "opportunity_channel_use_probability": 0.15927,
+        "opportunity_channel_conditional_median": 157851.67304424723
+      }
+    },
+    "high_property": {
+      "label": "High-value property or small portfolio",
+      "initial_inherited_equity": {
+        "p10": 813920.6251880605,
+        "p25": 1314825.8409853503,
+        "median": 2290434.233327768,
+        "p75": 3975620.464398504,
+        "p90": 6424271.428675087,
+        "mean": 3135417.692552453
+      },
+      "initial_liquid_equivalent": {
+        "p10": 748935.0359442021,
+        "p25": 1213528.5880298663,
+        "median": 2114157.0766177652,
+        "p75": 3673770.9056140454,
+        "p90": 5936141.951905392,
+        "mean": 2895282.993512648
+      },
+      "horizons": {
+        "20": {
+          "marketable_net_worth": {
+            "p10": 2463932.3256912865,
+            "p25": 3368626.0883907774,
+            "median": 5110919.405046553,
+            "p75": 8154570.980664934,
+            "p90": 12641128.987617068,
+            "mean": 6669625.197513931
+          },
+          "broader_resource_value": {
+            "p10": 2555584.6156468727,
+            "p25": 3513757.6127126035,
+            "median": 5365343.589159418,
+            "p75": 8590140.887307739,
+            "p90": 13339961.240364442,
+            "mean": 7015610.426829634
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 0.81204,
+          "probability_over_10m": 0.16906
+        },
+        "40": {
+          "marketable_net_worth": {
+            "p10": 5600107.127950003,
+            "p25": 7287644.957872949,
+            "median": 10588816.321627147,
+            "p75": 16429438.541332578,
+            "p90": 25090031.445737466,
+            "mean": 13654270.466984281
+          },
+          "broader_resource_value": {
+            "p10": 5728691.056461564,
+            "p25": 7490800.907881579,
+            "median": 10955272.244814925,
+            "p75": 17061399.23555325,
+            "p90": 26174892.50505163,
+            "mean": 14163067.196343362
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.53802
+        },
+        "60": {
+          "marketable_net_worth": {
+            "p10": 11594967.784898872,
+            "p25": 14741373.775248228,
+            "median": 21023302.21398583,
+            "p75": 32299170.349623874,
+            "p90": 49377333.83887464,
+            "mean": 27153433.379901633
+          },
+          "broader_resource_value": {
+            "p10": 11778077.93617624,
+            "p25": 15040887.214537589,
+            "median": 21566899.919984937,
+            "p75": 33229155.96545182,
+            "p90": 50995134.834186584,
+            "mean": 27916810.99954207
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.96242
+        }
+      },
+      "property_momentum_40": {
+        "median_increment_over_no_property": 7549964.00324273,
+        "increment_per_rand_initial_liquid_equivalent": 3.5711461966303775
+      },
+      "decomposition_40_means": {
+        "same_earnings_and_saving": 3038852.3183844173,
+        "marketable_property_equity": 6139073.924188392,
+        "reinvested_housing_savings": 1911417.6228708432,
+        "reinvested_rental_income": 2564926.6015406293,
+        "reinvested_farm_income": 0.0,
+        "opportunity_channel_extended_case_mean": 64167.53003770309,
+        "opportunity_channel_use_probability": 0.23989,
+        "opportunity_channel_conditional_median": 172014.75830013744
+      }
+    },
+    "farm": {
+      "label": "Productive agricultural property",
+      "initial_inherited_equity": {
+        "p10": 486341.927511133,
+        "p25": 815970.4366473182,
+        "median": 1468144.66009888,
+        "p75": 2672313.6956582586,
+        "p90": 4545343.025748327,
+        "mean": 2146764.9723697924
+      },
+      "initial_liquid_equivalent": {
+        "p10": 326179.970419787,
+        "p25": 554727.8989336891,
+        "median": 1008344.971719973,
+        "p75": 1851397.8979722874,
+        "p90": 3165809.3329126486,
+        "mean": 1490207.725539376
+      },
+      "horizons": {
+        "20": {
+          "marketable_net_worth": {
+            "p10": 1648054.2851153843,
+            "p25": 2074310.7997845272,
+            "median": 2944081.0015602335,
+            "p75": 4584662.542849208,
+            "p90": 7193269.86278891,
+            "mean": 3916601.8400746887
+          },
+          "broader_resource_value": {
+            "p10": 1852041.0520036947,
+            "p25": 2406565.175052327,
+            "median": 3536804.363157559,
+            "p75": 5648527.047840565,
+            "p90": 8998328.75927028,
+            "mean": 4768758.779123472
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 0.48698,
+          "probability_over_10m": 0.04395
+        },
+        "40": {
+          "marketable_net_worth": {
+            "p10": 4050202.82764206,
+            "p25": 4847608.0470509175,
+            "median": 6512390.90478149,
+            "p75": 9733870.552271288,
+            "p90": 14987672.359257426,
+            "mean": 8520291.150800252
+          },
+          "broader_resource_value": {
+            "p10": 4321613.7360355295,
+            "p25": 5291213.485239498,
+            "median": 7299599.322668731,
+            "p75": 11142532.825959913,
+            "p90": 17424624.059169192,
+            "mean": 9662878.724292297
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.23728
+        },
+        "60": {
+          "marketable_net_worth": {
+            "p10": 8701642.402359447,
+            "p25": 10215958.937680222,
+            "median": 13455819.466793982,
+            "p75": 19884304.54079131,
+            "p90": 30683350.72516511,
+            "mean": 17652493.266647965
+          },
+          "broader_resource_value": {
+            "p10": 9065958.83607586,
+            "p25": 10819707.002888156,
+            "median": 14523818.50173744,
+            "p75": 21852978.57836917,
+            "p90": 34033441.97813596,
+            "mean": 19233733.2536181
+          },
+          "probability_over_1m": 1.0,
+          "probability_over_3m": 1.0,
+          "probability_over_10m": 0.7709
+        }
+      },
+      "property_momentum_40": {
+        "median_increment_over_no_property": 3473538.5863970723,
+        "increment_per_rand_initial_liquid_equivalent": 3.4447918954483634
+      },
+      "decomposition_40_means": {
+        "same_earnings_and_saving": 3038852.3183844173,
+        "marketable_property_equity": 2591722.316498325,
+        "reinvested_housing_savings": 0.0,
+        "reinvested_rental_income": 0.0,
+        "reinvested_farm_income": 2889716.5159175103,
+        "opportunity_channel_extended_case_mean": 49395.49093813571,
+        "opportunity_channel_use_probability": 0.21845,
+        "opportunity_channel_conditional_median": 149675.52799583352
+      }
+    }
+  },
+  "synthetic_group_intake": {
+    "Black African": {
+      "modeled_any_property_probability": 0.20733,
+      "observed_large_formal_wealth_probability": 0.03,
+      "all_descendants_liquid_equivalent": {
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "p90": 75832.69854166803,
+        "mean": 46286.38779278114
+      },
+      "receivers_only_liquid_equivalent": {
+        "p10": 4896.299158900533,
+        "p25": 15551.654030672018,
+        "median": 69696.82458734597,
+        "p75": 215516.91330850037,
+        "p90": 542678.3024244484,
+        "mean": 223249.832599147
+      },
+      "probability_liquid_equivalent_over_250k": 0.04591,
+      "property_type_weights_conditional_on_receipt": {
+        "communal": 0.3,
+        "township": 0.38,
+        "middle_suburb": 0.2,
+        "high_property": 0.04,
+        "farm": 0.08
+      }
+    },
+    "Coloured": {
+      "modeled_any_property_probability": 0.3055,
+      "observed_large_formal_wealth_probability": 0.09,
+      "all_descendants_liquid_equivalent": {
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 63319.75008344087,
+        "p90": 389157.3453589914,
+        "mean": 145892.45243547557
+      },
+      "receivers_only_liquid_equivalent": {
+        "p10": 37809.32021414302,
+        "p25": 88021.02994051101,
+        "median": 217486.3621336976,
+        "p75": 515734.3831735685,
+        "p90": 1102806.155832652,
+        "mean": 477553.0357953374
+      },
+      "probability_liquid_equivalent_over_250k": 0.13973,
+      "property_type_weights_conditional_on_receipt": {
+        "communal": 0.05,
+        "township": 0.35,
+        "middle_suburb": 0.4,
+        "high_property": 0.12,
+        "farm": 0.08
+      }
+    },
+    "Indian or Asian": {
+      "modeled_any_property_probability": 0.42496,
+      "observed_large_formal_wealth_probability": 0.23,
+      "all_descendants_liquid_equivalent": {
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 315656.7705961884,
+        "p90": 948959.1775479029,
+        "mean": 341699.9637608903
+      },
+      "receivers_only_liquid_equivalent": {
+        "p10": 80577.7110141076,
+        "p25": 180857.13350320677,
+        "median": 409595.9651093111,
+        "p75": 899281.3261066655,
+        "p90": 1848759.7906710906,
+        "mean": 804075.5924343242
+      },
+      "probability_liquid_equivalent_over_250k": 0.28059,
+      "property_type_weights_conditional_on_receipt": {
+        "communal": 0.02,
+        "township": 0.18,
+        "middle_suburb": 0.52,
+        "high_property": 0.22,
+        "farm": 0.06
+      }
+    },
+    "White": {
+      "modeled_any_property_probability": 0.66585,
+      "observed_large_formal_wealth_probability": 0.45,
+      "all_descendants_liquid_equivalent": {
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 317299.1836703698,
+        "p75": 904511.3309744243,
+        "p90": 1979182.7719948483,
+        "mean": 766960.4680340318
+      },
+      "receivers_only_liquid_equivalent": {
+        "p10": 166563.81222396262,
+        "p25": 318260.2073123697,
+        "median": 644002.3218856899,
+        "p75": 1329027.472945339,
+        "p90": 2618411.9498995077,
+        "mean": 1151851.7204085484
+      },
+      "probability_liquid_equivalent_over_250k": 0.54383,
+      "property_type_weights_conditional_on_receipt": {
+        "communal": 0.01,
+        "township": 0.03,
+        "middle_suburb": 0.48,
+        "high_property": 0.32,
+        "farm": 0.16
+      }
+    }
+  },
+  "agricultural_module": {
+    "Communal / rain-fed": {
+      "same_initial_land_value": 2500000.0,
+      "marketable_value_20": {
+        "p10": 492181.5743825241,
+        "p25": 659832.559106868,
+        "median": 865220.5892789904,
+        "p75": 1086301.0114046363,
+        "p90": 1285272.7100423684,
+        "mean": 879019.8213933186
+      },
+      "broader_resource_value_20": {
+        "p10": 2590637.4007527092,
+        "p25": 2803403.1439249218,
+        "median": 3060364.9705680176,
+        "p75": 3327984.2807410555,
+        "p90": 3574327.597853843,
+        "mean": 3072601.488752784
+      },
+      "collateral_capacity_initial": {
+        "p10": 568.9836380974253,
+        "p25": 1520.634062989743,
+        "median": 3386.052030987683,
+        "p75": 6023.487148220096,
+        "p90": 8920.014577776974,
+        "mean": 4162.506350532578
+      },
+      "reinvested_productive_income_20": {
+        "p10": 82610.96831144797,
+        "p25": 242036.90011978376,
+        "median": 425018.10549682623,
+        "p75": 625605.8458687984,
+        "p90": 807289.2456744582,
+        "mean": 440073.1225106483
+      }
+    },
+    "Communal / water + capital": {
+      "same_initial_land_value": 2500000.0,
+      "marketable_value_20": {
+        "p10": 1464069.6427330908,
+        "p25": 1758408.0927040647,
+        "median": 2119265.970507359,
+        "p75": 2513675.4252443966,
+        "p90": 2872015.3532743403,
+        "mean": 2147151.0626810216
+      },
+      "broader_resource_value_20": {
+        "p10": 3727051.5056608454,
+        "p25": 4064873.0973434225,
+        "median": 4467182.44575216,
+        "p75": 4898674.751294516,
+        "p90": 5292471.9680635,
+        "mean": 4493224.367954122
+      },
+      "collateral_capacity_initial": {
+        "p10": 5894.3812840756245,
+        "p25": 9658.037321386544,
+        "median": 15516.804870320873,
+        "p75": 23598.859481892185,
+        "p90": 32125.449903964778,
+        "mean": 17507.798578393384
+      },
+      "reinvested_productive_income_20": {
+        "p10": 875376.2567511627,
+        "p25": 1158062.6598460837,
+        "median": 1489681.002958115,
+        "p75": 1870192.830524449,
+        "p90": 2217683.4230005173,
+        "mean": 1523460.0087080316
+      }
+    },
+    "Freehold / rain-fed": {
+      "same_initial_land_value": 2500000.0,
+      "marketable_value_20": {
+        "p10": 2811850.6387282265,
+        "p25": 3111255.50429448,
+        "median": 3474574.3304244843,
+        "p75": 3855989.777106824,
+        "p90": 4208013.761572355,
+        "mean": 3494360.251637148
+      },
+      "broader_resource_value_20": {
+        "p10": 3284787.5438072085,
+        "p25": 3595315.620984707,
+        "median": 3974861.257514018,
+        "p75": 4377762.943338987,
+        "p90": 4745049.366365522,
+        "mean": 3997211.67306681
+      },
+      "collateral_capacity_initial": {
+        "p10": 554769.4522527596,
+        "p25": 636541.3294912662,
+        "median": 733077.4848696145,
+        "p75": 830517.3758406863,
+        "p90": 919050.7598595143,
+        "mean": 735401.0348062393
+      },
+      "reinvested_productive_income_20": {
+        "p10": 374402.691649527,
+        "p25": 590176.5496714998,
+        "median": 839537.818323957,
+        "p75": 1117695.445911241,
+        "p90": 1369409.318634576,
+        "mean": 859083.5443982437
+      }
+    },
+    "Freehold / water + capital": {
+      "same_initial_land_value": 2500000.0,
+      "marketable_value_20": {
+        "p10": 4539252.337724024,
+        "p25": 5011037.896801085,
+        "median": 5564435.171668893,
+        "p75": 6149023.193623043,
+        "p90": 6678183.585469059,
+        "mean": 5592294.973903903
+      },
+      "broader_resource_value_20": {
+        "p10": 4828924.450103994,
+        "p25": 5308299.055316612,
+        "median": 5882034.5450547645,
+        "p75": 6479878.406077351,
+        "p90": 7026796.4308712445,
+        "mean": 5909201.794707994
+      },
+      "collateral_capacity_initial": {
+        "p10": 863325.9803445924,
+        "p25": 968272.6996507008,
+        "median": 1089585.0531966407,
+        "p75": 1209618.2685344953,
+        "p90": 1314125.8518108062,
+        "mean": 1089370.665400938
+      },
+      "reinvested_productive_income_20": {
+        "p10": 1418998.4412924547,
+        "p25": 1791999.9838972155,
+        "median": 2227562.4539139587,
+        "p75": 2688806.9800906917,
+        "p90": 3105717.634010018,
+        "mean": 2251179.776088011
+      }
+    }
+  }
+}

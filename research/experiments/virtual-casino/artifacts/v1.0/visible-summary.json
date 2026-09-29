@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "experimentId": "greyscienx-virtual-casino-v1.0-local",
+    "protocolVersion": "1.0.0",
+    "status": "completed-local-reference-run",
+    "generatedAt": "2026-06-30T23:59:59.999Z",
+    "codeRevision": "ba0e521dd6232895f01398894a8a41ee890f6a5a+dirty",
+    "sourceHash": "e1cae4ae83dc738ad7de876ed3c36f9ad237a543085ab9547bec06f1a23f4f50",
+    "configHash": "0fa5fcd22a919694dbfb3d91b01462d73418a817aab845912e037ebf955a461d",
+    "manifestHash": "1e3dc6ed3d16fffe9cd4d79f330a1c9aa2dcf6c35d06b5bbaef77c74b57f053e",
+    "visibleSeedCommitment": "d08c24f5d9ba3a720099b17a1917e0a5774b5fdf9c8da52d0008b66a3732c163",
+    "visibleSeed": "greyscienx-vc-visible-world-0001-revealed",
+    "visibleSeedStatus": "revealed-after-local-run",
+    "finalEventHash": "cd7660df0ce7ac2f22b56c222e9a247aa8f8746441ea4f55a448fc8ee94cf290",
+    "finalStateHash": "be45c461564d6532bfaa55be47c56898a8424aa85bd6408eedac7761564d82da",
+    "replicationWorlds": 1000,
+    "syntheticOnly": true
+  },
+  "summary": {
+    "handleCents": 2015776600,
+    "payoutCents": 1858877321,
+    "expectedPnlCents": -89580829,
+    "allocatedCents": 1027000000,
+    "wagers": 101422,
+    "ruins": 27,
+    "ahead": 227,
+    "behind": 773,
+    "ruinedAtLeastOnce": 26,
+    "usedAllAllocations": 0,
+    "active": 1000,
+    "ggrCents": 156899279,
+    "actualRtp": 0.9221643514464847,
+    "theoreticalRtp": 0.9555601404441345,
+    "playerWagerPnlCents": -156899279
+  }
+}

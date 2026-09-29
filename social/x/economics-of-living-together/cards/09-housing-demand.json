@@ -1,0 +1,13 @@
+{
+  "edition": "HOUSEHOLD ECONOMICS · PAPER 01.01",
+  "eyebrow": "Household formation is housing demand",
+  "headline": "Same population. Different demand for homes.",
+  "deck": "Household formation determines how many roofs and utility connections are needed.",
+  "visualTitle": "Homes maintained during the first ten years",
+  "qualifier": "Later couple versus Early couple",
+  "stat": "2 → 1",
+  "statLabel": "The Later couple maintains two homes; the Early couple maintains one.",
+  "caption": "At scale, consolidation shifts demand away from small separate units and duplicated infrastructure.",
+  "source": "GreyScienx lifetime model · Conditional macro implication",
+  "url": "greyscienx.com/research"
+}

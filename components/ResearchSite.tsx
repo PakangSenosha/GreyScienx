@@ -56,11 +56,11 @@ export function ResearchSite({
         {preview ? (
           <div className="preview-banner" role="status">
             <span>
-              Distillation preview · {previewSource === "model" ? "AI draft" : "local draft"} ·
+              Article preview · {previewSource === "model" ? "AI draft" : "local draft"} ·
               not yet published to {paperHostPath(researcher, paper)}
             </span>
             {previewWarning ? (
-              <span className="preview-warning">Model unavailable; local distillation shown.</span>
+              <span className="preview-warning">The model was unavailable; a local draft is shown.</span>
             ) : null}
           </div>
         ) : null}
@@ -83,16 +83,16 @@ export function ResearchSite({
               {preview ? (
                 <>
                   <span className="button button-primary button-disabled">
-                    PDF attaches at publication
+                    PDF added at publication
                   </span>
                   <Link className="button button-secondary" href="/">
-                    Back to GreyScienx
+                    Return to GreyScienx
                   </Link>
                 </>
               ) : (
                 <>
                   <a className="button button-primary" href={paper.pdf.href} download={pdfName}>
-                    <span>Download the research</span>
+                    <span>Download the full paper</span>
                     <span aria-hidden="true">↓</span>
                   </a>
                   <a
@@ -101,7 +101,7 @@ export function ResearchSite({
                     target="_blank"
                     rel="noopener"
                   >
-                    Read in browser
+                    Read online
                   </a>
                 </>
               )}
@@ -143,7 +143,7 @@ export function ResearchSite({
         <section className="verdict section-grid" id="findings">
           <div className="section-label">
             <span>01</span>
-            <p>The finding</p>
+            <p>The main finding</p>
           </div>
           <div className="verdict-copy">
             <p className="kicker">{paper.finding.kicker}</p>
@@ -155,7 +155,7 @@ export function ResearchSite({
         <section className="randomness section-grid" id="results">
           <div className="section-label">
             <span>02</span>
-            <p>Results</p>
+            <p>The results</p>
           </div>
           <div className="randomness-content">
             <p className="eyebrow">{paper.results.eyebrow}</p>
@@ -194,7 +194,7 @@ export function ResearchSite({
         <section className="evidence section-grid">
           <div className="section-label">
             <span>03</span>
-            <p>Evidence</p>
+            <p>The evidence</p>
           </div>
           <div className="evidence-content">
             <div className="evidence-grid">
@@ -224,7 +224,7 @@ export function ResearchSite({
         <section className="method section-grid" id="method">
           <div className="section-label light">
             <span>04</span>
-            <p>Method</p>
+            <p>How the study worked</p>
           </div>
           <div className="method-copy">
             <p className="eyebrow light-text">{paper.method.eyebrow}</p>
@@ -246,7 +246,7 @@ export function ResearchSite({
         <section className="inside section-grid">
           <div className="section-label">
             <span>05</span>
-            <p>Inside</p>
+            <p>Inside the paper</p>
           </div>
           <div className="inside-copy">
             <div>
@@ -281,22 +281,22 @@ export function ResearchSite({
 
         <section className="download-panel">
           <div>
-            <p className="eyebrow light-text">Original manuscript</p>
+            <p className="eyebrow light-text">The complete manuscript</p>
             <h2>
-              Read the armchair paper,
+              Read the full paper,
               <br />
-              not only the site.
+              not only the summary.
             </h2>
           </div>
           <div>
             <p>{paper.downloadNote}</p>
             {preview ? (
               <span className="button button-paper button-disabled">
-                PDF attaches at publication
+                PDF added at publication
               </span>
             ) : (
               <a className="button button-paper" href={paper.pdf.href} download={pdfName}>
-                Download PDF <span aria-hidden="true">↓</span>
+                Download the paper <span aria-hidden="true">↓</span>
               </a>
             )}
           </div>

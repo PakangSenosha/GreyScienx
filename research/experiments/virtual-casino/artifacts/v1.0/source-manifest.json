@@ -1,0 +1,17 @@
+{
+  "sourceHash": "e1cae4ae83dc738ad7de876ed3c36f9ad237a543085ab9547bec06f1a23f4f50",
+  "files": [
+    "engine/random.mjs",
+    "engine/games.mjs",
+    "engine/policies.mjs",
+    "engine/simulate.mjs",
+    "engine/analysis.mjs",
+    "scripts/generate-artifacts.mjs",
+    "scripts/replication-worker.mjs",
+    "scripts/replay.mjs",
+    "tests/games.test.mjs",
+    "tests/protocol.test.mjs",
+    "schemas/ledger-event.schema.json",
+    "schemas/postgres.sql"
+  ]
+}

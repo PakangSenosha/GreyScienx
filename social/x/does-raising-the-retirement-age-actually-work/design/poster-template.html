@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1080, initial-scale=1">
+  <title>GreyScienx policy dossier poster</title>
+  <style>
+    :root {
+      --black: #131200;
+      --true-black: #000000;
+      --coral: #f26157;
+      --white: #fbfffe;
+      --grey-100: #f0f1f2;
+      --grey-300: #cccccc;
+      --grey-500: #777777;
+      --grey-700: #3d3d3d;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { width: 1080px; height: 1350px; margin: 0; overflow: hidden; }
+    body { background: var(--true-black); font-family: "Segoe UI", Arial, sans-serif; }
+
+    #poster {
+      position: relative;
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      color: var(--white);
+      background: var(--true-black);
+      display: grid;
+      grid-template-rows: 126px 410px minmax(0, 1fr) 88px;
+      padding: 0 64px;
+    }
+
+    #poster::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto;
+      height: 12px;
+      background: var(--coral);
+    }
+
+    .masthead {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 36px;
+      padding: 38px 0 24px;
+      border-bottom: 2px solid var(--white);
+    }
+
+    .brand-logo { display: block; width: 294px; height: auto; }
+    .edition {
+      max-width: 560px;
+      color: var(--grey-300);
+      font-size: 18px;
+      font-weight: 900;
+      line-height: 1.15;
+      letter-spacing: 2px;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 176px;
+      gap: 44px;
+      padding: 38px 0 34px;
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      color: var(--coral);
+      font-size: 18px;
+      font-weight: 950;
+      line-height: 1;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 725px;
+      color: var(--white);
+      font-size: 72px;
+      font-weight: 950;
+      letter-spacing: -4.5px;
+      line-height: 0.94;
+    }
+
+    h1 .line { display: block; }
+    h1 .accent { color: var(--coral); }
+
+    .deck {
+      max-width: 750px;
+      margin: 24px 0 0;
+      color: var(--grey-300);
+      font-size: 24px;
+      font-weight: 650;
+      line-height: 1.28;
+    }
+
+    .hero-rail {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-width: 0;
+      border-left: 2px solid var(--grey-700);
+      padding-left: 24px;
+    }
+
+    .rail-label {
+      color: var(--grey-300);
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: 1.8px;
+      line-height: 1.25;
+      text-transform: uppercase;
+    }
+
+    .rail-value {
+      color: var(--coral);
+      font-size: 78px;
+      font-weight: 950;
+      letter-spacing: -5px;
+      line-height: 0.8;
+    }
+
+    .rail-note {
+      border-top: 2px solid var(--coral);
+      padding-top: 13px;
+      color: var(--white);
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: 1.2px;
+      line-height: 1.28;
+      text-transform: uppercase;
+    }
+
+    .evidence {
+      position: relative;
+      min-height: 0;
+      color: var(--black);
+      background: var(--white);
+      border-top: 10px solid var(--coral);
+      display: grid;
+      grid-template-rows: 84px minmax(0, 1fr) auto;
+      padding: 0 34px 28px;
+    }
+
+    .evidence::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border: 2px solid var(--white);
+      pointer-events: none;
+    }
+
+    .evidence-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+      border-bottom: 2px solid var(--black);
+    }
+
+    .visual-title {
+      color: var(--black);
+      font-size: 19px;
+      font-weight: 950;
+      letter-spacing: 1.7px;
+      text-transform: uppercase;
+    }
+
+    .qualifier {
+      max-width: 560px;
+      color: var(--grey-700);
+      font-size: 15px;
+      font-weight: 850;
+      letter-spacing: 1.15px;
+      line-height: 1.2;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    .figure {
+      min-height: 0;
+      position: relative;
+      display: flex;
+      align-items: stretch;
+      overflow: hidden;
+    }
+
+    .chart-image {
+      display: none;
+      width: 100%;
+      height: 100%;
+      padding: 22px 0 12px;
+      object-fit: contain;
+    }
+
+    .stat-layout {
+      display: none;
+      width: 100%;
+      grid-template-columns: minmax(0, 1fr) 260px;
+      gap: 28px;
+      align-items: stretch;
+      padding: 28px 0 20px;
+    }
+
+    .stat-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: var(--black);
+      color: var(--white);
+      padding: 34px 38px 38px;
+    }
+
+    .stat {
+      color: var(--coral);
+      font-size: 156px;
+      font-weight: 950;
+      letter-spacing: -10px;
+      line-height: 0.83;
+      white-space: nowrap;
+    }
+
+    .stat-label {
+      max-width: 620px;
+      margin-top: 34px;
+      color: var(--white);
+      font-size: 31px;
+      font-weight: 850;
+      letter-spacing: -1px;
+      line-height: 1.12;
+    }
+
+    .side-notes {
+      display: flex;
+      flex-direction: column;
+      border-top: 2px solid var(--black);
+    }
+
+    .side-note {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-bottom: 2px solid var(--black);
+      padding: 18px 4px;
+    }
+
+    .side-note strong {
+      color: var(--black);
+      font-size: 30px;
+      font-weight: 950;
+      letter-spacing: -1.5px;
+      line-height: 1;
+    }
+
+    .side-note span {
+      margin-top: 8px;
+      color: var(--grey-700);
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1.18;
+    }
+
+    .bars {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      gap: 25px;
+      padding: 32px 0 24px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 178px minmax(0, 1fr) 142px;
+      align-items: center;
+      gap: 22px;
+    }
+
+    .bar-name {
+      color: var(--black);
+      font-size: 21px;
+      font-weight: 900;
+      line-height: 1.08;
+    }
+
+    .bar-track { height: 54px; background: var(--grey-100); border: 2px solid var(--black); }
+    .bar-fill { height: 100%; min-width: 5px; background: var(--black); }
+    .bar-row.primary .bar-fill { background: var(--coral); }
+    .bar-value { color: var(--black); font-size: 26px; font-weight: 950; text-align: right; }
+
+    .steps {
+      display: none;
+      width: 100%;
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
+      align-items: stretch;
+      padding: 30px 0 20px;
+    }
+
+    .step {
+      min-width: 0;
+      display: grid;
+      grid-template-rows: auto auto 1fr;
+      align-content: start;
+      border-left: 2px solid var(--black);
+      padding: 26px 22px 20px;
+    }
+
+    .step:last-child { border-right: 2px solid var(--black); }
+    .step.primary { background: var(--coral); }
+    .step-name { color: var(--grey-700); font-size: 17px; font-weight: 900; letter-spacing: 1.5px; text-transform: uppercase; }
+    .step-value { margin-top: 22px; color: var(--black); font-size: 52px; font-weight: 950; letter-spacing: -3px; line-height: 0.9; }
+    .step-note { align-self: end; margin-top: 34px; color: var(--grey-700); font-size: 17px; font-weight: 750; line-height: 1.22; }
+    .step.primary .step-name, .step.primary .step-note { color: var(--black); }
+
+    .caption {
+      margin: 0;
+      border-top: 2px solid var(--black);
+      padding-top: 19px;
+      color: var(--grey-700);
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.32;
+    }
+
+    .caption::before {
+      content: "READING / ";
+      color: var(--coral);
+      font-weight: 950;
+      letter-spacing: 1px;
+    }
+
+    .footer {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 28px;
+      border-top: 2px solid var(--white);
+    }
+
+    .source {
+      color: var(--grey-300);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    .url { color: var(--white); font-size: 18px; font-weight: 950; letter-spacing: -0.2px; text-align: right; }
+  </style>
+</head>
+<body>
+  <article id="poster">
+    <header class="masthead">
+      <img class="brand-logo" src="__LOGO_DARK__" alt="GreyScienx">
+      <div class="edition" id="edition"></div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow" id="eyebrow"></p>
+        <h1 id="headline"></h1>
+        <p class="deck" id="deck"></p>
+      </div>
+      <aside class="hero-rail">
+        <div class="rail-label" id="railLabel"></div>
+        <div class="rail-value" id="railValue"></div>
+        <div class="rail-note" id="railNote"></div>
+      </aside>
+    </section>
+
+    <section class="evidence">
+      <header class="evidence-head">
+        <div class="visual-title" id="visualTitle"></div>
+        <div class="qualifier" id="qualifier"></div>
+      </header>
+      <div class="figure">
+        <img class="chart-image" id="chartImage" alt="">
+        <div class="stat-layout" id="statLayout">
+          <div class="stat-main"><div class="stat" id="stat"></div><div class="stat-label" id="statLabel"></div></div>
+          <div class="side-notes" id="sideNotes"></div>
+        </div>
+        <div class="bars" id="bars"></div>
+        <div class="steps" id="steps"></div>
+      </div>
+      <p class="caption" id="caption"></p>
+    </section>
+
+    <footer class="footer"><div class="source" id="source"></div><div class="url" id="url"></div></footer>
+  </article>
+
+  <script>
+    const DATA = __POSTER_DATA__;
+    const byId = (id) => document.getElementById(id);
+    const setText = (id, value) => { byId(id).textContent = value || ""; };
+
+    ["edition", "eyebrow", "deck", "railLabel", "railValue", "railNote", "visualTitle", "qualifier", "caption", "source", "url"]
+      .forEach((key) => setText(key, DATA[key]));
+
+    const headline = byId("headline");
+    const lines = Array.isArray(DATA.headlineLines) ? DATA.headlineLines : [DATA.headline || ""];
+    lines.forEach((value, index) => {
+      const line = document.createElement("span");
+      line.className = `line${index === DATA.accentLine ? " accent" : ""}`;
+      line.textContent = value;
+      headline.appendChild(line);
+    });
+
+    if (DATA.chartImage) {
+      const image = byId("chartImage");
+      image.src = DATA.chartImage;
+      image.style.display = "block";
+    } else if (DATA.stat) {
+      setText("stat", DATA.stat);
+      setText("statLabel", DATA.statLabel);
+      const notes = byId("sideNotes");
+      (DATA.sideNotes || []).forEach((item) => {
+        const note = document.createElement("div");
+        note.className = "side-note";
+        const value = document.createElement("strong"); value.textContent = item.value || "";
+        const label = document.createElement("span"); label.textContent = item.label || "";
+        note.append(value, label); notes.appendChild(note);
+      });
+      byId("statLayout").style.display = "grid";
+    } else if (Array.isArray(DATA.bars)) {
+      const bars = byId("bars");
+      const max = Math.max(...DATA.bars.map((item) => Number(item.value) || 0), 1);
+      DATA.bars.forEach((item) => {
+        const row = document.createElement("div"); row.className = `bar-row${item.primary ? " primary" : ""}`;
+        const name = document.createElement("div"); name.className = "bar-name"; name.textContent = item.name || "";
+        const track = document.createElement("div"); track.className = "bar-track";
+        const fill = document.createElement("div"); fill.className = "bar-fill"; fill.style.width = `${Math.max(0, Number(item.value) || 0) / max * 100}%`;
+        const value = document.createElement("div"); value.className = "bar-value"; value.textContent = item.label || "";
+        track.appendChild(fill); row.append(name, track, value); bars.appendChild(row);
+      });
+      bars.style.display = "flex";
+    } else if (Array.isArray(DATA.steps)) {
+      const steps = byId("steps");
+      DATA.steps.forEach((item) => {
+        const step = document.createElement("div"); step.className = `step${item.primary ? " primary" : ""}`;
+        const name = document.createElement("div"); name.className = "step-name"; name.textContent = item.name || "";
+        const value = document.createElement("div"); value.className = "step-value"; value.textContent = item.value || "";
+        const note = document.createElement("div"); note.className = "step-note"; note.textContent = item.note || "";
+        step.append(name, value, note); steps.appendChild(step);
+      });
+      steps.style.display = "grid";
+    }
+  </script>
+</body>
+</html>

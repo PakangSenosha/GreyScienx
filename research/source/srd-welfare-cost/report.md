@@ -305,7 +305,7 @@ The model therefore uses a qualitative risk ladder rather than attaching an arbi
 
 *Figure 9. A plausible escalation sequence, not a prediction. The final stage is deliberately unpriced because rare-event distributions and attribution are too uncertain for a credible central estimate.*
 
-This treatment is conservative in one sense: a major episode could overwhelm the priced ledger. It is cautious in another: the paper does not claim that paying R350 prevents unrest. The Public Service Commission concluded that pandemic relief reduced vulnerability and supported social stability, but that broad assessment cannot isolate the causal effect of SRD from other relief and institutions. [Public Service Commission, Assessment of COVID-19 Mitigating Mechanisms](https://www.psc.gov.za/documents/reports/2022/COVID19_Mitigating_Mechanisms_Report_March_2022_F.pdf).
+This treatment is conservative in one sense: a major episode could overwhelm the priced ledger. It is cautious in another: the paper does not claim that paying R350 prevents unrest. The Public Service Commission concluded that pandemic relief reduced vulnerability and supported social stability, but that broad assessment cannot isolate the causal effect of SRD from other relief and institutions. [Public Service Commission, Assessment of COVID-19 Mitigating Mechanisms (2022 report archive)](https://www.psc.gov.za/Resource-Center).
 
 ## A welfare-aware industrial policy
 

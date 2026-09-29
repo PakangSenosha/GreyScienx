@@ -1,0 +1,29 @@
+{
+  "pdf": "C:\\Users\\Deriv\\Desktop\\GreyScienx\\research\\publications\\the-first-three-years-advantage.pdf",
+  "sha256": "2b51480bbab161f3225caba3f1ad13d2257d819131179fbb3edf4189ef1fa490",
+  "size_bytes": 810037,
+  "pages": 20,
+  "page_points": [
+    595.2756,
+    841.8898
+  ],
+  "encrypted": false,
+  "metadata": {
+    "title": "The First Three Years Advantage",
+    "author": "GreyScienx",
+    "subject": "South African household independence, vehicle ownership and lifetime wealth",
+    "creator": "GreyScienx editorial PDF skill"
+  },
+  "text_characters": 47874,
+  "required_text": {
+    "The First Three Years Advantage": true,
+    "Central finding": true,
+    "The answer to the headline question": true,
+    "Source ledger": true,
+    "Interpretation label": true
+  },
+  "link_annotations": 114,
+  "rendered_pages_reviewed": 20,
+  "contact_sheets_reviewed": 4,
+  "visual_review": "All pages inspected; no clipping, overlap, broken headers, unreadable figures, or sparse tail pages remain."
+}

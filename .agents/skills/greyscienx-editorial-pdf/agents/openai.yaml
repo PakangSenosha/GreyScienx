@@ -1,0 +1,5 @@
+interface:
+  display_name: "GreyScienx Editorial PDF"
+  short_description: "Create branded research PDFs and figures"
+  brand_color: "#f26157"
+  default_prompt: "Use $greyscienx-editorial-pdf to turn this research note into a polished PDF with matching figures."

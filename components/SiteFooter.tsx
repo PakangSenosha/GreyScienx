@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { site } from "@/lib/site";
 
 type SiteFooterProps = {
@@ -12,6 +13,11 @@ export function SiteFooter({
   return (
     <footer>
       <p>{left}</p>
+      <nav className="footer-links" aria-label="Publication policies">
+        <Link href="/privacy">Privacy</Link>
+        <Link href="/terms">Terms</Link>
+        <Link href="/support">Support</Link>
+      </nav>
       <p>{right}</p>
     </footer>
   );

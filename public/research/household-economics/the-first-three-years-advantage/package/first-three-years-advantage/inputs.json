@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "model_version": "1.0.0",
+    "price_basis": "constant 2026 rand",
+    "start_age": 22,
+    "transition_age": 25,
+    "horizon_age": 60,
+    "last_updated": "2026-09-20"
+  },
+  "sourced_inputs": {
+    "tax_2026_27": {
+      "brackets": [245100, 383100, 530200, 695800, 887000, 1878600],
+      "base_tax": [0, 44118, 79998, 125599, 185215, 259783, 666339],
+      "rates": [0.18, 0.26, 0.31, 0.36, 0.39, 0.41, 0.45],
+      "primary_rebate": 17820,
+      "source": "https://www.sars.gov.za/guide-for-employers-in-respect-of-employees-tax-2027/"
+    },
+    "macro": {
+      "cpi_july_2026": 0.043,
+      "inflation_target": 0.03,
+      "sarb_policy_rate_july_2026": 0.07,
+      "prime_spread": 0.035,
+      "sources": [
+        "https://www.statssa.gov.za/publications/P0141/P0141July2026.pdf",
+        "https://www.resbank.co.za/en/home/what-we-do/monetary-policy",
+        "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/july",
+        "https://www.resbank.co.za/en/home/publications/publication-detail-pages/media-releases/2026/prime-cessation-paper"
+      ]
+    },
+    "earnings_anchor": {
+      "all_employee_median_monthly_2024": 6000,
+      "professional_median_monthly_2024": 25000,
+      "technician_median_monthly_2024": 20000,
+      "source": "https://www.statssa.gov.za/publications/Report-02-11-02/Report-02-11-022024.pdf"
+    },
+    "rental_anchor_q1_2026": {
+      "national_average": 9582,
+      "gauteng_average": 9600,
+      "western_cape_average": 12125,
+      "note": "Western Cape value is reconstructed from PayProp's stated Q1 average above R12,000 and 7.4% growth; city rents below are scenarios, not market estimates.",
+      "source": "https://www.payprop.com/za/blog/rental-growth-rebounds-in-q1-2026-but-not-everywhere"
+    },
+    "vehicle_cost_anchor_2026_27": {
+      "vehicle_band_upper": 230000,
+      "annual_fixed_cost": 68487,
+      "fuel_cost_per_km": 1.484,
+      "maintenance_cost_per_km": 0.614,
+      "simplified_business_rate_per_km": 4.95,
+      "source": "https://www.sars.gov.za/wp-content/uploads/Docs/Logbook/SARS-eLogbook-2026-2027.pdf"
+    },
+    "property_price_anchor": {
+      "national_yoy_april_2026": 0.079,
+      "cape_town_yoy": 0.11,
+      "johannesburg_yoy": 0.054,
+      "source": "https://www.statssa.gov.za/publications/P0160/P0160April2026.pdf"
+    }
+  },
+  "illustrative_scenarios": {
+    "salary": {
+      "lower": 240000,
+      "middle": 420000,
+      "higher": 720000
+    },
+    "salary_real_growth_first_8_years": 0.03,
+    "salary_real_growth_later": 0.015,
+    "retirement_saving_rate_from_25": 0.10,
+    "real_investment_return": 0.05,
+    "real_investment_return_low": 0.03,
+    "real_investment_return_high": 0.07,
+    "real_debt_rate": 0.10,
+    "real_cash_return": 0.01,
+    "city": {
+      "Johannesburg": {
+        "rent": 9600,
+        "utilities": 2200,
+        "groceries": 3800,
+        "household_goods": 1200,
+        "property_price": 1400000
+      },
+      "Cape Town": {
+        "rent": 12500,
+        "utilities": 2300,
+        "groceries": 4000,
+        "household_goods": 1200,
+        "property_price": 1800000
+      },
+      "Durban": {
+        "rent": 9400,
+        "utilities": 2400,
+        "groceries": 3800,
+        "household_goods": 1200,
+        "property_price": 1200000
+      }
+    },
+    "home": {
+      "minimum_household_contribution": 2500,
+      "maximum_household_contribution": 6000,
+      "share_of_take_home": 0.12,
+      "personal_food_and_services": 1200
+    },
+    "moving": {
+      "setup_furniture_and_move": 32000,
+      "rental_deposit_months": 1
+    },
+    "transport": {
+      "vehicle_price": 230000,
+      "deposit_share": 0.10,
+      "finance_nominal_rate": 0.115,
+      "finance_term_months": 60,
+      "initiation_fee": 1207,
+      "insurance_monthly": 1400,
+      "parking_and_licence_monthly": 680,
+      "fuel_per_km": 1.55,
+      "maintenance_per_km": 0.62,
+      "depreciation_first_year": 0.18,
+      "depreciation_later": 0.12,
+      "commute_one_way_km": 15,
+      "office_days_monthly": 13,
+      "personal_km_monthly": 250,
+      "public_pass_monthly": 1400,
+      "ridehail_share_of_km": 0.35,
+      "ridehail_per_km": 12.0,
+      "family_vehicle_contribution": 350
+    },
+    "personal_base_monthly": 1800,
+    "personal_takehome_share": 0.12,
+    "uif_monthly_cap": 177.12,
+    "uif_rate": 0.01,
+    "training": {
+      "cost": 60000,
+      "salary_premium": 0.05,
+      "premium_years": 5,
+      "net_share_of_gross_premium": 0.70
+    },
+    "debt_and_liquidity": {
+      "debt_balance": 50000,
+      "emergency_reserve": 60000
+    }
+  }
+}

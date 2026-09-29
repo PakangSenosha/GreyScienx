@@ -1,0 +1,81 @@
+module,profile,parameter,value,status
+matched_descendant,none,median_value,0,scenario range
+matched_descendant,none,value_sigma,0,scenario range
+matched_descendant,none,real_appreciation,"[0, 0, 0]",scenario range
+matched_descendant,none,marketability,"[0, 0, 0]",scenario range
+matched_descendant,none,housing_yield,"[0, 0, 0]",scenario range
+matched_descendant,none,maintenance,"[0, 0, 0]",scenario range
+matched_descendant,none,rent_probability,0,scenario range
+matched_descendant,none,rental_net_share,"[0, 0, 0]",scenario range
+matched_descendant,none,collateral_ltv,"[0, 0, 0]",scenario range
+matched_descendant,none,opportunity_probability,0,scenario range
+matched_descendant,none,debt_ratio,"[0, 0, 0]",scenario range
+matched_descendant,none,heir_probs,[1.0],scenario range
+matched_descendant,communal,median_value,350000,scenario range
+matched_descendant,communal,value_sigma,0.45,scenario range
+matched_descendant,communal,real_appreciation,"[-0.005, 0.004, 0.015]",scenario range
+matched_descendant,communal,marketability,"[0.05, 0.14, 0.3]",scenario range
+matched_descendant,communal,housing_yield,"[0.025, 0.045, 0.065]",scenario range
+matched_descendant,communal,maintenance,"[0.008, 0.014, 0.025]",scenario range
+matched_descendant,communal,rent_probability,0.05,scenario range
+matched_descendant,communal,rental_net_share,"[0.35, 0.55, 0.75]",scenario range
+matched_descendant,communal,collateral_ltv,"[0.0, 0.0, 0.05]",scenario range
+matched_descendant,communal,opportunity_probability,0.04,scenario range
+matched_descendant,communal,debt_ratio,"[0.0, 0.0, 0.03]",scenario range
+matched_descendant,communal,heir_probs,"[0.12, 0.24, 0.25, 0.18, 0.12, 0.09]",scenario range
+matched_descendant,township,median_value,560000,scenario range
+matched_descendant,township,value_sigma,0.38,scenario range
+matched_descendant,township,real_appreciation,"[-0.005, 0.008, 0.025]",scenario range
+matched_descendant,township,marketability,"[0.55, 0.78, 0.93]",scenario range
+matched_descendant,township,housing_yield,"[0.035, 0.055, 0.075]",scenario range
+matched_descendant,township,maintenance,"[0.01, 0.018, 0.03]",scenario range
+matched_descendant,township,rent_probability,0.18,scenario range
+matched_descendant,township,rental_net_share,"[0.4, 0.6, 0.8]",scenario range
+matched_descendant,township,collateral_ltv,"[0.12, 0.3, 0.5]",scenario range
+matched_descendant,township,opportunity_probability,0.1,scenario range
+matched_descendant,township,debt_ratio,"[0.0, 0.03, 0.12]",scenario range
+matched_descendant,township,heir_probs,"[0.22, 0.34, 0.25, 0.13, 0.06]",scenario range
+matched_descendant,middle_suburb,median_value,1500000,scenario range
+matched_descendant,middle_suburb,value_sigma,0.42,scenario range
+matched_descendant,middle_suburb,real_appreciation,"[0.0, 0.015, 0.032]",scenario range
+matched_descendant,middle_suburb,marketability,"[0.78, 0.91, 0.98]",scenario range
+matched_descendant,middle_suburb,housing_yield,"[0.03, 0.046, 0.062]",scenario range
+matched_descendant,middle_suburb,maintenance,"[0.01, 0.018, 0.03]",scenario range
+matched_descendant,middle_suburb,rent_probability,0.22,scenario range
+matched_descendant,middle_suburb,rental_net_share,"[0.45, 0.65, 0.82]",scenario range
+matched_descendant,middle_suburb,collateral_ltv,"[0.28, 0.45, 0.62]",scenario range
+matched_descendant,middle_suburb,opportunity_probability,0.16,scenario range
+matched_descendant,middle_suburb,debt_ratio,"[0.0, 0.06, 0.18]",scenario range
+matched_descendant,middle_suburb,heir_probs,"[0.35, 0.4, 0.18, 0.07]",scenario range
+matched_descendant,high_property,median_value,4500000,scenario range
+matched_descendant,high_property,value_sigma,0.65,scenario range
+matched_descendant,high_property,real_appreciation,"[0.0, 0.018, 0.036]",scenario range
+matched_descendant,high_property,marketability,"[0.84, 0.94, 0.99]",scenario range
+matched_descendant,high_property,housing_yield,"[0.028, 0.043, 0.06]",scenario range
+matched_descendant,high_property,maintenance,"[0.009, 0.017, 0.028]",scenario range
+matched_descendant,high_property,rent_probability,0.52,scenario range
+matched_descendant,high_property,rental_net_share,"[0.5, 0.7, 0.88]",scenario range
+matched_descendant,high_property,collateral_ltv,"[0.35, 0.53, 0.7]",scenario range
+matched_descendant,high_property,opportunity_probability,0.24,scenario range
+matched_descendant,high_property,debt_ratio,"[0.0, 0.08, 0.22]",scenario range
+matched_descendant,high_property,heir_probs,"[0.4, 0.38, 0.16, 0.06]",scenario range
+matched_descendant,farm,median_value,3500000,scenario range
+matched_descendant,farm,value_sigma,0.7,scenario range
+matched_descendant,farm,real_appreciation,"[-0.01, 0.012, 0.035]",scenario range
+matched_descendant,farm,marketability,"[0.42, 0.72, 0.94]",scenario range
+matched_descendant,farm,housing_yield,"[0.0, 0.0, 0.0]",scenario range
+matched_descendant,farm,maintenance,"[0.01, 0.025, 0.045]",scenario range
+matched_descendant,farm,rent_probability,0.0,scenario range
+matched_descendant,farm,rental_net_share,"[0.0, 0.0, 0.0]",scenario range
+matched_descendant,farm,collateral_ltv,"[0.18, 0.38, 0.58]",scenario range
+matched_descendant,farm,opportunity_probability,0.22,scenario range
+matched_descendant,farm,debt_ratio,"[0.0, 0.08, 0.25]",scenario range
+matched_descendant,farm,heir_probs,"[0.28, 0.36, 0.22, 0.1, 0.04]",scenario range
+group_intake,Black African,p_any,"[0.12, 0.2, 0.3]",scenario bracket around probate evidence
+group_intake,Black African,type_weights,"{""communal"": 0.3, ""township"": 0.38, ""middle_suburb"": 0.2, ""high_property"": 0.04, ""farm"": 0.08}",synthetic location/type mixture
+group_intake,Coloured,p_any,"[0.2, 0.3, 0.42]",scenario bracket around probate evidence
+group_intake,Coloured,type_weights,"{""communal"": 0.05, ""township"": 0.35, ""middle_suburb"": 0.4, ""high_property"": 0.12, ""farm"": 0.08}",synthetic location/type mixture
+group_intake,Indian or Asian,p_any,"[0.3, 0.42, 0.55]",scenario bracket around probate evidence
+group_intake,Indian or Asian,type_weights,"{""communal"": 0.02, ""township"": 0.18, ""middle_suburb"": 0.52, ""high_property"": 0.22, ""farm"": 0.06}",synthetic location/type mixture
+group_intake,White,p_any,"[0.5, 0.68, 0.82]",scenario bracket around probate evidence
+group_intake,White,type_weights,"{""communal"": 0.01, ""township"": 0.03, ""middle_suburb"": 0.48, ""high_property"": 0.32, ""farm"": 0.16}",synthetic location/type mixture

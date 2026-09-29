@@ -1,0 +1,954 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:IND-005
+  slug: the-capital-goods-economy
+  title: The Capital-Goods Economy
+  subtitle: Should South Africa specialise in the machinery that African factories will need?
+  series_id: GSX:IND
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  series_number: '04'
+  paper_number: '05'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - industrialisation
+  - south-africa
+  keywords:
+  - Industrialisation
+  - South Africa
+  - capital
+  - goods
+  - economy
+  - equipment
+  - capabilities
+  - supplier
+  - networks
+  - sit
+  - behind
+  - durable
+  - industrialisation
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - USD
+  price_basis: constant 2024 prices where the manuscript states a price basis
+research_definition:
+  central_question: What equipment, capabilities, and supplier networks sit behind durable industrialisation?
+  short_answer: 'In the central catch-up case, a weighted 6.7 percent equipment share produces about US$262 billion of South African equipment sales over twenty-five years and about US$201 billion of value retained in South Africa. Limitation: The paths are scenarios, not forecasts, and the retained value cannot be added mechanically to a GDP forecast. Some of this activity already exists. The result is a scale test of a selected machinery and service position, not a claim that South Africa should make every final product.'
+  abstract: The equipment, capabilities and supplier networks behind durable industrialisation.
+  motivation: The equipment, capabilities and supplier networks behind durable industrialisation.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - Why do capital goods determine whether industrialisation lasts?
+  - What supplier base does a capital-goods economy require?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:IND-005:R01
+  - GSX:IND-005:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - What equipment, capabilities, and supplier networks sit behind durable industrialisation?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:IND-005:M01
+    name: African capital-goods scale test
+    purpose: The model follows three African manufacturing paths from 2026 to 2050, applies equipment-purchase ratios and South African market shares, then adds lifecycle revenue and removes imported or non-South-African inputs.
+    model_class: scale scenario
+    statement: The model follows three African manufacturing paths from 2026 to 2050, applies equipment-purchase ratios and South African market shares, then adds lifecycle revenue and removes imported or non-South-African inputs.
+    inputs:
+    - manufacturing value added
+    - equipment intensity
+    - market shares
+    - service ratios
+    outputs:
+    - equipment sales
+    - lifecycle revenue
+    - retained value
+    - jobs
+    time_step: annual, 2026-2050
+    implementation_file: research/source/capital-goods-economy/model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:IND-005:A01
+    name: Central manufacturing path
+    statement: In the central catch-up case, African manufacturing value added grows from a rounded US$300 billion in 2025 to about US$1.14 trillion in 2050. Factory-equipment purchases average 24 percent of manufacturing value added.
+    value: '24'
+    unit: percent of manufacturing value added spent on factory equipment
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:IND-005:PDF
+    evidence_strength: scenario
+    sensitivity: high
+    alternatives:
+    - Drift case
+    - Industrial-surge case
+  - id: A02
+    canonical_id: GSX:IND-005:A02
+    name: South African share
+    statement: The central portfolio uses a weighted 6.7 percent South African share of equipment demand, with category shares from 3 to 10 percent.
+    value: '6.7'
+    unit: percent of equipment demand
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:IND-005:PDF
+    evidence_strength: scenario share
+    sensitivity: high
+    alternatives:
+    - A lower or higher share
+  - id: A03
+    canonical_id: GSX:IND-005:A03
+    name: Lifecycle ratios
+    statement: Spares, maintenance and refurbishment equal 4.5 percent of the surviving installed base each year. Software, training and finance add 1.8 percent.
+    value: '4.5'
+    unit: percent of the surviving installed base per year
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:IND-005:PDF
+    evidence_strength: scenario ratio
+    sensitivity: moderate
+    alternatives:
+    - A different service intensity
+  parameters:
+  - id: P01
+    name: Central manufacturing path
+    symbol: see the manuscript
+    description: In the central catch-up case, African manufacturing value added grows from a rounded US$300 billion in 2025 to about US$1.14 trillion in 2050. Factory-equipment purchases average 24 percent of manufacturing value added.
+    value: '24'
+    unit: percent of manufacturing value added spent on factory equipment
+    price_year: '2024'
+    scenario_values:
+      central: '24'
+    source_ids:
+    - GSX:IND-005:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The model follows three African manufacturing paths from 2026 to 2050, applies equipment-purchase ratios and South African market shares, then adds lifecycle revenue and removes imported or non-South-African inputs.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:IND-005:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Central catch-up case, 2026-2050
+  role: baseline
+  description: The central case produces a cumulative capital-goods market of US$3.89 trillion and about US$262 billion of South African equipment sales over twenty-five years, in constant 2024 dollars.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The Capital-Goods Economy
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/capital-goods-economy/report.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - The paths are scenarios, not forecasts, and the retained value cannot be added mechanically to a GDP forecast. Some of this activity already exists. The result is a scale test of a selected machinery and service position, not a claim that South Africa should make every final product.
+  source_register:
+  - id: GSX:IND-005:PDF
+    type: manuscript
+    title: The Capital-Goods Economy
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy.pdf
+    access_date: '2026-09-27'
+    locator: 29 pages; 1.48 MB
+    supports:
+    - GSX:IND-005:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:IND-005:SRC01
+    type: web_reference
+    title: UNIDO, International Yearbook of Industrial Statistics 2025—Africa factsheet
+    author_or_publisher: stat.unido.org
+    date: see cited resource
+    url: https://stat.unido.org/portal/storage/file/publications/yb/2025/UNIDO_IndustrialStatistics_Factsheet_Africa_2025.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC02
+    type: web_reference
+    title: World Bank, Industrialization in Sub-Saharan Africa
+    author_or_publisher: worldbank.org
+    date: see cited resource
+    url: https://www.worldbank.org/en/region/afr/publication/industrialization-in-subsaharan-africa-seizing-opportunities-in-global-value-chains
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC03
+    type: web_reference
+    title: World Bank, Making the Most of the AfCFTA
+    author_or_publisher: documents1.worldbank.org
+    date: see cited resource
+    url: https://documents1.worldbank.org/curated/en/099305006222230294/pdf/P1722320bf22cd02c09f2b0b3b320afc4a7.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC04
+    type: web_reference
+    title: 'World Bank, Integrating Africa: From Threads to Hubs'
+    author_or_publisher: worldbank.org
+    date: see cited resource
+    url: https://www.worldbank.org/en/brief/2026/08/25/integrating-africa-from-threads-to-hubs
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC05
+    type: web_reference
+    title: IDC, Integrated Report 2025
+    author_or_publisher: idc.co.za
+    date: see cited resource
+    url: https://www.idc.co.za/integrated-report/wp-content/uploads/2025/08/IDC-Integrated-Report-2025_FINAL.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC06
+    type: web_reference
+    title: IDC, The Case for Investing in South Africa
+    author_or_publisher: idc.co.za
+    date: see cited resource
+    url: https://www.idc.co.za/wp-content/uploads/2019/11/The-case-for-investing-in-South-Africa-2019-Full-publication-31-October-2019.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC07
+    type: web_reference
+    title: IDC, Sector Trends, April 2025
+    author_or_publisher: idc.co.za
+    date: see cited resource
+    url: https://www.idc.co.za/wp-content/uploads/2025/05/IDC-Research-and-Information-publication-Sector-Trends-April-2025.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC08
+    type: web_reference
+    title: Statistics South Africa, economic wrap-up for February 2026
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?p=19259
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC09
+    type: web_reference
+    title: UNIDO, Industrial Development Report 2024
+    author_or_publisher: unido.org
+    date: see cited resource
+    url: https://www.unido.org/idr/idr2024
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC10
+    type: web_reference
+    title: UN Trade and Development, Economic Development in Africa Report 2024
+    author_or_publisher: unctad.org
+    date: see cited resource
+    url: https://unctad.org/system/files/official-document/aldcafrica2024_en.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC11
+    type: web_reference
+    title: Afreximbank, African Trade Report 2024
+    author_or_publisher: media.afreximbank.com
+    date: see cited resource
+    url: https://media.afreximbank.com/afrexim/African-Trade-Report_2024.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC12
+    type: web_reference
+    title: Statistics South Africa, Manufacturing production and sales, December 2025
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?PPN=P3041.2&SCH=74197&page_id=1856
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-005:SRC13
+    type: web_reference
+    title: the dtic, Annual Report 2024/25
+    author_or_publisher: thedtic.gov.za
+    date: see cited resource
+    url: https://www.thedtic.gov.za/wp-content/uploads/ANNUAL-REPORT_2025.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:IND-005:R01
+    statement: The central case produces a cumulative capital-goods market of US$3.89 trillion and about US$262 billion of South African equipment sales over twenty-five years, in constant 2024 dollars.
+    value: '262'
+    unit: billion constant 2024 US dollars of equipment sales
+    price_year: '2024'
+    year_or_period: Central catch-up case, 2026-2050
+    scenario_id: Central catch-up case, 2026-2050
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:IND-005:PDF
+    reproducible_from:
+    - GSX:IND-005:M01
+  - id: R02
+    canonical_id: GSX:IND-005:R02
+    statement: Lifecycle revenue is about US$105 billion. Cumulative value retained in South Africa is approximately US$201 billion, about US$8.0 billion a year on average, with an illustrative 80,000 direct jobs.
+    value: '201'
+    unit: billion constant 2024 US dollars retained in South Africa
+    price_year: '2024'
+    year_or_period: Central case after removing non-South-African inputs
+    scenario_id: Central case after removing non-South-African inputs
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:IND-005:PDF
+    reproducible_from:
+    - GSX:IND-005:M01
+  headline_results:
+  - GSX:IND-005:R01
+  sensitivity_results:
+  - GSX:IND-005:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - The paths are scenarios, not forecasts, and the retained value cannot be added mechanically to a GDP forecast. Some of this activity already exists. The result is a scale test of a selected machinery and service position, not a claim that South Africa should make every final product.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:IND-005:C01
+    claim: In the central catch-up case, a weighted 6.7 percent equipment share produces about US$262 billion of South African equipment sales over twenty-five years and about US$201 billion of value retained in South Africa.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:IND-005:A01
+    - GSX:IND-005:A02
+    - GSX:IND-005:A03
+    derived_from_results: &id004
+    - GSX:IND-005:R01
+    - GSX:IND-005:R02
+    supported_by_sources:
+    - GSX:IND-005:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The paths are scenarios, not forecasts, and the retained value cannot be added mechanically to a GDP forecast. Some of this activity already exists. The result is a scale test of a selected machinery and service position, not a claim that South Africa should make every final product.
+    sensitivity: high
+    retrieval_text: In the central catch-up case, a weighted 6.7 percent equipment share produces about US$262 billion of South African equipment sales over twenty-five years and about US$201 billion of value retained in South Africa.
+    citation_text: GreyScienx, GSX:IND-005:C01, version 1.0.
+    href: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy/claims/C01
+  - id: C02
+    canonical_id: GSX:IND-005:C02
+    claim: Under the drift case, cumulative equipment demand is US$1.80 trillion. The industrial-surge case reaches US$7.11 trillion. The opportunity depends on African industrialisation actually occurring.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:IND-005:A01
+    derived_from_results:
+    - GSX:IND-005:R01
+    supported_by_sources:
+    - GSX:IND-005:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: Demography alone does not buy machines. The domestic machinery base is also described as eroding, so the share is not assured.
+    sensitivity: high
+    retrieval_text: Under the drift case, cumulative equipment demand is US$1.80 trillion. The industrial-surge case reaches US$7.11 trillion. The opportunity depends on African industrialisation actually occurring.
+    citation_text: GreyScienx, GSX:IND-005:C02, version 1.0.
+    href: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - The paths are scenarios, not forecasts, and the retained value cannot be added mechanically to a GDP forecast. Some of this activity already exists. The result is a scale test of a selected machinery and service position, not a claim that South Africa should make every final product.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: The paths are scenarios, not forecasts, and the retained value cannot be added mechanically to a GDP forecast. Some of this activity already exists. The result is a scale test of a selected machinery and service position, not a claim that South Africa should make every final product.
+  limitations:
+  - The paths are scenarios, not forecasts, and the retained value cannot be added mechanically to a GDP forecast. Some of this activity already exists. The result is a scale test of a selected machinery and service position, not a claim that South Africa should make every final product.
+  - Demography alone does not buy machines. The domestic machinery base is also described as eroding, so the share is not assured.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - The paths are scenarios, not forecasts, and the retained value cannot be added mechanically to a GDP forecast. Some of this activity already exists. The result is a scale test of a selected machinery and service position, not a claim that South Africa should make every final product.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/capital-goods-economy/report.md
+    pdf: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy.pdf
+    html: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy
+    clean_markdown: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/capital-goods-economy/report.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:IND-005:PDF
+    result_ids:
+    - GSX:IND-005:R01
+  figures:
+  - id: F01
+    title: African manufacturing paths
+    caption: Figure 1. The paths are transparent scenarios, not forecasts. The starting value is a rounded interpretation of Africa's current manufacturing scale.
+    alt_text: African manufacturing paths
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/capital-goods-economy/assets/manufacturing-paths.png
+    data_file: research/source/capital-goods-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-005:R01
+    source_ids:
+    - GSX:IND-005:PDF
+  - id: F02
+    title: Equipment demand
+    caption: Figure 2. The capital-goods ratios are constructed assumptions. They combine new capacity, replacement, power systems, controls and industrial upgrading.
+    alt_text: Equipment demand
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/capital-goods-economy/assets/equipment-demand.png
+    data_file: research/source/capital-goods-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-005:R01
+    source_ids:
+    - GSX:IND-005:PDF
+  - id: F03
+    title: Capital-goods categories
+    caption: Figure 3. The allocation is a scenario assumption. It describes a diversified industrial transition rather than a detailed forecast of sectoral investment.
+    alt_text: Capital-goods categories
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/capital-goods-economy/assets/category-market.png
+    data_file: research/source/capital-goods-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-005:R01
+    source_ids:
+    - GSX:IND-005:PDF
+  - id: F04
+    title: South African equipment sales
+    caption: Figure 4. The largest captured categories combine an existing capability base with large African demand. All shares are challengeable assumptions.
+    alt_text: South African equipment sales
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/capital-goods-economy/assets/category-capture.png
+    data_file: research/source/capital-goods-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-005:R01
+    source_ids:
+    - GSX:IND-005:PDF
+  - id: F05
+    title: Capture funnel
+    caption: Figure 5. Lifecycle revenue is additional to equipment sales but derives from the modelled installed base. Domestic value added is lower than gross revenue.
+    alt_text: Capture funnel
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/capital-goods-economy/assets/capture-funnel.png
+    data_file: research/source/capital-goods-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-005:R01
+    source_ids:
+    - GSX:IND-005:PDF
+  - id: F06
+    title: Lifecycle revenue
+    caption: Figure 6. Service revenue rises behind equipment sales because each year's installations join the surviving installed base.
+    alt_text: Lifecycle revenue
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/capital-goods-economy/assets/lifecycle-stack.png
+    data_file: research/source/capital-goods-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-005:R01
+    source_ids:
+    - GSX:IND-005:PDF
+  - id: F07
+    title: Three business models
+    caption: Figure 7. The platform case combines higher share with higher domestic value retention. It is an ambition case, not the paper's central expectation.
+    alt_text: Three business models
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/capital-goods-economy/assets/business-models.png
+    data_file: research/source/capital-goods-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-005:R01
+    source_ids:
+    - GSX:IND-005:PDF
+  - id: F08
+    title: Market share and employment
+    caption: Figure 8. The relationship includes lifecycle revenue and uses the central manufacturing path. Employment depends heavily on product mix and productivity.
+    alt_text: Market share and employment
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/capital-goods-economy/assets/share-jobs.png
+    data_file: research/source/capital-goods-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-005:R01
+    source_ids:
+    - GSX:IND-005:PDF
+  - id: F09
+    title: Product strategy
+    caption: Figure 9. Positions are qualitative. The map is a strategic screen, not a measured competitiveness index.
+    alt_text: Product strategy
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/capital-goods-economy/assets/product-map.png
+    data_file: research/source/capital-goods-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-005:R01
+    source_ids:
+    - GSX:IND-005:PDF
+  - id: F10
+    title: Capital-goods roadmap
+    caption: Figure 10. The phases overlap. Firms and product families will move at different speeds.
+    alt_text: Capital-goods roadmap
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/capital-goods-economy/assets/roadmap.png
+    data_file: research/source/capital-goods-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-005:R01
+    source_ids:
+    - GSX:IND-005:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/capital-goods-economy/model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/capital-goods-economy/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/capital-goods-economy/model.py
+  - research/source/capital-goods-economy/model_results.json
+  data_files:
+  - research/source/capital-goods-economy/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/capital-goods-economy/model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:IND-001
+    slug: the-south-african-critical-minerals-industrial-complex
+    title: The South African Critical Minerals Industrial Complex
+    href: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex
+    relationship: same_series
+  - id: GSX:IND-002
+    slug: the-platinum-to-hydrogen-economy
+    title: The Platinum-to-Hydrogen Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy
+    relationship: same_series
+  - id: GSX:IND-003
+    slug: the-manganese-to-battery-economy
+    title: The Manganese-to-Battery Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy
+    relationship: same_series
+  - id: GSX:IND-004
+    slug: the-vanadium-grid-storage-economy
+    title: The Vanadium Grid-Storage Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-vanadium-grid-storage-economy
+    relationship: same_series
+  - id: GSX:IND-006
+    slug: the-mineral-sovereign-wealth-fund
+    title: The Mineral Sovereign Wealth Fund
+    href: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:IND-004
+    title: The Vanadium Grid-Storage Economy
+    paper_number: '04'
+  successor_studies:
+  - id: GSX:IND-006
+    title: The Mineral Sovereign Wealth Fund
+    paper_number: '06'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - industrialisation
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:IND-005:C01
+    predicate: depends_on
+    object_id: GSX:IND-005:A01
+    note: Registered dependency.
+  - subject_id: GSX:IND-005:C01
+    predicate: depends_on
+    object_id: GSX:IND-005:A02
+    note: Registered dependency.
+  - subject_id: GSX:IND-005:C01
+    predicate: depends_on
+    object_id: GSX:IND-005:A03
+    note: Registered dependency.
+  - subject_id: GSX:IND-005:C01
+    predicate: derived_from
+    object_id: GSX:IND-005:R01
+    note: Registered result.
+  - subject_id: GSX:IND-005:C01
+    predicate: derived_from
+    object_id: GSX:IND-005:R02
+    note: Registered result.
+  - subject_id: GSX:IND-005:C02
+    predicate: depends_on
+    object_id: GSX:IND-005:A01
+    note: Registered dependency.
+  - subject_id: GSX:IND-005:C02
+    predicate: derived_from
+    object_id: GSX:IND-005:R01
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The Capital-Goods Economy. GSX:IND-005. Version 1.0.
+  machine_citation: GreyScienx, GSX:IND-005, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy
+    html: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy
+    markdown: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy/markdown
+    json: https://greyscienx.com/api/v1/research/the-capital-goods-economy
+    pdf: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy.pdf
+    api: https://greyscienx.com/api/v1/research/the-capital-goods-economy
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The Capital-Goods Economy
+    identifier: GSX:IND-005
+    url: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: The equipment, capabilities and supplier networks behind durable industrialisation.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: In the central catch-up case, a weighted 6.7 percent equipment share produces about US$262 billion of South African equipment sales over twenty-five years and about US$201 billion of value retained in South Africa.
+    claim_ids:
+    - GSX:IND-005:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:IND-005:PDF
+    page: manuscript Part I
+    token_estimate: 33
+  question_aliases:
+  - Why do capital goods determine whether industrialisation lasts?
+  - What supplier base does a capital-goods economy require?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:IND-005, version 1.0
+    claim_level_pattern: GreyScienx, GSX:IND-005:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:IND-005
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:IND-005

@@ -1,0 +1,779 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:POP-011
+  slug: the-population-system
+  title: The Population System
+  subtitle: What ten GreyScienx studies say when they are read as one argument
+  series_id: GSX:POP
+  series_slug: population-futures
+  series_title: Population Futures
+  series_number: '02'
+  paper_number: '11'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/population-futures/the-population-system
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - population-decline
+  - fiscal-policy
+  - retirement
+  - south-africa
+  keywords:
+  - Population decline
+  - Fiscal policy
+  - Retirement
+  - South Africa
+  - population
+  - system
+  - studies
+  - connect
+  - one
+  - policy
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: How do the population studies connect as one policy system?
+  short_answer: 'Demographic pressure, in this synthesis, is rarely a shortage of people in the abstract. It is a failure of timing, matching and institutions. Income can arrive after it is useful, workers can exist outside the jobs that need them, homes can stand in the wrong places, and reform can begin after the cheaper options have expired. Limitation: This is a structural reading of ten hypothetical models, not a new forecast and not a single national estimate. The magnitudes belong to the individual studies. A smaller population can still need more homes, and higher productivity can preserve GDP while hospitals remain understaffed.'
+  abstract: A synthesis of the ten population studies as one connected policy system.
+  motivation: A synthesis of the ten population studies as one connected policy system.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - How do retirement, fertility, housing, labour, and fiscal pressure interact?
+  - What does population decline look like when the separate studies are read together?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:POP-011:R01
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - How do the population studies connect as one policy system?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:POP-011:M01
+    name: Ten studies, one system
+    purpose: The paper reads the ten population studies as one feedback system. It does not add a separate numerical model.
+    model_class: scenario model
+    statement: The paper reads the ten population studies as one feedback system. It does not add a separate numerical model. Household formation is treated as the prequel because it changes housing demand, care, risk sharing and saving before the pension and demographic calculations begin.
+    inputs:
+    - Synthesis, not a new forecast
+    - Household formation is the prequel
+    outputs:
+    - R01
+    time_step: stated in the manuscript prose
+    implementation_file: research/source/papers_11_12_model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:POP-011:A01
+    name: Synthesis, not a new forecast
+    statement: The ten population studies are read as windows on one system. Their models are hypothetical, use South African rand and South-African or Gauteng-scale examples, and are not forecasts.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:POP-011:PDF
+    evidence_strength: synthesis
+    sensitivity: moderate
+    alternatives:
+    - Reading each study as a separate crisis
+  - id: A02
+    canonical_id: GSX:POP-011:A02
+    name: Household formation is the prequel
+    statement: Household formation changes housing demand, consumption, care, risk sharing and the capacity to save before any pension or demographic calculation begins.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript figure note and Part II
+    source_ids:
+    - GSX:POP-011:PDF
+    evidence_strength: synthesis
+    sensitivity: moderate
+    alternatives:
+    - see the manuscript sensitivity discussion
+  parameters:
+  - id: P01
+    name: Synthesis, not a new forecast
+    symbol: see the manuscript
+    description: The ten population studies are read as windows on one system. Their models are hypothetical, use South African rand and South-African or Gauteng-scale examples, and are not forecasts.
+    value: qualitative
+    unit: see the statement
+    price_year: '2026'
+    scenario_values:
+      central: qualitative
+    source_ids:
+    - GSX:POP-011:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The paper reads the ten population studies as one feedback system. It does not add a separate numerical model. Household formation is treated as the prequel because it changes housing demand, care, risk sharing and saving before the pension and demographic calculations begin.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:POP-011:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Ten studies read as one system
+  role: baseline
+  description: Read together, the studies say demographic pressure is rarely a shortage of people in the abstract. It is a failure of timing, matching and institutions.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The Population System
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/population-futures/the-population-system
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/population-system/the-population-system.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - This is a structural reading of ten hypothetical models, not a new forecast and not a single national estimate. The magnitudes belong to the individual studies. A smaller population can still need more homes, and higher productivity can preserve GDP while hospitals remain understaffed.
+  source_register:
+  - id: GSX:POP-011:PDF
+    type: manuscript
+    title: The Population System
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/population-futures/the-population-system.pdf
+    access_date: '2026-09-27'
+    locator: 29 pages; 1.08 MB
+    supports:
+    - GSX:POP-011:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:POP-011:SRC01
+    type: web_reference
+    title: Statistics South Africa, Quarterly Labour Force Survey
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?page_id=1854&PPN=P0211
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-011:SRC02
+    type: web_reference
+    title: mid-year population estimates
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?page_id=1854&PPN=P0302
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-011:SRC03
+    type: web_reference
+    title: OECD, Pensions at a Glance 2025
+    author_or_publisher: oecd.org
+    date: see cited resource
+    url: https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-011:SRC04
+    type: web_reference
+    title: United Nations, World Population Prospects
+    author_or_publisher: population.un.org
+    date: see cited resource
+    url: https://population.un.org/wpp/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-011:SRC05
+    type: web_reference
+    title: 'International Labour Organization, World Employment and Social Outlook: Trends 2025'
+    author_or_publisher: doi.org
+    date: see cited resource
+    url: https://doi.org/10.54394/IZLN1673
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-011:SRC06
+    type: web_reference
+    title: World Health Organization, health workforce
+    author_or_publisher: who.int
+    date: see cited resource
+    url: https://www.who.int/health-topics/health-workforce
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-011:SRC07
+    type: web_reference
+    title: International Monetary Fund, Gen-AI and the future of work
+    author_or_publisher: imf.org
+    date: see cited resource
+    url: https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:POP-011:R01
+    statement: Read together, the studies say demographic pressure is rarely a shortage of people in the abstract. It is a failure of timing, matching and institutions.
+    value: structural
+    unit: synthesis across the ten population studies
+    price_year: '2026'
+    year_or_period: Ten studies read as one system
+    scenario_id: Ten studies read as one system
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: moderate
+    source_data_ids:
+    - GSX:POP-011:PDF
+    reproducible_from:
+    - GSX:POP-011:M01
+  headline_results:
+  - GSX:POP-011:R01
+  sensitivity_results:
+  - Sensitivity cases are described in the manuscript and are not given a separate register.
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - This is a structural reading of ten hypothetical models, not a new forecast and not a single national estimate. The magnitudes belong to the individual studies. A smaller population can still need more homes, and higher productivity can preserve GDP while hospitals remain understaffed.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:POP-011:C01
+    claim: Demographic pressure, in this synthesis, is rarely a shortage of people in the abstract. It is a failure of timing, matching and institutions. Income can arrive after it is useful, workers can exist outside the jobs that need them, homes can stand in the wrong places, and reform can begin after the cheaper options have expired.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:POP-011:A01
+    - GSX:POP-011:A02
+    derived_from_results: &id004
+    - GSX:POP-011:R01
+    supported_by_sources:
+    - GSX:POP-011:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: This is a structural reading of ten hypothetical models, not a new forecast and not a single national estimate. The magnitudes belong to the individual studies. A smaller population can still need more homes, and higher productivity can preserve GDP while hospitals remain understaffed.
+    sensitivity: moderate
+    retrieval_text: Demographic pressure, in this synthesis, is rarely a shortage of people in the abstract. It is a failure of timing, matching and institutions.
+    citation_text: GreyScienx, GSX:POP-011:C01, version 1.0.
+    href: https://greyscienx.com/research/population-futures/the-population-system/claims/C01
+  - id: C02
+    canonical_id: GSX:POP-011:C02
+    claim: The manuscript's policy lesson is a portfolio that acts on several clocks. Immediate protection, medium-term labour and housing adjustment, and long-term changes to careers, families and retirement are the three clocks it names.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:POP-011:A01
+    derived_from_results:
+    - GSX:POP-011:R01
+    supported_by_sources:
+    - GSX:POP-011:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: This is the paper's normative lesson drawn from the ten models. It does not rank a specific tax, grant or retirement age, and it does not replace the conditional results inside the individual studies.
+    sensitivity: moderate
+    retrieval_text: The policy lesson is a portfolio that acts on immediate protection, medium-term labour and housing adjustment, and long-term changes to careers, families and retirement.
+    citation_text: GreyScienx, GSX:POP-011:C02, version 1.0.
+    href: https://greyscienx.com/research/population-futures/the-population-system/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - This is a structural reading of ten hypothetical models, not a new forecast and not a single national estimate. The magnitudes belong to the individual studies. A smaller population can still need more homes, and higher productivity can preserve GDP while hospitals remain understaffed.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: This is a structural reading of ten hypothetical models, not a new forecast and not a single national estimate. The magnitudes belong to the individual studies. A smaller population can still need more homes, and higher productivity can preserve GDP while hospitals remain understaffed.
+  limitations:
+  - This is a structural reading of ten hypothetical models, not a new forecast and not a single national estimate. The magnitudes belong to the individual studies. A smaller population can still need more homes, and higher productivity can preserve GDP while hospitals remain understaffed.
+  - This is the paper's normative lesson drawn from the ten models. It does not rank a specific tax, grant or retirement age, and it does not replace the conditional results inside the individual studies.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - This is a structural reading of ten hypothetical models, not a new forecast and not a single national estimate. The magnitudes belong to the individual studies. A smaller population can still need more homes, and higher productivity can preserve GDP while hospitals remain understaffed.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/population-system/the-population-system.md
+    pdf: https://greyscienx.com/research/population-futures/the-population-system.pdf
+    html: https://greyscienx.com/research/population-futures/the-population-system
+    clean_markdown: https://greyscienx.com/research/population-futures/the-population-system/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/population-system/the-population-system.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:POP-011:PDF
+    result_ids:
+    - GSX:POP-011:R01
+  figures:
+  - id: F01
+    title: Ten studies, one system
+    caption: 'Figure 1. The ten studies form a feedback system. Household formation is the prequel: it changes housing demand, consumption, care, risk sharing and the capacity to save before any pension or demographic calculation begins.'
+    alt_text: Ten studies, one system
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/population-system/assets/ten-studies-one-system.png
+    data_file: research/source/population-system/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-011:R01
+    source_ids:
+    - GSX:POP-011:PDF
+  - id: F02
+    title: Ten headline results
+    caption: Figure 2. One selected result from each study. These are outputs from declared thought experiments, not observed national forecasts.
+    alt_text: Ten headline results
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/population-system/assets/ten-headline-results.png
+    data_file: research/source/population-system/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-011:R01
+    source_ids:
+    - GSX:POP-011:PDF
+  - id: F03
+    title: The policy clock
+    caption: Figure 3. Approximate periods before selected interventions become substantially effective. The bars are organising ranges, not estimated implementation lags for South Africa.
+    alt_text: The policy clock
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/population-system/assets/policy-clock.png
+    data_file: research/source/population-system/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-011:R01
+    source_ids:
+    - GSX:POP-011:PDF
+  - id: F04
+    title: Intervention matrix
+    caption: Figure 4. A qualitative dependency map built from the ten models. A value of 3 means the lever is binding to the modelled outcome; 0 means it is peripheral. It is not an empirical ranking of policy effectiveness.
+    alt_text: Intervention matrix
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/population-system/assets/intervention-matrix.png
+    data_file: research/source/population-system/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-011:R01
+    source_ids:
+    - GSX:POP-011:PDF
+  - id: F05
+    title: Cost of delay
+    caption: 'Figure 5. A synthetic system-pressure illustration. The index combines non-comparable domains only to show path dependence: early reform slows pressure, delay steepens it, and a major 2050 shock turns adjustment into emergency.'
+    alt_text: Cost of delay
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/population-system/assets/cost-of-delay.png
+    data_file: research/source/population-system/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-011:R01
+    source_ids:
+    - GSX:POP-011:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/papers_11_12_model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/population-system/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/papers_11_12_model.py
+  - research/source/population-system/model_results.json
+  data_files:
+  - research/source/population-system/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/papers_11_12_model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:POP-001
+    slug: when-retirement-becomes-impossible
+    title: When Retirement Becomes Impossible
+    href: https://greyscienx.com/research/population-futures/when-retirement-becomes-impossible
+    relationship: same_series
+  - id: GSX:POP-002
+    slug: todays-unemployment-is-tomorrows-pension-crisis
+    title: Today’s Unemployment Is Tomorrow’s Pension Crisis
+    href: https://greyscienx.com/research/population-futures/todays-unemployment-is-tomorrows-pension-crisis
+    relationship: same_series
+  - id: GSX:POP-003
+    slug: does-raising-the-retirement-age-actually-work
+    title: Does Raising the Retirement Age Actually Work?
+    href: https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work
+    relationship: same_series
+  - id: GSX:POP-004
+    slug: the-politics-of-an-ageing-electorate
+    title: The Politics of an Ageing Electorate
+    href: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate
+    relationship: same_series
+  - id: GSX:POP-005
+    slug: emergency-ageing-austerity
+    title: Emergency Ageing Austerity
+    href: https://greyscienx.com/research/population-futures/emergency-ageing-austerity
+    relationship: same_series
+  - id: GSX:POP-006
+    slug: the-price-of-another-child
+    title: The Price of Another Child
+    href: https://greyscienx.com/research/population-futures/the-price-of-another-child
+    relationship: same_series
+  - id: GSX:POP-007
+    slug: the-hundred-year-life
+    title: The Hundred-Year Life
+    href: https://greyscienx.com/research/population-futures/the-hundred-year-life
+    relationship: same_series
+  - id: GSX:POP-008
+    slug: inheritance-after-retirement
+    title: Inheritance After Retirement
+    href: https://greyscienx.com/research/population-futures/inheritance-after-retirement
+    relationship: same_series
+  - id: GSX:POP-009
+    slug: how-to-shrink-a-country-without-breaking-it
+    title: How to Shrink a Country Without Breaking It
+    href: https://greyscienx.com/research/population-futures/how-to-shrink-a-country-without-breaking-it
+    relationship: same_series
+  - id: GSX:POP-010
+    slug: the-scarce-worker-economy
+    title: The Scarce-Worker Economy
+    href: https://greyscienx.com/research/population-futures/the-scarce-worker-economy
+    relationship: same_series
+  - id: GSX:POP-012
+    slug: extreme-fiscal-pressure
+    title: Extreme Fiscal Pressure
+    href: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:POP-001
+    title: When Retirement Becomes Impossible
+    paper_number: '01'
+  successor_studies:
+  - id: GSX:POP-012
+    title: Extreme Fiscal Pressure
+    paper_number: '12'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - population-decline
+  - fiscal-policy
+  - retirement
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:POP-011:C01
+    predicate: depends_on
+    object_id: GSX:POP-011:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-011:C01
+    predicate: depends_on
+    object_id: GSX:POP-011:A02
+    note: Registered dependency.
+  - subject_id: GSX:POP-011:C01
+    predicate: derived_from
+    object_id: GSX:POP-011:R01
+    note: Registered result.
+  - subject_id: GSX:POP-011:C02
+    predicate: depends_on
+    object_id: GSX:POP-011:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-011:C02
+    predicate: derived_from
+    object_id: GSX:POP-011:R01
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The Population System. GSX:POP-011. Version 1.0.
+  machine_citation: GreyScienx, GSX:POP-011, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/population-futures/the-population-system
+    html: https://greyscienx.com/research/population-futures/the-population-system
+    markdown: https://greyscienx.com/research/population-futures/the-population-system/markdown
+    json: https://greyscienx.com/api/v1/research/the-population-system
+    pdf: https://greyscienx.com/research/population-futures/the-population-system.pdf
+    api: https://greyscienx.com/api/v1/research/the-population-system
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The Population System
+    identifier: GSX:POP-011
+    url: https://greyscienx.com/research/population-futures/the-population-system
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: A synthesis of the ten population studies as one connected policy system.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: Demographic pressure, in this synthesis, is rarely a shortage of people in the abstract. It is a failure of timing, matching and institutions. Income can arrive after it is useful, workers can exist outside the jobs that need them, homes can stand in the wrong places, and reform can begin after the cheaper options have expired.
+    claim_ids:
+    - GSX:POP-011:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:POP-011:PDF
+    page: manuscript Part I
+    token_estimate: 56
+  question_aliases:
+  - How do retirement, fertility, housing, labour, and fiscal pressure interact?
+  - What does population decline look like when the separate studies are read together?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:POP-011, version 1.0
+    claim_level_pattern: GreyScienx, GSX:POP-011:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:POP-011
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:POP-011

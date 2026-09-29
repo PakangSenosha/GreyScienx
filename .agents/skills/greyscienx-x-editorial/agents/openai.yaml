@@ -1,0 +1,5 @@
+interface:
+  display_name: "GreyScienx X Editorial"
+  short_description: "Turn research papers into verified X post packs"
+  brand_color: "#F26157"
+  default_prompt: "Use $greyscienx-x-editorial to create a ten-post X package with matching research cards for this publication."

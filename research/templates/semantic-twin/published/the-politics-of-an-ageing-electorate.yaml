@@ -1,0 +1,819 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:POP-004
+  slug: the-politics-of-an-ageing-electorate
+  title: The Politics of an Ageing Electorate
+  subtitle: Voting power, public spending and the risk of fiscal gerontocracy
+  series_id: GSX:POP
+  series_slug: population-futures
+  series_title: Population Futures
+  series_number: '02'
+  paper_number: '04'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - fiscal-policy
+  - retirement
+  - population-decline
+  - south-africa
+  keywords:
+  - Fiscal policy
+  - Retirement
+  - Population decline
+  - South Africa
+  - politics
+  - ageing
+  - electorate
+  - voter
+  - age
+  - structure
+  - redirect
+  - spending
+  - intergenerational
+  - transfers
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: How can voter age structure redirect spending and intergenerational transfers?
+  short_answer: 'In the 2025 calibration, people aged 60 or older are 15.1 percent of adults but 20.7 percent of votes cast. Applying the 2024 age-turnout pattern produces a median voter aged 43, four years older than the median adult. Limitation: The turnout rates are a strong pattern extrapolated from identification scans, not a perfect census of every voter. The median voter is the age that splits votes cast in half. It is not one person whose wishes become policy.'
+  abstract: How voter age structure can redirect spending and intergenerational transfers.
+  motivation: How voter age structure can redirect spending and intergenerational transfers.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - How does an ageing electorate change the politics of public spending?
+  - What happens to intergenerational transfers when the median voter is older?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:POP-004:R01
+  - GSX:POP-004:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - How can voter age structure redirect spending and intergenerational transfers?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:POP-004:M01
+    name: Electorate-versus-population cohort
+    purpose: A simple cohort model moves the 2025 age structure to 2100 under three fertility, longevity, and migration paths, then applies fixed or feedback turnout. It is built to expose relationships. It is not an official population forecast.
+    model_class: scenario model
+    statement: A simple cohort model moves the 2025 age structure to 2100 under three fertility, longevity, and migration paths, then applies fixed or feedback turnout. It is built to expose relationships. It is not an official population forecast.
+    inputs:
+    - 2025 starting population
+    - 2024 age-turnout pattern
+    - Age-60 boundary
+    outputs:
+    - R01
+    - R02
+    time_step: stated in the manuscript prose
+    implementation_file: research/source/ageing_electorate_model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:POP-004:A01
+    name: 2025 starting population
+    statement: 'The simulation starts with South Africa in 2025: 63.1 million people, of whom 6.6 million are aged 60 or older. Ageing is moved forward one year at a time to 2100.'
+    value: '63.1'
+    unit: million people in 2025
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript calibration, using the cited Statistics South Africa 2025 estimate
+    source_ids:
+    - GSX:POP-004:PDF
+    evidence_strength: sourced scale
+    sensitivity: moderate
+    alternatives:
+    - Renewal, baseline ageing, and accelerated-ageing fertility paths
+  - id: A02
+    canonical_id: GSX:POP-004:A02
+    name: 2024 age-turnout pattern
+    statement: Votes are estimated by applying the Electoral Commission's 2024 age-turnout pattern. Those rates come from identification scans for 9.17 million of 16.29 million voters who voted, then extrapolated.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript, citing the 2024 national and provincial elections report
+    source_ids:
+    - GSX:POP-004:PDF
+    evidence_strength: observed pattern, extrapolated
+    sensitivity: high
+    alternatives:
+    - A mobilisation path that changes youth turnout
+  - id: A03
+    canonical_id: GSX:POP-004:A03
+    name: Age-60 boundary
+    statement: Older adult means a person aged 60 or older, the current old-age grant age and the series benchmark. It does not mean every such person has retired or shares one preference.
+    value: '60'
+    unit: years
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript definitions
+    source_ids:
+    - GSX:POP-004:PDF
+    evidence_strength: definition
+    sensitivity: low
+    alternatives:
+    - A different age boundary
+  parameters:
+  - id: P01
+    name: 2025 starting population
+    symbol: see the manuscript
+    description: 'The simulation starts with South Africa in 2025: 63.1 million people, of whom 6.6 million are aged 60 or older. Ageing is moved forward one year at a time to 2100.'
+    value: '63.1'
+    unit: million people in 2025
+    price_year: '2026'
+    scenario_values:
+      central: '63.1'
+    source_ids:
+    - GSX:POP-004:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - A simple cohort model moves the 2025 age structure to 2100 under three fertility, longevity, and migration paths, then applies fixed or feedback turnout. It is built to expose relationships. It is not an official population forecast.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:POP-004:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: 2025 calibration with the 2024 age-turnout pattern
+  role: baseline
+  description: In the 2025 calibration, people aged 60 or older are 15.1 percent of adults and 20.7 percent of votes cast. The median voter is 43, four years older than the median adult.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The Politics of an Ageing Electorate
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/ageing-electorate/the-politics-of-an-ageing-electorate.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - The turnout rates are a strong pattern extrapolated from identification scans, not a perfect census of every voter. The median voter is the age that splits votes cast in half. It is not one person whose wishes become policy.
+  source_register:
+  - id: GSX:POP-004:PDF
+    type: manuscript
+    title: The Politics of an Ageing Electorate
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate.pdf
+    access_date: '2026-09-27'
+    locator: 15 pages; 0.93 MB
+    supports:
+    - GSX:POP-004:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:POP-004:SRC01
+    type: web_reference
+    title: Electoral Commission's report on the 2024 national and provincial elections
+    author_or_publisher: elections.org.za
+    date: see cited resource
+    url: https://www.elections.org.za/content/Documents/Election-reports/National-and-Provincial-Elections/2024-National-and-Provincial-Elections-Report/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-004:SRC02
+    type: web_reference
+    title: Electoral Commission
+    author_or_publisher: elections.org.za
+    date: see cited resource
+    url: https://www.elections.org.za/pw/News-And-Media/News-List/News/News-Article/Electoral-Commission-presents-NPE-2024-Report-to-Parliament%2C-sets-sights-on-2026-Local-Government-Elections?a=AISDGvpz75ps1usOfX7oigs7Yh0VdwYy+pOUbF1N9lY%3D
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-004:SRC03
+    type: web_reference
+    title: Statistics South Africa's 2025 estimate
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?p=19307
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-004:SRC04
+    type: web_reference
+    title: Statistics South Africa
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?p=18613
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-004:SRC05
+    type: web_reference
+    title: National Treasury's 2026 Estimates of National Expenditure
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/national%20budget/2026/ene/FullENE.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-004:SRC06
+    type: web_reference
+    title: 2026 Budget Speech
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/national%20budget/2026/speech/speech.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:POP-004:R01
+    statement: In the 2025 calibration, people aged 60 or older are 15.1 percent of adults and 20.7 percent of votes cast. The median voter is 43, four years older than the median adult.
+    value: '20.7'
+    unit: percent of votes cast by people aged 60 or older
+    price_year: '2026'
+    year_or_period: 2025 calibration with the 2024 age-turnout pattern
+    scenario_id: 2025 calibration with the 2024 age-turnout pattern
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:POP-004:PDF
+    reproducible_from:
+    - GSX:POP-004:M01
+  - id: R02
+    canonical_id: GSX:POP-004:R02
+    statement: Under baseline ageing, the age-60-plus bloc overtakes voters aged 18 to 34 around 2039 and supplies 46.0 percent of votes by 2100 with fixed turnout. The median voter is 57, still below retirement age. Accelerated ageing produces a median voter of 60 in 2085, or 2081 with turnout feedback.
+    value: '46.0'
+    unit: percent of votes in 2100, baseline ageing, fixed turnout
+    price_year: '2026'
+    year_or_period: Baseline and accelerated scenarios to 2100
+    scenario_id: Baseline and accelerated scenarios to 2100
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:POP-004:PDF
+    reproducible_from:
+    - GSX:POP-004:M01
+  headline_results:
+  - GSX:POP-004:R01
+  sensitivity_results:
+  - GSX:POP-004:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - The turnout rates are a strong pattern extrapolated from identification scans, not a perfect census of every voter. The median voter is the age that splits votes cast in half. It is not one person whose wishes become policy.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:POP-004:C01
+    claim: In the 2025 calibration, people aged 60 or older are 15.1 percent of adults but 20.7 percent of votes cast. Applying the 2024 age-turnout pattern produces a median voter aged 43, four years older than the median adult.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:POP-004:A01
+    - GSX:POP-004:A02
+    - GSX:POP-004:A03
+    derived_from_results: &id004
+    - GSX:POP-004:R01
+    supported_by_sources:
+    - GSX:POP-004:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The turnout rates are a strong pattern extrapolated from identification scans, not a perfect census of every voter. The median voter is the age that splits votes cast in half. It is not one person whose wishes become policy.
+    sensitivity: moderate
+    retrieval_text: In the 2025 calibration, people aged 60 or older are 15.1 percent of adults but 20.7 percent of votes cast. Applying the 2024 age-turnout pattern produces a median voter aged 43, four years older than the median adult.
+    citation_text: GreyScienx, GSX:POP-004:C01, version 1.0.
+    href: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate/claims/C01
+  - id: C02
+    canonical_id: GSX:POP-004:C02
+    claim: Under the baseline path, voters aged 60 or older overtake voters aged 18 to 34 around 2039 and cast 46.0 percent of votes by 2100 if age-specific turnout stays fixed. The median voter remains below retirement age. Only the accelerated-ageing scenario produces a retired median voter within the century, in 2085 with fixed turnout and in 2081 with feedback.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:POP-004:A01
+    - GSX:POP-004:A02
+    - GSX:POP-004:A03
+    derived_from_results:
+    - GSX:POP-004:R02
+    supported_by_sources:
+    - GSX:POP-004:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The paths are deliberately simple cohort mechanics, not an official forecast. Accelerated ageing is a severe stress test. Mobilisation can still change the electorate even when the population cannot change quickly.
+    sensitivity: high
+    retrieval_text: Under the baseline path, voters aged 60 or older overtake voters aged 18 to 34 around 2039 and cast 46.0 percent of votes by 2100 if age-specific turnout stays fixed. The median voter remains below retirement age. Only the accelerated-ageing scenario produces a retired median voter within the century, in 2085 with fixed turnout and in 2081 with feedback.
+    citation_text: GreyScienx, GSX:POP-004:C02, version 1.0.
+    href: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - The turnout rates are a strong pattern extrapolated from identification scans, not a perfect census of every voter. The median voter is the age that splits votes cast in half. It is not one person whose wishes become policy.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: The turnout rates are a strong pattern extrapolated from identification scans, not a perfect census of every voter. The median voter is the age that splits votes cast in half. It is not one person whose wishes become policy.
+  limitations:
+  - The turnout rates are a strong pattern extrapolated from identification scans, not a perfect census of every voter. The median voter is the age that splits votes cast in half. It is not one person whose wishes become policy.
+  - The paths are deliberately simple cohort mechanics, not an official forecast. Accelerated ageing is a severe stress test. Mobilisation can still change the electorate even when the population cannot change quickly.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - The turnout rates are a strong pattern extrapolated from identification scans, not a perfect census of every voter. The median voter is the age that splits votes cast in half. It is not one person whose wishes become policy.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/ageing-electorate/the-politics-of-an-ageing-electorate.md
+    pdf: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate.pdf
+    html: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate
+    clean_markdown: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/ageing-electorate/the-politics-of-an-ageing-electorate.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:POP-004:PDF
+    result_ids:
+    - GSX:POP-004:R01
+  figures:
+  - id: F01
+    title: Median voter age
+    caption: Figure 1. Median age among adults and votes cast under the 2024 age-turnout pattern. The horizontal line at 60 marks the study's retirement boundary.
+    alt_text: Median voter age
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/ageing-electorate/assets/median-voter-age.png
+    data_file: research/source/ageing-electorate/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-004:R01
+    source_ids:
+    - GSX:POP-004:PDF
+  - id: F02
+    title: Voting bloc crossover
+    caption: Figure 2. Vote shares in the baseline demographic path. The comparison is between age 60+ and ages 18 to 34, not between older voters and every working-age voter.
+    alt_text: Voting bloc crossover
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/ageing-electorate/assets/voting-bloc-crossover.png
+    data_file: research/source/ageing-electorate/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-004:R01
+    source_ids:
+    - GSX:POP-004:PDF
+  - id: F03
+    title: Political budget allocation
+    caption: Figure 3. Spending allocation in the accelerated-ageing feedback case. Values inside bars are rounded, so visible labels need not sum exactly to 100.
+    alt_text: Political budget allocation
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/ageing-electorate/assets/political-budget-allocation.png
+    data_file: research/source/ageing-electorate/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-004:R01
+    source_ids:
+    - GSX:POP-004:PDF
+  - id: F04
+    title: Austerity incidence
+    caption: Figure 4. Distribution of a R10 cut under the model's political-protection rule. It is a stress test of political incentives, not a prediction of a particular budget.
+    alt_text: Austerity incidence
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/ageing-electorate/assets/austerity-incidence.png
+    data_file: research/source/ageing-electorate/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-004:R01
+    source_ids:
+    - GSX:POP-004:PDF
+  - id: F05
+    title: Fiscal gerontocracy feedback
+    caption: Figure 5. The feedback case links a rising older vote share to a modestly more elderly-focused budget and then to weaker youth support and turnout. The fixed-turnout case leaves demographics unchanged but removes that behavioural reinforcement.
+    alt_text: Fiscal gerontocracy feedback
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/ageing-electorate/assets/fiscal-gerontocracy-feedback.png
+    data_file: research/source/ageing-electorate/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-004:R01
+    source_ids:
+    - GSX:POP-004:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/ageing_electorate_model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/ageing-electorate/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/ageing_electorate_model.py
+  - research/source/ageing-electorate/model_results.json
+  data_files:
+  - research/source/ageing-electorate/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/ageing_electorate_model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:POP-001
+    slug: when-retirement-becomes-impossible
+    title: When Retirement Becomes Impossible
+    href: https://greyscienx.com/research/population-futures/when-retirement-becomes-impossible
+    relationship: same_series
+  - id: GSX:POP-002
+    slug: todays-unemployment-is-tomorrows-pension-crisis
+    title: Today’s Unemployment Is Tomorrow’s Pension Crisis
+    href: https://greyscienx.com/research/population-futures/todays-unemployment-is-tomorrows-pension-crisis
+    relationship: same_series
+  - id: GSX:POP-003
+    slug: does-raising-the-retirement-age-actually-work
+    title: Does Raising the Retirement Age Actually Work?
+    href: https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work
+    relationship: same_series
+  - id: GSX:POP-005
+    slug: emergency-ageing-austerity
+    title: Emergency Ageing Austerity
+    href: https://greyscienx.com/research/population-futures/emergency-ageing-austerity
+    relationship: same_series
+  - id: GSX:POP-006
+    slug: the-price-of-another-child
+    title: The Price of Another Child
+    href: https://greyscienx.com/research/population-futures/the-price-of-another-child
+    relationship: same_series
+  - id: GSX:POP-007
+    slug: the-hundred-year-life
+    title: The Hundred-Year Life
+    href: https://greyscienx.com/research/population-futures/the-hundred-year-life
+    relationship: same_series
+  - id: GSX:POP-008
+    slug: inheritance-after-retirement
+    title: Inheritance After Retirement
+    href: https://greyscienx.com/research/population-futures/inheritance-after-retirement
+    relationship: same_series
+  - id: GSX:POP-009
+    slug: how-to-shrink-a-country-without-breaking-it
+    title: How to Shrink a Country Without Breaking It
+    href: https://greyscienx.com/research/population-futures/how-to-shrink-a-country-without-breaking-it
+    relationship: same_series
+  - id: GSX:POP-010
+    slug: the-scarce-worker-economy
+    title: The Scarce-Worker Economy
+    href: https://greyscienx.com/research/population-futures/the-scarce-worker-economy
+    relationship: same_series
+  - id: GSX:POP-011
+    slug: the-population-system
+    title: The Population System
+    href: https://greyscienx.com/research/population-futures/the-population-system
+    relationship: same_series
+  - id: GSX:POP-012
+    slug: extreme-fiscal-pressure
+    title: Extreme Fiscal Pressure
+    href: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:POP-001
+    title: When Retirement Becomes Impossible
+    paper_number: '01'
+  successor_studies:
+  - id: GSX:POP-005
+    title: Emergency Ageing Austerity
+    paper_number: '05'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - fiscal-policy
+  - retirement
+  - population-decline
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:POP-004:C01
+    predicate: depends_on
+    object_id: GSX:POP-004:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-004:C01
+    predicate: depends_on
+    object_id: GSX:POP-004:A02
+    note: Registered dependency.
+  - subject_id: GSX:POP-004:C01
+    predicate: depends_on
+    object_id: GSX:POP-004:A03
+    note: Registered dependency.
+  - subject_id: GSX:POP-004:C01
+    predicate: derived_from
+    object_id: GSX:POP-004:R01
+    note: Registered result.
+  - subject_id: GSX:POP-004:C02
+    predicate: depends_on
+    object_id: GSX:POP-004:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-004:C02
+    predicate: depends_on
+    object_id: GSX:POP-004:A02
+    note: Registered dependency.
+  - subject_id: GSX:POP-004:C02
+    predicate: depends_on
+    object_id: GSX:POP-004:A03
+    note: Registered dependency.
+  - subject_id: GSX:POP-004:C02
+    predicate: derived_from
+    object_id: GSX:POP-004:R02
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The Politics of an Ageing Electorate. GSX:POP-004. Version 1.0.
+  machine_citation: GreyScienx, GSX:POP-004, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate
+    html: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate
+    markdown: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate/markdown
+    json: https://greyscienx.com/api/v1/research/the-politics-of-an-ageing-electorate
+    pdf: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate.pdf
+    api: https://greyscienx.com/api/v1/research/the-politics-of-an-ageing-electorate
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The Politics of an Ageing Electorate
+    identifier: GSX:POP-004
+    url: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: How voter age structure can redirect spending and intergenerational transfers.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: In the 2025 calibration, people aged 60 or older are 15.1 percent of adults but 20.7 percent of votes cast. Applying the 2024 age-turnout pattern produces a median voter aged 43, four years older than the median adult.
+    claim_ids:
+    - GSX:POP-004:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:POP-004:PDF
+    page: manuscript Part I
+    token_estimate: 38
+  question_aliases:
+  - How does an ageing electorate change the politics of public spending?
+  - What happens to intergenerational transfers when the median voter is older?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:POP-004, version 1.0
+    claim_level_pattern: GreyScienx, GSX:POP-004:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:POP-004
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:POP-004

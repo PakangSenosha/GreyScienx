@@ -9,14 +9,15 @@ type SiteHeaderProps = {
 export function SiteHeader({
   links = [
     { href: "/research", label: "Research" },
+    { href: "/experiments/virtual-casino", label: "Experiments" },
     { href: "/about", label: "About" },
     { href: "/about/pakang-senosha", label: "Founder" },
   ],
-  action = { href: "/research", label: "Read the archive" },
+  action = { href: "/research", label: "All research" },
 }: SiteHeaderProps) {
   return (
     <header className="site-header">
-      <Brand division="Research publication" />
+      <Brand division="Independent research" />
       <nav aria-label="Primary navigation">
         {links.map((link) => (
           <Link key={link.href} href={link.href}>

@@ -1,0 +1,15 @@
+{
+  "edition": "POPULATION FUTURES · PAPER 02.02",
+  "eyebrow": "Dependence is not adequacy",
+  "headline": "A larger grant share can still mean a very small retirement income",
+  "deck": "Persistent exclusion leaves almost no private pension to support forty-one retirement years.",
+  "visualTitle": "Monthly retirement cash income",
+  "qualifier": "Persistent exclusion · 2026 rand",
+  "bars": [
+    {"name": "Private pension", "value": 0.528, "label": "R528", "primary": false},
+    {"name": "Modelled top-up", "value": 2.4, "label": "R2,400", "primary": true}
+  ],
+  "caption": "The analytical top-up supplies 82% of total cash income of about R2,928 a month. It does not restore the missing pension.",
+  "source": "GreyScienx cohort model · Not the legal SASSA test",
+  "url": "greyscienx.com/research"
+}

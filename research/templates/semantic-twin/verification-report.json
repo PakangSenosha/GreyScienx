@@ -1,0 +1,17 @@
+{
+  "schema_version": "GreyScienxCorpusVerification 1.0",
+  "generated_at": "2026-09-28T22:04:41.696Z",
+  "scope": "Static corpus integrity and traceability, including checksums from the latest isolated model-reproduction run. Reproduction is not independent empirical validation or human editorial review.",
+  "passed": true,
+  "studies": 29,
+  "claims": 63,
+  "assumptions": 87,
+  "results": 68,
+  "models": 29,
+  "registered_external_sources": 359,
+  "package_files_verified": 87,
+  "executable_models_reproduced": 29,
+  "graph_nodes": 326,
+  "graph_edges": 732,
+  "failures": []
+}

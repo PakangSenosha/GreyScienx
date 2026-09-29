@@ -1,0 +1,15 @@
+{
+  "edition": "HOUSEHOLD ECONOMICS · PAPER 01.01",
+  "eyebrow": "The favourable upper mechanism",
+  "headline": "Early saving becomes its own source of wealth",
+  "deck": "The first rand saved can compound for nearly fifty years.",
+  "visualTitle": "Direct saving versus age-75 lead",
+  "qualifier": "Best case · constant 2026 rand",
+  "bars": [
+    {"name": "Living costs avoided", "value": 1.261, "label": "R1.261m", "primary": false},
+    {"name": "Age-75 wealth lead", "value": 11.287, "label": "R11.287m", "primary": true}
+  ],
+  "caption": "Compounding enlarges the early advantage. This is a favourable scenario, not a promise.",
+  "source": "GreyScienx lifetime model · Combined household wealth",
+  "url": "greyscienx.com/research"
+}

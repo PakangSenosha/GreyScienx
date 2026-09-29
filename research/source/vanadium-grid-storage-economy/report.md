@@ -316,7 +316,7 @@ High cycling is not free revenue. The market must contain enough daily price spr
 
 ## Electrolyte leasing relocates the balance sheet
 
-The World Bank's South African critical-minerals analysis cites an industry estimate that electrolyte can represent about 40 per cent of the cost of a typical four-hour VRFB. The share varies with duration, metal price and system design. Because the vanadium is not consumed in normal operation, a lessor can own the electrolyte, charge rent and recover it later. [World Bank, *South Africa: Critical Minerals for the Energy Transition*](https://documents1.worldbank.org/curated/en/099020324185517458/pdf/P174003-e1bed04f-b49a-4647-a3c2-4deb8aa275af.pdf).
+The World Bank's South African critical-minerals analysis cites an industry estimate that electrolyte can represent about 40 per cent of the cost of a typical four-hour VRFB. The share varies with duration, metal price and system design. Because the vanadium is not consumed in normal operation, a lessor can own the electrolyte, charge rent and recover it later. [World Bank, *South Africa: Critical Minerals for the Energy Transition*](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099020324185517458/p1740031e1bed00471a3c214deb8aa275af).
 
 ![Electrolyte leasing economics](assets/leasing.png)
 
@@ -537,5 +537,5 @@ The R20 billion portfolios are judgement-based combinations of modules and enabl
 - Bushveld Minerals. [*Annual Report and Financial Results 2022*](https://www.bushveldminerals.com/wp-content/uploads/2023/06/Bushveld-Minerals-Annual-Report-Financial-Results-2022.pdf).
 - East London Industrial Development Zone. [ELIDZ unveils new investments](https://www.elidz.co.za/elidz-unveils-new-investments/).
 - Matuson Associates. [Bushveld Minerals business rescue](https://matusonassociates.co.za/bushveldminerals/).
-- World Bank. [*South Africa: Critical Minerals for the Energy Transition*](https://documents1.worldbank.org/curated/en/099020324185517458/pdf/P174003-e1bed04f-b49a-4647-a3c2-4deb8aa275af.pdf).
+- World Bank. [*South Africa: Critical Minerals for the Energy Transition*](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099020324185517458/p1740031e1bed00471a3c214deb8aa275af).
 - South African Government. [Cabinet approval of the South African Renewable Energy Masterplan](https://www.gov.za/news/media-statements/minister-kgosientsho-ramokgopa-welcomes-cabinet%E2%80%99s-approval-south-african).

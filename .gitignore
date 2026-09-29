@@ -39,9 +39,13 @@ yarn-error.log*
 # vercel
 .vercel
 
+# unpublished review copies
+/research/review/inbox.jsonl
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+worker-configuration.d.ts
 
 .vercel
 .env*

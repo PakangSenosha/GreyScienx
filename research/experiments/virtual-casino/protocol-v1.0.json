@@ -1,0 +1,48 @@
+{
+  "experimentId": "greyscienx-virtual-casino-v1.0-local",
+  "protocolVersion": "1.0.0",
+  "status": "completed-local-reference-run",
+  "currency": "synthetic-ZAR",
+  "moneyUnit": "integer-cents",
+  "population": 1000,
+  "cohortSize": 100,
+  "calendarStart": "2026-01-01T00:00:00.000Z",
+  "calendarDays": 181,
+  "allocationCents": 1000000,
+  "allocationCap": 6,
+  "assignmentSeed": "greyscienx-vc-assignment-v1.0",
+  "visibleWorldSeed": "greyscienx-vc-visible-world-0001-revealed",
+  "visibleWorldSeedStatus": "revealed-after-local-run",
+  "replicationSeedPrefix": "greyscienx-vc-replication-v1.0",
+  "replicationWorlds": 1000,
+  "minimumStakeCents": 100,
+  "maximumStakeCents": 100000,
+  "sessionModel": {
+    "weeks": 26,
+    "notes": "Session counts are sampled per week from each frozen policy. Timestamps are deterministic and span the six-month calendar."
+  },
+  "cohorts": [
+    {"id":"small_frequent","label":"Small bets, frequent","stakeFraction":[0.002,0.006],"sessionsPerWeek":[1.5,2.2],"betsPerSession":[3,6],"lossMultiplier":[1,1.04],"stopLoss":[0.35,0.55],"stopWin":[0.35,0.65]},
+    {"id":"small_infrequent","label":"Small bets, infrequent","stakeFraction":[0.002,0.006],"sessionsPerWeek":[0.25,0.65],"betsPerSession":[1,3],"lossMultiplier":[1,1.03],"stopLoss":[0.3,0.5],"stopWin":[0.3,0.6]},
+    {"id":"medium_frequent","label":"Medium bets, frequent","stakeFraction":[0.012,0.03],"sessionsPerWeek":[1.25,2],"betsPerSession":[3,6],"lossMultiplier":[1,1.08],"stopLoss":[0.35,0.6],"stopWin":[0.45,0.8]},
+    {"id":"medium_infrequent","label":"Medium bets, infrequent","stakeFraction":[0.012,0.03],"sessionsPerWeek":[0.3,0.8],"betsPerSession":[1,3],"lossMultiplier":[1,1.08],"stopLoss":[0.35,0.6],"stopWin":[0.45,0.8]},
+    {"id":"large_frequent","label":"Large bets, frequent","stakeFraction":[0.09,0.2],"sessionsPerWeek":[1.1,1.8],"betsPerSession":[3,6],"lossMultiplier":[1,1.12],"stopLoss":[0.55,0.85],"stopWin":[0.7,1.4]},
+    {"id":"large_infrequent","label":"Large bets, infrequent","stakeFraction":[0.09,0.22],"sessionsPerWeek":[0.25,0.65],"betsPerSession":[1,3],"lossMultiplier":[1,1.12],"stopLoss":[0.55,0.9],"stopWin":[0.7,1.5]},
+    {"id":"loss_chasing","label":"Loss-chasing","stakeFraction":[0.025,0.055],"sessionsPerWeek":[0.8,1.5],"betsPerSession":[3,6],"lossMultiplier":[1.25,1.6],"stopLoss":[0.65,0.95],"stopWin":[0.5,1]},
+    {"id":"strict_limits","label":"Strict limits","stakeFraction":[0.006,0.018],"sessionsPerWeek":[0.6,1.2],"betsPerSession":[2,5],"lossMultiplier":[1,1.02],"stopLoss":[0.08,0.16],"stopWin":[0.12,0.28]},
+    {"id":"variable_staking","label":"Variable / random staking","stakeFraction":[0.005,0.09],"sessionsPerWeek":[0.6,1.4],"betsPerSession":[2,5],"lossMultiplier":[0.9,1.25],"stopLoss":[0.35,0.75],"stopWin":[0.4,1]},
+    {"id":"random_control","label":"Random control","stakeFraction":[0.004,0.1],"sessionsPerWeek":[0.5,1.4],"betsPerSession":[1,5],"lossMultiplier":[0.85,1.25],"stopLoss":[0.3,0.8],"stopWin":[0.35,1.1]}
+  ],
+  "games": [
+    {"id":"european_roulette","label":"European Roulette","ruleVersion":"roulette-eu-1.0","minStakeCents":100,"maxStakeCents":100000,"choices":["red","dozen","column","straight","split","corner"]},
+    {"id":"american_roulette","label":"American Roulette","ruleVersion":"roulette-us-1.0","minStakeCents":100,"maxStakeCents":100000,"choices":["red","dozen","column","straight","split","corner"]},
+    {"id":"blackjack","label":"Blackjack","ruleVersion":"resolved-hand-6d-s17-das-3to2-1.0","minStakeCents":200,"maxStakeCents":100000,"choices":["basic","novice","random"]},
+    {"id":"baccarat","label":"Baccarat","ruleVersion":"eight-deck-standard-5pct-1.0","minStakeCents":100,"maxStakeCents":100000,"choices":["banker","player","tie"]},
+    {"id":"three_reel_slot","label":"Three-Reel Slot","ruleVersion":"slot-moderate-96-1.0","minStakeCents":100,"maxStakeCents":25000,"choices":["spin"]},
+    {"id":"high_volatility_slot","label":"High-Volatility Video Slot","ruleVersion":"slot-high-96-1.0","minStakeCents":100,"maxStakeCents":25000,"choices":["spin"]},
+    {"id":"craps","label":"Craps / Dice","ruleVersion":"restricted-craps-1.0","minStakeCents":100,"maxStakeCents":100000,"choices":["pass_line","field","any_seven"]},
+    {"id":"virtual_sports","label":"Virtual Sports Betting","ruleVersion":"synthetic-book-6pct-1.0","minStakeCents":100,"maxStakeCents":50000,"choices":["single","parlay"]},
+    {"id":"crash","label":"Crash","ruleVersion":"crash-97-1.0","minStakeCents":100,"maxStakeCents":50000,"choices":["1.25","2","5","10"]},
+    {"id":"lottery","label":"Lottery / Jackpot","ruleVersion":"lottery-80-1.0","minStakeCents":100,"maxStakeCents":10000,"choices":["ticket"]}
+  ]
+}

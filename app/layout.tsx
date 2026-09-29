@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${site.domain}`),
   title: {
-    default: `${site.name} — Independent research across fields`,
+    default: `${site.name} — Independent research, clearly reported`,
     template: `%s · ${site.name}`,
   },
   description: site.description,

@@ -6,7 +6,7 @@ import { researchers } from "@/lib/catalog";
 
 export const metadata: Metadata = {
   title: "Pakang Senosha",
-  description: "About Pakang Senosha, founder of GreyScienx.",
+  description: "Pakang Senosha, founder of GreyScienx and a researcher in epidemiology and biostatistics.",
 };
 
 export default function PakangSenoshaPage() {
@@ -20,15 +20,15 @@ export default function PakangSenoshaPage() {
           <div className="brand-wave wave-one" aria-hidden="true" />
           <div className="brand-wave wave-two" aria-hidden="true" />
           <div className="hero-copy">
-            <p className="eyebrow">Founder · Researcher</p>
+            <p className="eyebrow">Founder and researcher</p>
             <h1>
               Pakang
               <br />
               <em>Senosha.</em>
             </h1>
             <p className="dek">
-              MSc Epidemiology and Biostatistics at the University of Pretoria. Founder of
-              GreyScienx and author of its founding research collection.
+              Pakang Senosha studies epidemiology and biostatistics at the University of
+              Pretoria. He founded GreyScienx and wrote its first collection of research.
             </p>
           </div>
         </section>
@@ -39,51 +39,49 @@ export default function PakangSenoshaPage() {
             <p>Background</p>
           </div>
           <div className="hub-copy">
-            <h2>Quantitative training. Broad questions.</h2>
+            <h2>Trained in numbers. Drawn to larger questions.</h2>
             <p>
-              Pakang Senosha is based in Pretoria, South Africa. His formal training is in
-              epidemiology and biostatistics, with an emphasis on careful measurement,
-              uncertainty and the difference between an interesting pattern and a defensible
-              conclusion.
+              Based in Johannesburg, Senosha is trained in epidemiology and biostatistics. His work
+              emphasises measurement, uncertainty and the distance between an interesting
+              pattern and a defensible conclusion.
             </p>
             <p>
-              GreyScienx extends that habit of inquiry beyond any single academic department.
-              The subjects can change; the commitment to transparent reasoning remains.
+              GreyScienx applies that approach beyond a single academic department. The subjects
+              change; the obligation to explain the reasoning does not.
             </p>
-            <p className="domain-chip">{author.location}</p>
+            <p className="domain-chip">Johannesburg, South Africa</p>
           </div>
         </section>
 
         <section className="section-grid about-method">
           <div className="section-label">
             <span>02</span>
-            <p>Why GreyScienx</p>
+            <p>Founding GreyScienx</p>
           </div>
           <div className="hub-copy">
-            <h2>A publication built around the work.</h2>
+            <h2>A place for arguments too large for a post.</h2>
             <p>
-              GreyScienx began as a way to publish substantial independent research without
-              compressing it into a post or hiding it in a folder. The website gives each paper
-              an accessible front door; the manuscript preserves its depth.
+              Senosha created GreyScienx to publish independent research without compressing it
+              into a social post or leaving it in a private folder. The site introduces each
+              study; the manuscript carries the full argument.
             </p>
             <p>
-              Pakang is the current author, not the permanent boundary of the publication.
-              Additional collaborators can be introduced later under the same field-neutral
-              editorial system.
+              He is the publication&apos;s current author, not its permanent boundary. Other
+              contributors may be added under the same editorial standards.
             </p>
           </div>
         </section>
 
         <section className="author-panel compact-author-panel">
           <div>
-            <p className="eyebrow light-text">Continue</p>
-            <h2>Read the work.</h2>
+            <p className="eyebrow light-text">Further reading</p>
+            <h2>Read the research.</h2>
           </div>
           <div>
-            <p>Browse the complete collection or contact Pakang directly.</p>
+            <p>Browse the complete collection or contact Senosha directly.</p>
             <div className="hero-actions">
               <Link className="button button-paper" href="/research">
-                Research archive
+                View all research
               </Link>
               <a className="button button-secondary" href={`mailto:${author.email}`}>
                 {author.email}

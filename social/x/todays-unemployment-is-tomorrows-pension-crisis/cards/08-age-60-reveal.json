@@ -1,0 +1,17 @@
+{
+  "edition": "POPULATION FUTURES · PAPER 02.02",
+  "eyebrow": "The accounting reveal",
+  "headline": "At 60, a forty-year contribution gap changes sides of the ledger",
+  "deck": "Labour taxes stop. Public healthcare and modelled old-age grants continue.",
+  "visualTitle": "Annual net fiscal flow per 1m lives",
+  "qualifier": "R billion · constant 2026 rand",
+  "bars": [
+    {"name": "Secure · age 59", "value": 114, "label": "+R114bn", "primary": false},
+    {"name": "Excluded · age 59", "value": 74, "label": "+R74bn", "primary": false},
+    {"name": "Secure · age 60", "value": 14, "label": "−R14bn", "primary": false},
+    {"name": "Excluded · age 60", "value": 28, "label": "−R28bn", "primary": true}
+  ],
+  "caption": "The bars show magnitudes; plus is net contribution and minus is modelled cost. Retirement reveals rather than creates the gap.",
+  "source": "GreyScienx illustrative cohorts · Not a forecast",
+  "url": "greyscienx.com/research"
+}

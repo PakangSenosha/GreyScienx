@@ -1,0 +1,72 @@
+{
+  "public_envelope_r_bn": 225.0,
+  "instruments": {
+    "Public ownership": {
+      "multiple": 1.0,
+      "public_loss": 0.25,
+      "control": 1.0,
+      "private": 0
+    },
+    "Co-investment": {
+      "multiple": 1.5,
+      "public_loss": 0.18,
+      "control": 0.55,
+      "private": 0.33
+    },
+    "Concessional debt": {
+      "multiple": 2.0,
+      "public_loss": 0.1,
+      "control": 0.35,
+      "private": 0.5
+    },
+    "Minority public equity": {
+      "multiple": 2.5,
+      "public_loss": 0.22,
+      "control": 0.3,
+      "private": 0.6
+    },
+    "First-loss layer": {
+      "multiple": 3.0,
+      "public_loss": 0.38,
+      "control": 0.22,
+      "private": 0.67
+    },
+    "Guarantee reserve": {
+      "multiple": 4.0,
+      "public_loss": 0.55,
+      "control": 0.12,
+      "private": 0.75
+    }
+  },
+  "portfolio_public_r_bn": {
+    "Common infrastructure": 50,
+    "Concessional debt": 55,
+    "Minority equity": 45,
+    "First-loss capital": 25,
+    "Guarantee reserve": 15,
+    "Project preparation": 15,
+    "Skills + supplier funds": 20
+  },
+  "portfolio_multiples": {
+    "Common infrastructure": 1.2,
+    "Concessional debt": 2.0,
+    "Minority equity": 2.8,
+    "First-loss capital": 4.0,
+    "Guarantee reserve": 5.0,
+    "Project preparation": 1.0,
+    "Skills + supplier funds": 1.0
+  },
+  "central": {
+    "gross_mobilised_r_bn": 506.0,
+    "gross_multiple": 2.2488888888888887,
+    "net_operating_after_frictions_r_bn": 383,
+    "net_multiple": 1.7022222222222223,
+    "guaranteed_exposure_r_bn": 75
+  },
+  "notes": [
+    "Scenarios are not forecasts or investment advice.",
+    "Gross mobilisation is not fiscal saving, public profit or additional investment.",
+    "Guarantees are measured by exposure and claims as well as cash reserve.",
+    "All amounts are constant 2026 rand."
+  ]
+}

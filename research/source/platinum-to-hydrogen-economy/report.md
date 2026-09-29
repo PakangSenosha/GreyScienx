@@ -449,7 +449,7 @@ The model does not calculate full mine economics, tax, financing structure, cons
 - International Energy Agency. [*Global Hydrogen Review 2026: Investment and innovation*](https://www.iea.org/reports/global-hydrogen-review-2026/investment-and-innovation).
 - International Energy Agency. [*Global Hydrogen Review 2025: Executive summary*](https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary).
 - International Energy Agency. [Electrolysers](https://www.iea.org/energy-system/hydrogen/electrolysers).
-- Department of Science and Innovation. [*South African Hydrogen Society Roadmap*](https://www.dsi.gov.za/images/South_African_Hydrogen_Society_RoadmapV1.pdf).
+- Department of Science and Innovation. [*South African Hydrogen Society Roadmap*](https://www.dsi.gov.za/index.php/resource-center/reports/strategies-and-reports/3574-hydrogen-society-roadmap-for-south-africa-2021).
 - Department of Trade, Industry and Competition. [*Green Hydrogen Commercialisation Strategy*](https://www.thedtic.gov.za/wp-content/uploads/Full-Report-Green-Hydrogen-Commercialisation-Strategy.pdf).
 - the dtic. [Implementation of the Green Hydrogen Commercialisation Strategy](https://www.gov.za/news/media-statements/trade-industry-and-competition-implementation-green-hydrogen).
 - Isondo Precious Metals. [Company overview](https://www.isondopm.com/about) and [products](https://www.isondopm.com/products).

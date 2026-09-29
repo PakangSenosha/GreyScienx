@@ -1,0 +1,266 @@
+schema_version: GreyResearchFormManifest 1.0
+generated_from: published semantic-twin forms
+generated_date: '2026-09-29'
+published_study_count: 29
+studies:
+- id: GSX:HH-001
+  slug: economics-of-living-together
+  title: The Economics of Living Together
+  series_slug: household-economics
+  series_title: Household Economics
+  paper_number: '01'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: economics-of-living-together.yaml
+- id: GSX:HH-002
+  slug: the-first-three-years-advantage
+  title: The First Three Years Advantage
+  series_slug: household-economics
+  series_title: Household Economics
+  paper_number: '02'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-first-three-years-advantage.yaml
+- id: GSX:POP-001
+  slug: when-retirement-becomes-impossible
+  title: When Retirement Becomes Impossible
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: '01'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: when-retirement-becomes-impossible.yaml
+- id: GSX:POP-002
+  slug: todays-unemployment-is-tomorrows-pension-crisis
+  title: Today’s Unemployment Is Tomorrow’s Pension Crisis
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: '02'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: todays-unemployment-is-tomorrows-pension-crisis.yaml
+- id: GSX:POP-003
+  slug: does-raising-the-retirement-age-actually-work
+  title: Does Raising the Retirement Age Actually Work?
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: '03'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: does-raising-the-retirement-age-actually-work.yaml
+- id: GSX:POP-004
+  slug: the-politics-of-an-ageing-electorate
+  title: The Politics of an Ageing Electorate
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: '04'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-politics-of-an-ageing-electorate.yaml
+- id: GSX:POP-005
+  slug: emergency-ageing-austerity
+  title: Emergency Ageing Austerity
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: '05'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: emergency-ageing-austerity.yaml
+- id: GSX:POP-006
+  slug: the-price-of-another-child
+  title: The Price of Another Child
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: '06'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-price-of-another-child.yaml
+- id: GSX:POP-007
+  slug: the-hundred-year-life
+  title: The Hundred-Year Life
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: '07'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-hundred-year-life.yaml
+- id: GSX:POP-008
+  slug: inheritance-after-retirement
+  title: Inheritance After Retirement
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: 08
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: inheritance-after-retirement.yaml
+- id: GSX:POP-009
+  slug: how-to-shrink-a-country-without-breaking-it
+  title: How to Shrink a Country Without Breaking It
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: 09
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: how-to-shrink-a-country-without-breaking-it.yaml
+- id: GSX:POP-010
+  slug: the-scarce-worker-economy
+  title: The Scarce-Worker Economy
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: '10'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-scarce-worker-economy.yaml
+- id: GSX:POP-011
+  slug: the-population-system
+  title: The Population System
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: '11'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-population-system.yaml
+- id: GSX:POP-012
+  slug: extreme-fiscal-pressure
+  title: Extreme Fiscal Pressure
+  series_slug: population-futures
+  series_title: Population Futures
+  paper_number: '12'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: extreme-fiscal-pressure.yaml
+- id: GSX:SRD-001
+  slug: the-r350-industrialisation-counterfactual
+  title: The R350 Industrialisation Counterfactual
+  series_slug: r350-counterfactual
+  series_title: The R350 Counterfactual
+  paper_number: '01'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-r350-industrialisation-counterfactual.yaml
+- id: GSX:SRD-002
+  slug: the-welfare-cost-of-not-paying-the-grant
+  title: The Welfare Cost of Not Paying the Grant
+  series_slug: r350-counterfactual
+  series_title: The R350 Counterfactual
+  paper_number: '02'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-welfare-cost-of-not-paying-the-grant.yaml
+- id: GSX:SRD-003
+  slug: consumption-today-or-productive-capital-tomorrow
+  title: Consumption Today or Productive Capital Tomorrow?
+  series_slug: r350-counterfactual
+  series_title: The R350 Counterfactual
+  paper_number: '03'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: consumption-today-or-productive-capital-tomorrow.yaml
+- id: GSX:SRD-004
+  slug: the-public-capital-multiplier
+  title: The Public-Capital Multiplier
+  series_slug: r350-counterfactual
+  series_title: The R350 Counterfactual
+  paper_number: '04'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-public-capital-multiplier.yaml
+- id: GSX:SRD-005
+  slug: the-r200-billion-factory
+  title: The R200 Billion Factory
+  series_slug: r350-counterfactual
+  series_title: The R350 Counterfactual
+  paper_number: '05'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-r200-billion-factory.yaml
+- id: GSX:IND-001
+  slug: the-south-african-critical-minerals-industrial-complex
+  title: The South African Critical Minerals Industrial Complex
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  paper_number: '01'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-south-african-critical-minerals-industrial-complex.yaml
+- id: GSX:IND-002
+  slug: the-platinum-to-hydrogen-economy
+  title: The Platinum-to-Hydrogen Economy
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  paper_number: '02'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-platinum-to-hydrogen-economy.yaml
+- id: GSX:IND-003
+  slug: the-manganese-to-battery-economy
+  title: The Manganese-to-Battery Economy
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  paper_number: '03'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-manganese-to-battery-economy.yaml
+- id: GSX:IND-004
+  slug: the-vanadium-grid-storage-economy
+  title: The Vanadium Grid-Storage Economy
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  paper_number: '04'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-vanadium-grid-storage-economy.yaml
+- id: GSX:IND-005
+  slug: the-capital-goods-economy
+  title: The Capital-Goods Economy
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  paper_number: '05'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-capital-goods-economy.yaml
+- id: GSX:IND-006
+  slug: the-mineral-sovereign-wealth-fund
+  title: The Mineral Sovereign Wealth Fund
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  paper_number: '06'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-mineral-sovereign-wealth-fund.yaml
+- id: GSX:AFR-001
+  slug: south-africa-in-a-richer-africa
+  title: South Africa in a Richer Africa
+  series_slug: african-convergence
+  series_title: African Convergence
+  paper_number: '01'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: south-africa-in-a-richer-africa.yaml
+- id: GSX:AFR-002
+  slug: johannesburg-as-africas-financial-capital
+  title: Johannesburg as Africa’s Financial Capital
+  series_slug: african-convergence
+  series_title: African Convergence
+  paper_number: '02'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: johannesburg-as-africas-financial-capital.yaml
+- id: GSX:AFR-003
+  slug: the-factory-for-african-urbanisation
+  title: The Factory for African Urbanisation
+  series_slug: african-convergence
+  series_title: African Convergence
+  paper_number: '03'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: the-factory-for-african-urbanisation.yaml
+- id: GSX:WPL-001
+  slug: inherited-geography
+  title: Inherited Geography
+  series_slug: wealth-and-place
+  series_title: Wealth and Place
+  paper_number: '01'
+  version: '1.0'
+  extraction_status: full_text_claim_led
+  file: inherited-geography.yaml

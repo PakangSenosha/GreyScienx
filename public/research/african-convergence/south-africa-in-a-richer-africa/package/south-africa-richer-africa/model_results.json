@@ -1,0 +1,48 @@
+{
+  "units": "constant 2024 US$ billions unless stated",
+  "baseline": {
+    "africa_gdp": 2902.0,
+    "south_africa_gdp": 401.1,
+    "south_africa_gdp_share_pct": 13.821502412129567,
+    "africa_population_m": 1512.0,
+    "south_africa_population_m": 64.0,
+    "south_africa_population_share_pct": 4.232804232804233,
+    "relevance_score": 56.0
+  },
+  "scenarios_2050": {
+    "Commodity drift": {
+      "sa_real_growth_pct": 1.5,
+      "rest_africa_real_growth_pct": 4.2,
+      "sa_gdp": 590.7037942556921,
+      "africa_gdp": 7879.52034191136,
+      "sa_gdp_share_pct": 7.49669737019047,
+      "sa_gdp_per_capita_index": 125.67121360380384,
+      "africa_gdp_per_capita_index": 164.2155031973808,
+      "africa_linked_income": 29.155266190622676,
+      "relevance_score": 42.550000000000004
+    },
+    "Domestic repair": {
+      "sa_real_growth_pct": 2.5,
+      "rest_africa_real_growth_pct": 4.2,
+      "sa_gdp": 762.2074022829404,
+      "africa_gdp": 8051.023949938609,
+      "sa_gdp_share_pct": 9.46721071782121,
+      "sa_gdp_per_capita_index": 162.15831046657752,
+      "africa_gdp_per_capita_index": 167.7897754969976,
+      "africa_linked_income": 58.31053238124535,
+      "relevance_score": 61.35
+    },
+    "African platform": {
+      "sa_real_growth_pct": 3.5000000000000004,
+      "rest_africa_real_growth_pct": 4.2,
+      "sa_gdp": 981.0739779011427,
+      "africa_gdp": 8269.890525556812,
+      "sa_gdp_share_pct": 11.863203930805202,
+      "sa_gdp_per_capita_index": 208.721797010465,
+      "africa_gdp_per_capita_index": 172.35112990547069,
+      "africa_linked_income": 109.33224821483503,
+      "relevance_score": 81.5
+    }
+  },
+  "growth_needed_to_hold_2024_share_pct": 4.192760707165344
+}

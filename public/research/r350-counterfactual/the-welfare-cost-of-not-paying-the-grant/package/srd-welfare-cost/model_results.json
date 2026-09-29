@@ -1,0 +1,87 @@
+{
+  "valuation_basis": "constant 2026 consumption-equivalent rand unless stated",
+  "real_grant_envelope_r_billion": 253.54,
+  "scenarios": {
+    "Conservative": {
+      "consumption_share": 0.8,
+      "local_multiplier": 1.1,
+      "equity_weight": 1.1,
+      "replacement_credit_share": 0.1,
+      "real_credit_cost": 0.15,
+      "credit_years": 2,
+      "scarring_share": 0.02,
+      "labour_income_loss": 0.9,
+      "direct_consumption_loss": 202.83,
+      "gross_local_activity_loss": 223.11,
+      "distribution_weighted_consumption": 223.11,
+      "replacement_credit_burden": 8.18,
+      "human_capital_scarring": 5.07,
+      "welfare_equivalent_cost": 237.26,
+      "cost_per_rand_withheld": 0.94,
+      "additional_poor_person_years_m": 2.48
+    },
+    "Central": {
+      "consumption_share": 0.93,
+      "local_multiplier": 1.25,
+      "equity_weight": 1.5,
+      "replacement_credit_share": 0.2,
+      "real_credit_cost": 0.25,
+      "credit_years": 3,
+      "scarring_share": 0.08,
+      "labour_income_loss": 4.6,
+      "direct_consumption_loss": 235.79,
+      "gross_local_activity_loss": 294.73,
+      "distribution_weighted_consumption": 353.68,
+      "replacement_credit_burden": 48.33,
+      "human_capital_scarring": 20.28,
+      "welfare_equivalent_cost": 426.89,
+      "cost_per_rand_withheld": 1.68,
+      "additional_poor_person_years_m": 6.35
+    },
+    "Severe": {
+      "consumption_share": 0.99,
+      "local_multiplier": 1.45,
+      "equity_weight": 2.0,
+      "replacement_credit_share": 0.3,
+      "real_credit_cost": 0.35,
+      "credit_years": 4,
+      "scarring_share": 0.2,
+      "labour_income_loss": 13.5,
+      "direct_consumption_loss": 251.0,
+      "gross_local_activity_loss": 363.95,
+      "distribution_weighted_consumption": 502.0,
+      "replacement_credit_burden": 176.58,
+      "human_capital_scarring": 50.71,
+      "welfare_equivalent_cost": 742.78,
+      "cost_per_rand_withheld": 2.93,
+      "additional_poor_person_years_m": 11.0
+    }
+  },
+  "additional_poverty_person_years_million": {
+    "Conservative": 2.48,
+    "Central": 6.35,
+    "Severe": 11.0
+  },
+  "paper1_industrial_public_value_pv_2026_r_billion_at_3_5_percent": {
+    "Best": 693.7,
+    "Average": 233.3,
+    "Worst": 42.2
+  },
+  "jobs_compensation": {
+    "Best": {
+      "illustrative_total_lasting_jobs": 788800,
+      "jobs_reaching_former_recipient_households": 197200,
+      "share_of_8m_recipient_benchmark_percent": 2.465
+    },
+    "Average": {
+      "illustrative_total_lasting_jobs": 202467,
+      "jobs_reaching_former_recipient_households": 30370,
+      "share_of_8m_recipient_benchmark_percent": 0.38
+    },
+    "Worst": {
+      "illustrative_total_lasting_jobs": 24000,
+      "jobs_reaching_former_recipient_households": 1200,
+      "share_of_8m_recipient_benchmark_percent": 0.015
+    }
+  }
+}

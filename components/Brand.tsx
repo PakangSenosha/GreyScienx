@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 type BrandProps = {
@@ -17,8 +18,15 @@ export function Brand({
       href={href}
       aria-label="GreyScienx home"
     >
-      <span className="brand-word">
-        GREY<span>SCIENX</span>
+      <span className="brand-wordmark" aria-hidden="true">
+        <Image
+          src="/brand/greyscienx-wordmark.svg"
+          alt=""
+          width={480}
+          height={60}
+          priority
+          sizes="138px"
+        />
       </span>
       <span className="brand-division">{division}</span>
     </Link>

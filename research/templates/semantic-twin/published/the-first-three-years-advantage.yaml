@@ -1,0 +1,1120 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:HH-002
+  slug: the-first-three-years-advantage
+  title: The First Three Years Advantage
+  subtitle: How much can three boring years in your twenties change the next forty?
+  series_id: GSX:HH
+  series_slug: household-economics
+  series_title: Household Economics
+  series_number: '01'
+  paper_number: '02'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/household-economics/the-first-three-years-advantage
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - lifetime-wealth
+  - cohabitation
+  - housing
+  - south-africa
+  keywords:
+  - Lifetime wealth
+  - Cohabitation
+  - Housing
+  - South Africa
+  - Johannesburg
+  - Cape Town
+  - Durban
+  - first
+  - three
+  - years
+  - advantage
+  - delaying
+  - rent
+  - car
+  - ownership
+  - start
+  - career
+  - alter
+  - lifetime
+  - wealth
+  geographies: &id002
+  - South Africa
+  - Johannesburg
+  - Cape Town
+  - Durban
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: How can delaying rent and car ownership at the start of a career alter lifetime wealth?
+  short_answer: 'In the central middle-salary Johannesburg scenario, living in the family home and delaying a car purchase for three years creates R602,000 more modelled net capital at age 25, and R3.32 million more modelled wealth at age 60, than moving out and financing a car immediately. The age-60 figure holds when the gap is preserved on the manuscript''s common post-25 path. Limitation: This is a modelled counterfactual for one representative worker, not a forecast and not a statement that every graduate can or should live at home. The age-60 level includes a common 10% retirement-saving path. The manuscript treats the gap between strategies as the robust quantity, and the level as a scale illustration.'
+  abstract: How delaying rent and car ownership at the start of a career can alter lifetime wealth.
+  motivation: How delaying rent and car ownership at the start of a career can alter lifetime wealth.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - How does living with parents during the first years of employment compare with paying rent for a separate household?
+  - What is the lifetime wealth comparison between delaying car ownership and buying a car at first employment?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa, Johannesburg, Cape Town, Durban
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:HH-002:R01
+  - GSX:HH-002:R02
+  - GSX:HH-002:R03
+  - GSX:HH-002:R04
+  - GSX:HH-002:R05
+  - GSX:HH-002:R06
+  - GSX:HH-002:R07
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - How can delaying rent and car ownership at the start of a career alter lifetime wealth?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:HH-002:M01
+    name: First-three-years household budget
+    purpose: The model follows the first 36 months in monthly detail, covering salary, tax, household contribution, housing, transport, moving costs, and vehicle finance. At month 36 every strategy has moved out and acquired the modelled car. A common salary, saving, and return path then carries the age-25 gap forward. Differences at age 60 are attributed to the first three years.
+    model_class: scenario model
+    statement: The model follows the first 36 months in monthly detail, covering salary, tax, household contribution, housing, transport, moving costs, and vehicle finance. At month 36 every strategy has moved out and acquired the modelled car. A common salary, saving, and return path then carries the age-25 gap forward. Differences at age 60 are attributed to the first three years.
+    inputs:
+    - Representative worker
+    - Middle starting salary
+    - Johannesburg housing bundle
+    - Contribution while living at home
+    - Financed used car
+    - Hybrid transport while the car is delayed
+    - Common path after age 25
+    outputs:
+    - R01
+    - R02
+    - R03
+    - R04
+    - R05
+    - R06
+    - R07
+    time_step: stated in the manuscript prose
+    implementation_file: research/source/first-three-years-advantage/model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:HH-002:A01
+    name: Representative worker
+    statement: The central case is a 22-year-old worker in Johannesburg, expressed in constant 2026 rand.
+    value: '22'
+    unit: years at the start
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript central scenario
+    source_ids:
+    - GSX:HH-002:PDF
+    evidence_strength: illustrative
+    sensitivity: high
+    alternatives:
+    - Lower salary case
+    - Higher salary case
+    - Cape Town rent scenario
+    - Durban rent scenario
+  - id: A02
+    canonical_id: GSX:HH-002:A02
+    name: Middle starting salary
+    statement: The central worker earns R420,000 a year before tax. The manuscript also reports a lower case of R240,000 and a higher case of R720,000. These are illustrative starting salaries, not national percentiles.
+    value: '420000'
+    unit: constant 2026 rand per year, gross
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript earnings cases
+    source_ids:
+    - GSX:HH-002:PDF
+    evidence_strength: illustrative
+    sensitivity: high
+    alternatives:
+    - '240000'
+    - '720000'
+  - id: A03
+    canonical_id: GSX:HH-002:A03
+    name: Johannesburg housing bundle
+    statement: Independent housing in the Johannesburg scenario costs R9,600 a month in rent and R7,200 a month in other housing basics. The manuscript treats these as transparent city scenarios, not estimated city means.
+    value: '9600'
+    unit: constant 2026 rand per month, rent
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript city scenario, with the rent scale anchored on a published Gauteng rental average
+    source_ids:
+    - GSX:HH-002:PDF
+    evidence_strength: scenario
+    sensitivity: high
+    alternatives:
+    - Cape Town rent R12,500
+    - Durban rent R9,400
+    - Johannesburg rent 30% lower
+  - id: A04
+    canonical_id: GSX:HH-002:A04
+    name: Contribution while living at home
+    statement: While living in the family home, the worker contributes 12% of take-home pay, bounded between R2,500 and R6,000 a month, plus R1,200 of personal food and services. The manuscript counts this transfer as a private cost.
+    value: '12'
+    unit: percent of take-home pay
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript household rule
+    source_ids:
+    - GSX:HH-002:PDF
+    evidence_strength: model assumption
+    sensitivity: high
+    alternatives:
+    - Contribution of about R15,900 a month, where the home-only advantage disappears
+  - id: A05
+    canonical_id: GSX:HH-002:A05
+    name: Financed used car
+    statement: The car is a R230,000 used vehicle with a 10% deposit and 60-month finance at 11.5%, plus insurance, parking, fuel, maintenance, and depreciation as specified in the manuscript.
+    value: '230000'
+    unit: constant 2026 rand, purchase price
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript vehicle case
+    source_ids:
+    - GSX:HH-002:PDF
+    evidence_strength: model assumption
+    sensitivity: moderate
+    alternatives:
+    - Vehicle costing R160,000
+  - id: A06
+    canonical_id: GSX:HH-002:A06
+    name: Hybrid transport while the car is delayed
+    statement: Delaying the car uses a public-transport and ride-hailing mix. In the central case the worker travels about 640 kilometres a month.
+    value: '640'
+    unit: kilometres per month
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript hybrid transport case
+    source_ids:
+    - GSX:HH-002:PDF
+    evidence_strength: model assumption
+    sensitivity: high
+    alternatives:
+    - 25% ride-hailing surge
+    - More office days
+    - A family home far from work
+  - id: A07
+    canonical_id: GSX:HH-002:A07
+    name: Common path after age 25
+    statement: At age 25 every strategy has moved out and acquired the modelled car. From then on the paths share the same real salary growth, a 10% retirement saving rate, and a 5% real investment return.
+    value: '5'
+    unit: percent real return per year
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript post-25 boundary
+    source_ids:
+    - GSX:HH-002:PDF
+    evidence_strength: model assumption
+    sensitivity: high
+    alternatives:
+    - 3% real return
+    - 7% real return
+  parameters:
+  - id: P01
+    name: Representative worker
+    symbol: see the manuscript
+    description: The central case is a 22-year-old worker in Johannesburg, expressed in constant 2026 rand.
+    value: '22'
+    unit: years at the start
+    price_year: '2026'
+    scenario_values:
+      central: '22'
+    source_ids:
+    - GSX:HH-002:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The model follows the first 36 months in monthly detail, covering salary, tax, household contribution, housing, transport, moving costs, and vehicle finance. At month 36 every strategy has moved out and acquired the modelled car. A common salary, saving, and return path then carries the age-25 gap forward. Differences at age 60 are attributed to the first three years.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:HH-002:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Middle salary, Johannesburg, immediate independence
+  role: baseline
+  description: Moving out and buying the car immediately leaves a modelled funding shortfall of R49,000 at age 25 in the central case.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The First Three Years Advantage
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/household-economics/the-first-three-years-advantage
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/first-three-years-advantage/report.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa, Johannesburg, Cape Town, Durban
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - This is a modelled counterfactual for one representative worker, not a forecast and not a statement that every graduate can or should live at home. The age-60 level includes a common 10% retirement-saving path. The manuscript treats the gap between strategies as the robust quantity, and the level as a scale illustration.
+  source_register:
+  - id: GSX:HH-002:PDF
+    type: manuscript
+    title: The First Three Years Advantage
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/household-economics/the-first-three-years-advantage.pdf
+    access_date: '2026-09-27'
+    locator: 20 pages; 0.77 MB
+    supports:
+    - GSX:HH-002:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:HH-002:SRC01
+    type: web_reference
+    title: Statistics South Africa, Labour Market Dynamics in South Africa 2024
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/Report-02-11-02/Report-02-11-022024.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-002:SRC02
+    type: web_reference
+    title: SARS, Guide for Employers in Respect of Employees' Tax 2027
+    author_or_publisher: sars.gov.za
+    date: see cited resource
+    url: https://www.sars.gov.za/guide-for-employers-in-respect-of-employees-tax-2027/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-002:SRC03
+    type: web_reference
+    title: PayProp, Rental growth rebounds in Q1 2026
+    author_or_publisher: payprop.com
+    date: see cited resource
+    url: https://www.payprop.com/za/blog/rental-growth-rebounds-in-q1-2026-but-not-everywhere
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-002:SRC04
+    type: web_reference
+    title: Statistics South Africa, Residential Property Price Index, April 2026
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0160/P0160April2026.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-002:SRC05
+    type: web_reference
+    title: SARS, 2026/27 eLogbook and rate-per-kilometre schedule
+    author_or_publisher: sars.gov.za
+    date: see cited resource
+    url: https://www.sars.gov.za/wp-content/uploads/Docs/Logbook/SARS-eLogbook-2026-2027.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-002:SRC06
+    type: web_reference
+    title: SARB, July 2026 MPC statement
+    author_or_publisher: resbank.co.za
+    date: see cited resource
+    url: https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/july
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-002:SRC07
+    type: web_reference
+    title: SARB, monetary policy framework
+    author_or_publisher: resbank.co.za
+    date: see cited resource
+    url: https://www.resbank.co.za/en/home/what-we-do/monetary-policy
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-002:SRC08
+    type: web_reference
+    title: SARB, prime lending rate consultation
+    author_or_publisher: resbank.co.za
+    date: see cited resource
+    url: https://www.resbank.co.za/en/home/publications/publication-detail-pages/media-releases/2026/prime-cessation-paper
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-002:SRC09
+    type: web_reference
+    title: Consumer Price Index, July 2026
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0141/P0141July2026.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:HH-002:R01
+    statement: Moving out and buying the car immediately leaves a modelled funding shortfall of R49,000 at age 25 in the central case.
+    value: '-49000'
+    unit: constant 2026 rand
+    price_year: '2026'
+    year_or_period: Middle salary, Johannesburg, immediate independence
+    scenario_id: Middle salary, Johannesburg, immediate independence
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:HH-002:PDF
+    reproducible_from:
+    - GSX:HH-002:M01
+  - id: R02
+    canonical_id: GSX:HH-002:R02
+    statement: Delaying the move and the car for three years leaves R553,000 of modelled net capital at age 25 in the central case.
+    value: '553000'
+    unit: constant 2026 rand
+    price_year: '2026'
+    year_or_period: Middle salary, Johannesburg, three-year delay
+    scenario_id: Middle salary, Johannesburg, three-year delay
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:HH-002:PDF
+    reproducible_from:
+    - GSX:HH-002:M01
+  - id: R03
+    canonical_id: GSX:HH-002:R03
+    statement: The central three-year combined delay creates R602,000 more modelled net capital at age 25 than immediate independence.
+    value: '602000'
+    unit: constant 2026 rand
+    price_year: '2026'
+    year_or_period: Middle salary, Johannesburg, three-year delay minus immediate independence
+    scenario_id: Middle salary, Johannesburg, three-year delay minus immediate independence
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:HH-002:PDF
+    reproducible_from:
+    - GSX:HH-002:M01
+  - id: R04
+    canonical_id: GSX:HH-002:R04
+    statement: If that age-25 gap is preserved on the common post-25 path, the manuscript reports R3.32 million more modelled wealth at age 60.
+    value: '3320000'
+    unit: constant 2026 rand
+    price_year: '2026'
+    year_or_period: Middle salary, Johannesburg, gap carried to age 60 at a 5% real return
+    scenario_id: Middle salary, Johannesburg, gap carried to age 60 at a 5% real return
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:HH-002:PDF
+    reproducible_from:
+    - GSX:HH-002:M01
+  - id: R05
+    canonical_id: GSX:HH-002:R05
+    statement: Staying at home for three years while buying the car immediately creates R486,000 more modelled capital by age 25. Moving out immediately while delaying the car creates R128,000.
+    value: '486000'
+    unit: constant 2026 rand, housing-delay gap at age 25
+    price_year: '2026'
+    year_or_period: Middle salary, Johannesburg, housing delay versus car delay
+    scenario_id: Middle salary, Johannesburg, housing delay versus car delay
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:HH-002:PDF
+    reproducible_from:
+    - GSX:HH-002:M01
+  - id: R06
+    canonical_id: GSX:HH-002:R06
+    statement: The modelled three-year home-only advantage disappears at a household contribution of roughly R15,900 a month.
+    value: '15900'
+    unit: constant 2026 rand per month
+    price_year: '2026'
+    year_or_period: Middle salary, Johannesburg, contribution break-even
+    scenario_id: Middle salary, Johannesburg, contribution break-even
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:HH-002:PDF
+    reproducible_from:
+    - GSX:HH-002:M01
+  - id: R07
+    canonical_id: GSX:HH-002:R07
+    statement: Under the central hybrid mix, a financed used car has a lower private monthly money cost only above roughly 2,405 kilometres a month. A 25% ride-hailing surge lowers that threshold to about 1,585 kilometres.
+    value: '2405'
+    unit: kilometres per month
+    price_year: '2026'
+    year_or_period: Central hybrid transport, private money cost
+    scenario_id: Central hybrid transport, private money cost
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:HH-002:PDF
+    reproducible_from:
+    - GSX:HH-002:M01
+  headline_results:
+  - GSX:HH-002:R01
+  sensitivity_results:
+  - GSX:HH-002:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - This is a modelled counterfactual for one representative worker, not a forecast and not a statement that every graduate can or should live at home. The age-60 level includes a common 10% retirement-saving path. The manuscript treats the gap between strategies as the robust quantity, and the level as a scale illustration.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:HH-002:C01
+    claim: In the central middle-salary Johannesburg scenario, living in the family home and delaying a car purchase for three years creates R602,000 more modelled net capital at age 25, and R3.32 million more modelled wealth at age 60, than moving out and financing a car immediately. The age-60 figure holds when the gap is preserved on the manuscript's common post-25 path.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:HH-002:A01
+    - GSX:HH-002:A02
+    - GSX:HH-002:A03
+    - GSX:HH-002:A04
+    - GSX:HH-002:A05
+    - GSX:HH-002:A06
+    - GSX:HH-002:A07
+    derived_from_results: &id004
+    - GSX:HH-002:R01
+    - GSX:HH-002:R02
+    - GSX:HH-002:R03
+    - GSX:HH-002:R04
+    supported_by_sources:
+    - GSX:HH-002:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: This is a modelled counterfactual for one representative worker, not a forecast and not a statement that every graduate can or should live at home. The age-60 level includes a common 10% retirement-saving path. The manuscript treats the gap between strategies as the robust quantity, and the level as a scale illustration.
+    sensitivity: high
+    retrieval_text: In the central middle-salary Johannesburg scenario, living in the family home and delaying a car purchase for three years creates R602,000 more modelled net capital at age 25, and R3.32 million more modelled wealth at age 60, than moving out and financing a car immediately. The age-60 figure holds when the gap is preserved on the manuscript's common post-25 path.
+    citation_text: GreyScienx, GSX:HH-002:C01, version 1.0.
+    href: https://greyscienx.com/research/household-economics/the-first-three-years-advantage/claims/C01
+  - id: C02
+    canonical_id: GSX:HH-002:C02
+    claim: In the central case, staying at home for three years while buying the car immediately accounts for R486,000 of extra modelled capital at age 25, while moving out immediately and delaying the car accounts for R128,000. The housing decision is the larger of the two.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:HH-002:A01
+    - GSX:HH-002:A02
+    - GSX:HH-002:A03
+    - GSX:HH-002:A04
+    - GSX:HH-002:A05
+    - GSX:HH-002:A06
+    derived_from_results:
+    - GSX:HH-002:R05
+    supported_by_sources:
+    - GSX:HH-002:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The two effects overlap slightly when they are combined, because interest on positive and negative balances differs. The split is a central-scenario comparison, not a rule for every city, salary, or commute.
+    sensitivity: high
+    retrieval_text: In the central case, staying at home for three years while buying the car immediately accounts for R486,000 of extra modelled capital at age 25, while moving out immediately and delaying the car accounts for R128,000. The housing decision is the larger of the two.
+    citation_text: GreyScienx, GSX:HH-002:C02, version 1.0.
+    href: https://greyscienx.com/research/household-economics/the-first-three-years-advantage/claims/C02
+  - id: C03
+    canonical_id: GSX:HH-002:C03
+    claim: The modelled advantage of three years in the family home disappears when the household contribution reaches roughly R15,900 a month in the middle-income Johannesburg case.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:HH-002:A01
+    - GSX:HH-002:A02
+    - GSX:HH-002:A03
+    - GSX:HH-002:A04
+    derived_from_results:
+    - GSX:HH-002:R06
+    supported_by_sources:
+    - GSX:HH-002:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The threshold is a diagnostic for this scenario. The manuscript does not present it as a fair-rent recommendation. A higher contribution can still be the right family choice while no longer raising the worker's private wealth.
+    sensitivity: high
+    retrieval_text: The modelled advantage of three years in the family home disappears when the household contribution reaches roughly R15,900 a month in the middle-income Johannesburg case.
+    citation_text: GreyScienx, GSX:HH-002:C03, version 1.0.
+    href: https://greyscienx.com/research/household-economics/the-first-three-years-advantage/claims/C03
+  - id: C04
+    canonical_id: GSX:HH-002:C04
+    claim: Under the central hybrid transport mix, the financed used car has a lower private monthly money cost only above roughly 2,405 kilometres a month.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:HH-002:A05
+    - GSX:HH-002:A06
+    derived_from_results:
+    - GSX:HH-002:R07
+    supported_by_sources:
+    - GSX:HH-002:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The comparison is private money cost. It does not price safety, reliability, waiting, shift work, or access to a job. A 25% ride-hailing surge moves the modelled threshold to about 1,585 kilometres a month.
+    sensitivity: high
+    retrieval_text: Under the central hybrid transport mix, the financed used car has a lower private monthly money cost only above roughly 2,405 kilometres a month.
+    citation_text: GreyScienx, GSX:HH-002:C04, version 1.0.
+    href: https://greyscienx.com/research/household-economics/the-first-three-years-advantage/claims/C04
+distribution_and_welfare:
+  affected_groups:
+  - South Africa, Johannesburg, Cape Town, Durban
+  incidence:
+  - This is a modelled counterfactual for one representative worker, not a forecast and not a statement that every graduate can or should live at home. The age-60 level includes a common 10% retirement-saving path. The manuscript treats the gap between strategies as the robust quantity, and the level as a scale illustration.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: This is a modelled counterfactual for one representative worker, not a forecast and not a statement that every graduate can or should live at home. The age-60 level includes a common 10% retirement-saving path. The manuscript treats the gap between strategies as the robust quantity, and the level as a scale illustration.
+  limitations:
+  - This is a modelled counterfactual for one representative worker, not a forecast and not a statement that every graduate can or should live at home. The age-60 level includes a common 10% retirement-saving path. The manuscript treats the gap between strategies as the robust quantity, and the level as a scale illustration.
+  - The two effects overlap slightly when they are combined, because interest on positive and negative balances differs. The split is a central-scenario comparison, not a rule for every city, salary, or commute.
+  - The threshold is a diagnostic for this scenario. The manuscript does not present it as a fair-rent recommendation. A higher contribution can still be the right family choice while no longer raising the worker's private wealth.
+  - The comparison is private money cost. It does not price safety, reliability, waiting, shift work, or access to a job. A 25% ride-hailing surge moves the modelled threshold to about 1,585 kilometres a month.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - This is a modelled counterfactual for one representative worker, not a forecast and not a statement that every graduate can or should live at home. The age-60 level includes a common 10% retirement-saving path. The manuscript treats the gap between strategies as the robust quantity, and the level as a scale illustration.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/first-three-years-advantage/report.md
+    pdf: https://greyscienx.com/research/household-economics/the-first-three-years-advantage.pdf
+    html: https://greyscienx.com/research/household-economics/the-first-three-years-advantage
+    clean_markdown: https://greyscienx.com/research/household-economics/the-first-three-years-advantage/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/first-three-years-advantage/report.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:HH-002:PDF
+    result_ids:
+    - GSX:HH-002:R01
+  figures:
+  - id: F01
+    title: Strategy wealth paths
+    caption: Figure 1. Total modeled financial wealth includes the common post-25 retirement saving path. The vertical distance between lines is the first-three-years advantage carried forward, not a forecast of an actual person's complete balance sheet.
+    alt_text: Strategy wealth paths
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/first-three-years-advantage/figures/strategy-wealth.png
+    data_file: research/source/first-three-years-advantage/inputs.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:HH-002:R01
+    source_ids:
+    - GSX:HH-002:PDF
+  - id: F02
+    title: Age 25 capital
+    caption: Figure 2. Capital includes the financial balance, rental deposit and net vehicle equity at the age-25 transition. A negative balance is a modeled funding shortfall, not an assertion that a bank would extend unsecured credit on these terms.
+    alt_text: Age 25 capital
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/first-three-years-advantage/figures/age25-capital.png
+    data_file: research/source/first-three-years-advantage/inputs.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:HH-002:R01
+    source_ids:
+    - GSX:HH-002:PDF
+  - id: F03
+    title: Transport break-even
+    caption: Figure 3. The break-even compares private monthly money cost, not safety, reliability, travel time, job access or the option value of a car. A person can rationally choose the higher-cost mode when those benefits are large.
+    alt_text: Transport break-even
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/first-three-years-advantage/figures/transport-break-even.png
+    data_file: research/source/first-three-years-advantage/inputs.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:HH-002:R01
+    source_ids:
+    - GSX:HH-002:PDF
+  - id: F04
+    title: Return sensitivity
+    caption: Figure 4. The age-60 gap ranges widely with real returns. The age-25 gap is already present before long-run return uncertainty enters.
+    alt_text: Return sensitivity
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/first-three-years-advantage/figures/return-sensitivity.png
+    data_file: research/source/first-three-years-advantage/inputs.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:HH-002:R01
+    source_ids:
+    - GSX:HH-002:PDF
+  - id: F05
+    title: City and salary sensitivity
+    caption: Figure 5. Lower salaries show a larger modeled advantage because immediate independence generates a deeper funding shortfall. This is financial vulnerability, not greater privilege.
+    alt_text: City and salary sensitivity
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/first-three-years-advantage/figures/city-salary-sensitivity.png
+    data_file: research/source/first-three-years-advantage/inputs.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:HH-002:R01
+    source_ids:
+    - GSX:HH-002:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/first-three-years-advantage/model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/first-three-years-advantage/inputs.json
+    media_type: application/json
+  - id: CODE03
+    title: Model-result baseline
+    file: research/source/first-three-years-advantage/results/summary.json
+    media_type: application/json
+  model_files:
+  - research/source/first-three-years-advantage/model.py
+  - research/source/first-three-years-advantage/inputs.json
+  - research/source/first-three-years-advantage/results/summary.json
+  data_files:
+  - research/source/first-three-years-advantage/inputs.json
+  - research/source/first-three-years-advantage/results/summary.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/first-three-years-advantage/model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:HH-001
+    slug: economics-of-living-together
+    title: The Economics of Living Together
+    href: https://greyscienx.com/research/household-economics/economics-of-living-together
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:HH-001
+    title: The Economics of Living Together
+    paper_number: '01'
+  successor_studies:
+  - none
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - lifetime-wealth
+  - cohabitation
+  - housing
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:HH-002:C01
+    predicate: depends_on
+    object_id: GSX:HH-002:A01
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C01
+    predicate: depends_on
+    object_id: GSX:HH-002:A02
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C01
+    predicate: depends_on
+    object_id: GSX:HH-002:A03
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C01
+    predicate: depends_on
+    object_id: GSX:HH-002:A04
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C01
+    predicate: depends_on
+    object_id: GSX:HH-002:A05
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C01
+    predicate: depends_on
+    object_id: GSX:HH-002:A06
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C01
+    predicate: depends_on
+    object_id: GSX:HH-002:A07
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C01
+    predicate: derived_from
+    object_id: GSX:HH-002:R01
+    note: Registered result.
+  - subject_id: GSX:HH-002:C01
+    predicate: derived_from
+    object_id: GSX:HH-002:R02
+    note: Registered result.
+  - subject_id: GSX:HH-002:C01
+    predicate: derived_from
+    object_id: GSX:HH-002:R03
+    note: Registered result.
+  - subject_id: GSX:HH-002:C01
+    predicate: derived_from
+    object_id: GSX:HH-002:R04
+    note: Registered result.
+  - subject_id: GSX:HH-002:C02
+    predicate: depends_on
+    object_id: GSX:HH-002:A01
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C02
+    predicate: depends_on
+    object_id: GSX:HH-002:A02
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C02
+    predicate: depends_on
+    object_id: GSX:HH-002:A03
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C02
+    predicate: depends_on
+    object_id: GSX:HH-002:A04
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C02
+    predicate: depends_on
+    object_id: GSX:HH-002:A05
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C02
+    predicate: depends_on
+    object_id: GSX:HH-002:A06
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C02
+    predicate: derived_from
+    object_id: GSX:HH-002:R05
+    note: Registered result.
+  - subject_id: GSX:HH-002:C03
+    predicate: depends_on
+    object_id: GSX:HH-002:A01
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C03
+    predicate: depends_on
+    object_id: GSX:HH-002:A02
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C03
+    predicate: depends_on
+    object_id: GSX:HH-002:A03
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C03
+    predicate: depends_on
+    object_id: GSX:HH-002:A04
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C03
+    predicate: derived_from
+    object_id: GSX:HH-002:R06
+    note: Registered result.
+  - subject_id: GSX:HH-002:C04
+    predicate: depends_on
+    object_id: GSX:HH-002:A05
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C04
+    predicate: depends_on
+    object_id: GSX:HH-002:A06
+    note: Registered dependency.
+  - subject_id: GSX:HH-002:C04
+    predicate: derived_from
+    object_id: GSX:HH-002:R07
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The First Three Years Advantage. GSX:HH-002. Version 1.0.
+  machine_citation: GreyScienx, GSX:HH-002, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/household-economics/the-first-three-years-advantage
+    html: https://greyscienx.com/research/household-economics/the-first-three-years-advantage
+    markdown: https://greyscienx.com/research/household-economics/the-first-three-years-advantage/markdown
+    json: https://greyscienx.com/api/v1/research/the-first-three-years-advantage
+    pdf: https://greyscienx.com/research/household-economics/the-first-three-years-advantage.pdf
+    api: https://greyscienx.com/api/v1/research/the-first-three-years-advantage
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The First Three Years Advantage
+    identifier: GSX:HH-002
+    url: https://greyscienx.com/research/household-economics/the-first-three-years-advantage
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: How delaying rent and car ownership at the start of a career can alter lifetime wealth.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: In the central middle-salary Johannesburg scenario, living in the family home and delaying a car purchase for three years creates R602,000 more modelled net capital at age 25, and R3.32 million more modelled wealth at age 60, than moving out and financing a car immediately. The age-60 figure holds when the gap is preserved on the manuscript's common post-25 path.
+    claim_ids:
+    - GSX:HH-002:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:HH-002:PDF
+    page: manuscript Part I
+    token_estimate: 60
+  question_aliases:
+  - How does living with parents during the first years of employment compare with paying rent for a separate household?
+  - What is the lifetime wealth comparison between delaying car ownership and buying a car at first employment?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:HH-002, version 1.0
+    claim_level_pattern: GreyScienx, GSX:HH-002:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:HH-002
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:HH-002

@@ -1,0 +1,31 @@
+{
+  "edition": "HOUSEHOLD ECONOMICS · PAPER 01.01",
+  "eyebrow": "The ten-year head start",
+  "headline": "Ten years of shared housing leaves the household ahead at 75",
+  "deck": "Two Gauteng couples. Same incomes. Different move-in ages.",
+  "visualTitle": "Advantage from moving in at 25, not 35",
+  "qualifier": "Modelled age-75 outcome · constant 2026 rand",
+  "bars": [
+    {
+      "name": "Best case",
+      "value": 11.287,
+      "label": "R11.287m",
+      "primary": false
+    },
+    {
+      "name": "Average case",
+      "value": 3.972,
+      "label": "R3.972m",
+      "primary": true
+    },
+    {
+      "name": "Worst case",
+      "value": 1.882,
+      "label": "R1.882m",
+      "primary": false
+    }
+  ],
+  "caption": "The lead survives in every modelled path. In the worst case it narrows an unfunded shortfall; in the other cases it adds combined household wealth.",
+  "source": "GreyScienx lifetime model · Combined household outcome · Not a forecast",
+  "url": "greyscienx.com/research"
+}

@@ -1,0 +1,1070 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:IND-002
+  slug: the-platinum-to-hydrogen-economy
+  title: The Platinum-to-Hydrogen Economy
+  subtitle: Can South Africa turn PGM dominance into globally competitive catalysts, fuel-cell systems and electrolysers?
+  series_id: GSX:IND
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  series_number: '04'
+  paper_number: '02'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - critical-minerals
+  - industrialisation
+  - south-africa
+  keywords:
+  - Critical minerals
+  - Industrialisation
+  - South Africa
+  - platinum
+  - hydrogen
+  - economy
+  - reserves
+  - connect
+  - industrial
+  - base
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - USD and ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: How can platinum reserves connect to a hydrogen industrial base?
+  short_answer: 'The manuscript''s industrial conclusion is a qualified PGM-component platform, with complete electrolysers and hydrogen exports only where customers, technology partners and low-cost electricity are already contracted. Limitation: Platinum ownership creates leverage, not automatic competitiveness. Most complete-system revenue pays for non-PGM components and services. The metal and system values are alternatives, not a sum.'
+  abstract: A value-chain model connecting platinum reserves to a hydrogen industrial base.
+  motivation: A value-chain model connecting platinum reserves to a hydrogen industrial base.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - What value chain runs from platinum to a hydrogen economy?
+  - How does hydrogen industrialisation use South Africa's platinum endowment?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:IND-002:R01
+  - GSX:IND-002:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - How can platinum reserves connect to a hydrogen industrial base?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:IND-002:M01
+    name: Selective platinum-to-hydrogen chain
+    purpose: The model separates refined-metal value, component value and complete-system value, and it costs one central 100 MW hydrogen project.
+    model_class: value-chain scenario
+    statement: The model separates refined-metal value, component value and complete-system value, and it costs one central 100 MW hydrogen project.
+    inputs:
+    - PGM endowment
+    - component scope
+    - electricity price
+    - utilisation
+    outputs:
+    - system value per kilogram
+    - hydrogen break-even price
+    time_step: project and comparative static
+    implementation_file: research/source/platinum-to-hydrogen-economy/model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:IND-002:A01
+    name: Upstream position
+    statement: USGS figures used in the manuscript put 2025 South African platinum mine output at about 120,000 kilograms, roughly 71 percent of reported world output, with about 63 million kilograms of PGM reserves.
+    value: '120000'
+    unit: kilograms of platinum mined in 2025
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript Part I, citing USGS Mineral Commodity Summaries 2026
+    source_ids:
+    - GSX:IND-002:PDF
+    evidence_strength: external commodity estimate cited by the manuscript
+    sensitivity: low
+    alternatives:
+    - A later USGS revision
+  - id: A02
+    canonical_id: GSX:IND-002:A02
+    name: Central hydrogen project
+    statement: The central 100 MW illustration uses R8 billion of integrated capital, 65 percent utilisation and electricity at R0.75 per kWh.
+    value: '0.75'
+    unit: rand per kWh
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript finding 6
+    source_ids:
+    - GSX:IND-002:PDF
+    evidence_strength: project scenario
+    sensitivity: high
+    alternatives:
+    - A different power price or utilisation rate
+  parameters:
+  - id: P01
+    name: Upstream position
+    symbol: see the manuscript
+    description: USGS figures used in the manuscript put 2025 South African platinum mine output at about 120,000 kilograms, roughly 71 percent of reported world output, with about 63 million kilograms of PGM reserves.
+    value: '120000'
+    unit: kilograms of platinum mined in 2025
+    price_year: '2026'
+    scenario_values:
+      central: '120000'
+    source_ids:
+    - GSX:IND-002:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The model separates refined-metal value, component value and complete-system value, and it costs one central 100 MW hydrogen project.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:IND-002:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Refined metal versus complete fuel-cell systems
+  role: baseline
+  description: In the model, one kilogram is worth about USD38,600 as refined metal and can enable USD3.2 million of complete fuel-cell systems. The endpoints are alternatives, not a sum.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The Platinum-to-Hydrogen Economy
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/platinum-to-hydrogen-economy/report.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - Platinum ownership creates leverage, not automatic competitiveness. Most complete-system revenue pays for non-PGM components and services. The metal and system values are alternatives, not a sum.
+  source_register:
+  - id: GSX:IND-002:PDF
+    type: manuscript
+    title: The Platinum-to-Hydrogen Economy
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy.pdf
+    access_date: '2026-09-27'
+    locator: 29 pages; 1.97 MB
+    supports:
+    - GSX:IND-002:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:IND-002:SRC01
+    type: web_reference
+    title: USGS, *Mineral Commodity Summaries 2026*
+    author_or_publisher: pubs.usgs.gov
+    date: see cited resource
+    url: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC02
+    type: web_reference
+    title: 'IEA, *Global Hydrogen Review 2026: Executive summary*'
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-hydrogen-review-2026/executive-summary
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC03
+    type: web_reference
+    title: 'IEA, *Global Hydrogen Review 2026: Demand*'
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-hydrogen-review-2026/demand
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC04
+    type: web_reference
+    title: US Department of Energy, PEM electrolysis technical targets
+    author_or_publisher: energy.gov
+    date: see cited resource
+    url: https://www.energy.gov/cmei/fuels/technical-targets-proton-exchange-membrane-electrolysis
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC05
+    type: web_reference
+    title: Isondo Precious Metals, company overview
+    author_or_publisher: isondopm.com
+    date: see cited resource
+    url: https://www.isondopm.com/about
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC06
+    type: web_reference
+    title: Isondo Precious Metals, products
+    author_or_publisher: isondopm.com
+    date: see cited resource
+    url: https://www.isondopm.com/products
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC07
+    type: web_reference
+    title: InvestSA, automotive and components
+    author_or_publisher: investsa.gov.za
+    date: see cited resource
+    url: https://www.investsa.gov.za/key-sectors/automotive-and-components/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC08
+    type: web_reference
+    title: Department of Trade, Industry and Competition, *Green Hydrogen Commercialisation Strategy*
+    author_or_publisher: thedtic.gov.za
+    date: see cited resource
+    url: https://www.thedtic.gov.za/wp-content/uploads/Full-Report-Green-Hydrogen-Commercialisation-Strategy.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC09
+    type: web_reference
+    title: the dtic, implementation of the Green Hydrogen Commercialisation Strategy
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/news/media-statements/trade-industry-and-competition-implementation-green-hydrogen
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC10
+    type: web_reference
+    title: Anglo American, zero-emission haulage system launch
+    author_or_publisher: angloamerican.com
+    date: see cited resource
+    url: https://www.angloamerican.com/media/press-releases/2022/06-05-2022
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC11
+    type: web_reference
+    title: First Mode, company update
+    author_or_publisher: firstmode.com
+    date: see cited resource
+    url: https://firstmode.com/news/blog/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC12
+    type: web_reference
+    title: 'IEA, *Global Hydrogen Review 2026: Production*'
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-hydrogen-review-2026/production
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC13
+    type: web_reference
+    title: 'IEA, *Global Hydrogen Review 2025: Executive summary*'
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC14
+    type: web_reference
+    title: 'IEA, *Global Hydrogen Review 2026: Investment and innovation*'
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-hydrogen-review-2026/investment-and-innovation
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC15
+    type: web_reference
+    title: IEA, electrolysers
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/energy-system/hydrogen/electrolysers
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC16
+    type: web_reference
+    title: US Department of Energy, *Water Electrolysis Technology Assessment*
+    author_or_publisher: energy.gov
+    date: see cited resource
+    url: https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC17
+    type: web_reference
+    title: US Department of Energy, *Fuel Cells and Electrolyzers Supply Chain Report*
+    author_or_publisher: energy.gov
+    date: see cited resource
+    url: https://www.energy.gov/sites/default/files/2022-02/Fuel%20Cells%20%26%20Electrolyzers%20Supply%20Chain%20Report%20-%20Final.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC18
+    type: web_reference
+    title: US Department of Energy, *Heavy-Duty Fuel Cell System Cost 2022*
+    author_or_publisher: hydrogen.energy.gov
+    date: see cited resource
+    url: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/23002-hd-fuel-cell-system-cost-2022.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC19
+    type: web_reference
+    title: US Department of Energy, Hydrogen and Fuel Cell Technologies Multi-Year Program Plan
+    author_or_publisher: energy.gov
+    date: see cited resource
+    url: https://www.energy.gov/cmei/fuels/hydrogen-and-fuel-cell-technologies-multi-year-program-plan
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC20
+    type: web_reference
+    title: World Platinum Investment Council, hydrogen demand
+    author_or_publisher: platinuminvestment.com
+    date: see cited resource
+    url: https://platinuminvestment.com/about/hydrogen-demand
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC21
+    type: web_reference
+    title: WPIC, January 2026 electrolysis update
+    author_or_publisher: platinuminvestment.com
+    date: see cited resource
+    url: https://platinuminvestment.com/index.php/investment-research/perspectives/pem-capacity-growth-revised-downward-in-iea-update-dampening-platinum-demand-despite-rising-electrolysis?category=&page=1&term=
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-002:SRC22
+    type: web_reference
+    title: '*South African Hydrogen Society Roadmap*'
+    author_or_publisher: dsi.gov.za
+    date: see cited resource
+    url: https://www.dsi.gov.za/index.php/resource-center/reports/strategies-and-reports/3574-hydrogen-society-roadmap-for-south-africa-2021
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:IND-002:R01
+    statement: In the model, one kilogram is worth about USD38,600 as refined metal and can enable USD3.2 million of complete fuel-cell systems. The endpoints are alternatives, not a sum.
+    value: '38600'
+    unit: US dollars per kilogram of refined metal in the model
+    price_year: '2026'
+    year_or_period: Refined metal versus complete fuel-cell systems
+    scenario_id: Refined metal versus complete fuel-cell systems
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:IND-002:PDF
+    reproducible_from:
+    - GSX:IND-002:M01
+  - id: R02
+    canonical_id: GSX:IND-002:R02
+    statement: The central 100 MW project breaks even near USD8.25 per kilogram of hydrogen.
+    value: '8.25'
+    unit: US dollars per kilogram of hydrogen
+    price_year: '2026'
+    year_or_period: Central 100 MW project
+    scenario_id: Central 100 MW project
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:IND-002:PDF
+    reproducible_from:
+    - GSX:IND-002:M01
+  headline_results:
+  - GSX:IND-002:R01
+  sensitivity_results:
+  - GSX:IND-002:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - Platinum ownership creates leverage, not automatic competitiveness. Most complete-system revenue pays for non-PGM components and services. The metal and system values are alternatives, not a sum.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:IND-002:C01
+    claim: The manuscript's industrial conclusion is a qualified PGM-component platform, with complete electrolysers and hydrogen exports only where customers, technology partners and low-cost electricity are already contracted.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:IND-002:A01
+    derived_from_results: &id004
+    - GSX:IND-002:R01
+    supported_by_sources:
+    - GSX:IND-002:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: Platinum ownership creates leverage, not automatic competitiveness. Most complete-system revenue pays for non-PGM components and services. The metal and system values are alternatives, not a sum.
+    sensitivity: moderate
+    retrieval_text: The manuscript's industrial conclusion is a qualified PGM-component platform, with complete electrolysers and hydrogen exports only where customers, technology partners and low-cost electricity are already contracted.
+    citation_text: GreyScienx, GSX:IND-002:C01, version 1.0.
+    href: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy/claims/C01
+  - id: C02
+    canonical_id: GSX:IND-002:C02
+    claim: Under the central project assumptions, a 100 MW hydrogen plant breaks even near USD8.25 per kilogram. Capital utilisation and the power price dominate the electrolyser's PGM value.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:IND-002:A02
+    derived_from_results:
+    - GSX:IND-002:R02
+    supported_by_sources:
+    - GSX:IND-002:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: Nearby platinum does not make hydrogen cheap. A different electricity price or utilisation rate moves the break-even.
+    sensitivity: high
+    retrieval_text: Under the central project assumptions, a 100 MW hydrogen plant breaks even near USD8.25 per kilogram. Capital utilisation and the power price dominate the electrolyser's PGM value.
+    citation_text: GreyScienx, GSX:IND-002:C02, version 1.0.
+    href: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - Platinum ownership creates leverage, not automatic competitiveness. Most complete-system revenue pays for non-PGM components and services. The metal and system values are alternatives, not a sum.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: Platinum ownership creates leverage, not automatic competitiveness. Most complete-system revenue pays for non-PGM components and services. The metal and system values are alternatives, not a sum.
+  limitations:
+  - Platinum ownership creates leverage, not automatic competitiveness. Most complete-system revenue pays for non-PGM components and services. The metal and system values are alternatives, not a sum.
+  - Nearby platinum does not make hydrogen cheap. A different electricity price or utilisation rate moves the break-even.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - Platinum ownership creates leverage, not automatic competitiveness. Most complete-system revenue pays for non-PGM components and services. The metal and system values are alternatives, not a sum.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/platinum-to-hydrogen-economy/report.md
+    pdf: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy.pdf
+    html: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy
+    clean_markdown: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/platinum-to-hydrogen-economy/report.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:IND-002:PDF
+    result_ids:
+    - GSX:IND-002:R01
+  figures:
+  - id: F01
+    title: South African PGM endowment
+    caption: Figure 1. South Africa dominates platinum supply and the reported PGM reserve base. The figures use different denominators, but together they establish the country’s exceptional upstream position.
+    alt_text: South African PGM endowment
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/endowment.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F02
+    title: Platinum-to-hydrogen value chain
+    caption: Figure 2. The recommended strategy concentrates ownership in PGM chemistry, coated components, testing and recycling; uses partnerships for high-volume stacks and electrolysers; and treats molecule production as a separately bankable project.
+    alt_text: Platinum-to-hydrogen value chain
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/chain-map.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F03
+    title: Value enabled by one kilogram of platinum
+    caption: Figure 3. The grey bars show gross sales of alternative products enabled by one kilogram of platinum. The coral bars show an assumed South African value-added share. The endpoints are alternatives and must never be added together.
+    alt_text: Value enabled by one kilogram of platinum
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/value-ladder.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F04
+    title: Illustrative module economics
+    caption: Figure 4. Components and application-specific systems offer attractive local value at manageable capital. The electrolyser factory has the largest potential annual value but also requires a deep order book. Green-hydrogen production is capital-heavy and operationally lean.
+    alt_text: Illustrative module economics
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/module-frontier.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F05
+    title: Direct operating jobs per billion rand of capital
+    caption: Figure 5. Systems and application integration are more job-dense than commodity hydrogen production in the chosen scales. Component manufacturing creates valuable capability, not mass employment.
+    alt_text: Direct operating jobs per billion rand of capital
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/jobs-capital.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F06
+    title: Global hydrogen demand
+    caption: Figure 6. Existing demand is large, but the low-emissions portion remains about one per cent. The first practical market is often replacement of fossil hydrogen at existing industrial sites.
+    alt_text: Global hydrogen demand
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/hydrogen-reality.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F07
+    title: Electrolyser market concentration
+    caption: Figure 7. Electrolysis is growing, but production and manufacturing capacity are concentrated. A South African factory enters an industry with powerful incumbents and surplus capacity.
+    alt_text: Electrolyser market concentration
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/electrolyser-market.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F08
+    title: PGM intensity in PEM electrolysis
+    caption: Figure 8. Lower PGM loadings reduce metal demand per gigawatt, but they can unlock a much larger equipment market. South Africa’s rational position is to lead the thrift and recycling technologies.
+    alt_text: PGM intensity in PEM electrolysis
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/pgm-intensity.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F09
+    title: Hydrogen break-even map
+    caption: Figure 9. The central cell is outlined. High utilisation spreads capital over more kilograms; lower capital matters enormously. A project with cheap electricity can still fail if expensive equipment sits idle.
+    alt_text: Hydrogen break-even map
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/hydrogen-break-even.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F10
+    title: Hydrogen cost by electricity tariff
+    caption: Figure 10. Electricity is the largest variable input, but the central integrated project remains expensive even at low tariffs because its capital charge is spread over limited annual output.
+    alt_text: Hydrogen cost by electricity tariff
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/power-cost.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F11
+    title: Application opportunity map
+    caption: Figure 11. Mine and off-road systems, controlled truck or bus corridors and stationary applications offer concentrated operations and service access. Passenger vehicles and undifferentiated hydrogen exports are weaker opening bets.
+    alt_text: Application opportunity map
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/application-map.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  - id: F12
+    title: Illustrative strategy portfolios
+    caption: Figure 12. A systems-and-anchor portfolio creates the most risk-adjusted local value and jobs in the illustration. The metal base remains strongest for exports. A molecule-first strategy performs poorly because capital, market and execution risks compound.
+    alt_text: Illustrative strategy portfolios
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/platinum-to-hydrogen-economy/assets/strategy-portfolios.png
+    data_file: research/source/platinum-to-hydrogen-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-002:R01
+    source_ids:
+    - GSX:IND-002:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/platinum-to-hydrogen-economy/model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/platinum-to-hydrogen-economy/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/platinum-to-hydrogen-economy/model.py
+  - research/source/platinum-to-hydrogen-economy/model_results.json
+  data_files:
+  - research/source/platinum-to-hydrogen-economy/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/platinum-to-hydrogen-economy/model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:IND-001
+    slug: the-south-african-critical-minerals-industrial-complex
+    title: The South African Critical Minerals Industrial Complex
+    href: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex
+    relationship: same_series
+  - id: GSX:IND-003
+    slug: the-manganese-to-battery-economy
+    title: The Manganese-to-Battery Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy
+    relationship: same_series
+  - id: GSX:IND-004
+    slug: the-vanadium-grid-storage-economy
+    title: The Vanadium Grid-Storage Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-vanadium-grid-storage-economy
+    relationship: same_series
+  - id: GSX:IND-005
+    slug: the-capital-goods-economy
+    title: The Capital-Goods Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy
+    relationship: same_series
+  - id: GSX:IND-006
+    slug: the-mineral-sovereign-wealth-fund
+    title: The Mineral Sovereign Wealth Fund
+    href: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:IND-001
+    title: The South African Critical Minerals Industrial Complex
+    paper_number: '01'
+  successor_studies:
+  - id: GSX:IND-005
+    title: The Capital-Goods Economy
+    paper_number: '05'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - critical-minerals
+  - industrialisation
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:IND-002:C01
+    predicate: depends_on
+    object_id: GSX:IND-002:A01
+    note: Registered dependency.
+  - subject_id: GSX:IND-002:C01
+    predicate: derived_from
+    object_id: GSX:IND-002:R01
+    note: Registered result.
+  - subject_id: GSX:IND-002:C02
+    predicate: depends_on
+    object_id: GSX:IND-002:A02
+    note: Registered dependency.
+  - subject_id: GSX:IND-002:C02
+    predicate: derived_from
+    object_id: GSX:IND-002:R02
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The Platinum-to-Hydrogen Economy. GSX:IND-002. Version 1.0.
+  machine_citation: GreyScienx, GSX:IND-002, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy
+    html: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy
+    markdown: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy/markdown
+    json: https://greyscienx.com/api/v1/research/the-platinum-to-hydrogen-economy
+    pdf: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy.pdf
+    api: https://greyscienx.com/api/v1/research/the-platinum-to-hydrogen-economy
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The Platinum-to-Hydrogen Economy
+    identifier: GSX:IND-002
+    url: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: A value-chain model connecting platinum reserves to a hydrogen industrial base.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: The manuscript's industrial conclusion is a qualified PGM-component platform, with complete electrolysers and hydrogen exports only where customers, technology partners and low-cost electricity are already contracted.
+    claim_ids:
+    - GSX:IND-002:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:IND-002:PDF
+    page: manuscript Part I
+    token_estimate: 26
+  question_aliases:
+  - What value chain runs from platinum to a hydrogen economy?
+  - How does hydrogen industrialisation use South Africa's platinum endowment?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:IND-002, version 1.0
+    claim_level_pattern: GreyScienx, GSX:IND-002:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  - 1 cited external links could not be verified because the server returned a transient error or the request did not complete.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:IND-002
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:IND-002

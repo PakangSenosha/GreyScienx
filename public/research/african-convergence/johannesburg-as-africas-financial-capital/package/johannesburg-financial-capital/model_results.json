@@ -1,0 +1,48 @@
+{
+  "model": "Johannesburg as Africa's Financial Capital",
+  "units": "constant 2024 US dollars",
+  "scenarios": {
+    "Fragmented finance": {
+      "cumulative_gdp_usd_tn": 120.939,
+      "cumulative_investment_usd_tn": 26.607,
+      "cumulative_addressable_usd_tn": 7.982,
+      "cumulative_captured_usd_tn": 0.239,
+      "cumulative_revenue_usd_bn": 17.14,
+      "cumulative_dva_usd_bn": 13.53,
+      "average_annual_dva_usd_bn": 0.54,
+      "average_direct_jobs": 3006,
+      "average_supported_jobs": 4809,
+      "average_dva_share_sa_gdp_2024_pct": 0.13
+    },
+    "Regional hub": {
+      "cumulative_gdp_usd_tn": 150.34,
+      "cumulative_investment_usd_tn": 40.592,
+      "cumulative_addressable_usd_tn": 16.237,
+      "cumulative_captured_usd_tn": 1.299,
+      "cumulative_revenue_usd_bn": 90.38,
+      "cumulative_dva_usd_bn": 71.23,
+      "average_annual_dva_usd_bn": 2.85,
+      "average_direct_jobs": 15829,
+      "average_supported_jobs": 25326,
+      "average_dva_share_sa_gdp_2024_pct": 0.71
+    },
+    "Continental platform": {
+      "cumulative_gdp_usd_tn": 188.146,
+      "cumulative_investment_usd_tn": 58.325,
+      "cumulative_addressable_usd_tn": 27.996,
+      "cumulative_captured_usd_tn": 3.919,
+      "cumulative_revenue_usd_bn": 265.14,
+      "cumulative_dva_usd_bn": 208.71,
+      "average_annual_dva_usd_bn": 8.35,
+      "average_direct_jobs": 46380,
+      "average_supported_jobs": 74209,
+      "average_dva_share_sa_gdp_2024_pct": 2.08
+    }
+  },
+  "central_revenue_components_usd_bn": {
+    "Origination & advisory": 18.19,
+    "FX, payments & trade services": 7.79,
+    "Insurance, guarantees & risk": 12.99,
+    "Asset servicing & custody": 51.41
+  }
+}

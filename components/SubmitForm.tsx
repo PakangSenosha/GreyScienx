@@ -32,12 +32,12 @@ export function SubmitForm() {
       });
       const data = await response.json();
       if (!response.ok) {
-        throw new Error(data.error || "Could not distill this manuscript.");
+        throw new Error(data.error || "Could not prepare this manuscript.");
       }
       sessionStorage.setItem("greyscienx-preview", JSON.stringify(data));
       router.push("/preview");
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Could not distill this manuscript.");
+      setError(err instanceof Error ? err.message : "Could not prepare this manuscript.");
       setBusy(false);
     }
   }
@@ -81,15 +81,15 @@ export function SubmitForm() {
           name="manuscript"
           required
           minLength={80}
-          placeholder="Paste the armchair paper, or a long abstract plus results and methods. GreyScienx will distill it into the research-site template."
+          placeholder="Paste the paper, or a substantial abstract with results and methods. GreyScienx will prepare an article preview."
         />
         <span className="form-note">
-          The original text remains the source of record. The site is a public distillation: finding, quantities, evidence, methods, and a download slot for the paper.
+          The original text remains the source of record. The preview summarises the finding, quantities, evidence and methods, with a place for the full paper.
         </span>
       </label>
       <div>
         <button className="button button-primary" type="submit" disabled={busy}>
-          {busy ? "Distilling…" : "Distill into a research site"}
+          {busy ? "Preparing…" : "Prepare article preview"}
         </button>
       </div>
     </form>

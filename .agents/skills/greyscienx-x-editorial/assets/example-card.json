@@ -1,0 +1,25 @@
+{
+  "edition": "HOUSEHOLD ECONOMICS · PAPER 01",
+  "eyebrow": "The ten-year head start",
+  "headline": "Ten years of shared housing can become a R4 million wealth gap",
+  "deck": "A Gauteng household model comparing the same R50,000 monthly income.",
+  "visualTitle": "Household wealth at age 75",
+  "qualifier": "Average model · constant 2026 rand",
+  "bars": [
+    {
+      "name": "Together from 25",
+      "value": 13.833,
+      "label": "R13.8m",
+      "primary": true
+    },
+    {
+      "name": "Together from 35",
+      "value": 9.861,
+      "label": "R9.9m",
+      "primary": false
+    }
+  ],
+  "caption": "Moving in at 25 rather than 35 produces R3.972 million more combined household wealth at 75 in the average scenario.",
+  "source": "GreyScienx armchair model · Not a forecast · Combined household wealth",
+  "url": "greyscienx.com/research"
+}

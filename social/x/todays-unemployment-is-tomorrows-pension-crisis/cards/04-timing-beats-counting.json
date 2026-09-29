@@ -1,0 +1,15 @@
+{
+  "edition": "POPULATION FUTURES · PAPER 02.02",
+  "eyebrow": "Timing beats counting",
+  "headline": "The same 30 working years do not build the same pension",
+  "deck": "Contributions made in the twenties keep compounding through a later career gap.",
+  "visualTitle": "Private retirement wealth at 60",
+  "qualifier": "30 employment years each · 2026 rand",
+  "bars": [
+    {"name": "Interrupted", "value": 3.33, "label": "R3.33m", "primary": true},
+    {"name": "Entry at 30", "value": 3.09, "label": "R3.09m", "primary": false}
+  ],
+  "caption": "The interrupted worker finishes about R0.24m ahead because the first contributions had longer to grow.",
+  "source": "GreyScienx cohort model · Conditional profiles",
+  "url": "greyscienx.com/research"
+}

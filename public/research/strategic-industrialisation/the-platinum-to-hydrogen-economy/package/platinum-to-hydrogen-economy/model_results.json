@@ -1,0 +1,166 @@
+{
+  "units": {
+    "currency": "constant 2026 rand unless stated",
+    "usd_zar_model_rate": 18.0,
+    "platinum_price_usd_oz": 1200.0
+  },
+  "value_ladder": [
+    {
+      "stage": "Refined platinum",
+      "gross_usd": 38580.840000000004,
+      "local_share": 0.8,
+      "local_value_usd": 30864.672000000006
+    },
+    {
+      "stage": "Specialty catalyst",
+      "gross_usd": 70000,
+      "local_share": 0.55,
+      "local_value_usd": 38500.0
+    },
+    {
+      "stage": "MEA output",
+      "gross_usd": 320000,
+      "local_share": 0.38,
+      "local_value_usd": 121600.0
+    },
+    {
+      "stage": "Fuel-cell stacks",
+      "gross_usd": 1600000,
+      "local_share": 0.3,
+      "local_value_usd": 480000.0
+    },
+    {
+      "stage": "Fuel-cell systems",
+      "gross_usd": 3200000,
+      "local_share": 0.38,
+      "local_value_usd": 1216000.0
+    }
+  ],
+  "modules": [
+    {
+      "stage": "PGM refining",
+      "scale": "100 koz Pt-eq/y",
+      "capex": 4.0,
+      "sales": 2.16,
+      "exports": 1.85,
+      "value": 1.4,
+      "jobs": 300,
+      "energy": 120,
+      "water": 0.2
+    },
+    {
+      "stage": "Catalysts + chemicals",
+      "scale": "4 t catalyst/y",
+      "capex": 0.9,
+      "sales": 1.7,
+      "exports": 1.15,
+      "value": 0.65,
+      "jobs": 60,
+      "energy": 15,
+      "water": 0.03
+    },
+    {
+      "stage": "MEAs",
+      "scale": "30k vehicle-eq/y",
+      "capex": 1.2,
+      "sales": 3.2,
+      "exports": 2.1,
+      "value": 1.15,
+      "jobs": 100,
+      "energy": 25,
+      "water": 0.02
+    },
+    {
+      "stage": "Fuel-cell stacks",
+      "scale": "500 MW/y",
+      "capex": 3.5,
+      "sales": 3.6,
+      "exports": 2.2,
+      "value": 1.1,
+      "jobs": 350,
+      "energy": 45,
+      "water": 0.02
+    },
+    {
+      "stage": "Fuel-cell systems",
+      "scale": "300 MW/y",
+      "capex": 2.5,
+      "sales": 4.32,
+      "exports": 1.8,
+      "value": 1.65,
+      "jobs": 500,
+      "energy": 35,
+      "water": 0.02
+    },
+    {
+      "stage": "PEM components",
+      "scale": "1 GW/y",
+      "capex": 4.0,
+      "sales": 4.5,
+      "exports": 2.9,
+      "value": 1.5,
+      "jobs": 250,
+      "energy": 40,
+      "water": 0.03
+    },
+    {
+      "stage": "PEM electrolysers",
+      "scale": "1 GW/y",
+      "capex": 8.0,
+      "sales": 12.6,
+      "exports": 7.6,
+      "value": 3.8,
+      "jobs": 500,
+      "energy": 80,
+      "water": 0.05
+    },
+    {
+      "stage": "Green H2 production",
+      "scale": "100 MW at 65%",
+      "capex": 8.0,
+      "sales": 0.75,
+      "exports": 0.1,
+      "value": 0.4,
+      "jobs": 60,
+      "energy": 570,
+      "water": 0.19
+    },
+    {
+      "stage": "Mining / HD systems",
+      "scale": "100 systems/y",
+      "capex": 2.0,
+      "sales": 2.8,
+      "exports": 1.1,
+      "value": 1.0,
+      "jobs": 300,
+      "energy": 25,
+      "water": 0.01
+    },
+    {
+      "stage": "PGM recycling",
+      "scale": "2 t recovered/y",
+      "capex": 1.5,
+      "sales": 1.5,
+      "exports": 0.7,
+      "value": 0.6,
+      "jobs": 120,
+      "energy": 20,
+      "water": 0.04
+    }
+  ],
+  "hydrogen_project": {
+    "electrolyser_mw": 100,
+    "central_utilisation": 0.65,
+    "central_capex_r_bn": 8,
+    "electricity_r_kwh": 0.75,
+    "efficiency_kwh_kg": 54,
+    "annual_hydrogen_t": 10544.4,
+    "break_even_usd_kg": 8.25
+  },
+  "notes": [
+    "Scenarios are not forecasts or investment advice.",
+    "Value-ladder endpoints are alternatives and must not be summed.",
+    "Module scales are independent and not mass-balanced.",
+    "PGM intensity benchmarks use different technology definitions and are directional."
+  ]
+}

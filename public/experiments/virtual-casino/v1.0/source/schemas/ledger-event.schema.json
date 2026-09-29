@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://greyscienx.com/schemas/virtual-casino/ledger-event-v1.json",
+  "title": "Virtual Casino immutable ledger event",
+  "type": "object",
+  "required": ["experimentId", "worldId", "sequenceNumber", "eventType", "simulatedAt", "previousEventHash", "eventHash"],
+  "properties": {
+    "experimentId": {"type":"string"},
+    "worldId": {"type":"string"},
+    "sequenceNumber": {"type":"integer","minimum":1},
+    "eventType": {"enum":["allocation_started","session_started","wager_settled","session_ended","ruin_recorded","allocation_exhausted","player_inactivated","checkpoint_created","world_completed"]},
+    "simulatedAt": {"type":"string","format":"date-time"},
+    "playerId": {"type":"string","pattern":"^P[0-9]{4}$"},
+    "stakeCents": {"type":"integer","minimum":1},
+    "grossPayoutCents": {"type":"integer","minimum":0},
+    "bankrollBeforeCents": {"type":"integer","minimum":0},
+    "bankrollAfterCents": {"type":"integer","minimum":0},
+    "previousEventHash": {"type":"string","pattern":"^[a-f0-9]{64}$"},
+    "eventHash": {"type":"string","pattern":"^[a-f0-9]{64}$"}
+  },
+  "additionalProperties": true
+}

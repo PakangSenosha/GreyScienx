@@ -1,0 +1,114 @@
+{
+  "period": [
+    2026,
+    2050
+  ],
+  "base_african_mva_2025_usd_bn": 300.0,
+  "scenario_results": {
+    "Industrial drift": {
+      "mva_growth_percent": 3.0,
+      "equipment_ratio_percent": 16.0,
+      "mva_2050_usd_bn": 628.1,
+      "cumulative_equipment_demand_usd_bn": 1802.5
+    },
+    "Manufacturing catch-up": {
+      "mva_growth_percent": 5.5,
+      "equipment_ratio_percent": 24.0,
+      "mva_2050_usd_bn": 1144.0,
+      "cumulative_equipment_demand_usd_bn": 3885.6
+    },
+    "Industrial surge": {
+      "mva_growth_percent": 8.0,
+      "equipment_ratio_percent": 30.0,
+      "mva_2050_usd_bn": 2054.5,
+      "cumulative_equipment_demand_usd_bn": 7105.9
+    }
+  },
+  "central_weighted_capture_percent": 6.73,
+  "central_equipment_sales_usd_bn": 261.5,
+  "central_lifecycle_revenue_usd_bn": 104.7,
+  "central_total_revenue_usd_bn": 366.2,
+  "central_domestic_value_added_usd_bn": 201.2,
+  "central_average_annual_dva_usd_bn": 8.05,
+  "central_average_direct_jobs_thousands": 80.5,
+  "central_average_supported_jobs_thousands": 136.8,
+  "central_average_dva_percent_2024_sa_gdp": 2.01,
+  "business_models": {
+    "Distributor": {
+      "equipment_capture_percent": 2.0,
+      "gross_revenue_usd_bn": 90.1,
+      "domestic_value_added_usd_bn": 34.2,
+      "average_direct_jobs_thousands": 13.7
+    },
+    "Machinery supplier": {
+      "equipment_capture_percent": 6.73,
+      "gross_revenue_usd_bn": 366.2,
+      "domestic_value_added_usd_bn": 201.2,
+      "average_direct_jobs_thousands": 80.5
+    },
+    "Lifecycle platform": {
+      "equipment_capture_percent": 11.0,
+      "gross_revenue_usd_bn": 671.9,
+      "domestic_value_added_usd_bn": 448.8,
+      "average_direct_jobs_thousands": 179.5
+    }
+  },
+  "categories": [
+    {
+      "category": "Mining and materials handling",
+      "market_share_percent": 18.0,
+      "sa_capture_percent": 10.0,
+      "cumulative_market_usd_bn": 699.4,
+      "sa_equipment_sales_usd_bn": 69.9
+    },
+    {
+      "category": "Food and agricultural processing",
+      "market_share_percent": 18.0,
+      "sa_capture_percent": 8.0,
+      "cumulative_market_usd_bn": 699.4,
+      "sa_equipment_sales_usd_bn": 56.0
+    },
+    {
+      "category": "Electrical machinery and factory power",
+      "market_share_percent": 17.0,
+      "sa_capture_percent": 7.0,
+      "cumulative_market_usd_bn": 660.5,
+      "sa_equipment_sales_usd_bn": 46.2
+    },
+    {
+      "category": "Packaging and light industrial equipment",
+      "market_share_percent": 12.0,
+      "sa_capture_percent": 6.0,
+      "cumulative_market_usd_bn": 466.3,
+      "sa_equipment_sales_usd_bn": 28.0
+    },
+    {
+      "category": "Process and chemical equipment",
+      "market_share_percent": 11.0,
+      "sa_capture_percent": 6.0,
+      "cumulative_market_usd_bn": 427.4,
+      "sa_equipment_sales_usd_bn": 25.6
+    },
+    {
+      "category": "Controls, automation and robotics",
+      "market_share_percent": 10.0,
+      "sa_capture_percent": 5.0,
+      "cumulative_market_usd_bn": 388.6,
+      "sa_equipment_sales_usd_bn": 19.4
+    },
+    {
+      "category": "Medical and laboratory equipment",
+      "market_share_percent": 8.0,
+      "sa_capture_percent": 3.0,
+      "cumulative_market_usd_bn": 310.8,
+      "sa_equipment_sales_usd_bn": 9.3
+    },
+    {
+      "category": "General factory equipment",
+      "market_share_percent": 6.0,
+      "sa_capture_percent": 3.0,
+      "cumulative_market_usd_bn": 233.1,
+      "sa_equipment_sales_usd_bn": 7.0
+    }
+  ]
+}

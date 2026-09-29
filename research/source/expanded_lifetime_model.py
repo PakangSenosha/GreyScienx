@@ -1,5 +1,11 @@
-from dataclasses import dataclass
+import json
+from dataclasses import asdict, dataclass
+from pathlib import Path
 from typing import Optional
+
+
+ROOT = Path(__file__).resolve().parents[1]
+RESULTS_PATH = ROOT / "source" / "economics-of-living-together" / "model_results.json"
 
 
 @dataclass
@@ -332,9 +338,38 @@ def money(value):
 
 
 if __name__ == "__main__":
+    output = {
+        "model_label": "Gauteng lifetime household-consolidation model",
+        "currency": "constant 2026 rand",
+        "ages": [25, 75],
+        "salary_inputs_monthly": [30_000, 20_000],
+        "scenarios": [],
+    }
     for scenario in SCENARIOS:
         early = simulate(scenario, 25)
         late = simulate(scenario, 35)
+        output["scenarios"].append(
+            {
+                "name": scenario.name,
+                "assumptions": asdict(scenario),
+                "early_move_age": 25,
+                "late_move_age": 35,
+                "early_net_worth_age_75": early["net_worth"],
+                "late_net_worth_age_75": late["net_worth"],
+                "age_75_gap": early["net_worth"] - late["net_worth"],
+                "early_milestones": early["milestones"],
+                "late_milestones": late["milestones"],
+                "early_purchase_age": early["purchase_age"],
+                "late_purchase_age": late["purchase_age"],
+                "living_cost_saved": late["living_expense"] - early["living_expense"],
+                "child_cost": early["child_cost"],
+                "family_remittance": early["remittance"],
+                "income_lost_to_shocks": early["income_lost"],
+                "income_lost_to_care": early["care_income_lost"],
+                "early_pension_contributions": early["pension_contributions"],
+                "early_investment_drag": early["investment_drag"],
+            }
+        )
         print(f"\n{scenario.name}")
         print("age,early,late,gap")
         for age in (25, 35, 45, 55, 65, 75):
@@ -350,3 +385,6 @@ if __name__ == "__main__":
         print(f"income_lost_care={money(early['care_income_lost'])}")
         print(f"pension_contributions={money(early['pension_contributions'])}")
         print(f"investment_drag_early={money(early['investment_drag'])}")
+    RESULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    RESULTS_PATH.write_text(json.dumps(output, indent=2), encoding="utf-8")
+    print(f"model_results={RESULTS_PATH}")

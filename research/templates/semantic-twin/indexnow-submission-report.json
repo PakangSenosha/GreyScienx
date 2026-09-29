@@ -1,0 +1,38 @@
+{
+  "schema_version": "GreyScienxIndexNowSubmission 1.0",
+  "submitted_at": "2026-09-28T22:31:59.216Z",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "host": "greyscienx.com",
+  "key_location": "https://greyscienx.com/indexnow-key.txt",
+  "sitemap_results": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "urls": 443
+    },
+    {
+      "path": "/sitemap-research.xml",
+      "status": 200,
+      "urls": 482
+    },
+    {
+      "path": "/sitemap-series.xml",
+      "status": 200,
+      "urls": 8
+    },
+    {
+      "path": "/sitemap-datasets.xml",
+      "status": 200,
+      "urls": 29
+    },
+    {
+      "path": "/sitemap-standards.xml",
+      "status": 200,
+      "urls": 2
+    }
+  ],
+  "unique_urls_submitted": 531,
+  "status": 200,
+  "accepted": true,
+  "response_body": null
+}

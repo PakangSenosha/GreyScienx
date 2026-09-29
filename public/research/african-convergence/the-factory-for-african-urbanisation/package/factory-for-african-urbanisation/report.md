@@ -1,0 +1,511 @@
+# The Factory for African Urbanisation
+
+## Can South Africa supply the equipment, materials and industrial systems required to build Africa's cities?
+
+# PART I: The answer
+
+## South Africa can become a leading systems supplier, but not the continent's building site
+
+Africa is about to add the urban equivalent of another continent. Its urban population is projected to rise from roughly 700 million people to 1.4 billion by 2050. More than half of the infrastructure those residents will use has not yet been built. Homes, streets, pipes, treatment works, substations, power lines, buses, rail systems, schools, hospitals, warehouses, data networks and waste systems will have to arrive together—or cities will grow through congestion, informality and expensive improvisation.
+
+This looks like a natural industrial opportunity for South Africa. The country already has metals, vehicle production, mining and agricultural machinery, engineering firms, banks, insurers, project managers, universities and a long record of supplying complex systems into African markets. It is geographically closer than Europe or East Asia and understands operating environments in which distance, weak grids, water scarcity, municipal capacity and maintenance are often decisive.
+
+But the easy version of the story is wrong. Africa will not be built by loading Gauteng with cement, steel and bricks and trucking them north. The heaviest inputs are usually cheapest when made close to the construction site. African governments will want jobs and industrial capacity of their own. Asian, European, Turkish, Middle Eastern and increasingly African suppliers will compete hard. Public procurement will remain fragmented, finance constrained, currencies volatile and projects frequently delayed.
+
+South Africa's viable position is therefore narrower and more valuable: become a continental supplier of selected equipment, engineering, operating systems, project finance, standards, maintenance and industrial know-how; export high-value products where freight is tolerable; and own or partner in local production where it is not.
+
+![Africa's urban wave](assets/urban-wave.png)
+
+*Figure 1. The demographic anchor is the UN-Habitat/United Nations trajectory, not a GreyScienx forecast. The annual additions are smoothed for the scenario model.*
+
+The paper's central scenario translates the additional 700 million urban residents into US$17.9 trillion of all-in urban capital formation from 2026 to 2050, in constant 2024 prices. This is a constructed build-out envelope, not an official estimate. It covers private buildings as well as public networks and therefore should not be compared directly with narrower estimates of annual public infrastructure finance.
+
+Only about US$7.1 trillion of that central market is treated as realistically contestable by external equipment, component, technology and professional-service suppliers. Applying cautious sector-specific market shares gives South African-linked firms US$264 billion of cumulative gross sales. If 52 per cent of that value is retained through South African production, engineering, software, finance, headquarters activity and profit, the domestic value added is about US$137 billion over twenty-five years—US$5.5 billion a year on average.
+
+That average is equivalent to about 1.4 per cent of South Africa's 2024 GDP and supports an illustrative 65,000 direct jobs, or roughly 103,000 direct and indirect jobs under the model's simple multiplier. The employment numbers are scale indicators, not forecasts. Actual jobs depend on the mix between steel, assembly, software, finance, construction and locally produced African output.
+
+The result is material but not miraculous. A successful supplier strategy can add a new export and services pillar to the economy. It cannot compensate for a dysfunctional domestic grid, port, rail network, education system or investment climate. Nor does a 1.4 per cent GDP level effect permanently add 1.4 percentage points to annual growth. During a ten-year ramp to that scale, it might add roughly one tenth of a percentage point to annual growth; after the ramp, continued growth requires the market or South Africa's share to keep expanding.
+
+> **Central conclusion.** South Africa should not try to be the continent's quarry and construction yard. It should aim to be the designer, financier, equipment maker, operating partner and maintenance platform behind African urbanisation—while placing bulky production close to African demand.
+
+## Eight findings
+
+**First, the market is enormous, but the range is wider than it looks.** The model's cumulative demand spans US$8.5 trillion in a basic-provision case, US$17.9 trillion in the central build-out case and US$32.2 trillion in a convergence case. The difference is not simply more buildings. It is whether cities receive durable networks, reliable public transport, adequate floor space, resilient utilities and modern digital systems.
+
+**Second, most spending is not exportable.** Land, local labour, aggregates, ordinary concrete and much routine construction are intrinsically local. A credible strategy begins by removing them from the addressable market.
+
+**Third, power, transport and water are the largest plausible South African opportunities.** In the central model they account for most captured sales because they combine large capital budgets with tradable equipment and systems. Housing is a much larger total market but a smaller external-supplier opportunity.
+
+**Fourth, market share alone is a weak industrial target.** An imported transformer resold through a South African distributor and a transformer designed, manufactured, financed and serviced from South Africa may record similar revenue but radically different domestic value.
+
+**Fifth, localisation elsewhere in Africa can still create South African income.** A cement plant in Ghana or precast factory in Kenya may be economically superior to exports from South Africa. South African ownership, engineering, software, finance, procurement, training and specialist inputs can retain part of the value without denying the host economy jobs.
+
+**Sixth, procurement is as important as manufacturing.** The market materialises through municipal tenders, utility balance sheets, development banks, sovereign guarantees, concessions, private developers and donor programmes. Firms that can structure a bankable project, not merely quote a machine, will win.
+
+**Seventh, the domestic platform must work.** Port delays, costly logistics, unreliable power, skills scarcity and policy uncertainty can erase geographic advantage. South Africa cannot be the reliable supplier of other countries' infrastructure while its own industrial infrastructure is unreliable.
+
+**Eighth, after-sales service is the durable prize.** A one-off construction boom is cyclical. Installed equipment creates decades of demand for spares, software, training, upgrades, monitoring and replacement. The strongest platform sells uptime rather than hardware alone.
+
+# PART II: The urban demand machine
+
+## Seven hundred million additional urban residents do not create one uniform market
+
+UN-Habitat's *State of African Cities Report 2026* projects an African urban population of about 1.4 billion by 2050 and observes that more than half of the continent's future urban infrastructure has yet to be built. The United Nations Office of the Special Adviser on Africa describes the same transition as a doubling from roughly 700 million to 1.4 billion urban residents and notes that the continent already contains more than 11,000 urban agglomerations. [UN-Habitat, State of African Cities Report 2026](https://unhabitat.org/executive-summary-of-the-state-of-african-cities-report-2026-harnessing-the-value-of-urban-land-for); [United Nations OSAA, Water and sanitation as drivers of transformation](https://www.un.org/osaa/en/events/water-and-sanitation-drivers-economic-transformation-and-sustainable-urbanization).
+
+The word “urbanisation” can conceal three different processes.
+
+The first is **population concentration**. People move toward economic opportunity, education, healthcare and networks. Settlements expand faster than formal plans.
+
+The second is **household formation**. Even without population growth, smaller households require more dwellings, kitchens, bathrooms, connections and floor space per person. The housing market responds to households, not simply headcount.
+
+The third is **income convergence**. As residents become richer, they demand larger and better homes, reliable electricity, private and public transport, cooling, clean water, broadband, healthcare, education and environmental quality. The required capital per resident rises.
+
+Those processes can diverge. A city can grow quickly while remaining poor, informal and under-serviced. It can accumulate people without enough formal dwellings, drainage or roads. Or it can use the same demographic growth to create dense, productive neighbourhoods with infrastructure installed before land becomes prohibitively expensive.
+
+The World Bank's *Africa's Cities: Opening Doors to the World* describes African cities as crowded, disconnected and costly. It argues that coordinated investment in infrastructure and land institutions must happen early because unplanned physical structures become expensive to reverse. The industrial implication is that delayed urban policy does not eliminate demand; it converts planned capital spending into congestion, household self-provision and later retrofits. [World Bank, Africa's Cities: Opening Doors to the World](https://www.worldbank.org/en/region/afr/publication/africa-cities-opening-doors-world).
+
+## The demand envelope
+
+The model assigns each additional urban resident an all-in capital envelope. The number is a device for comparing futures, not a claim that every government writes a cheque for each new resident.
+
+- The **provision floor** rises from US$10,000 per additional resident in 2026 to US$14,000 in 2050. It represents constrained systems that expand access but continue to tolerate shortages, informality and low service levels.
+- The **build-out** case rises from US$20,000 to US$30,000. It assumes sustained investment in housing and the networks required for functional, denser cities.
+- The **convergence** case rises from US$36,000 to US$54,000. It represents higher-quality floor space, mass transit, resilient utilities, public facilities and industrial infrastructure closer to the standards of prosperous middle-income economies.
+
+![Annual demand scenarios](assets/demand-paths.png)
+
+*Figure 2. Each path combines annual urban additions with a rising capital envelope per resident. The paths are transparent scenarios, not institutional forecasts.*
+
+The cumulative values—US$8.5 trillion, US$17.9 trillion and US$32.2 trillion—are deliberately broad. For comparison, the African Development Bank has estimated Africa's infrastructure needs at US$130–170 billion a year, with a financing gap of US$68–108 billion. That estimate is narrower, was designed around infrastructure financing and should not be multiplied mechanically into this model. GreyScienx includes private housing, commercial buildings and related systems because manufacturers sell into the built environment, not only public works budgets. [African Development Bank, infrastructure financing estimate](https://www.afdb.org/en/news-and-events/speeches/president-ould-tahs-opening-address-2026-african-development-bank-group-annual-meetings-93859).
+
+The World Bank's global *Banking on Cities* study estimates that resilient, low-carbon urban development in low- and middle-income countries requires US$256–821 billion a year through 2050. Its range reinforces the central point: the standard of urbanisation changes the capital requirement dramatically. [World Bank, Banking on Cities](https://www.worldbank.org/en/topic/urbandevelopment/publication/banking-on-cities).
+
+## The finance constraint is part of the market
+
+Physical need is not the same as bankable demand. A household may need a formal dwelling but lack mortgage finance. A municipality may need a treatment plant but lack tariff revenue. A utility may need transformers but be unable to borrow. A government may announce rail procurement without a funded operating model.
+
+This distinction prevents a common analytical mistake: treating the value of missing infrastructure as an immediately available market. The model asks what could be built under three financing and income regimes. Even the low case requires execution at scale. The higher cases require municipal revenue, capable utilities, domestic savings, pension capital, development-finance risk sharing, land-value capture, credible project preparation and private investment.
+
+The financing constraint changes the ideal supplier. A firm that sells only equipment waits for a funded tender. A platform firm helps create the tender: it performs feasibility work, packages technology, arranges guarantees and long-term finance, builds local partners, prices maintenance and makes performance measurable.
+
+# PART III: What Africa has to buy
+
+## Housing is the largest category; networks make it productive
+
+The central build-out case allocates 31 per cent to housing and buildings, 20 per cent to transport and logistics, 16 per cent to power, 12 per cent to water and sanitation, and the remainder to digital networks, waste systems, public facilities and industrial or municipal systems.
+
+![Sector demand](assets/sector-market.png)
+
+*Figure 3. The allocation is a scenario assumption. It is designed to cover the complete urban system and sums to the US$17.9 trillion central envelope.*
+
+### Housing and buildings
+
+The housing opportunity is larger than formal residential developments. It includes serviced sites, incremental construction, rental housing, dormitories, commercial floor space, warehouses, schools, clinics and retrofits. UN-Habitat estimates that about 75 per cent of the buildings that will make up Sub-Saharan Africa's 2050 stock have yet to be built and identifies a housing shortfall of at least 51 million units. [UN-Habitat, Circular Construction in Sub-Saharan Africa](https://unhabitat.org/sites/default/files/2025/01/CiCoSA_Handbook_2024.pdf).
+
+Much of this market will remain local and informal. That makes standardised systems more important, not less: low-cost roofing, insulation, water storage, metering, sanitation, modular components, design software, mortgage administration and contractor finance can improve incremental building without requiring a single national housing programme.
+
+### Transport and logistics
+
+Urban productivity depends on moving people and goods through expanding metropolitan areas. The equipment list is long: buses, rail vehicles, signalling, ticketing, depots, charging infrastructure, traffic systems, freight terminals, bridges, road-safety equipment and maintenance workshops.
+
+South Africa has an automotive base, commercial-vehicle capability and engineering experience. It also has a cautionary domestic record: procurement volatility and weakened rail capability show how quickly industrial ecosystems deteriorate when the home market becomes erratic or governance fails. Export ambition therefore requires predictable domestic reference demand and credible quality control.
+
+### Power
+
+Urbanisation electrifies buildings, transport, water treatment, cooling, industry and digital services. The International Energy Agency estimates that around 600 million Africans still lack electricity. In its Sustainable Africa Scenario, total African energy investment rises to almost US$240 billion a year by 2030; electricity accounts for about half, and grid investment must rise sharply. The IEA also notes that Africa is projected to build more floor area by 2030 than exists in Japan and Korea today, driving demand for steel, cement, pumps, cold chains and data centres. [IEA, Clean Energy Investment for Development in Africa](https://www.iea.org/reports/clean-energy-investment-for-development-in-africa/executive-summary).
+
+The tradable industrial opportunity includes transformers, switchgear, conductors, poles, meters, protection systems, inverters, batteries, control rooms, mini-grid packages and software. Some products are mature and price-sensitive; others depend on certification, integration and lifecycle support. Grid equipment is attractive because failure costs are high and maintenance relationships can endure for decades.
+
+### Water and sanitation
+
+The Infrastructure Consortium for Africa has placed annual water and sanitation investment needs at US$56–66 billion, compared with much lower historical commitments. The sector combines civil works with pumps, valves, meters, membranes, treatment chemicals, sensors, control systems and laboratory services. [African Development Bank / Infrastructure Consortium for Africa](https://www.afdb.org/en/news-and-events/press-releases/africas-infrastructure-financing-reaches-an-all-time-high-in-2018-surpassing-100-billion-ica-32728).
+
+South Africa's own water scarcity and municipal operating problems have produced relevant technical experience but also weaken the credibility of the platform. The most exportable capability is not a heroic megaproject. It is robust equipment and operating practice suited to constrained budgets: leak detection, pressure management, modular treatment, wastewater reuse, prepaid or smart metering, energy-efficient pumping and remote monitoring.
+
+### Digital, waste and municipal systems
+
+Telecom towers, fibre, data centres and municipal software are smaller capital categories but have high knowledge intensity. Waste collection and processing create demand for vehicles, sorting systems, landfill engineering, materials recovery, biogas and monitoring. Municipal systems link land records, billing, permits, asset management and service requests.
+
+These categories are strategically valuable because software and operating standards scale across borders with low freight cost. A South African platform that combines physical equipment with digital monitoring can retain value long after installation.
+
+# PART IV: The addressable market
+
+## Need is not the same as an order, and an order is not the same as domestic value
+
+The model uses four filters.
+
+The first is **total urban capital formation**: all the buildings and systems in the central case.
+
+The second is **external-supplier addressability**: the share likely to be open to non-local equipment, systems, components or services. It excludes land, most local labour, aggregates, routine construction and inputs that local firms can supply more cheaply.
+
+The third is **South African-linked sales**: the share won by South African firms through exports, subsidiaries, joint ventures or project delivery.
+
+The fourth is **domestic value added**: the wages, operating surplus, tax base, intellectual property, finance and professional work retained in South Africa after imported inputs and production abroad are removed.
+
+![Capture funnel](assets/capture-funnel.png)
+
+*Figure 4. The funnel is the central discipline of the paper. The headline market is not treated as South African revenue.*
+
+Addressability varies by sector. Only 20 per cent of housing and building expenditure is treated as externally contestable because most construction is local. The model uses 45 per cent for transport, 55 per cent for power, 45 per cent for water, 60 per cent for digital systems, 45 per cent for waste, 30 per cent for public facilities and 65 per cent for industrial and municipal systems. The weighted result is approximately 40 per cent of total capital demand.
+
+The South African market shares are smaller: 2 per cent in housing-related systems, 4 per cent in transport, 5 per cent in power, 4 per cent in water, 2 per cent in digital systems, 3 per cent in waste, 2 per cent in public facilities and 6 per cent in industrial or municipal systems. Weighted across the addressable market, South Africa captures about 3.7 per cent.
+
+These are not extrapolations from current trade. They are testable strategic targets. A 5 per cent power-equipment share could be too high if South Africa loses transformer and cable capacity, or too low if firms build local assembly and service networks. The model makes the assumption visible so it can be challenged.
+
+![Sector capture](assets/sector-capture.png)
+
+*Figure 5. Power, transport and water dominate central-case South African-linked sales. Housing remains important through selected systems rather than bulk construction.*
+
+## The realistic product portfolio
+
+The largest central-case sales categories are power at about US$79 billion, transport at US$64 billion and water at US$39 billion over twenty-five years. Industrial and municipal systems contribute about US$28 billion; housing systems about US$22 billion. Digital, waste and public facilities make up the balance.
+
+Within those totals, a plausible portfolio includes:
+
+- **Utility systems:** transformers, switchgear, cables, metering, pumps, valves, modular treatment, leak detection and reuse systems.
+- **Mobility and machinery:** buses, trucks, rail components, signalling, depots, fleet management and mining, agricultural or materials-handling machinery.
+- **Building and municipal technology:** precast components, roofing, insulation, climate control, telecom power, fibre, data-centre modules, waste processing and municipal software.
+- **Professional and financial services:** engineering, surveying, certification, project management, training, equipment leasing, insurance, guarantees and foreign-exchange risk products.
+- **Lifecycle service:** spares, diagnostics, remote monitoring, maintenance and mid-life refurbishment.
+
+# PART V: Three industrial outcomes
+
+## Bypass, supplier or systems platform
+
+The same African building boom can produce radically different South African outcomes.
+
+In the **bypass** case, foreign and increasingly capable African suppliers win most contracts. South African firms capture only 1 per cent of the contestable market and retain 35 per cent of sales as domestic value added. Cumulative sales are about US$71 billion and domestic value added only US$25 billion.
+
+In the **supplier** case, the sector-specific assumptions produce a 3.7 per cent share and 52 per cent domestic value retention. This is the paper's central result: approximately US$264 billion of sales and US$137 billion of domestic value added.
+
+In the **systems-platform** case, South African firms win 7 per cent of the contestable market and retain 65 per cent through engineering, software, finance, specialised production and intellectual property. Cumulative sales approach US$500 billion and domestic value added US$325 billion.
+
+![Industrial outcomes](assets/capture-scenarios.png)
+
+*Figure 6. The platform case is not merely higher market share. It retains a larger fraction of each contract in South African capability and income.*
+
+The scenarios expose two different policy errors.
+
+The first is **revenue mercantilism**: celebrating gross exports even when imported components and foreign technology capture most value. High sales with low domestic value can still be useful, but they do less for wages, tax and learning.
+
+The second is **factory literalism**: assuming that value counts only when every component is physically made in South Africa. For bulky or politically sensitive products, local African production is often the correct model. South Africa can retain value through ownership, design, specialised inputs, software, treasury functions, training and procurement while the host country gains production and jobs.
+
+## Growth and employment scale
+
+At the central 3.7 per cent market share, average annual domestic value added is about US$5.5 billion. Dividing that by an illustrative US$85,000 of value added per direct worker produces approximately 65,000 direct jobs. A 1.6 multiplier gives roughly 103,000 direct and indirect jobs supported.
+
+![Market share and jobs](assets/share-jobs.png)
+
+*Figure 7. Employment varies with the product mix and productivity. The line is a sensitivity test, not a labour-market forecast.*
+
+These are average jobs sustained by the modelled activity, not cumulative job-years or a promise that hiring occurs smoothly. A steel-intensive outcome may employ more people at lower value added per worker; a software and finance outcome may retain more value with fewer jobs. A serious industrial scorecard should therefore track both employment and value per worker.
+
+The model also distinguishes a **level effect** from a **growth-rate effect**. Building a new export sector worth 1.4 per cent of today's GDP raises the economy's level. If it ramps evenly over ten years, the temporary addition to annual growth is around 0.14 percentage points. Once mature, it contributes to growth only if sales, productivity or retained value continue rising.
+
+The factory for African urbanisation should therefore be understood as one pillar in a larger growth strategy, not an arithmetical rescue from low domestic productivity.
+
+# PART VI: Where production should happen
+
+## Trade the light and complex; localise the heavy and repetitive
+
+Freight economics create a simple rule. Products with high value relative to weight and strong technical differentiation can travel. Products with low value relative to weight should usually be produced near demand.
+
+![Product economics](assets/product-map.png)
+
+*Figure 8. Positions are qualitative. They show the strategic logic of different product families rather than measured trade elasticities.*
+
+### Direct export from South Africa
+
+Direct exports make sense for specialist machinery, transformers, protection systems, pumps, vehicle components, modular treatment equipment, instrumentation and some buses or trucks. They also make sense for invisible products: design files, software, actuarial models, certification, engineering advice and financial services.
+
+The country needs reliable ports and borders, but continental exports are not only maritime. Road and rail corridors into Southern Africa matter, as do air links for specialists and spare parts. Delivery time is an industrial capability.
+
+### Local production across Africa
+
+Cement, aggregates, ordinary steel fabrication, precast concrete, pipes and many building components should be produced near the market. A South African firm can participate through equity, equipment supply, plant design, quality systems, procurement, training and management contracts.
+
+This model aligns with African political economy. Host governments reasonably want local jobs, tax revenue and supplier development. A strategy that treats localisation as a threat invites procurement resistance. A strategy that enters joint ventures, builds local managers and transfers appropriate capability can turn local content into market access.
+
+The danger is hollow ownership: a South African holding company may own an African plant while all equipment, technology and financing come from elsewhere. The domestic scorecard must measure dividends, South African professional services, specialist inputs and learning—not merely corporate nationality.
+
+### Systems orchestration
+
+The highest-value role combines equipment, finance, software, standards, training and maintenance. A water package might include demand modelling, design, pumps, meters, treatment, energy optimisation, municipal billing integration, performance finance and operator training. A bus system might combine vehicles, depot design, charging, ticketing, route planning, leasing and fleet analytics.
+
+Systems orchestration is harder than exporting a product because the supplier assumes integration and performance risk. It is also harder to replace, more resilient to freight disadvantage and more likely to create durable service revenue.
+
+![Delivery modes](assets/delivery-modes.png)
+
+*Figure 9. The three modes are complements. Strong firms may use all three within one project.*
+
+# PART VII: The South African starting position
+
+## Real capabilities, eroded margins
+
+South Africa does not begin from zero. It has the continent's deepest financial markets, a sophisticated corporate-services base, established construction and engineering companies, mining-equipment capability, automotive assembly, metals and chemicals, universities, science councils and multinational firms with African operating experience.
+
+African markets are already important for higher-value South African exports. The World Bank finds that Africa is a major source of demand for South African manufactured goods. Its deep AfCFTA scenario estimates that South African exports of goods and services to African partners could rise materially as trade barriers and logistics improve. [World Bank, South Africa Economic Update—trade chapter](https://documents1.worldbank.org/curated/en/099072324033025851/pdf/P17557919d7ae80f6190fd1849b70964ea9.pdf); [World Bank, Making the Most of the AfCFTA](https://documents1.worldbank.org/curated/en/099305006222230294/pdf/P1722320bf22cd02c09f2b0b3b320afc4a7.pdf).
+
+The Department of Trade, Industry and Competition reported R820 million of South African preferential exports under AfCFTA arrangements between January 2024 and March 2025, including mining equipment, electrical machinery, appliances, plastics and other manufactured products. That is a modest beginning, but the product mix is aligned with the opportunity in this paper. [the dtic, Annual Report 2024/25](https://www.thedtic.gov.za/wp-content/uploads/ANNUAL-REPORT_2025.pdf).
+
+UN Trade and Development reports that processed and semi-processed goods account for 61 per cent of intra-African exports, a much more industrial composition than Africa's exports to the rest of the world. Yet intra-African trade remains only about 16 per cent of total African trade, and trade costs are roughly 50 per cent above the global average. [UN Trade and Development, Economic Development in Africa Report 2024](https://unctad.org/system/files/official-document/aldcafrica2024_en.pdf).
+
+This creates both opportunity and warning. Regional trade has the right industrial character, but the market is still small and costly. South Africa's first-mover advantages can erode while policy debates continue.
+
+## The home-market paradox
+
+Export platforms usually learn in a demanding home market. South Africa's own infrastructure backlog could provide reference projects for buses, grid equipment, water systems, rail, waste processing and digital municipalities. If procurement is predictable and performance-driven, it allows firms to test products, train workers and demonstrate reliability.
+
+If domestic procurement is corrupt, volatile or designed around short political cycles, it produces the opposite outcome. Firms become tender specialists rather than export competitors. Production lines operate intermittently. Skills leave. Maintenance is sacrificed for new announcements. Balance sheets weaken before continental demand peaks.
+
+The country therefore needs a home-market compact:
+
+1. publish long-term procurement pipelines with credible budgets and standardise requirements where variation adds no value;
+2. tie competitive localisation to learning, supplier progression and export performance;
+3. evaluate lifecycle cost, energy use, maintenance and uptime rather than lowest purchase price; and
+4. publish supplier-performance data so successful domestic projects become export credentials.
+
+# PART VIII: Procurement, finance and standards
+
+## The factory begins before the factory gate
+
+Africa's infrastructure financing gap is often treated as a shortage of money. It is also a shortage of bankable projects, reliable offtakers, project preparation, stable regulation and affordable risk allocation.
+
+The IEA estimates that African energy investment must more than double by 2030 and that electricity investment rises from just under US$30 billion in 2022 to more than US$120 billion in its Sustainable Africa Scenario. Grid investment alone must rise from around US$10 billion to nearly US$50 billion a year. Yet utilities with weak finances and high system losses struggle to borrow. [IEA, Financing Clean Energy in Africa](https://www.iea.org/reports/financing-clean-energy-in-africa/executive-summary).
+
+A South African industrial strategy that ignores finance will leave manufacturers waiting for tenders that never close. The toolkit should include:
+
+**Project preparation.** Fund feasibility studies, demand forecasts, environmental work, preliminary engineering, procurement design and financial models. Preparation is a public good when many firms may bid, but it must be protected from capture by the eventual supplier.
+
+**Export credit and guarantees.** Long-dated infrastructure equipment cannot rely on ordinary working-capital facilities. Credit insurance, political-risk cover and local-currency structures can make South African bids comparable with packages from larger states.
+
+**Equipment leasing and service contracts.** Municipalities and firms may be able to pay for reliable service over time even when they cannot fund an upfront purchase. Leasing aligns revenue with use but transfers asset and collection risk to the provider.
+
+**Development-finance syndication.** The Development Bank of Southern Africa, Industrial Development Corporation, African Development Bank and private lenders can divide construction, currency, political and demand risk according to capacity.
+
+**Pooled procurement.** Smaller municipalities and states can aggregate standard equipment such as transformers, pumps or buses. Larger orders reduce unit costs and support regional service networks.
+
+**Standards diplomacy.** Mutual recognition of testing, professional credentials, vehicle specifications, grid codes and water-quality equipment reduces the cost of entering each market separately. Standards can be an invisible tariff—or a platform advantage.
+
+**Transparent local content.** Rules should distinguish local assembly, local material, African ownership, training and lifecycle service. Vague local-content promises invite rent seeking; measurable requirements can support real capability.
+
+## AfCFTA helps, but procurement remains national and municipal
+
+The African Continental Free Trade Area can lower tariffs, simplify rules of origin and reduce fragmentation. It does not automatically harmonise public procurement, engineering standards, utility regulation, land acquisition or municipal creditworthiness.
+
+South African firms need a corridor-and-city strategy rather than a map coloured “AfCFTA.” Commercial density will cluster around power pools, ports, growth corridors, mining regions and large metropolitan markets. Entry should follow funded demand and credible partners.
+
+The state can help by concentrating commercial diplomacy on specific project pipelines: who decides, how procurement works, which standards apply, how payments are secured, what localisation is required and which South African consortium can deliver the full package.
+
+# PART IX: Competition
+
+## The opportunity will not wait for South Africa
+
+Chinese firms combine equipment, construction and state-linked finance. Turkish firms have built a strong presence in construction. European, American, Indian, Gulf and East Asian companies bring technology, capital and diplomatic support. Local African manufacturers are improving and may enjoy cost, language, political or distribution advantages.
+
+South Africa's edge is not the cheapest capital or largest factories. It is a combination of proximity, operating familiarity, advanced services, engineering depth and experience with conditions similar to those in many African markets.
+
+That edge is strongest when five things are true:
+
+- equipment is rugged and designed for weak networks, heat, dust, water scarcity or limited maintenance;
+- delivery is faster than distant alternatives;
+- finance is packaged with the product;
+- local production and skills are credible rather than cosmetic; and
+- after-sales service is physically present.
+
+It is weakest when South African firms behave like expensive foreign contractors while offering no financing advantage, no local ecosystem and slow support from home.
+
+## The main competitive threats
+
+**Deindustrialisation at home.** If foundries, cable plants, transformer makers, vehicle suppliers and engineering teams disappear, market opportunity becomes import distribution.
+
+**Financial underpower.** A technically superior bid can lose to a turnkey package with cheaper long-term finance.
+
+**Execution reputation.** Late domestic projects and governance failures affect how counterparties judge South African consortia.
+
+**Currency and payment risk.** Long contracts can become unviable when local currencies depreciate or state entities delay payment.
+
+**Political backlash.** A strategy perceived as South African dominance rather than partnership will provoke resistance.
+
+**Standards fragmentation.** Re-certifying products and redesigning systems for every jurisdiction erodes scale.
+
+**Skills scarcity.** The same engineers, artisans, project managers and software specialists are needed for domestic renewal and external expansion.
+
+# PART X: The operating model
+
+## Build consortia around complete urban problems
+
+The market is organised by projects, but South African industry is organised by sectors. A municipality does not need a pump; it needs reliable water. A transit authority does not need buses; it needs affordable mobility. A utility does not need transformers; it needs connections and uptime.
+
+The country therefore needs export consortia that combine:
+
+- an equipment manufacturer;
+- an engineering and project-management firm;
+- a local African construction or operating partner;
+- a bank or development-finance institution;
+- an insurer or guarantee provider;
+- a digital monitoring and billing layer;
+- a training institution; and
+- a maintenance and spares network.
+
+Consortia should be assembled around repeatable product families rather than one-off political missions. Examples include a modular municipal water package, an urban bus-and-depot package, a distribution-grid reinforcement package, a waste-to-materials system and a serviced-site infrastructure kit.
+
+Repeatability creates learning. Standard designs reduce project preparation time. Shared parts lower inventory cost. Performance data improves pricing. Training becomes portable. Financiers become familiar with risk. Local partners can acquire capability without reinventing every project.
+
+## Sell lifecycle performance
+
+Capital procurement often rewards the lowest upfront price and leaves operating costs to a future budget. That is destructive where maintenance capacity is weak. South African suppliers should bid total cost and measurable performance where procurement law permits it.
+
+Examples include water saved per unit of pressure-management investment, transformer uptime, bus availability, energy consumed per cubic metre treated, waste diversion rates or building energy performance. Contracts can combine a fixed availability payment with incentives for verified outcomes.
+
+Performance contracts create new risks. Suppliers may be blamed for weak municipal billing, vandalism, electricity interruptions or conditions outside their control. Contracts require clear baselines, independent measurement and realistic risk allocation. The answer is not to avoid performance; it is to define it professionally.
+
+# PART XI: A 2050 industrial roadmap
+
+## The sequencing matters
+
+South Africa cannot declare itself the factory for African urbanisation in 2045. Industrial capabilities, financing relationships and maintenance networks compound slowly.
+
+![Roadmap](assets/roadmap.png)
+
+*Figure 10. The phases overlap. The roadmap is a capability sequence, not a central plan for individual firms.*
+
+### 2026–2030: repair and choose
+
+Restore reliability in electricity, freight logistics, ports and water. Protect critical industrial ecosystems from avoidable collapse without freezing inefficient incumbents. Map African project pipelines and South African capabilities at product level. Select a small number of repeatable system packages. Expand artisan and engineering training. Strengthen export credit and project-preparation capacity.
+
+The selection test should be demanding: existing capability, credible African demand, potential for learning, defensible value, a realistic financing model and a route to maintenance revenue.
+
+### 2031–2036: win reference projects
+
+Use domestic and regional projects to establish verified performance. Build local partnerships in priority markets. Standardise product architectures while allowing local components. Create service depots and spare-parts inventories along major corridors. Publish performance and lifecycle-cost data.
+
+Reference projects matter more than trade missions. A functioning treatment plant or high-availability bus fleet is commercial diplomacy that competitors cannot easily imitate.
+
+### 2037–2043: localise across the continent
+
+Place heavy production near large markets. Use regional plants to serve multiple countries under AfCFTA rules where practical. Deepen African supplier development and management capability. Keep high-value engineering, software, finance and specialist production connected to South Africa, while allowing the centre of physical production to follow demand.
+
+This phase tests whether the strategy is genuinely continental. Firms that refuse meaningful host-country capability will lose legitimacy and market access.
+
+### 2044–2050: operate and renew the installed base
+
+By the 2040s, the first wave of equipment will require refurbishment and replacement. Data from operating fleets and networks becomes a competitive asset. The platform shifts from selling new capital to optimising, financing and renewing urban systems.
+
+At that point, the most valuable South African export may be an operating standard, software layer, credit model or skilled network—not a physical machine.
+
+# PART XII: Failure tests
+
+## What would falsify the strategy?
+
+The paper should not be read as a promise. The strategy fails or shrinks materially under several conditions.
+
+**African urban incomes do not converge.** Population growth without fiscal capacity or household purchasing power produces severe need but little bankable demand. The low demand path becomes more relevant.
+
+**South African industrial capability continues to erode.** The country becomes a distributor of foreign systems rather than a producer or orchestrator. Gross sales may survive while domestic value added collapses.
+
+**Finance remains uncompetitive.** Turnkey rivals bundle long-dated credit and guarantees that South African institutions cannot match.
+
+**Localisation becomes exclusion.** Host-country rules may favour national or politically connected suppliers, even where South African partnerships are economically strong.
+
+**The domestic platform remains unreliable.** Freight delays, electricity constraints, water interruptions and skills shortages make export commitments risky.
+
+**Projects are designed around announcements rather than operation.** Plants and systems fail after commissioning, damaging reputation and eliminating service revenue.
+
+**Climate risk raises costs faster than finance.** Heat, flooding, water scarcity and coastal risk require more resilient systems, but indebted cities may be least able to pay.
+
+**Conflict and sovereign stress disrupt corridors.** A geographically diversified portfolio reduces but does not eliminate political and payment risk.
+
+The strategy remains worthwhile because many capabilities—reliable infrastructure, engineering skills, export finance, standards, maintenance and competitive manufacturing—are valuable to South Africa even if the continental market disappoints. This is a robustness test: the country should not build stranded factories for a single heroic forecast.
+
+# PART XIII: The scorecard
+
+## Measure retained capability, not ribbon cutting
+
+A national dashboard should report the following each year:
+
+| Measure | Why it matters | What to avoid |
+|---|---|---|
+| African infrastructure sales | Reveals commercial scale | Counting signed memoranda as revenue |
+| Domestic value added | Shows income retained in South Africa | Treating re-exports as industrialisation |
+| Engineering and software share | Tracks knowledge intensity | Measuring only tonnes shipped |
+| African local value | Protects partnership legitimacy | Extractive “South Africa first” projects |
+| Export-credit exposure and losses | Tests financial discipline | Hidden fiscal subsidies |
+| Installed-base uptime | Measures real performance | Commissioning without operation |
+| Maintenance revenue | Shows durability | One-off project dependence |
+| Direct jobs and value per worker | Balances employment and productivity | Maximising either measure alone |
+| Skills and supplier progression | Captures learning | Permanent dependence on protected incumbents |
+| Project cycle time | Reveals execution capacity | Celebrating pipeline value without closure |
+
+The most important ratio is domestic value added divided by gross African sales. A falling ratio may be sensible during entry into a new market, but over time it signals whether firms are learning and retaining higher-value activity.
+
+The second is maintenance and service revenue divided by the installed base. It separates a transactional exporter from an operating platform.
+
+# PART XIV: Verdict
+
+## Become the machinery and operating layer, not the reluctant empire
+
+African urbanisation is one of the largest physical transformations of the next quarter-century. The central GreyScienx scenario places its all-in urban capital formation at US$17.9 trillion between 2026 and 2050. South Africa does not need—and cannot plausibly win—a dominant share. A 3.7 per cent share of the contestable equipment, systems and services market is enough to create roughly US$264 billion of cumulative sales and US$137 billion of domestic value added under the central assumptions.
+
+That result is economically meaningful precisely because it is not utopian. It assumes most construction remains local, competitors win most external orders, and almost half of South African-linked sales leak into imported inputs or activity performed elsewhere.
+
+The strongest strategy has three layers.
+
+**Export** complex equipment and knowledge from South Africa when it can travel economically.
+
+**Produce locally** elsewhere in Africa when freight, procurement and host-country development make that superior.
+
+**Orchestrate systems** from design and finance through maintenance, so that South African income depends on solving urban problems rather than moving tonnes across borders.
+
+The political language matters. South Africa should not present itself as the continent's factory in the old sense: a dominant centre extracting demand from a dependent periphery. African countries will build their own industries, and that is desirable. South Africa's durable opportunity is to help those industries and cities work—while earning a fair return from capital, knowledge, equipment and service.
+
+The decision is not whether African cities will be built. Much of the building will happen informally and imperfectly regardless. The decision is whether South African firms help shape the standards, equipment, finance and operating systems of that urban century, or watch the market route around them.
+
+# MODEL NOTES
+
+## Scope and assumptions
+
+This is a deterministic scenario model covering 2026–2050 inclusive. Monetary values are constant 2024 US dollars. Results are rounded and should not be read as forecasts.
+
+**Demography.** The model begins with approximately 700 million African urban residents and adds 700 million by 2050. Annual additions rise smoothly from 20 million to 36 million. Actual urbanisation will be uneven across countries and years.
+
+**Capital per additional resident.** The provision-floor path rises from US$10,000 to US$14,000, the central build-out path from US$20,000 to US$30,000, and the convergence path from US$36,000 to US$54,000. These envelopes include housing, commercial and public buildings, transport, power, water, digital, waste and industrial systems.
+
+**Sector allocation.** The central US$17.9 trillion is allocated 31 per cent to housing and buildings, 20 per cent to transport and logistics, 16 per cent to power, 12 per cent to water and sanitation, 7 per cent to telecom and digital, 5 per cent to waste, 5 per cent to public facilities and 4 per cent to industrial and municipal systems.
+
+**Addressability.** External-supplier addressability ranges from 20 per cent in housing to 65 per cent in industrial and municipal systems. It excludes local land, labour and routine construction.
+
+**South African share.** Sector shares range from 2 to 6 per cent of the addressable market. The weighted central share is about 3.7 per cent.
+
+**Domestic value added.** The central case retains 52 per cent of gross sales in South Africa. The bypass and platform cases use 35 and 65 per cent.
+
+**Employment.** Direct employment is illustrated at US$85,000 of annual domestic value added per worker, with a 1.6 multiplier for direct and indirect jobs. No induced-consumption jobs are claimed.
+
+**GDP comparison.** The average annual domestic value added is compared with South Africa's 2024 current-dollar GDP of US$401.1 billion only to indicate scale. The model itself uses constant 2024 dollars, and the comparison is not a GDP forecast.
+
+## What the model excludes
+
+The model does not simulate exchange rates, commodity prices, recessions, project delays, depreciation, financing costs, sovereign defaults, technology substitution, climate damage, tariff changes or detailed input-output linkages. It does not distinguish public from private capital in every sector. It does not assume that all addressable demand is imported: local and multinational firms compete for it.
+
+Gross South African-linked sales include exports and revenues of South African-owned or managed African operations. Domestic value added removes the assumed foreign and imported share. These values should not be added mechanically to national GDP forecasts because some export activity may already be present in a baseline.
+
+## Primary sources
+
+- [UN-Habitat, Executive Summary of the State of African Cities Report 2026](https://unhabitat.org/executive-summary-of-the-state-of-african-cities-report-2026-harnessing-the-value-of-urban-land-for)
+- [United Nations OSAA, Water and sanitation as drivers of transformation and urbanisation](https://www.un.org/osaa/en/events/water-and-sanitation-drivers-economic-transformation-and-sustainable-urbanization)
+- [World Bank, Africa's Cities: Opening Doors to the World](https://www.worldbank.org/en/region/afr/publication/africa-cities-opening-doors-world)
+- [World Bank, Banking on Cities](https://www.worldbank.org/en/topic/urbandevelopment/publication/banking-on-cities)
+- [African Development Bank, infrastructure needs and financing gap](https://www.afdb.org/en/news-and-events/speeches/president-ould-tahs-opening-address-2026-african-development-bank-group-annual-meetings-93859)
+- [African Development Bank, Financing the Development of African Cities](https://www.afdb.org/sites/default/files/documents/publications/financing_the_development_of_african_cities_-_afdb-bigwin_report_2023.pdf)
+- [IEA, World Energy Investment 2025: Africa](https://www.iea.org/reports/world-energy-investment-2025/africa)
+- [IEA, Clean Energy Investment for Development in Africa](https://www.iea.org/reports/clean-energy-investment-for-development-in-africa/executive-summary)
+- [IEA, Financing Clean Energy in Africa](https://www.iea.org/reports/financing-clean-energy-in-africa/executive-summary)
+- [UN-Habitat, Circular Construction in Sub-Saharan Africa handbook](https://unhabitat.org/sites/default/files/2025/01/CiCoSA_Handbook_2024.pdf)
+- [UN Trade and Development, Economic Development in Africa Report 2024](https://unctad.org/system/files/official-document/aldcafrica2024_en.pdf)
+- [World Bank, Making the Most of the African Continental Free Trade Area](https://documents1.worldbank.org/curated/en/099305006222230294/pdf/P1722320bf22cd02c09f2b0b3b320afc4a7.pdf)
+- [World Bank, South Africa Economic Update—trade chapter](https://documents1.worldbank.org/curated/en/099072324033025851/pdf/P17557919d7ae80f6190fd1849b70964ea9.pdf)
+- [the dtic, Annual Report 2024/25](https://www.thedtic.gov.za/wp-content/uploads/ANNUAL-REPORT_2025.pdf)
+
+## Reproducibility
+
+The source package contains this manuscript, the Python scenario model, generated figure assets and a machine-readable JSON export of the model results. Running `model.py` regenerates all figures and outputs from the stated assumptions. The GreyScienx PDF builder applies the publication design system from the repository's shared stylesheet and editorial skill.

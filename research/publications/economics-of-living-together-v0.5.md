@@ -376,7 +376,7 @@ The 5% best-case real investment return is ambitious but not invented from a nom
 
 South Africa's current inflation target is 3%, with a one-percentage-point tolerance band. Because the model is in constant rand, inflation itself is removed; only returns and growth above inflation appear in the assumptions. [South African Reserve Bank](https://www.sarb.co.za/en/home/what-we-do/monetary-policy)
 
-![Lifetime net-worth trajectories for the Early and Later couples in all three scenarios](/C:/Users/Deriv/Documents/Codex/2026-09-11/https-chatgpt-com-share-6aa4702d-2368/outputs/lifetime-wealth-trajectories-v0.5.png)
+![Lifetime net-worth trajectories for the Early and Later couples in all three scenarios](lifetime-wealth-trajectories-v0.5.png)
 
 *Figure 1. Total net worth includes liquid investments, pension assets and net housing equity. Negative values are unfunded continuation of the modelled lifestyle.*
 
@@ -472,7 +472,7 @@ The signs do not change. In every scenario, moving in earlier leaves the househo
 - In the average case it creates a meaningful retirement and inheritance difference.
 - In the worst case it reduces an unfunded retirement gap but does not eliminate it.
 
-![The Early couple's financial lead from age 25 to 75](/C:/Users/Deriv/Documents/Codex/2026-09-11/https-chatgpt-com-share-6aa4702d-2368/outputs/ten-year-head-start-v0.5.png)
+![The Early couple's financial lead from age 25 to 75](ten-year-head-start-v0.5.png)
 
 *Figure 2. From 35 onward, the direct housing arrangements are identical. The remaining gap changes through investment returns or deficit-financing costs.*
 
@@ -498,7 +498,7 @@ The direct saving is the smallest of the three in a long horizon.
 
 The earlier simple version treated both couples as permanent childless renters. This version includes two children, support for extended family, employer pensions, investment fees and tax drag, a care-related career penalty, unemployment and disability, emergencies, inheritance, a conditional home purchase and death in the worst case.
 
-![Cumulative lifetime pressures included in the expanded model](/C:/Users/Deriv/Documents/Codex/2026-09-11/https-chatgpt-com-share-6aa4702d-2368/outputs/expanded-model-lifetime-pressures-v0.5.png)
+![Cumulative lifetime pressures included in the expanded model](expanded-model-lifetime-pressures-v0.5.png)
 
 *Figure 3. The bars show the cumulative value of several newly modelled pressures. Fees and tax drag is an opportunity cost; the other bars are spending or income not received.*
 

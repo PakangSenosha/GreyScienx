@@ -1,0 +1,971 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:POP-012
+  slug: extreme-fiscal-pressure
+  title: Extreme Fiscal Pressure
+  subtitle: A 2050 pandemic-war-recession shock, emergency rule and the future of the population system
+  series_id: GSX:POP
+  series_slug: population-futures
+  series_title: Population Futures
+  series_number: '02'
+  paper_number: '12'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - fiscal-policy
+  - population-decline
+  - south-africa
+  keywords:
+  - Fiscal policy
+  - Population decline
+  - South Africa
+  - extreme
+  - fiscal
+  - pressure
+  - emergency
+  - government
+  - measures
+  - introduced
+  - '2050'
+  - alter
+  - population
+  - system
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: How could emergency government measures introduced in 2050 alter the population system?
+  short_answer: 'Every modelled path closes the first-year accounting gap of about R1.23 trillion. In the guardrailed case that ends in 2052, real output in 2080 is 1.2 percent below the no-shock path and the present value of lost output from 2050 to 2080 is R3.7 trillion. Limitation: This is a counterfactual model, not a forecast and not legal advice. Closing the accounting gap does not create the doctors, food, energy, tax capacity or pension wealth that the shock removes.'
+  abstract: How emergency government measures introduced in 2050 could alter the population system.
+  motivation: How emergency government measures introduced in 2050 could alter the population system.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - What happens to the population system under extreme fiscal pressure?
+  - How do emergency measures in a future decade feed back into work, retirement, and public finance?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:POP-012:R01
+  - GSX:POP-012:R02
+  - GSX:POP-012:R03
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - How could emergency government measures introduced in 2050 alter the population system?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:POP-012:M01
+    name: 2050 shock and emergency-rule paths
+    purpose: A common 2050 pandemic, war and recession shock is applied to a hypothetical South-African-scale economy. Three governance paths close the same first-year accounting gap and are followed to 2080.
+    model_class: counterfactual scenario model
+    statement: A common 2050 pandemic, war and recession shock is applied to a hypothetical South-African-scale economy. Three governance paths close the same first-year accounting gap and are followed to 2080.
+    inputs:
+    - labour supply
+    - healthcare costs
+    - defence and import costs
+    - tax revenue
+    - governance path
+    outputs:
+    - output gap
+    - official debt
+    - hidden claims
+    - pension wealth
+    - youth employment
+    time_step: annual
+    implementation_file: research/source/papers_11_12_model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:POP-012:A01
+    name: Common 2050 shock
+    statement: The shock combines a severe pandemic, war and security mobilisation, and a recession. The immediate financing need is 14 percent of shocked-year GDP, about R1.23 trillion in constant 2026 rand.
+    value: '1.23'
+    unit: trillion constant 2026 rand
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:POP-012:PDF
+    evidence_strength: scenario
+    sensitivity: high
+    alternatives:
+    - A smaller or larger shock
+  - id: A02
+    canonical_id: GSX:POP-012:A02
+    name: Three governance paths
+    statement: The best case is a guardrailed constitutional emergency ending in 2052. The average case is an extended executive emergency to 2058. The worst case is a permanent constitutional suspension that has not ended by 2080.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript Part I and legal-boundary table
+    source_ids:
+    - GSX:POP-012:PDF
+    evidence_strength: scenario
+    sensitivity: high
+    alternatives:
+    - A different sunset date
+  - id: A03
+    canonical_id: GSX:POP-012:A03
+    name: Not legal advice
+    statement: A literal suspension of the Constitution is modelled as constitutional rupture, not as an ordinary instrument under section 37.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:POP-012:PDF
+    evidence_strength: legal boundary stated in the manuscript
+    sensitivity: high
+    alternatives:
+    - A path that remains inside section 37
+  parameters:
+  - id: P01
+    name: Common 2050 shock
+    symbol: see the manuscript
+    description: The shock combines a severe pandemic, war and security mobilisation, and a recession. The immediate financing need is 14 percent of shocked-year GDP, about R1.23 trillion in constant 2026 rand.
+    value: '1.23'
+    unit: trillion constant 2026 rand
+    price_year: '2026'
+    scenario_values:
+      central: '1.23'
+    source_ids:
+    - GSX:POP-012:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - A common 2050 pandemic, war and recession shock is applied to a hypothetical South-African-scale economy. Three governance paths close the same first-year accounting gap and are followed to 2080.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:POP-012:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Guardrailed emergency, 2050-2080
+  role: baseline
+  description: In the guardrailed case, real output in 2080 is 1.2 percent below the no-shock path. The present value of lost output from 2050 to 2080 is R3.7 trillion.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: Extreme Fiscal Pressure
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/extreme-fiscal-pressure/extreme-fiscal-pressure.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - This is a counterfactual model, not a forecast and not legal advice. Closing the accounting gap does not create the doctors, food, energy, tax capacity or pension wealth that the shock removes.
+  source_register:
+  - id: GSX:POP-012:PDF
+    type: manuscript
+    title: Extreme Fiscal Pressure
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure.pdf
+    access_date: '2026-09-27'
+    locator: 29 pages; 1.76 MB
+    supports:
+    - GSX:POP-012:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:POP-012:SRC01
+    type: web_reference
+    title: section 37 of the Constitution of the Republic of South Africa
+    author_or_publisher: justice.gov.za
+    date: see cited resource
+    url: https://justice.gov.za/legislation/constitution/chp02.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-012:SRC02
+    type: web_reference
+    title: Sections 198 to 203
+    author_or_publisher: justice.gov.za
+    date: see cited resource
+    url: https://www.justice.gov.za/legislation/constitution/chp11.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-012:SRC03
+    type: web_reference
+    title: Disaster Management Act 57 of 2002
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/documents/disaster-management-act
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-012:SRC04
+    type: web_reference
+    title: State of Emergency Act 64 of 1997
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/documents/acts/state-emergency-act-64-1997-21-nov-1997
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-012:SRC05
+    type: web_reference
+    title: UN Human Rights Committee's General Comment 29
+    author_or_publisher: docstore.ohchr.org
+    date: see cited resource
+    url: https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=ccqD91akOLDnEtIXFjdTRJYo6UQD8dbbvX7mzlxO3U2hLFzKw%2BxjoBQ7XvOT6SvQmIi0HZZy%2Fgg5zr9N0Ww16%2Fw5pNaQQDefyZAgY5%2FmdtA%3D
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-012:SRC06
+    type: web_reference
+    title: Venice Commission's emergency-rule report
+    author_or_publisher: venice.coe.int
+    date: see cited resource
+    url: https://www.venice.coe.int/webforms/documents/?pdf=CDL-AD%282020%29014-e
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-012:SRC07
+    type: web_reference
+    title: IMF's Fiscal Monitor on policy from pandemic to war
+    author_or_publisher: imf.org
+    date: see cited resource
+    url: https://www.imf.org/en/publications/fm/issues/2022/04/12/fiscal-monitor-april-2022
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-012:SRC08
+    type: web_reference
+    title: OECD's work on democratic resilience during crises
+    author_or_publisher: oecd.org
+    date: see cited resource
+    url: https://www.oecd.org/en/publications/government-at-a-glance-2023_3d5c5d31-en/full-report/component-4.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-012:SRC09
+    type: web_reference
+    title: OECD's framework on trust in public institutions
+    author_or_publisher: oecd.org
+    date: see cited resource
+    url: https://www.oecd.org/en/publications/an-updated-oecd-framework-on-drivers-of-trust-in-public-institutions-to-meet-current-and-future-challenges_b6c5478c-en.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-012:SRC10
+    type: web_reference
+    title: International Monetary Fund, Fiscal Policies to Contain the Damage from COVID-19
+    author_or_publisher: imf.org
+    date: see cited resource
+    url: https://www.imf.org/en/Blogs/Articles/2020/04/15/blog-fm-fiscal-policies-to-contain-the-damage-from-covid-19
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:POP-012:R01
+    statement: In the guardrailed case, real output in 2080 is 1.2 percent below the no-shock path. The present value of lost output from 2050 to 2080 is R3.7 trillion.
+    value: '3.7'
+    unit: trillion constant 2026 rand, present value of lost output
+    price_year: '2026'
+    year_or_period: Guardrailed emergency, 2050-2080
+    scenario_id: Guardrailed emergency, 2050-2080
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:POP-012:PDF
+    reproducible_from:
+    - GSX:POP-012:M01
+  - id: R02
+    canonical_id: GSX:POP-012:R02
+    statement: In the extended-executive case, hidden claims rise to 35 percent of GDP, real output ends 21 percent lower, and private pension wealth and youth employment are each 39 percent lower than the comparison stated in the manuscript.
+    value: '35'
+    unit: percent of GDP, hidden claims
+    price_year: '2026'
+    year_or_period: Extended executive emergency to 2058
+    scenario_id: Extended executive emergency to 2058
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:POP-012:PDF
+    reproducible_from:
+    - GSX:POP-012:M01
+  - id: R03
+    canonical_id: GSX:POP-012:R03
+    statement: In the permanent-suspension case, official debt falls to 70 percent of GDP while hidden pension losses, arrears and deferred maintenance reach 95 percent of GDP. The augmented public burden is 165 percent of GDP. Real output ends 42 percent below the no-shock path, and the present value of output lost after 2050 is R65.8 trillion.
+    value: '65.8'
+    unit: trillion constant 2026 rand, present value of lost output
+    price_year: '2026'
+    year_or_period: Permanent constitutional suspension through 2080
+    scenario_id: Permanent constitutional suspension through 2080
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:POP-012:PDF
+    reproducible_from:
+    - GSX:POP-012:M01
+  headline_results:
+  - GSX:POP-012:R01
+  sensitivity_results:
+  - GSX:POP-012:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - This is a counterfactual model, not a forecast and not legal advice. Closing the accounting gap does not create the doctors, food, energy, tax capacity or pension wealth that the shock removes.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:POP-012:C01
+    claim: Every modelled path closes the first-year accounting gap of about R1.23 trillion. In the guardrailed case that ends in 2052, real output in 2080 is 1.2 percent below the no-shock path and the present value of lost output from 2050 to 2080 is R3.7 trillion.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:POP-012:A01
+    - GSX:POP-012:A02
+    derived_from_results: &id004
+    - GSX:POP-012:R01
+    supported_by_sources:
+    - GSX:POP-012:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: This is a counterfactual model, not a forecast and not legal advice. Closing the accounting gap does not create the doctors, food, energy, tax capacity or pension wealth that the shock removes.
+    sensitivity: high
+    retrieval_text: Every modelled path closes the first-year accounting gap of about R1.23 trillion. In the guardrailed case that ends in 2052, real output in 2080 is 1.2 percent below the no-shock path and the present value of lost output from 2050 to 2080 is R3.7 trillion.
+    citation_text: GreyScienx, GSX:POP-012:C01, version 1.0.
+    href: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure/claims/C01
+  - id: C02
+    canonical_id: GSX:POP-012:C02
+    claim: The extended executive emergency makes the official debt ratio look no worse than the no-shock path by 2080, while hidden claims rise to 35 percent of GDP, real output ends 21 percent lower, and private pension wealth is 39 percent lower.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:POP-012:A01
+    - GSX:POP-012:A02
+    derived_from_results:
+    - GSX:POP-012:R02
+    supported_by_sources:
+    - GSX:POP-012:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The official debt ratio is not the full public burden. Hidden claims are part of the manuscript's result.
+    sensitivity: high
+    retrieval_text: The extended executive emergency makes the official debt ratio look no worse than the no-shock path by 2080, while hidden claims rise to 35 percent of GDP, real output ends 21 percent lower, and private pension wealth is 39 percent lower.
+    citation_text: GreyScienx, GSX:POP-012:C02, version 1.0.
+    href: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure/claims/C02
+  - id: C03
+    canonical_id: GSX:POP-012:C03
+    claim: The permanent-suspension path shows an official debt ratio of 70 percent of GDP together with an augmented public burden of 165 percent of GDP and real output 42 percent below the no-shock path.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:POP-012:A01
+    - GSX:POP-012:A02
+    - GSX:POP-012:A03
+    derived_from_results:
+    - GSX:POP-012:R03
+    supported_by_sources:
+    - GSX:POP-012:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The manuscript models this path as constitutional rupture. Apparent success on the official debt ratio is produced by concealing pension losses, arrears and deferred maintenance.
+    sensitivity: high
+    retrieval_text: The permanent-suspension path shows an official debt ratio of 70 percent of GDP together with an augmented public burden of 165 percent of GDP and real output 42 percent below the no-shock path.
+    citation_text: GreyScienx, GSX:POP-012:C03, version 1.0.
+    href: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure/claims/C03
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - This is a counterfactual model, not a forecast and not legal advice. Closing the accounting gap does not create the doctors, food, energy, tax capacity or pension wealth that the shock removes.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: This is a counterfactual model, not a forecast and not legal advice. Closing the accounting gap does not create the doctors, food, energy, tax capacity or pension wealth that the shock removes.
+  limitations:
+  - This is a counterfactual model, not a forecast and not legal advice. Closing the accounting gap does not create the doctors, food, energy, tax capacity or pension wealth that the shock removes.
+  - The official debt ratio is not the full public burden. Hidden claims are part of the manuscript's result.
+  - The manuscript models this path as constitutional rupture. Apparent success on the official debt ratio is produced by concealing pension losses, arrears and deferred maintenance.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - This is a counterfactual model, not a forecast and not legal advice. Closing the accounting gap does not create the doctors, food, energy, tax capacity or pension wealth that the shock removes.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/extreme-fiscal-pressure/extreme-fiscal-pressure.md
+    pdf: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure.pdf
+    html: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure
+    clean_markdown: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/extreme-fiscal-pressure/extreme-fiscal-pressure.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:POP-012:PDF
+    result_ids:
+    - GSX:POP-012:R01
+  figures:
+  - id: F01
+    title: Regime timeline
+    caption: Figure 1. The guardrailed path restores ordinary government after 2052. The extended path concentrates executive power through 2058. The permanent path has no restoration by 2080. The last two are constitutional breakdown scenarios.
+    alt_text: Regime timeline
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/extreme-fiscal-pressure/assets/regime-timeline.png
+    data_file: research/source/extreme-fiscal-pressure/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-012:R01
+    source_ids:
+    - GSX:POP-012:PDF
+  - id: F02
+    title: First-year fiscal closure
+    caption: Figure 2. Each package closes the first-year cash or financing requirement. A forced pension holding or arrear can close the government's cash gap while transferring the shortfall to households, suppliers or the future.
+    alt_text: First-year fiscal closure
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/extreme-fiscal-pressure/assets/first-year-fiscal-closure.png
+    data_file: research/source/extreme-fiscal-pressure/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-012:R01
+    source_ids:
+    - GSX:POP-012:PDF
+  - id: F03
+    title: GDP and public burden
+    caption: 'Figure 3. Left: real GDP relative to 2049. Right: official debt ratios and, for the coercive regimes, lighter lines adding hidden claims. The apparent debt improvement in the permanent case comes with a much smaller denominator and much larger off-budget losses.'
+    alt_text: GDP and public burden
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/extreme-fiscal-pressure/assets/gdp-and-public-burden.png
+    data_file: research/source/extreme-fiscal-pressure/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-012:R01
+    source_ids:
+    - GSX:POP-012:PDF
+  - id: F04
+    title: Trust paths
+    caption: Figure 4. Trust recovers when the emergency ends through visible constitutional procedures. It remains low when temporary powers are repeatedly extended and collapses when restoration is no longer credible.
+    alt_text: Trust paths
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/extreme-fiscal-pressure/assets/trust-paths.png
+    data_file: research/source/extreme-fiscal-pressure/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-012:R01
+    source_ids:
+    - GSX:POP-012:PDF
+  - id: F05
+    title: Households, places and wealth
+    caption: Figure 5. Household size rises through distress consolidation. The maintenance backlog accelerates in the coercive regimes. The real, usable value of inherited assets falls.
+    alt_text: Households, places and wealth
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/extreme-fiscal-pressure/assets/households-places-wealth.png
+    data_file: research/source/extreme-fiscal-pressure/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-012:R01
+    source_ids:
+    - GSX:POP-012:PDF
+  - id: F06
+    title: Cross-study damage
+    caption: Figure 6. The index summarises modelled damage to the outcome of the cohabitation prequel and ten numbered studies. It is a comparative stress test, not an empirical causal estimate.
+    alt_text: Cross-study damage
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/extreme-fiscal-pressure/assets/cross-study-damage.png
+    data_file: research/source/extreme-fiscal-pressure/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-012:R01
+    source_ids:
+    - GSX:POP-012:PDF
+  - id: F07
+    title: People pathways
+    caption: Figure 7. Youth employment determines early contribution history. The contributor ratio sets fiscal pressure. Pension wealth records funded capacity. Fertility influences the contributor base only after a long delay.
+    alt_text: People pathways
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/extreme-fiscal-pressure/assets/people-pathways.png
+    data_file: research/source/extreme-fiscal-pressure/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-012:R01
+    source_ids:
+    - GSX:POP-012:PDF
+  - id: F08
+    title: Safeguard frontier
+    caption: Figure 8. The indices organise the model's assumptions. Bubble size indicates legitimacy. The efficient frontier combines high immediate capacity with bounded institutional damage.
+    alt_text: Safeguard frontier
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/extreme-fiscal-pressure/assets/safeguard-frontier.png
+    data_file: research/source/extreme-fiscal-pressure/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-012:R01
+    source_ids:
+    - GSX:POP-012:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/papers_11_12_model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/extreme-fiscal-pressure/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/papers_11_12_model.py
+  - research/source/extreme-fiscal-pressure/model_results.json
+  data_files:
+  - research/source/extreme-fiscal-pressure/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/papers_11_12_model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:POP-001
+    slug: when-retirement-becomes-impossible
+    title: When Retirement Becomes Impossible
+    href: https://greyscienx.com/research/population-futures/when-retirement-becomes-impossible
+    relationship: same_series
+  - id: GSX:POP-002
+    slug: todays-unemployment-is-tomorrows-pension-crisis
+    title: Today’s Unemployment Is Tomorrow’s Pension Crisis
+    href: https://greyscienx.com/research/population-futures/todays-unemployment-is-tomorrows-pension-crisis
+    relationship: same_series
+  - id: GSX:POP-003
+    slug: does-raising-the-retirement-age-actually-work
+    title: Does Raising the Retirement Age Actually Work?
+    href: https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work
+    relationship: same_series
+  - id: GSX:POP-004
+    slug: the-politics-of-an-ageing-electorate
+    title: The Politics of an Ageing Electorate
+    href: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate
+    relationship: same_series
+  - id: GSX:POP-005
+    slug: emergency-ageing-austerity
+    title: Emergency Ageing Austerity
+    href: https://greyscienx.com/research/population-futures/emergency-ageing-austerity
+    relationship: same_series
+  - id: GSX:POP-006
+    slug: the-price-of-another-child
+    title: The Price of Another Child
+    href: https://greyscienx.com/research/population-futures/the-price-of-another-child
+    relationship: same_series
+  - id: GSX:POP-007
+    slug: the-hundred-year-life
+    title: The Hundred-Year Life
+    href: https://greyscienx.com/research/population-futures/the-hundred-year-life
+    relationship: same_series
+  - id: GSX:POP-008
+    slug: inheritance-after-retirement
+    title: Inheritance After Retirement
+    href: https://greyscienx.com/research/population-futures/inheritance-after-retirement
+    relationship: same_series
+  - id: GSX:POP-009
+    slug: how-to-shrink-a-country-without-breaking-it
+    title: How to Shrink a Country Without Breaking It
+    href: https://greyscienx.com/research/population-futures/how-to-shrink-a-country-without-breaking-it
+    relationship: same_series
+  - id: GSX:POP-010
+    slug: the-scarce-worker-economy
+    title: The Scarce-Worker Economy
+    href: https://greyscienx.com/research/population-futures/the-scarce-worker-economy
+    relationship: same_series
+  - id: GSX:POP-011
+    slug: the-population-system
+    title: The Population System
+    href: https://greyscienx.com/research/population-futures/the-population-system
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:POP-001
+    title: When Retirement Becomes Impossible
+    paper_number: '01'
+  successor_studies:
+  - none
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - fiscal-policy
+  - population-decline
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:POP-012:C01
+    predicate: depends_on
+    object_id: GSX:POP-012:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-012:C01
+    predicate: depends_on
+    object_id: GSX:POP-012:A02
+    note: Registered dependency.
+  - subject_id: GSX:POP-012:C01
+    predicate: derived_from
+    object_id: GSX:POP-012:R01
+    note: Registered result.
+  - subject_id: GSX:POP-012:C02
+    predicate: depends_on
+    object_id: GSX:POP-012:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-012:C02
+    predicate: depends_on
+    object_id: GSX:POP-012:A02
+    note: Registered dependency.
+  - subject_id: GSX:POP-012:C02
+    predicate: derived_from
+    object_id: GSX:POP-012:R02
+    note: Registered result.
+  - subject_id: GSX:POP-012:C03
+    predicate: depends_on
+    object_id: GSX:POP-012:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-012:C03
+    predicate: depends_on
+    object_id: GSX:POP-012:A02
+    note: Registered dependency.
+  - subject_id: GSX:POP-012:C03
+    predicate: depends_on
+    object_id: GSX:POP-012:A03
+    note: Registered dependency.
+  - subject_id: GSX:POP-012:C03
+    predicate: derived_from
+    object_id: GSX:POP-012:R03
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. Extreme Fiscal Pressure. GSX:POP-012. Version 1.0.
+  machine_citation: GreyScienx, GSX:POP-012, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure
+    html: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure
+    markdown: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure/markdown
+    json: https://greyscienx.com/api/v1/research/extreme-fiscal-pressure
+    pdf: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure.pdf
+    api: https://greyscienx.com/api/v1/research/extreme-fiscal-pressure
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: Extreme Fiscal Pressure
+    identifier: GSX:POP-012
+    url: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: How emergency government measures introduced in 2050 could alter the population system.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: Every modelled path closes the first-year accounting gap of about R1.23 trillion. In the guardrailed case that ends in 2052, real output in 2080 is 1.2 percent below the no-shock path and the present value of lost output from 2050 to 2080 is R3.7 trillion.
+    claim_ids:
+    - GSX:POP-012:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:POP-012:PDF
+    page: manuscript Part I
+    token_estimate: 45
+  question_aliases:
+  - What happens to the population system under extreme fiscal pressure?
+  - How do emergency measures in a future decade feed back into work, retirement, and public finance?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:POP-012, version 1.0
+    claim_level_pattern: GreyScienx, GSX:POP-012:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  - 1 cited external links could not be verified because the server returned a transient error or the request did not complete.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:POP-012
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:POP-012

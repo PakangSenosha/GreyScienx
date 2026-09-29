@@ -1,0 +1,16 @@
+{
+  "theme": "dark",
+  "edition": "POPULATION FUTURES · PAPER 02.02",
+  "eyebrow": "Work is not coverage",
+  "headline": "More years worked can still produce less retirement wealth",
+  "deck": "Earnings, formality and contribution rates decide how work becomes funded retirement.",
+  "visualTitle": "Private retirement wealth at 60",
+  "qualifier": "Modelled · constant 2026 rand",
+  "bars": [
+    {"name": "Formal · 30y", "value": 3.09, "label": "R3.09m", "primary": false},
+    {"name": "Informal · 32y", "value": 0.91, "label": "R0.91m", "primary": true}
+  ],
+  "caption": "The model values informal work. It shows that weak pension coverage can leave frequent work underfunded.",
+  "source": "GreyScienx cohort model · Conditional profiles",
+  "url": "greyscienx.com/research"
+}

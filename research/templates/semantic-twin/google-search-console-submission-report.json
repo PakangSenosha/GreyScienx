@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-09-28T22:45:27.3454257Z",
+  "property": "https://greyscienx.com/",
+  "ownership": {
+    "verified": true,
+    "method": "HTML file",
+    "verification_file": "/google05f03a9002f40d98.html",
+    "verification_url": "https://greyscienx.com/google05f03a9002f40d98.html",
+    "live_status": 200
+  },
+  "deployment": {
+    "platform": "Cloudflare Workers",
+    "worker_version": "9109522e-e887-486e-bd9b-aa4be3e6e1f0"
+  },
+  "sitemaps": [
+    {
+      "url": "https://greyscienx.com/sitemap.xml",
+      "search_console_status": "Success",
+      "discovered_pages": 442
+    },
+    {
+      "url": "https://greyscienx.com/sitemap-research.xml",
+      "search_console_status": "Success",
+      "discovered_pages": 482
+    },
+    {
+      "url": "https://greyscienx.com/sitemap-series.xml",
+      "search_console_status": "Success",
+      "discovered_pages": 8
+    },
+    {
+      "url": "https://greyscienx.com/sitemap-datasets.xml",
+      "search_console_status": "Success",
+      "discovered_pages": 29
+    },
+    {
+      "url": "https://greyscienx.com/sitemap-standards.xml",
+      "search_console_status": "Couldn't fetch",
+      "retry_submitted": true,
+      "discovered_pages": 0,
+      "live_validation": {
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "valid_xml": true,
+        "googlebot_request_status": 200
+      },
+      "assessment": "Accepted for submission; pending a Google crawler retry. The live endpoint is healthy."
+    }
+  ]
+}

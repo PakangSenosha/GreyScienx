@@ -1,0 +1,482 @@
+{
+  "study": "The Price of Another Child",
+  "prices": "constant 2026 rand",
+  "households": 1000000,
+  "baseline_births": 350000,
+  "window_years": 5,
+  "simulations": 30000,
+  "random_seed": 11092026,
+  "real_discount_rate": 0.03,
+  "policies": [
+    {
+      "key": "cash",
+      "name": "Cash grant top-up",
+      "cost_basis": "R1,000 monthly for five years on all births",
+      "base_cost_bn": 21.0,
+      "gross_births": 38000,
+      "permanent_share": 0.38,
+      "response_cv": 0.55,
+      "permanence_strength": 18,
+      "female_jobs": 0.1,
+      "male_jobs": 0.1,
+      "housing": 0.08,
+      "care": 0.1,
+      "time": 0.08,
+      "relationships": 0.08
+    },
+    {
+      "key": "childcare",
+      "name": "Free childcare",
+      "cost_basis": "Five years of subsidised care for 65% of births",
+      "base_cost_bn": 32.0,
+      "gross_births": 74000,
+      "permanent_share": 0.67,
+      "response_cv": 0.42,
+      "permanence_strength": 24,
+      "female_jobs": 0.28,
+      "male_jobs": 0.05,
+      "housing": 0.05,
+      "care": 0.36,
+      "time": 0.24,
+      "relationships": 0.08
+    },
+    {
+      "key": "housing",
+      "name": "Family housing",
+      "cost_basis": "150,000 deeply subsidised family homes",
+      "base_cost_bn": 54.0,
+      "gross_births": 78000,
+      "permanent_share": 0.75,
+      "response_cv": 0.48,
+      "permanence_strength": 26,
+      "female_jobs": 0.1,
+      "male_jobs": 0.22,
+      "housing": 0.46,
+      "care": 0.05,
+      "time": 0.08,
+      "relationships": 0.18
+    },
+    {
+      "key": "tax",
+      "name": "Parent tax exemption",
+      "cost_basis": "Five-year relief for 300,000 taxpaying parents",
+      "base_cost_bn": 42.0,
+      "gross_births": 29000,
+      "permanent_share": 0.43,
+      "response_cv": 0.62,
+      "permanence_strength": 17,
+      "female_jobs": 0.2,
+      "male_jobs": 0.18,
+      "housing": 0.06,
+      "care": 0.08,
+      "time": 0.05,
+      "relationships": 0.05
+    },
+    {
+      "key": "debt",
+      "name": "Debt forgiveness",
+      "cost_basis": "R80,000 relief for 250,000 constrained adults",
+      "base_cost_bn": 20.0,
+      "gross_births": 38000,
+      "permanent_share": 0.56,
+      "response_cv": 0.5,
+      "permanence_strength": 20,
+      "female_jobs": 0.18,
+      "male_jobs": 0.22,
+      "housing": 0.16,
+      "care": 0.04,
+      "time": 0.05,
+      "relationships": 0.1
+    },
+    {
+      "key": "flex",
+      "name": "Shorter, flexible work",
+      "cost_basis": "Flexible or four-day schedules for 400,000 workers",
+      "base_cost_bn": 36.0,
+      "gross_births": 69000,
+      "permanent_share": 0.72,
+      "response_cv": 0.43,
+      "permanence_strength": 25,
+      "female_jobs": 0.34,
+      "male_jobs": 0.06,
+      "housing": 0.02,
+      "care": 0.24,
+      "time": 0.45,
+      "relationships": 0.12
+    },
+    {
+      "key": "bundle",
+      "name": "Targeted family bundle",
+      "cost_basis": "Housing, childcare, debt and work support for 250,000",
+      "base_cost_bn": 77.5,
+      "gross_births": 132000,
+      "permanent_share": 0.82,
+      "response_cv": 0.36,
+      "permanence_strength": 30,
+      "female_jobs": 0.24,
+      "male_jobs": 0.2,
+      "housing": 0.32,
+      "care": 0.3,
+      "time": 0.31,
+      "relationships": 0.2
+    }
+  ],
+  "policy_results": [
+    {
+      "key": "cash",
+      "name": "Cash grant top-up",
+      "cost_basis": "R1,000 monthly for five years on all births",
+      "base_cost_bn": 21.0,
+      "median_gross_births": 32457.96010383214,
+      "median_permanent_births": 11839.01507550684,
+      "median_brought_forward_births": 19835.449224377906,
+      "cost_per_permanent_birth": {
+        "p10": 807025.5320086206,
+        "median": 1764425.1274142447,
+        "p90": 3958401.48285152
+      },
+      "permanent_births": {
+        "p10": 5355.645790452501,
+        "median": 11839.01507550684,
+        "p90": 25364.849511257715
+      },
+      "fiscal_break_even_probability": {
+        "average_labour": 6.666666666666667e-05,
+        "strong_labour": 0.1586
+      }
+    },
+    {
+      "key": "childcare",
+      "name": "Free childcare",
+      "cost_basis": "Five years of subsidised care for 65% of births",
+      "base_cost_bn": 32.0,
+      "median_gross_births": 66387.69108556298,
+      "median_permanent_births": 44137.8615534322,
+      "median_brought_forward_births": 21143.908405918355,
+      "cost_per_permanent_birth": {
+        "p10": 409342.35319050716,
+        "median": 720946.979754001,
+        "p90": 1283709.599533794
+      },
+      "permanent_births": {
+        "p10": 25310.426627770907,
+        "median": 44137.8615534322,
+        "p90": 75998.6984699278
+      },
+      "fiscal_break_even_probability": {
+        "average_labour": 0.0011333333333333334,
+        "strong_labour": 0.7393666666666666
+      }
+    },
+    {
+      "key": "housing",
+      "name": "Family housing",
+      "cost_basis": "150,000 deeply subsidised family homes",
+      "base_cost_bn": 54.0,
+      "median_gross_births": 68387.70465844228,
+      "median_permanent_births": 51111.2370958879,
+      "median_brought_forward_births": 16351.660337118035,
+      "cost_per_permanent_birth": {
+        "p10": 565043.3453549249,
+        "median": 1047115.1695643726,
+        "p90": 1970115.2592007453
+      },
+      "permanent_births": {
+        "p10": 27711.31060954282,
+        "median": 51111.2370958879,
+        "p90": 93530.00525736368
+      },
+      "fiscal_break_even_probability": {
+        "average_labour": 0.0003333333333333333,
+        "strong_labour": 0.42573333333333335
+      }
+    },
+    {
+      "key": "tax",
+      "name": "Parent tax exemption",
+      "cost_basis": "Five-year relief for 300,000 taxpaying parents",
+      "base_cost_bn": 42.0,
+      "median_gross_births": 23954.30484175712,
+      "median_permanent_births": 9995.495780341349,
+      "median_brought_forward_births": 13337.980931166567,
+      "cost_per_permanent_birth": {
+        "p10": 1832191.9244974924,
+        "median": 4175559.1234207903,
+        "p90": 9807933.2193176
+      },
+      "permanent_births": {
+        "p10": 4311.790268790479,
+        "median": 9995.495780341349,
+        "p90": 22435.08852821251
+      },
+      "fiscal_break_even_probability": {
+        "average_labour": 0.0,
+        "strong_labour": 0.009766666666666667
+      }
+    },
+    {
+      "key": "debt",
+      "name": "Debt forgiveness",
+      "cost_basis": "R80,000 relief for 250,000 constrained adults",
+      "base_cost_bn": 20.0,
+      "median_gross_births": 32973.135647689836,
+      "median_permanent_births": 18167.63343666315,
+      "median_brought_forward_births": 14108.724073079786,
+      "cost_per_permanent_birth": {
+        "p10": 555447.7045033211,
+        "median": 1101110.0770665067,
+        "p90": 2178126.3408932653
+      },
+      "permanent_births": {
+        "p10": 9346.800173219626,
+        "median": 18167.63343666315,
+        "p90": 34962.15032524564
+      },
+      "fiscal_break_even_probability": {
+        "average_labour": 0.0004,
+        "strong_labour": 0.4018
+      }
+    },
+    {
+      "key": "flex",
+      "name": "Shorter, flexible work",
+      "cost_basis": "Flexible or four-day schedules for 400,000 workers",
+      "base_cost_bn": 36.0,
+      "median_gross_births": 61573.58280305474,
+      "median_permanent_births": 43971.82089028532,
+      "median_brought_forward_births": 16590.841157423492,
+      "cost_per_permanent_birth": {
+        "p10": 455720.7998657539,
+        "median": 814622.1936375271,
+        "p90": 1448960.2792526684
+      },
+      "permanent_births": {
+        "p10": 25126.820396188094,
+        "median": 43971.82089028532,
+        "p90": 76738.60578247764
+      },
+      "fiscal_break_even_probability": {
+        "average_labour": 0.0005666666666666667,
+        "strong_labour": 0.6423
+      }
+    },
+    {
+      "key": "bundle",
+      "name": "Targeted family bundle",
+      "cost_basis": "Housing, childcare, debt and work support for 250,000",
+      "base_cost_bn": 77.5,
+      "median_gross_births": 120623.73560960183,
+      "median_permanent_births": 98630.01959445639,
+      "median_brought_forward_births": 20680.676967354946,
+      "cost_per_permanent_birth": {
+        "p10": 477456.41241379763,
+        "median": 781012.6438602617,
+        "p90": 1274073.1598216123
+      },
+      "permanent_births": {
+        "p10": 62120.91484590041,
+        "median": 98630.01959445639,
+        "p90": 156887.59662780902
+      },
+      "fiscal_break_even_probability": {
+        "average_labour": 0.0,
+        "strong_labour": 0.7048333333333333
+      }
+    }
+  ],
+  "case_table": [
+    {
+      "policy": "Cash grant top-up",
+      "Worst case": {
+        "gross_births": 20900.0,
+        "permanent_births": 3762.0,
+        "cost_per_permanent_birth": 6251993.620414674
+      },
+      "Average case": {
+        "gross_births": 38000.0,
+        "permanent_births": 14440.0,
+        "cost_per_permanent_birth": 1454293.6288088642
+      },
+      "Best case": {
+        "gross_births": 52439.99999999999,
+        "permanent_births": 25171.199999999997,
+        "cost_per_permanent_birth": 767543.8596491229
+      }
+    },
+    {
+      "policy": "Free childcare",
+      "Worst case": {
+        "gross_births": 40700.0,
+        "permanent_births": 18315.000000000004,
+        "cost_per_permanent_birth": 1956865.9568659565
+      },
+      "Average case": {
+        "gross_births": 74000.0,
+        "permanent_births": 49580.0,
+        "cost_per_permanent_birth": 645421.540943929
+      },
+      "Best case": {
+        "gross_births": 102119.99999999999,
+        "permanent_births": 78632.4,
+        "cost_per_permanent_birth": 374400.3744003744
+      }
+    },
+    {
+      "policy": "Family housing",
+      "Worst case": {
+        "gross_births": 42900.0,
+        "permanent_births": 22737.0,
+        "cost_per_permanent_birth": 2659981.5279060565
+      },
+      "Average case": {
+        "gross_births": 78000.0,
+        "permanent_births": 58500.0,
+        "cost_per_permanent_birth": 923076.9230769231
+      },
+      "Best case": {
+        "gross_births": 107639.99999999999,
+        "permanent_births": 91493.99999999999,
+        "cost_per_permanent_birth": 542986.4253393667
+      }
+    },
+    {
+      "policy": "Parent tax exemption",
+      "Worst case": {
+        "gross_births": 15950.000000000002,
+        "permanent_births": 3349.5000000000005,
+        "cost_per_permanent_birth": 14043887.147335423
+      },
+      "Average case": {
+        "gross_births": 29000.0,
+        "permanent_births": 12470.0,
+        "cost_per_permanent_birth": 3368083.400160385
+      },
+      "Best case": {
+        "gross_births": 40020.0,
+        "permanent_births": 21210.600000000002,
+        "cost_per_permanent_birth": 1821730.6441119062
+      }
+    },
+    {
+      "policy": "Debt forgiveness",
+      "Worst case": {
+        "gross_births": 20900.0,
+        "permanent_births": 7106.000000000002,
+        "cost_per_permanent_birth": 3152265.690965381
+      },
+      "Average case": {
+        "gross_births": 38000.0,
+        "permanent_births": 21280.000000000004,
+        "cost_per_permanent_birth": 939849.6240601502
+      },
+      "Best case": {
+        "gross_births": 52439.99999999999,
+        "permanent_births": 34610.399999999994,
+        "cost_per_permanent_birth": 531632.1105794791
+      }
+    },
+    {
+      "policy": "Shorter, flexible work",
+      "Worst case": {
+        "gross_births": 37950.0,
+        "permanent_births": 18975.0,
+        "cost_per_permanent_birth": 2124901.1857707514
+      },
+      "Average case": {
+        "gross_births": 69000.0,
+        "permanent_births": 49680.0,
+        "cost_per_permanent_birth": 724637.6811594203
+      },
+      "Best case": {
+        "gross_births": 95219.99999999999,
+        "permanent_births": 78080.39999999998,
+        "cost_per_permanent_birth": 424178.15482502664
+      }
+    },
+    {
+      "policy": "Targeted family bundle",
+      "Worst case": {
+        "gross_births": 72600.0,
+        "permanent_births": 43560.0,
+        "cost_per_permanent_birth": 1992653.8108356295
+      },
+      "Average case": {
+        "gross_births": 132000.0,
+        "permanent_births": 108240.0,
+        "cost_per_permanent_birth": 716001.4781966001
+      },
+      "Best case": {
+        "gross_births": 182160.0,
+        "permanent_births": 167587.19999999998,
+        "cost_per_permanent_birth": 425450.15371102333
+      }
+    }
+  ],
+  "lifetime_value": {
+    "Weak labour market": {
+      "taxes": 356326.29794777767,
+      "public_cost": 964877.8353406487,
+      "net_fiscal": -608551.537392871,
+      "production": 1454393.052848072
+    },
+    "Average labour market": {
+      "taxes": 1156312.0638992228,
+      "public_cost": 964877.8353406487,
+      "net_fiscal": 191434.2285585741,
+      "production": 3730038.9158039433
+    },
+    "Strong labour market": {
+      "taxes": 1922635.6757075125,
+      "public_cost": 964877.8353406487,
+      "net_fiscal": 957757.8403668639,
+      "production": 5826168.714265188
+    }
+  },
+  "late_start": {
+    "Cash grant top-up": [
+      {
+        "start_year": 2026,
+        "permanent_births": 14440.0,
+        "cost_per_birth": 1454293.6288088642,
+        "response_index": 100.0
+      },
+      {
+        "start_year": 2040,
+        "permanent_births": 8608.349932660227,
+        "cost_per_birth": 2644409.22802557,
+        "response_index": 71.46231058160573
+      },
+      {
+        "start_year": 2060,
+        "permanent_births": 5041.0447657908435,
+        "cost_per_birth": 5015626.953281662,
+        "response_index": 44.21969092798985
+      }
+    ],
+    "Targeted family bundle": [
+      {
+        "start_year": 2026,
+        "permanent_births": 108240.0,
+        "cost_per_birth": 716001.4781966001,
+        "response_index": 100.0
+      },
+      {
+        "start_year": 2040,
+        "permanent_births": 71407.99922556369,
+        "cost_per_birth": 1176478.8386610453,
+        "response_index": 71.46231058160573
+      },
+      {
+        "start_year": 2060,
+        "permanent_births": 38932.784680639386,
+        "cost_per_birth": 2396694.7333824155,
+        "response_index": 44.21969092798985
+      }
+    ]
+  },
+  "interpretation": {
+    "additional_birth": "A birth that increases completed fertility, not merely one shifted into the five-year window.",
+    "break_even": "Programme cost per additional birth is below the added worker's net lifetime fiscal value.",
+    "production_warning": "Production is a social value and cannot be treated as budget revenue."
+  }
+}

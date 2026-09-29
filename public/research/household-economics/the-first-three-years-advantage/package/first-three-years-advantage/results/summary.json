@@ -1,0 +1,327 @@
+{
+  "central_scenario": [
+    {
+      "strategy": "Immediate independence",
+      "move_year": 0,
+      "car_year": 0,
+      "salary": 420000,
+      "city": "Johannesburg",
+      "terminal_capital_age25": -49015.14349703488,
+      "financial_balance_age25": -107475.71359269827,
+      "rental_deposit_age25": 9600,
+      "vehicle_equity_age25": 48860.570095663395,
+      "vehicle_value_age25": 146051.84,
+      "vehicle_loan_age25": 97191.2699043366,
+      "total_takehome_3y": 1071366.2316982578,
+      "total_living_3y": 798163.9478037909,
+      "total_transport_3y": 288765.710157535,
+      "total_transition_outlays": 65807.0,
+      "salary_scenario": "middle",
+      "wealth_age_30": 198382.88235149387,
+      "wealth_age_40": 984747.3776116609,
+      "wealth_age_60": 4754603.327132802
+    },
+    {
+      "strategy": "One-year delay",
+      "move_year": 1,
+      "car_year": 1,
+      "salary": 420000,
+      "city": "Johannesburg",
+      "terminal_capital_age25": 159756.4536481473,
+      "financial_balance_age25": 122242.45772750532,
+      "rental_deposit_age25": 9600,
+      "vehicle_equity_age25": 27913.995920641988,
+      "vehicle_value_age25": 165968.0,
+      "vehicle_loan_age25": 138054.004079358,
+      "total_takehome_3y": 1071366.2316982578,
+      "total_living_3y": 652750.4730450707,
+      "total_transport_3y": 245766.47343835674,
+      "total_transition_outlays": 65807.0,
+      "salary_scenario": "middle",
+      "wealth_age_30": 464834.22256156756,
+      "wealth_age_40": 1418768.533977498,
+      "wealth_age_60": 5906190.665302406
+    },
+    {
+      "strategy": "Two-year delay",
+      "move_year": 2,
+      "car_year": 2,
+      "salary": 420000,
+      "city": "Johannesburg",
+      "terminal_capital_age25": 350595.80904594157,
+      "financial_balance_age25": 326893.4200140636,
+      "rental_deposit_age25": 9600,
+      "vehicle_equity_age25": 14102.389031878003,
+      "vehicle_value_age25": 188600.0,
+      "vehicle_loan_age25": 174497.610968122,
+      "total_takehome_3y": 1071366.2316982578,
+      "total_living_3y": 508394.5468275884,
+      "total_transport_3y": 202767.23671917839,
+      "total_transition_outlays": 65807.0,
+      "salary_scenario": "middle",
+      "wealth_age_30": 708398.9732551572,
+      "wealth_age_40": 1815509.847654674,
+      "wealth_age_60": 6958863.48241804
+    },
+    {
+      "strategy": "Three-year delay",
+      "move_year": 3,
+      "car_year": 3,
+      "salary": 420000,
+      "city": "Johannesburg",
+      "terminal_capital_age25": 553285.2136716847,
+      "financial_balance_age25": 520685.21367168473,
+      "rental_deposit_age25": 9600,
+      "vehicle_equity_age25": 23000.0,
+      "vehicle_value_age25": 230000.0,
+      "vehicle_loan_age25": 207000.0,
+      "total_takehome_3y": 1071366.2316982578,
+      "total_living_3y": 365127.89560758194,
+      "total_transport_3y": 159768.0,
+      "total_transition_outlays": 65807.0,
+      "salary_scenario": "middle",
+      "wealth_age_30": 967087.7232930954,
+      "wealth_age_40": 2236886.562599243,
+      "wealth_age_60": 8076901.35318176
+    },
+    {
+      "strategy": "Home plus earlier car",
+      "move_year": 3,
+      "car_year": 1,
+      "salary": 420000,
+      "city": "Johannesburg",
+      "terminal_capital_age25": 465567.28325759957,
+      "financial_balance_age25": 428053.2873369576,
+      "rental_deposit_age25": 9600,
+      "vehicle_equity_age25": 27913.995920641988,
+      "vehicle_value_age25": 165968.0,
+      "vehicle_loan_age25": 138054.004079358,
+      "total_takehome_3y": 1071366.2316982578,
+      "total_living_3y": 365127.89560758194,
+      "total_transport_3y": 245766.47343835674,
+      "total_transition_outlays": 65807.0,
+      "salary_scenario": "middle",
+      "wealth_age_30": 855134.9460049405,
+      "wealth_age_40": 2054527.285221757,
+      "wealth_age_60": 7593047.901004282
+    },
+    {
+      "strategy": "Home plus delayed car",
+      "move_year": 3,
+      "car_year": 3,
+      "salary": 420000,
+      "city": "Johannesburg",
+      "terminal_capital_age25": 553285.2136716847,
+      "financial_balance_age25": 520685.21367168473,
+      "rental_deposit_age25": 9600,
+      "vehicle_equity_age25": 23000.0,
+      "vehicle_value_age25": 230000.0,
+      "vehicle_loan_age25": 207000.0,
+      "total_takehome_3y": 1071366.2316982578,
+      "total_living_3y": 365127.89560758194,
+      "total_transport_3y": 159768.0,
+      "total_transition_outlays": 65807.0,
+      "salary_scenario": "middle",
+      "wealth_age_30": 967087.7232930954,
+      "wealth_age_40": 2236886.562599243,
+      "wealth_age_60": 8076901.35318176
+    }
+  ],
+  "central_age25_advantage_three_year_delay": 602300.3571687196,
+  "break_even_thresholds": {
+    "household_contribution_monthly_break_even": 15931.724241842396,
+    "independence_income_uplift_break_even_share": 0.5786895308668203,
+    "extra_home_transport_km_monthly_break_even": 5699.023704192885,
+    "transport_km_monthly_break_even": 2405.157500787288,
+    "transport_km_monthly_break_even_25pct_surge": 1585.2174437007125,
+    "independence_privacy_welfare_value_monthly_break_even": 13486.898181870198,
+    "salary_where_three_year_home_advantage_is_5pct_of_age60_wealth": 2122406.5580856996,
+    "home_only_capital_advantage_age25": 485528.33454732713,
+    "car_delay_capital_advantage_age25": 128452.33234831861
+  },
+  "alternative_uses": [
+    {
+      "use": "Diversified investment",
+      "value_age60": 3322298.0260489625,
+      "capital_used": 602300.3571687196
+    },
+    {
+      "use": "Debt repayment first",
+      "value_age60": 3394523.828399545,
+      "capital_used": 602300.3571687196
+    },
+    {
+      "use": "Emergency liquidity first",
+      "value_age60": 3076333.269355303,
+      "capital_used": 602300.3571687196
+    },
+    {
+      "use": "Illustrative training",
+      "value_age60": 3386055.788673269,
+      "capital_used": 602300.3571687196
+    },
+    {
+      "use": "Cash vehicle / finance avoided",
+      "value_age60": 3531344.2577775065,
+      "capital_used": 602300.3571687196
+    },
+    {
+      "use": "Housing deposit and home equity",
+      "value_age60": 2798265.800339077,
+      "capital_used": 602300.3571687196
+    }
+  ],
+  "stress_tests": [
+    {
+      "group": "Rent",
+      "case": "Shared / cheaper rent",
+      "input_value": 6720.0,
+      "unit": "R/month",
+      "age25_advantage": 481915.31370207353,
+      "age60_advantage": 2658252.276258681
+    },
+    {
+      "group": "Rent",
+      "case": "Central rent",
+      "input_value": 9600.0,
+      "unit": "R/month",
+      "age25_advantage": 602300.3571687196,
+      "age60_advantage": 3322298.0260489625
+    },
+    {
+      "group": "Rent",
+      "case": "High rent",
+      "input_value": 12480.0,
+      "unit": "R/month",
+      "age25_advantage": 722800.0645861077,
+      "age60_advantage": 3986976.2639536457
+    },
+    {
+      "group": "Household contribution",
+      "case": "R2,500",
+      "input_value": 2500,
+      "unit": "R/month",
+      "age25_advantage": 526859.3400902937,
+      "age60_advantage": 2906164.216497575
+    },
+    {
+      "group": "Household contribution",
+      "case": "R4,500",
+      "input_value": 4500,
+      "unit": "R/month",
+      "age25_advantage": 449453.8711611517,
+      "age60_advantage": 2479194.4603487425
+    },
+    {
+      "group": "Household contribution",
+      "case": "R7,500",
+      "input_value": 7500,
+      "unit": "R/month",
+      "age25_advantage": 333326.5728604167,
+      "age60_advantage": 1838634.4983249186
+    },
+    {
+      "group": "Household contribution",
+      "case": "R12,000",
+      "input_value": 12000,
+      "unit": "R/month",
+      "age25_advantage": 158846.27611189306,
+      "age60_advantage": 876198.5001180049
+    },
+    {
+      "group": "Household contribution",
+      "case": "R16,000",
+      "input_value": 16000,
+      "unit": "R/month",
+      "age25_advantage": -2834.0704746371775,
+      "age60_advantage": -15632.776290938153
+    },
+    {
+      "group": "Office frequency",
+      "case": "8 office days",
+      "input_value": 8,
+      "unit": "days/month",
+      "age25_advantage": 613163.3797370787,
+      "age60_advantage": 3382218.6254745326
+    },
+    {
+      "group": "Office frequency",
+      "case": "13 office days",
+      "input_value": 13,
+      "unit": "days/month",
+      "age25_advantage": 602300.3571687196,
+      "age60_advantage": 3322298.0260489625
+    },
+    {
+      "group": "Office frequency",
+      "case": "20 office days",
+      "input_value": 20,
+      "unit": "days/month",
+      "age25_advantage": 587092.1255730174,
+      "age60_advantage": 3238409.1868531667
+    },
+    {
+      "group": "Office frequency",
+      "case": "26 office days",
+      "input_value": 26,
+      "unit": "days/month",
+      "age25_advantage": 574056.4984909868,
+      "age60_advantage": 3166504.467542484
+    },
+    {
+      "group": "Vehicle price",
+      "case": "R160k vehicle",
+      "input_value": 160000,
+      "unit": "R",
+      "age25_advantage": 550341.579556162,
+      "age60_advantage": 3035692.610256786
+    },
+    {
+      "group": "Vehicle price",
+      "case": "R230k vehicle",
+      "input_value": 230000,
+      "unit": "R",
+      "age25_advantage": 602300.3571687196,
+      "age60_advantage": 3322298.0260489625
+    },
+    {
+      "group": "Vehicle price",
+      "case": "R350k vehicle",
+      "input_value": 350000,
+      "unit": "R",
+      "age25_advantage": 691372.5473616755,
+      "age60_advantage": 3813621.5959784077
+    },
+    {
+      "group": "Property price",
+      "case": "R1.0m home",
+      "input_value": 1000000,
+      "unit": "R",
+      "age25_advantage": 602300.3571687196,
+      "age60_advantage": 5680364.890657125
+    },
+    {
+      "group": "Property price",
+      "case": "R1.4m home",
+      "input_value": 1400000,
+      "unit": "R",
+      "age25_advantage": 602300.3571687196,
+      "age60_advantage": 2798265.800339077
+    },
+    {
+      "group": "Property price",
+      "case": "R1.8m home",
+      "input_value": 1800000,
+      "unit": "R",
+      "age25_advantage": 602300.3571687196,
+      "age60_advantage": -6459805.292416038
+    }
+  ],
+  "method": {
+    "price_basis": "constant 2026 rand",
+    "early_window_months": 36,
+    "common_post_25_retirement_saving_rate": 0.1,
+    "central_real_return": 0.05,
+    "interpretation": "deterministic counterfactual, not forecast or financial advice"
+  }
+}

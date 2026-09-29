@@ -1,0 +1,1299 @@
+                                            W O R K I N G PA P E R 14 6
+
+
+
+
+Inherited Wealth in Post-Apartheid
+South Africa: New Perspectives from
+Probate Records
+Rebecca Simson
+University of Oxford
+
+Mina Mahmoudzadeh
+International Inequalities Institute, LSE
+
+
+
+
+NOVEMBER 2024
+      I I I W O R K I N G PA P E R 14 6
+
+
+
+
+Rebecca Simson
+University of Oxford                        In addition to our working papers series all
+                                            publications are available to download
+Mina Mahmoudzadeh
+                                            free from our website: www.lse.ac.uk/III
+International Inequalities Institute, LSE
+
+                                            International Inequalities Institute
+                                            The London School of Economics
+                                            and Political Science, Houghton Street,
+                                            London WC2A 2AE
+
+                                            E Inequalities.institute@lse.ac.uk
+                                            W www.lse.ac.uk/III
+                                            X @LSEInequalities
+
+
+
+
+                                            Short sections of text, not to exceed two paragraphs, may be quoted
+                                            without explicit permission provided that full credit, including
+                                            © notice, is given to the source.
+
+                                            © Rebecca Simson and Mina Mahmoudzadeh. All rights reserved.
+Inherited Wealth in Post-Apartheid South Africa:
+    New Perspectives from Probate Records
+
+                         Rebecca Simson and Mina Mahmoudzadeh, 2024
+
+
+
+                                              ABSTRACT
+
+This chapter uses a novel data source – probate records – to develop an original account of the scale
+of the racial wealth divide in South Africa and its geographic dimensions. The results provide a
+sobering perspective on the scale of the racial wealth divide 30 years after the end of Apartheid. We
+estimate that 45% of White South African adults own inheritable wealth of at least R.250,000,
+compared to 3% of Black, 9% of Coloured, and 23% of Asian South Africans, and these gaps have
+narrowed only modestly between 2009 and 2019. We compare these results to estimates from survey
+data and discuss the nature of the probate source biases and interpretation. We also show that Black
+South Africans leaving estates are primarily dwellers in former Apartheid-era townships, and to a
+lesser extent, Homelands, with 42% resident in townships and 17% in Homelands at death, suggesting
+that this Black formal wealth-owning upper-middle class are predominantly the owners of assets
+acquired during the Apartheid-era. This points to the limited extent to which South Africa’s Black
+upper and middle classes have bought into the historically White-owned asset stock. It also suggests
+that, much as in other parts of the world, the wealth distribution beyond the apex owes much to the
+structure of home ownership and geographically uneven house price appreciation.
+
+Introduction
+South Africa is one of the world’s most unequal societies and income inequality has remained
+stubbornly high since the end of Apartheid in 1994 (Alvaredo and Atkinson, 2022). On a racial basis
+however, the distribution of income has been far from static, and the racial composition of income
+earners in the top percentiles is gradually growing less unequal (Finn, Leibrandt and Woolard, 2013;
+Seekings, 2011; Southall, 2016). Whether racial wealth inequality has also fallen, however, is harder
+to ascertain. In aggregate, top wealth shares have increased modestly since 1994 and wealth to
+income ratios have risen (Orthofer et al., 2019), but few sources allow us to study how the nation’s
+wealth is shared across the country’s racial groups.
+
+There are reasons to be pessimistic about the pace of wealth redistribution. The Apartheid system
+severely limited the extent to which non-White communities could accumulate wealth, in part by
+preventing non-White South Africans from living and owning property across most of the country’s
+land area reserved for White settlement alone. Simply lifting such Apartheid-era residential
+restrictions may have had a relatively muted effect on property ownership. While politicians have a
+range of leavers with which to affect income and consumption disparities, redistribution of assets is
+more politically fraught, expensive, and risks serious economic reverberations if it threatens existing
+property rights. South Africa did not undertake any radical asset transfer programmes after 1994, and
+the white population of South Africa have largely seen their property rights respected.
+
+                                                  1
+The most high-profile programme designed to affect the post-Apartheid wealth distribution was Black
+Economic Empowerment (BEE), which facilitated a voluntary transfer or sales of financial assets to
+non-White owners and allows preferential treatment for Black-owned companies in public
+procurement. However, beneficiaries of BEE are thought to be a small and select group. At the other
+end of the wealth distribution, a set of progressive policy programmes have helped to increase non-
+White home ownership. Under the auspices of the Reconstruction and Development Programme
+(RDP), the government has built five million low-cost homes since 1994, primarily across South Africa’s
+cities (Department of Human Settlements, 2021). A less studied wealth transfer started in the late
+1980s at the end of the Apartheid era, when the government began to privatise the stock of publicly
+owned township housing at heavily discounted prices, which assigned private titles, typically to the
+male head of household occupier (Bolt, 2021; Emdon, 1993). In total around 750,000 houses were
+privatised, and in some of the more centrally located townships, house prices have appreciated
+substantially. Beyond BEE and such public housing programmes, less is known about the nature of
+middle class wealth accumulation in the new South Africa.
+
+Inequalities in wealth have both political and social consequences. Today, wealth is a key determinant
+of an individual’s life chances, shaping access to opportunities and economic security throughout
+lifetimes. Moreover, given its power to accumulate over time, wealth also confers long-term
+intergenerational benefits. Family wealth has been shown to significantly enhance educational
+outcomes (Hällsten and Pfeffer, 2017; Karagiannaki, 2017), access to homeownership (Gregg and
+Kanabar, 2022), and entry into elite professions (Devine, 2003; Toft and Friedman, 2021).
+Furthermore, there is a strong positive relationship between family wealth and an individual’s own
+wealth stocks over numerous generations (Clark and Cummins, 2014). Wealth’s accumulative nature
+therefore tends to amplify historical legacies of systemic racism, by reinforcing long-standing racial
+inequalities over generations. Politically, wealth inequality erodes political engagement and trust
+(Ansell and Gingrich, 2022; Hirneis, 2023), as wealthy elites wield disproportionate power and
+influence over political processes. Understanding the extent to which racial wealth inequalities are
+narrowing, and the means by which this is happening, throws light on the prospects for future
+reductions in racial wealth inequality and the policies that may aid it.
+
+Wealth inequality is harder to measure than income inequality, as wealth is not declared in tax filings,
+and its greater concentration at the top of the distribution means that household surveys are poorly
+suited to capturing wealth, as such instruments typically under-enumerate the top. Recent work by
+Chatterjee, Czajka and Gethin (2020) and Orthofer et al. (2019) has shed light on overall wealth
+inequality, using tax records to impute total wealth and wealth by bracket. Racial wealth inequality,
+meanwhile, has been measured using the National Income Dynamics Survey (NIDS), which like most
+household surveys, seriously under-samples households at the top of the distribution (Daniels and
+Augustine, 2016). Nonetheless, the broad figures provided by these surveys certainly suggest stark
+racial wealth divides. Using the 2010-11 results, Mbewe and Woolard (2016) find that, in relative
+terms, Black households only hold about 1% of the wealth held by White households, while the figures
+in Coloured and Asian/Indian households are 12% and 63%, respectively. The same source suggests
+that 60% of those in South Africa’s top wealth decile are white (Mbewe and Woolard, 2016).
+
+
+
+
+                                                   2
+This chapter provides an alternative set of measures of these wealth divides by drawing on counts of
+estates under probate or administration. The South African Estate registry 1 provides a searchable
+database of all registered estates going back to 2008, and notices in the government gazettes give
+information about estates under administration or probate. Although neither source specifies the
+value of the estate under administration, they indicate if estates fall into one of two administrative
+categories related to their size. Estates valued below R.250,000 can be administered through a
+simplified procedure specified in Section 18(3) of the Administration of Estates Act. Estates valued
+above R.250,000 are required to be issued with letters of executorship and follow the full process set
+out in the Act. As names are strong indicators of racial origin in South Africa, by imputing race or
+ethnicity from names, this source can provide a picture of the racial composition of two segments of
+wealth-holders in South Africa: those leaving inheritances of any size (estimated at roughly 30% of all
+decedents), and those with large estates worth more than R.250,000 (roughly the top 7% of wealth-
+holders at death). In addition, addresses of deceased estate-holders throws light on the geography of
+wealth and indirectly on the drivers of Black South African wealth accumulation.
+
+Estate records have a long pedigree in economic history and continue to provide an important source
+of data for measuring and studying wealth inequality in historical contexts (Atkinson and Harrison,
+1978; Bengtsson et al., 2017; Cummins, 2021; Jones, 1982). Wealth at death can be used to impute
+the total and distribution of wealth of the living, or study the characteristics of wealth-holders. In the
+South African context specifically, probate records have revealed a wealthier settler community in the
+18th century Cape than previously thought (Fourie, 2013). For the 1970s, McGrath (1982) used estate
+duty data from Natal to study the South African wealth distribution, including along racial lines. In
+other country contexts, similar sources have been used to study ethnic and gender inequality, and
+Cummins (2024) has leveraged names of the deceased to impute ethnic identity of wealth-holders in
+England and Wales.
+
+This source is not without challenges. Firstly, we know that the rate of compliance with South Africa’s
+succession laws is poor, particularly by Black South Africans, and this will bias the measures of the
+shares of individuals with wealth at death downwards and the measure of racial wealth inequality
+upwards. Furthermore, converting wealth of the deceased into an estimation of the wealth of the
+living population is not straightforward, as those who die are by definition older, and thus typically
+richer, than the population at large. Furthermore, inferring race from names is also an imprecise
+endeavour. This article discusses the likely effects of such biases and how they shape the
+interpretation of the results. These challenges notwithstanding, the probate and administration
+records offer an interesting further lens on wealth inequality, independent of other data sources, and
+focused on the type of formal, titled wealth that vest in individuals a full range of use and exchange
+value. Because it relies on administrative data it is inexpensive to collect and can be analysed regularly
+at little marginal cost.
+
+With this source, we estimate that 47% of White South African adults own inheritable wealth of at
+least R.250,000, compared to 3% of Black, 8% of Coloured, and 43% of Asian South Africans. Our
+results estimate racial wealth inequalities that are somewhat higher than those building on household
+surveys, because of the varying extent to which South Africa’s racial communities make use of the
+formal succession framework. Our geographic analysis then sheds light on the nature of Black wealth
+acquisition in the post-Apartheid era. We show that most Black estate-holders are urban residents,
+only 17% are resident in former Homelands, and a substantial share (42%), were residents of the
+Apartheid-era townships, where housing was privatised in the 1980s and 1990s. Drawing on the work
+
+
+1
+    https://icmsweb.justice.gov.za/mastersinformation/MastersOfficeWebPortal/DeceasedSearch
+
+                                                     3
+by Bolt (2021), we hypothesise that this privatisation of previously public housing represents one of
+the most important wealth transfers for the ‘upper middle’ class. The rate at which Black South
+Africans have bought into the historically White-owned housing stock still appears to be low indeed.
+
+South Africa’s Succession Laws
+The interpretation of wealth measures derived from probate and administration records is intimately
+tied to the legal and administrative system of inheritance, in both its de jure and de facto forms. South
+Africa’s succession laws are strongly shaped by a legal system designed around racial segregation and
+differential rights. Until recently, the inheritance system for Black South Africans were based on
+different laws and procedures to that governing White, Coloured and Asian succession.
+
+The statutory legal framework, which historically applied to White, Coloured and Asian inheritance
+matters, and any Black South Africans leaving wills, rests on three laws: the Administration of Estates
+Act of 1965, the Intestate Succession Act 81 of 1987 (in the absence of a will), and Will’s Act of 1953
+(where the deceased has left a will). Reflecting South Africa’s pluralistic legal history, this succession
+law has been influenced by Roman-Dutch law and common law. South Africa allows freedom of
+testation (with some limitations), meaning that a person can leave an estate to whomever they wish,
+and are not obliged to pass it to their spouse or children. The order of succession on intestacy typically
+means that the estate is divided between the spouse and descendants. Parents or siblings and their
+descendants inherit only if the deceased leaves no spouse or child.
+
+For our purposes the Administration of Estates Act has the most direct bearing on the interpretation
+of the estate data. According to law, all estates must be reported to the Master’s Office in the locality
+where the deceased was resident within two weeks of death, although this time limitation is not
+enforced. If the estate falls below a specified threshold value (currently R.250,000), it can be
+administered through an expedited process, where a representative issues Letters of Administration
+to an administrator, who then holds responsibility for division of the estate without further court
+involvement. Estates above the threshold follow a full executor process, which importantly for our
+purposes, requires that notices of the estate are published in the gazette at the time of
+administrator/executor appointment and when the accounts are completed (through forms J193 and
+J187), as well as in two newspapers. The process does have monetary costs, including the Master’s
+Fees (R.600 for estates between R.250-400k, and thereafter increasing by value), rates clearance costs,
+transfer of asset fees, and legal fees if advocates are used (an executor can charge up to 3.5% of the
+value of the estate).
+
+Note that the administration of estates and inheritance taxation are separate matters. Most of the
+estate cases taken through the courts are not liable for taxation (threshold for taxation is currently
+R.3.5 million). Furthermore, community of property, whereby married spouses jointly own the family’s
+assets, does not theoretically exempt heirs from this administrative process. If a husband or wife
+outlives their spouse, this administrative process must still be completed, although the law is unclear
+on how the estate value threshold is applied in such cases (on the full value of the assets of the married
+couple, or only the effective share of the deceased spouse). 2
+
+Until recently, Black South African inheritance matters in contrast, was governed by Section 23 of the
+Black Administration Act of 1927, in cases of intestate inheritance, 3 handled by Magistrates, and in
+
+2
+  South Africa does also allow ‘massing of estates’, whereby spouses agree to pass on their joint estate, on the
+death of the first spouse, but this legally complex practice is infrequently used.
+3
+  Technically, Black South African estates with a will fell under the statutory legal framework, but these were
+far and few between. Written wills remain uncommon among Black South Africans.
+
+                                                       4
+accordance with the state’s understanding and codification of ‘official customary law’, 4 which could
+mean inheritance through male primogeniture, derived from a traditional understanding of the oldest
+son as assuming from his father the role as the custodian of family resources (see Weeks, 2015, for a
+discussion).
+
+In 1991, South Africa repealed the four central acts that formed the legal framework of Apartheid, and
+in 1997, following the first multiracial election in 1994, it adopted a new constitution. However, the
+country’s other laws were updated piecemeal, as they came in conflict with the new constitution.
+Most Black South African succession cases thus continued to be handled through this parallel
+administrative system until the landmark 2004 Constitutional Court judgement in the case of Bhe vs.
+Magistrate,5 which brought sweeping changes. The judges ruled that customary inheritance practices
+of male primogeniture discriminated against women, and the section of the Black Administration Act
+of 1927 dealing with inheritance was deemed unconstitutional. This brought all Black estate cases
+under civil law, and meant that the supervision of deceased estates fell to the High Court rather than
+the Magistrate’s court, albeit with Magistrates serving as service points for low-value estates (below
+R.50,000). After 2004 therefore, Black South African estates were brought under the more
+bureaucratically complex succession laws previously used primarily by White, Coloured and Asian
+South Africans, including the requirement to gazette and publish notices of estates under
+administration or probate.
+
+This increased the administrative burden on family members of the deceased, and also brought into
+stark relief the conflicts between a legal conception of private, individual property rights of European
+origin, and that of norms and customs governing the popular understanding of rights and obligations
+of property holding, typically conceived of as communal, on behalf of an extend family or lineage (Bolt,
+2021). The combination of the time and monetary cost, administrative difficulties, and inheritance law
+often in conflict with family notions of inheritance – means that many – possibly the majority – of
+estates go unreported.
+
+This will bias the results presented below, as Black South African compliance with this new framework
+is likely to be lower than for those communities where the inheritance practices are longer standing
+and less in conflict with norms and culture. An official presentation by the Chief Master estimated that
+two-thirds of estates go unreported, although this was thought to be mostly in rural areas, and
+presumably biased towards the lower value estates (cited in Bolt, 2021). However, the incentives to
+formalise transfer of assets will increase with the value of the state - a valuable urban property, for
+instance, would be harder and retain and use if it remained registered in the name of a deceased
+parent. Unreported estates are likely to be disproportionately of lower value and in areas of greater
+market informality in general. Thus this bias will be smaller for the higher value estates.
+
+Furthermore, a formal transfer of title, only possible through this legal channel, is also in a sense what
+defines the assets as ‘wealth’. Most economic studies of wealth take a narrow definition, focused only
+on marketable, private wealth, which emphasises the ability of wealth-holders to use their wealth as
+a financial asset, that can be exchanged, mortgaged and invested. Wealth registered in the name of a
+long-deceased family member, and used by a collective, thus also performs a different and more
+limited economic function, even if it holds use value to a set of family members. We therefore argue
+that this source offers a useful further perspective on the distribution of the type of formally registered
+
+4
+    Unclear if customary law only applied in cases where the marriage was under customary law.
+5
+    Bhe and Others v Khayelitsha Magistrate and Other
+
+                                                       5
+wealth with the widest use functions. Nonetheless, the anthropological research by Bolt (2021) and
+others are important reminders of the differences in conceptions of wealth and property across place
+and time, and how it influences any measurement and understandings of wealth inequality. The
+results and discussion sections consider the possible effects of this bias on the results, introduced
+some rough simulations that place an upper bound on the possible rate of underreporting, and
+discusses how it shapes our interpretation of said results.
+
+Inferring Wealth Inequality from Estate Registries
+From the estates database we extract a random sample of 2,000 records per year, and a larger sample
+for two benchmark years, 2009 and 2019. Each record is coded by race, based on name, gender and
+age (from ID number), year of death, and whether the estate was processed under section 18.3 (below
+a threshold set at R.250,000 since 2015, and R.125,000 prior), or a full executor process. Hereafter we
+will refer to estates above the threshold as large estates. Each year-sample was weighted based on
+the total number of records in a given year. We exclude estate-holders under the age of 20.
+
+To study the legacies of a racially stratified society, this paper extends Apartheid-era racial categories
+into the present and classifies each estate-holder by race on the basis of name. This is not without
+challenge, both conceptually, as race is a socially constructed and malleable concept (Christopher,
+2002), and practically, as names are far from perfect predictors of racial identity. However, in the
+South African context, race remains a relevant social category. However conceptually problematic, the
+political salience of these divides makes it important to map and understand them.
+
+The categorisation of race from names relies on historical lists of names from different racial groups, 6
+which is used to classify names and name structure by race (see Appendix 1 for details). This carries
+some degree of imprecision, but we show in the appendix that alternative methods of name inference
+give broadly consistent results. Furthermore, the geographic mapping of names (Section 4) gives
+results that strongly support the accuracy of the name-race predictions. The biggest challenge,
+however, discussed in depth in Appendix 1, is the estimation of the White versus Coloured estate
+shares, as the names in these two communities are not distinct. We therefore estimate a Coloured
+share of the total estate number using a set names that are more strongly associated with one
+community than another. We use this to impute an overall White:Coloured ratio for certain
+benchmark years, and anchor it to an estimate from the late 1980s where the official race of the
+estate-holder is given. Nonetheless, these results should be treated as rough estimates only.
+
+Another challenge is late registrations of estates, where the death of the estate-holder was many
+years prior to the year of administration or probate. The rate of late registrations differs considerably
+by racial group and by executor type. On average, 80% of estates are registered within three years of
+death, and this rises to 93% for the higher value estates undergoing the full executor process. We
+censor the results, so that we work only with estates where the holder died within three years of
+registration, 7 and adjust the total by year upwards by the likely missing share of late registrations, by
+race and executor-type basis.
+
+In the first set of results, we construct a simple ratio of estates to deaths above the age of 20. Mortality
+data by age, gender and race is not published by the South African statistical authorities, we therefore
+rely on racially disaggregated mortality data from Pillay-van Wyk et al. (2016) for three benchmark
+years (2000, 2006 and 2012), and interpolate for missing years, as discussed in Appendix 2.
+
+6
+    Building on data from death notices generously shared by Fourie and Jayes (2021).
+7
+    Otherwise the outer year results will be skewed by missing estates still to be registered.
+
+                                                          6
+The next set of results apply mortality multipliers to estimate what share of the population own wealth
+above the 18.3 threshold (‘large’ wealth-owners). Because wealth typically rises with age, wealth at
+death is not representative of the wealth of the living. Because life expectancy differs considerably
+across South Africa’s racial communities, racial wealth inequalities at death map imperfectly onto the
+wealth inequalities of the living. We therefore apply mortality multipliers, which relate the share of
+estates to deaths by race, age-group and gender, to the share of this sub-group in the total living
+population. For instance, we assume that the share of white female 40-49 year olds who die with
+wealth above R.250,000, is the same as the share of living white female 40-49 year olds who hold
+wealth above this threshold. For this analysis we also vary the age cut-off, to see how the results are
+affected by the inclusion of younger decedents, with a lower probability of both death and wealth
+holding. The results here are sensitive to small samples. The main results therefore pool across the
+entire 2009-19 period to give more stable estimates, as well as separate estimates for two benchmark
+years, 2009 and 2019.
+
+Table 1 summarises the full dataset. ‘White’ names are approximately 30% of the full sample, and 60%
+of the sample of large estates (above R.250k since 2015). The racial shares are relatively stable across
+time. Figure 1 shows how the monetary threshold for an executorship versus 18.3 process has changed
+over time, in real and nominal terms. The summary data does suggest a small drop in the share of
+estates under full executorship in 2015 (consistent with a rise in the executor threshold), although it
+subsequently rebounds (likely in part on account of high inflation).
+
+Table 1. Summary Statistics
+                                                                Share of exec estates by 'race
+           Share of       Share of all estates by 'race name'   name'
+           estates with
+ Year      full exec      Missing    Asian    Black   White     Missing    Asian    Black   White      Female   Obs
+    2009            20%        3%       2%     69%      26%          2%       6%     25%         67%     41%    29,509
+    2010            19%        5%       2%     68%      25%          6%       5%     30%         60%     44%     1,863
+    2011            27%        6%       3%     64%      27%          8%       7%     30%         56%     43%     1,948
+    2012            26%        5%       3%     65%      27%          7%       8%     27%         58%     39%     1,970
+    2014            30%        6%       3%     61%      30%          7%       5%     31%         57%     40%     1,966
+    2015            26%        5%       2%     60%      32%          7%       6%     29%         59%     42%     1,972
+    2016            29%        6%       3%     62%      29%          8%       7%     25%         59%     41%     1,935
+    2017            30%        6%       2%     60%      32%          7%       4%     28%         61%     44%     1,955
+    2018            29%        5%       2%     60%      33%          8%       5%     28%         59%     41%     1,943
+    2019            29%        2%       3%     62%      33%          2%       7%     30%         61%     42%    29,339
+ Average            26%        3%       3%     64%      30%          4%       6%     29%         61%     41%    81,275
+Note: 2013 data excluded from analysis due to errors in data.
+
+
+
+
+                                                         7
+Figure 1. Threshold for 18.3 provision, nominal and inflation adjusted (in Rand)
+
+ 400000
+ 350000
+ 300000
+ 250000
+ 200000
+ 150000
+ 100000
+  50000
+      0
+                1993
+                1994
+                1995
+                1996
+                1997
+                1998
+                1999
+                2000
+                2001
+                2002
+                2003
+                2004
+                2005
+                2006
+                2007
+                2008
+                2009
+                2010
+                2011
+                2012
+                2013
+                2014
+                2015
+                2016
+                2017
+                2018
+                2019
+                2020
+                2021
+                2022
+                                              Threshold, nominal                           Threshold, real (2022 R)
+
+A second part of this paper uses a different source, the gazette notices, which also give us the last
+address of the deceased. This allows us to consider the geography of black and coloured wealth in
+South Africa. This is exploratory work, showing how these sources can be used to shed light on the
+origins or sources of wealth. This places estates in space, relating them to the former Apartheid zoning
+of urban areas by racial group (Group Areas Act), and how this relates to property prices.
+
+Wealth inequality in South Africa: estimates based on estate records
+What share of deceased leave estates that are formally processed through the courts? How does this
+vary by racial group? The first set of results compare the number of estates to the number of deaths
+by year and racial group. It confirms large differences in the rate at which members of different racial
+groups leave estates. White South Africans universally left an estate, and on average 64% left large
+estates. In fact, the White estate ratio even exceeds 1 in certain years, suggesting that estates are
+overestimated or deaths underestimated. In contrast, the corresponding Black South African ratios
+were 35% for all estates and 4% for large estates. The Asian and Coloured communities fell somewhere
+in between, with Asian ratios of 59% and 35%, and Coloured ratios of 45% and 12%, respectively. In
+other words, taken at face value, this implies that the probability of leaving a large estate, is more
+than 16 times higher for the White than the Black community (65% vs. 4%). The white-black racial
+wealth gap has narrowed only modestly between 2009 and 2019.
+
+Figure 2. Estate ratio (estates to adult deaths)
+                                     All Estates                                                                      Large Estates
+                                                                                   .8
+ 1
+
+
+
+
+                                                                                   .6
+ .8
+ .6
+
+
+
+
+                                                                                   .4
+ .4
+
+
+
+
+                                                                                   .2
+ .2
+
+
+
+
+                                                                                   0
+
+
+
+
+      2009   2010   2011   2012   2013 2014 2015     2016     2017   2018   2019        2009   2010   2011   2012   2013    2014   2015   2016   2017   2018   2019
+                                     year of death                                                                          year
+
+                                  White            Black                                                            White             Black
+                                  Asian            Coloured                                                         Asian             Coloured
+
+
+
+
+Notes: 2013 linearly interpolated (data missing)
+
+
+                                                                                   8
+Table 2. Estate ratios by racial group (estates to death)
+
+                           All Estates                     Large Estates
+    year     Asian    Black Coloured       White Asian Black Coloured       White
+       2009    57%      37%            37%  101%   27%    3%             9%   61%
+       2010    67%      40%            37%   99%   32%    4%             8%   57%
+       2011    70%      36%            41%  108%   41%    4%           11%    72%
+       2012    67%      37%            40%  103%   47%    5%           11%    71%
+       2014    56%      33%            47%  108%   27%    5%           12%    70%
+       2015    49%      32%            46%  100%   28%    4%           11%    58%
+       2016    67%      34%            45%   95%   43%    4%           13%    63%
+       2017    48%      33%            53%  104%   28%    5%           15%    69%
+       2018    52%      31%            51%   96%   34%    5%           14%    60%
+       2019    62%      32%            53%   95%   42%    5%           15%    62%
+         Ave   59%      35%            45%  101%   35%    4%           12%    64%
+
+
+The next set of tables applies mortality multipliers to calculate of the total number of estates by age
+group, and thereby estimate the share of the living with wealth of more than R.250,000. This assumes
+that the wealth at death by 10-year age band, gender and race, is representative of the wealth held
+by this segment of the population. Note that we apply no correction here for socioeconomic class
+beyond race, which will bias the results downwards. To increase our sample size, we pool the data
+across the 2009-2019 period.
+
+The results are sensitive to the observations for the youngest cohorts, 20-29 and 30-39, where the
+probability of death is comparatively low, and thus the multiplier comparatively large. Death in these
+age groups may also be more strongly biased by socioeconomic factors, which could bias the results
+(e.g., if people dying in their 20s or 30s hold below average wealth). We also construct measures for
+adults 30 and above, and 40 and above, to examine how strongly the results are shaped by inclusion
+of these young adult cohorts.
+
+Our results suggest that 9% of all adults aged 20 and above hold (probatable) wealth of at least
+R.250,000, 8 but this rises to 15% for adults aged 40 and above. The differences across racial groups
+are stark, at 3% for Black South Africans, 9% for Coloured, 23% for Asian and 45% for Whites, meaning
+that a White South African adult is 17 times more likely to have wealth above this threshold, than a
+Black South African. The disparities fall somewhat when we limit the estimates to adults aged above
+30 or 40, to 13 and 11 respectively, which may suggest that a strong Black socioeconomic mortality
+gradient may be inflating these disparities (with disproportionately poorer people dying in their 20s
+and 30s). But it could also indicate that White adults begin accumulating wealth earlier in life.
+
+We also estimate these wealth shares separately for 2009 and 2019 (in real terms, the executor
+threshold was similar in these two years), which suggests that the share of adults with wealth above
+the executor threshold has risen slightly from 8% to 9% and the Black ratio has risen the most in
+percentage terms from 1.9% to 2.9%. Consequently, there has been a slight narrowing of the racial
+wealth gap, with the ratio between the Black and White wealth ratios falling from 22 to 17.
+
+Lastly, we separate out the bracket of adults with wealth above our threshold, and look at the racial
+composition of this wealth-holding group, which suggests that Whites still compose almost 60% of the
+
+8
+ Not quite. The executor threshold changed in 2014, and inflation has been relatively high throughout the
+period, so the threshold in deflated terms has oscillated between 240,000-37,000 in 2022 R.
+
+                                                      9
+population with wealth above the R.250k threshold (the top 9% of wealth-holders), against their adult
+population share of 11%. Lastly, we simulate a much larger Black number of estates, at twice the
+current level (on the assumption that many Black estates go unreported). This reduces the White share
+only moderately, from 58% to 47%.
+
+Table 3. Share of adults with large wealth holding (>R.250,000)
+
+                                Pooled 2009-2019                        2009       2019
+ Racial                                                                Adults     Adults
+ name         Adults  Adults  Adults  Male    Female                   20+        20+
+ group        20+     30+     40+     20+     20+
+ Total             9%     11%     15%      9%      9%                       8%         9%
+ Black             3%      4%      5%      3%      3%                       2%         3%
+ Coloured          9%     12%     12%      9%      8%                       7%        11%
+ Asian            23%     27%     27%     21%     25%                      18%        45%
+ White            45%     49%     55%     45%     45%                      41%        46%
+
+
+Table 4. Racial share of ‘top wealth bracket’, pooled 2009-19
+
+ Racial
+ name     Adults 20+ Adults 30+ Adults 40+ Simulation – 2x
+ group    ‘top 9%’    ‘top 11%’  ‘top 15%’  ‘Black’ number
+ Total
+ Black           24%         22%        23%              38%
+ Coloured        10%         10%         9%                8%
+ Asian             8%         8%         7%                7%
+ White           58%         57%        61%              47%
+
+
+How do these results compare to the measures of wealth derived from household surveys (NIDS Wave
+4, 2015)? We use data from the NIDS Wave 4 (2015) survey, and structure it in the same way as in
+Table 3, to measure at the share of individuals holding wealth above R.250,000 by racial group
+according to survey estimates. In the first specification we use all reported assets in the NIDS, and in
+the second measure we exclude household possessions and vehicles, which are less likely to be
+included in the reported estate value. Exclusion of these assets lowers the Black and Coloured shares
+considerably, but has a comparatively smaller effect on the White and Asian shares. We compare this
+to our headline measures using the estate data, for 2009-15, as well as for 2015 alone.
+
+This comparison shows that the wealth measure from the estate records is reasonably consistent with
+that from the NIDS for the White and Asian communities, but seriously underestimates wealth for the
+Black and Coloured communities. This reflects different rates of legal compliance across communities,
+presumably itself a reflection of different (and weaker) legal property rights over household assets
+across communities. Appendix 3 provides full replications of Table 3 using NIDS data, and shows that
+the gender differences and differences by age stratification have similar magnitude effects. Beyond
+the racial group biases, the estate data does not seem seriously biased in terms of gender or age
+group.
+
+
+
+
+                                                  10
+Table 5. Share of adults (20+) with large wealth holding (>R.250,000): Estates data vs. NIDS
+2014/15
+
+                        Estate Dataset                       NIDS 2014/15
+                     2009-19        2015             All wealth   Excl. possessions
+    Total                  9%            9%                 13%                 10%
+    Black                  3%            3%                  8%                  5%
+    Coloured               9%            8%                 15%                  9%
+    Asian                 25%           35%                 25%                 26%
+    White                 45%           52%                 47%                 42%
+Source: National Income Dynamics Survey, Wave 4
+
+In sum, the rate at which South Africa’s different racial groups leave probated wealth is suggestive of
+the scale of wealth inequality in the country, with marked differences in the share of deceased leaving
+large estates, and similar magnitudes of difference when adjusting for the differences in the age and
+gender mortality structure of each racial group. Relative to the survey data, the estate records do
+understate the number of wealthier households, and the bias is larger for the Black group, reflecting
+differences in the degree to which members of different racial communities hold formal titles to
+assets.
+
+The geography of wealth and race
+One of Apartheid’s most defining characteristics was a legally-enforced geographic separation of racial
+communities, both nationally and within urban areas. The Apartheid-state maintained the notion of
+separate African rural ‘Homelands’, on paper self-governed, to which Black South Africans ostensibly
+belonged, while Black South Africans in the rest of South Africa held the status of migrants and held
+limited property rights. Within cities, separate areas were reserved for Whites, Blacks, Coloureds and
+Asians under the Group Areas Act which first came into effect in 1950, and resulted in the forced
+removal of non-white communities from areas designated for a different racial group.
+
+Although the Group Areas Act was repealed in 1991, the legacies of this spatial segregation remain
+marked, with different racial compositions across different pockets of cities, as well as across
+provinces (Christopher, 2005; Seekings, 2011). The limited residential integration since 1994 has been
+attributed to both economic and social factors. As in many parts of the world, rapid housing price
+inflation in cities like Cape Town and Johannesburg has made it harder for high earners without
+preexisting capital to enter the housing market (Besteman, 2008), but Seekings (2011) has also
+suggested that discrimination and sense of social belonging, has discouraged Black middle class
+members from buying into White neighbourhoods, even when their incomes permit it.
+
+While residential segregation in South Africa is well mapped, and can be measured using the South
+African census, such sources alone can tell us less about wealth ownership of residents of across
+different residential areas. What more can the geography of estate-leavers reveal about wealth
+dynamics in post-Apartheid South Africa?
+
+The estate notices published in the government gazette include an address, and we have taken the
+full set of notices published in 2019, as our sample for the following analysis. The address of each
+deceased is geocoded using the google’s geocoder. 9 The geocoder gives a confidence score (1-9) for
+
+
+9
+ Note that there is a discrepancy between the number of estates reported to the Masters’ Offices, relative to
+gazette notices, suggesting that many families who report an estate for division do not subsequently complete
+
+                                                     11
+each address located, and in the first instance we work with the largest sample of geolocated
+addresses (confidence score 1), but Appendix Table 4.1 replicates key results with the highest
+confidence score, which reduces the size of the sample considerably, but has a fairly small impact on
+the results of interest. We divide our sample into two groups, those with ‘black’ names, versus those
+with ‘white’ or ‘coloured’ names, and map the addresses across space (Asian names are excluded from
+this analysis as they are comparatively few in number).
+
+These maps give us a picture of where South Africa’s ‘middle class’ wealth-holders are resident. As in
+much of the world, the main source of middle class wealth in South Africa is real estate, which
+comprises about 60% of the asset portfolio of households in the top deciles (Daniels and Augustine,
+2016). Thus for most of deceased captured in this dataset, the main asset bequeathed is likely to be
+their home, and these maps therefore show us, in approximate terms, where South Africa’s title-
+holding, home-owning class resides.
+
+At the national level, the distribution is not markedly different between the two communities. In both
+cases those leaving estates were primarily living in the main urban areas: Johannesburg and its
+surroundings, Cape Town and Durban. A minority of estate-holders were resident in former
+Homelands: roughly 17% of all Black estate-holders were resident in Homelands, or 4% overall (and
+reassuringly those entries located within Homelands were very rarely identified as ‘White’ name
+holders).
+
+Next we take a closer look at urban residents, focusing on the four largest metropolitan areas (Maps
+2-4), and highlight in grey those estate-holders resident within former townships. To identify
+townships spatially, we work with a unique set of maps produced by Sefala, Gebru, Mfupe, Moorosi
+and Klein (2021), who have used satellite imagery and local informants, to establish the boundaries of
+different residential areas in South Africa, including townships, wealthier suburbs and informal
+settlements.
+
+This shows a marked difference in the residential patterns of the two communities. In these urban
+areas, ‘Black’ estate-holders are strongly concentrated in former townships, while ‘White’ estate-
+holders are not. This pattern is most marked in Johannesburg and Ekurhuleni, where over 60% of the
+Black deceased were resident in townships, compared to 3-6% for those with ‘White’ or ‘Coloured’
+names. In eThekwini municipality (which contains Durban), roughly half (47%) of the Black estate-
+holders were resident in townships, while in Cape Town the township share is lower (32%). Cape Town
+has a smaller Black community overall and a smaller number of Black estates, relative to Johannesburg
+and eThekwini, and this community is more recent in arrival. The lower share of residents in
+townships, therefore, probably reflects the smaller number of Black Apartheid-era township residents
+to begin with, rather than a comparatively high rate of residential mobility.
+
+In Cape Town we also see a cluster of ‘White’ or ‘Coloured’ names within township borders, centred
+on Mitchell’s Plain, a Coloured township created in the 1970s for people forcibly removed under the
+Group Areas Act. These are likely to be Coloured Cape Townians, with names indistinguishable from
+the White community. Similarly, the ‘White’ and ‘Coloured’ names in eThekwini townships are
+clustered in historically Coloured townships.
+
+Nation-wide, the picture is sobering. In 2019, roughly 6% of deceased left an estate that was
+subsequently taken through the succession system and reported in the government gazette. Of this
+number, an estimated 26% were Black South Africans. Within this group, 17% were resident in former
+
+the succession process; and this lowers the share of black names gazetted, relative to those recorded by the
+Master.
+
+                                                      12
+Homelands and 42% in townships, suggesting that their sources of wealth are property and land
+acquired during the Apartheid-era, and in areas of comparative deprivation relative to White middle
+class neighbourhoods. Put another way, just over 2% of Black South African deceased left gazetted
+estates, and less than 1% were estate-leavers resident in areas historically reserved for Whites.
+
+Wealth-holders resident in former townships will most likely be passing on residential property in
+these townships. This lends support to the argument by Bolt (2021), that (formally registered) Black
+estates in Johannesburg are primarily comprised of the stock of township housing that was privatised
+in the 1980s and 1990s. This also speaks to the possible order of magnitude of differences in the size
+of White versus Black-owned estates, and suggests that most Black property-owners are still at a
+comparatively low rung on the wealth ladder. While properties in Soweto, the largest township in
+Johannesburg, typically sold for between R.300,000-R.600,000 in 2022, those in the north of
+Johannesburg, where White names predominate, typically sold for above R.1.2 million. 10 Nonetheless,
+property price appreciation in centrally located townships in particular, mean that at least some
+segments of the non-White population of South Africa have benefitted from strong housing price
+growth of the 2000s, particularly in the rapidly gentrifying pockets of former townships. Today
+township houses typically represent several rungs up on the urban property ladder, above the low-
+cost social housing (RDP houses) of the post-Apartheid era (Lemanski, 2011).
+
+It should be emphasised that the estate distributions provide a backward-looking perspective of
+wealth accumulation, as it will primarily capture an older generation of Black wealth-holders, already
+adults in 1994, who would have had less opportunity for upward mobility in the post-Apartheid era.
+Furthermore, in years to come, there may still be more Black estates from this period entering the
+statistics, as families who previously saw no need to formalise the transfer of property return to the
+courts to do so. Nonetheless, this source gives us an order of magnitude, and suggests that the
+creation of a broader, racially inclusive property-owning middle class, is proceeding slowly.
+
+
+
+
+10
+  Centre for Affordable Housing Finance in Africa, South Africa Housing Market Performance,
+https://public.tableau.com/app/profile/housingfinanceafrica/viz/2017MayCitymarkPublicDashboard/SouthAfri
+caHousingMarketIndicators (viewed Jan 2024)
+
+                                                  13
+Table 6. Estates by location of residence of deceased, 2019
+
+
+
+                             Total                       ‘Black' named deceased            ‘White' or 'Coloured' named deceased
+ Unit                   % in         % in                 %        % in       % in                           % in       % in       Mean Diff.              confidence
+                N       homeland     townships    N       total    homeland townships    N         % total homeland townships      (township)    p-Value      level
+ National       24846        4.9%         13.9%     6426     26%        17%        42%    18420        74%        0.6%        4%         38%    < 0.01              1
+ Cape Town       3833                     12.0%      299      8%                   32%      3534       92%                   10%         22%    < 0.01              1
+ Johannesburg    3162                     28.1%     1240     39%                   63%      1922       61%                    6%         57%    < 0.01              1
+ Ekurhuleni      2650                     25.6%     1007     38%                   63%      1643       62%                    3%         61%    < 0.01              1
+ eThekwini       1221                     20.9%      441     36%                   47%       780       64%                    6%         41%    < 0.01              1
+
+
+
+
+                                                                                 14
+Map 1: Distribution of estates by residence of deceased, 2019
+
+                              ‘Black’ name holders                   ‘White’ or ‘Coloured’ name holders
+
+
+
+
+Notes: shaded areas capture former Homelands
+
+
+
+
+                                                                15
+Map 2: Distribution of estates by residence of deceased: Johannesburg and Ekurulheni
+
+
+
+
+Map 3: Distribution of estates by residence of deceased: eThekwini
+
+
+
+
+Map 4: Distribution of estates by residence of deceased: Cape Town
+
+
+
+
+Notes: Grey shaded areas represent former townships, based on geomapping by Sefala et al. (2021)
+
+                                                       16
+Discussion: Wealth Accumulation in Post-Apartheid South Africa
+South Africa’s negotiated political transition from Apartheid to majority rule impressed the world with
+its peacefulness. Unlike the many violent regime changes in history, South Africa managed the
+transition to democracy without any economic contraction, and the outflow of White-owned capital
+and skill remained manageable. One tenant of this negotiated process was a cautious approach by the
+ANC towards white-owned capital, and broad respect for private property rights. Without a forced
+transfer of wealth, it tacitly accepted a slow route to non-White wealth accumulation in the new South
+Africa.
+
+Consequently, the government had relatively fewer levers for realising a more equitable distribution
+of wealth. The most discussed policy tool of the post-Apartheid era is arguably the Black Economic
+Empowerment (BEE) policies, focused on voluntary transfer or sales of shares to non-White owners
+(often facilitated with credit from state-owned institutions), sale of public companies to Black
+companies, and preferential treatment for Black-owned companies in public procurement. Yet at least
+through the early 2000s, these policies had fairly modest success in increasing Black economic control
+(Southall, 2004). In recent years, the country has also been locked in debate about a proposed
+Constitutional amendment to Section 25, which would allow expropriation of land without
+compensation, under certain conditions. Furthermore, although not always framed in this light, the
+Reconstruction and Development Programme (RDP) housing construction programme, presumably
+represents the biggest transfer of assets for the bottom half on the income distribution. Since 1994,
+the government estimates that 5 million subsidized low-cost homes have been built, mostly in urban
+areas, which residents can in time register under a formal, private title.
+
+Less emphasis has been placed on diversifying the ownership of middle and upper class housing stock,
+which constitutes a large share of total household wealth in South Africa. The very skewed racial
+distribution of inherited wealth and spatial separation of ‘middle class’ wealth owners of different
+racial communities, suggests limited success in wealth transfer in this key asset class. The
+predominance of township dwellers among the Black estate holders suggests that one of the most
+broad-based asset transfers in the new South Africa has in fact been the relatively understudied
+process of township housing privatisation, that began in the 1980s.
+
+Estimates of the share of households owning their homes in Johannesburg and Cape Town are
+illustrative. In Johannesburg, the share of households owning outright, or owning a mortgaged home,
+has fallen across all racial groups except the Coloured group, and particularly severely so for Black
+households (from 37% in 2001 to 30% in 2011) (SA Census, IPUMS 2022). This is probably in large part
+due to rapid in-migration, as South Africa urbanises, but does point to the obstacles to acquisition of
+residential property.
+
+In some regards therefore, South Africa’s wealth transfer problem is analogous to that in Western
+countries, which face a marked generational wealth divide as a consequence of house prices
+outperforming wage growth over many decades. While this gap has much greater political salience in
+South Africa, where the divide is predominantly racial rather than generational, the appropriate policy
+tools for grappling with it – housing construction programmes, preferential access to credit,
+differential taxation policies, and tools for managing house price inflation - may not be entirely
+dissimilar.
+
+By focusing on inheritances, this chapter also touches on another, uncomfortable dimension of wealth
+inequality dynamics in South Africa. To the extent that inherited wealth is increasing in importance to
+both the stock of wealth and flow of income in South Africa (which, given the rising wealth to income
+
+
+                                                  17
+ratios, is not implausible (Orthofer et al. 2019)), this will tend to increase rather than ameliorate racial
+wealth inequalities. Larger families in South Africa’s Black and Coloured communities than in the
+White and Asian ones, means that inheritances are shared among a larger number of heirs in the
+former. Similarly, greater family contestation over the sharing of- and meaning of inherited wealth,
+and lower rates of formal transfer of title to assets, will disproportionately hinder Black formal wealth
+accumulation, relative to White.
+
+This chapter has shown how a comparatively simple, but overlooked source of administrative data can
+shed more light on dynamics of wealth in post-Apartheid South Africa. Further research is needed,
+using a range of complementary methods and sources, to understand how an increasingly multi-racial
+middle class is faring in terms of its ability to accumulate wealth, and to identify the routes that seem
+the most promising for fostering broad-based asset accumulation.
+
+
+
+
+                                                    18
+Appendix 1: Race Identification from Names
+We code the likely racial origin of a name-holder through a mixture of methods. To separate ‘Black’
+from ‘White’ names, we use a list of White South African names from Rosenthal (1965), as well as
+names from a sample of early 20th century death notices, which include racial identity, compiled by
+Fourie and Jayes (2021). 11 These lists, in combination with some manual identification, provide us with
+an initial sample. We then use two alternative methods of ‘bulk’ identification: we identify names
+based on name endings and beginnings (three letters), that are very distinct to each community – we
+do this both for last and first names. We hand-clean the remaining observations.
+
+As a robustness check, we also construct a list from the sample by Fourie and Jayes (2021), by retaining
+names that are distinct to a racial group and significant in number (n>). then we use a machine-
+learning algorithm (token-based), to classify the full set of estate registry names by race (black vs.
+white). Using the death notice results, for those names that could be classified reliably (prob >80%),
+the match with the partially hand-coded classification is around 90%.
+
+We use a separate identification strategy for the Asian names. Here we use a set of Indian marriage
+records from 1929-1960 available on FamilySearch to identify a set of common Asian names. 12 We
+complement this with further hand-coding.
+
+Estimating a Coloured South African share
+
+The biggest challenge to this method is that South Africa’s Coloured community hold names that are
+not distinct from those of the White community. The Coloured share of records therefore has to be
+imputed. We do this by using the Fourie and Jayes (2021) death notice names dataset to identify a set
+of names with a higher than average probability of being ‘Coloured’ vs. ‘White’. These are typically
+European in origin, and are shared by the white and coloured communities in South Africa. However,
+some such names are more common in one community than the other. A small number of names,
+which have their origin in slavery, are also distinct to the Coloured community, such as last names of
+the months of the year (April, September).
+
+We use the death notice data to identify names that appear to be relatively more common to the
+coloured community. We then correct this name list within the estates dataset in two ways: firstly,
+‘coloured’ names should be more prevalent in the Western, Northern and Eastern Cape relative to
+‘white’ names (as the coloured population is more strongly concentrated in those regions), and
+‘coloured’ names will have a lower ratio of executor to low-value estates, as the community is poorer
+on average. We use these as exclusion criteria to identify a set of names that appear to be
+disproportionately associated with the coloured relative to white community.
+
+We use this names list to examine the likely rate of change of the coloured:white ratio, and anchor it
+in the 1988-89 data, where race is given in the gazette lists from the Apartheid-era ID number that
+contained a racial variable.
+
+We sense-check the names list using the geocoded entries, and find that names identified as high
+prob coloured, are more prevalent among residents of (coloured) townships (Appendix Fig 1.1.).
+
+
+
+11
+   Johan Fourie, Jonathan Jayes, Health inequality and the 1918 influenza in South Africa, World Development,
+Volume 141, 2021, 105407, ISSN 0305-750X, https://doi.org/10.1016/j.worlddev.2021.105407. Further data
+provided by the authors.
+12
+   Available on FamilySearch, film numbers 2220372 & 2220373, extracted ~2,000 randomly sampled
+records, which gave ~800 unique surnames.
+
+                                                     19
+Appendix Table 1.1. Estimate of ‘coloured’ names as share of ‘white’ names (executor-only)
+
+            A             B             C             D             E            F           G
+                          Names         ‘Coloured'                                           Final share
+            ‘Coloured’    high prob     name                        Implied      Implied     used in
+            share         ‘Coloured’    share by                    Coloured     Coloured    paper
+            actual        share by      year of       Ratio B to    share by     share by    (smoothed)
+ Year       (from ID)     year          death         A             year         yod
+     1988          4.8%          1.7%                       35%          4.8%         4.8%
+     1989          4.8%          1.9%                       40%          4.8%         4.8%
+     1999          5.6%          2.5%                       45%          5.6%         5.6%
+
+
+    2009                        3.8%          3.5%    40%                9.5%         8.8%         9.0%
+    2010                        2.8%          3.6%    40%                7.0%         8.9%         9.3%
+    2011                        3.1%          4.1%    40%                7.8%        10.4%         9.6%
+    2012                        2.6%          3.1%    40%                6.5%         7.8%         9.8%
+    2014                        5.7%          5.0%    40%               14.3%        12.5%        10.4%
+    2015                        4.7%          5.7%    40%               11.8%        14.3%        10.8%
+    2016                        3.6%          3.6%    40%                9.0%         9.0%        11.1%
+    2017                        4.8%          5.9%    40%               12.0%        14.8%        11.4%
+    2018                        5.9%          6.2%    40%               14.8%        15.5%        11.7%
+    2019                        4.8%          4.3%    40%               12.0%        10.7%        12.1%
+
+
+Appendix Table 1.2. Estimate of ‘coloured’ names as share of ‘white’ names (all estates)
+
+            A             B             C            D             E
+                          Names                                    Final share
+            ‘Coloured’    high prob                  Implied       used in
+            share         ‘Coloured’                 Coloured      paper
+            actual        share by      Ratio B to   share by      (smoothed)
+ Year       (from ID)     year          A            year
+     1988          4.8%          1.7%         35%         4.8%
+     1989          4.8%          1.9%         40%         4.8%
+    1999           5.6%          2.5%         45%         5.6%
+
+
+    2009                        7.1%    40%               17.6%         17.3%
+    2010                        6.0%    40%               15.1%         17.7%
+    2011                        7.7%    40%               19.3%         18.0%
+    2012                        7.2%    40%               18.1%         18.4%
+    2014                        7.7%    40%               19.3%         19.1%
+    2015                        8.1%    40%               20.1%         19.5%
+    2016                        5.7%    40%               14.2%         19.9%
+    2017                        7.5%    40%               18.9%         20.3%
+    2018                        9.2%    40%               23.1%         20.7%
+    2019                        8.8%    40%               22.0%         21.1%
+
+
+
+
+                                                     20
+Appendix Figure 1.1. Coloured versus White estates by residence, City of Cape Town, 2019
+
+
+
+
+Notes. Shaded dark green, Black townships; shaded light-green, Coloured townships. Legend: Dark
+red: names of high probability ‘Coloured’; pink dots: other ‘White/Coloured’ name-holders.
+
+
+
+
+                                               21
+Appendix 2. Estimating Mortality by Racial Group
+The distribution of wealth amongst the living is estimated by exploring the distribution of estates left
+at death (French, 1970 13; Atkinson and Harrison, 1975 14; Alvaredo, Atkinson and Morelli 15, 2018).
+However, mortality risk between different groups in not equal, and therefore there will be an
+under/over representation of various groups within the estate data. For instance, certain ethnicities,
+men, older people and those from less advantaged socioeconomic backgrounds have a higher
+mortality risk and so will be overrepresented. Mortality multipliers are necessary to adjust the estate
+data into estimates of the distribution of wealth holdings amongst the living population. These
+mortality multipliers are the inverse of the mortality rate for each group. Mortality multipliers were
+created for each year of interest by gender, ethnicity and 5-year age band.
+
+The population estimates necessary to create the mortality rates for each group were obtained from
+the Statistics South Africa mid-year population estimates (Statistics South Africa, 2022 16). This data is
+disaggregated into gender, age and ethnicity for all relevant years. Statistics South Africa does not,
+however, publish mortality data broken down into our desired categories. UN mortality data (United
+Nations, 2022 17) exists for South Africa and is disaggregated into gender and age, however not
+ethnicity. Pillay-van Wyk et al. (2017 18) created population group estimates of deaths, broken down
+by age, gender and ethnicity using death notifications data. Estimates were provided for 2000, 2006
+and 2012. We estimate the number of deaths in each group for all other relevant years using linear
+interpolation between these values.
+
+South Africa experienced a decline in their population death rate from 2006 throughout our period of
+interest to 2019. This fall in mortality was largely attributable to reductions in HIV mortality, caused
+by the 2004 launch of the South African governments roll-out of free antiretroviral therapy to public
+health facilities across the country (Johnson, 2012 19; Larson et al., 2012 20; Burger, Burger and
+Doorslaer 21, 2022; Doan, Shin and Mehta, 2022 22). UN mortality data shows that the rate of decline in
+mortality rates was highest between 2006-2012, with an average percentage decrease in the number
+of deaths across the population of 3.50% per year. The decline continued after 2012, however at a
+considerably decreased rate, with an average rate of decline of 0.84% per year in the period 2012-
+2019. The percentage change in number of deaths between 2006-2012 is shown in table X1.
+
+The population group estimates for 2007 and 2011 were estimated by interpolating between the 2006
+and 2012 Pillay-van Wyk et al. (2017) estimates. Given the decline in the rate of decrease in mortality
+rates from 2012 onwards, it would not be reasonable to extend past 2012 and extrapolate the 2013-
+2019 values. This would create major underestimates for number of deaths in this period. We
+therefore create an estimate for the number of deaths in each population group of interest for 2019
+using UN mortality data. The 2013-2018 deaths are then estimated via interpolation between the
+Pillay-van Wyk et al. (2017) estimates for 2012, and our UN data-based estimates for 2019.
+The Pillay-van Wyk et al. (2017) and UN mortality estimates (United Nations, 2022) are created using
+
+13
+   https://www.jstor.org/stable/3485762?seq=1
+14
+   https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1468-0084.1975.mp37001002.x
+15
+   https://www-sciencedirect-com.gate3.library.lse.ac.uk/science/article/pii/S0047272718300288?via%3Dihub
+16
+   https://www.statssa.gov.za/publications/P0302/P03022022.pdf
+17
+   https://population.un.org/wpp/Download/Standard/Mortality/
+18
+   https://pubmed.ncbi.nlm.nih.gov/27539806/
+19
+   https://sajhivmed.org.za/index.php/hivmed/article/view/156
+20
+   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3323417/pdf/1471-2458-12-173.pdf
+21
+   https://www.sciencedirect.com/science/article/pii/S0277953622001381?via%3Dihub
+22
+   https://www.demographic-research.org/volumes/vol46/18/46-18.pdf
+
+                                                   22
+various methods and sources, however, their estimates of total deaths in the years 2000, 2006 and
+2012 are relatively comparable. In 2006 the percentage difference between the two estimates is 6%,
+and the percentage difference between the two estimates for 2012 is 0.35%. Further, the age
+distribution of deaths for each are relatively similar. Comparisons of the year totals and the 2012 age
+distribution of deaths between the two sets of estimates are presented in tables X2 and X3
+respectively.
+
+UN mortality data is broken down by gender and age, however not by ethnicity. Exploring the Pillay-
+van Wyk et al. estimates for 2000, 2006 and 2012 it is clear that the ethnic composition of deaths per
+age-band for each gender remain relatively stable over time, as can be seen in table X4. We therefore
+apply the average ethnic structure over the three given years to the UN data for each gender and age-
+band to create estimates for deaths in 2019 by age, gender and ethnicity. The 2013-2018 population
+group estimates for number of deaths are then estimated via interpolation between the 2012 and
+2019 values. The inverse of each of the population group mortality rate estimates are used as mortality
+multipliers, transforming the estate data into wealth holdings of the living.
+
+
+
+
+                                                  23
+Appendix Table 2.1: Percentage change in number of deaths in the South African population- UN mortality data
+                2006-      2007-      2008-      2009-       2010-      2011-      2012-      2013-      2014-      2015-      2016-      2017-        2018-
+                2007       2008       2009       2010        2011       2012       2013       2014       2015       2016       2017       2018         2019
+
+                0.04%      -1.12%     -3.37%     -4.53%     -4.95%     -3.87%     -0.67%     -1.56%     -0.58%      0.38%      -2.32%     0.68%        -1.26%
+ Men
+
+                -1.98%     -3.25%     -4.15%     -4.99%     -4.66%     -5.11%     -1.14%     -2.74%      0.37%      -3.21%     -1.03%     0.87%        0.38%
+ Women
+
+                -0.99%     -2.20%     -3.76%     -4.76%     -4.80%     -4.49%     -0.90%     -2.15%     -0.11%      -1.38%     -1.69%     0.77%        -0.45%
+ Total
+
+
+Appendix Table 2.2: Percentage difference in estimates for total deaths between Pillay-van Wyk et al. and UN mortality estimates 2000, 2006 and 2012
+
+
+ % difference in estimate for total
+ deaths between Pillay-van Wyk et al.           2000       2006        2012
+ and UN estimates
+ Total                                         6.42%       3.33%      0.35%
+ Male                                          9.91%       7.18%      3.35%
+ Female                                        2.70%       0.48%      4.26%
+
+
+
+
+                                                                         24
+Appendix Table 2.3: Comparison of age distribution of deaths between Pillay-van Wyk et al. and UN mortality estimates for the year 2012
+
+
+                                      Male                                     Female
+
+                  Pillay-van Wyk et                           Pillay-van Wyk et
+                                               UN                                          UN
+ Age band                 al.                                         al.
+      0-9                11%                   11%                   10%                   9%
+     10-19                2%                   3%                     2%                   2%
+     20-29                9%                   10%                    9%                   10%
+     30-39               15%                   14%                   13%                   12%
+     40-49               15%                   18%                   12%                   13%
+     50-59               15%                   13%                   11%                   12%
+     60-69               14%                   14%                   12%                   14%
+     70-79               11%                   9%                    14%                   13%
+      80+                 8%                   8%                    16%                   15%
+
+
+
+
+                                                                         25
+Appendix Table 2.4: Ethnic composition of deaths by age band 2000, 2006 and 2012
+
+   Age
+                 Year
+   band                      African  Asian    Coloured White
+                 2000             95%       0%      4%       1%
+    0-9          2006             95%       0%      3%       1%
+                 2012             94%       1%      4%       1%
+                 2000             93%       1%      4%       2%
+  10-19          2006             94%       1%      4%       2%
+                 2012             94%       1%      4%       2%
+                 2000             96%       0%      3%       1%
+  20-29          2006             97%       0%      2%       1%
+                 2012             95%       0%      4%       1%
+                 2000             93%       1%      4%       1%
+  30-39          2006             96%       0%      3%       1%
+                 2012             94%       0%      4%       1%
+                 2000             87%       1%      8%       4%
+  40-49          2006             91%       1%      5%       2%
+                 2012             89%       1%      7%       3%
+                 2000             79%       3%     10%       9%
+  50-59          2006             83%       2%      9%       6%
+                 2012             82%       2%     10%       6%
+                 2000             77%       3%      9%     11%
+  60-69          2006             78%       3%      9%     10%
+                 2012             76%       3%     10%     11%
+                 2000             74%       3%      7%     17%
+  70-79          2006             75%       3%      7%     15%
+                 2012             75%       3%      8%     14%
+                 2000             67%       2%      5%     26%
+   80+           2006             66%       2%      6%     26%
+                 2012             70%       2%      5%     23%
+
+
+
+
+                                              26
+Appendix 3. Further NIDS Analysis
+
+
+
+Table 3.1. NIDS 2014/15: Share of adults with wealth above executor threshold (R.250,000), all
+wealth
+
+                                                           Male            Female
+                  Adults 20+   Adults 30+     Adults 40+   20+             20+
+ Total                    13%          18%             22%          14%             12%
+ Black                     8%          11%             13%           9%              7%
+ Coloured                 15%          19%             25%          16%             13%
+ Asian                    25%          31%             30%          26%             23%
+ White                    47%          55%             60%          52%             43%
+                                Multiple of Black rate
+ Black                       1            1              1             1              1
+ Coloured                    2            2              2             2              2
+ Asian                       3            3              2             3              3
+ White                       6            5              5             6              6
+Source: National Income Dynamics Survey, Wave 4
+
+
+
+Table 3.1. NIDS 2014/15: Share of adults with wealth above executor threshold (R.250,000),
+(Wealth includes real estate, financial, business and superannuation, but excludes vehicle and
+possession wealth)
+
+                                                           Male     Female
+                  Adults 20+   Adults 30+     Adults 40+   20+      20+
+ Total                    10%          14%             17%      11%         9%
+ Black                     5%           7%              9%       6%         4%
+ Coloured                  9%          12%             15%       9%        10%
+ Asian                    26%          33%             31%      29%        24%
+ White                    42%          48%             52%      49%        37%
+                                Multiple of Black rate
+ Black                       1            1              1        1          1
+ Coloured                    2            2              2        2          3
+ Asian                       5            5              3        5          6
+ White                       8            7              6        8          9
+Source: National Income Dynamics Survey, Wave 4
+
+
+
+
+                                                  27
+Table 4.1. Estates by location of residence of deceased, 2019, replication, confidence level 9
+
+ Unit                       Total                         Black' named deceased               White' or 'Coloured' named deceased
+                                                                                                                                        Mean
+                        % in        % in                  %       % in       % in                    %       % in        % in         Difference             confidence
+                N       homeland    townships   N         total   homeland   townships   N           total   homeland    townships   (townships)   p-Value      level
+ National       15237       2.0%       14.7%    3403       22%          9%        47%     11834       78%         0.1%          5%         42%     < 0.01            9
+ Cape Town       3085                  12.9%        239      8%                   31%         2846    92%                     11%          19%     < 0.01            9
+ Johannesburg    2305                  21.9%        735    32%                    58%         1570    68%                       5%         53%     < 0.01            9
+ Ekurhuleni      2001                  23.4%        705    35%                    62%         1296    65%                       3%         59%     < 0.01            9
+ eThekwini       1013                  16.1%        295    29%                    41%         718     71%                       6%         35%     < 0.01            9
+
+
+
+
+                                                                                         28
+References
+References
+Alvaredo, F., & Atkinson, A. B. (2022). Top incomes in South Africa in the twentieth century.
+Cliometrica, 16(3), 477-546.
+Ansell, B and Gingrich, J. (2022). Political inequality. London: Institute for Fiscal Studies. Available at:
+https://ifs.org.uk/publications/political-inequality
+Atkinson, A. B., & Harrison, A. J. (1978). Distribution of Personal Wealth in Britain. Cambridge:
+Cambridge University Press.
+Bengtsson, E., Missiaia, A., Olsson, M., & Svensson, P. (2018). Wealth Inequality in Sweden, 1750–
+1900. The Economic History Review, 71(3), 772-794.
+Besteman, C. (2008). Transforming Cape Town. Berkeley: University of California Press.
+Bolt, M. (2021). Homeownership, legal administration, and the uncertainties of inheritance in South
+Africa’s townships: Apartheid’s legal shadows. African Affairs, 120(479), 219-241.
+Centre for Affordable Housing Finance in Africa, South Africa Housing Market Performance,
+https://public.tableau.com/app/profile/housingfinanceafrica/viz/2017MayCitymarkPublicDashboard
+/SouthAfricaHousingMarketIndicators (viewed Jan 2024)
+Chatterjee, A. (2019). Measuring wealth inequality in South Africa: An agenda. Development
+Southern Africa, 36(6), 839-859.
+Chatterjee, A., Czajka, L., & Gethin, A. (2020). Estimating the distribution of household wealth in
+South Africa (No. 2020/45). WIDER Working Paper.
+Christopher, A. J. (2002). ‘To define the indefinable’: population classification and the census in
+South Africa. Area, 34(4), 401-408.
+Christopher, A. J. (2005). The slow pace of desegregation in South African cities, 1996-2001. Urban
+studies, 42(12), 2305-2320.
+Clark, G. and Cummins, N. (2014). Intergenerational wealth mobility in England, 1858-2012:
+Surnames and Social Mobility, The Economic Journal, 125(582), 61–85.
+Cummins, N. (2021). Where Is the Middle Class? Evidence from 60 Million English Death and Probate
+Records, 1892–1992. The Journal of Economic History, 81(2), 359-404.
+Cummins, N. (2024). Ethnic wealth inequality in England and Wales, 1858-2018. Explorations in
+Economic History, 94.
+Daniels, R. C., & Augustine, T. (2016). The measurement and distribution of household wealth in
+South Africa using the National Income Dynamics Study (NIDS) Wave 4. Cape Town: SALDRU,
+University of Cape Town. SALDRU Working Paper Number 183/NIDS Discussion Paper 2016/10.
+Department of Human Settlement, 2021, Annual Report 2020-21
+Devine, F. (2003). Class Practices: How parents help their children get good jobs. Cambridge:
+Cambridge University Press.
+Finn, A., Leibbrandt, M., & Woolard, I. (2014). The middle class and inequality in South Africa.
+Fourie, J. (2013). The remarkable wealth of the Dutch Cape Colony: measurements from eighteenth‐
+century probate inventories 1. The Economic History Review, 66(2), 419-448.
+
+
+                                                     29
+Fourie, J., & Jayes, J. (2021). Health inequality and the 1918 influenza in South Africa. World
+Development, 141, 105407.
+Gregg, P. and Kanabar, R. (2022). Intergenerational wealth transmission in Great Britain, Review of
+Income and Wealth, 69(4), 807–837.
+Jones, A. H. (1982). Estimating Wealth of the Living from a Probate Sample. The Journal of
+Interdisciplinary History, 13(2), 273-300.
+Hällsten, M. and Pfeffer, F.T. (2017). Grand advantage: Family Wealth and Grandchildren's
+Educational Achievement in Sweden. American Sociological Review, 82(2), 328–360.
+Hirneis, V. (2023) Towards the manifestos: What’s the agenda for fixing poverty and tackling
+inequality? APPG on Inclusive Growth
+Karagiannaki, E. (2017). The effect of parental wealth on children’s outcomes in early adulthood. The
+Journal of Economic Inequality, 15(3), 217–243.
+Leibbrandt, M., Finn, A., & Woolard, I. (2013). Post-apartheid changes in South African inequality.
+Income Inequality: Economic Disparities and the Middle Class in Affluent Countries, 459-85.
+Lemanski, C. (2011). Moving up the ladder or stuck on the bottom rung? Homeownership as a
+solution to poverty in urban South Africa. International Journal of Urban and Regional Research,
+35(1), 57-77.
+McGrath, M. D. (1982). Distribution of personal wealth in South Africa.
+Mbewe, S., & Woolard, I. (2016). Cross-sectional features of wealth inequality in South Africa:
+Evidence from the National Income Dynamics Study.
+Orthofer, A., Du Plessis, S., & Reid, M. (2019). Private wealth in a developing country: evidence from
+South Africa. Review of Income and Wealth, 65(3), 632-656.
+Pillay-van Wyk, V., Msemburi, W., Laubscher, R., Dorrington, R. E., Groenewald, P., Glass, T. &
+Bradshaw, D. (2016). Mortality trends and differentials in South Africa from 1997 to 2012: second
+National Burden of Disease Study. The Lancet Global Health, 4(9), e642-e653.
+Seekings, J. (2011). Race, class, and inequality in the South African city. The new Blackwell
+companion to the city, 532-546.
+Southall, R. (2004). The ANC & black capitalism in South Africa. Review of African Political
+Economy, 31(100), 313-328.
+Southall, R. (2016). The new black middle class in South Africa. Boydell & Brewer.
+Toft, M. and Friedman, S. (2020). Family wealth and the class ceiling: The propulsive power of the
+Bank of Mum and dad, Sociology, 55(1), 90–109.
+Weeks, S. M. (2015). Customary succession and the development of customary law: The Bhe legacy.
+Acta Juridica, 2015(1), 215-255.
+
+
+
+
+                                                   30
+

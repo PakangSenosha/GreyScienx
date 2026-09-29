@@ -1,0 +1,2274 @@
+                Communal Land Tenure 1994-2017:
+            Commissioned Report for High Level Panel on the
+Assessment of Key Legislation and the Acceleration of Fundamental Change,
+              an initiative of the Parliament of South Africa
+
+
+
+
+                     Michael Clark and Nolundi Luwaya
+               Land and Accountability Research Centre (LARC)
+
+
+                                 June 2017
+
+
+
+
+                                                                            1
+                                      Table of contents
+
+1.   Introduction
+2.   Communal Land Tenure
+3.   Legal and Policy Framework
+       Constitution (1996)
+       Interim Protection of Informal Land Rights Act (1996)
+       KwaZulu Ingonyama Trust Act (1994)
+       Land Rights Bill (1998)
+       Communal Land Rights Act (2004)
+       Communal Land Tenure Policy (2014)
+       Communal Land Bill (2016)
+       Traditional Leadership and Governance Framework Act (2003)
+       Spatial Planning and Land Use Management Act and its Regulations (2013)
+       Communal Property Associations Act (1996)
+4.   Key Debates
+       Power Dynamics in Communal Areas
+       Land Grabs in Communal Areas
+       Free, Prior and Informed Consent
+       Formalisation of Land Rights
+       Women’s Land Rights in Communal Areas
+       Breakdown in Land Administration Systems
+5.   Assessment of Communal Land Tenure Reform
+6.   Conclusions and Recommendations
+7.   Endnotes
+8.   Bibliography
+
+
+
+
+                                                                                 2
+                                   COMMUNAL LAND TENURE 1994-2017
+                                     Michael Clark and Nolundi Luwaya
+
+
+
+1.    Introduction
+
+Twenty years have passed since the homelands were reintegrated into a unitary South Africa, yet the lega-
+cy of the colonial and apartheid past continues to haunt these areas.i Almost 17 million people or a third of
+the population of South Africa reside in the former homelands, which the post-apartheid government calls
+‘communal areas’, according to forms of communal tenure.ii However, for most of the people living in these
+areas the full recognition of their land rights remains unrealised as the South African government has been
+unable to develop laws and policies that sufficiently capture the nuanced ways in which people experience
+and regulate relations of communal tenure in their everyday lives.
+
+Tenure security refers to the legal and practical ability to defend one’s ownership, occupation, use of and
+access to land from interference by others.iii A critical component of tenure security is the legal right not to
+be unlawfully or arbitrarily evicted from one's home.iv Without secure tenure, people are unable to exercise
+their rights over land and face the risk of losing these rights altogether.v Some authors assert that tenure
+security has social dimensions (the relationships between people in relation to land as they exist in prac-
+tice) and legal dimensions (the legal recognition granted to those relationships in terms of statutory or cus-
+tomary law). The legal insecurity of land tenure is a critical challenge facing those living in communal areas.
+In many areas individuals or families that have occupied and used the same piece of land undisturbed for
+generations may find that they have weak legal claims to the land they inhabit. This insecurity has exacer-
+bated the vulnerability of these historically marginalised groups who bore the brunt of apartheid’s racially
+discriminatory law and continues to place them at risk of exploitation and dispossession. Moreover, tenure
+insecurity has also compounded the socio-economic disadvantages experienced by people in communal
+areas.vi Poverty in communal areas remains deep and widespread. Although absolute poverty has declined
+slightly throughout South Africa,vii the former homelands have persistently been burdened with the highest
+levels of poverty and deprivation in the country.viii
+
+This is, in part, due to the historical impact of the colonial and apartheid governments. The apartheid gov-
+ernment systematically established and maintained a complex legal framework that effectively prohibited
+black people from legally owning land. Indeed, the detailed system devised through the decades ensured
+that the degree of tenure security that black people were entitled to was more precarious than the tenure
+security to which white people were entitled. At its core, the approach to black people was that they would
+be perpetual tenants on the land they occupied and used. The system meant that the land rights available
+to black people were limited to customary land rights in the homelands or statutory land 'rights' which pro-
+vided for a permit-based system.ix These rights were ‘generally subservient, permit-based or “held in trust”’
+by the government or the South African Development Trust.x The rights held by black people were there-
+fore of a ‘second class status’.xi
+
+The strengthening and protection of the tenure security of the people living in communal areas is therefore
+a critical objective of the post-apartheid government. In order to address the negative consequences of
+colonialism and apartheid on the tenure security of those living in communal areas it was necessary not
+only to repeal the apartheid laws that had created this insecurity, but also to 'construct a new system …
+                                                                                                              3
+based on a clear understanding of how existing property relations have developed, and why those relations
+do not satisfy people’s needs’.xii To achieve this objective the Constitution recognised the right to security
+of land tenure in section 25(6). This provision states that '[a] person or community whose tenure of land is
+legally insecure as a result of past racially discriminatory laws or practices is entitled, to the extent provided
+by an Act of Parliament, either to tenure which is legally secure or comparable redress'. Section 25(9) fur-
+ther requires that government pass legislation to give effect to this provision. The post-apartheid govern-
+ment is therefore constitutionally obliged to protect and strengthen the land rights of people in communal
+areas.
+
+To rectify the historical imbalances in power brought about by colonialism and apartheid and to give effect
+to the Constitution, the post-apartheid government embarked on a multi-faceted land reform programme.
+The programme aims to address unequal land-holding patterns and protect, secure and strengthen the
+land rights of historically disadvantaged people. South Africa’s land reform programme is set out in the
+White Paper on South African Land Policy (1997). One of the central components of South Africa’s land re-
+form policy is tenure reform, which is aimed at protecting, securing and strengthening the rights that peo-
+ple have over land, especially where those rights are weak as a result of racially discriminatory laws and
+practices.xiii
+
+However, despite the constitutional imperatives on the state, the tenure insecurity of those living in the
+former homelands persists. While the government has enacted laws to enhance the security of tenure of
+farm dwellers and labour tenants, there is currently no substantive legislation to secure and promote the
+land rights of the people living in the former homelands (other than the Interim Protection of Informal Land
+Rights Act (IPILRA)).xiv This legal vacuum has contributed to the insecure nature of people’s land rights in
+communal areas.xv As this report will illustrate, this insecurity has been worsened by colonial and apartheid
+distortions of customary law and the unequal power relations that were supported by these distortions,
+many of which have been reproduced or entrenched in the democratic dispensation.
+
+The report is sets out as follows: Section Two looks at the historical and contemporary understandings of
+communal land tenure in order to frame the discussion going forward. Section Three briefly sets out the
+legal and policy framework related to communal tenure by analysing the most important legislation, poli-
+cies and policy developments associated with communal land tenure. This section focuses specifically on
+governments’ attempts at giving effect to section 25(6) of the Constitution. Section Four highlights a num-
+ber of contentious debates in relation to land rights in communal areas. Section Five examines the extent
+to which people in communal areas whose rights were legally insecure as a result of colonialism and apart-
+heid are more or less secure than prior to 1994. This section also looks at the linkages between property,
+inequality and tenure insecurity. Section Six concludes the paper and makes several recommendations for
+possible alternative approaches to securing the land rights of people in communal areas.
+
+
+2.    Communal Land Tenure
+
+Before considering contemporary notions of communal tenure, it is useful to examine the pre-colonial con-
+ceptions of communal tenure and the ways in which these tenure systems were influenced by the colonial
+and apartheid states and notions of private property. Such an analysis will help identify the key characteris-
+tics of contemporary customary land practices.
+
+
+                                                                                                                4
+Colonial administrators held significantly distorted perceptions of communal tenure systems. These distor-
+tions were, in part, intentional endeavours by colonial powers to retain and codify a version of 'communal'
+tenure that would best suit their interests.xvi One of the main misconceptions espoused by colonial admin-
+istrators was that common tenure described a wholly collective system of land ownership that was void of
+notions of individual interest.xvii The characterisation of communal land tenure systems as ‘collective’ in
+nature belied the often complex and nuanced ways in which the interests over land fluctuated between
+more ‘exclusive’ rights and interests and more ‘collective’ rights and interests. Some authors have disputed
+this notion of communal tenure as follows:
+
+      ‘Many forms of property encountered in Africa are significantly less exclusive than what is normally
+      associated with ownership. This is not to argue that African land tenure is essentially communal, but
+      often several layers of interest in property are recognised as legitimate.’xviii
+
+Another pervasive tendency of colonial officials was to interpret communal tenure through the common
+law lens of their own countries.xix In particular notions of ownership had a profound impact on how colonial
+officials perceived communal tenure.xx The concept of ownership, as interpreted by these colonial adminis-
+trators, was characterised by the absolute and exclusive concentration of interests in land in a particular
+individual.xxi Colonial powers did not recognise this notion of ownership in communal tenure systems and,
+consequently, declared ownership alien to customary law systems.xxii However, colonial powers also as-
+sumed that 'land must always have an owner even where rights have never been defined'.xxiii It is through
+these legal arguments that the colonial powers legitimised their appropriation of the 'unowned' land of
+indigenous communities.xxiv
+
+As communal tenure would not lend itself to notions of exclusive ownership, colonial administrators at-
+tempted to describe communal tenure arrangements as a distorted form of 'trust' law in terms of which
+land would be held by a chief on behalf of a tribe.xxv This legal manipulation of communal tenure aided the
+colonial state in its system of indirect rule. The colonial state enhanced and distorted the powers of tradi-
+tional leaders by granting them far-reaching and extensive powers in relation to land. In this vein, colonial
+officials agreed to maintain their political support of traditional leaders as long as they cooperated with the
+Crown and furthered its colonial objectives. Many of the traditional leaders that refused to cooperate were
+replaced by more persuadable leaders. Characterising communal tenure as a form of trust was widely em-
+braced by colonial officials and was later effectively employed by the apartheid state to further disenfran-
+chise black people in the homelands by establishing the South African Development Trust (SADT) and simi-
+lar trust arrangements. These distorted notions became central to understanding of communal tenure
+practices and continue to influence how many think about communal tenure today.
+
+In recent years, these versions of communal tenure have been highly contested by scholars who argue that
+communal tenure systems historically encompassed a number of defining features and continue to be
+characterised by these features today.xxvi
+
+Okoth-Ogendo describes communal tenure practices in markedly different terms to those described above.
+He rejects the notion that communal tenure is necessarily 'communal' in nature- with 'collective' ownership
+vesting in a whole group and decisions made by the community as a whole. Instead he argues that social
+relations create 'reciprocal rights and obligations that bind together, and vest power in community mem-
+bers over land'.xxvii In other words, to determine who is granted access to, or control over, land one has to
+                                                                                                             5
+consider the rights and obligations that arise from the relationships between people.xxviii This approach to
+communal land tenure is based on the fact that land relations in terms of customary law are relational -
+that is, they are about the relationships between people as they relate to a piece of land. As opposed to
+people’s powers or entitlements over land.
+
+Cousins articulates a similar notion of communal tenure when he states that communal tenure is inclusive
+and 'socially embedded'.xxix According to him, 'land tenure was [and is] both "communal" and “individual"'
+and can be seen as a ‘system of complementary interests held simultaneously’ by different people.xxx In
+other words, communal tenure systems are based on an idea that individuals and families hold relative
+rights to the same residential and agricultural land. These relative rights may even overlap.xxxi These indi-
+viduals and families have to negotiate access to common resources such as land for grazing, forests or riv-
+ers. Communal tenure systems are therefore 'nested' or 'layered' with different people or groups holding
+varying degrees of rights and interests over land and resources.xxxii For this reason, communal tenure prac-
+tices require decision-making about land to take place at various levels and with various people or groups,
+including individuals, households, kinship networks and wider communities. To illustrate this point, Cousins
+describes the process through which a man might try to obtain land in terms of communal tenure systems.
+He writes that a man would first ask his father for permission to use family land, if that land is unavailable
+he would ask his neighbour, and if he were unable to acquire land in this way he would approach the
+headman to acquire land in the vicinity.xxxiii
+
+These layered systems of decision-making stand in stark contrast to the attempts of the colonial and apart-
+heid states to centralise decision-making power over land in traditional leaders.xxxiv In practice, decision-
+making in relation to land seems to be much more nuanced and inclusive. This is not to say that traditional
+leaders have no role to play in decisions about land. In some parts of South Africa, traditional leaders per-
+form important functions in relation to land. However, their functions in relation to land vary by area and
+according to the practices of the particular group.xxxv For example, in parts of KwaZulu-Natal traditional
+leaders fulfil an important role by confirming the transfer or allocation of land that has been decided upon
+by other levels of the group or community.xxxvi
+
+The colonial and apartheid states also ignored and undermined communal tenure practices that empha-
+sised exclusive use by individuals or families. Kerr has argued that the rights and interests that individuals
+or families hold over residential and arable land are much more individualised than traditionally believed -
+with people exercising strong rights of occupation, use and access to the exclusion of others.xxxvii This is dif-
+ferent to the rights that individuals and families have to use common resources, which is much more com-
+munal in nature. Kerr’s research was based on an analysis of existing communal tenure systems under
+apartheid by examining both the customary practices that existed in communities and the formal legal
+framework as developed by the apartheid government and interpreted by the courts. Kerr says evidence of
+these exclusive rights can be found in the right of a household to return to residential land after vacating
+the area (provided that the household informed the headman of their intention to return). The practice of
+bequeathing and inheriting residential and arable land (which the apartheid government tried to prevent
+through regulation) also provided evidence of the existence of exclusive rights. Kerr also refers to court
+cases where apartheid judges referred to these land rights as 'titles', according to Kerr this shows that, in
+certain circumstances, communal tenure systems create strong rights for individuals and families in relation
+to land. These rights are legally equivalent to ownership although different in nature.xxxviii
+
+
+                                                                                                               6
+Another feature of communal tenure systems is that they are flexible and are constantly adapting and
+changing based on circumstances. In this sense, communal tenure practices are similar to notions of living
+customary law. Some scholars have described living customary tenure systems as hybrid systems consisting
+of laws, rules and practices.xxxix
+
+
+3.      The Legal and Policy Framework
+
+This section briefly outlines the laws and policies that have a bearing on communal land tenure in South
+Africa. As this section will show, the South African government has attempted to develop a number of laws
+and policies to regulate the tenure security of people living in communal areas. However, the government
+has, as yet, been unable to enact and implement a law that adequately captures the nuanced ways in which
+people experience and regulate relations of communal tenure in their everyday lives. The laws, policies and
+policy developments related to communal land tenure are discussed below.
+
+Constitution of the Republic of South Africa (1996)
+
+South Africa adopted the final version of the Constitution in 1996 after a long process of constitutional ne-
+gotiations with a range of political parties. The Constitution is the supreme law of South Africa,xl which
+means that all laws and policies must be consistent with it.
+
+Section 25(6) and (9) of the Constitution provide the impetus for according legal recognition to the informal
+and customary land rights of people living in the communal areas. Section 25(6) of the Constitution pro-
+vides a right to tenure security:
+
+     'A person or community whose tenure of land is legally insecure as a result of past racially discriminato-
+     ry laws or practices is entitled, to the extent provided by an Act of Parliament, either to tenure which is
+     legally secure or comparable redress.'
+
+and section 25(9) of the Constitution requires that government pass legislation to give effect to that right:
+
+     'Parliament must enact the legislation referred to in subsection (6).'
+
+These provisions seek to ensure that those whose tenure is legally insecure as a result of previously racially
+discriminatory laws or practices are granted constitutional protection and compel Parliament to protect,
+secure and strengthen the rights of those with insecure tenure through legislation. The state is therefore
+constitutionally obliged to protect and strengthen the tenure rights of people living in communal areas. If
+the state fails to comply with this imperative it is in direct conflict with the Constitution.
+
+In addition, section 7 of the Constitution mandates the state to ‘respect, protect, promote and fulfil’ the
+rights contained in the Bill of Rights, which includes the right to tenure security for those whose tenure is
+insecure as a result of previous racially discriminatory laws or conduct. Although these obligations are in-
+terconnected, the duties these obligations place on the state differ in practice.xli The obligation to ‘respect’
+places a duty on the state not to impair a person’s existing right to tenure security. In other words, the
+state must refrain from interfering directly or indirectly with the tenure security that people have realised
+for themselves. The state would fail to comply with this obligation if it were to pass legislation that weak-
+                                                                                                                7
+ens the rights that people have in relation to land. The obligation to ‘protect’ requires the state to take
+measures to prevent others, including individuals, groups and corporations, from interfering with the right
+to tenure security of those living in communal areas. It was in compliance with this duty that the state en-
+acted the Interim Protection of Informal Land Rights Act 31 of 1996 (IPILRA). However, this obligation does
+not end with the enactment of protective legislation, it also requires that the state ensure that such protec-
+tive legislation is effectively implemented in practice. The obligation to ‘promote’ and to ‘fulfil’ the right to
+tenure security requires that the state ‘adopt appropriate legislative, administrative, budgetary, judicial,
+promotional and other measures toward the full realisation of the right’ to tenure security.xlii
+
+Interim Protection of Informal Land Rights Act (IPILRA)
+
+In 1996, Parliament passed the Interim Protection of Informal Land Rights Act 31 of 1996 (IPILRA) in order
+to give effect to its constitutional obligations in terms of section 25(6) and (9). IPILRA was intended to act as
+a 'holding measure' or 'safety-net' to ensure temporary legal protection for people without formally recog-
+nised land rights while government developed more comprehensive legislation to protect and regulate
+communal tenure.xliii However, due to the absence of a more comprehensive law governing communal ten-
+ure an annual extension of IPILRA has been necessary since 1996.xliv
+
+Section 2(1) of IPILRA provides that an individual may not be deprived of his or her 'informal rights to land'
+unless he or she consents to such deprivation (or the government expropriates the land in question and
+pays adequate compensation). The Act defines informal rights of land broadly.xlv Informal rights in land re-
+fer to:
+
+• The right to use, occupy or access land that falls within one of the former homelands (or was previously
+  South African Development Trust land). Customary rights to land would fall within the scope of this defi-
+  nition, including customary rights to residential or arable land, and the use of and access to common re-
+  sources (for example grazing land).xlvi
+• The rights of beneficiaries of trust arrangements created in terms of a law passed by Parliament. This
+  would, for example, include people living on land registered in the name of the Ingonyama Trust or the
+  Lebowa Minerals Trust.xlvii
+• The rights of individuals who previously had valid Permission to Occupy (PTO) certificates.
+• The rights of beneficial occupiers from anywhere in the country (who have occupied land continuously
+  since the beginning of 1993).xlviii
+
+Where land is held on a communal basis, IPILRA provides that an individual may be deprived of their infor-
+mal rights in land in terms of the 'custom and usage' of the community provided that certain requirements
+are met.xlix First, the community that is disposing of the land in which an individual retains an informal right
+must pay the affected individual appropriate compensation.l Second, section 2(4) provides that a decision
+to dispose of rights in land may only be taken by the 'majority of holders of such right' that are present or
+represented at a meeting convened to discuss the deprivation.li IPILRA further sets out various due process
+protections in relation to any meeting convened to consider the deprivation of informal rights in land, in-
+cluding that sufficient notice be given to the affected individuals and that such individuals be granted rea-
+sonable opportunities to participate in such meetings.lii
+
+
+
+                                                                                                               8
+The protections laid out in IPILRA require individuals or corporations that seek to acquire or use land in
+communal areas to negotiate with those individuals or families who hold informal rights over communal
+land directly. However, in practice IPILRA is 'routinely ignored and undermined'.liii For example, Claassens
+refers to opaque mining deals in the North West, Limpopo and KwaZulu-Natal where individuals and fami-
+lies were deprived of their informal rights to land. The mining companies involved in these deals failed to
+obtain the consent of informal rights holders in accordance with the requirements of the Act.liv
+
+Despite the important protections provided in IPILRA, the Act has various limitations. The Act provides min-
+imal protection against the deprivation of informal rights. It provides no legal certainty about the nature of
+the rights it seeks to protect and seems to have been used to secure rights in only 'a few cases'.lv Perhaps
+most significantly, awareness of IPILRA is extremely low among government officials and those that it is
+intended to protect.
+
+Scholars have suggested a variety of interventions that would strengthen IPILRA, including the need to
+make IPILRA permanent.lvi The need to strengthen the legal and practical protection of informal rights by
+issuing Regulations in terms of IPILRA,lvii raising awareness of IPILRA and strengthening the enforcement
+mechanisms provided for in the Act.lviii
+
+KwaZulu Ingonyama Trust Act (1994)
+
+The Ingonyama Trust was established in 1994 to manage land owned by the former government of the
+KwaZulu homeland immediately prior to the Act’s commencement.lix The Trust is currently responsible for
+managing approximately 2.8 million hectares of land in KwaZulu-Natal. The Trust was established by the
+KwaZulu Ingonyama Trust Act KZ4 of 1994 (the Ingonyama Trust Act), which was enacted by the KwaZulu
+Legislative Assembly and came into effect on 24 April 1994 - days prior to South Africa’s first democracy
+election. The Trust land vests in the Ingonyama, the Zulu monarch King Zwelithini, as trustee on behalf of
+members of communities defined in the Act. The Act was significantly amended in 1997 to create the Ingo-
+nyama Trust Board to administer the land in accordance with the Act.lx
+
+While the Trust has wide-ranging powers to manage the land registered in its name, there are various pro-
+visions in the Act that provide protection for the land rights of the beneficiaries of the Trust.lxi Section 2(2)
+of the Act states that the land that previously formed part of the KwaZulu homeland would be held in trust
+by the Zulu king for the 'benefit, material welfare and social well-being of the members of the tribes and
+communities' living on the land. Section 2(5) of the Act provides that the Ingonyama 'shall not encumber,
+pledge, lease, alienate of otherwise dispose of any of the said land or any interest or real right in the land,
+unless he has obtained the prior written consent of the traditional authority or community authority con-
+cerned'. Section 2(8) of the Act further states that 'the Ingonyama shall not infringe upon any existing rights
+or interests’. The Act therefore grants legal protection for the occupation, use and access rights that people
+have over land that is administered by the Trust.
+
+The Trust also acknowledges that people have strong rights over the land it administers. For instance, in the
+Trust’s 2012/2013 Annual Report, the Trust’s chairperson Jerome Ngwenya said that the people living on
+Trust land ‘know that their rights are not adequately described by leasehold as theirs is more than this’.lxii In
+the Trust’s 2011/2012 Annual Report, Ngwenya goes even further, arguing that ‘while in a legal sense [the
+people occupying the land administered by the Trust] are the beneficial occupiers, in reality [they] are the
+                                                                                                               9
+true owners’.lxiii The Trust has also recognised that the people living on the Trust land have more rights than
+simply the right to occupy or live on the land.lxiv It therefore seems that the Trust does recognise that the
+people living on the land have strong rights to use the land in various ways, for example using communal
+land for grazing.
+
+However, despite these statements and the protective provisions contained in the Ingonyama Trust Act,
+the Trust has been subject to a great deal of controversy for failing to protect the land rights of people liv-
+ing on the land it administers. The Trust has come under fire for its ongoing conclusion of long term surface
+lease agreements with mining companies, in terms of which it signs lease agreements with mining compa-
+nies to enable mining activities on land which is often occupied and used by local communities.lxv These
+agreements are sometimes concluded without proper community consultation and lead to the deprivation
+of use rights and access to land.lxvi The Trust has maintained that it has acted within the law. According to
+section 2(5) of the Ingonyama Trust Act the Trust is obliged to obtain the written consent of traditional
+councils before authorising mining or development activities. The Trust has argued that the written consent
+of the traditional council is all that is required to conclude a lease over Trust land.lxvii According to this in-
+terpretation, decision-making power is vested solely in traditional councils. However, this approach un-
+dermines the customary consultation requirements that often exist in communal tenure systems. For in-
+stance, a study of customary land law in Msinga conducted by the Institute for Poverty, Land and Agrarian
+Studies (PLAAS), found that when an outsider seeks access to land it is insufficient for them to merely re-
+ceive the approval of a traditional leader.lxviii The demarcation of the land must include the consultation of
+the potential neighbours of the outsider applying for land and the ibandla (a council of local men who are
+‘old enough to be wise’). Communal land tenure systems therefore clearly require broader consultation
+before land rights can be granted to outsiders. In spite of this, the Trust has continued to issue lease
+agreements to mining companies, threatening the land rights and livelihood strategies of rural communi-
+ties.
+
+The Parliamentary Portfolio Committee on Rural Development and Land Reform, which is mandated to
+hold the Trust to account, has also criticised the Trust for its lack of transparency. In particular, parliamen-
+tarians have raised serious concerns about the revenue received by the Trust and the apparent failure on
+the part of the Trust to reroute its revenue back to the beneficiaries of the Trust.lxix
+
+Land Rights Bill (1998)
+
+The first attempt by the post-apartheid government to enact legislation regulating communal tenure was
+the Land Rights Bill of 1998. However, in June 1999 the incoming Minister of Land Affairs Thoko Didiza de-
+cided that the Bill was too complex and involved too much state support for rights-holders and local institu-
+tions, and decided to begin the drafting process anew.lxx
+
+The Bill sought to upgrade customary land rights by giving them statutory recognition without altering their
+essential character.lxxi The Bill would have maintained the Minister of Land Affairs as the nominal owner of
+the land in communal areas, but would have given 'protected land rights' to individuals or groups. The con-
+trol and management of these protected land rights would have been in the power of the rights holders.lxxii
+The Bill provided for the possibility that protected rights could be registered, although the rights would ex-
+ist even without being registered.lxxiii
+
+
+                                                                                                              10
+Communal Land Rights Act (2004)
+
+In 2004, Parliament passed the controversial Communal Land Rights Act 11 of 2004 (CLRA). The passage of
+the Act through Parliament was highly contested, with a number of civil society groups raising questions
+about the Act’s constitutionality in parliamentary portfolio committee hearings on the Act.lxxiv The Act was,
+however, never implemented due to the fact that it was legally challenged by four rural communities on
+various grounds of constitutional invalidity. The primary concern of many rural communities was that the
+CLRA would have undermined their tenure security because it granted sweeping powers to traditional
+leaders and councils (who would act as ‘land administration committees’), including control over occupa-
+tion, use and management of communal land.lxxv The Act was challenged in court on a number of bases. In
+October 2008, the North Gauteng High Court declared fifteen fundamental provisions of the CLRA invalid
+and unconstitutional, including provisions governing the transfer and registration of communal land, the
+determination of rights by the Minister and the establishment and composition of land administration
+committees.lxxvi These provisions were therefore struck down on substantive grounds. However, when the
+decision was referred to the Constitutional Court for confirmation, the Court struck down the CLRA in its
+entirety on the basis that the incorrect public consultation process had been followed in its journey
+through Parliament.lxxvii Although the Constitutional Court declined to deal with the substantive issues
+raised by the applicant communities, the critical outcry against the CLRA indicated that people in commu-
+nal areas were opposed to traditional leaders having absolute power over the land that they occupied and
+used.lxxviii
+
+The CLRA provided for the 'transfer of title' over communal land to communities subject to various condi-
+tions.lxxix In order to qualify for title to be transferred to a community, such community would be required
+to draw up and register a set of tenure rules in order to gain recognition as a juristic person capable of
+owning land. The community would need to survey and register the 'community' boundaries; and subject
+all the residents of the community to a rights enquiry to investigate the nature and extent of the existing
+rights and interests in land.lxxx
+
+The Act created 'land administration committees' to 'enforce rules and exert ownership powers on behalf
+of the “community”'.lxxxi Section 21(1) of the Act provided that traditional councils that are recognised in
+terms of the Traditional Leadership and Governance Framework Act 41 of 2003 'may' act as land admin-
+istration committees. There was considerable uncertainty about whether communities could choose which
+entity acted as the land administration committee. The Department of Land Affairs claimed that communi-
+ties were able to choose between their traditional council or some other entity, while the Department of
+Provincial and Local Government claimed that, where traditional councils exist, they would automatically
+become the land administration committees.lxxxii This issue was compounded by the fact that the CLRA
+failed to provide a clear set of procedures for how a community should make such a choice.
+
+The Act therefore granted considerable powers over land to traditional leaders and councils. Not only did
+this significantly undermine the tenure security of people living in communal areas, whose relationships
+with their traditional leaders ranged from 'good, to distant, to hostile', but the Act also 'strengthened tradi-
+tional leaders and councils politically at a time when the relationship between them and elected local gov-
+                                                                                                            11
+ernment officials remain[ed] unresolved and often tense'.lxxxiii The Act would have granted traditional lead-
+ers and councils more extensive powers over land than provided for in customary law and would have un-
+dermined the local indigenous accountability structures, making it difficult for ordinary people to hold their
+traditional leaders to account.
+
+Some scholars noted that the 'wide discretionary powers vested in the Minister as the sole determinant of
+how the conversion of land rights will be undertaken' based on the land rights inequity also raised constitu-
+tional concerns.lxxxiv
+
+Communal Land Tenure Policy (2014)
+
+In September 2014, the Department of Rural Development and Land Reform published their Communal
+Land Tenure Policy (CLTP). The policy, like the CLRA, proposes to transfer the 'outer boundaries' of 'tribal'
+land in communal areas to 'traditional councils' (the new name for the tribal authorities created in terms of
+the Bantu Authorities Act 68 of 1951). In theory, the policy - referred to as the wagon wheel - also provides
+for Communal Property Associations (CPAs) or trusts to own land titles with input from members (as pre-
+scribed in the Communal Property Associations Act 28 of 1996 and trust law). However, the CLTP and the
+Department’s Draft Policy Paper on CPAs indicate that no new CPAs will be established in areas where tra-
+ditional councils exist. As traditional councils exist wall-to-wall in the former homelands, government’s new
+policy will effectively put an end to the institution of CPAs.
+
+The policy provides for communal land to be transferred into the name of traditional councils. This would
+mean that traditional councils would be granted full ownership of land. The individuals or families who oc-
+cupy and use communal land would be granted 'institutional use rights'. Given that ownership would vest
+in traditional councils, the institutional use rights granted to individuals and families could be trumped by
+the rights held by traditional councils.
+
+Moreover, the CLTP provides for traditional councils to manage and control the development of any com-
+munal property areas including areas designated of grazing, forests and rivers. Traditional councils would
+also be in charge of investment projects related to common resources.
+
+The CLTP was criticised on a number of grounds by civil society. One of the primary concerns was that the
+schema established by the policy made no provision for individuals and households with institutional use
+rights to hold traditional councils accountable for their decisions.
+
+Communal Land Bill (2016)
+
+The new Draft Communal Land Bill of 2016 (CLB) is the most recent attempt by government to create legis-
+lation that regulates communal land. On 9 May 2017, the Minister of Rural Development and Land Reform
+Gugile Nkwinti informed the Parliamentary Portfolio Committee on Rural Development and Land Reform
+that the Bill would be introduced in Parliament in June 2017. Previous versions of the CLB have been made
+available to the public. These versions are analysed briefly below.
+
+Although the Bill is founded on the regulatory scheme envisioned in the CLTP, it does differ from the policy
+in a number of respects. The main difference is found in clause 28(1), which states that a community can,
+                                                                                                          12
+by a resolution supported by at least 60% of the households in the community, choose to have its commu-
+nal land managed and controlled by one of three institutions: a traditional council; a CPA; or the Ingonyama
+Trust. In reality the CLB offers communities an artificial choice because the government’s Draft Policy Paper
+on CPAs states that no new CPAs will be established in areas where traditional councils already exist – that
+is, most of the former homeland areas. If this policy is not amended, communities will not in reality have
+the right to choose a CPA as the institution they prefer to acquire, hold and manage their land. It is im-
+portant to note that the power to register CPAs lies only with the Department of Rural Development and
+Land Reform (the Department) – which has strongly opposed and undermined CPAs in practice. This means
+that within the former homelands traditional councils and the Ingonyama Trust are likely to remain the on-
+ly options available to communities. It should be noted that in clause 28 the Bill lays out a very vague
+mechanism for exercising such choice, stating only that the procedure will be prescribed by an organisation
+determined by the Minister. The CLB also provides that the Minister may not transfer communal land into
+the name of a community if there is a ‘dispute’ about the land (clause 10 of the CLB). It is not entirely clear
+what would qualify as a ‘dispute’ and this uncertainty could mean that transfers could be held up for many
+years. There are numerous examples of disputes over tribal boundaries and CPAs that have been used as
+the reason why land transfers to CPAs have been delayed for over 10 years in some cases.
+
+The CLB provides that decision-making about land requires a resolution supported by 60% of the house-
+holds in a specific ‘community’. Clause 14(a) provides that the institution chosen by the community to
+manage their land cannot sell, lease or otherwise alienate their land unless this is supported by a resolution
+supported by 60% of households in the community. It is unclear how the Department decided that 60% of
+the households in the community would be sufficient to make decisions about the alienation of land. There
+are a number of problems with these requirements. First, these clauses do not differentiate between dif-
+ferent types of right holders. For example, some people will have the right to access the land while others
+will have the right to occupy the land (the right to live on the land). The interests of these rights holder are
+clearly different and should be treated differently in the decision-making process. Second, these clauses fall
+short of the protection provided in the IPILRA. As noted above, section 2(1) of IPILRA says that no person
+may be deprived of their occupation, use or access rights to land without their consent (and appropriate
+compensation). Only in relation to communal resources (like grazing land and forests) does IPILRA provide
+that a majority of the rights holders can decide to agree to a deprivation. As the CLB does not make this
+distinction, it does not conform to IPILRA.
+
+Clauses 6 and 7 of the CLB give the Minister of Rural Development and Land Reform the power to confirm,
+convert or cancel existing land rights after having a land enquiry conducted to determine the land rights on
+a particular piece of land. If the Minister decides to cancel people’s land rights, the Minister can either find
+that the land rights should be incorporated into the land held by the institution the community chose to
+manage the land (clause 7(a)) or that the holder of the land right can be granted another type of right that
+the Minister can decide on (clause 7(b)). From the way in which these clauses are written and the CLTP, it is
+clear that these provisions will leave room for the Minister to grant people 'institutional use rights' to small
+areas like their household plots. These institutional use rights will however be subject to, and therefore
+trumped by, the outright ownership simultaneously vested in the community and traditional councils.
+
+Traditional Leadership and Governance Framework Act (2003)
+
+
+
+                                                                                                            13
+The Traditional Leadership and Governance Framework Act 41 of 2003 (TLGFA) governs the structures of
+traditional governance. It is the overarching piece of legislation within whose framework laws like the CLRA
+and the Traditional Courts Bill (TCB) would operate. Although not directly related to communal land tenure,
+the Act has had a profound impact on the power relations in communal areas. It therefore remains im-
+portant for the purposes of this report.
+
+While an in-depth review of this law is not provided here, some of the key provisions and criticisms are
+highlighted below:
+
+       Section 20 of the TLGFA vests power in traditional leaders or councils - or creates the impression
+        that it vests power in traditional leaders or councils. It provides for powers to be given to tradition-
+        al authorities through the passage of legislation. Section 20 of the Act lists a range of areas in which
+        traditional leaders or councils can be given a role, the list includes: land administration, the regis-
+        tration of births and deaths and the administration of justice.
+       Through the deeming provisions in section 28, the TLGFA entrenches the boundaries of the tribal
+        authorities created in terms of the Bantu Authorities Act 68 of 1951. In this section, the Act deems
+        the tribal authorities of old to be traditional councils of the democratic dispensation. Thus the
+        boundaries of traditional councils mirror those of the tribal authorities created by the 1951 Act.
+       Section 3 of the TLGFA lays out the composition requirements for traditional councils. The Act re-
+        quires that 60% of the council’s membership be appointed by the traditional leader and that the
+        remaining 40% be elected by the community. Council membership is required to be one-third
+        women. The timeframe for meeting these requirements was initially one year, but this was extend-
+        ed numbers times through amendments to the Act. Despite ten years having passed since the Act,
+        many councils across the country have not had the requisite elections, calling into question their
+        legitimacy. These composition requirements were intended to counter the fact that the tribal au-
+        thority boundaries were adopted wholesale into the Framework Act. The failure of many councils
+        to meet these composition requirements hangs like a cloud over these structures. The Depart-
+        ment’s policies and Bills that seek to vest ownership in these traditional councils do not take into
+        account the questions surrounding the legitimacy of these institutions.
+       The TLGFA tries to foreclose the ability of groups to constitute themselves independently of tradi-
+        tional authorities.
+       Even if the TLGFA does not give substantial rights to traditional leaders or does not extend their
+        rights, the government has effectively created the impression that it has enhanced their functions
+        and powers - especially in relation to land. The failure on the part of government to unequivocally
+        spell out that traditional leaders do not have these powers, as no law has been passed giving them
+        such powers, has created a situation of legal uncertainty which allows traditional leaders to act
+        with impunity.
+       Others have argued that the state is pandering to the traditional leadership lobby because they be-
+        lieve that the traditional leadership lobby holds considerable power with the rural voters when in
+        reality it is not clear that they do.lxxxv
+       It is dangerous to court this lobby when it has been clear that traditional leaders want to be
+        acknowledged as the exclusive owners and controllers of land in the former homelands.lxxxvi
+
+The Traditional and Khoisan Leadership Bill B23 of 2015 (TKLB) introduced in September 2015 will repeal
+the Traditional Leadership and Governance Framework when it is passed. The TKLB presents a number of
+challenges for rural communities in relation to tenure security the main points of which are dealt with be-
+low:
+                                                                                                            14
+        The Traditional and Khoisan Leadership Bill re-entrenches the same problematic and deeply con-
+         tested boundaries carried into South Africa’s democracy by the TLGFA. In addition to not depart-
+         ing from these boundaries the Bill would also seek to address the questions around the legitimacy
+         of traditional councils by essentially giving councils another opportunity to comply with the com-
+         position requirements. This means that should the Department continue to develop policies and
+         Bills that envisage an ownership role for traditional councils, community land would still be held
+         (or owned) by structures based on contested boundaries and imposed identities.
+        Clause 24 of the TKLB provides traditional councils with the authority to: ‘enter into agreements
+         or partnerships with municipalities, government departments and, most importantly, any other
+         person, body or institution’ (emphasis added). For communities living on land on which companies
+         or the state seek to mine this provision would have serious implications for people’s rights under
+         IPILRA. This is because this clause in the TKLB does not require any consultation with community
+         members before such agreement or partnership is entered into thus undermining a communities’
+         ability to consent to the deprivation, as is required by IPILRA. This means that traditional councils
+         could enter into agreements about mining which would impact on people’s land rights without
+         consultation, a clear abrogation of people’s rights under IPILRA.lxxxvii
+        The TKLB makes an important distinction between Khoi-San leadership structures and other ‘tradi-
+         tional’ leadership structures. For ‘traditional’ leadership structures in communal areas, the TKLB
+         puts in place a hierarchy of traditional communities that occupy a geographical area over which
+         traditional councils have jurisdiction and that are headed by traditional leaders. In other words,
+         leaders and councils in the former Bantustans will have authority that is connected to a particular
+         piece of land and whoever lives on it. On the other hand, Khoi-San leaders and councils do not
+         have authority that is connected to a particular piece of land – instead, their jurisdiction extends
+         only over people who are considered part of the Khoi-San community and voluntarily affiliate
+         through a rigid procedure of affiliation. Some scholars have argued that a system based on volun-
+         tary affiliation could be put in place for traditional communities in communal areas. This would do
+         away with the imposed apartheid and colonial tribal boundaries that currently form the basis for
+         traditional governance under the TLGFA and TKLB. However, the TKLB has continued to differenti-
+         ate between these groups and compels ‘traditional’ communities to ascribe to a system of tradi-
+         tional leadership, whether they wish to or not.
+
+In 2017, the Department of Cooperative Governance and Traditional Affairs (COGTA) published the Tradi-
+tional Leadership and Governance Framework Amendment Bill B8 of 2017 (TLGFA Amendment Bill) for
+public comment. The short Bill deals primarily with the status of traditional councils by extending the time-
+lines related to their compliance with the composition requirements mentioned above. Given that the
+timelines for compliance have already passed, it is unclear how the TLGFA Amendment Bill can rectify the
+failure to comply through retrospectively extending the timelines for compliance. The TLFGA Amendment
+Bill therefore raises serious questions about the legal status of traditional councils and the transactions en-
+tered into by traditional councils that are not compliant.
+
+The TLGFA, the TLGFA Amendment Bill and the TKLB do little to counter the practices of some traditional
+leaders on the ground. Neither pieces of legislation advocate for a form of customary law that places peo-
+ple at its centre. In relation to communal tenure and land rights the endorsement of a top-down, central-
+ised customary law has the potential to strip communities, families and land buying groups of land rights
+they have held for generations.
+
+                                                                                                           15
+Spatial Planning and Land Use Management Act (2013) and its Regulations
+
+The Spatial Planning and Land Use Management Act (SPLUMA) was passed by Parliament in 2013 to create
+a new framework to govern planning permissions and approvals, set parameters for new planning devel-
+opments and determine lawful land uses. The law was necessary due to the repeal of apartheid era plan-
+ning laws that had left our planning laws fragmented, complicated and inconsistent. SPLUMA therefore
+sought to develop a 'uniform, effective and comprehensive system' of planning that 'promotes social and
+economic inclusion'. The Act also empowered the Department of Rural Development and Land Reform
+(DRDLR) to pass regulations. These Regulations were passed in 2015 and came into effect on 1 July 2015.
+Although many have noted SPLUMA’s progressive elements, the coming into effect of the law has been
+subject to a lot of controversy.lxxxviii This is largely as a result of the powers that SPLUMA and its Regulations
+grant to traditional councils. When the Minister of Rural Development and Land Reform briefed traditional
+leaders on land-related legislation in July 2015, the traditional leadership lobby resisted the Act and called
+for government to suspend its implementation on the basis that they were not consulted properly during
+the legislative process.
+
+The powers of traditional councils in relation to planning and land use are governed by regulation 19(1) and
+(2) of the SPLUMA Regulations, which read:
+
+   '19 (1) A traditional council may conclude a service level agreement with the municipality in whose mu-
+   nicipal area that traditional council is located, subject to the provisions of relevant national or provincial
+   legislation, in terms of which the traditional council may perform such functions as agreed to in the ser-
+   vice level agreement, provided that the traditional council may not make a land development or land
+   use decision.
+      (2) If a traditional council does not conclude a service level agreement with the municipality … that
+   traditional council is responsible for providing proof of allocation of land in terms of the customary law
+   applicable in the traditional area to the applicant of a land development and land use application in or-
+   der for the applicant to submit it in accordance with the provisions of the Regulations.'
+
+Regulation 19(2) empowers traditional councils to provide proof of a customary land allocation to anyone
+living in that traditional area that makes an application for development and land use. This would mean
+that traditional councils would be able to define the content of customary law (by determining what quali-
+fies as 'customary' for purposes of proof). This creates the potential for local land allocation to be taken
+over by traditional councils. In addition, to assume that traditional councils are the only structures entitled
+to decide what the content of customary land rights are will undermine the customary laws and practices
+of many rural communities. For many of these communities land allocation and management takes place at
+multiple different levels, including family, household, clan, village and sub-community. Local customary law
+is therefore often characterised as a layered system rather than a system that centralises power in tradi-
+tional councils. To focus land planning and land use in traditional councils therefore does not hold true to
+many rural people living in the former homelands.
+
+There are also constitutional questions about whether traditional councils can legally be granted land plan-
+ning and land use powers in terms of service level agreements with municipalities. This is because the Con-
+stitution does not provide for traditional leadership or traditional councils to exercise governmental func-
+                                                                                                              16
+tions or powers. This was confirmed in the Certification of the Constitution of the Republic of South Africa,
+1996 case where the Constitutional Court made it clear that if traditional leaders were supposed to have
+governmental powers and functions the 1993 Interim Constitution would have specifically said so. Instead,
+it was only stated that the ‘institution, status and role’ of traditional leaders should be recognised.lxxxix This
+is also how traditional leaders are recognised in section 211 of the Constitution at present, which makes
+their recognition subject to customary law. Against this background, the constitutionality of substituting
+elected local government officials with largely unelected (and sometimes apartheid-imposed) traditional
+councils to perform land use and management functions of a municipality is concerning.
+
+The Regulations also fail to clarify how traditional councils will be held accountable for the land use man-
+agement powers and functions that they could perform in respect of service level agreements, or for the
+responsibility of providing proof of customary land allocations (where there is no service level agreement).
+The land development and use application of any person living in a traditional area is still dependent on the
+actions of a traditional council. This is because the Regulations require that the council first provides proof
+of a land allocation, or assume that the traditional council will be in control of the initial allocation process,
+in order for a person to submit their application. Effective mechanisms for holding a traditional council ac-
+countable to ordinary people and local government are therefore missing in the Regulations.
+
+Communal Property Associations Act (1996)
+
+Beneficiaries of land reform, restitution or redistribution programmes who want to acquire, hold and man-
+age land as a group are required to establish legal entities through which to do so. These new legal entities
+needed to accommodate a range of land holding practices that existed on the ground, many of which were
+group centred. In an attempt to develop a legal entity that is suited to this objective, lawmakers created
+Communal Property Associations (CPAs). The Communal Property Associations Act 28 of 1996 (CPA Act)
+provides for the establishment of CPAs. The Act provides details on the registration of CPAs, how CPAs are
+to be run and provides for government oversight to enforce the rights of ordinary members who hold rights
+as part of the group.
+
+An important feature of CPAs is that these entities operate according to democratic principles, including
+fair and inclusive decision-making processes. It is for this reason that the Constitutional Court described the
+CPA Act as a ‘visionary piece of legislation’ that was aimed at ‘transform[ing] customary law and bring[ing]
+it in line with the Constitution’.xc In terms of the Act, the CPA members collectively develop a written con-
+stitution based on principles of democracy, inclusion, non-discrimination and equality.xci Members are also
+required to democratically elect a committee every couple of years. Although the committee manages the
+daily affairs of the CPA, it remains accountable to the ordinary members. These democratic features make
+CPAs an important and necessary alternative that should be available to land reform beneficiaries.
+
+Over the years a number of problems have arisen in relation to CPAs. CPAs have been crippled by financial
+and administrative mismanagement.xcii As a result, CPAs have not always been able to comply with the re-
+quirements laid out in the CPA Act including holding annual general meetings and the election of new
+committees. This is, in part, due to the fact that CPAs remain severely under resourced when compared to
+other legal entities.xciii In some CPAs, the committees or powerful CPA members have abused their power
+and neglected the interest of ordinary CPA members. The rights of vulnerable groups are particularly at
+risk, including the rights of women. The establishment, functioning and legitimacy of CPAs has also been
+                                                                                                              17
+resisted by traditional authorities, as traditional leaders and councils seem to believe that CPAs challenge
+their authority in communal areas.xciv However, these problems are primarily attributed to the lack of insti-
+tutional support and effective oversight from government.xcv In fact, the Department of Rural Development
+and Land Reform has acknowledged that it has not provided enough support to CPAs promising that it
+would direct more resources, capacity and training towards CPAs and establish an institutional home for
+CPAs – the CPA office.xcvi
+
+These problems have led to government to becoming disillusioned with CPAs, leading to a withdrawal of
+support for these institutions as they currently exist. This change in approach is reflected in policy. The
+DRDLR’s CLTP states that ‘registration of new CPAs on traditional communal tenure areas will be carefully
+considered and principally discouraged’.xcvii These policy moves against CPAs are deeply concerning in light
+of the Constitutional Court’s recent unanimous judgment in Bakgatla-Ba-Kgafela Communal Property Asso-
+ciation v Bakgatla-Ba-Kgafela Tribal Authority. In this judgment the Court expressly affirmed and protected
+the right of land restitution and redistribution beneficiaries to choose which legal entity they want to hold
+and manage land held on a communal basis. In fact, the Court recognised the importance of CPAs – in par-
+ticular, their features as democratic land-holding institutions – as a critical option that should remain avail-
+able to land restitution and redistribution beneficiaries.xcviii
+
+Earlier in 2016, the Communal Property Associations Amendment Bill B12 of 2017 (CPA Amendment Bill)
+was published for public comment. The CPA Amendment Bill has been criticised for failing to provide effec-
+tive mechanisms to address the existing challenges facing CPAs. In particular, the Bill subverts the right of
+land restitution or redistribution beneficiaries to choose the legal entity to hold, manage, control and ad-
+minister land held on a common basis.xcix Some have also argued that, in an apparent attempt to protect
+CPA members against abuses of power by powerful members, the Bill goes too far. The Bill, for example,
+redefines CPAs as institutions that manage and administer land, rather than own land and grants the Minis-
+ter of Rural Development and Land Reform extraordinary discretionary power in respect of decisions about
+the alienation and use of land that have far-reaching implications for the autonomy of CPA members to
+manage their land as they see fit.c
+
+
+4.    Key Debates
+
+This section briefly examines a number of major contemporary debates about communal land tenure.
+
+Power Dynamics in Communal Areas
+
+Given the particular history of the former homelands and the fundamentally political nature of their con-
+struction as a means of advancing racial segregation, those drafting legislation aimed at undoing this divi-
+sive political project need to ensure that the laws they craft do not inadvertently re-entrench the very thing
+that they seek to correct. Laws do not operate in a vacuum, rather their efficacy and traction in people’s
+lives is influenced by the dynamics of power on the ground in local communities. The deeply political na-
+ture of the land question presents lawmakers with the difficult task of crafting legal solutions to deeply po-
+litical challenges. For these legal interventions to be viewed as legitimate they should be crafted with a sen-
+sitivity for the realities that people face on the ground.
+
+
+
+                                                                                                            18
+In what can be labelled a deep irony some of South Africa’s richest mineral reserves lie beneath the soil of
+the former homelands. The very areas where people hold the most insecure land rights are the areas of
+incredible mineral wealth. The impact of this reality is that it heightens the stakes for both these insecure
+communities and the political, business and traditional elites who seek to benefit from this mineral wealth.
+Increasingly community members who speak up in order to protect their land rights do so at great risk to
+themselves. Even in instances where there are no minerals at stake community activists and ordinary rural
+citizens risk damage to their property when they challenge these elite groups. In spite of the protections
+and promises in the law and in the Constitution communities find themselves coming up against increasing-
+ly violent backlash for demanding compliance with the law.ci
+
+Emboldened by interpretations of the law that stretch and bolster their powers some of the traditional
+elites conduct themselves in ways that are not endorsed by the law. For example the TLGFA lists land ad-
+ministration as one of the areas in which traditional authorities can be given a role through legislation. At
+present there is no law giving them this role, since the striking down of the CLRA. This has not stopped
+some traditional leaders from conducting themselves as if they have such powers and more. Communities
+in the former homelands find that their traditional leaders are acting as if they are empowered to adminis-
+ter communal land. In other more extreme instances traditional leaders and traditional councils present
+themselves as the sole representatives of the community, empowered to take decisions about the commu-
+nities land with little to no consultation. While this is not the experience of all communities it is increasingly
+the experience of communities on land rich in minerals. These leaders conduct themselves in this manner
+confident that the might of law is behind them. They rely on being able to assert that they are the custodi-
+ans of customary law and thus determine its content. Leaving their communities struggling to hold them to
+account and wondering what has become of the intrinsically democratic principle of ‘inkosi yinkosi ngaban-
+tu’ (a chief is a chief through the people).cii
+
+Some traditional leaders defend their actions by claiming that they are empowered through customary law
+to wield these powers and make such decisions on behalf of their communities, but communities assert
+strongly that even under customary law traditional leaders never had such powers. Poor rural communities
+are trying to assert and hold onto their land rights in a context where traditional leaders are wielding pow-
+ers of land allocation that far exceed the types of powers held under customary law and in some communi-
+ties the exercise of these powers amounts to illegal land sales.ciii
+
+In other instances community members must oppose development on their land that has been sanctioned
+by traditional authorities or local government authorities. Opposition to such development taking place on
+land to which communities have customary rights, is in some cases classified as opposition to development
+in its entirety. Characterisations of this kind set up binaries: one is either in favour of development or
+against it without engaging with what exactly is meant by development. It forces community members to
+go up against traditional or government authorities as an ‘enemy’ of development projects and the sole
+reason why communities will lose out on the benefits that these projects promise. This places strain on re-
+lationships and increases the risk for those seeking to protect their land rights. Decisions regarding devel-
+opment and mining deals are made with no consultation and little regard for communities rights under
+IPILRA. Communities wake up to find themselves living amongst mining activities or inside a wildlife reserve
+with no strong mechanism to protect their land rights. This non-consultative approach to community de-
+velopment re-enforces the idea that all development is good for communities and they should accept it
+without question.civ
+
+
+
+                                                                                                              19
+In some communities the power dynamics are influenced by traditional leaders requiring communities to
+pay tribal levies. These are amounts charged by traditional authorities for a variety of ‘expenses’ to which
+they expect community members to contribute. Some traditional leaders rely on a particular reading of
+laws like the TLGFA and provincial framework laws (specifically the Limpopo Framework Act) to require that
+communities pay these levy amounts. The consequences of not paying are that community members will
+be denied access to basic entitlements including proof of address (necessary for obtaining an identity doc-
+ument or opening a bank account) or will be prevented from burying family members. This distinction in
+treatment between South Africans who live in the former homelands in comparison with those who live in
+the urban areas, ultimately undermines the idea of one equal citizenship.
+
+These dynamics enhance the vulnerable state of communities, armed only with the little known and scarce-
+ly used IPILRA they must assert and defend their land rights against elites who enjoy greater access to re-
+sources and, in some cases, the backing of the government. Any law aimed at strengthening the security of
+tenure of those living in communal areas will need to navigate and mitigate these power dynamics. Current
+legislative proposals would have the effect of exacerbating these dynamics. For example, the proposed
+Traditional and Khoisan Leadership Bill would empower traditional and other elites to enter into agree-
+ments on behalf of communities. The Bill does not expressly require consultation with the community, it
+only requires that the agreement be ‘beneficial’ for the community. Given that traditional elites are already
+conducting themselves in this manner and making unilateral determinations about what is beneficial for
+the community this Bill is unlikely to do anything to curb the conduct of some traditional authorities.cv
+While the dynamics of power do differ across communities the experiences of those communities where
+the dynamics are skewed are worth noting. As they provide lawmakers with the type of potential worst
+case scenario they are trying to rectify.
+
+
+Land Grabs in Communal Areas
+
+The lack of secure tenure in communal areas renders many people living in these areas vulnerable to po-
+tential exploitation in the form of land grabs. Land grabs (or land rushes) refer to the large-scale acquisition
+of land in rural areas by transnational and national companies, governments and land speculators.cvi These
+acquisitions can take the form of sales or long-term leases.cvii Although land grabs are aimed at acquiring
+unused or vacant land, land that is occupied and used by rural or indigenous communities is often acquired
+in this way as well. Over the last ten years land grabs in the former homelands have increased dramatically
+with the discovery of rich mineral deposits in these areas, including platinum, chrome and titanium in the
+North West and Limpopo and coal in Mpumalanga and KwaZulu-Natal.cviii
+
+Land grabs have a potentially devastating impact on the tenure security and livelihood strategies of hun-
+dreds of thousands of land-dependent households living in communal areas. People living on communal
+land are at risk of being dispossessed of their rights to occupy, use and access land. Processes to negotiate
+access to land with community groups are also unsatisfactory as a result of heavily unequal power rela-
+tions; with large transnational corporations and traditional elites, on the one hand, squaring off against
+small rural communities living in far-flung areas, on the other. This inequality is exacerbated by the precari-
+ousness of people living in communal areas, due to high levels of poverty and lack of tenure security.cix
+Some scholars have argued that the vulnerability of people living in the former homelands severely con-
+strains their ability to freely make choices about land and hampers their ability to resist attempts on the
+part of companies or land speculators to acquire their land.cx For instance, people may feel pressured into
+                                                                                                            20
+making decisions that would provide them with short term security at the expense of their long term needs
+by accepting inadequate compensation for their land rights or being persuaded by the promise of job op-
+portunities.cxi As a result, some authors have argued that those deprived of their rights to land are often
+deprived involuntarily or are, at least, 'ill-informed or even misled about the benefits of surrendering' their
+rights.cxii Moreover, the effects of these deprivations are often permanent and irrevocable given the legally
+binding manner in which these deals are concluded.cxiii
+
+The nature of the compensation paid to individuals and families for their rights to land during negotiations
+is often inadequate. In many instances those affected are compensated only for the market value of the
+dwellings they constructed on communal land, the losses they are likely to experience as a result of the loss
+of their crops for one year and marginal reparatory compensation when ancestral graves need to be relo-
+cated. These amounts are, at most, sufficient to compensate individuals or households for a couple of
+years. In addition to this type of compensation, corporations claim to assist rural communities by providing
+infrastructure including, for example, educational activities and clinics. However, when one considers the
+far-reaching impact that the loss of land rights has on the ongoing security of these families and their de-
+pendence on inter-generational subsistence livelihood strategies, determining compensation in this man-
+ner is clearly unjust. Any additional infrastructure promised by corporations has minor impacts on the lives
+of people living in communal areas, if this infrastructure ever materialises at all. Many are therefore worse
+off after they surrender their land rights.
+
+The actions of government institutions are fundamental to these processes. Some scholars have argued
+that governments play a critical role in enabling or containing land grabs.cxiv The central premise of this ar-
+gument is that governments have the ability to create and amend property law - the main tool used to ne-
+gotiate and regulate land acquisitions. In this way, 'land rushes past and present have relied upon legal ma-
+nipulations which deny that local indigenous (‘customary’) tenures deliver property rights, thereby legaliz-
+ing the theft of the lands of the poor or subject peoples'.cxv History is replete with instances of property law
+being manipulated to serve the interests of colonial or corporate powers. For instance, Wily writes of the
+English Parliament’s adoption of the General Enclosure Act of 1845, which legally dispossessed and privat-
+ised land held as commonage (including small holdings) throughout England to provide ‘vacant’ land (and
+labour) to private capital during the industrialisation era.cxvi Those permitted to occupy commonage areas
+were evicted and displaced. The jobs and opportunities created in terms of these processes fell short of
+those promised by English politicians, forcing the English government to establish poor houses that, in the
+19th century, became the foundation of the national welfare system.cxvii Governments therefore cannot
+wipe their hands of responsibility for land grabs.
+
+The role of governments in enabling or constraining land grabs is also evident on a more practical level:
+sales or long term leases over communal land are often issued by government entities.cxviii The reason for
+this is, at least in many African countries, that the majority of the land that was held by communities or
+families in terms of communal land tenure is legally registered in the name of the government.cxix An exam-
+ple of these types of deals in the South African context is the Ingonyama Trust, which the Supreme Court of
+Appeal has held to be an organ of state,cxx issuing long-term surface lease agreements with mining compa-
+nies over land that is occupied by people in terms of communal tenure.
+
+
+
+
+                                                                                                            21
+In order to promote foreign direct investment and stimulate economic growth governments often 'actively
+welcome commercial land investors and structure legislation accordingly'.cxxi However, assumptions about
+the benefits of these land deals should be carefully scrutinised.cxxii As Wily writes:
+
+   '[T]he benefits to host governments are opaque. Aside from likely personal rewards to facilitators and
+   signatories, and the strategic conviction that such investments offer the new path to growth … the an-
+   swer must lie in anticipated technology transfer, prompts to infrastructure development, the pickings
+   and leavings of products not fit for export, and most of all, the promise of jobs. As suggested above,
+   these are not yet forthcoming.'cxxiii
+
+Moreover, these land deals are often justified on the basis that they will result in economic benefits for
+South Africa at a macro level, while the interests of those affected are not taken into account. The rights
+and interests of the poorest South Africans living on communal land are thus sacrificed for abstract notions
+of economic growth. Land grabs also have the potential of contributing to a number of intractable social
+ills, including food insecurity and poverty. This is because land and natural resources are central to the live-
+lihood strategies of three quarters of rural households who still live below the poverty line worldwide.cxxiv
+
+The World Bank has also recently released a report on land grabs which clearly shows that land grabs are
+mainly occurring in countries where land buyers can exploit governments that are plagued by corruption.
+These governments are unable to adequately regulate land transactions, and are unable to prevent buyers
+from targeting the poorest rural communities (especially those living according to communal land tenure
+systems).cxxv The World Bank has therefore recognised that land grabs pose serious threats to poor rural
+communities. For this reason, the report concludes with a set of guiding 'principles for responsible agricul-
+tural investment' which, if applied, will assist in curbing the exploitative effects of land grabs. These princi-
+ples include: that new investments recognise and respect the existing rights to land and natural resources
+held by local community groups, and that new investments should ensure that their ventures generate de-
+sired social and distributional impacts.cxxvi Although these principles are structured as voluntary guidelines,
+they could go a long way to ensuring that people living on communal land are protected against exploita-
+tion and provide a useful basis for legislative and policy development.
+
+The concern expressed by academics and experts clearly highlights the potential threat posed by ongoing
+land grabs in communal areas and how these land grabs negatively impact on the rights of people living in
+terms of communal land tenure systems. Law and policy makers need to recognise that they play a critical
+role in either enabling or containing exploitative land grabbing processes. Laws and policies regulating
+communal land therefore need to pay careful attention to the need for future land acquisitions to be con-
+ducted in a manner that is fair and recognises the underlying rights to land that many on communal land
+hold.
+
+Free, Prior and Informed Consent
+
+The principle of free, prior and informed consent (FPIC) is an emerging international law standard that aims
+to facilitate, promote and protect the rights of communities to land and natural resources in the context of
+development. In essence, the four pillars of this standard are:
+
+
+
+                                                                                                             22
+        Free - the local community should not be intimidated, coerced or manipulated into consenting to
+         development;
+        Prior - the local community’s consent should be sought in advance of the commencement of the
+         proposed development so as to enable the community to analyse, evaluate and make an informed
+         decision during public participation or negotiation processes;
+        Informed - the local community should be given full, accurate and up-to-date information about
+         the scope and impact of the development activities in a manner that is accessible and under-
+         standable; and
+        Consent - the local community should have a choice to give or withhold their consent for the pro-
+         posed development, which includes the ability to practically insist that certain conditions be met
+         before consent is granted.cxxvii
+
+The procedural rights enshrined in the FPIC standard are therefore concerned with ensuring that local
+communities are properly informed, able to actively participate in decision-making processes related to
+their land and natural resources, and able to freely pursue their economic, social and cultural develop-
+ment.cxxviii FPIC thus provides clear support for the notion that any negotiations with rural communities
+about the use or acquisition of communal land should be characterised by participatory dialogue and
+should be based on the principle of genuine consultation and negotiation.
+
+FPIC is strongly backed in a variety of international and regional legal instruments, including the ILO Con-
+vention 169 Concerning Indigenous and Tribal People in Independent Countries (1998), the UN Declaration
+on the Rights of Indigenous and Tribal People (2007) and the African Charter on Human and People’s Rights
+(1981).cxxix While the South African government has not ratified all of these international law instruments, it
+is bound by the African Charter due to its status as a member state of the African Union.cxxx In addition,
+these international and regional instruments have considerable persuasive value and should be taken into
+account when drafting legislation or policies dealing with the land rights of people living in communal are-
+as.
+
+Many of the procedural protections inherent in the FPIC standard are echoed in IPILRA, including that an
+individual may not be deprived of his or her informal rights to land without consenting to such deprivation
+and the procedural protections provided in the context of the deprivation of informal rights held on a
+communal basis. Nonetheless, the FPIC standard can play an important role in further promoting and
+strengthening the rights of communities living in communal areas.
+
+Formalisation of Land Rights
+
+One of the debates in relation to land and property rights that has gained considerable currency is the the-
+ory that the formalisation of property rights - particularly, the notion that informal property rights should
+be formalised into exclusive ownership that is recorded and confirmed by a title deed - is central to eco-
+nomic development and poverty reduction. Although this theory is not wholly novel, it gained popularity in
+the works of Hernando De Soto.cxxxi At its core, this theory posits that formally securing ‘informal’ property
+rights in a manner that is ‘“legible” to outsiders’ enables the right holder to invest their property to reap
+economic benefits.cxxxii The greater the powers and entitlements of the right holder to the property, the less
+constrained they are in using their land to better their lives. Central to this theory is the notion that proper-
+ty rights that are readily transferable as a commodity improve the right holder’s access to credit, thereby
+                                                                                                             23
+allowing the right holder to offer their land to a lender as security for a loan.cxxxiii Formalising property
+therefore transforms ‘informal’ land into capital ‘with a life of its own’ through mortgaging of land to se-
+cure credit. Other classical economists, including Smith and Mill, also believed that property rights underlay
+economic growth.cxxxiv For this reason notions of private ownership and its perceived ability to create eco-
+nomic growth have played an important role in how land tenure systems are structured in Western market
+economies.
+
+However, a number of respected economists and academics have begun to challenge many of the assump-
+tions underlying De Soto’s theory. The primary argument levelled against De Soto’s theories relate to his
+narrow conceptions of ‘informality’, which he essentially takes to mean any claims or arrangements that
+exist outside the constraints of formal state law.cxxxv This approach has been criticised on the basis that it
+fails to recognise that
+
+      ‘a range of sub-state actors from tribal kingdoms down to villages and squatter communities manage
+      their land through their own normative systems of varying complexity and rigor. The fact that those
+      systems are not validated by national law does not deprive them of objective reality.’cxxxvi
+
+De Soto’s theories are particularly ill-suited to communal land tenure systems as he considers these sys-
+tems ‘informal’ when they are ‘actually an alternative formality, a sub-national alternative to the formality
+of the national state’.cxxxvii In fact, some authors have noted that land tenure reform programmes funded by
+development agencies that sought to replace customary law systems wholesale with formalised property
+rights have ‘had very mixed results, including weaker than anticipated positive impacts and unanticipated
+negative impacts’.cxxxviii Communal tenure systems have proved to be remarkably resilient, with these sys-
+tems being reasserted by communities when formal systems do not adequately address their needs or hy-
+brid systems developing, which incorporate elements of both the formal tenure system and the customary
+tenure systems.cxxxix
+
+Another key criticism levelled against De Soto’s theories is that there is a large body of literature that
+seems to discredit De Soto’s principal argument that formal title enables access to credit and therefore in-
+creases economic productivity.cxl For example, The Economist (August 2006) acknowledged, after reviewing
+recent studies in Argentina and Peru, that commercial lending biases toward the poor persist in spite of
+poor people holding formal title.cxli In other words, ‘poor people with title are no more likely to obtain loans
+from commercial banks than those without’.cxlii
+
+Finally, a number of authors have warned that De Soto’s theories should be approached with caution.
+These authors assert that De Soto fails to acknowledge that his emphasis on the alienability of property
+rights also carries potentially negative distributional consequences, which may leave poor households
+worse off than before.cxliii This is due to the fact that the formalisation of property rights not only bring op-
+portunities but also bring risks by exposing the poor to market forces from which their ‘informality’ has, to
+some extent, shielded them.cxliv Formal title may have potentially detrimental impact on poorer rights hold-
+ers who are ‘more prone to distress sales’, forcing them into deeper poverty and widening inequality.cxlv As
+Nyamu Musembi asserts, ‘[a]ny redefinition of property rights produces winners and losers’cxlvi - it seems
+particularly ironic that the losers in De Soto’s theory may be the poor in whose name formalisation of
+property rights take place.
+
+
+                                                                                                             24
+De Soto’s theories may be insufficient to address the unique precariousness of people living in communal
+areas in South Africa. Academics and specialists specifically caution that traditional notions of the formali-
+sation of land rights can present a misfit with customary land rights. The prioritisation of one owner for
+each piece of land that is at the heart of the formalisation debate is unsuited to accommodating the lay-
+ered and nested nature of customary land rights. Moreover, as outlined above, an uncritical reliance on De
+Soto’s theories may have negative unintended consequences. Law and policy makers should therefore
+carefully scrutinise the inherent assumptions underlying developmental laws and policies.
+
+Women’s Land Rights in Communal Areas
+
+The land rights and tenure security of women in the former homelands has been shaped by the manner in
+which both colonialism and apartheid distorted customary systems. Both the colonial and apartheid states
+relied on male elders in defining the content of customary law. This resulted in a customary law system
+that foregrounded the patriarchal elements of custom and customary law. This further contributed to the
+legitimisation of a narrative that erased women’s land rights and made women’s access to land dependent
+on their husbands, fathers or male relatives. It was the dominance of this narrative that obscured the fact
+that historically women had recognised rights to land as wives, sisters and daughters. Laws like the Natal
+Code of Zulu Law Proc R151 of 1987 gave women the status of minors and placed them under the authority
+of their fathers and, upon marriage, of their husbands. Women’s ability to assert their land rights were de-
+pendent upon the grace of the male household head or the traditional leader. Not only did this hamper
+women’s access to land and the security of their right to land, but it also meant that predominantly women
+could only access land as wives. As the dominant expectation was that women would marry and move
+away from their natal home, unmarried sisters and daughters would be placed at a disadvantage as their
+attempts to assert a claim for land at the family home under the household head would be rejected on the
+basis that their ‘place’ should be in the home of their husband.cxlvii
+
+Of course there were many areas where women and their communities operated outside of these con-
+structed narratives regarding the role of women and their land rights. The dominant characterisation of
+women as wives was presented as part of custom since time immemorial, thus limiting conceptions of
+women outside of this role. Historically there have always been independent, unmarried women with ac-
+cess to land, but these models of women did not suit colonial and apartheid purposes. There were places
+and spaces in which this convention was not the norm and women were able to assert claims to land as
+wives, sisters and daughters. In these areas, male household heads recognised their daughters and sisters
+and provided them with land. For example, research in the Eastern Cape has explored how, when it comes
+to inheritance and succession, the notion of ‘a responsible person’ being the one to inherit as opposed to
+the strict idea of an heir has allowed women to inherit the family home.cxlviii The colonial and apartheid le-
+gal framework closed down spaces for this type of recognition of women’s rights to land. Instead this legal
+framework continued to make women’s contributions in working the land and maintaining homesteads
+invisible. The imposition of the hut tax and other charges contributed to the migrant labour system taking
+hold and the homelands becoming areas of out migration. It was women who were left to till the land while
+men were forced to seek work in the mines and in factories. They kept homesteads going with little to no
+security or acknowledgement while men remained the household head, in some cases in name only.cxlix
+
+These limited, patriarchal notions of black women are slowly being rebutted by rural communities embold-
+ened and reassured by the transition to democracy. A survey of 3 000 women across three provinces con-
+ducted by the Community Agency for Social Enquiry (CASE), shows an increase in the number of women
+                                                                                                          25
+getting residential sites in their own name in the years after 1994.cl Although the rate of the increase varies
+across the three sites, the common explanation given for why women and communities feel that this is
+now possible is South Africa’s transition to democracy and the rights and values in the Constitution.cli There
+is great potential inherent in the spaces that communities and women are continuing to carve out for
+themselves, even more so now that these spaces are buoyed by the constitutional principles like equality,
+freedom and human dignity.clii
+
+However, critics of the government’s attempts to secure tenure in communal areas caution that these
+spaces and the community led initiatives they inspire are under threat. They explain that past attempts to
+secure the tenure of people living in communal areas failed to adequately address the specific challenges
+faced for women and, in some instances, exacerbated these challenges. For example, the CLRA - which is
+discussed elsewhere in this report - did not adequately address gender inequality. The CLRA allowed for the
+upgrading of ‘old order’ rights such as PTO certificates to ‘new order rights’. However, the law did not take
+into account that PTOs had generally been issued only in the name of the male household head rendering
+the rights of women invisible. By allowing these rights to be upgraded the CLRA have endorsed this exclu-
+sion.cliii This formulation would, once again, have make women’s rights secondary and subject to the rights
+of the title holder.cliv The CLRA did make provision for joint tilting allowing for the title deed to be registered
+in the name of a husband and wife, however the guarantee of tenure security that this provision offered
+was limited given that not all women are wives. The Act would therefore have excluded sisters, daughters
+and unmarried women.
+
+Critics of the CLRA point out that far from strengthening women’s security of tenure this arrangement
+would have made many women less secure. For those women already battling against being evicted by
+their male relatives, secondary rights enforceable only at the whim of the primary rights holder would be of
+little use. The fact that this would mainly have impacted on women flies in the face of equality and dignity.
+These and other substantive arguments were never tested in the Constitutional Court as the CLRA was
+struck down on procedural grounds.clv
+
+Even in communities that have chosen to have their land administered by Communal Property Institutions
+(CPIs), of which the most common are CPAs and trusts, provision is not always made for women to access
+land. In these instances, women find themselves having to assert their rights against those of the collective.
+In some cases, women are excluded from these decision-making structures. This can happen where there is
+no adequate support for these land holding institutions encouraging them to hold regular inclusive elec-
+tions.
+
+The legal challenge to the CLRA and its subsequent striking down provided the government with an oppor-
+tunity to adapt their approach and adopt one better suited to ensuring the tenure security of women in
+communal areas. However, the most recent policy document on communal land tenure issued by the
+DRDLR indicates that not much has changed in the Department’s thinking and approach. The CLTP - which
+is unpacked in more detail elsewhere in this report - proposes that the title owner of land in communal ar-
+eas should be the traditional council. The policy assigns the title owner with the power to allocate land. It is
+important at this point to mention that although women’s experiences of these councils vary, the negative
+experiences are worth noting as they may be helpful in thinking about how to secure women’s tenure
+rights if indeed the Department insists on using traditional councils as the only bodies tasked with land ad-
+ministration. Traditional councils are created by the TLGFA, because these councils were the tribal authori-
+ties of old the Act provides for very specific transformative composition requirements. The law requires the
+traditional council to be comprised of members who are appointed by the traditional leader, this makes up
+                                                                                                               26
+60% of the council. The remaining 40% of members are elected by the community. The final requirement is
+that the council membership be one-third women. Some of the women who have been appointed or elect-
+ed to these councils have been subjected to abuse and various levels of disrespect. In this context too
+women would be reliant on structures that lend themselves to patriarchal dominance to ensure their secu-
+rity of tenure.clvi
+
+The CLTP and the subsequent versions of the Communal Land Tenure Bills developed from it, envisage giv-
+ing ‘institutional use rights’ to households and individuals. There are long running debates on the benefits
+of formalising land rights including formalisation through titling. Academics and specialists caution that tra-
+ditional notions of titling can present a misfit with customary land rights. The prioritisation of one owner
+for each piece of land that is at the heart of formal titling is unsuited to accommodating the layered and
+nested nature of customary land rights. Women’s rights and access to land are part of the network of rights
+that in some cases draw much of their strength from social recognition rather than formal recording. Legis-
+lation aimed at securing the tenure of women within these systems needs to be cognisant of these dynam-
+ics and how both formal titling and the centralisation of decision-making power interfere with the ability of
+women to navigate and negotiate within these spaces.clvii
+
+The concern expressed by academics and activists is that if the Department continues with proposed legis-
+      lation and policies in the same vein as the CLRA it would not be enough to protect women’s land
+      rights and ensure their tenure security. In fact, it could be detrimental to women’s ability to access
+      land and may, once again, close down the space for community led initiatives enhancing women’s
+      rights to land.
+
+Breakdown in Land Administration Systems
+
+The tenure security of those living in communal areas has been compounded by the collapse of land admin-
+istration systems in the former homelands. The apartheid government developed an intricate system of
+land administration for the former homelands based on a myriad of laws and regulations. As mentioned
+above, the apartheid government granted conditional land rights to black people in the homelands in the
+form of permits. Recognition of black people’s rights to land were therefore dependent on a permit-based
+system. The permit-based system required a sophisticated system of land administration on the part of the
+apartheid government with the need for comprehensive and updated record-keeping, the supervision of
+land allocations, and the administrative capacity to maintain such a system. After 1994, land administration
+systems declined considerably. This is due to a number of factors, including the uncertain status of land
+rights in communal areas and the failure on the part of national government to ensure that land admin-
+istration worked effectively in these disadvantaged areas.clviii Some scholars have identified the break down
+in land administration systems as one of the most significant challenges facing land reform in communal
+areas.clix
+
+The collapse of land administration systems has severely impacted on the accuracy and reliability of official
+land records and registers in relation to land rights in communal areas, specifically in traditional council of-
+fices and the provincial departments charged with maintaining these records. In many instances, this has
+rendered individuals or families living on communal land insecure. For instance, in some parts of the East-
+ern Cape many individuals or families continue to rely on outdated PTO certificates issued by the apartheid
+government as their only form of proof of land rights.clx Moreover, people who have been allocated land in
+terms of communal tenure systems since 1994 may not have any recorded form of proof of these rights.clxi
+                                                                                                            27
+The government, at national, provincial and local levels, also lacks the administrative capacity to ensure
+that land administration systems are properly run.
+
+This legal and administrative vacuum has created a fertile breeding ground for abuses of power by some
+traditional leaders and government officials.clxii Key issues in this regard include unofficial land allocations
+by traditional leaders, 'double' allocations over land to which individuals or families already hold pre-
+existing land rights (that are protected in terms of national legislation such as IPILRA), and large-scale un-
+lawful land occupations.clxiii
+
+The inability of government to address the decline in land administration systems in the former homelands
+has been severely criticised. Manona notes that government’s lackadaisical approach to land administra-
+tion systems in communal areas has enabled deprivations of land rights to continue unabated.clxiv He urges
+government to provide legal recognition to people’s land rights, record these rights through some form of
+locally based record-keeping system, and urgently strengthen the protections available to people with in-
+formal land rights by enacting regulations in terms of IPILRA.clxv Others have also advocated for government
+to strengthen its land administration capacity (both human recourse capacity and skills development) to
+ensure that it is able to provide the necessary support and resolve disputes speedily.clxvi In particular, the
+need for more institutional support to land holding entities, such as CPIs, has been reiterated.
+
+
+5.    Assessment of Communal Land Tenure
+
+Twenty years after the end of apartheid, almost 17 million people or a third of the population of South Afri-
+ca reside in the former homelands. Most of these people live in severe poverty and vulnerability. While ab-
+solute poverty in South Africa has decreased slightly (mainly through the provision of social grants and the
+extension of basic services to poor households),clxvii the former homelands have persistently been burdened
+with 'significantly higher levels of deprivation and poverty than the rest of South Africa'.clxviii These findings
+are confirmed through measuring poverty levels in terms of individual or household income (so-called
+'money-metric measures') as well as measuring levels of deprivation in relation to various non-monetary
+dimensions, including lack of material possessions, social and human capital, employment deprivation, the
+lack of decent housing and access to basic services.clxix By using the 2011 Census data, economists have
+shown that deprivation along non-monetary dimensions, as measured in terms of the South African Index
+of Multiple Deprivation, are concentrated disproportionately in the former homelands.clxx Of the most de-
+prived wards in the country (the bottom 20% of wards with the highest levels of deprivation), the vast ma-
+jority (more than 90%) were located within the former homelands.clxxi These findings have led economists
+to assert that those living in the former homelands are still 'the poorest and most deprived' in South Afri-
+ca.clxxii Moreover, these findings show that the 'deprivation gap between [those living in the former home-
+lands] and the rest of the country has not narrowed in the period between 2001 and 2011'.clxxiii The poverty
+found in the former homelands is structural or 'chronic' in nature - that is, poverty that lasts for a period of
+five consecutive years or longer - which has deep-seated causes and is much harder to eliminate.clxxiv
+
+Although there have been some indicators of success, these have been few and far between. Economists
+have, for example, reported a drop in hunger levels in the former homelands, which has been attributed to
+the expansion of social grants rather than the South African government’s land reform policy.clxxv In fact,
+the land reform policy, which specifically seeks to address this structural problem, 'has had a limited effect
+in addressing the problem of hunger' in the former homeland areas.clxxvi While the expansion of social
+                                                                                                              28
+grants has effectively led to this shift in hunger levels, economists warn that these measures may be inef-
+fective in addressing the more deeply rooted dimensions of poverty, inequality and unemployment in the
+former homelands.clxxvii
+
+South Africa is therefore characterised by acute levels of spatial inequality, with those living in the former
+homelands being significantly worse off than those living in the rest of the country. Twenty years after the
+former homelands were incorporated into a unitary South Africa, apartheid’s spatial geography is very
+much alive. This persistent inequality is fuelling rural-urban migration, the growth of informal settlements
+and other informal occupations of land, and has been linked to the recent increase in social unrest.clxxviii
+
+To understand the causes of the extreme poverty and disadvantage in the former homelands, it is im-
+portant to adopt a holistic approach. Recently, economists have argued that it is critical to unpack the envi-
+ronmental and systemic conditions that have rendered people constantly vulnerable.clxxix This may include
+the existing power relations and social dynamics of people trapped in poverty. Moreover, when attempting
+to develop targeted interventions to alleviate social ills, the potential impact of any structural, legislative or
+policy intervention must be carefully scrutinised to ensure that such intervention does not entrench the
+very conditions or social relations that 'create marginality, maintain vulnerability and undermine the agen-
+cy' of the rural poor.clxxx
+
+It is therefore critical to take stock of who is likely to be empowered by legislative and policy interventions
+and who is likely to be disenfranchised. In the South African context it seems evident that the powerful ru-
+ral elites (including traditional leaders, land speculators and international and local corporations) have been
+disproportionately advantaged by the legislative and policy framework put forward by government, while
+the rights and interests of individuals and families living on communal land have been systematically un-
+dermined or ignored. In an in-depth analysis of the causes of poverty in the North West, Francis writes that
+rural households from the former homelands have been rendered particularly vulnerable as result of the
+exploitative systems of patronage and local political structures that were propped up during apartheid and
+shaped the heavily skewed distributional regime that continues to exist today.clxxxi She says that ordinary
+people in the North West were 'systematically discriminated against' in favour of well-connected rural
+elites, including traditional leaders.clxxxii
+
+This report clearly shows that twenty years after the homelands were reintroduced into a unitary South
+Africa people living in these areas remain acutely vulnerable. Although some people in communal areas are
+slightly better off than they were prior to 1994, the vast majority continue to be plagued by insecure tenure
+and many have been dispossessed of their land rights altogether. The legislative and policy interventions
+adopted by government in the context of communal land tenure and rural development have not been
+able to address the chronic tenure insecurity that burdens many living in these areas. Nor is it likely that the
+laws and policies currently proposed by government will satisfactorily address this issue. Instead the laws
+and policies governing communal land tenure and traditional governance have done little to remedy wide-
+spread poverty and deprivation, the pressures of ongoing land grabs by rural and corporate elites, the high-
+ly unequal power relations in rural areas, the gendered nature of access to land, the breakdown in land
+administration systems and the negative impact of tenure insecurity on livelihoods. These laws and policies
+have therefore entrenched the very conditions and social relations that ‘create[d] marginality, maintain[ed]
+vulnerability and undermine[d] the agency' of the rural poor.
+
+
+                                                                                                              29
+As this report indicates, some of the primary drivers of this insecurity are:
+
+• The absence of a law governing communal land tenure, as constitutionally mandated by section 25(6) of
+  the Constitution. The inability on the part of the government to pass legislation that sufficiently captures
+  the nuanced ways in which people experience and regulate relations of communal tenure in their every-
+  day lives, means that those living on communal land have no means of securing their tenure. Without
+  such a law, people are forced to rely on the poorly implemented and enforced interim measures provid-
+  ed for in IPILRA.
+
+• The current legal framework and proposed legislation in respect of traditional governance or govern-
+  ance in areas under traditional leaders prioritises and gives preference to traditional leaders at the ex-
+  pense of ordinary rural people. This legal framework shifts the balance of power to elite rural groupings
+  and emboldens some amongst those groups to interpret and manipulate the existing legal framework in
+  a manner that benefits them personally. The political and symbolic support of traditional leaders and
+  councils through legislation means that rural communities are pitted against traditional authorities when
+  asserting their land rights and facilitates a situation where traditional authorities make it difficult for
+  community members to secure their tenure.
+
+Government’s failure to provide adequate support to the land holding vehicles it has created, for example
+     CPAs, is another critical driver of insecurity. The difficulties that CPAs face in getting registered, de-
+     veloping written constitutions and holding regular elections of committee members to prevent
+     membership from stagnating or the CPA being ‘captured’.clxxxiii In addition to the challenges faced in
+     trying to establish and run a CPA there is the possibility that the formations of such institutions will
+     being challenged by traditional leaders or councils, who are politically supported by legislation.clxxxiv
+     This indicates that even when people have managed to make use of the land holding vehicles created
+     in terms of legislation to secure their rights, their lack of tenure security may threaten the stability of
+     those rights.
+
+
+6.    Conclusion and Recommendations
+
+In order to address the egregious consequences of colonialism and apartheid on the tenure security of
+those living in communal areas it is necessary not only to repeal the apartheid laws but also to 'construct a
+new system … based on a clear understanding of how existing property relations have developed, and why
+those relations do not satisfy people’s needs'. In this respect, it seems the post-apartheid South African
+government has failed. Although the government initially put in place the Interim Protection of Informal
+Land Rights Act (IPILRA), this law has done little more than provide a thin layer of legal protection to the
+rights of people in communal areas.
+
+Moreover, the absence of a law governing communal land tenure - as constitutionally mandated by section
+25(6) of the Constitution - and government’s inability to pass legislation that sufficiently captures the nu-
+anced ways in which people experience and regulate relations of communal tenure in their everyday lives,
+means that those living on communal land have no way of securing their tenure.
+
+We recommend that:
+
+
+
+                                                                                                            30
+• The state should develop legislation to comply with the provisions of section 25(6) and (9) of the Con-
+  stitution that grants legal recognition to the rights that individuals, families and groups have over
+  communal land in a manner that is consistent with the nuanced ways in which people in communal
+  areas regulate their land rights in practice.
+• The legislation referred to above should comply with all facets of the state’s obligations in relation to
+  right to tenure security of people whose tenure is insecure due to past racially discriminatory laws and
+  practices, namely to respect, protect, promote and fulfil this right. In other words, the legislation de-
+  veloped to give effect to this right should: grant legal recognition of rights to land of people in com-
+  munal areas (including rights held in terms of customary law), provide protective measures to ensure
+  that these rights are protected against infringement, and aim to strengthen tenure security on an on-
+  going basis. The protection mechanisms of the legislation should be based on the basic protections
+  provided for in IPILRA, but should not be limited to it.
+• The legislation referred to above should contain provisions to facilitate clear and transparent land
+  rights investigations or enquiries to determine what rights people hold in practice. The legislation
+  should provide for the registration or recording of people land rights in a manner that would be suita-
+  ble to the people whose rights are being protected. The record system should be capable of easy veri-
+  fication, should be affordable and flexible.
+• The legislation referred to above should offer individuals, families and groups living in communal areas
+  a range of tenure options and grant them a genuine choice in relation to these options. It should also
+  provide clear guidance as to how those choices will be exercised and what mechanisms will be used.
+• In the process of developing legislation to give effect to section 25(6), the state should be careful not
+  to rely too heavily on common law principles or notions of ownership, which may be foreign to and
+  distort communal land tenure systems. Instead tenure models should be developed that are in keep-
+  ing with the existing normative systems used by people in communal areas to manage land in practice
+  and should be based on an approach acknowledges people’s conceptions and re-imagining of belong-
+  ing. Such a process would be in keeping with the Constitutional Courts remarks in Alexkor Ltd v Rich-
+  tersveld Community, where the Court emphasised not viewing customary law or indigenous law
+  through a common law lens.clxxxv Moreover, the development of legislation in this vein would indicate
+  that the state takes seriously the constitutional recognition of customary law systems on equal footing
+  with the common law.
+• In the process of developing legislation to give effect to section 25(6), the state should consult mean-
+  ingfully and in good faith with communities in communal areas. In particular, the state should seek to
+  ensure that the concerns of vulnerable groups, including women, are given adequate consideration.
+  The state should also be careful not to give undue consideration to powerful interests groups at the
+  expense of marginalised groups.
+• The state should adopt and implement a range of legislative, administrative, budgetary and practical
+  measures to protect the tenure rights of people living in communal areas, with a particular focus on
+  the rights of vulnerable groups. In this light the state should ensure that it enforces IPILRA effectively,
+  including providing fines to individual or institutions who do not comply with IPILRA, rendering con-
+  tracts that are inconsistent with IPILRA invalid, and developing sufficient institutional capacity to en-
+  force IPILRA. Moreover, the state should develop mechanisms to monitor transactions in relation to
+  communal land - especially land where it acts as nominal owner - to ensure that the land rights of
+  people living on communal land are protected.
+• The state should take legislative measures to clarify how existing laws interact with each other and
+  should clarify the respective responsibilities and roles of state actors in relation to communal land
+                                                                                                         31
+       tenure. This should include ensuring that legislation that impacts on the tenure security of people liv-
+       ing on communal land is consistent in its requirements regarding the access and use of communal
+       land.
+     • The state should take immediate steps to strengthen the system of land administration in communal
+       areas, including ensuring that appropriate record-keeping systems are put in place, that records are
+       regularly updated and accessible, and that land administration is better resourced and has increased
+       capacity.
+     • The state should recognise the autonomy of the people living on communal land in relation to deci-
+       sion-making about their land. In this light, the state should not elevate the role of traditional leaders in
+       relation to land administration above that of the people in a way that leaves communities voiceless
+       and reliant on traditional leaders to speak on their behalf. The role of traditional leaders or councils in
+       land administration should be developed in a manner that is in line with, and led by, how communities
+       conceive of this role in practice. In relation to investments or developments on communal land, there
+       needs to be departure from the idea that all development will benefit rural communities and that they
+       therefore need to quietly accept it. Rather there must be recognition of the fact that communities are
+       not homogenous entities (differently placed people will be affected differently by development) look-
+       ing to have ‘solutions’ handed down to them which is why there must be an emphasis on and a com-
+       mitment to consultation.
+
+
+
+7.      End Notes
+
+i
+   The apartheid government issued various laws to segregate the population of South Africa along racial
+lines. One of the most significant laws was the Black Land Act 27 of 1913 which restricted the areas where
+black people could legally live to 7% of the land in South Africa. This law was followed up with the South
+African Development Trust and Land Act 18 of 1936, which provided an additional 6% of the land for occu-
+pation by black people. The government used these laws to pass the Group Areas Act 41 of 1950 which se-
+verely restricted the ability of black people to acquire, hold and occupy land throughout South Africa and
+created the ten rural reserves referred to as homelands (Transkei, Bophuthatswana, Ciskei and Venda) or
+self-governing territories (KwaNdebele, QwaQwa, Gazankulu, Lebowa, KwaZulu and KaNgwane) for differ-
+ent “ethnic groups” within the black population. The segregation of people and division of land was further
+made possible by legislation allowing for the forced removal and eviction of people from their land. See
+Wilhelmina du Plessis, ‘African Indigenous Land Rights in a Private Ownership Paradigm’, Potchefstroom
+Electronic Law Journal, 14, 7 (2011), p. 45; Aninka Claassens, ‘Contested Power and Apartheid Tribal
+Boundaries: The Implications of “Living Customary Law” for Indigenous Accountability Mechanisms’, Acta
+Juridica (2011), p. 175.
+ii
+    Ben Cousins and Ruth Hall, Rights without Illusions: The Potentials and Limits of Rights-based Approaches
+to Securing Land Tenure in Rural South Africa, PLAAS Working Paper No 18 (2011), p. 1; Tara Weinberg, The
+Contested Status of Communal Land Tenure in South Africa, PLAAS Rural Status Report 3 (2015), p. 6.
+iii
+    Weinberg, Communal Land Tenure, p. 3. See also Ashraf Mahomed, Understanding Land Tenure Law:
+Commentary and Legislation (2009), p. 28; Gladys Mutangadura, "The Incidence of Land Tenure Insecurity
+in South Africa: Policy Implications for Sustaining Development", Natural Resources Forum, 31 (2007), p.
+176; Hanri Mostert, ‘Customary and Statutory Perceptions of Tenure Security in South Africa’, in Aurelia
+Colombi-Ciacchi (ed.), Governance Meets Law (forthcoming, Cambridge, 2014); and Housing Development
+Agency (HDA), Informal Settlement Upgrading: Incrementally Upgrading Tenure under Customary Admin-
+istration (2015), pp. 4-10.
+
+
+
+
+                                                                                                               32
+iv
+    Mahomed, Understanding Land Tenure Law, p. 28. This means that there is a close relationship between
+the right to secure tenure contained in section 25(6) of the Constitution and the right not to be arbitrarily
+evicted from one's home contained in section 26(3) of the Constitution.
+v
+   See Mutangadura, "Land Tenure Insecurity in South Africa", p. 177.
+vi
+    According to the UN Food and Agriculture Organization (FAO), insecure tenure "increase[s] vulnerability,
+hunger and poverty..." See the FAO, Voluntary Guidelines on the Responsible Governance of Tenure of Land,
+Fisheries and Forests in the Context of National Food Security (2012), p. v.
+vii
+     Murray Leibbrandt, Ingrid Woolard, Arden Finn and Jonathan Argent, Trends in South African Income Dis-
+tribution and Poverty since the Fall of Apartheid, OECD Social, Employment and Migration Working Papers
+No 101 (2010), p. 10.
+viii
+     Michael Noble, Wanga Zembe and Gemma Wright, ‘Poverty May Have Declined, but Poverty and Depri-
+vation are Still Worst in the Former Homelands’, Econ 3x3 (published online 27 May 2014), p. 1. See also
+Michael Noble and Gemma Wright, ‘Using Indicators of Multiple Deprivation to Demonstrate the Spatial
+Legacy of Apartheid in South Africa’, Social Indicators Research, 112, 1 (2013), pp. 187-201.
+ix
+    Since the system was permit-based, the particular permit would determine the types of rights a person
+had in relation to land. Some of these permits included residential permits, lodger's permits, hostel permits
+or certificates of occupation. See Juanita M Pienaar, “Tenure Reform in South Africa: Overview and Chal-
+lenges”, Speculum Juris, 1 (2011), p. 110; Cousins and Hall, Rights without Illusions, p. 4.
+x
+   Samuel M. Kariuki, ‘Failing to Learn from Failed Programmes? South African's Communal Land Rights Act’,
+African Studies Centre (ASC) Working Paper (2004), p. 7.
+xi
+    Department of Land Affairs (DLA), White Paper on South African Land Policy (1997), pp. 57-67; Du Plessis,
+‘African Indigenous Land Rights’.
+xii
+     Geoff Budlender and Johan Latsky, ‘Unravelling Rights to Land and Agricultural Activity in Rural Race
+Zones’, in Michael de Klerk (ed.), Harvest of Discontent: The Land Question in South Africa (Cape Town,
+1991), p. 115.
+xiii
+     The tenure reform programme seeks to give effect to section 25(6) and (9) of the Constitution. The other
+two pillars of the land reform programme are land redistribution (the process of changing the racial pat-
+terns of land ownership in South Africa) and land restitution (the process of returning land to people who
+were dispossessed of their land under apartheid as a result of racially discriminatory laws or practices). See
+DLA, White Paper on South African Land Reform; Pienaar, "Tenure Reform in South Africa", p. 110.
+xiv
+     IPILRA was enacted in 1996 as a temporary law to protect people with insecure tenure from being de-
+prived of their land rights. See the discussion on IPILRA.
+xv
+     Weinberg, Communal Land Tenure, p. 3.
+xvi
+     Ben Cousins, ‘Characterising “Communal” Tenure: Nested Systems and Flexible Boundaries’, in Aninka
+Claassens and Ben Cousins (eds.), Land, Power and Custom: Controversies Generated by South Africa’s
+Communal Land Rights Act (Cape Town, 2008), p. 111.
+xvii
+      Catherine Cross, ‘Landholding Systems in African Rural Areas’, in Michael de Klerk (ed.), Harvest of Dis-
+content: The Land Question in South Africa (Cape Town, 1991), pp. 63-97; Tom W. Bennet, Customary Law
+in South Africa (Lansdowne, 2004), p. 377; Du Plessis, ‘African Indigenous Land Rights’, pp. 50-51; Wein-
+berg, Communal Land Tenure, p. 7.
+xviii
+      Tor A. Benjaminsen, Stein Holden, Christian Lund and Espen Sjaastad, ‘Formalisation of Land Rights:
+Some Empirical Evidence from Mali, Niger and South Africa’, Land Use Policy, 26 (2008), p. 32.
+xix
+     Du Plessis, ‘African Indigenous Land Rights’; Weinberg, Communal Land Tenure, p. 9.
+xx
+     Du Plessis, ‘African Indigenous Land Rights’, pp. 50-51; Weinberg, Communal Land Tenure, p. 9.
+xxi
+     Du Plessis, ‘African Indigenous Land Rights’, p. 50; Weinberg, Communal Land Tenure, p. 9.
+xxii
+      Du Plessis, ‘African Indigenous Land Rights’, p. 50; Weinberg, Communal Land Tenure, p. 9; Liz A. Wily,
+‘Looking Back to See Forward: The Legal Niceties of Land Theft in Land Rushes’, Journal of Peasant Studies,
+39 (2012), pp. 751-775.
+xxiii
+      Martin Chanock, Land, Custom and Social Order: The Colonial Experience in Malawi and Zambia (Cam-
+bridge, 1985), p. 232.
+xxiv
+      Bennet, Customary Law, p. 375; Du Plessis, ‘African Indigenous Land Rights’, p. 51.
+
+
+
+                                                                                                           33
+xxv
+      Bennet, Customary Law, p. 379; Du Plessis, ‘African Indigenous Land Rights’, p. 52; Weinberg, Communal
+Land Tenure, p. 9.
+xxvi
+       See Christian Lund, ‘Negotiating Property Institutions: On the Symbiosis of Property and Authority in
+Africa’, in Kristine Juul and Christian Lund (eds.), Negotiating Property in Africa (Portsmouth, 2002), pp. 11-
+43; Pauline Peters, ‘The Limits of Negotiability: Security, Equity and Class Formation in Africa’s Land Sys-
+tem’, in Kristine Juul and Christian Lund (eds.), Negotiating Property in Africa (Portsmouth, 2002), pp. 45-
+66; Aninka Claassens and Durkje Gilfillan, ‘The Kalkfontein Land Purchases: Eighty Years On and Still Strug-
+gling for Ownership’, in Aninka Claassens and Ben Cousins (eds,), Land, Power and Custom: Controversies
+Generated by South Africa’s Communal Land Rights Act (Cape Town, 2008), pp. 295-314; Hastings W. O.
+Okoth-Ogendo, ‘The Nature of Land Rights under Indigenous Law in Africa’, in Aninka Claassens and Ben
+Cousins (eds.), Land, Power and Custom: Controversies Generated by South Africa’s Communal Land Rights
+Act (Cape Town, 2008), pp. 95-108; Cousins, ‘Characterising “Communal” Tenure’, pp. 109-137.
+xxvii
+       Okoth-Ogendo, ‘The Nature of Land Rights under Indigenous Law’, p. 129.
+xxviii
+        Du Plessis, ‘African Indigenous Land Rights’, p. 54.
+xxix
+       Cousins, ‘Characterising “Communal” Tenure’, p. 110.
+xxx
+      Cousins, ‘Characterising “Communal” Tenure’, pp. 110-111.
+xxxi
+       Okoth-Ogendo, ‘The Nature of Land Rights under Indigenous Law’, p. 129.
+xxxii
+       Cousins, ‘Characterising “Communal” Tenure’, p. 125; Weinberg, Communal Land Tenure, p. 8.
+xxxiii
+        Cousins, ‘Characterising “Communal” Tenure’, p. 123.
+xxxiv
+        Weinberg, Communal Land Tenure, p. 8.
+xxxv
+       Weinberg, Communal Land Tenure, p. 8.
+xxxvi
+        See Rauri Alcock and Donna Hornby, Traditional Land Matters: A Look into Land Administration Systems
+in Tribal Areas in KwaZulu-Natal, Legal Entity Assessment Project (LEAP), Occasional Paper (2004); Du Ples-
+sis, ‘African Indigenous Land Rights’.
+xxxvii
+        Alastair J. Kerr, The Customary Law of Immovable Property and Succession, 3 ed, (Grahamstown, 1990).
+See also Bennet, Customary Law, p. 392; Du Plessis, ‘African Indigenous Land Rights’, pp. 56-57.
+xxxviii
+         Kerr, Customary Law. See also HDA, Informal Settlement Upgrading, p. 16.
+xxxix
+        Lund, ‘Negotiating Property Institutions’, pp. 11-43; Peters, ‘The Limits of Negotiability’, pp. 45-66;
+Weinberg, Communal Land Tenure, p. 9.
+xl
+    Section 2 of the Constitution states: ‘This Constitution is the supreme law of the Republic; law and con-
+duct inconsistent with it is invalid and the obligations imposed by it must be fulfilled.’
+xli
+     See, for example, Sandra Liebenberg, Socio-Economic Rights: Adjudication under a Transformative Consti-
+tution (Claremont, 2010), pp. 54-55.
+xlii
+      See the United Nations Committee on Economic, Social and Cultural Rights, ‘General Comment No. 14:
+The Right to the Highest Attainable Standard of Health’ (2000), UN Doc E/C.12/2000/4, p. 33. Although this
+is in the context of the right to health, the legal obligations are similar in relation to the rights created in
+terms of section 25(6) of the Constitution.
+xliii
+      Cousins and Hall, Rights without Illusions, p. 4; Aninka Claassens, ‘South African Proposals for Tenure
+Reform: The Draft Land Rights Bill’, in Camilla Toulon and Julian F. Quan (eds.), Evolving Land Rights, Policy
+and Tenure in Africa (London, 2000), pp. 247-266; Land and Accountability Research Centre (LARC), Peo-
+ple’s Law Journal: Rural Land Justice (April 2016), p. 70.
+xliv
+      Cousins and Hall, Rights without Illusions, p. 4.
+xlv
+      Weinberg, Communal Land Tenure; LARC, People’s Law Journal: Rural Land Justice, p. 71.
+xlvi
+      LARC, People’s Law Journal: Rural Land Justice, p. 71.
+xlvii
+       LARC, People’s Law Journal: Rural Land Justice, p. 71.
+xlviii
+       Beneficial occupation refers to the situation where an individual occupies land peacefully for an extend-
+ed period of time, as if he or she were the owner, but without formal legal rights. See Weinberg, Communal
+Land Tenure, p. 12.
+xlix
+      LARC, People’s Law Journal: Rural Land Justice, p. 71.
+l
+   LARC, People’s Law Journal: Rural Land Justice, p. 71.
+li
+    LARC, People’s Law Journal: Rural Land Justice, p. 71.
+lii
+    LARC, People’s Law Journal: Rural Land Justice, p. 71.
+
+                                                                                                            34
+liii
+     Aninka Claassens, ‘Land Tenure in Communal Areas: Progress and Policy Constraints’ (2016), p. 5, an un-
+published presentation to the Parliamentary Portfolio Committee on Rural Development and Land Reform,
+Cape Town, 2016. See also LARC, People’s Law Journal: Rural Land Justice, pp. 72-73.
+liv
+     Claassens, ‘Land Tenure in Communal Areas’, p. 5.
+lv
+    Cousins and Hall, Rights without Illusions, p. 4.
+lvi
+     Claassens, ‘Land Tenure in Communal Areas’; Siyabu Manona, ‘“Informal” Land Rights under Siege Eight-
+een Years into Democracy’ (2012), an unpublished paper presented at the Rural Women’s Action Research
+(RWAR) Programme Seminar Series at the University of Cape Town, Cape Town, 30 March 2012.
+lvii
+      Section 4 of the IPILRA provides for the Minister of Rural Development and Land Reform (DRDLR) to issue
+binding regulations to complement the Act. Civil society has consistently urged the government to consider
+issuing such regulations. See, for example, Manona, ‘“Informal” Land Rights under Siege’.
+lviii
+       Claassens has called for the Department of Rural Development and Land Reform to ensure greater en-
+forcement of IPILRA. She notes that the Department could enhance compliance by declaring a contraven-
+tion of PILRA a criminal offence, making transactions that violate IPILRA rights void, and by employing land
+rights officers to ensure compliance with IPILRA. See Claassens, ‘Land Tenure in Communal Areas’, p. 30.
+lix
+     Centre for Law and Society (CLS), ‘Land Rights under the Ingonyama Trust’, CLS Factsheet (February
+2015), p. 1.
+lx
+    CLS, ‘Land Rights under the Ingonyama Trust’, p. 1.
+lxi
+     CLS, ‘Land Rights under the Ingonyama Trust’, p. 1.
+lxii
+      Ingonyama Trust Board, ‘Annual Report 2012/2013’ (2013), p. 7.
+lxiii
+       Ingonyama Trust Board, ‘Annual Report 2011/2012’ (2012), p. 9.
+lxiv
+       See, for example, Ingonyama Trust Board, ‘Annual Report 2012/2013’, p. 7, where Ngwenya writes:
+‘What is important though is the subtle acknowledgement that communal land ownership consists of more
+than land ownership’.
+lxv
+      See Tabelo Timse, ‘King Trust sells people out to mining’, Mail & Guardian (published online 5 June
+2015); and Stha Yeni, ‘Bayede Newspaper, traditional leaders and mining deals in KwaZulu-Natal’, Custom
+Contested (published online 25 August 2015).
+lxvi
+       A number of communities in KwaZulu-Natal have expressed dissatisfaction about the manner in which
+the Trust has concluded surface leases claiming that they had not been adequately consulted during the
+negotiation of these leases, and that they did not consent to the deprivation of their land rights as required
+by IPILRA. See LARC, People’s Law Journal: Rural Land Justice, pp. 62-67.
+lxvii
+        Ingonyama Trust Board, ‘Annual Report April 2014 to March 2015’ (2015), p. 2.
+lxviii
+         Ben Cousins, Rauri Alcock, Ngdidi Dladla, Donna Hornby, Mphethethi Masondo, Gugu Mbatha, Makhosi
+Mveli and Creina Alcock, Imithetho yomhlaba yaseMsinga: The Living Law of Msinga, KwaZulu-Natal, PLAAS
+Research Report No 43 (2011).
+lxix
+       See, for example, the minutes of the Parliamentary Portfolio Committee on Rural Development and Land
+Reform at the ‘Ingonyama Trust Board 3rd Quarter 2014/15 Performance Report’ on 11 March 2015:
+https://pmg.org.za/committee-meeting/20491/.
+lxx
+      Claassens, ‘South African Proposals for Tenure Reform’; Weinberg, Communal Land Tenure, p. 13.
+lxxi
+       Martin Adams, ‘Tenure Security, Livelihoods and Sustainable Land Use in Southern Africa’ (2001), an un-
+published paper presented at the Conference on Land Reform and Poverty Alleviation in Southern Africa
+convened by the Southern African Regional Poverty Network (SARPN), Human Sciences Research Council
+(HSRC), Pretoria, 4-5 June 2001. See also Kariuki, Failing to Learn, p. 9.
+lxxii
+        Kariuki, Failing to Learn, pp. 9-10.
+lxxiii
+         Kariuki, Failing to Learn, p. 10.
+lxxiv
+         Cousins and Hall, Rights without Illusions, p. 8.
+lxxv
+        Weinberg, Communal Land Tenure, p. 14.
+lxxvi
+         Tongoane and Others v National Minister for Agriculture and Land Affairs and Others 2010 (8) BCLR 838
+(GNP).
+lxxvii
+         The Constitutional Court held that the Act had been incorrectly tagged in Parliament as a Bill not affect-
+ing the provinces (in terms of section 75 of the Constitution) when it should have been tagged as a Bill af-
+
+
+
+                                                                                                               35
+fecting the provinces (in terms of section 76 of the Constitution). See Tongoane and Others v National Min-
+ister for Agriculture and Land Affairs and Others 2010 (6) SA 214 (CC).
+lxxviii
+        Cousins and Hall, Rights without Illusions, p. 8; Weinberg, Communal Land Tenure, p. 14.
+lxxix
+       Cousins and Hall, Rights without Illusions, p. 9.
+lxxx
+      Cousins and Hall, Rights without Illusions, p. 9.
+lxxxi
+       Cousins and Hall, Rights without Illusions, p. 9.
+lxxxii
+        Cousins and Hall, Rights without Illusions, p. 9.
+lxxxiii
+        Elizabeth Francis, Poverty: Causes, Responses and Consequences in Rural South Africa, Chronic Poverty
+Research Centre (CPRC) Working Paper No 60 (2006), p. 9.
+lxxxiv
+        Kariuki, Failing to Learn, p. 21.
+lxxxv
+        Weinberg, Communal Land Tenure, p. 20.
+lxxxvi
+        Weinberg, Communal Land Tenure, p.14.
+lxxxvii
+         LARC, ‘Notes on the Traditional and Khoisan Leadership Bill [B 23–2015]’ (September 2016).
+lxxxviii
+         Michael Clark, ‘Choosing chief over the people’, Business Day (15 July 2015).
+lxxxix
+        Certification of the Constitution of the Republic of South Africa, 1996 (4) SA 744 (CC).
+xc
+     Bakgatla-Ba-Kgafela Communal Property Association v Bakgatla-Ba-Kgafela Tribal Authority and Others
+2015 (6) SA 32 (CC), paras. 31 and 33.
+xci
+     Kariuki, Failing to Learn.
+xcii
+      CLS, ‘Community Property Associations’, CLS Fact Sheet (February 2015), p. 2.
+xciii
+      CLS, ‘Community Property Associations’, p. 2.
+xciv
+      CLS, ‘Community Property Associations’, p. 2. See also DRDLR, ‘Draft Policy Paper: Communal Property
+Associations and the Rural Economy Transformation Model’ (2014), p. 9.
+xcv
+      CLS, ‘Community Property Associations’, p. 2.
+xcvi
+      DRDLR, ‘Draft Policy Paper: Communal Property Associations’, p. 9. See also CLS, ‘Community Property
+Associations’, p. 4.
+xcvii
+       DRDLR, ‘Communal Land Tenure Policy, p. 29.
+xcviii
+       See, generally, Bakgatla-Ba-Kgafela Communal Property Association v Bakgatla-Ba-Kgafela Tribal Au-
+thority and Others 2015 (6) SA 32 (CC).
+xcix
+      Land and Accountability Research Centre (LARC), ‘Submission on the Communal Property Associations
+Amendment Bill, 2016’ (2 June 2016), p. 2.
+c
+   LARC, ‘Submission on the Communal Property Associations Amendment Bill, 2016’, pp. 3-4 and 5.
+ci
+    Sifiso Dladla, ‘Community Celebrates as iron mine plan shelved’, Custom Contested (published online 29
+July 2016).
+cii
+     Stha Yeni, ‘Bayede Newspaper, traditional leaders and mining deals in KwaZulu-Natal’.
+ciii
+     Statement by a community member from Buffelspruit, Mpumalanga (on file with the authors).
+civ
+     Submission on the Traditional Courts Bill (2012) to Select Committee on Justice and Constitutional Devel-
+opment (on file with the authors).
+cv
+     LARC, ‘Notes on the Traditional and Khoisan Leadership Bill’.
+cvi
+     Saturnino M. Borras Jr, Ruth Hall, Ian Scoones, Ben White and Wendy Wolford, ‘Towards a Better Under-
+standing of Global Land Grabbing: An Editorial Introduction’, Journal of Peasant Studies, 28, 2 (2011), p.
+209; Wily, ‘Looking Back to See Forward’, p. 751.
+cvii
+      Wily, ‘Looking Back to See Forward’, p. 752.
+cviii
+      Weinberg, Communal Land Tenure, p. 20.
+cix
+     Francis, Poverty.
+cx
+     Wily, ‘Looking Back to See Forward’, p. 751; Francis, Poverty.
+cxi
+     Francis, Poverty.
+cxii
+      Wily, ‘Looking Back to See Forward’, pp. 751-752.
+cxiii
+      Wily, ‘Looking Back to See Forward’, p. 752.
+cxiv
+      Wily, ‘Looking Back to See Forward’.
+cxv
+      Wily, ‘Looking Back to See Forward’, p. 751.
+cxvi
+      Wily, ‘Looking Back to See Forward’, pp. 755-756.
+
+
+                                                                                                          36
+cxvii
+       Wily, ‘Looking Back to See Forward’, pp. 755-756.
+cxviii
+       Wily, ‘Looking Back to See Forward’, p. 769.
+cxix
+      Wily, ‘Looking Back to See Forward’, p. 769.
+cxx
+     Ingonyama Trust v eThekwini Municipality 2013 (1) SA 564 (SCA) (Ingonyama Trust (SCA)). Although
+eThekwini Municipality appealed this decision to the Constitutional Court, the Constitutional Court refused
+the appeal. This means that the Supreme Court of Appeal decision stands.
+cxxi
+      Wily, ‘Looking Back to See Forward’, p. 769.
+cxxii
+       Oliver De Schutter, ‘How Not to Think of Land-Grabbing: Three Critiques of Large-Scale Investments in
+Farmland’, Journal of Peasant Studies, 38, 2 (2011), pp. 249-279; Wily, ‘Looking Back to See Forward’.
+cxxiii
+       Wily, ‘Looking Back to See Forward’, p. 770.
+cxxiv
+       Lucy Emerton, Quantifying the Impacts of Barriers to Pro-Poor Forest Management: Livelihoods and
+Landscapes Strategy (2010), IUCN Markets and Incentives Discussion Paper. See also Wily, ‘Looking Back to
+See Forward’, p. 770.
+cxxv
+       World Bank, Rising Global Interest in Farmland: Can It Yield Sustainable and Equitable Benefits? (2010).
+See also Borras Jr, Hall, Scoones, White and Wolford, ‘Towards a Better Understanding of Global Land
+Grabbing’, p. 210.
+cxxvi
+       See, generally, World Bank, Rising Global Interest in Farmland.
+cxxvii
+        Jean-Claude N. Ashukem, ‘Included or Excluded: An Analysis of the Application of the Free, Prior and
+Informed Consent Principle in land Grabbing Cases in Cameroon’, Potchefstroom Electronic Law Journal, 19
+(2016), pp. 3-5; Emily Greenspan, Free, Prior and Informed Consent in Africa: An Emerging Standard for Ex-
+tractive Industry Projects, Oxfam Report (2014), p. 16; Tara Ward, ‘The Right to Free, Prior and Informed
+Consent: Indigenous People’s Participation Rights within International Law’, Northwestern Journal of Inter-
+national Human Rights, 54, 2 (2011), pp. 18-20 and 54.
+cxxviii
+        Ashukem, ‘Included or Excluded’, p. 12.
+cxxix
+       Although the African Charter does not expressly refer to FPIC it enshrines a variety of rights that are
+instrumental to FPIC, including the right to property (in article 14), the right to self determination (in article
+20(1)), the right to natural resources (in article 21) and the right to development (in article 22(2)). See
+Ashukem, ‘Included or Excluded’, pp. 10-12. See also African Commission on Human and Peoples’ Rights
+(ACHPR), Centre for Minority Rights Development (Kenya) and Minority Rights Group International on be-
+half of Endorois Welfare Council v. Kenya, 276/2003, para. 291, where the African Commission noted that
+the right to development includes FPIC.
+cxxx
+       Although South Africa has not ratified the UN Declaration on the Rights of Indigenous Peoples or ILO
+Convention 169, it has expressed its support of the UN Declaration on the Rights of Indigenous Peoples.
+cxxxi
+       See Hernando De Soto, The Other Path (New York, 1989); and Hernando De Soto, The Mystery of Capi-
+tal: Why Capitalism Trumps in the West and Fails Everywhere Else (London, 2000).
+cxxxii
+        John W. Bruce, ‘Simple Solutions to Complex Problems: Land Formalization as a “Silver Bullet”’, in Jan
+Michiel Otto and André Hoekema (eds.), Fair Land Governance: How to Legalize Land Rights for Rural De-
+velopment (Leiden, 2012), pp. 31-56; Celestine Nyamu Musembi, ‘De Soto and Land Relations in Rural Afri-
+ca: Breathing Life into Dead Theories about Property Rights’, Third World Quarterly, 28, 8 (2007), pp. 1457-
+1478.
+cxxxiii
+        Bruce, ‘Simple Solutions to Complex Problems’, pp. 31-56.
+cxxxiv
+        Bruce, ‘Simple Solutions to Complex Problems’, pp. 31-56.
+cxxxv
+        Nyamu Musembi, ‘De Soto and Land Relations in Rural Africa’, pp. 1460-1462.
+cxxxvi
+        Bruce, ‘Simple Solutions to Complex Problems’, pp. 31-56.
+cxxxvii
+         Bruce, ‘Simple Solutions to Complex Problems’, pp. 31-56.
+cxxxviii
+         Bruce, ‘Simple Solutions to Complex Problems’, pp. 31-56.
+cxxxix
+        Bruce, ‘Simple Solutions to Complex Problems’, pp. 31-56. See also Nyamu Musembi, ‘De Soto and
+Land Relations in Rural Africa’, pp. 1461-1462; Benjaminsen, Holden, Lund and Sjaastad, ‘Formalisation of
+Land Rights’, pp. 28-35.
+cxl
+     Nyamu Musembi, ‘De Soto and Land Relations in Rural Africa’, pp. 1465-1467. See also Bruce, ‘Simple
+Solutions to Complex Problems’, who makes a similar point.
+cxli
+     ‘Of Property and Poverty’, The Economist (26 August 2006), pp. 11-12.
+
+                                                                                                              37
+cxlii
+       See also Nyamu Musembi, ‘De Soto and Land Relations in Rural Africa’, p. 1466.
+cxliii
+       Nyamu Musembi, ‘De Soto and Land Relations in Rural Africa’, pp. 1469-1470; Bruce, ‘Simple Solutions
+to Complex Problems’, pp. 31-56.
+cxliv
+       Ben Cousins, Tessa Cousins, Donna Hornby, Rosalie Kingwill, Lauren Royston and Warren Smit, Will For-
+malising Property Rights Reduce Poverty in South Africa’s ‘Second Economy’? Questioning the Mythologies
+of Hernando de Soto, PLAAS Policy Brief No 18 (2005).
+cxlv
+       Admos Chimhowu and Phil Woodhouse, ‘Customary vs Private Property Rights? Dynamics and Trajecto-
+ries of Vernacular Land Markets in Sub-Saharan Africa’, Journal of Agrarian Change, 6, 3 (2006), p. 363. See
+also Nyamu Musembi, ‘De Soto and Land Relations in Rural Africa’, pp. 1469-1470.
+cxlvi
+       Nyamu Musembi, ‘De Soto and Land Relations in Rural Africa’, p. 1469.
+cxlvii
+        Martin Chanock, The Making of South African Legal Culture: Fear, Favour and Prejudice (Cambridge,
+2001); Weinberg, Communal Land Tenure.
+cxlviii
+        Rosalie Kingwill, ‘Custom-building Freehold Title: The Impact of Family Values on Historical Ownership
+in the Eastern Cape’, in Aninka Claassens and Ben Cousins (ed.), Land, Power and Custom: Controversies
+generated by South Africa’s Communal Land Rights Act (Cape Town, 2008).
+cxlix
+       See Kingwill, ‘Custom-building Freehold Title’; Aninka Claassens ‘Recent Changes in Women’s Land
+Rights and Contested Customary Law in South Africa’, Journal of Agrarian Change, 13 (2013), p. 71.
+cl
+    Debbie Budlender, Sibongile Mgweba, Ketleetso Motsepe and Leilanie Williams, ‘Women, Land and Cus-
+tomary Law’, Community Agency for Social Enquiry (CASE) Report (2011).
+cli
+     See, generally, Budlender, Mgweba, Motsepe and Williams, Women, Land and Customary Law; Aninka
+Claassens, ‘Recent Changes in Women’s Land Rights’, pp. 71-92; and Nolundi Luwaya, ‘Women’s Strategies
+in Accessing Land in Rural South Africa’ (2014), a paper presented at the New York Law School Law Re-
+view’s Conference on ‘Twenty Years of South African Constitutionalism’ held in New York on 14-16 Novem-
+ber 2014.
+clii
+      Budlender, Mgweba, Motsepe and Williams, Women, Land and Customary Law; Claassens, ‘Recent
+Changes in Women's Land Rights’; Luwaya, ‘Women's Strategies in Accessing Land’.
+cliii
+      Cousins and Hall, Rights without Illusions, p. 9.
+cliv
+      Communal Land Rights Act 11 of 2004; Ingrid Yngstrom ‘Women, Wives and Land Rights in Africa: Situat-
+ing Gender Beyond the Household in the Debate over Land Policy and Changing Tenure Systems’, Oxford
+Development Studies, 30 (2002), p. 21.
+clv
+      Aninka Claassens and Sizani Ngubane, ‘Women, Land and Power: The Impact of the Communal Land
+Rights Act’, in Aninka Claassens and Ben Cousins (ed.), Land, Power and Custom: Controversies generated
+by South Africa’s Communal Land Rights Act (Cape Town, 2008); Tongoane and Others v National Minister
+for Agriculture and Land Affairs and Others 2010 (6) SA 214 (CC).
+clvi
+      Submissions made by the Rural Women’s Movement of KZN on the Traditional Courts Bill (2012) to Se-
+lect Committee on Justice and Constitutional Development (on file with the authors)
+clvii
+       Ben Cousins, ‘Characterising ‘Communal’ Tenure’; Rosalie Kingwill, ‘In the shadows of the cadastre: fami-
+ly law and custom in Rabula and Fingo Village.’, Paul Hebinck and Ben Cousins (ed.), In the shadow of policy:
+everyday practices in South African land and agrarian reform (Johannesburg, 2013); Aninka Claassens and
+Sindiso Mnisi, ‘Rural Women Redefining Land Rights in the Context of Living Customary Law’, South African
+Journal on Human Rights, 25, 3, (2009), p. 491.
+clviii
+       Edward Lahiff, ‘Land Reform in the Eastern Cape: The On-Going Struggle for Resources and Secure
+Rights’, Social Dynamics, 31, 1 (2005); Manona, ‘“Informal” Land Rights under Siege’.
+clix
+      Lahiff, ‘Land Reform in the Eastern Cape’; Manona, ‘“Informal” Land Rights under Siege’.
+clx
+      Manona, ‘“Informal” Land Rights under Siege’.
+clxi
+      Manona, ‘“Informal” Land Rights under Siege’.
+clxii
+       Manona, ‘“Informal” Land Rights under Siege’.
+clxiii
+       Manona, ‘“Informal” Land Rights under Siege’.
+clxiv
+       Manona, ‘“Informal” Land Rights under Siege’.
+clxv
+       Manona, ‘“Informal” Land Rights under Siege’.
+clxvi
+       Weinberg, Communal Land Tenure.
+
+                                                                                                            38
+clxvii
+        Leibbrandt, Woolard, Finn and Argent, Trends in South African Income Distribution and Poverty, p. 10.
+clxviii
+        Noble, Zembe and Wright, ‘Poverty May Have Declined, but Poverty and Deprivation are Still Worst in
+the Former Homelands’, p. 1. See also Noble and Wright, ‘Using Indicators of Multiple Deprivation to
+Demonstrate the Spatial Legacy of Apartheid in South Africa’, pp. 187-201.
+clxix
+       Noble, Zembe and Wright, ‘Poverty May Have Declined, but Poverty and Deprivation are Still Worst in
+the Former Homelands’, p. 1. See Noble and Wright, ‘Using Indicators of Multiple Deprivation to Demon-
+strate the Spatial Legacy of Apartheid in South Africa’, pp. 187-201.
+clxx
+      Noble, Zembe and Wright, ‘Poverty May Have Declined, but Poverty and Deprivation are Still Worst in
+the Former Homelands’, p. 1.
+clxxi
+       Noble, Zembe and Wright, ‘Poverty May Have Declined, but Poverty and Deprivation are Still Worst in
+the Former Homelands’, p. 3.
+clxxii
+        Noble, Zembe and Wright, ‘Poverty May Have Declined, but Poverty and Deprivation are Still Worst in
+the Former Homelands’, p. 7.
+clxxiii
+        Noble, Zembe and Wright, ‘Poverty May Have Declined, but Poverty and Deprivation are Still Worst in
+the Former Homelands’, pp. 7-8.
+clxxiv
+        Francis, Poverty, pp. 1-2.
+clxxv
+        Dieter Von Fintel and Louw Pienaar, ‘How Did Hunger Levels in the Former Homelands Catch Up with
+the Rest of South Africa? A Hundred Years after the Land Act of 2013’, Econ 3x3, (published online 14 Janu-
+ary 2014), pp. 4 and 7.
+clxxvi
+        Von Fintel and Pienaar, ‘How Did Hunger Levels in the Former Homelands Catch Up with the Rest of
+South Africa?’, p. 7; Francis, Poverty.
+clxxvii
+         Von Fintel and Pienaar, ‘How Did Hunger Levels in the Former Homelands Catch Up with the Rest of
+South Africa?’, p. 7; Francis, Poverty.
+clxxviii
+         Peter Alexander, 'Rebellion of the Poor: South Africa’s Service Delivery Protests - A Preliminary Analy-
+sis’, Review of African Political Economy, 37 (2010), pp. 25-37.
+clxxix
+        Francis, Poverty.
+clxxx
+        Andries du Toit, Chronic and Structural Poverty in South Africa: Challenges for Action and Research,
+Chronic Poverty Research Centre Working Paper No 56 (2005); Francis, Poverty.
+clxxxi
+        Francis, Poverty.
+clxxxii
+         Francis, Poverty.
+clxxxiii
+         Weinberg, Communal Land Tenure.
+clxxxiv
+         Bakgatla-Ba-Kgafela Communal Property Association v Bakgatla-Ba-Kgafela Tribal Authority and Oth-
+ers 2015 (6) SA 32 (CC).
+clxxxv
+         Alexkor Ltd and Another v Richtersveld Community and Others 2004 (5) SA 460 (CC).
+
+
+
+
+                                                                                                             39
+8.      Bibliography
+
+Books and chapters in books
+
+Bennet, Tom W. Customary Law in South Africa (Lansdowne, 2004).
+Bruce, John W. ‘Simple Solutions to Complex Problems: Land Formalization as a “Silver Bullet”.’ In Otto, Jan
+   Michiel and Hoekema, André (eds.). Fair Land Governance: How to Legalize Land Rights for Rural Devel-
+   opment (Leiden, 2012), pp. 31-56.
+Budlender, Geoff and Latsky, Johan. ‘Unravelling Rights to Land and Agricultural Activity in Rural Race
+   Zones.’ In Michael de Klerk (ed.). Harvest of Discontent: The Land Question in South Africa (Cape Town,
+   1991), pp. 115-137.
+Chanock, Martin. Land, Custom and Social Order: The Colonial Experience in Malawi and Zambia (Cam-
+   bridge, 1985).
+Chanock, Martin. The Making of South African Legal Culture: Fear, Favour and Prejudice (Cambridge, 2001).
+Claassens, Aninka. ‘South African Proposals for Tenure Reform: The Draft Land Rights Bill.’ In Toulon, Camil-
+   la and Quan, Julian F. (eds.). Evolving Land Rights, Policy and Tenure in Africa (London, 2000), pp. 247-
+   266.
+Claassens, Aninka and Gilfillan, Durkje. ‘The Kalkfontein Land Purchases: Eighty Years On and Still Struggling
+   for Ownership.’ In Claassens, Aninka and Cousins, Ben (eds.). Land, Power and Custom: Controversies
+   Generated by South Africa’s Communal Land Rights Act (Cape Town, 2008), pp. 295-314.
+Claassens, Aninka and Ngubane, Sizani. ‘Women, Land and Power: The Impact of the Communal Land
+   Rights Act.’ In Claassens, Aninka and Cousins, Ben (eds.). Land, Power and Custom: Controversies gener-
+   ated by South Africa’s Communal Land Rights Act (Cape Town, 2008), pp. 154-183.
+Cousins, Ben. ‘Characterising “Communal” Tenure: Nested Systems and Flexible Boundaries.’ In Claassens,
+   Aninka and Cousins, Ben (eds.). Land, Power and Custom: Controversies Generated by South Africa’s
+   Communal Land Rights Act (Cape Town, 2008), pp. 109-137.
+Cousins, Ben and Hall, Ruth. ‘Rural Land Tenure: The Potential and Limits of Rights-Based Approaches.’ In
+   Langford, Malcolm, Cousins, Ben, Dugard, Jackie and Madlingozi, Tshepo (eds.). Symbols or Substance?
+   The Role and Impact of Socio-Economic Rights Strategies in South Africa (Cambridge, 2013), pp. 157-186.
+Cross, Catherine. ‘Landholding Systems in African Rural Areas.’ In De Klerk, Michael (ed.). Harvest of Discon-
+   tent: The Land Question in South Africa (Cape Town, 1991), pp. 63-97.
+De Soto, Hernando. The Mystery of Capital: Why Capitalism Trumps in the West and Fails Everywhere Else
+   (London, 2000).
+De Soto, Hernando. The Other Path (New York, 1989).
+Kerr, Alastair J. The Customary Law of Immovable Property and Succession, 3 ed, (Grahamstown, 1990).
+Kingwill, Rosalie. ‘Custom-building Freehold Title: The Impact of Family Values on Historical Ownership in
+   the Eastern Cape.’ In Claassens, Aninka and Cousins, Ben (ed.). Land, Power and Custom: Controversies
+   generated by South Africa’s Communal Land Rights Act (Cape Town, 2008).
+Kingwill, Rosalie. ‘In the shadows of the cadastre: family law and custom in Rabula and Fingo Village.’ In
+   Hebinck, Paul and Cousins, Ben (ed.). In the shadow of policy: everyday practices in South African land
+   and agrarian reform (Johannesburg, 2013).
+Liebenberg, Sandra. Socio-Economic Rights: Adjudication under a Transformative Constitution (Claremont,
+   2010).
+Lund, Christian. ‘Negotiating Property Institutions: On the Symbiosis of Property and Authority in Africa.’ In
+   Juul, Kristine and Lund, Christian (eds.). Negotiating Property in Africa (Portsmouth, 2002), pp. 11-43.
+                                                                                                          40
+Mahomed, Ashraf. Understanding Land Tenure Law: Commentary and Legislation (Cape Town, 2009).
+Mostert, Hanri. ‘Customary and Statutory Perceptions of Tenure Security in South Africa.’ In Colombi-
+   Ciacchi, Aurelia (ed.). Governance Meets Law (forthcoming, Cambridge, 2014).
+Okoth-Ogendo, Hastings W. O. ‘The Nature of Land Rights under Indigenous Law in Africa.’ In Claassens,
+   Aninka and Cousins, Ben (eds.). Land, Power and Custom: Controversies Generated by South Africa’s
+   Communal Land Rights Act (Cape Town, 2008), pp. 95-108.
+Peters, Pauline. ‘The Limits of Negotiability: Security, Equity and Class Formation in Africa’s Land System’. In
+   Juul, Kristine and Lund, Christian (eds.). Negotiating Property in Africa (Portsmouth, 2002), pp. 45-66.
+
+Journal articles
+
+Ashukem, Jean-Claude N. ‘Included or Excluded: An Analysis of the Application of the Free, Prior and In-
+   formed Consent Principle in land Grabbing Cases in Cameroon.’ Potchefstroom Electronic Law Journal,
+   19 (2016), pp. 1-29: http://www.saflii.org/za/journals/PER/2016/28.pdf.
+Alexander, Peter. 'Rebellion of the Poor: South Africa’s Service Delivery Protests - A Preliminary Analysis.’
+   Review of African Political Economy, 37 (2010), pp. 25-37: http://www.cetri.be/IMG/pdf/alexander-
+   rebellion.pdf.
+Benjaminsen, Tor A., Holden, Stein, Lund, Christian and Sjaastad, Espen. ‘Formalisation of Land Rights:
+   Some Empirical Evidence from Mali, Niger and South Africa.’ Land Use Policy, 26 (2008), pp. 28-35.
+Borras, Saturnine M. Jr, Hall, Ruth, Scoones, Ian, White, Ben and Wolford, Wendy. ‘Towards a Better Un-
+   derstanding of Global Land Grabbing: An Editorial Introduction.’ Journal of Peasant Studies, 28, 2 (2011),
+   pp. 209-216: https://core.ac.uk/download/pdf/20116659.pdf.
+Chimhowu, Admos and Woodhouse, Phil. ‘Customary vs Private Property Rights? Dynamics and Trajectories
+   of Vernacular Land Markets in Sub-Saharan Africa.’ Journal of Agrarian Change, 6, 3 (2006), pp. 346-371.
+Claassens, Aninka. ‘Contested Power and Apartheid Tribal Boundaries: The Implications of “Living Custom-
+   ary Law” for Indigenous Accountability Mechanisms.’ Acta Juridica (2011), pp. 174-209.
+Claassens, Aninka. ‘Recent Changes in Women’s Land Rights and Contested Customary Law in South Africa.’
+   Journal of Agrarian Change, 13 (2013), pp. 71-92.
+Claassens, Aninka and Mnisi, Sindiso. ‘Rural Women Redefining Land Rights in the Context of Living Cus-
+   tomary Law.’ South African Journal on Human Rights, 25, 3 (2009), pp. 419-516.
+Du Plessis, Wilhelmina. ‘African Indigenous Land Rights in a Private Ownership Paradigm.’ Potchefstroom
+   Electronic Law Journal, 14, 7 (2011), pp. 45-69: http://www.saflii.org/za/journals/PER/2011/39.pdf.
+Lahiff, Edward. ‘Land Reform in the Eastern Cape: The On-Going Struggle for Resources and Secure Rights.’
+   Social Dynamics, 31, 1 (2005), pp. 39-58.
+Mutangadura, Gladys. "The Incidence of Land Tenure Insecurity in South Africa: Policy Implications for Sus-
+   taining Development.” Natural Resources Forum, 31 (2007), pp. 176-187.
+Noble, Michael and Wright, Gemma. ‘Using Indicators of Multiple Deprivation to Demonstrate the Spatial
+   Legacy of Apartheid in South Africa.’ Social Indicators Research, 112, 1 (2013), pp. 187-201.
+Noble, Michael, Zembe, Wanga and Wright, Gemma. ‘Poverty May Have Declined, but Poverty and Depriva-
+   tion are Still Worst in the Former Homelands.’ Econ 3x3 (published online 27 May 2014):
+   http://www.econ3x3.org/article/poverty-may-have-declined-deprivation-and-poverty-are-still-worst-
+   former-homelands.
+Nyamu Musembi, Celestine. ‘De Soto and Land Relations in Rural Africa: Breathing Life into Dead Theories
+   about Property Rights.’ Third World Quarterly, 28, 8 (2007), pp. 1457-1478.
+
+
+                                                                                                            41
+Pienaar, Juanita M. “Tenure Reform in South Africa: Overview and Challenges.” Speculum Juris, 1 (2011),
+   pp. 108-133.
+De Schutter, Oliver. ‘How Not to Think of Land-Grabbing: Three Critiques of Large-Scale Investments in
+   Farmland.’ Journal of Peasant Studies, 38, 2 (2011), pp. 249-279.
+Von Fintel, Dieter and Pienaar, Louw. ‘How Did Hunger Levels in the Former Homelands Catch Up with the
+   Rest of South Africa? A Hundred Years after the Land Act of 2013.’ Econ 3x3, (published online 14 Janu-
+   ary 2014): http://www.econ3x3.org/article/how-did-hunger-levels-former-homelands-catch-rest-south-
+   africa-hundred-years-after-land-act.
+Ward, Tara. ‘The Right to Free, Prior and Informed Consent: Indigenous People’s Participation Rights within
+   International Law.’ Northwestern Journal of International Human Rights, 54, 2 (2011), pp. 54-84:
+   http://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=1125&context=njihr.
+Wily, Liz A. ‘Looking Back to See Forward: The Legal Niceties of Land Theft in Land Rushes.’ Journal of Peas-
+   ant Studies, 39 (2012), pp. 751-775.
+Yngstrom, Ingrid. ‘Women, Wives and Land Rights in Africa: Situating Gender Beyond the Household in the
+   Debate over Land Policy and Changing Tenure Systems.’ Oxford Development Studies, 30 (2002), pp. 21-
+   40.
+
+Research reports, working papers and resources
+
+Adams, Martin. ‘Tenure Security, Livelihoods and Sustainable Land Use in Southern Africa’ (2001), an un-
+   published paper presented at the Conference on Land Reform and Poverty Alleviation in Southern Africa
+   convened by the Southern African Regional Poverty Network (SARPN), Human Sciences Research Coun-
+   cil (HSRC), Pretoria, 4-5 June 2001.
+Alcock, Rauri and Hornby, Donna. Traditional Land Matters: A Look into Land Administration Systems in
+   Tribal Areas in KwaZulu-Natal. Legal Entity Assessment Project (LEAP) Occasional Paper (2004):
+   http://www.sarpn.org/documents/d0000835/AFRA_Traditional_land_2004.pdf.
+Budlender, Debbie, Mgweba, Sibongile, Motsepe, Ketleetso and Williams, Leilanie. ‘Women, Land and Cus-
+   tomary      Law.’     Community      Agency     for    Social    Enquiry     (CASE)     Report    (2011):
+   http://www.cls.uct.ac.za/usr/lrg/downloads/Women_and_Land.pdf.
+Centre for Law and Society (CLS). ‘Land Rights under the Ingonyama Trust.’ CLS Factsheet (February 2015):
+   http://www.larc.uct.ac.za/sites/default/files/image_tool/images/347/FactSheets/FactsheetIngonyama_
+   Final_Feb2015.pdf.
+Centre for Law and Society (CLS). ‘Community Property Associations.’ CLS Fact Sheet (February 2015).
+Claassens, Aninka. ‘Land Tenure in Communal Areas: Progress and Policy Constraints’ (2016), an un-
+   published presentation to the Parliamentary Portfolio Committee on Rural Development and Land Re-
+   form, Cape Town, 2016.
+Cousins, Ben, Alcock, Rauri, Dladla, Ngdidi, Hornby, Donna, Masondo, Mphethethi, Mbatha, Gugu, Mveli,
+   Makhosi and Alcock, Creina. Imithetho yomhlaba yaseMsinga: The Living Law of Msinga, KwaZulu-Natal.
+   PLAAS Research Report No 43 (2011): http://www.plaas.org.za/sites/default/files/publications-
+   pdf/RR43.pdf.
+Cousins, Ben and Hall, Ruth. Rights without Illusions: The Potentials and Limits of Rights-based Approaches
+   to Securing Land Tenure in Rural South Africa. PLAAS Working Paper No 18 (2011):
+   http://www.plaas.org.za/sites/default/files/publications-pdf/WP18.pdf.
+
+
+
+                                                                                                         42
+Cousins, Ben, Cousins, Tessa, Hornby, Donna, Kingwill, Rosalie, Royston, Lauren and Smit, Warren. Will
+   Formalising Property Rights Reduce Poverty in South Africa’s ‘Second Economy’? Questioning the My-
+   thologies of Hernando de Soto. PLAAS Policy Brief No 18 (2005).
+Du Toit, Andries. Chronic and Structural Poverty in South Africa: Challenges for Action and Research. Chron-
+   ic        Poverty       Research       Centre        Working        Paper       No        56       (2005):
+   http://www.chronicpoverty.org/uploads/publication_files/WP56_duToit.pdf.
+Emerton, Lucy. Quantifying the Impacts of Barriers to Pro-Poor Forest Management: Livelihoods and Land-
+   scapes Strategy (2010).
+Francis, Elizabeth. Poverty: Causes, Responses and Consequences in Rural South Africa. Chronic Poverty Re-
+   search          Centre          (CPRC)        Working          Paper         No         60         (2006):
+   https://www.files.ethz.ch/isn/128166/WP60_Francis.pdf.
+Greenspan, Emily. Free, Prior and Informed Consent in Africa: An Emerging Standard for Extractive Industry
+   Projects. Oxfam Report (2014).
+Housing Development Agency (HDA). Informal Settlement Upgrading: Incrementally Upgrading Tenure un-
+   der                        Customary                         Administration                        (2015):
+   https://www.thehda.co.za/uploads/files/ISU_upgrading_tenure_publication_2015.pdf.
+Kariuki, Samuel M. ‘Failing to Learn from Failed Programmes? South African's Communal Land Rights Act.’
+   African Studies Centre (ASC) Working Paper (2004).
+Land and Accountability Research Centre (LARC). ‘Notes on the Traditional and Khoisan Leadership Bill [B
+   23–2015]’                                        (September                                         2016):
+   http://www.larc.uct.ac.za/sites/default/files/image_tool/images/347/FactSheets/Factsheets17/TKLB_Fa
+   ctsheet_English_Sept2016.pdf.
+Land and Accountability Research Centre (LARC). People’s Law Journal: Rural Land Justice (April 2016):
+   http://www.larc.uct.ac.za/sites/default/files/image_tool/images/347/NewsStories/Peoples-Law-
+   Journal-vol-IV-Digital-2.pdf.
+Land and Accountability Research Centre (LARC). ‘Submission on the Communal Property Associations
+   Amendment                   Bill,            2016’               (2              June               2016):
+   http://www.larc.uct.ac.za/sites/default/files/image_tool/images/347/Submissions/LARC%20Submission
+   %20CPA%20Amendment%20Bill_FINAL%20SUBMITTED1.pdf.
+Leibbrandt, Murray, Woolard, Ingrid, Finn, Arden and Argent, Jonathan. Trends in South African Income Dis-
+   tribution and Poverty since the Fall of Apartheid. OECD Social, Employment and Migration Working Pa-
+   pers No 101 (2010).
+Luwaya, Nolundi. ‘Women’s Strategies in Accessing Land in Rural South Africa’ (2014), a paper presented at
+   the New York Law School Law Review’s Conference on ‘Twenty Years of South African Constitutionalism’
+   held in New York on 14-16 November 2014: http://www.nylslawreview.com/wp-
+   content/uploads/sites/16/2014/11/Luwaya.pdf.
+Manona, Siyabu. ‘“Informal” Land Rights under Siege Eighteen Years into Democracy’ (2012), an un-
+   published paper presented at the Rural Women’s Action Research (RWAR) Programme Seminar Series at
+   the University of Cape Town, Cape Town, 30 March 2012.
+Weinberg, Tara. The Contested Status of Communal Land Tenure in South Africa, PLAAS Rural Status Report
+   3                     (2015):                    http://www.plaas.org.za/sites/default/files/publications-
+   pdf/PLAAS%20Rural%20Report%20Book%203%20-%20Tara%20-%20Web.pdf.
+World Bank. Rising Global Interest in Farmland: Can It Yield Sustainable and Equitable Benefits? (Washing-
+   ton D.C., 2010).
+
+
+                                                                                                         43
+Legislation, bills and draft legislation
+
+Bantu Authorities Act 68 of 1951.
+Constitution of the Republic of South Africa, 1996 (Constitution).
+Communal Land Rights Act 11 of 2004 (CLRA).
+Communal Property Associations Act 28 of 1996 (CPA Act).
+Communal Property Association Amendment Bill B12 of 2017 (CPA Amendment Bill).
+Interim Protection of Informal Land Rights Act 31 of 1996 (IPILRA).
+National Code of Zulu Law, Proc R151 of 1987.
+KwaZulu Ingonyama Trust Act KZ4 of 1994 (Ingonyama Trust Act).
+Spatial Planning and Land Use Management Act 16 of 2013 (SPLUMA).
+Traditional and Khoisan Leadership Bill B28 of 2015 (TKLB)
+Traditional Leadership and Governance Framework Act 41 of 2003 (TLGFA).
+Traditional Leadership and Governance Framework Act Amendment Bill B8 of 2017 (TLGFA Amendment
+   Bill).
+
+Policies and government documents
+
+Department of Land Affairs (DLA). White Paper on South African Land Policy (1997):
+   http://www.ruraldevelopment.gov.za/phocadownload/White-Papers/whitepaperlandreform.pdf.
+Department of Rural Development and Land Reform (DRDLR). ‘Communal Land Tenure Policy’ (2013).
+Department of Rural Development and Land Reform (DRDLR), ‘Draft Policy Paper: Communal Property As-
+   sociations     and      the      Rural       Economy       Transformation     Model’      (2014):
+   http://www.customcontested.co.za/wp-content/uploads/2014/09/DRDLR-14-MAY-2014-CPA-DRAFT-
+   POLICY-PAPER.pdf.
+Ingonyama Trust Board. ‘Annual Report 2011/2012’ (2012).
+Ingonyama Trust Board. ‘Annual Report 2012/2013’ (2013).
+Ingonyama Trust Board. ‘Annual Report April 2014 to March 2015’ (2015).
+
+Case law
+
+Alexkor Ltd and Another v Richtersveld Community and Others 2004 (5) SA 460 (CC):
+   http://www.saflii.org/za/cases/ZACC/2003/18.html.
+Bakgatla-Ba-Kgafela Communal Property Association v Bakgatla-Ba-Kgafela Tribal Authority and Others
+   2015 (6) SA 32 (CC): http://www.saflii.org/za/cases/ZACC/2015/25.html.
+Certification of the Constitution of the Republic of South Africa, 1996 (4) SA 744 (CC):
+   http://www.saflii.org/za/cases/ZACC/1996/26.html.
+Ingonyama Trust v eThekwini Municipality 2013 (1) SA 564 (SCA).
+Tongoane and Others v National Minister for Agriculture and Land Affairs and Others 2010 (8) BCLR 838
+   (GNP): http://www.saflii.org/za/cases/ZAGPPHC/2009/127.html.
+Tongoane and Others v National Minister for Agriculture and Land Affairs and Others 2010 (6) SA 214 (CC):
+   http://www.saflii.org/za/cases/ZACC/2010/10.html.
+
+Popular media
+
+
+                                                                                                     44
+Clark, Michael. ‘Choosing chief over the people’, Business Day (15 July 2015):
+   http://www.customcontested.co.za/choosing-chiefs-over-the-people/.
+Dladla, Sifiso. ‘Community Celebrates as iron mine plan shelved.’ Custom Contested (published online 29
+   July 2016): http://www.customcontested.co.za/community-celebrates-iron-mine-plan-shelved/.
+‘Of Property and Poverty’. The Economist (26 August 2006), pp. 11-12.
+Timse, Tabelo. ‘King Trust sells people out to mining.’ Mail & Guardian (published online 5 June 2015):
+   http://mg.co.za/article/2015-06-04-kings-trust-sells-people-out-to-mining.
+Yeni, Stha. ‘Bayede Newspaper, traditional leaders and mining deals in KwaZulu-Natal.’ Custom Contested
+   (published online 25 August 2015): http://www.customcontested.co.za/bayede-newspaper-traditional-
+   leaders-and-mining-deals-in-kwazulu-natal/.
+
+International and regional instruments
+
+African Union. African Charter on Human and Peoples’ Rights (1981): http://www.humanrights.se/wp-
+   content/uploads/2012/01/African-Charter-on-Human-and-Peoples-Rights.pdf.
+Food and Agriculture Organization (FAO). Voluntary Guidelines on the Responsible Governance of Tenure of
+   Land, Fisheries and Forests in the Context of National Food Security (2012):
+   http://www.fao.org/docrep/016/i2801e/i2801e.pdf.
+International Labour Organization (ILO). ILO Convention 169: Concerning Indigenous and Tribal People in
+   Independent Countries (1989).
+United Nations Committee on Economic, Social and Cultural Rights. ‘General Comment No. 14: The Right to
+   the    Highest    Attainable    Standard    of    Health’    (2000),    UN     Doc.   E/C.12/2000/4:
+   http://www.refworld.org/pdfid/4538838d0.pdf.
+United Nations General Assembly. Declaration on the Rights of Indigenous and Tribal People (2007):
+      http://www.un.org/esa/socdev/unpfii/documents/DRIPS_en.pdf.
+
+
+
+
+                                                                                                    45
+

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "greyscienx",
+  "version": "1.0.0",
+  "description": "Search and trace the GreyScienx public research corpus with visible assumptions, evidence status and limitations.",
+  "author": {
+    "name": "GreyScienx"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "GreyScienx",
+        "shortDescription": "Trace research, assumptions and modelled results",
+        "longDescription": "Search GreyScienx studies, retrieve manuscripts and evidence records, compare papers, and trace claims to their assumptions, modelled results and limitations.",
+        "developerName": "GreyScienx",
+        "category": "Scientific Research",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "Find GreyScienx research about retirement sustainability and explain its assumptions.",
+          "Compare two GreyScienx studies, including shared assumptions and limitations.",
+          "Trace a GreyScienx claim to its evidence, model and main limitation."
+        ],
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

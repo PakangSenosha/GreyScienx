@@ -1,0 +1,315 @@
+{
+  "schema_version": "GreyScienxModelReproduction 1.0",
+  "generated_at": "2026-09-28T22:04:36.643Z",
+  "isolation": "Each model ran in a temporary copy of its source package with MPLBACKEND=Agg.",
+  "compared_output": "Generated primary JSON was structurally compared with the published source-package baseline.",
+  "passed": true,
+  "model_count": 29,
+  "passed_models": 29,
+  "failed_models": 0,
+  "models": [
+    {
+      "package": "capital-goods-economy",
+      "output": "model_results.json",
+      "model_path": "research/source/capital-goods-economy/model.py",
+      "baseline_path": "research/source/capital-goods-economy/model_results.json",
+      "model_sha256": "96467d5ea796b706ff3e1672979b2f605cdc70461f1aeb5e0ac6c81de164b3c5",
+      "baseline_sha256": "a563db05cff7e62fca0334d64d0923b0640c9d7edac93b2b4e4c879e07627d8b",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "consumption-or-capital",
+      "output": "model_results.json",
+      "model_path": "research/source/consumption-or-capital/model.py",
+      "baseline_path": "research/source/consumption-or-capital/model_results.json",
+      "model_sha256": "53a9cec1a39111f74da212d1c8ea669d8ee2399fa7711aeb0608812854e0bc11",
+      "baseline_sha256": "e8c18ee6129ba5bfda7947fa5fa4018403be3ef87d14a389f1250ce97fb516aa",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "critical-minerals-industrial-complex",
+      "output": "model_results.json",
+      "model_path": "research/source/critical-minerals-industrial-complex/model.py",
+      "baseline_path": "research/source/critical-minerals-industrial-complex/model_results.json",
+      "model_sha256": "de7c86159ca628b2fbfe44dcf5487e248a9e46c7d9978d50a43a9d0e2e5cff5a",
+      "baseline_sha256": "4ae9f9a7b22a986d201a3330abd6f56c05bf6904731791cb334e4bf14be9c4ed",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "factory-for-african-urbanisation",
+      "output": "model_results.json",
+      "model_path": "research/source/factory-for-african-urbanisation/model.py",
+      "baseline_path": "research/source/factory-for-african-urbanisation/model_results.json",
+      "model_sha256": "42148ac5f91de1813b0777bdcdeb09a4db8596a432a69f4ed8a9fad912267a92",
+      "baseline_sha256": "23efda6153636e13f4996934dc6373c50a1643ffe8d98cbd9812c6602f26515c",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "first-three-years-advantage",
+      "output": "results/summary.json",
+      "model_path": "research/source/first-three-years-advantage/model.py",
+      "baseline_path": "research/source/first-three-years-advantage/results/summary.json",
+      "model_sha256": "5c61a437cfe592b30c67471e32d214906f7f968b47ed65d8c96135955f7a07f2",
+      "baseline_sha256": "5b03f7bc14f2b14a46d91f6fe7a20676287beca5ca72e6f36fafb6b25228f5fa",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "inherited-geography",
+      "output": "model_results.json",
+      "model_path": "research/source/inherited-geography/model.py",
+      "baseline_path": "research/source/inherited-geography/model_results.json",
+      "model_sha256": "eff76d010752009e4d606c5303e3bb175fdb0d5985c23b8a0cdda4d5c27f0910",
+      "baseline_sha256": "28df402048c07144383f98d7ace31c515631052522def525e2e7f9679fc2abd2",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "johannesburg-financial-capital",
+      "output": "model_results.json",
+      "model_path": "research/source/johannesburg-financial-capital/model.py",
+      "baseline_path": "research/source/johannesburg-financial-capital/model_results.json",
+      "model_sha256": "85f3da19440e6e47431fdb48ac6d1ad971afb9d9323af7711d280b8d8c5240f9",
+      "baseline_sha256": "420b621ff66857144937d56429811d8ba5ca04d2b33c0dbaaa96cabf31410167",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "manganese-to-battery-economy",
+      "output": "model_results.json",
+      "model_path": "research/source/manganese-to-battery-economy/model.py",
+      "baseline_path": "research/source/manganese-to-battery-economy/model_results.json",
+      "model_sha256": "d0f03172ca0b4a358b4e79803321fa2e8e7ca9999c0ab61de6cd47a0539e6625",
+      "baseline_sha256": "1501f1f870a88481bf2926ef47030e8045e7c609d7aeb310f7cb9647bb3e4b80",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "mineral-sovereign-wealth-fund",
+      "output": "model_results.json",
+      "model_path": "research/source/mineral-sovereign-wealth-fund/model.py",
+      "baseline_path": "research/source/mineral-sovereign-wealth-fund/model_results.json",
+      "model_sha256": "9b2795f5229d567b5813c934035026ea9fd0b5aec939817061d154844245a287",
+      "baseline_sha256": "1e9ad118e7ce580defacc77e8e873aa5188885125c42e4ec3e96a0983e75cf9b",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "platinum-to-hydrogen-economy",
+      "output": "model_results.json",
+      "model_path": "research/source/platinum-to-hydrogen-economy/model.py",
+      "baseline_path": "research/source/platinum-to-hydrogen-economy/model_results.json",
+      "model_sha256": "b7bd9d4b40e4aedae57cd58736b1a6a277482bde3e785068b8d308aaabdf5931",
+      "baseline_sha256": "f3179f7ca454068d4ee3505aca465c07f80c06e58ccacb0c38a849e9647bfb19",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "public-capital-multiplier",
+      "output": "model_results.json",
+      "model_path": "research/source/public-capital-multiplier/model.py",
+      "baseline_path": "research/source/public-capital-multiplier/model_results.json",
+      "model_sha256": "1117584f089d80c5d58d7ca813458aec2cae6ef8f01f97b03d9b080fec0597b5",
+      "baseline_sha256": "e32d60cbc0e844a1ec34e46fe0a7bd8d2cde02b3f0c2ed664cde0bba89e4ada4",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "r200-billion-factory",
+      "output": "model_results.json",
+      "model_path": "research/source/r200-billion-factory/model.py",
+      "baseline_path": "research/source/r200-billion-factory/model_results.json",
+      "model_sha256": "fe4fa75af9893ed84b6471a4810f4e042a32af63275b14983989adf32e30304f",
+      "baseline_sha256": "4533c317a4ac7282dc2df4bc9f6b6444429b87faa05b6707128cd690e1d311f7",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "r350-industrialisation-counterfactual",
+      "output": "model_results.json",
+      "model_path": "research/source/r350-industrialisation-counterfactual/model.py",
+      "baseline_path": "research/source/r350-industrialisation-counterfactual/model_results.json",
+      "model_sha256": "402cfc9927fbe1734e16c2c3b1c25b7403851e4cb206262090f2721fa1979b8c",
+      "baseline_sha256": "9660463e0a1e0f6d569c4535e810400902e9619e30274d3c059eaba50b8cdf76",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "south-africa-richer-africa",
+      "output": "model_results.json",
+      "model_path": "research/source/south-africa-richer-africa/model.py",
+      "baseline_path": "research/source/south-africa-richer-africa/model_results.json",
+      "model_sha256": "937537f16c185fd734b9cc600293fa815dcca1e0511dd7ed1de72371bb2d2733",
+      "baseline_sha256": "353e235580af2814a6c5a7d4d684275d6804097f07d4f0ed0796d9c142b3acf8",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "srd-welfare-cost",
+      "output": "model_results.json",
+      "model_path": "research/source/srd-welfare-cost/model.py",
+      "baseline_path": "research/source/srd-welfare-cost/model_results.json",
+      "model_sha256": "814d6489982f65f36bbae23d31b5c376d05ecd1f7b2ec95e65ca2e12a96fd5d5",
+      "baseline_sha256": "7f22a02a190309cd371818068737c8515d73f06ce851d9465d7bddacdc96647d",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "vanadium-grid-storage-economy",
+      "output": "model_results.json",
+      "model_path": "research/source/vanadium-grid-storage-economy/model.py",
+      "baseline_path": "research/source/vanadium-grid-storage-economy/model_results.json",
+      "model_sha256": "7a0685650b23bf5368918b51d609ba194fdefa8ee20f84732fc101c821603f76",
+      "baseline_sha256": "80dc4a4cef4cacdf11467daa540273460ccb7cc8c49949cc0543d27f8c2c3f85",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "economics-of-living-together",
+      "study_slug": "economics-of-living-together",
+      "output": "research/source/economics-of-living-together/model_results.json",
+      "model_path": "research/source/expanded_lifetime_model.py",
+      "baseline_path": "research/source/economics-of-living-together/model_results.json",
+      "model_sha256": "2840205743e21fa504e6e10e859cdb03a8ae85386cac96f472d1fb153fd324d6",
+      "baseline_sha256": "376c700492fdab55b365ca3bf6b478fe13cf09c15b77e187395f90d4035bffa1",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "retirement",
+      "study_slug": null,
+      "output": "research/work/retirement/model_results.json",
+      "model_path": "research/source/retirement_model.py",
+      "baseline_path": "research/source/retirement/model_results.json",
+      "model_sha256": "d54feecf11cfcff4f99a37410ff8747bd38ec75043716af6f82cbbc46968a086",
+      "baseline_sha256": "042b236b9555d71e80961d2a651dae0f46763a0f723d9c4743d11c92269052db",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "unemployment-pension",
+      "study_slug": null,
+      "output": "research/work/unemployment-pension/model_results.json",
+      "model_path": "research/source/unemployment_pension_model.py",
+      "baseline_path": "research/source/unemployment-pension/model_results.json",
+      "model_sha256": "a5feca1d6ee088ae81d2dafc5d97000edfa38c3956c8fb8ab0afd5ecbb7eba79",
+      "baseline_sha256": "1021b6bde83b56b101e1974f3b00aca5b610a9ff93c239010e2f09228c716fa8",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "retirement-age",
+      "study_slug": null,
+      "output": "research/work/retirement-age/model_results.json",
+      "model_path": "research/source/retirement_age_model.py",
+      "baseline_path": "research/source/retirement-age/model_results.json",
+      "model_sha256": "a01de761c6a7c6c398777375bd14e98b6f79e9c69696f609db82791e194a771d",
+      "baseline_sha256": "6cd9da8e76d0a89cefa0c17675a41c6436ca29907e4e7463e8022a00b18f03ed",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "ageing-electorate",
+      "study_slug": null,
+      "output": "research/work/ageing-electorate/model_results.json",
+      "model_path": "research/source/ageing_electorate_model.py",
+      "baseline_path": "research/source/ageing-electorate/model_results.json",
+      "model_sha256": "1644051c1c207cd68f5e6f59a74ad9ea772b9a2366c98adbc5c657787d984b38",
+      "baseline_sha256": "2ad204dd6697d3086682cc630fa8021be3941c87efc1b7fbacceb882ff039631",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "emergency-ageing-austerity",
+      "study_slug": null,
+      "output": "research/work/emergency-ageing-austerity/model_results.json",
+      "model_path": "research/source/emergency_ageing_austerity_model.py",
+      "baseline_path": "research/source/emergency-ageing-austerity/model_results.json",
+      "model_sha256": "cc270f36e2ea9136f4440fc89b1b26d1ec6a5624772a5f743decd1f78eb6567d",
+      "baseline_sha256": "469c3cb0d231736c1b4210d42009e48c1f3d0adb42ff7c0b71c4a9aba4931c51",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "price-of-another-child",
+      "study_slug": null,
+      "output": "research/work/price-of-another-child/model_results.json",
+      "model_path": "research/source/price_of_another_child_model.py",
+      "baseline_path": "research/source/price-of-another-child/model_results.json",
+      "model_sha256": "f444bf30f971bffb9385aa99093b0eb774d2593865321d5efbdb5355b451f360",
+      "baseline_sha256": "1bc3c935324cd5d879ee30380b3ed5e597800737bedf962f529cdbf93407f406",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "hundred-year-life",
+      "study_slug": null,
+      "output": "research/work/hundred-year-life/model_results.json",
+      "model_path": "research/source/hundred_year_life_model.py",
+      "baseline_path": "research/source/hundred-year-life/model_results.json",
+      "model_sha256": "105d7769218a650a81463665677f88469bc8a939d2e4f9dbcb34660ba89e99bd",
+      "baseline_sha256": "f9d1cf5d36d0ea00a8a448d2e4b8e72c231dca16d26d3bc5f56c9f9151ac2489",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "inheritance-after-retirement",
+      "study_slug": null,
+      "output": "research/work/inheritance-after-retirement/model_results.json",
+      "model_path": "research/source/inheritance_after_retirement_model.py",
+      "baseline_path": "research/source/inheritance-after-retirement/model_results.json",
+      "model_sha256": "302f807823d88393d6f13b3286dff9a6a6c8b5fe04e270d7f7e9a0cfad0da873",
+      "baseline_sha256": "22e3555911bfe30894cb9ed25f2415e74787b5fe90942726236c950ed82cc9cb",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "how-to-shrink-a-country",
+      "study_slug": null,
+      "output": "research/work/how-to-shrink-a-country/model_results.json",
+      "model_path": "research/source/how_to_shrink_a_country_model.py",
+      "baseline_path": "research/source/how-to-shrink-a-country/model_results.json",
+      "model_sha256": "628d3f62a5e012fde5eeba778cae2256593a3170834d463d4a77592059a11355",
+      "baseline_sha256": "494fb147239e20f0477f7989e4d5ea95c04c3ad198f7ce33a146ac06918d0748",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "scarce-worker-economy",
+      "study_slug": null,
+      "output": "research/work/scarce-worker-economy/model_results.json",
+      "model_path": "research/source/scarce_worker_economy_model.py",
+      "baseline_path": "research/source/scarce-worker-economy/model_results.json",
+      "model_sha256": "db4f459a9740c8dc83eebe39b18e40c7b80a1a5ea6101130784b97301531e73d",
+      "baseline_sha256": "9256ee01132bc4de5d96568f296d45e06618d0c03b86244da00152de1339495e",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "population-system",
+      "study_slug": null,
+      "output": "research/work/population-system/model_results.json",
+      "model_path": "research/source/papers_11_12_model.py",
+      "baseline_path": "research/source/population-system/model_results.json",
+      "model_sha256": "197c876be5f4b3582bdd32b0144c35fa9cd4014a3aec86f1e0f6356ddfb20651",
+      "baseline_sha256": "7065a4a77f229286edb240cb946ef8e76d534786dfbb50109fa5b78d37ac01d8",
+      "passed": true,
+      "error": null
+    },
+    {
+      "package": "extreme-fiscal-pressure",
+      "study_slug": null,
+      "output": "research/work/extreme-fiscal-pressure/model_results.json",
+      "model_path": "research/source/papers_11_12_model.py",
+      "baseline_path": "research/source/extreme-fiscal-pressure/model_results.json",
+      "model_sha256": "197c876be5f4b3582bdd32b0144c35fa9cd4014a3aec86f1e0f6356ddfb20651",
+      "baseline_sha256": "7df5c5dafe30f3bf447e41580978761fe9484cc8f8023d4441da9a2ad051b727",
+      "passed": true,
+      "error": null
+    }
+  ]
+}

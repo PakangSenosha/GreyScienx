@@ -1,0 +1,101 @@
+{
+  "scope": "Synthesis of ten preceding GreyScienx hypothetical models",
+  "monetary_unit": "constant 2026 South African rand",
+  "studies": [
+    {
+      "n": 1,
+      "short": "Retirement\nsustainability",
+      "title": "When Retirement Becomes Impossible",
+      "metric": "27%",
+      "meaning": "Sustainable replacement at 60 in the base private-pension case",
+      "horizon": "40-70 years",
+      "risk": 78
+    },
+    {
+      "n": 2,
+      "short": "Youth work ->\nold-age income",
+      "title": "Today's Unemployment Is Tomorrow's Pension Crisis",
+      "metric": "R0.15m",
+      "meaning": "Wealth at 60 after persistent exclusion, versus R4.84m in stable work",
+      "horizon": "40-80 years",
+      "risk": 88
+    },
+    {
+      "n": 3,
+      "short": "Later\nretirement",
+      "title": "Does Raising the Retirement Age Actually Work?",
+      "metric": "R213bn",
+      "meaning": "Public gain for a one-million-person cohort moving from 60 to 65",
+      "horizon": "5-45 years",
+      "risk": 59
+    },
+    {
+      "n": 4,
+      "short": "Ageing\nelectorate",
+      "title": "The Politics of an Ageing Electorate",
+      "metric": "2039",
+      "meaning": "Baseline year age 60+ voters overtake voters aged 18-34",
+      "horizon": "10-75 years",
+      "risk": 73
+    },
+    {
+      "n": 5,
+      "short": "Ageing\nausterity",
+      "title": "Emergency Ageing Austerity",
+      "metric": "R150bn",
+      "meaning": "Annual fiscal gap allocated across politically plausible packages",
+      "horizon": "0-15 years",
+      "risk": 82
+    },
+    {
+      "n": 6,
+      "short": "Cost of an\nextra birth",
+      "title": "The Price of Another Child",
+      "metric": "R780k",
+      "meaning": "Median cost per additional birth for the modelled family bundle",
+      "horizon": "20-90 years",
+      "risk": 69
+    },
+    {
+      "n": 7,
+      "short": "Hundred-year\nlife",
+      "title": "The Hundred-Year Life",
+      "metric": "57.4",
+      "meaning": "Work-equivalent years in the modelled multi-stage life",
+      "horizon": "0-95 years",
+      "risk": 65
+    },
+    {
+      "n": 8,
+      "short": "Late\ninheritance",
+      "title": "Inheritance After Retirement",
+      "metric": "R3.24m",
+      "meaning": "Value at 100 of R1m inherited at 70, at 4% real growth",
+      "horizon": "20-75 years",
+      "risk": 54
+    },
+    {
+      "n": 9,
+      "short": "Managed\nshrinkage",
+      "title": "How to Shrink a Country Without Breaking It",
+      "metric": "+3.5%",
+      "meaning": "Households by 2076 even while population falls 22.2%",
+      "horizon": "10-50 years",
+      "risk": 75
+    },
+    {
+      "n": 10,
+      "short": "Scarce-worker\neconomy",
+      "title": "The Scarce-Worker Economy",
+      "metric": "738k",
+      "meaning": "Unfilled health and care jobs in the 2076 average case",
+      "horizon": "10-50 years",
+      "risk": 86
+    }
+  ],
+  "synthetic_pressure_index": {
+    "warning": "Normalised illustration; components are not directly commensurable",
+    "early_reform_2080": 41.28788703336447,
+    "delayed_2080": 118.5
+  }
+}

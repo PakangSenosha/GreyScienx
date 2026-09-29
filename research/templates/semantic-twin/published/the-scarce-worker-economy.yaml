@@ -1,0 +1,918 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:POP-010
+  slug: the-scarce-worker-economy
+  title: The Scarce-Worker Economy
+  subtitle: Can automation and immigration support an ageing society with fewer workers?
+  series_id: GSX:POP
+  series_slug: population-futures
+  series_title: Population Futures
+  series_number: '02'
+  paper_number: '10'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/population-futures/the-scarce-worker-economy
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - population-decline
+  - unemployment
+  - south-africa
+  keywords:
+  - Population decline
+  - Unemployment
+  - South Africa
+  - scarce
+  - worker
+  - economy
+  - automation
+  - productivity
+  - immigration
+  - substitute
+  - missing
+  - workers
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: Can automation, productivity, and immigration substitute for missing workers?
+  short_answer: 'In the average case, a smaller resident workforce can still coincide with real GDP at an index of 151, because output per worker rises about 57 percent. The total workforce ends at 11.60 million after 75,000 young immigrants a year and 700,000 additional older workers. Limitation: This is a hypothetical scale, not a forecast of South Africa''s labour market. The 75,000-person inflow is below the roughly 90,000 a year that would hold contributor headcount at 12 million. Early immigrant cohorts also retire: 480,000 are retirees by 2076.'
+  abstract: Automation, productivity and immigration as substitutes for missing workers.
+  motivation: Automation, productivity and immigration as substitutes for missing workers.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - What replaces workers when population decline leaves labour scarce?
+  - How do automation and immigration compare as responses to a smaller workforce?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:POP-010:R01
+  - GSX:POP-010:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - Can automation, productivity, and immigration substitute for missing workers?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:POP-010:M01
+    name: Scarce-worker cohort
+    purpose: The model tracks full-year-equivalent workers, retirees, immigration, later working lives, and occupation-specific shortages from 2026 to 2076. Aggregate output and staffing are separate accounts.
+    model_class: scenario model
+    statement: The model tracks full-year-equivalent workers, retirees, immigration, later working lives, and occupation-specific shortages from 2026 to 2076. Aggregate output and staffing are separate accounts.
+    inputs:
+    - Hypothetical starting scale
+    - Average response
+    - Occupation mismatch
+    outputs:
+    - R01
+    - R02
+    time_step: stated in the manuscript prose
+    implementation_file: research/source/scarce_worker_economy_model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:POP-010:A01
+    name: Hypothetical starting scale
+    statement: The model follows a hypothetical South-African-scale economy from 2026 to 2076. It begins with 12 million full-year-equivalent workers, 3 million retirees, and a population of 22 million.
+    value: '12'
+    unit: million full-year-equivalent workers in 2026
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript opening scale
+    source_ids:
+    - GSX:POP-010:PDF
+    evidence_strength: illustrative
+    sensitivity: high
+    alternatives:
+    - Best case
+    - Worst case
+  - id: A02
+    canonical_id: GSX:POP-010:A02
+    name: Average response
+    statement: The average case combines later working lives, worth 700,000 additional workers, with 75,000 young immigrants a year. General productivity rises 0.6 percent a year and automation-related productivity 0.3 percent a year. Migrants enter work after a two-year lag and retire at 67.
+    value: '75000'
+    unit: young immigrants per year
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript average case
+    source_ids:
+    - GSX:POP-010:PDF
+    evidence_strength: scenario
+    sensitivity: high
+    alternatives:
+    - About 90,000 arrivals a year, the inflow that would hold contributor headcount at 12 million
+  - id: A03
+    canonical_id: GSX:POP-010:A03
+    name: Occupation mismatch
+    statement: Output is counted in worker-equivalents, but health, construction, education, and digital work are tracked separately. A displaced administrative worker is not treated as a nurse.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript occupation result
+    source_ids:
+    - GSX:POP-010:PDF
+    evidence_strength: model structure
+    sensitivity: high
+    alternatives:
+    - Perfect retraining across occupations
+  parameters:
+  - id: P01
+    name: Hypothetical starting scale
+    symbol: see the manuscript
+    description: The model follows a hypothetical South-African-scale economy from 2026 to 2076. It begins with 12 million full-year-equivalent workers, 3 million retirees, and a population of 22 million.
+    value: '12'
+    unit: million full-year-equivalent workers in 2026
+    price_year: '2026'
+    scenario_values:
+      central: '12'
+    source_ids:
+    - GSX:POP-010:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The model tracks full-year-equivalent workers, retirees, immigration, later working lives, and occupation-specific shortages from 2026 to 2076. Aggregate output and staffing are separate accounts.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:POP-010:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Average case, 2026 to 2076
+  role: baseline
+  description: In the average case the resident workforce falls to 8.88 million, output per worker rises about 57 percent, and real GDP reaches an index of 151. The total workforce ends at 11.60 million after immigration and later working lives.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The Scarce-Worker Economy
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/population-futures/the-scarce-worker-economy
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/scarce-worker-economy/the-scarce-worker-economy.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - 'This is a hypothetical scale, not a forecast of South Africa''s labour market. The 75,000-person inflow is below the roughly 90,000 a year that would hold contributor headcount at 12 million. Early immigrant cohorts also retire: 480,000 are retirees by 2076.'
+  source_register:
+  - id: GSX:POP-010:PDF
+    type: manuscript
+    title: The Scarce-Worker Economy
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/population-futures/the-scarce-worker-economy.pdf
+    access_date: '2026-09-27'
+    locator: 23 pages; 1.40 MB
+    supports:
+    - GSX:POP-010:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:POP-010:SRC01
+    type: web_reference
+    title: Statistics South Africa Quarterly Labour Force Survey for the first quarter of 2026
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0211/P02111stQuarter2026.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC02
+    type: web_reference
+    title: IMF's work on generative AI and employment
+    author_or_publisher: imf.org
+    date: see cited resource
+    url: https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC03
+    type: web_reference
+    title: World Bank's study of migration and automation in Malaysia
+    author_or_publisher: worldbank.org
+    date: see cited resource
+    url: https://www.worldbank.org/en/country/malaysia/publication/migration-automation-and-the-malaysian-labor-market
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC04
+    type: web_reference
+    title: World Health Organization
+    author_or_publisher: who.int
+    date: see cited resource
+    url: https://www.who.int/health-topics/health-workforce
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC05
+    type: web_reference
+    title: employment rate in 2024 averaged 56.5 percent at ages 60 to 64 but only 26.4 percent at 65 to 69
+    author_or_publisher: oecd.org
+    date: see cited resource
+    url: https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/employment-rates-of-older-workers-and-gender-gaps_cb8a2f7b.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC06
+    type: web_reference
+    title: OECD's analysis of structural labour shortages
+    author_or_publisher: oecd.org
+    date: see cited resource
+    url: https://www.oecd.org/en/publications/oecd-economic-outlook-volume-2024-issue-2_d8814e8b-en/full-report/understanding-labour-shortages-the-structural-forces-at-play_321e116a.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC07
+    type: web_reference
+    title: United Nations replacement-migration study
+    author_or_publisher: digitallibrary.un.org
+    date: see cited resource
+    url: https://digitallibrary.un.org/record/412547/files/unpd-egm_200010_un_2001_replacementmigration.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC08
+    type: web_reference
+    title: OECD's cross-country fiscal analysis
+    author_or_publisher: oecd.org
+    date: see cited resource
+    url: https://www.oecd.org/en/publications/international-migration-outlook-2021_29f23e9d-en/full-report/component-8.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC09
+    type: web_reference
+    title: Mid-year estimates 2025
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?PPN=P0302&SCH=74263&page_id=1854
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC10
+    type: web_reference
+    title: Stats SA, age structure and dependency
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?p=19711
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC11
+    type: web_reference
+    title: ILO, Employment and Social Trends 2026
+    author_or_publisher: ilo.org
+    date: see cited resource
+    url: https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC12
+    type: web_reference
+    title: ILO, productive working lives
+    author_or_publisher: ilo.org
+    date: see cited resource
+    url: https://www.ilo.org/publications/extending-productive-working-life-older-workers-role-human-resource
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-010:SRC13
+    type: web_reference
+    title: World Bank, long-term growth
+    author_or_publisher: worldbank.org
+    date: see cited resource
+    url: https://www.worldbank.org/en/research/publication/long-term-growth-prospects
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:POP-010:R01
+    statement: In the average case the resident workforce falls to 8.88 million, output per worker rises about 57 percent, and real GDP reaches an index of 151. The total workforce ends at 11.60 million after immigration and later working lives.
+    value: '151'
+    unit: real GDP index, 2026 = 100
+    price_year: '2026'
+    year_or_period: Average case, 2026 to 2076
+    scenario_id: Average case, 2026 to 2076
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:POP-010:PDF
+    reproducible_from:
+    - GSX:POP-010:M01
+  - id: R02
+    canonical_id: GSX:POP-010:R02
+    statement: The same average case ends with a modelled shortage of 738,000 health and care workers, 123,000 construction and maintenance workers, and 121,000 workers in education, safety, and public services. The age-related contribution burden rises from about 8.3 percent of covered wages to 17.0 percent.
+    value: '738000'
+    unit: health and care workers short
+    price_year: '2026'
+    year_or_period: Average case, 2076 occupation balance
+    scenario_id: Average case, 2076 occupation balance
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:POP-010:PDF
+    reproducible_from:
+    - GSX:POP-010:M01
+  headline_results:
+  - GSX:POP-010:R01
+  sensitivity_results:
+  - GSX:POP-010:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - 'This is a hypothetical scale, not a forecast of South Africa''s labour market. The 75,000-person inflow is below the roughly 90,000 a year that would hold contributor headcount at 12 million. Early immigrant cohorts also retire: 480,000 are retirees by 2076.'
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:POP-010:C01
+    claim: In the average case, a smaller resident workforce can still coincide with real GDP at an index of 151, because output per worker rises about 57 percent. The total workforce ends at 11.60 million after 75,000 young immigrants a year and 700,000 additional older workers.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:POP-010:A01
+    - GSX:POP-010:A02
+    derived_from_results: &id004
+    - GSX:POP-010:R01
+    supported_by_sources:
+    - GSX:POP-010:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: 'This is a hypothetical scale, not a forecast of South Africa''s labour market. The 75,000-person inflow is below the roughly 90,000 a year that would hold contributor headcount at 12 million. Early immigrant cohorts also retire: 480,000 are retirees by 2076.'
+    sensitivity: high
+    retrieval_text: In the average case, a smaller resident workforce can still coincide with real GDP at an index of 151, because output per worker rises about 57 percent. The total workforce ends at 11.60 million after 75,000 young immigrants a year and 700,000 additional older workers.
+    citation_text: GreyScienx, GSX:POP-010:C01, version 1.0.
+    href: https://greyscienx.com/research/population-futures/the-scarce-worker-economy/claims/C01
+  - id: C02
+    canonical_id: GSX:POP-010:C02
+    claim: That same average case still ends short of 738,000 health and care workers, even while digital and administrative work is in surplus. The modelled age-related contribution burden rises from about 8.3 percent of covered wages to 17.0 percent.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:POP-010:A01
+    - GSX:POP-010:A02
+    - GSX:POP-010:A03
+    derived_from_results:
+    - GSX:POP-010:R02
+    supported_by_sources:
+    - GSX:POP-010:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: Aggregate output capacity is not staffing capacity. Automation adds fiscal capacity only if the income it creates enters the tax base. The burden is 28.4 percent in the worst case and 10.9 percent in the best case.
+    sensitivity: high
+    retrieval_text: That same average case still ends short of 738,000 health and care workers, even while digital and administrative work is in surplus. The modelled age-related contribution burden rises from about 8.3 percent of covered wages to 17.0 percent.
+    citation_text: GreyScienx, GSX:POP-010:C02, version 1.0.
+    href: https://greyscienx.com/research/population-futures/the-scarce-worker-economy/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - 'This is a hypothetical scale, not a forecast of South Africa''s labour market. The 75,000-person inflow is below the roughly 90,000 a year that would hold contributor headcount at 12 million. Early immigrant cohorts also retire: 480,000 are retirees by 2076.'
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: 'This is a hypothetical scale, not a forecast of South Africa''s labour market. The 75,000-person inflow is below the roughly 90,000 a year that would hold contributor headcount at 12 million. Early immigrant cohorts also retire: 480,000 are retirees by 2076.'
+  limitations:
+  - 'This is a hypothetical scale, not a forecast of South Africa''s labour market. The 75,000-person inflow is below the roughly 90,000 a year that would hold contributor headcount at 12 million. Early immigrant cohorts also retire: 480,000 are retirees by 2076.'
+  - Aggregate output capacity is not staffing capacity. Automation adds fiscal capacity only if the income it creates enters the tax base. The burden is 28.4 percent in the worst case and 10.9 percent in the best case.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - 'This is a hypothetical scale, not a forecast of South Africa''s labour market. The 75,000-person inflow is below the roughly 90,000 a year that would hold contributor headcount at 12 million. Early immigrant cohorts also retire: 480,000 are retirees by 2076.'
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/scarce-worker-economy/the-scarce-worker-economy.md
+    pdf: https://greyscienx.com/research/population-futures/the-scarce-worker-economy.pdf
+    html: https://greyscienx.com/research/population-futures/the-scarce-worker-economy
+    clean_markdown: https://greyscienx.com/research/population-futures/the-scarce-worker-economy/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/scarce-worker-economy/the-scarce-worker-economy.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:POP-010:PDF
+    result_ids:
+    - GSX:POP-010:R01
+  figures:
+  - id: F01
+    title: Workers and retirees
+    caption: Figure 1. The average response combines 75,000 young immigrants a year with a gradual rise to 700,000 additional older workers. Migrants enter work after a two-year integration lag and retire at 67. The late decline in the coral line occurs as early migrant cohorts begin retiring.
+    alt_text: Workers and retirees
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/scarce-worker-economy/assets/support-arithmetic.png
+    data_file: research/source/scarce-worker-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-010:R01
+    source_ids:
+    - GSX:POP-010:PDF
+  - id: F02
+    title: Productivity hurdle
+    caption: Figure 2. The left panel asks only what holds GDP flat. The right asks what preserves the starting ratio between age-related spending and covered wages. The fiscal hurdle rises with both workforce loss and retiree growth.
+    alt_text: Productivity hurdle
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/scarce-worker-economy/assets/productivity-hurdle.png
+    data_file: research/source/scarce-worker-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-010:R01
+    source_ids:
+    - GSX:POP-010:PDF
+  - id: F03
+    title: Sources of effective labour
+    caption: Figure 3. The coral line is the resident-worker shortfall relative to 12 million. Stacked bars show actual older and immigrant workers plus output-equivalent gains from general productivity and automation. Productivity equivalents are not people, contributors or available carers.
+    alt_text: Sources of effective labour
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/scarce-worker-economy/assets/workforce-substitution.png
+    data_file: research/source/scarce-worker-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-010:R01
+    source_ids:
+    - GSX:POP-010:PDF
+  - id: F04
+    title: Sector staffing gaps
+    caption: Figure 4. Required workers reflect sector demand divided by modelled sector productivity. Available workers reflect training and occupational mobility. Aggregate labour is sufficient, but health and care remain short by 738,000 workers.
+    alt_text: Sector staffing gaps
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/scarce-worker-economy/assets/staffing-bottlenecks.png
+    data_file: research/source/scarce-worker-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-010:R01
+    source_ids:
+    - GSX:POP-010:PDF
+  - id: F05
+    title: Migration and fiscal value
+    caption: Figure 5. The left panel separates the chosen inflow from the inflow required for headcount stability. The right values direct taxes and public spending over a lifetime. These are model outputs, not estimates for any real migrant or child.
+    alt_text: Migration and fiscal value
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/scarce-worker-economy/assets/migration-and-fiscal-value.png
+    data_file: research/source/scarce-worker-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-010:R01
+    source_ids:
+    - GSX:POP-010:PDF
+  - id: F06
+    title: GDP and GDP per capita
+    caption: Figure 6. The no-adaptation path uses the average resident demographic decline with only 0.4 percent annual productivity growth. The other paths combine their declared demographic, migration, older-worker and productivity assumptions.
+    alt_text: GDP and GDP per capita
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/scarce-worker-economy/assets/gdp-and-gdp-per-capita.png
+    data_file: research/source/scarce-worker-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-010:R01
+    source_ids:
+    - GSX:POP-010:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/scarce_worker_economy_model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/scarce-worker-economy/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/scarce_worker_economy_model.py
+  - research/source/scarce-worker-economy/model_results.json
+  data_files:
+  - research/source/scarce-worker-economy/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/scarce_worker_economy_model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:POP-001
+    slug: when-retirement-becomes-impossible
+    title: When Retirement Becomes Impossible
+    href: https://greyscienx.com/research/population-futures/when-retirement-becomes-impossible
+    relationship: same_series
+  - id: GSX:POP-002
+    slug: todays-unemployment-is-tomorrows-pension-crisis
+    title: Today’s Unemployment Is Tomorrow’s Pension Crisis
+    href: https://greyscienx.com/research/population-futures/todays-unemployment-is-tomorrows-pension-crisis
+    relationship: same_series
+  - id: GSX:POP-003
+    slug: does-raising-the-retirement-age-actually-work
+    title: Does Raising the Retirement Age Actually Work?
+    href: https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work
+    relationship: same_series
+  - id: GSX:POP-004
+    slug: the-politics-of-an-ageing-electorate
+    title: The Politics of an Ageing Electorate
+    href: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate
+    relationship: same_series
+  - id: GSX:POP-005
+    slug: emergency-ageing-austerity
+    title: Emergency Ageing Austerity
+    href: https://greyscienx.com/research/population-futures/emergency-ageing-austerity
+    relationship: same_series
+  - id: GSX:POP-006
+    slug: the-price-of-another-child
+    title: The Price of Another Child
+    href: https://greyscienx.com/research/population-futures/the-price-of-another-child
+    relationship: same_series
+  - id: GSX:POP-007
+    slug: the-hundred-year-life
+    title: The Hundred-Year Life
+    href: https://greyscienx.com/research/population-futures/the-hundred-year-life
+    relationship: same_series
+  - id: GSX:POP-008
+    slug: inheritance-after-retirement
+    title: Inheritance After Retirement
+    href: https://greyscienx.com/research/population-futures/inheritance-after-retirement
+    relationship: same_series
+  - id: GSX:POP-009
+    slug: how-to-shrink-a-country-without-breaking-it
+    title: How to Shrink a Country Without Breaking It
+    href: https://greyscienx.com/research/population-futures/how-to-shrink-a-country-without-breaking-it
+    relationship: same_series
+  - id: GSX:POP-011
+    slug: the-population-system
+    title: The Population System
+    href: https://greyscienx.com/research/population-futures/the-population-system
+    relationship: same_series
+  - id: GSX:POP-012
+    slug: extreme-fiscal-pressure
+    title: Extreme Fiscal Pressure
+    href: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:POP-001
+    title: When Retirement Becomes Impossible
+    paper_number: '01'
+  successor_studies:
+  - id: GSX:POP-012
+    title: Extreme Fiscal Pressure
+    paper_number: '12'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - population-decline
+  - unemployment
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:POP-010:C01
+    predicate: depends_on
+    object_id: GSX:POP-010:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-010:C01
+    predicate: depends_on
+    object_id: GSX:POP-010:A02
+    note: Registered dependency.
+  - subject_id: GSX:POP-010:C01
+    predicate: derived_from
+    object_id: GSX:POP-010:R01
+    note: Registered result.
+  - subject_id: GSX:POP-010:C02
+    predicate: depends_on
+    object_id: GSX:POP-010:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-010:C02
+    predicate: depends_on
+    object_id: GSX:POP-010:A02
+    note: Registered dependency.
+  - subject_id: GSX:POP-010:C02
+    predicate: depends_on
+    object_id: GSX:POP-010:A03
+    note: Registered dependency.
+  - subject_id: GSX:POP-010:C02
+    predicate: derived_from
+    object_id: GSX:POP-010:R02
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The Scarce-Worker Economy. GSX:POP-010. Version 1.0.
+  machine_citation: GreyScienx, GSX:POP-010, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/population-futures/the-scarce-worker-economy
+    html: https://greyscienx.com/research/population-futures/the-scarce-worker-economy
+    markdown: https://greyscienx.com/research/population-futures/the-scarce-worker-economy/markdown
+    json: https://greyscienx.com/api/v1/research/the-scarce-worker-economy
+    pdf: https://greyscienx.com/research/population-futures/the-scarce-worker-economy.pdf
+    api: https://greyscienx.com/api/v1/research/the-scarce-worker-economy
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The Scarce-Worker Economy
+    identifier: GSX:POP-010
+    url: https://greyscienx.com/research/population-futures/the-scarce-worker-economy
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: Automation, productivity and immigration as substitutes for missing workers.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: In the average case, a smaller resident workforce can still coincide with real GDP at an index of 151, because output per worker rises about 57 percent. The total workforce ends at 11.60 million after 75,000 young immigrants a year and 700,000 additional older workers.
+    claim_ids:
+    - GSX:POP-010:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:POP-010:PDF
+    page: manuscript Part I
+    token_estimate: 45
+  question_aliases:
+  - What replaces workers when population decline leaves labour scarce?
+  - How do automation and immigration compare as responses to a smaller workforce?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:POP-010, version 1.0
+    claim_level_pattern: GreyScienx, GSX:POP-010:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:POP-010
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:POP-010

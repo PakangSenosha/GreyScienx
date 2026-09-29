@@ -1,0 +1,927 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:POP-007
+  slug: the-hundred-year-life
+  title: The Hundred-Year Life
+  subtitle: How institutions change when adulthood lasts a century
+  series_id: GSX:POP
+  series_slug: population-futures
+  series_title: Population Futures
+  series_number: '02'
+  paper_number: '07'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/population-futures/the-hundred-year-life
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - population-decline
+  - housing
+  - retirement
+  - south-africa
+  keywords:
+  - Population decline
+  - Housing
+  - Retirement
+  - South Africa
+  - hundred
+  - year
+  - life
+  - education
+  - work
+  - housing
+  - family
+  - redesigned
+  - lives
+  - '100'
+  - '120'
+  - years
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: How would education, work, housing, and family life be redesigned for lives of 100 to 120 years?
+  short_answer: 'If a conventional life retires at 65 and the person lives to 120, retirement lasts 55 years and the modelled pension finances only 57 percent of the target income, even with uninterrupted employment. Limitation: South Africans do not currently live to 100 or 120 on average. The scenario explores extended healthy adulthood, not a forecast. If healthspan does not rise with lifespan, the financial results deteriorate and the care burden rises. A manual worker without stable work cannot simply be told to work to 85.'
+  abstract: Education, work, housing and family life redesigned for 100–120 year lives.
+  motivation: Education, work, housing and family life redesigned for 100–120 year lives.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - What happens to housing when people live longer?
+  - How do longer lives change work, education, and family timing?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:POP-007:R01
+  - GSX:POP-007:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - How would education, work, housing, and family life be redesigned for lives of 100 to 120 years?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:POP-007:M01
+    name: Four life-course designs
+    purpose: The model compares a conventional three-stage life, a long career, a multi-stage life with recurring education and a care break, and a portfolio life. It measures earnings and net fiscal contribution in constant 2026 rand under one extended healthy adulthood.
+    model_class: scenario model
+    statement: The model compares a conventional three-stage life, a long career, a multi-stage life with recurring education and a care break, and a portfolio life. It measures earnings and net fiscal contribution in constant 2026 rand under one extended healthy adulthood.
+    inputs:
+    - Extended healthy adulthood
+    - Common starting pay and saving
+    - Conventional three-stage life
+    outputs:
+    - R01
+    - R02
+    time_step: stated in the manuscript prose
+    implementation_file: research/source/hundred_year_life_model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:POP-007:A01
+    name: Extended healthy adulthood
+    statement: The scenario asks what changes if people routinely live to 100 or 120 with a substantial extension of healthy adult life. Current South African life expectancy is far shorter. This is not a projection that the average person will soon live to 120.
+    value: '120'
+    unit: years, scenario lifespan
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript scenario design
+    source_ids:
+    - GSX:POP-007:PDF
+    evidence_strength: illustrative
+    sensitivity: high
+    alternatives:
+    - Death postponed more than illness
+    - A conventional life to a shorter age
+  - id: A02
+    canonical_id: GSX:POP-007:A02
+    name: Common starting pay and saving
+    statement: All four lives begin with the same R30,000 monthly salary when work starts. Earnings grow by 1.2 percent a year above inflation. Pension contributions are 15 percent of pay and earn 4 percent a year above inflation. Values are constant 2026 rand.
+    value: '30000'
+    unit: constant 2026 rand per month at the start of work
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript common parameters
+    source_ids:
+    - GSX:POP-007:PDF
+    evidence_strength: model assumption
+    sensitivity: moderate
+    alternatives:
+    - A manual worker without a pension or stable employment
+  - id: A03
+    canonical_id: GSX:POP-007:A03
+    name: Conventional three-stage life
+    statement: The conventional life has three years of university, 42 years of full work, and retirement at 65. If the person lives to 120, retirement lasts 55 years.
+    value: '65'
+    unit: years, conventional retirement age
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript life-design table
+    source_ids:
+    - GSX:POP-007:PDF
+    evidence_strength: scenario
+    sensitivity: high
+    alternatives:
+    - Long career
+    - Multi-stage life
+    - Portfolio life
+  parameters:
+  - id: P01
+    name: Extended healthy adulthood
+    symbol: see the manuscript
+    description: The scenario asks what changes if people routinely live to 100 or 120 with a substantial extension of healthy adult life. Current South African life expectancy is far shorter. This is not a projection that the average person will soon live to 120.
+    value: '120'
+    unit: years, scenario lifespan
+    price_year: '2026'
+    scenario_values:
+      central: '120'
+    source_ids:
+    - GSX:POP-007:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The model compares a conventional three-stage life, a long career, a multi-stage life with recurring education and a care break, and a portfolio life. It measures earnings and net fiscal contribution in constant 2026 rand under one extended healthy adulthood.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:POP-007:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Conventional three-stage life, life to 120
+  role: baseline
+  description: Even with uninterrupted employment, the conventional pension fund finances only 57 percent of the target income if retirement at 65 is followed by life to 120.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The Hundred-Year Life
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/population-futures/the-hundred-year-life
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/hundred-year-life/the-hundred-year-life.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - South Africans do not currently live to 100 or 120 on average. The scenario explores extended healthy adulthood, not a forecast. If healthspan does not rise with lifespan, the financial results deteriorate and the care burden rises. A manual worker without stable work cannot simply be told to work to 85.
+  source_register:
+  - id: GSX:POP-007:PDF
+    type: manuscript
+    title: The Hundred-Year Life
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/population-futures/the-hundred-year-life.pdf
+    access_date: '2026-09-27'
+    locator: 23 pages; 1.10 MB
+    supports:
+    - GSX:POP-007:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:POP-007:SRC01
+    type: web_reference
+    title: Statistics South Africa's 2026 population estimate
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?PPN=P0302&SCH=74592&page_id=1856
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC02
+    type: web_reference
+    title: United Nations' World Population Prospects 2024
+    author_or_publisher: population.un.org
+    date: see cited resource
+    url: https://population.un.org/wpp/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC03
+    type: web_reference
+    title: The International Labour Organization's 2026 report on lifelong learning
+    author_or_publisher: ilo.org
+    date: see cited resource
+    url: https://www.ilo.org/publications/flagship-reports/lifelong-learning-and-skills-future
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC04
+    type: web_reference
+    title: ILO brief on extending productive working life
+    author_or_publisher: researchrepository.ilo.org
+    date: see cited resource
+    url: https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Extending-the-productive-working-life-of/995659889102676
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC05
+    type: web_reference
+    title: National Treasury's 2026 Estimates of National Expenditure
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/national%20budget/2026/ene/FullENE.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC06
+    type: web_reference
+    title: 2026 Budget Speech
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/national%20budget/2026/speech/speech.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC07
+    type: web_reference
+    title: FNB's home-loan calculator
+    author_or_publisher: fnb.co.za
+    date: see cited resource
+    url: https://www.fnb.co.za/Controller?nav=calculators.homeloan.MonthlyRepayment
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC08
+    type: web_reference
+    title: Absa discusses extensions up to 360 months
+    author_or_publisher: absa.co.za
+    date: see cited resource
+    url: https://www.absa.co.za/personal/loans/for-a-home/trouble-with-repayments/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC09
+    type: web_reference
+    title: Standard Bank's pension-backed housing loan
+    author_or_publisher: standardbank.co.za
+    date: see cited resource
+    url: https://www.standardbank.co.za/southafrica/personal/learn/what-are-pension-backed-housing-loans
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC10
+    type: web_reference
+    title: South African Reserve Bank's June 2026 Quarterly Bulletin
+    author_or_publisher: resbank.co.za
+    date: see cited resource
+    url: https://resbank.co.za/en/home/publications/publication-detail-pages/quarterly-bulletins/quarterly-bulletin-publications/2026/june
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC11
+    type: web_reference
+    title: Stats SA's 2024 marriages and divorces release
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?PPN=P0307&SCH=73981&page_id=1856
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC12
+    type: web_reference
+    title: Statistics South Africa, Mid-year population estimates 2026
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0302/P03022026.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:POP-007:SRC13
+    type: web_reference
+    title: Statistics South Africa, Marriages and Divorces 2024
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0307/P03072024.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:POP-007:R01
+    statement: Even with uninterrupted employment, the conventional pension fund finances only 57 percent of the target income if retirement at 65 is followed by life to 120.
+    value: '57'
+    unit: percent of target retirement income financed
+    price_year: '2026'
+    year_or_period: Conventional three-stage life, life to 120
+    scenario_id: Conventional three-stage life, life to 120
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:POP-007:PDF
+    reproducible_from:
+    - GSX:POP-007:M01
+  - id: R02
+    canonical_id: GSX:POP-007:R02
+    statement: Present-value lifetime earnings are R8.99 million for the conventional life, R12.71 million for the long career, R11.18 million for the multi-stage life, and R10.84 million for the portfolio life. Net fiscal contribution runs from R0.80 million to R1.99 million.
+    value: '12.71'
+    unit: million constant 2026 rand, long-career lifetime earnings
+    price_year: '2026'
+    year_or_period: Four life designs from age 20 to 120
+    scenario_id: Four life designs from age 20 to 120
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:POP-007:PDF
+    reproducible_from:
+    - GSX:POP-007:M01
+  headline_results:
+  - GSX:POP-007:R01
+  sensitivity_results:
+  - GSX:POP-007:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - South Africans do not currently live to 100 or 120 on average. The scenario explores extended healthy adulthood, not a forecast. If healthspan does not rise with lifespan, the financial results deteriorate and the care burden rises. A manual worker without stable work cannot simply be told to work to 85.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:POP-007:C01
+    claim: If a conventional life retires at 65 and the person lives to 120, retirement lasts 55 years and the modelled pension finances only 57 percent of the target income, even with uninterrupted employment.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:POP-007:A01
+    - GSX:POP-007:A02
+    - GSX:POP-007:A03
+    derived_from_results: &id004
+    - GSX:POP-007:R01
+    supported_by_sources:
+    - GSX:POP-007:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: South Africans do not currently live to 100 or 120 on average. The scenario explores extended healthy adulthood, not a forecast. If healthspan does not rise with lifespan, the financial results deteriorate and the care burden rises. A manual worker without stable work cannot simply be told to work to 85.
+    sensitivity: high
+    retrieval_text: If a conventional life retires at 65 and the person lives to 120, retirement lasts 55 years and the modelled pension finances only 57 percent of the target income, even with uninterrupted employment.
+    citation_text: GreyScienx, GSX:POP-007:C01, version 1.0.
+    href: https://greyscienx.com/research/population-futures/the-hundred-year-life/claims/C01
+  - id: C02
+    canonical_id: GSX:POP-007:C02
+    claim: Of the four designs, the long career has the highest modelled lifetime earnings, R12.71 million in present value, against R8.99 million for the conventional life. The multi-stage and portfolio designs sit between them, at R11.18 million and R10.84 million.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:POP-007:A01
+    - GSX:POP-007:A02
+    derived_from_results:
+    - GSX:POP-007:R02
+    supported_by_sources:
+    - GSX:POP-007:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The long career is the strongest narrow financial result because it maximises paid work. It assumes that health, employer demand, and working conditions permit a very long career. It is not automatically the best life.
+    sensitivity: moderate
+    retrieval_text: Of the four designs, the long career has the highest modelled lifetime earnings, R12.71 million in present value, against R8.99 million for the conventional life. The multi-stage and portfolio designs sit between them, at R11.18 million and R10.84 million.
+    citation_text: GreyScienx, GSX:POP-007:C02, version 1.0.
+    href: https://greyscienx.com/research/population-futures/the-hundred-year-life/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - South Africans do not currently live to 100 or 120 on average. The scenario explores extended healthy adulthood, not a forecast. If healthspan does not rise with lifespan, the financial results deteriorate and the care burden rises. A manual worker without stable work cannot simply be told to work to 85.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: South Africans do not currently live to 100 or 120 on average. The scenario explores extended healthy adulthood, not a forecast. If healthspan does not rise with lifespan, the financial results deteriorate and the care burden rises. A manual worker without stable work cannot simply be told to work to 85.
+  limitations:
+  - South Africans do not currently live to 100 or 120 on average. The scenario explores extended healthy adulthood, not a forecast. If healthspan does not rise with lifespan, the financial results deteriorate and the care burden rises. A manual worker without stable work cannot simply be told to work to 85.
+  - The long career is the strongest narrow financial result because it maximises paid work. It assumes that health, employer demand, and working conditions permit a very long career. It is not automatically the best life.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - South Africans do not currently live to 100 or 120 on average. The scenario explores extended healthy adulthood, not a forecast. If healthspan does not rise with lifespan, the financial results deteriorate and the care burden rises. A manual worker without stable work cannot simply be told to work to 85.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/hundred-year-life/the-hundred-year-life.md
+    pdf: https://greyscienx.com/research/population-futures/the-hundred-year-life.pdf
+    html: https://greyscienx.com/research/population-futures/the-hundred-year-life
+    clean_markdown: https://greyscienx.com/research/population-futures/the-hundred-year-life/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/hundred-year-life/the-hundred-year-life.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:POP-007:PDF
+    result_ids:
+    - GSX:POP-007:R01
+  figures:
+  - id: F01
+    title: Four life-course designs
+    caption: Figure 1. Four complete adult lives on the same age scale. The conventional design concentrates education at the beginning and leisure at the end. The alternatives redistribute education, breaks and reduced work across adulthood.
+    alt_text: Four life-course designs
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/hundred-year-life/assets/life-course-timelines.png
+    data_file: research/source/hundred-year-life/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-007:R01
+    source_ids:
+    - GSX:POP-007:PDF
+  - id: F02
+    title: Adult time allocation
+    caption: Figure 2. Adult years from age 20 to 120. Work-equivalent years count half-time work as half a year. Residual time includes full retirement and any unallocated non-work periods.
+    alt_text: Adult time allocation
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/hundred-year-life/assets/adult-time-allocation.png
+    data_file: research/source/hundred-year-life/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-007:R01
+    source_ids:
+    - GSX:POP-007:PDF
+  - id: F03
+    title: Returns to retraining
+    caption: Figure 3. Present values in constant 2026 rand. All three cases assume work continues to 95 and that the qualification raises earnings. The positive result at 80 is small enough to disappear under modestly worse health, employment or wage outcomes.
+    alt_text: Returns to retraining
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/hundred-year-life/assets/retraining-returns.png
+    data_file: research/source/hundred-year-life/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-007:R01
+    source_ids:
+    - GSX:POP-007:PDF
+  - id: F04
+    title: Pension adequacy map
+    caption: Figure 4. Funded ratio for a 70 percent replacement target. One hundred percent marks full funding under the assumptions. Very high values at retirement 95 are a mechanical result of long saving and a short retirement, not a policy target.
+    alt_text: Pension adequacy map
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/hundred-year-life/assets/pension-adequacy-map.png
+    data_file: research/source/hundred-year-life/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-007:R01
+    source_ids:
+    - GSX:POP-007:PDF
+  - id: F05
+    title: Mortgage trade-offs
+    caption: Figure 5. Extending the term improves monthly affordability but greatly increases total real interest. The sixty-year borrower reaches today's retirement age with a substantial balance.
+    alt_text: Mortgage trade-offs
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/hundred-year-life/assets/mortgage-tradeoffs.png
+    data_file: research/source/hundred-year-life/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-007:R01
+    source_ids:
+    - GSX:POP-007:PDF
+  - id: F06
+    title: Care and adult generations
+    caption: Figure 6. Number of adult generations that can overlap under fixed generation gaps. A 120-year life permits five at a 25-year gap and four at a 32-year gap.
+    alt_text: Care and adult generations
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/hundred-year-life/assets/care-and-generations.png
+    data_file: research/source/hundred-year-life/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:POP-007:R01
+    source_ids:
+    - GSX:POP-007:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/hundred_year_life_model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/hundred-year-life/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/hundred_year_life_model.py
+  - research/source/hundred-year-life/model_results.json
+  data_files:
+  - research/source/hundred-year-life/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/hundred_year_life_model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:POP-001
+    slug: when-retirement-becomes-impossible
+    title: When Retirement Becomes Impossible
+    href: https://greyscienx.com/research/population-futures/when-retirement-becomes-impossible
+    relationship: same_series
+  - id: GSX:POP-002
+    slug: todays-unemployment-is-tomorrows-pension-crisis
+    title: Today’s Unemployment Is Tomorrow’s Pension Crisis
+    href: https://greyscienx.com/research/population-futures/todays-unemployment-is-tomorrows-pension-crisis
+    relationship: same_series
+  - id: GSX:POP-003
+    slug: does-raising-the-retirement-age-actually-work
+    title: Does Raising the Retirement Age Actually Work?
+    href: https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work
+    relationship: same_series
+  - id: GSX:POP-004
+    slug: the-politics-of-an-ageing-electorate
+    title: The Politics of an Ageing Electorate
+    href: https://greyscienx.com/research/population-futures/the-politics-of-an-ageing-electorate
+    relationship: same_series
+  - id: GSX:POP-005
+    slug: emergency-ageing-austerity
+    title: Emergency Ageing Austerity
+    href: https://greyscienx.com/research/population-futures/emergency-ageing-austerity
+    relationship: same_series
+  - id: GSX:POP-006
+    slug: the-price-of-another-child
+    title: The Price of Another Child
+    href: https://greyscienx.com/research/population-futures/the-price-of-another-child
+    relationship: same_series
+  - id: GSX:POP-008
+    slug: inheritance-after-retirement
+    title: Inheritance After Retirement
+    href: https://greyscienx.com/research/population-futures/inheritance-after-retirement
+    relationship: same_series
+  - id: GSX:POP-009
+    slug: how-to-shrink-a-country-without-breaking-it
+    title: How to Shrink a Country Without Breaking It
+    href: https://greyscienx.com/research/population-futures/how-to-shrink-a-country-without-breaking-it
+    relationship: same_series
+  - id: GSX:POP-010
+    slug: the-scarce-worker-economy
+    title: The Scarce-Worker Economy
+    href: https://greyscienx.com/research/population-futures/the-scarce-worker-economy
+    relationship: same_series
+  - id: GSX:POP-011
+    slug: the-population-system
+    title: The Population System
+    href: https://greyscienx.com/research/population-futures/the-population-system
+    relationship: same_series
+  - id: GSX:POP-012
+    slug: extreme-fiscal-pressure
+    title: Extreme Fiscal Pressure
+    href: https://greyscienx.com/research/population-futures/extreme-fiscal-pressure
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:POP-001
+    title: When Retirement Becomes Impossible
+    paper_number: '01'
+  successor_studies:
+  - id: GSX:POP-012
+    title: Extreme Fiscal Pressure
+    paper_number: '12'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - population-decline
+  - housing
+  - retirement
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:POP-007:C01
+    predicate: depends_on
+    object_id: GSX:POP-007:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-007:C01
+    predicate: depends_on
+    object_id: GSX:POP-007:A02
+    note: Registered dependency.
+  - subject_id: GSX:POP-007:C01
+    predicate: depends_on
+    object_id: GSX:POP-007:A03
+    note: Registered dependency.
+  - subject_id: GSX:POP-007:C01
+    predicate: derived_from
+    object_id: GSX:POP-007:R01
+    note: Registered result.
+  - subject_id: GSX:POP-007:C02
+    predicate: depends_on
+    object_id: GSX:POP-007:A01
+    note: Registered dependency.
+  - subject_id: GSX:POP-007:C02
+    predicate: depends_on
+    object_id: GSX:POP-007:A02
+    note: Registered dependency.
+  - subject_id: GSX:POP-007:C02
+    predicate: derived_from
+    object_id: GSX:POP-007:R02
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The Hundred-Year Life. GSX:POP-007. Version 1.0.
+  machine_citation: GreyScienx, GSX:POP-007, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/population-futures/the-hundred-year-life
+    html: https://greyscienx.com/research/population-futures/the-hundred-year-life
+    markdown: https://greyscienx.com/research/population-futures/the-hundred-year-life/markdown
+    json: https://greyscienx.com/api/v1/research/the-hundred-year-life
+    pdf: https://greyscienx.com/research/population-futures/the-hundred-year-life.pdf
+    api: https://greyscienx.com/api/v1/research/the-hundred-year-life
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The Hundred-Year Life
+    identifier: GSX:POP-007
+    url: https://greyscienx.com/research/population-futures/the-hundred-year-life
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: Education, work, housing and family life redesigned for 100–120 year lives.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: If a conventional life retires at 65 and the person lives to 120, retirement lasts 55 years and the modelled pension finances only 57 percent of the target income, even with uninterrupted employment.
+    claim_ids:
+    - GSX:POP-007:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:POP-007:PDF
+    page: manuscript Part I
+    token_estimate: 33
+  question_aliases:
+  - What happens to housing when people live longer?
+  - How do longer lives change work, education, and family timing?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:POP-007, version 1.0
+    claim_level_pattern: GreyScienx, GSX:POP-007:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  - 1 cited external links could not be verified because the server returned a transient error or the request did not complete.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:POP-007
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:POP-007

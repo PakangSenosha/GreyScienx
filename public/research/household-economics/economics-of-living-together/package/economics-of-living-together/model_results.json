@@ -1,0 +1,254 @@
+{
+  "model_label": "Gauteng lifetime household-consolidation model",
+  "currency": "constant 2026 rand",
+  "ages": [
+    25,
+    75
+  ],
+  "salary_inputs_monthly": [
+    30000,
+    20000
+  ],
+  "scenarios": [
+    {
+      "name": "Best case",
+      "assumptions": {
+        "name": "Best case",
+        "separate_expense": 44800,
+        "separate_rent": 19000,
+        "cohabit_expense": 34800,
+        "cohabit_rent": 12000,
+        "income_growth": 0.015,
+        "expense_growth": 0.01,
+        "gross_investment_return": 0.055,
+        "investment_fee_drag": 0.005,
+        "investment_tax_drag": 0.0,
+        "debt_rate": 0.07,
+        "moving_cost": 20000,
+        "pension_rate": 0.1,
+        "child_monthly_cost": 3500,
+        "family_remittance": 500,
+        "care_reduction": 0.0,
+        "care_start_age": 36,
+        "care_end_age": 36,
+        "property_price_40": 1800000,
+        "deposit_rate": 0.2,
+        "purchase_cost_rate": 0.05,
+        "mortgage_real_rate": 0.035,
+        "home_real_growth": 0.015,
+        "owner_cost_rate": 0.015,
+        "inheritance_age": 55,
+        "inheritance_amount": 500000,
+        "retirement_expense_factor": 0.7,
+        "income_shocks": [],
+        "emergencies": [],
+        "death_age": null,
+        "funeral_cost": 0
+      },
+      "early_move_age": 25,
+      "late_move_age": 35,
+      "early_net_worth_age_75": 61382154.063574925,
+      "late_net_worth_age_75": 50094947.55442348,
+      "age_75_gap": 11287206.509151444,
+      "early_milestones": {
+        "25": 0.0,
+        "35": 3401751.5206667325,
+        "45": 9239580.357573453,
+        "55": 20252176.587942816,
+        "65": 41046801.06053967,
+        "75": 61382154.063574925
+      },
+      "late_milestones": {
+        "25": 0.0,
+        "35": 1818371.4189572493,
+        "45": 6627975.313034268,
+        "55": 15998147.163628042,
+        "65": 34117435.38912015,
+        "75": 50094947.55442348
+      },
+      "early_purchase_age": 40,
+      "late_purchase_age": 40,
+      "living_cost_saved": 1261209.3838950023,
+      "child_cost": 2106692.871765213,
+      "family_remittance": 263914.14445935126,
+      "income_lost_to_shocks": 0.0,
+      "income_lost_to_care": 0.0,
+      "early_pension_contributions": 3278398.963934423,
+      "early_investment_drag": 3981172.318455338
+    },
+    {
+      "name": "Average case",
+      "assumptions": {
+        "name": "Average case",
+        "separate_expense": 44800,
+        "separate_rent": 19000,
+        "cohabit_expense": 36300,
+        "cohabit_rent": 13000,
+        "income_growth": 0.0075,
+        "expense_growth": 0.0075,
+        "gross_investment_return": 0.045,
+        "investment_fee_drag": 0.0075,
+        "investment_tax_drag": 0.0075,
+        "debt_rate": 0.08,
+        "moving_cost": 30000,
+        "pension_rate": 0.08,
+        "child_monthly_cost": 5000,
+        "family_remittance": 1500,
+        "care_reduction": 0.2,
+        "care_start_age": 36,
+        "care_end_age": 42,
+        "property_price_40": 1900000,
+        "deposit_rate": 0.2,
+        "purchase_cost_rate": 0.06,
+        "mortgage_real_rate": 0.045,
+        "home_real_growth": 0.0,
+        "owner_cost_rate": 0.018,
+        "inheritance_age": 55,
+        "inheritance_amount": 200000,
+        "retirement_expense_factor": 0.8,
+        "income_shocks": [
+          [
+            30,
+            1,
+            6,
+            1.0
+          ],
+          [
+            50,
+            0,
+            12,
+            0.5
+          ]
+        ],
+        "emergencies": [
+          [
+            50,
+            100000
+          ]
+        ],
+        "death_age": null,
+        "funeral_cost": 0
+      },
+      "early_move_age": 25,
+      "late_move_age": 35,
+      "early_net_worth_age_75": 13832759.752984544,
+      "late_net_worth_age_75": 9860644.636057135,
+      "age_75_gap": 3972115.1169274095,
+      "early_milestones": {
+        "25": 0.0,
+        "35": 2259714.06783419,
+        "45": 4137777.430884406,
+        "55": 7259606.673143056,
+        "65": 13742506.295223022,
+        "75": 13832759.752984544
+      },
+      "late_milestones": {
+        "25": 0.0,
+        "35": 1071961.2003316025,
+        "45": 2501318.5954373917,
+        "55": 5060342.84006338,
+        "65": 10786879.60744807,
+        "75": 9860644.636057135
+      },
+      "early_purchase_age": 40,
+      "late_purchase_age": 40,
+      "living_cost_saved": 1058744.7091932707,
+      "child_cost": 2843611.7508790875,
+      "family_remittance": 747232.8785804281,
+      "income_lost_to_shocks": 342476.5612719709,
+      "income_lost_to_care": 319686.58145325485,
+      "early_pension_contributions": 2184111.39785395,
+      "early_investment_drag": 3338397.200254758
+    },
+    {
+      "name": "Worst case",
+      "assumptions": {
+        "name": "Worst case",
+        "separate_expense": 47000,
+        "separate_rent": 20000,
+        "cohabit_expense": 42500,
+        "cohabit_rent": 14500,
+        "income_growth": 0.0,
+        "expense_growth": 0.005,
+        "gross_investment_return": 0.025,
+        "investment_fee_drag": 0.01,
+        "investment_tax_drag": 0.005,
+        "debt_rate": 0.03,
+        "moving_cost": 50000,
+        "pension_rate": 0.04,
+        "child_monthly_cost": 6500,
+        "family_remittance": 2500,
+        "care_reduction": 0.4,
+        "care_start_age": 36,
+        "care_end_age": 45,
+        "property_price_40": 2100000,
+        "deposit_rate": 0.2,
+        "purchase_cost_rate": 0.08,
+        "mortgage_real_rate": 0.065,
+        "home_real_growth": -0.01,
+        "owner_cost_rate": 0.022,
+        "inheritance_age": null,
+        "inheritance_amount": 0,
+        "retirement_expense_factor": 0.9,
+        "income_shocks": [
+          [
+            28,
+            1,
+            12,
+            1.0
+          ],
+          [
+            43,
+            0,
+            9,
+            1.0
+          ],
+          [
+            58,
+            1,
+            60,
+            0.5
+          ]
+        ],
+        "emergencies": [
+          [
+            58,
+            250000
+          ]
+        ],
+        "death_age": 63,
+        "funeral_cost": 100000
+      },
+      "early_move_age": 25,
+      "late_move_age": 35,
+      "early_net_worth_age_75": -16346367.537975265,
+      "late_net_worth_age_75": -18227879.532751407,
+      "age_75_gap": 1881511.9947761428,
+      "early_milestones": {
+        "25": 0.0,
+        "35": 584485.5142647687,
+        "45": -1564887.1397863913,
+        "55": -4095545.0570882717,
+        "65": -8159019.339701602,
+        "75": -16346367.537975265
+      },
+      "late_milestones": {
+        "25": 0.0,
+        "35": 41478.5050819763,
+        "45": -2340045.1695045074,
+        "55": -5137292.629806576,
+        "65": -9559040.965819716,
+        "75": -18227879.532751407
+      },
+      "early_purchase_age": null,
+      "late_purchase_age": null,
+      "living_cost_saved": 553578.0044938698,
+      "child_cost": 3493175.884253742,
+      "family_remittance": 1175944.1949092902,
+      "income_lost_to_shocks": 1110000.0,
+      "income_lost_to_care": 864000.0,
+      "early_pension_contributions": 852240.0,
+      "early_investment_drag": 37438.600298771154
+    }
+  ]
+}

@@ -1,0 +1,892 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:SRD-001
+  slug: the-r350-industrialisation-counterfactual
+  title: The R350 Industrialisation Counterfactual
+  subtitle: What South Africa might have owned if social-relief spending had been converted into productive capital
+  series_id: GSX:SRD
+  series_slug: r350-counterfactual
+  series_title: The R350 Counterfactual
+  series_number: '03'
+  paper_number: '01'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: counterfactual
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - grants
+  - industrialisation
+  - fiscal-policy
+  - south-africa
+  keywords:
+  - Social grants
+  - Industrialisation
+  - Fiscal policy
+  - South Africa
+  - r350
+  - industrialisation
+  - counterfactual
+  - productive
+  - capital
+  - alternative
+  - repeated
+  - emergency
+  - cash
+  - transfers
+  - examine
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: What productive-capital alternative to repeated emergency cash transfers does the R350 counterfactual examine?
+  short_answer: 'If the SRD envelope of about R253.5 billion in constant 2026 rand had been reprioritised into an industrial fund, the best case holds about R789 billion in productive assets by 2050 and generates roughly R39 billion a year in public cash. The annual cash flow exceeds one current SRD budget year only around 2049. Limitation: The envelope is a counterfactual resource, not yet a factory. The best case depends on projects being selected, built, operated and renewed for decades. This paper does not value what households would have lost if the grant had never been paid.'
+  abstract: The productive-capital alternative to repeated emergency cash transfers.
+  motivation: The productive-capital alternative to repeated emergency cash transfers.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - What might South Africa have built with the SRD grant budget?
+  - How does an industrialisation counterfactual compare with paying the R350 grant?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: the alternative use of the same resource or rule
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:SRD-001:R01
+  - GSX:SRD-001:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - What productive-capital alternative to repeated emergency cash transfers does the R350 counterfactual examine?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:SRD-001:M01
+    name: SRD industrial-fund counterfactual
+    purpose: The model restates the 2020/21-2026/27 SRD programme envelope in constant 2026 rand and follows best, average and worst industrial-fund paths to 2050. The asset paths use the reprioritised-fund version of the counterfactual.
+    model_class: financial counterfactual
+    statement: The model restates the 2020/21-2026/27 SRD programme envelope in constant 2026 rand and follows best, average and worst industrial-fund paths to 2050. The asset paths use the reprioritised-fund version of the counterfactual.
+    inputs:
+    - SRD programme amounts
+    - inflation restatement
+    - project survival and returns
+    outputs:
+    - productive assets
+    - annual public cash
+    time_step: annual
+    implementation_file: research/source/r350-industrialisation-counterfactual/model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:SRD-001:A01
+    name: Programme envelope
+    statement: The envelope from 2020/21 through the 2026/27 allocation is R225.8 billion in nominal rand, about R253.5 billion in constant 2026 purchasing power. Later years include a revised estimate and a voted allocation, not only cash already spent.
+    value: '253.5'
+    unit: billion constant 2026 rand
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript Part I, citing the Department of Social Development and National Treasury
+    source_ids:
+    - GSX:SRD-001:PDF
+    evidence_strength: programme records restated by the model
+    sensitivity: moderate
+    alternatives:
+    - A ledger that stops at final outturns
+  - id: A02
+    canonical_id: GSX:SRD-001:A02
+    name: Reprioritised fund
+    statement: The published asset paths withhold the grant and place the revenue in a ring-fenced fund. They do not describe the borrowed-fund case, which adds an asset and a matching liability.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript financing table
+    source_ids:
+    - GSX:SRD-001:PDF
+    evidence_strength: counterfactual design
+    sensitivity: high
+    alternatives:
+    - Debt reduction
+    - A borrowed industrial fund
+  - id: A03
+    canonical_id: GSX:SRD-001:A03
+    name: Welfare is not counted here
+    statement: The model does not count food, transport, health protection, debt service or local demand purchased by the grant. That loss is the subject of the companion welfare paper.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:SRD-001:PDF
+    evidence_strength: scope limit
+    sensitivity: high
+    alternatives:
+    - A combined welfare and asset account
+  parameters:
+  - id: P01
+    name: Programme envelope
+    symbol: see the manuscript
+    description: The envelope from 2020/21 through the 2026/27 allocation is R225.8 billion in nominal rand, about R253.5 billion in constant 2026 purchasing power. Later years include a revised estimate and a voted allocation, not only cash already spent.
+    value: '253.5'
+    unit: billion constant 2026 rand
+    price_year: '2026'
+    scenario_values:
+      central: '253.5'
+    source_ids:
+    - GSX:SRD-001:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The model restates the 2020/21-2026/27 SRD programme envelope in constant 2026 rand and follows best, average and worst industrial-fund paths to 2050. The asset paths use the reprioritised-fund version of the counterfactual.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:SRD-001:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Best case, 2050
+  role: baseline
+  description: By 2050 the best-case industrial fund holds about R789 billion in productive assets and generates roughly R39 billion a year in public cash, in 2026 rand.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The R350 Industrialisation Counterfactual
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/r350-industrialisation-counterfactual/report.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - The envelope is a counterfactual resource, not yet a factory. The best case depends on projects being selected, built, operated and renewed for decades. This paper does not value what households would have lost if the grant had never been paid.
+  source_register:
+  - id: GSX:SRD-001:PDF
+    type: manuscript
+    title: The R350 Industrialisation Counterfactual
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual.pdf
+    access_date: '2026-09-27'
+    locator: 21 pages; 1.38 MB
+    supports:
+    - GSX:SRD-001:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:SRD-001:SRC01
+    type: web_reference
+    title: Department of Social Development 2021/22 Annual Report
+    author_or_publisher: portal.dsd.gov.za
+    date: see cited resource
+    url: https://portal.dsd.gov.za/DSD-AR/files/basic-html/page234.html
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-001:SRC02
+    type: web_reference
+    title: National Treasury, 2026 ENE Vote 19
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/National%20Budget/2026/ene/Vote%2019%20Social%20Development.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-001:SRC03
+    type: web_reference
+    title: Statistics South Africa, CPI March 2025
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0141/P0141March2025.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-001:SRC04
+    type: web_reference
+    title: National Treasury, 2026 Budget presentation
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/National%20Budget/2026/2026%20Budget%20presentation.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-001:SRC05
+    type: web_reference
+    title: IDC Integrated Report 2025
+    author_or_publisher: idc.co.za
+    date: see cited resource
+    url: https://www.idc.co.za/integrated-report/wp-content/uploads/2025/09/IDC-Integrated-Report-2025.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-001:SRC06
+    type: web_reference
+    title: Auditor-General South Africa, PFMA 2024/25 General Report
+    author_or_publisher: agsa.co.za
+    date: see cited resource
+    url: https://www.agsa.co.za/reports/pfma-general-reports
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-001:SRC07
+    type: web_reference
+    title: National Treasury, 2026 Budget Review Chapter 7
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/National%20Budget/2026/review/Chapter%207.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-001:SRC08
+    type: web_reference
+    title: Statistics South Africa, QLFS Q2 2026
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0211/Media%20Release%20QLFS%20Q2%202026.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-001:SRC09
+    type: web_reference
+    title: Statistics South Africa, GDP Q4 2025
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0441/P04414thQuarter2025.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-001:SRC10
+    type: web_reference
+    title: 'National Treasury, 2022 Estimates of National Expenditure, Vote 19: Social Development'
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/national%20budget/2022/ene/Vote%2019%20Social%20Development.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:SRD-001:SRC11
+    type: web_reference
+    title: National Treasury, 2026 Budget presentation
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/national%20budget/2026/2026%20Budget%20presentation.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:SRD-001:R01
+    statement: By 2050 the best-case industrial fund holds about R789 billion in productive assets and generates roughly R39 billion a year in public cash, in 2026 rand.
+    value: '789'
+    unit: billion constant 2026 rand of productive assets
+    price_year: '2026'
+    year_or_period: Best case, 2050
+    scenario_id: Best case, 2050
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:SRD-001:PDF
+    reproducible_from:
+    - GSX:SRD-001:M01
+  - id: R02
+    canonical_id: GSX:SRD-001:R02
+    statement: By 2050 the average case reaches roughly R304 billion in productive assets and R9 billion in annual public cash. The worst case reaches R72 billion and R0.7 billion a year.
+    value: '304'
+    unit: billion constant 2026 rand of productive assets
+    price_year: '2026'
+    year_or_period: Average case, 2050
+    scenario_id: Average case, 2050
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:SRD-001:PDF
+    reproducible_from:
+    - GSX:SRD-001:M01
+  headline_results:
+  - GSX:SRD-001:R01
+  sensitivity_results:
+  - GSX:SRD-001:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - The envelope is a counterfactual resource, not yet a factory. The best case depends on projects being selected, built, operated and renewed for decades. This paper does not value what households would have lost if the grant had never been paid.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:SRD-001:C01
+    claim: If the SRD envelope of about R253.5 billion in constant 2026 rand had been reprioritised into an industrial fund, the best case holds about R789 billion in productive assets by 2050 and generates roughly R39 billion a year in public cash. The annual cash flow exceeds one current SRD budget year only around 2049.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:SRD-001:A01
+    - GSX:SRD-001:A02
+    derived_from_results: &id004
+    - GSX:SRD-001:R01
+    supported_by_sources:
+    - GSX:SRD-001:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The envelope is a counterfactual resource, not yet a factory. The best case depends on projects being selected, built, operated and renewed for decades. This paper does not value what households would have lost if the grant had never been paid.
+    sensitivity: high
+    retrieval_text: If the SRD envelope of about R253.5 billion in constant 2026 rand had been reprioritised into an industrial fund, the best case holds about R789 billion in productive assets by 2050 and generates roughly R39 billion a year in public cash. The annual cash flow exceeds one current SRD budget year only around 2049.
+    citation_text: GreyScienx, GSX:SRD-001:C01, version 1.0.
+    href: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual/claims/C01
+  - id: C02
+    canonical_id: GSX:SRD-001:C02
+    claim: The average case reaches roughly R304 billion in productive assets and R9 billion in annual public cash by 2050. The worst case reaches R72 billion and R0.7 billion a year.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:SRD-001:A01
+    - GSX:SRD-001:A02
+    - GSX:SRD-001:A03
+    derived_from_results:
+    - GSX:SRD-001:R02
+    supported_by_sources:
+    - GSX:SRD-001:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: These paths are the reprioritised-fund counterfactual. A borrowed fund would also carry a matching liability, and neither path is automatically superior to having paid the grant.
+    sensitivity: high
+    retrieval_text: The average case reaches roughly R304 billion in productive assets and R9 billion in annual public cash by 2050. The worst case reaches R72 billion and R0.7 billion a year.
+    citation_text: GreyScienx, GSX:SRD-001:C02, version 1.0.
+    href: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - The envelope is a counterfactual resource, not yet a factory. The best case depends on projects being selected, built, operated and renewed for decades. This paper does not value what households would have lost if the grant had never been paid.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: The envelope is a counterfactual resource, not yet a factory. The best case depends on projects being selected, built, operated and renewed for decades. This paper does not value what households would have lost if the grant had never been paid.
+  limitations:
+  - The envelope is a counterfactual resource, not yet a factory. The best case depends on projects being selected, built, operated and renewed for decades. This paper does not value what households would have lost if the grant had never been paid.
+  - These paths are the reprioritised-fund counterfactual. A borrowed fund would also carry a matching liability, and neither path is automatically superior to having paid the grant.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - The envelope is a counterfactual resource, not yet a factory. The best case depends on projects being selected, built, operated and renewed for decades. This paper does not value what households would have lost if the grant had never been paid.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/r350-industrialisation-counterfactual/report.md
+    pdf: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual.pdf
+    html: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual
+    clean_markdown: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/r350-industrialisation-counterfactual/report.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:SRD-001:PDF
+    result_ids:
+    - GSX:SRD-001:R01
+  figures:
+  - id: F01
+    title: Annual SRD ledger
+    caption: Figure 1. Actual, revised and budgeted SRD programme amounts. Constant-rand bars show the purchasing power of each year's allocation in 2026 terms.
+    alt_text: Annual SRD ledger
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/r350-industrialisation-counterfactual/assets/srd-ledger.png
+    data_file: research/source/r350-industrialisation-counterfactual/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-001:R01
+    source_ids:
+    - GSX:SRD-001:PDF
+  - id: F02
+    title: Mechanical fund
+    caption: Figure 2. A gross financial benchmark. These balances precede deployment lags, project losses, operating costs and debt financing.
+    alt_text: Mechanical fund
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/r350-industrialisation-counterfactual/assets/gross-fund-benchmark.png
+    data_file: research/source/r350-industrialisation-counterfactual/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-001:R01
+    source_ids:
+    - GSX:SRD-001:PDF
+  - id: F03
+    title: Fund anatomy
+    caption: Figure 3. Modelled end-2026 fund anatomy. A cash balance retains financial value, but it has not yet created industrial capacity.
+    alt_text: Fund anatomy
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/r350-industrialisation-counterfactual/assets/fund-anatomy-2026.png
+    data_file: research/source/r350-industrialisation-counterfactual/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-001:R01
+    source_ids:
+    - GSX:SRD-001:PDF
+  - id: F04
+    title: Productive assets
+    caption: Figure 4. Modelled operating productive assets in constant 2026 rand. After 2027 the paths differ because the same starting endowment is governed, maintained and renewed differently.
+    alt_text: Productive assets
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/r350-industrialisation-counterfactual/assets/productive-assets-to-2050.png
+    data_file: research/source/r350-industrialisation-counterfactual/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-001:R01
+    source_ids:
+    - GSX:SRD-001:PDF
+  - id: F05
+    title: Public cash
+    caption: Figure 5. Annual public cash generated by the modelled asset. The benchmark is one 2026/27 SRD allocation held constant in real terms.
+    alt_text: Public cash
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/r350-industrialisation-counterfactual/assets/public-cash-to-2050.png
+    data_file: research/source/r350-industrialisation-counterfactual/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-001:R01
+    source_ids:
+    - GSX:SRD-001:PDF
+  - id: F06
+    title: Borrowing test
+    caption: Figure 6. Net public position for a separately borrowed fund. Positive values mean modelled fund value plus cumulative public cash exceeds the associated debt; this is not a forecast of total national debt.
+    alt_text: Borrowing test
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/r350-industrialisation-counterfactual/assets/borrowed-fund-test.png
+    data_file: research/source/r350-industrialisation-counterfactual/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-001:R01
+    source_ids:
+    - GSX:SRD-001:PDF
+  - id: F07
+    title: Sensitivity
+    caption: Figure 7. Productive asset value in 2050 under alternative survival and real-growth assumptions. Values are R billion in constant 2026 rand.
+    alt_text: Sensitivity
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/r350-industrialisation-counterfactual/assets/sensitivity-heatmap.png
+    data_file: research/source/r350-industrialisation-counterfactual/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-001:R01
+    source_ids:
+    - GSX:SRD-001:PDF
+  - id: F08
+    title: R1 lifecycle
+    caption: Figure 8. The temporal and financial paths of a transferred rand, a reprioritised invested rand and a borrowed invested rand.
+    alt_text: R1 lifecycle
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/r350-industrialisation-counterfactual/assets/r1-lifecycle.png
+    data_file: research/source/r350-industrialisation-counterfactual/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:SRD-001:R01
+    source_ids:
+    - GSX:SRD-001:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/r350-industrialisation-counterfactual/model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/r350-industrialisation-counterfactual/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/r350-industrialisation-counterfactual/model.py
+  - research/source/r350-industrialisation-counterfactual/model_results.json
+  data_files:
+  - research/source/r350-industrialisation-counterfactual/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/r350-industrialisation-counterfactual/model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:SRD-002
+    slug: the-welfare-cost-of-not-paying-the-grant
+    title: The Welfare Cost of Not Paying the Grant
+    href: https://greyscienx.com/research/r350-counterfactual/the-welfare-cost-of-not-paying-the-grant
+    relationship: same_series
+  - id: GSX:SRD-003
+    slug: consumption-today-or-productive-capital-tomorrow
+    title: Consumption Today or Productive Capital Tomorrow?
+    href: https://greyscienx.com/research/r350-counterfactual/consumption-today-or-productive-capital-tomorrow
+    relationship: same_series
+  - id: GSX:SRD-004
+    slug: the-public-capital-multiplier
+    title: The Public-Capital Multiplier
+    href: https://greyscienx.com/research/r350-counterfactual/the-public-capital-multiplier
+    relationship: same_series
+  - id: GSX:SRD-005
+    slug: the-r200-billion-factory
+    title: The R200 Billion Factory
+    href: https://greyscienx.com/research/r350-counterfactual/the-r200-billion-factory
+    relationship: same_series
+  predecessor_studies:
+  - none
+  successor_studies:
+  - id: GSX:SRD-003
+    title: Consumption Today or Productive Capital Tomorrow?
+    paper_number: '03'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - grants
+  - industrialisation
+  - fiscal-policy
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:SRD-001:C01
+    predicate: depends_on
+    object_id: GSX:SRD-001:A01
+    note: Registered dependency.
+  - subject_id: GSX:SRD-001:C01
+    predicate: depends_on
+    object_id: GSX:SRD-001:A02
+    note: Registered dependency.
+  - subject_id: GSX:SRD-001:C01
+    predicate: derived_from
+    object_id: GSX:SRD-001:R01
+    note: Registered result.
+  - subject_id: GSX:SRD-001:C02
+    predicate: depends_on
+    object_id: GSX:SRD-001:A01
+    note: Registered dependency.
+  - subject_id: GSX:SRD-001:C02
+    predicate: depends_on
+    object_id: GSX:SRD-001:A02
+    note: Registered dependency.
+  - subject_id: GSX:SRD-001:C02
+    predicate: depends_on
+    object_id: GSX:SRD-001:A03
+    note: Registered dependency.
+  - subject_id: GSX:SRD-001:C02
+    predicate: derived_from
+    object_id: GSX:SRD-001:R02
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The R350 Industrialisation Counterfactual. GSX:SRD-001. Version 1.0.
+  machine_citation: GreyScienx, GSX:SRD-001, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual
+    html: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual
+    markdown: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual/markdown
+    json: https://greyscienx.com/api/v1/research/the-r350-industrialisation-counterfactual
+    pdf: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual.pdf
+    api: https://greyscienx.com/api/v1/research/the-r350-industrialisation-counterfactual
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The R350 Industrialisation Counterfactual
+    identifier: GSX:SRD-001
+    url: https://greyscienx.com/research/r350-counterfactual/the-r350-industrialisation-counterfactual
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: The productive-capital alternative to repeated emergency cash transfers.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: If the SRD envelope of about R253.5 billion in constant 2026 rand had been reprioritised into an industrial fund, the best case holds about R789 billion in productive assets by 2050 and generates roughly R39 billion a year in public cash. The annual cash flow exceeds one current SRD budget year only around 2049.
+    claim_ids:
+    - GSX:SRD-001:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:SRD-001:PDF
+    page: manuscript Part I
+    token_estimate: 54
+  question_aliases:
+  - What might South Africa have built with the SRD grant budget?
+  - How does an industrialisation counterfactual compare with paying the R350 grant?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:SRD-001, version 1.0
+    claim_level_pattern: GreyScienx, GSX:SRD-001:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:SRD-001
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:SRD-001

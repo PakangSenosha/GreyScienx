@@ -1,29 +1,63 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { papers, researchSeries } from "@/lib/catalog";
+import { site } from "@/lib/site";
+
+const canonical = `https://${site.domain}`;
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical,
+    types: {
+      "application/rss+xml": `${canonical}/feed.xml`,
+      "text/plain": `${canonical}/llms.txt`,
+    },
+  },
+};
 
 const editorialPrinciples = [
   {
     number: "01",
-    title: "Begin with the question",
-    body: "Start from a problem worth understanding without forcing it into a disciplinary category first.",
+    title: "Start with the question",
+    body: "Let the problem determine the method, rather than forcing it into a disciplinary category.",
   },
   {
     number: "02",
-    title: "Expose the reasoning",
-    body: "Make the evidence, assumptions, models, uncertainty and failure conditions visible.",
+    title: "Show the reasoning",
+    body: "State the evidence, assumptions, uncertainty and conditions under which the conclusion could fail.",
   },
   {
     number: "03",
-    title: "Publish the full record",
-    body: "Keep the complete manuscript available as the source of record.",
+    title: "Keep the full record",
+    body: "Publish the complete manuscript so readers can inspect the argument for themselves.",
   },
 ];
 
 export default function HomePage() {
   return (
     <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: site.name,
+          url: canonical,
+          description: site.description,
+          publisher: {
+            "@type": "Organization",
+            name: site.name,
+            url: canonical,
+          },
+          potentialAction: {
+            "@type": "SearchAction",
+            target: `${canonical}/api/v1/search?q={search_term_string}`,
+            "query-input": "required name=search_term_string",
+          },
+        }}
+      />
       <SiteHeader />
       <main>
         <section className="hero hero-solo home-hero" id="top">
@@ -31,59 +65,58 @@ export default function HomePage() {
           <div className="brand-wave wave-two" aria-hidden="true" />
           <div className="brand-wave wave-three" aria-hidden="true" />
           <div className="hero-copy">
-            <p className="eyebrow">Independent research publication</p>
+            <p className="eyebrow">Independent research</p>
             <h1>
-              Questions worth
+              Ideas examined
               <br />
-              <em>modelling.</em>
+              <em>in full.</em>
             </h1>
             <p className="dek">
-              GreyScienx publishes readable, model-led research across fields of study. The
-              archive preserves complete papers and organises related questions into series.
+              GreyScienx publishes original analysis for general readers. Each study states
+              its assumptions, weighs uncertainty and links to the complete paper.
             </p>
             <div className="hero-actions">
               <Link className="button button-primary" href="/research">
-                Browse all research
+                Read the research
               </Link>
               <Link className="button button-secondary" href="/about">
-                About GreyScienx
+                About the publication
               </Link>
             </div>
-            <p className="file-meta">Open manuscripts · Transparent assumptions · No field boundary</p>
+            <p className="file-meta">Original analysis · Visible methods · Complete manuscripts</p>
           </div>
         </section>
 
         <section className="number-band" aria-label="GreyScienx at a glance">
           <div>
             <strong>{papers.length}</strong>
-            <span>published papers</span>
+            <span>published studies</span>
           </div>
           <div>
             <strong>{researchSeries.length}</strong>
-            <span>research series</span>
+            <span>series</span>
           </div>
           <div>
             <strong>PDF</strong>
-            <span>source of record</span>
+            <span>full manuscripts</span>
           </div>
           <div>
             <strong>All</strong>
-            <span>fields of study</span>
+            <span>subjects</span>
           </div>
         </section>
 
         <section className="section-grid" id="research">
           <div className="section-label">
             <span>01</span>
-            <p>Research programmes</p>
+            <p>The archive</p>
           </div>
           <div className="hub-copy">
-            <p className="kicker">The complete archive</p>
-            <h2>Research organised by series.</h2>
+            <p className="kicker">Follow the inquiry</p>
+            <h2>Research, arranged by series.</h2>
             <p>
-              Related papers sit together so a reader can follow an argument from its first
-              question to its wider system. The archive stays text-led and opens directly into
-              the complete manuscripts.
+              Each series follows a question across several papers. Readers can begin with the
+              overview, trace the argument and open every manuscript in full.
             </p>
             <div className="series-card-grid">
               {researchSeries.map((series) => (
@@ -97,7 +130,7 @@ export default function HomePage() {
             </div>
             <p className="archive-link">
               <Link className="button button-ghost" href="/research">
-                Open the full archive
+                View all research
               </Link>
             </p>
           </div>
@@ -106,15 +139,14 @@ export default function HomePage() {
         <section className="method section-grid programme-section">
           <div className="section-label light">
             <span>02</span>
-            <p>Publication model</p>
+            <p>How we work</p>
           </div>
           <div className="method-copy">
-            <p className="eyebrow light-text">How the work is built</p>
-            <h2>Research without a departmental boundary.</h2>
+            <p className="eyebrow light-text">The reporting method</p>
+            <h2>The question leads. The evidence decides.</h2>
             <p className="programme-intro">
-              The subject can change completely. The discipline of the publication does not:
-              frame the question clearly, show how the conclusion was reached and preserve
-              enough detail for a critical reader to disagree.
+              The subject may change. The standard does not: define the question, explain how
+              the answer was reached and give readers enough evidence to disagree.
             </p>
             <div className="theme-grid">
               {editorialPrinciples.map((item) => (
@@ -131,27 +163,27 @@ export default function HomePage() {
         <section className="section-grid principles-section">
           <div className="section-label">
             <span>03</span>
-            <p>Editorial standard</p>
+            <p>Editorial standards</p>
           </div>
           <div className="hub-copy">
-            <p className="kicker">Readable does not mean vague</p>
-            <h2>The argument first. The machinery still exposed.</h2>
+            <p className="kicker">Clarity without shortcuts</p>
+            <h2>Plain language. Visible methods.</h2>
             <div className="principle-list">
               <article>
-                <strong>Accessible, but sourced</strong>
-                <p>Write for a serious general reader and connect important claims to evidence.</p>
+                <strong>Written for readers</strong>
+                <p>Explain the argument in plain language and connect consequential claims to evidence.</p>
               </article>
               <article>
-                <strong>Models, not oracles</strong>
-                <p>Use scenarios to test scale and trade-offs. Resist false precision.</p>
+                <strong>Models have limits</strong>
+                <p>Use scenarios to test scale and trade-offs without presenting estimates as forecasts.</p>
               </article>
               <article>
-                <strong>Evidence before decoration</strong>
-                <p>Keep the public archive simple and let the manuscript carry the full analysis.</p>
+                <strong>Evidence before display</strong>
+                <p>Use design to clarify the work, never to substitute for it.</p>
               </article>
               <article>
-                <strong>Failure stays visible</strong>
-                <p>Limitations, counterarguments and conditions for being wrong remain in the work.</p>
+                <strong>Doubt belongs in the story</strong>
+                <p>Keep limitations, counterarguments and the conditions for being wrong in view.</p>
               </article>
             </div>
           </div>
@@ -160,20 +192,19 @@ export default function HomePage() {
         <section className="author-panel publication-panel">
           <div>
             <p className="eyebrow light-text">GreyScienx</p>
-            <h2>A home for the work.</h2>
+            <h2>A publication built to grow.</h2>
           </div>
           <div>
             <p>
-              GreyScienx currently carries its founding body of research. Its structure is
-              broader than one person or discipline, so future collaborators can be added
-              without changing the publication&apos;s identity.
+              GreyScienx begins with a founding collection by Pakang Senosha. Its editorial
+              structure is designed to accommodate new subjects and, in time, new contributors.
             </p>
             <div className="hero-actions">
               <Link className="button button-paper" href="/about">
-                About the publication
+                How GreyScienx works
               </Link>
               <Link className="button button-secondary" href="/about/pakang-senosha">
-                About the founder
+                Meet the founder
               </Link>
             </div>
           </div>

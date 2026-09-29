@@ -1,0 +1,13 @@
+{
+  "schema_version": "GreyScienxEditorialReview 1.0",
+  "reviewed_at": "2026-09-29",
+  "reviewer": "Pakang Senosha",
+  "review_basis": "Publisher attestation in the GreyScienx project session that every published paper has been read and reviewed.",
+  "scope": "All studies listed in research/templates/semantic-twin/published/manifest.yaml",
+  "decisions": {
+    "human_final_review": true,
+    "pdf_visual_qa_complete": true,
+    "claim_source_candidates": "accepted_as_contextual_references"
+  },
+  "evidence_note": "Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result."
+}

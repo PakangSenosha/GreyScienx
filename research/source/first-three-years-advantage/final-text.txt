@@ -1,0 +1,1022 @@
+GREYSCIENX / HOUSEHOLD FINANCE
+
+
+
+
+The First Three Years
+Advantage
+How much can three boring years in your twenties change the next forty?
+
+
+
+
+              R602k                                    R3.32m                           54
+        CENTRAL AGE-25 ADVANTAGE                  CENTRAL AGE-60 DIFFERENCE   STRATEGY-CITY-SALARY CASES
+
+
+
+
+GreyScienx | Research publication | September 2026 | Constant 2026 rand
+GREYSCIENX                                                                                                   THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+Inside the note
+A map of the argument, model, evidence, and qualifications.
+
+
+
+
+PART I: The answer                                                                                                                             4
+
+   Three restrained years can buy decades of financial room, but only when the household bargain is safe and fair . . . . . . . 4
+
+
+   The central comparison . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+
+   Eight findings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+
+PART II: What the model actually compares                                                                                                      7
+
+   A controlled counterfactual, not a biography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+
+   The three layers of evidence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+
+   The earnings cases . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+
+   The city cases . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+
+   The vehicle and hybrid transport cases . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+
+PART III: Where the advantage comes from                                                                                                     10
+
+   The household decision is a large recurring spread . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+
+   The transport decision is smaller, but still meaningful . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+
+   The first-years advantage is not just “compound interest” . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+
+   Why R100,000 at 23 is not R100,000 at 33 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+
+PART IV: What to do with the capital                                                                                                         13
+
+   Investment is only one use . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+
+   Debt repayment and emergency liquidity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+
+   Training . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+
+   A cash vehicle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+
+   A property deposit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+
+PART V: Break-even conditions                                                                                                                15
+
+   When does leaving home early make financial sense? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                                               02
+GREYSCIENX                                                                                                              THE FIRST THREE YEARS ADVANTAGE
+
+
+
+       / The household-contribution threshold . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+
+       / The earnings-opportunity threshold . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+
+       / The commute threshold . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+
+       / The high-income threshold . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+
+   Rent, salary and city sensitivity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+
+   Vehicle-price and office-frequency sensitivity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+
+PART VI: Welfare is not a rounding error                                                                                                                   17
+
+   Independence buys real goods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+
+   Family contributions are transfers, not waste . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+
+   Safety changes transport economics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+
+   Relationships and the cost of postponement                . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+
+PART VII: A decision framework                                                                                                                             18
+
+   Treat the first three years as a capital project          . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+
+   Set exit conditions before the arrangement starts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+
+   Test four middle paths . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+
+   Use a threshold, not a moral rule . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+
+PART VIII: Limits, interpretation and conclusion                                                                                                           19
+
+   What the model leaves out           . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+
+   The answer to the headline question . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+
+APPENDIX A: Reproducibility and sources                                                                                                                    20
+
+   Files and mechanics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+
+   Source ledger . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+
+   Interpretation label . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                                                             03
+GREYSCIENX                                                                                   THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+    PART I
+
+    The answer
+
+
+
+PART I: The answer
+Three restrained years can buy decades of financial room, but
+only when the household bargain is safe and fair
+There is a moment after a first proper salary arrives when adulthood seems to demand a visible upgrade. The room in
+the family home starts to feel temporary. The old commute feels beneath the new job. A financed car, a deposit on a
+flat, furniture, insurance, food and the small rituals of independence arrive together. None of these choices is frivolous.
+They buy privacy, mobility, dignity, relationships, safety and control over time.
+
+They also land at almost the worst possible moment for compound growth. At age 22, capital has nearly four decades
+to reproduce. A cost avoided at 57 has three years. A cost avoided at 23 has thirty-seven.
+
+This paper models six ways of navigating the first three working years in South Africa. The central case is a 22-year-old
+in Johannesburg earning R420,000 a year before tax in 2026 prices. The person can move out and finance a R230,000
+used car immediately, delay both decisions by one, two or three years, or separate the household and vehicle decisions.
+While living at home the person contributes to the household. While delaying the car the person uses a
+public-transport and ride-hailing mix. At age 25 every path transitions to independent living and car ownership; from
+then on the model gives each path the same salary trajectory, 10% retirement saving rate and 5% real investment
+return.
+
+The result is not subtle. In the central scenario, moving out and buying the car immediately leaves a modeled R49,000
+funding shortfall at age 25. Delaying both for three years leaves R553,000 of net capital after the eventual moving and
+vehicle deposits. The difference is R602,000 at age 25. If preserved in the common post-25 investment path, it becomes
+R3.32 million of additional wealth at age 60, in constant 2026 rand.
+
+That is not a forecast. It is a counterfactual with a deliberately hard boundary. It says: if two otherwise identical lives
+differ only in how they fund housing and transport between 22 and 25, the early cost gap can remain economically
+visible at 60. The result does not say that every graduate can live at home, should live at home, has a safe family home,
+can reach work without a car, or values independence at zero.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                          04
+GREYSCIENX                                                                                                    THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+Figure 1. Total modeled financial wealth includes the common post-25 retirement saving path. The vertical distance between lines is the
+first-three-years advantage carried forward, not a forecast of an actual person's complete balance sheet.
+
+Central finding. In the middle-salary Johannesburg case, a three-year combined delay creates R602,000
+more net capital at age 25 and R3.32 million more modeled wealth at age 60 than immediate solo
+renting plus a financed car. Most of the gain comes from the housing decision. The result is large
+because the immediate bundle is barely affordable, not because investment returns perform magic.
+
+
+The central comparison
+ Strategy                 Move                    Car                     Wealth 30               Wealth 40               Wealth 60
+
+ Immediate                Year 0                  Year 0                  R0.20m                  R0.98m                  R4.75m
+ independence
+
+ One-year delay           Year 1                  Year 1                  R0.46m                  R1.42m                  R5.91m
+
+ Two-year delay           Year 2                  Year 2                  R0.71m                  R1.82m                  R6.96m
+
+ Three-year delay         Year 3                  Year 3                  R0.97m                  R2.24m                  R8.08m
+
+ Home plus earlier car    Year 3                  Year 1                  R0.86m                  R2.05m                  R7.59m
+
+ Home plus delayed        Year 3                  Year 3                  R0.97m                  R2.24m                  R8.08m
+ car
+
+
+
+The final two rows intentionally reproduce the brief's requested strategies. In this implementation, “three-year delay”
+and “home plus delayed car” have identical dates and therefore identical results. Their duplication is a useful audit
+check, not a hidden extra scenario.
+
+The absolute balances in the table deserve care. They combine the strategy-created capital at 25 with a common
+stream of retirement saving equal to 10% of gross salary thereafter. They do not model every future wedding, child, job
+loss, inheritance, house purchase or retirement-fund rule. The robust quantity is the gap between strategies. The level is
+a scale illustration.
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                                           05
+GREYSCIENX                                                                                THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+Eight findings
+First, affordability comes before compounding. The immediate middle-income bundle produces a small shortfall at
+25. The lower-salary bundle produces a R463,000 shortfall. In those cases, delay first prevents expensive negative
+wealth. Only then does compound growth amplify the difference.
+
+Second, housing dominates transport in the central case. Keeping the car decision immediate but staying at home
+for three years creates R486,000 more capital by 25. Moving out immediately but delaying the car creates R128,000.
+These effects overlap slightly when combined because interest on positive and negative balances differs.
+
+Third, each year matters. Relative to immediate independence, the one-year combined delay adds about R209,000 at
+25, the two-year delay R400,000 and the three-year delay R602,000. The progression is close to linear in cash but
+convex in long-run wealth because earlier surpluses earn returns and avoided deficits stop accruing debt costs.
+
+Fourth, Cape Town raises the stakes. In the middle-income case, the three-year combined advantage at 60 is R4.06
+million in Cape Town, compared with R3.32 million in Johannesburg and R3.32 million in Durban under the chosen rent
+scenarios. This is not a ranking of city welfare. It reflects the higher assumed rent avoided before age 25.
+
+Fifth, a cheaper shared flat changes the headline but not the direction. Reducing Johannesburg rent by 30% cuts
+the age-25 advantage from R602,000 to R482,000. That is still R2.66 million at age 60 under a 5% real return. Shared
+housing is therefore a powerful middle path.
+
+Sixth, ride-hailing is not automatically cheap. In the central hybrid design, a financed used car becomes cheaper on
+monthly private cost only above roughly 2,405 kilometres a month. A 25% ride-hailing surge lowers that threshold to
+about 1,585 kilometres. Safety, shift work, waiting and inaccessible routes can move the practical threshold much
+further.
+
+Seventh, family contributions can erase the household advantage. The modeled three-year home-only advantage
+disappears at a contribution of roughly R15,900 a month in the middle-income Johannesburg case. A contribution
+below that can still be financially valuable while transferring meaningful resources to the household. A contribution
+above it may still be the right family choice, but it is no longer a private wealth strategy.
+
+Eighth, financial wealth is not total welfare. The central housing delay is worth about R13,500 a month in age-25
+capital terms. That number is a break-even price for privacy, autonomy, safety, a shorter commute and relationship
+space. If independence is worth more than that to the individual, moving earlier can be rational even while producing
+less financial wealth.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                       06
+GREYSCIENX                                                                                    THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+    PART II
+
+    What the model actually compares
+
+
+
+PART II: What the model actually compares
+A controlled counterfactual, not a biography
+Lifetime models often become novels disguised as spreadsheets. They invent promotions, spouses, children, property
+booms and stock-market paths, then report the result to the nearest rand. This model takes the opposite approach.
+
+It models the first 36 months in monthly detail. Salary, income tax, household contribution, rent, utilities, food, personal
+spending, transport, moving costs, rental deposits, vehicle finance, vehicle depreciation and investment or debt interest
+are all explicit. At month 36, every strategy has moved out and acquired the modeled car. The net position at that
+boundary is the strategy-created capital.
+
+From age 25 onward, the model stops distinguishing lifestyles. Each representative worker follows the same real salary
+growth, saves 10% of gross income a year and earns the same real return. This design gives up predictive richness to
+gain causal clarity. When the age-60 balances differ, they differ because of the first three years.
+
+The model starts at age 22 and reports ages 30, 40 and 60. Money is expressed in constant 2026 rand. Inflation does
+not disappear; it is removed from both cash flows and returns so that a future rand means the purchasing power of a
+2026 rand.
+
+
+The three layers of evidence
+The input file separates three kinds of number.
+
+Sourced observations anchor the scale. The 2026/27 SARS tax brackets and primary rebate determine take-home pay.
+Stats SA's latest labour-market report provides earnings medians. PayProp's Q1 2026 Rental Index anchors rent. The
+SARB policy rate and inflation target anchor borrowing assumptions. SARS's 2026/27 vehicle-cost schedule checks
+whether the modeled used-car cost is in a plausible range. Stats SA's residential property price index informs, but does
+not dictate, the property sensitivity.
+
+Modeling assumptions turn those anchors into a coherent household budget. These include the exact starting
+salaries, one-bedroom city rents, household contribution rule, hybrid transport mix, vehicle deposit and finance rate,
+retirement saving rate and real returns.
+
+Illustrative scenarios are questions, not claims: what if rent is 30% lower, the vehicle costs R160,000, the person
+attends the office 26 days a month, or training lifts earnings by 5% for five years?
+
+This separation matters because the evidence is uneven. SARS can tell us the tax schedule. It cannot tell us what privacy
+is worth. PayProp can observe rental transactions. It cannot define a representative graduate's flat. The model should
+not borrow the authority of a source for a choice the source never made.
+
+
+The earnings cases
+Stats SA reports that the median monthly earnings of all employees were R6,000 in 2024, while managers and
+professionals each had a median of R25,000 and technicians R20,000. It also warns that medians describe a highly
+unequal labour market better than averages. Statistics South Africa, Labour Market Dynamics in South Africa 2024.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                           07
+GREYSCIENX                                                                                     THE FIRST THREE YEARS ADVANTAGE
+
+
+
+The paper therefore does not call its three salary paths national percentiles. They are illustrative full-time starting
+salaries for a worker considering urban independence:
+
+ Scenario                                         Annual gross       Monthly gross                Role in model
+
+ Lower                                            R240,000           R20,000                      Independence bundle is
+                                                                                                  structurally unaffordable
+
+ Middle                                           R420,000           R35,000                      Central comparison
+
+ Higher                                           R720,000           R60,000                      Delay remains material but
+                                                                                                  affordable choices widen
+
+
+
+Salary grows 3% a year in real terms during the early career and 1.5% thereafter. Those are assumptions. The 2026/27
+income-tax schedule is held constant in real terms. SARS's first bracket ends at R245,100, the primary rebate is R17,820
+and the under-65 tax threshold is R99,000. SARS, Guide for Employers in Respect of Employees' Tax 2027.
+
+
+The city cases
+PayProp reports a national average rent of R9,582 in Q1 2026, Gauteng at R9,600, and the Western Cape above R12,000
+after 7.4% annual growth. The data come from processed rental transactions and are provincial averages, not
+one-bedroom asking rents in specific neighbourhoods. PayProp, Rental growth rebounds in Q1 2026.
+
+The model uses R9,600 for Johannesburg, R12,500 for Cape Town and R9,400 for Durban. These are deliberately
+transparent city scenarios, not estimated city means. Utilities range from R2,200 to R2,400 a month, groceries from
+R3,800 to R4,000, and household goods are R1,200. A one-month rental deposit remains an asset; R32,000 of moving,
+furniture and appliance setup is consumed.
+
+ City scenario                                    Rent               Other housing basics         Property scenario
+
+ Johannesburg                                     R9,600             R7,200/month                 R1.4m
+
+ Cape Town                                        R12,500            R7,500/month                 R1.8m
+
+ Durban                                           R9,400             R7,400/month                 R1.2m
+
+
+
+The property prices are illustrative. Stats SA reported national residential property inflation of 7.9% in April 2026, with
+Cape Town at 11.0% and Johannesburg at 5.4%. The model refuses to extrapolate those recent rates for thirty-five
+years; its property-use scenario assumes only 1.5% real appreciation. Statistics South Africa, Residential Property Price
+Index, April 2026.
+
+
+The vehicle and hybrid transport cases
+The car is a R230,000 used vehicle with a 10% deposit, 60-month finance at 11.5%, R1,400 monthly insurance and R680
+for parking and licensing. Fuel and maintenance vary with distance. Depreciation is 18% in the first year and 12%
+thereafter.
+
+The scale check is SARS's 2026/27 travel-cost table. For a vehicle above R115,000 and up to R230,000, SARS specifies
+R68,487 in annual fixed cost, 148.4 cents a kilometre for fuel and 61.4 cents for maintenance. Its simplified business
+reimbursement rate is R4.95 a kilometre. These are tax-administration values, not a promise of an individual's actual
+cost, but they make an unusually useful public benchmark. SARS, 2026/27 eLogbook and rate-per-kilometre schedule.
+
+The hybrid case combines a R1,400 public-transport pass, R350 family-vehicle contribution and ride-hailing for 35% of
+kilometres at R12 a kilometre. The central person travels about 640 kilometres a month: a 15-kilometre one-way
+commute on 13 office days plus 250 personal kilometres. Every one of those hybrid inputs is an assumption. Actual
+public transport is route-specific, and ride-hail fares vary by city, time, safety conditions and surge pricing.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                                08
+GREYSCIENX                                                                                                       THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+Figure 2. Capital includes the financial balance, rental deposit and net vehicle equity at the age-25 transition. A negative balance is a modeled
+funding shortfall, not an assertion that a bank would extend unsecured credit on these terms.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                                                     09
+GREYSCIENX                                                                                  THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+    PART III
+
+    Where the advantage comes from
+
+
+
+PART III: Where the advantage comes from
+The household decision is a large recurring spread
+In the central case, independent housing basics before personal spending cost R16,800 a month: R9,600 rent and
+R7,200 for utilities, groceries and household goods. At home, the contribution is 12% of take-home pay, bounded
+between R2,500 and R6,000, plus R1,200 of personal food and services.
+
+That is not “free rent.” In the first year the middle-income worker contributes roughly R3,500 to the household, then
+pays personal costs and transport. The model gives this transfer full weight as a private cost. From the family's
+perspective it is income, bill sharing or reciprocity. Household wealth can improve even when the young worker's
+individual balance falls.
+
+Staying home for three years while buying the car immediately creates R486,000 more net capital at 25 than immediate
+independence. The result is less than three years of rent avoided because the at-home contribution, higher balance
+earnings, delayed moving cost and rental deposit all interact.
+
+The contribution break-even is about R15,900 a month. Below it, the modeled home arrangement preserves more
+individual capital than the solo flat. Above it, the household transfer uses up the private financial advantage. The
+threshold should not be read as a fair-rent recommendation. Families differ in income, debt, caregiving, space and
+culture. It is a diagnostic: write down the contribution before declaring the arrangement “free.”
+
+
+The transport decision is smaller, but still meaningful
+Delaying the car for three years while moving out immediately creates R128,000 more capital at 25 in the central case.
+The hybrid strategy avoids the deposit, finance instalment, insurance and depreciation but still pays substantial
+ride-hailing and public-transport costs.
+
+The advantage is sensitive to distance because car cost has a large fixed component while ride-hailing is highly variable.
+At low monthly kilometres, owning an underused financed asset is expensive. At high kilometres, ride-hailing becomes
+the expensive option.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                         10
+GREYSCIENX                                                                                                       THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+Figure 3. The break-even compares private monthly money cost, not safety, reliability, travel time, job access or the option value of a car. A person
+can rationally choose the higher-cost mode when those benefits are large.
+
+Under the central mix, the curves cross at about 2,405 kilometres a month. With a 25% ride-hailing surge, they cross at
+about 1,585 kilometres. A worker travelling only 640 kilometres a month has substantial room before the car wins on
+money cost. A worker visiting sites, doing shifts, carrying equipment or taking family members across the city may cross
+it easily.
+
+Work from home changes the result, but less than the housing decision. Moving from eight to twenty-six office days a
+month reduces the combined age-25 advantage from R613,000 to R574,000. The decline is modest because both
+strategies still have personal travel and because the central home location does not automatically add commute
+distance. When the family home is far from work, users should add those kilometres explicitly.
+
+
+The first-years advantage is not just “compound interest”
+The central age-25 gap has four sources.
+
+ - Lower recurring living cost while at home.
+
+ - Lower recurring transport cost while car ownership is delayed.
+
+ - Moving and vehicle deposits occur later.
+
+ - Positive balances earn returns while negative balances incur debt costs.
+
+The last mechanism is important. A person who can comfortably afford immediate independence still gives up early
+capital. A person who cannot afford it creates a shortfall, and the model charges that balance a 10% real rate. This
+makes the lower-salary advantage larger than the higher-salary advantage in absolute terms. That counterintuitive
+result is a warning about fragility, not an argument that lower earners have more opportunity.
+
+For the lower salary, immediate independence leaves a R463,000 shortfall at 25 and only R315,000 of modeled wealth
+at 60 after the common saving path. The three-year strategy reaches positive capital of R208,000 at 25 and R4.02
+million at 60. The R3.70 million difference is dominated by avoiding an infeasible early bundle.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                                                   11
+GREYSCIENX                                                                                                    THE FIRST THREE YEARS ADVANTAGE
+
+
+
+For the higher salary, both paths remain positive. Immediate independence reaches R540,000 at 25 and R11.59 million
+at 60. The three-year strategy reaches R1.05 million and R14.41 million. The R2.82 million difference remains large, but
+it is a choice between two solvent paths.
+
+ Salary case                                      Immediate capital 25          Delay capital 25                  Difference at 60
+
+ Lower                                            -R463k                        R208k                             R3.70m
+
+ Middle                                           -R49k                         R553k                             R3.32m
+
+ Higher                                           R540k                         R1.05m                            R2.82m
+
+
+
+
+Why R100,000 at 23 is not R100,000 at 33
+At a 5% real return, R100,000 preserved at age 23 becomes about R612,000 at age 60. The same R100,000 first saved at
+33 becomes about R373,000. The ten-year delay costs roughly R239,000 of age-60 purchasing power.
+
+At 3% real, the two values are about R299,000 and R222,000. At 7% real, they are about R1.22 million and R621,000. The
+return assumption changes the magnitude but not the ordering.
+
+The phrase “compound interest” can make this sound passive and guaranteed. It is neither. A 5% real return is a
+long-run planning assumption for a diversified investment, before individual taxes and fees. Actual returns are volatile.
+The behavioral challenge is equally important: the money must remain capital. If the early surplus becomes a more
+expensive car at 26, there is no forty-year advantage to compound.
+
+
+
+
+Figure 4. The age-60 gap ranges widely with real returns. The age-25 gap is already present before long-run return uncertainty enters.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                                           12
+GREYSCIENX                                                                                   THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+    PART IV
+
+    What to do with the capital
+
+
+
+PART IV: What to do with the capital
+Investment is only one use
+The central three-year strategy creates R602,000 more net capital at 25 than immediate independence. The usual
+thought experiment puts all of it into the stock market. That gives an age-60 financial equivalent of R3.32 million at 5%
+real.
+
+But early capital can solve several different constraints. The model therefore routes the same R602,000 through six
+illustrative uses. These are not directly comparable investments with equal liquidity, risk or welfare. They are a menu of
+mechanisms.
+
+ Use at 25                                        Modeled value at 60                  What creates value
+
+ Diversified investment                           R3.32m                               5% real compounding
+
+ Debt repayment first                             R3.39m                               Avoided 10% real debt cost, then
+                                                                                       investing
+
+ Emergency liquidity first                        R3.08m                               R60k earns only 1% real but reduces
+                                                                                       fragility
+
+ Illustrative training                            R3.39m                               R60k cost, 5% pay premium for five years
+
+ Cash vehicle / finance avoided                   R3.53m                               Avoided high-cost vehicle finance
+
+ Housing deposit and equity                       R2.80m                               R1.4m home, mortgage, rent offset and
+                                                                                       1.5% real growth
+
+
+
+The precision is false if read literally. The honest interpretation is directional. Expensive debt can dominate investment
+because its avoided return is certain. Liquidity can produce less measured wealth while providing more resilience.
+Training can outperform only if it actually raises earnings. A cash vehicle helps when the finance rate exceeds the return
+available elsewhere. Property combines leverage, concentration, transaction cost, maintenance and shelter.
+
+
+Debt repayment and emergency liquidity
+The debt pathway repays R50,000 at a 10% real rate, then invests the avoided balance after five years. It reaches R3.39
+million. The lesson is not that every debt must precede every investment. Mortgage, student, credit-card and informal
+family debt have different rates, protections and consequences. The model simply recognises that paying a guaranteed
+double-digit real cost is an investment-like use of capital.
+
+The emergency pathway holds R60,000 at a 1% real return and invests the rest. Its age-60 value is R3.08 million, below
+the all-investment path. That is the expected price of liquidity. The reserve can prevent a job loss, medical cost,
+insurance excess or urgent move from forcing high-cost borrowing or asset sales. A lower modeled terminal value need
+not mean a worse decision.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                                13
+GREYSCIENX                                                                                     THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+Training
+The training path spends R60,000 at 25 and assumes a 5% gross salary uplift for only five years, of which 70% reaches
+investable after-tax cash. The remaining capital is invested. It produces R3.39 million at 60.
+
+This is an illustrative payoff equation, not evidence that a particular qualification returns 5%. Course quality, field,
+completion, signaling, employer demand and the learner's existing skills determine the outcome. The threshold
+question is concrete: how much after-tax income must the course add, for how long, to beat the alternative use of
+R60,000?
+
+
+A cash vehicle
+Using part of the capital to avoid vehicle finance produces R3.53 million in the simplified comparison. The central
+finance rate is 11.5% nominal against a 3% inflation anchor, materially above the 5% real investment assumption.
+Avoiding that spread can be valuable.
+
+The model does not say buy a more expensive car with cash. It says that if the same required vehicle would otherwise
+be financed, early capital can remove interest and monthly payment risk. The cash buyer should still price depreciation,
+insurance, maintenance, tyres, licensing and the lost investment return on the cash.
+
+
+A property deposit
+The property path uses a 10% deposit and 5% transaction cost on a R1.4 million Johannesburg home at 25. It applies a
+20-year real mortgage rate derived from the July 2026 SARB policy rate plus the historical 350-basis-point prime
+spread, 1% annual maintenance, R1,800 monthly levies and 1.5% real property growth. Rent avoided is netted against
+ownership cash cost.
+
+The result is R2.80 million at 60. At a R1.0 million property it rises to R5.68 million. At R1.8 million it becomes a R6.46
+million funding shortfall under the same salary and cost rules. That violent swing is the point: a deposit can make a
+purchase possible without making the property affordable.
+
+The SARB kept the policy rate at 7% in July 2026 after raising it in May, while South Africa's inflation framework targets
+3% with a tolerance band of one percentage point. The prime reference historically sat 350 basis points above the
+policy rate. SARB, July 2026 MPC statement; SARB, monetary policy framework; SARB, prime lending rate consultation.
+
+Property is not an automatic upgrade from renting. It is a leveraged, illiquid commitment to one place. A mobile
+early-career worker may rationally pay rent for flexibility even when a mortgage spreadsheet shows equity.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                               14
+GREYSCIENX                                                                                 THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+    PART V
+
+    Break-even conditions
+
+
+
+PART V: Break-even conditions
+When does leaving home early make financial sense?
+The model asks four different break-even questions because there is no single threshold.
+
+/ The household-contribution threshold
+At roughly R15,900 a month, living at home for three years while buying the car immediately produces the same
+age-25 capital as moving out and buying the car immediately. The threshold rises with market rent and falls with
+at-home costs.
+
+/ The earnings-opportunity threshold
+Suppose independent living improves access to work, professional networks or a better job. In the central model,
+immediate independence would need to raise gross earnings by about 58% throughout the three years to match the
+home-only capital path at 25. That is a high hurdle because the independent bundle is expensive.
+
+This result should not be generalized to a person choosing between a distant family home and a job-rich city. If moving
+out is required to take the job at all, the relevant comparison is not the same salary in two homes. It is employed and
+independent versus unemployed or underemployed at home. Even a modest probability of a much better career can
+justify the move.
+
+/ The commute threshold
+With the car already purchased in both paths, the family-home commute would need to add about 5,700 kilometres a
+month before transport money alone erases the central housing advantage. That implausibly high number arises
+because the assumed rent gap is large and the car's fixed cost is already paid.
+
+Time changes the calculation. Two extra hours a day over 220 working days is 440 hours a year. Valuing that time at
+even R50 an hour creates R22,000 of annual welfare cost. Fatigue, crash exposure, lost exercise, childcare and
+relationship time can be more important than fuel.
+
+/ The high-income threshold
+The three-year home advantage falls below 5% of modeled age-60 wealth only around a R2.12 million starting salary in
+the central Johannesburg case. This does not mean wealthy workers should stay home. It means the fixed early cost
+difference becomes small relative to their total saving capacity only at a very high income.
+
+For most workers, the more useful rule is cash-flow based: can the independent bundle be paid while still building an
+emergency fund and saving at the intended rate? If yes, moving out is a welfare choice with a known opportunity cost.
+If no, it is a debt-financed lifestyle choice.
+
+
+Rent, salary and city sensitivity
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                        15
+GREYSCIENX                                                                                                  THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+Figure 5. Lower salaries show a larger modeled advantage because immediate independence generates a deeper funding shortfall. This is financial
+vulnerability, not greater privilege.
+
+The combined strategy wins financially in all nine salary-city combinations tested. The age-60 difference ranges from
+R2.82 million for the higher-salary Durban case to R4.44 million for the lower-salary Cape Town case.
+
+The city effect enters only during the first 36 months. Post-25 saving is deliberately held common. This means the
+model does not claim that a Cape Town worker can maintain the same saving rate as a Johannesburg worker forever. It
+isolates what the initial rent difference does.
+
+The 30% lower-rent sensitivity is especially useful. A room, house-share, employer accommodation or modest location
+lowers the three-year advantage to R482,000 at 25. Moving out can therefore be redesigned rather than treated as a
+binary choice.
+
+ Rent case                                        Johannesburg rent            Advantage 25                    Advantage 60
+
+ Shared / cheaper                                 R6,720                       R482k                           R2.66m
+
+ Central                                          R9,600                       R602k                           R3.32m
+
+ High                                             R12,480                      R723k                           R3.99m
+
+
+
+
+Vehicle-price and office-frequency sensitivity
+ Stress                                           Low case                     Central                         High case
+
+ Vehicle purchase price                           R160k                        R230k                           R350k
+
+ Advantage at 25                                  R550k                        R602k                           R691k
+
+ Office days per month                            8                            13                              26
+
+ Advantage at 25                                  R613k                        R602k                           R574k
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                                             16
+GREYSCIENX                                                                                  THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+    PART VI
+
+    Welfare is not a rounding error
+
+
+
+PART VI: Welfare is not a rounding error
+Independence buys real goods
+Financial models make shared housing look like a cost category. People experience it as a social environment.
+
+Independent living can buy privacy, control over guests and relationships, freedom from family conflict, a shorter or
+safer commute, quiet study space, household competence, proximity to work and the ability to form an adult identity.
+For an LGBTQ+ person in an unsafe household, someone facing abuse or coercion, or a worker doing late shifts without
+safe transport, leaving may be necessary rather than optional.
+
+The central R13,500 monthly break-even welfare value is therefore a way to respect these goods. It asks whether the
+combined benefit of privacy, autonomy, time, safety and relationships exceeds the financial surplus from staying. It
+does not claim these goods have a market price.
+
+The threshold also reframes family pressure. “You are throwing away rent” is incomplete. Rent purchases a bundle.
+“Living at home is free” is equally incomplete. The arrangement can cost contribution money, commute time, unpaid
+care, emotional labor and delayed relationships.
+
+
+Family contributions are transfers, not waste
+Money paid to parents does not vanish from society. It may reduce household debt, fund siblings' education, cover
+food, maintain the home or compensate for space and services. The individual model counts it as a private outflow
+because the paper asks about individual financial wealth. A household model would count it as an internal transfer.
+
+This distinction matters in South Africa, where earnings often support wider family networks. A strategy that maximizes
+the worker's brokerage account while leaving the household under strain can be financially narrow and morally
+unattractive. A fair agreement should specify cash contribution, chores, privacy, vehicle access, guests, caregiving and
+the planned exit date.
+
+
+Safety changes transport economics
+The hybrid transport model has no line item for fear. It assumes that the available public route and ride-hailing mix can
+safely serve work and personal trips. Shift work, poorly lit interchanges, long waits, harassment risk, carrying equipment
+or caring for children can make the mode infeasible. A car can open irregular-location jobs, protect against missed
+shifts and support emergencies; delivery work also adds commercial risk and depreciation. The practical test is to price
+the complete private cost, test actual routes and hours, and value time, safety and job access explicitly.
+
+
+Relationships and the cost of postponement
+Remaining in the family home can constrain dating, cohabitation and partnership formation. Moving out can also
+create financial stress that damages relationships. Neither path is socially neutral. A three-year plan with a date,
+contribution agreement and capital target is different from indefinite dependence; the latter can become
+counterproductive even while saving rent.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                         17
+GREYSCIENX                                                                                 THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+    PART VII
+
+    A decision framework
+
+
+
+PART VII: A decision framework
+Treat the first three years as a capital project
+The advantage exists only if lower spending becomes durable capital. A practical plan needs four accounts or clearly
+separated ledger categories.
+
+ - Emergency reserve. Build the first month quickly, then extend toward three to six months of essential costs.
+
+ - Known transition costs. Hold the future rental deposit, moving cost, furniture and vehicle deposit in low-risk cash.
+
+ - High-cost debt. Repay debt whose guaranteed cost exceeds a realistic after-tax investment return.
+
+ - Long-horizon assets. Invest only money that will not be needed for the move, car or emergency reserve.
+
+Without separation, the portfolio can appear larger than it is. A R100,000 investment account that will fund a R60,000
+vehicle deposit next year is not entirely forty-year money.
+
+
+Set exit conditions before the arrangement starts
+A good home-stay agreement fixes the monthly contribution, covered costs, chores and caregiving, privacy and guest
+rules, commuting and vehicle access, the capital target or exit date, and events that permit an earlier exit.
+
+The model's strongest financial strategy can become a poor life strategy when the agreement is vague. The opposite is
+also true: a respectful household arrangement can create family welfare and individual capital at the same time.
+
+
+Test four middle paths
+Immediate solo independence and three years at home are endpoints. Many better designs sit between them.
+
+Shared independence captures privacy while cutting rent. Car-light independence trades a location near work for
+lower transport cost. Home plus earlier car reaches R7.59 million at 60 in the central case, a strong compromise when
+access matters. A shorter delay also matters: one year adds R1.15 million at 60 relative to immediate independence.
+
+
+Use a threshold, not a moral rule
+Three questions are enough to start.
+
+Is the immediate bundle cash-flow positive after emergency saving? If not, redesign it.
+
+What monthly value do independence and transport access create? Compare it with the modeled surplus, including
+time and safety.
+
+Will the surplus remain capital? Name the use and automate it.
+
+This framework avoids two moral mistakes. It does not call independence irresponsible. It does not call family support
+entitlement. It treats both as resource arrangements with financial and welfare consequences.
+
+
+
+
+GreyScienx | September 2026 | Scenario research                                                                          18
+GREYSCIENX                                                                                      THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+    PART VIII
+
+    Limits, interpretation and conclusion
+
+
+
+PART VIII: Limits, interpretation and conclusion
+What the model leaves out
+The model is intentionally incomplete.
+
+ - It uses deterministic returns and salary growth, not stochastic markets or unemployment spells.
+
+ - It holds tax brackets constant in real terms and does not model medical credits, retirement deductions, employer
+    matches or capital-gains tax.
+
+ - It assumes the family home exists, is safe, has capacity and permits the arrangement.
+
+ - It does not value unpaid household labor or caregiving.
+
+ - It uses provincial rent evidence to anchor city scenarios rather than claiming city-level estimates.
+
+ - It assumes a specific public-transport and ride-hailing mix without route-level data.
+
+ - It values vehicle equity at age 25, then treats total net capital as if it can join a common portfolio. Actual replacement
+    cycles differ.
+
+ - It uses one-person budgets. Couples, children and shared vehicles change the economics.
+
+ - It does not model employer pensions before age 25, although Stats SA reports that only 44.8% of employees
+    received an employer pension or retirement contribution in 2024.
+
+ - It does not claim recent property-price growth will continue. The property scenario uses a much lower long-run real
+    rate.
+
+These omissions make the paper a decision model, not a personalized plan. The source code is the equation appendix.
+Every threshold can be rerun with a different salary, rent, contribution, distance, office schedule, vehicle price, return or
+property price.
+
+
+The answer to the headline question
+How much can three boring years in your twenties change the next forty?
+
+In the central scenario, about R602,000 at age 25 and R3.32 million at age 60. Across the salary and city grid, the age-60
+difference ranges from R2.82 million to R4.44 million. A one-year delay still matters. A cheaper shared flat captures
+much of the benefit. Housing does more work than transport. Avoiding a deficit matters more than earning a heroic
+return.
+
+But the financially richest path is not automatically the best life. The model's R13,500 monthly welfare threshold is as
+important as its R3.32 million headline. Independence, privacy, safety, commuting, family contribution and relationships
+are not caveats added after the answer. They are part of the answer.
+
+The deeper conclusion is not “live with your parents.” It is this: the first salary should be treated as capital before it is
+treated as permission. Make the first household and vehicle upgrades deliberately. Price the complete bundle. Protect
+the money saved. Set an exit date. Buy independence when its welfare value exceeds its opportunity cost, and know
+what that cost is.
+
+
+GreyScienx | September 2026 | Scenario research                                                                             19
+GREYSCIENX                                                                                      THE FIRST THREE YEARS ADVANTAGE
+
+
+
+
+    APPENDIX A
+
+    Reproducibility and sources
+
+
+
+APPENDIX A: Reproducibility and sources
+Files and mechanics
+The complete model is in `model.py`; sourced observations and assumptions are in `inputs.json`; tests are in
+`test_model.py`; machine-readable outputs are in `results/`; and the figures are generated into `figures/`. Running
+`python model.py` rebuilds all results and figures.
+
+The monthly early-life engine applies income tax, UIF, living cost, transport cost, transition outlays and balance returns.
+Positive balances earn the selected real investment return. Negative balances incur the selected real debt rate. Rental
+deposits and net vehicle equity are added at age 25. From age 25 onward, the model compounds the boundary
+balance and adds a common 10% of gross salary each year.
+
+No external data are downloaded during a run. This prevents silent revisions. To update the paper, replace an observed
+value in `inputs.json`, record its date and source, rerun the model and rebuild the PDF.
+
+
+Source ledger
+South African Revenue Service. 2026/27 personal income-tax brackets, rebates and thresholds. Guide for Employers
+in Respect of Employees' Tax 2027.
+
+South African Revenue Service. 2026/27 fixed, fuel and maintenance costs by vehicle value; R4.95 per kilometre
+simplified rate. SARS eLogbook 2026/27.
+
+Statistics South Africa. Median employee, professional and technician earnings; employer retirement-fund coverage.
+Labour Market Dynamics in South Africa 2024.
+
+Statistics South Africa. July 2026 headline inflation of 4.3%, with housing and utilities at 5.2% and transport at 8.9%.
+Consumer Price Index, July 2026.
+
+Statistics South Africa. April 2026 residential property price index. Residential Property Price Index, April 2026.
+
+South African Reserve Bank. July 2026 policy rate of 7%. Statement of the Monetary Policy Committee, July 2026.
+
+South African Reserve Bank. Inflation target of 3% with a one-percentage-point tolerance band. Monetary policy
+framework.
+
+South African Reserve Bank. Historical 350-basis-point spread between prime and the policy rate. Consultation on
+the prime lending rate.
+
+PayProp South Africa. Q1 2026 national and provincial transaction-based rental data. Rental growth rebounds in Q1
+2026.
+
+
+Interpretation label
+This publication is independent scenario research. It is not financial, tax, credit, property, transport or safety advice.
+Results are estimates produced by stated assumptions. A reader should replace those assumptions with their own
+household contribution, exact rent, commute, transport access, loan quote, insurance, tax position and welfare
+priorities before making a decision.
+
+
+GreyScienx | September 2026 | Scenario research                                                                              20
+

@@ -8,12 +8,14 @@ export const researchers: Researcher[] = [
     givenName: "Pakang",
     affiliation: "University of Pretoria",
     role: "MSc Epidemiology and Biostatistics",
-    bio: "Pakang Senosha is an MSc student in Epidemiology and Biostatistics at the University of Pretoria and the founder of GreyScienx.",
-    location: "Pretoria, South Africa",
+    bio: "Pakang Senosha is an HPCSA-registered medical laboratory scientist, an MSc student in Epidemiology and Biostatistics at the University of Pretoria, and the founder of GreyScienx and the Bantuity ecosystem.",
+    location: "Roodepoort, South Africa",
     email: "senoshapakang@gmail.com",
     links: [
       { label: "LinkedIn", href: "https://www.linkedin.com/in/pakang-senosha/" },
       { label: "GitHub", href: "https://github.com/Pakang619" },
+      { label: "Bantuity", href: "https://www.bantuity.com/p/Pakang-Senosha" },
+      { label: "Portfolio", href: "https://pakang-senosha.bantuity.com" },
     ],
   },
 ];
@@ -24,7 +26,7 @@ export const researchSeries: ResearchSeries[] = [
     slug: "household-economics",
     title: "Household Economics",
     description:
-      "How household formation changes the cost of living, saving and lifetime financial resilience.",
+      "How household formation and early financial choices shape the cost of living, saving and lifetime financial resilience.",
     papers: [
       {
         number: "01",
@@ -35,6 +37,16 @@ export const researchSeries: ResearchSeries[] = [
         href: "/research/household-economics/greyscienx-economics-of-living-together.pdf",
         pages: 19,
         size: "0.57 MB",
+      },
+      {
+        number: "02",
+        slug: "the-first-three-years-advantage",
+        title: "The First Three Years Advantage",
+        description:
+          "How delaying rent and car ownership at the start of a career can alter lifetime wealth.",
+        href: "/research/household-economics/the-first-three-years-advantage.pdf",
+        pages: 20,
+        size: "0.77 MB",
       },
     ],
   },
@@ -305,6 +317,25 @@ export const researchSeries: ResearchSeries[] = [
         href: "/research/african-convergence/the-factory-for-african-urbanisation.pdf",
         pages: 29,
         size: "1.51 MB",
+      },
+    ],
+  },
+  {
+    number: "06",
+    slug: "wealth-and-place",
+    title: "Wealth and Place",
+    description:
+      "How property, geography and inheritance carry economic advantage across generations.",
+    papers: [
+      {
+        number: "01",
+        slug: "inherited-geography",
+        title: "Inherited Geography",
+        description:
+          "How South Africa’s unequal property geography continues to compound into differences in wealth.",
+        href: "/research/wealth-and-place/inherited-geography-racial-property-wealth-dividend.pdf",
+        pages: 31,
+        size: "1.37 MB",
       },
     ],
   },

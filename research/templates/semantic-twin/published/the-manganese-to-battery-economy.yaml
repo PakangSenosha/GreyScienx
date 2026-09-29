@@ -1,0 +1,1024 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:IND-003
+  slug: the-manganese-to-battery-economy
+  title: The Manganese-to-Battery Economy
+  subtitle: How much value can South Africa retain by converting manganese into battery materials and manufactured systems?
+  series_id: GSX:IND
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  series_number: '04'
+  paper_number: '03'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - critical-minerals
+  - industrialisation
+  - south-africa
+  keywords:
+  - Critical minerals
+  - Industrialisation
+  - South Africa
+  - manganese
+  - battery
+  - economy
+  - route
+  - runs
+  - extraction
+  - higher
+  - value
+  - production
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - USD and ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: What route runs from manganese extraction to higher-value battery production?
+  short_answer: 'The manuscript''s first expansion is a qualified 30,000-tonne-a-year HPMSM platform linked to firm offtake, with partner-led cathode production and a later, conditional 4 to 6 GWh cell plant. Limitation: Cell and pack revenue is not created by manganese alone. Most of it pays for other materials, components, capital and distribution. The tower values must not be added together.'
+  abstract: A route from mineral extraction to higher-value battery production.
+  motivation: A route from mineral extraction to higher-value battery production.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - How could a manganese industry move into battery manufacturing?
+  - What industrial steps sit between mined manganese and batteries?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:IND-003:R01
+  - GSX:IND-003:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - What route runs from manganese extraction to higher-value battery production?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:IND-003:M01
+    name: Manganese value tower and HPMSM plant
+    purpose: The model compares alternative products from 1,000 tonnes of contained manganese and the cost of a hypothetical 30,000-tonne HPMSM plant. The product values are alternatives, not a stack.
+    model_class: value-chain scenario
+    statement: The model compares alternative products from 1,000 tonnes of contained manganese and the cost of a hypothetical 30,000-tonne HPMSM plant. The product values are alternatives, not a stack.
+    inputs:
+    - contained manganese
+    - plant capital
+    - operating cost
+    - utilisation
+    outputs:
+    - sales value by product
+    - required revenue per tonne
+    time_step: plant year
+    implementation_file: research/source/manganese-to-battery-economy/model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:IND-003:A01
+    name: Alternative products
+    statement: The sales tower for 1,000 tonnes of contained manganese compares ore, HPMSM, cathode material, cells and packs as alternative end products.
+    value: '1000'
+    unit: tonnes of contained manganese
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript finding 1
+    source_ids:
+    - GSX:IND-003:PDF
+    evidence_strength: illustrative tower
+    sensitivity: moderate
+    alternatives:
+    - A different product boundary
+  - id: A02
+    canonical_id: GSX:IND-003:A02
+    name: Central HPMSM plant
+    statement: The central plant is a hypothetical 30,000-tonne-a-year HPMSM facility with R4.5 billion of initial capital and USD1,100 a tonne of operating cost.
+    value: '30000'
+    unit: tonnes a year, nameplate
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript finding 3
+    source_ids:
+    - GSX:IND-003:PDF
+    evidence_strength: plant scenario
+    sensitivity: high
+    alternatives:
+    - The 6,000-tonne brownfield plant already being commissioned
+  parameters:
+  - id: P01
+    name: Alternative products
+    symbol: see the manuscript
+    description: The sales tower for 1,000 tonnes of contained manganese compares ore, HPMSM, cathode material, cells and packs as alternative end products.
+    value: '1000'
+    unit: tonnes of contained manganese
+    price_year: '2026'
+    scenario_values:
+      central: '1000'
+    source_ids:
+    - GSX:IND-003:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The model compares alternative products from 1,000 tonnes of contained manganese and the cost of a hypothetical 30,000-tonne HPMSM plant. The product values are alternatives, not a stack.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:IND-003:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Central sales tower, alternative products
+  role: baseline
+  description: In the central illustration, 1,000 tonnes of contained manganese supports about USD0.5 million of ore sales, USD5.6 million of HPMSM sales, USD133 million of cathode-material sales, USD364 million of cell sales or USD545 million of pack-and-system sales.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The Manganese-to-Battery Economy
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/manganese-to-battery-economy/report.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - Cell and pack revenue is not created by manganese alone. Most of it pays for other materials, components, capital and distribution. The tower values must not be added together.
+  source_register:
+  - id: GSX:IND-003:PDF
+    type: manuscript
+    title: The Manganese-to-Battery Economy
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy.pdf
+    access_date: '2026-09-27'
+    locator: 28 pages; 2.02 MB
+    supports:
+    - GSX:IND-003:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:IND-003:SRC01
+    type: web_reference
+    title: USGS, *Mineral Commodity Summaries 2026*
+    author_or_publisher: pubs.usgs.gov
+    date: see cited resource
+    url: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC02
+    type: web_reference
+    title: Statistics South Africa, *Mbalo Brief*, February 2026
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/MbaloBrief/MbaloBriefFebruary2026.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC03
+    type: web_reference
+    title: USGS South Africa minerals profile
+    author_or_publisher: usgs.gov
+    date: see cited resource
+    url: https://www.usgs.gov/centers/national-minerals-information-center/south-africa
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC04
+    type: web_reference
+    title: Manganese Metal Company, HPMSM project
+    author_or_publisher: mmc.co.za
+    date: see cited resource
+    url: https://www.mmc.co.za/what-we-do/hpmsm-project
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC05
+    type: web_reference
+    title: 'IEA, *Global EV Outlook 2026: Electric vehicle batteries*'
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC06
+    type: web_reference
+    title: Department of Mineral and Petroleum Resources, *Critical Minerals and Metals Strategy South Africa 2025*
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/sites/default/files/gcis_document/202505/critical-minerals-and-metals-strategy-south-africa-2025.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC07
+    type: web_reference
+    title: Department of Electricity and Energy, *South African Renewable Energy Masterplan*, 2025
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/sites/default/files/gcis_document/202506/south-african-renewable-energy-masterplan.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC08
+    type: web_reference
+    title: 'IEA, *Beyond NMC batteries: supply-chain issues for emerging battery technologies*'
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/beyond-nmc-batteries-supply-chain-issues-for-emerging-battery-technologies
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC09
+    type: web_reference
+    title: Firebird Metals feasibility announcement, October 2024
+    author_or_publisher: announcements.asx.com.au
+    date: see cited resource
+    url: https://announcements.asx.com.au/asxpdf/20241028/pdf/069n5ngj0tykvc.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC10
+    type: web_reference
+    title: Firebird Metals study assumptions, November 2023
+    author_or_publisher: announcements.asx.com.au
+    date: see cited resource
+    url: https://announcements.asx.com.au/asxpdf/20231121/pdf/05xkxrsg8yb1pq.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC11
+    type: web_reference
+    title: Giyani Metals, K.Hill project
+    author_or_publisher: giyanimetals.com
+    date: see cited resource
+    url: https://giyanimetals.com/projects/k-hill-project/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC12
+    type: web_reference
+    title: IEA, *Advancing Clean Technology Manufacturing*
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/advancing-clean-technology-manufacturing/executive-summary
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC13
+    type: web_reference
+    title: US Department of Energy, *2021–2024 Four-Year Review of Supply Chains for the Advanced Batteries Sector*
+    author_or_publisher: energy.gov
+    date: see cited resource
+    url: https://www.energy.gov/sites/default/files/2024-12/20212024-Four%20Year%20Review%20of%20Supply%20Chains%20for%20the%20Advanced%20Batteries%20Sector.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC14
+    type: web_reference
+    title: IDC, *Corporate Plan 2026*
+    author_or_publisher: thedtic.gov.za
+    date: see cited resource
+    url: https://www.thedtic.gov.za/wp-content/uploads/IDC_Corporate-Plan.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC15
+    type: web_reference
+    title: World Bank, *Battery storage in African mini grids*
+    author_or_publisher: documents1.worldbank.org
+    date: see cited resource
+    url: https://documents1.worldbank.org/curated/en/099121323112040367/pdf/P1710100aea43a0ae0a038034d730b04087.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC16
+    type: web_reference
+    title: InvestSA, clean technology and component manufacturing
+    author_or_publisher: investsa.gov.za
+    date: see cited resource
+    url: https://www.investsa.gov.za/key-sectors/clean-technology-component-manufacturing/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC17
+    type: web_reference
+    title: IEA analysis
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-003:SRC18
+    type: web_reference
+    title: IEA commentary
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/commentaries/global-battery-markets-are-growing-strongly-and-so-are-the-supply-risks
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:IND-003:R01
+    statement: In the central illustration, 1,000 tonnes of contained manganese supports about USD0.5 million of ore sales, USD5.6 million of HPMSM sales, USD133 million of cathode-material sales, USD364 million of cell sales or USD545 million of pack-and-system sales.
+    value: '5.6'
+    unit: million US dollars of HPMSM sales per 1,000 tonnes contained
+    price_year: '2026'
+    year_or_period: Central sales tower, alternative products
+    scenario_id: Central sales tower, alternative products
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:IND-003:PDF
+    reproducible_from:
+    - GSX:IND-003:M01
+  - id: R02
+    canonical_id: GSX:IND-003:R02
+    statement: At 75 percent utilisation the central plant requires about USD2,454 a tonne in real product revenue to cover operating cost, annualised capital and sustaining capital. At 90 percent the requirement is about USD2,228. The paper's USD1,800 sales case does not clear the full economic cost.
+    value: '2454'
+    unit: US dollars per tonne required at 75 percent utilisation
+    price_year: '2026'
+    year_or_period: Central 30,000-tonne HPMSM plant
+    scenario_id: Central 30,000-tonne HPMSM plant
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:IND-003:PDF
+    reproducible_from:
+    - GSX:IND-003:M01
+  headline_results:
+  - GSX:IND-003:R01
+  sensitivity_results:
+  - GSX:IND-003:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - Cell and pack revenue is not created by manganese alone. Most of it pays for other materials, components, capital and distribution. The tower values must not be added together.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:IND-003:C01
+    claim: The manuscript's first expansion is a qualified 30,000-tonne-a-year HPMSM platform linked to firm offtake, with partner-led cathode production and a later, conditional 4 to 6 GWh cell plant.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:IND-003:A01
+    - GSX:IND-003:A02
+    derived_from_results: &id004
+    - GSX:IND-003:R01
+    supported_by_sources:
+    - GSX:IND-003:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: Cell and pack revenue is not created by manganese alone. Most of it pays for other materials, components, capital and distribution. The tower values must not be added together.
+    sensitivity: moderate
+    retrieval_text: The manuscript's first expansion is a qualified 30,000-tonne-a-year HPMSM platform linked to firm offtake, with partner-led cathode production and a later, conditional 4 to 6 GWh cell plant.
+    citation_text: GreyScienx, GSX:IND-003:C01, version 1.0.
+    href: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy/claims/C01
+  - id: C02
+    canonical_id: GSX:IND-003:C02
+    claim: Under the central plant assumptions, a sales price of USD1,800 a tonne does not cover the full economic cost at either 75 or 90 percent utilisation.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:IND-003:A02
+    derived_from_results:
+    - GSX:IND-003:R02
+    supported_by_sources:
+    - GSX:IND-003:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: The result can change with lower capital, lower operating cost, premium pricing, grants, concessional capital or higher co-product revenue. Nameplate capacity is not qualification or demand.
+    sensitivity: high
+    retrieval_text: Under the central plant assumptions, a sales price of USD1,800 a tonne does not cover the full economic cost at either 75 or 90 percent utilisation.
+    citation_text: GreyScienx, GSX:IND-003:C02, version 1.0.
+    href: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - Cell and pack revenue is not created by manganese alone. Most of it pays for other materials, components, capital and distribution. The tower values must not be added together.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: Cell and pack revenue is not created by manganese alone. Most of it pays for other materials, components, capital and distribution. The tower values must not be added together.
+  limitations:
+  - Cell and pack revenue is not created by manganese alone. Most of it pays for other materials, components, capital and distribution. The tower values must not be added together.
+  - The result can change with lower capital, lower operating cost, premium pricing, grants, concessional capital or higher co-product revenue. Nameplate capacity is not qualification or demand.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - Cell and pack revenue is not created by manganese alone. Most of it pays for other materials, components, capital and distribution. The tower values must not be added together.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/manganese-to-battery-economy/report.md
+    pdf: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy.pdf
+    html: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy
+    clean_markdown: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/manganese-to-battery-economy/report.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:IND-003:PDF
+    result_ids:
+    - GSX:IND-003:R01
+  figures:
+  - id: F01
+    title: South African manganese endowment
+    caption: Figure 1. South Africa has unusual leverage at the mine and export stages. The three shares measure different things, but together they show that mineral scarcity is not the immediate constraint.
+    alt_text: South African manganese endowment
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/endowment.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F02
+    title: Manganese battery chain
+    caption: Figure 2. The proposed sequence is selective. “Make” means build a durable local operating capability; “partner” means share production and learning with an experienced operator; “option” means preserve the possibility without committing before the gates are met.
+    alt_text: Manganese battery chain
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/chain-map.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F03
+    title: Gross sales and retained value
+    caption: Figure 3. The grey bars are the sales value of alternative end products enabled by the same contained manganese. The coral bars are an illustrative portion retained as South African value added. The endpoints must not be summed.
+    alt_text: Gross sales and retained value
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/value-ladder.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F04
+    title: Module economics
+    caption: Figure 4. The mine generates the largest local value in the chosen scale because it is already a very large operation. Cells absorb the most capital while creating modest local value if imported inputs remain dominant. Pack integration and recycling are smaller, more job-dense layers.
+    alt_text: Module economics
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/module-frontier.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F05
+    title: Jobs per capital
+    caption: Figure 5. Direct operating employment is only one objective. Ore mining is job-dense at the chosen scale, while packs and recycling add comparatively job-dense downstream layers. HPMSM is a capability investment rather than a mass-employment programme.
+    alt_text: Jobs per capital
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/jobs-capital.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F06
+    title: Freight value density
+    caption: Figure 6. Downstream products have much higher value density. The trade-off is less bulk logistics and more exposure to purity, hazardous-chemical handling, punctual delivery and customer qualification.
+    alt_text: Freight value density
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/freight-density.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F07
+    title: Energy and water
+    caption: Figure 7. Resource intensity is measured inside each module boundary. Low pack-assembly energy does not mean the cells were produced without energy; it means that energy was consumed upstream, often abroad.
+    alt_text: Energy and water
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/resource-intensity.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F08
+    title: HPMSM break-even map
+    caption: Figure 8. The coral outline is the central R4.5 billion, 75 per cent utilisation case. Reducing capital and filling the plant lower the required product price dramatically.
+    alt_text: HPMSM break-even map
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/hpmsm-break-even.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F09
+    title: HPMSM price corridor
+    caption: Figure 9. External sponsor price cases span both sides of the modelled cost curve. No single number should be treated as the market price; bankability depends on the contract actually available to the project.
+    alt_text: HPMSM price corridor
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/price-corridor.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F10
+    title: African demand scenarios
+    caption: Figure 10. The scenarios do not predict the market. They reveal that a 5 GWh cell plant could be either modest or larger than the accessible regional market depending on deployment, procurement and competition.
+    alt_text: African demand scenarios
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/africa-demand.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F11
+    title: Strategy portfolios
+    caption: Figure 11. Ore-heavy wins near-term export volume; partnered midstream narrowly leads modelled local value. Cell-first performs poorly because expensive capacity is committed before utilisation and supply-chain conditions are proven.
+    alt_text: Strategy portfolios
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/strategy-portfolios.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  - id: F12
+    title: Industrial sequence
+    caption: Figure 12. The dates are decision windows, not promises. The cell option begins as preparation in 2030 and becomes an investment decision only after market, partnership and midstream gates are satisfied.
+    alt_text: Industrial sequence
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/manganese-to-battery-economy/assets/sequence.png
+    data_file: research/source/manganese-to-battery-economy/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-003:R01
+    source_ids:
+    - GSX:IND-003:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/manganese-to-battery-economy/model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/manganese-to-battery-economy/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/manganese-to-battery-economy/model.py
+  - research/source/manganese-to-battery-economy/model_results.json
+  data_files:
+  - research/source/manganese-to-battery-economy/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/manganese-to-battery-economy/model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:IND-001
+    slug: the-south-african-critical-minerals-industrial-complex
+    title: The South African Critical Minerals Industrial Complex
+    href: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex
+    relationship: same_series
+  - id: GSX:IND-002
+    slug: the-platinum-to-hydrogen-economy
+    title: The Platinum-to-Hydrogen Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy
+    relationship: same_series
+  - id: GSX:IND-004
+    slug: the-vanadium-grid-storage-economy
+    title: The Vanadium Grid-Storage Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-vanadium-grid-storage-economy
+    relationship: same_series
+  - id: GSX:IND-005
+    slug: the-capital-goods-economy
+    title: The Capital-Goods Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy
+    relationship: same_series
+  - id: GSX:IND-006
+    slug: the-mineral-sovereign-wealth-fund
+    title: The Mineral Sovereign Wealth Fund
+    href: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund
+    relationship: same_series
+  predecessor_studies:
+  - id: GSX:IND-001
+    title: The South African Critical Minerals Industrial Complex
+    paper_number: '01'
+  successor_studies:
+  - id: GSX:IND-005
+    title: The Capital-Goods Economy
+    paper_number: '05'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - critical-minerals
+  - industrialisation
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:IND-003:C01
+    predicate: depends_on
+    object_id: GSX:IND-003:A01
+    note: Registered dependency.
+  - subject_id: GSX:IND-003:C01
+    predicate: depends_on
+    object_id: GSX:IND-003:A02
+    note: Registered dependency.
+  - subject_id: GSX:IND-003:C01
+    predicate: derived_from
+    object_id: GSX:IND-003:R01
+    note: Registered result.
+  - subject_id: GSX:IND-003:C02
+    predicate: depends_on
+    object_id: GSX:IND-003:A02
+    note: Registered dependency.
+  - subject_id: GSX:IND-003:C02
+    predicate: derived_from
+    object_id: GSX:IND-003:R02
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The Manganese-to-Battery Economy. GSX:IND-003. Version 1.0.
+  machine_citation: GreyScienx, GSX:IND-003, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy
+    html: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy
+    markdown: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy/markdown
+    json: https://greyscienx.com/api/v1/research/the-manganese-to-battery-economy
+    pdf: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy.pdf
+    api: https://greyscienx.com/api/v1/research/the-manganese-to-battery-economy
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The Manganese-to-Battery Economy
+    identifier: GSX:IND-003
+    url: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: A route from mineral extraction to higher-value battery production.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: The manuscript's first expansion is a qualified 30,000-tonne-a-year HPMSM platform linked to firm offtake, with partner-led cathode production and a later, conditional 4 to 6 GWh cell plant.
+    claim_ids:
+    - GSX:IND-003:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:IND-003:PDF
+    page: manuscript Part I
+    token_estimate: 28
+  question_aliases:
+  - How could a manganese industry move into battery manufacturing?
+  - What industrial steps sit between mined manganese and batteries?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:IND-003, version 1.0
+    claim_level_pattern: GreyScienx, GSX:IND-003:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:IND-003
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:IND-003

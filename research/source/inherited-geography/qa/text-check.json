@@ -1,0 +1,31 @@
+{
+  "characters": 77194,
+  "words": 11038,
+  "required_strings": {
+    "Inherited Geography": true,
+    "PART I: The answer": true,
+    "PART V: Matched descendants": true,
+    "PART VII: Agricultural property": true,
+    "PART XI: Limits and falsification": true,
+    "PART XII: Final answer": true,
+    "APPENDIX: Model reading guide": true,
+    "References": true,
+    "Figure 1.": true,
+    "Figure 2.": true,
+    "Figure 3.": true,
+    "Figure 4.": true,
+    "Figure 5.": true,
+    "Figure 6.": true,
+    "Figure 7.": true,
+    "Figure 8.": true
+  },
+  "forbidden_strings": {
+    "TODO": false,
+    "TBD": false,
+    "PLACEHOLDER": false,
+    "turn0search": false,
+    "turn1search": false
+  },
+  "all_required_present": true,
+  "no_forbidden_present": true
+}

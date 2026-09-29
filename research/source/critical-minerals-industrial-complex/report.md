@@ -94,7 +94,7 @@ That does not mean *never*. Cell production must be earned through demand, partn
 
 South Africa produced around 70 per cent of world mined platinum in 2024, while the national strategy cites an 88 per cent PGM reserve share. Concentrating, smelting and refining capability make this a genuine platform.
 
-One force is favourable. Proton-exchange-membrane electrolysers and fuel cells use PGM catalysts, while South Africa has decades of PGM science and industry experience. The Hydrogen Society Roadmap targets local hydrogen products and fuel-cell components. [South African Hydrogen Society Roadmap](https://www.dsti.gov.za/images/South_African_Hydrogen_Society_RoadmapV1.pdf).
+One force is favourable. Proton-exchange-membrane electrolysers and fuel cells use PGM catalysts, while South Africa has decades of PGM science and industry experience. The Hydrogen Society Roadmap targets local hydrogen products and fuel-cell components. [South African Hydrogen Society Roadmap](https://www.dsi.gov.za/index.php/resource-center/reports/strategies-and-reports/3574-hydrogen-society-roadmap-for-south-africa-2021).
 
 The other force is substitution. Alkaline electrolysers avoid most precious metals; researchers are reducing platinum and iridium loadings; some designs eliminate PGMs. The IEA also records manufacturing capacity growing faster than deployment, producing underused factories and aggressive competition. [IEA electrolyser technology assessment](https://www.iea.org/energy-system/hydrogen/electrolysers).
 
@@ -362,7 +362,7 @@ The model is a counterfactual tool: if cell readiness rises, should cells be loc
 
 - [Critical Minerals and Metals Strategy of South Africa, 2025](https://www.gov.za/sites/default/files/gcis_document/202505/critical-minerals-and-metals-strategy-south-africa-2025.pdf)
 - [South African Renewable Energy Masterplan, 2025](https://www.gov.za/sites/default/files/gcis_document/202506/south-african-renewable-energy-masterplan.pdf)
-- [Hydrogen Society Roadmap for South Africa](https://www.dsti.gov.za/images/South_African_Hydrogen_Society_RoadmapV1.pdf)
+- [Hydrogen Society Roadmap for South Africa](https://www.dsi.gov.za/index.php/resource-center/reports/strategies-and-reports/3574-hydrogen-society-roadmap-for-south-africa-2021)
 - [Green Hydrogen Commercialisation Strategy](https://www.thedtic.gov.za/wp-content/uploads/Full-Report-Green-Hydrogen-Commercialisation-Strategy.pdf)
 - [CSIR electrochemical energy technologies](https://www.csir.co.za/what-we-do/natural-environment/energy/electrochemical-energy-technologies)
 - [Eskom Battery Energy Storage System programme](https://www.eskom.co.za/distribution/battery-energy-storage-system/)

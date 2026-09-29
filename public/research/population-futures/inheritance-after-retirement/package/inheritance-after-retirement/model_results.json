@@ -1,0 +1,164 @@
+{
+  "study": "Inheritance After Retirement",
+  "prices": "constant 2026 rand",
+  "core_assumptions": {
+    "transfer": 1000000.0,
+    "final_age": 100,
+    "start_monthly_salary": 30000.0,
+    "real_wage_growth": 0.012,
+    "salary_saving_rate": 0.03,
+    "portfolio_return": 0.04,
+    "home_price": 1800000.0,
+    "home_deposit": 360000.0,
+    "business_capital": 250000.0
+  },
+  "value_at_100": {
+    "35": {
+      "2": 3622523.1081424165,
+      "4": 12798735.218174098,
+      "6": 44144971.64589116
+    },
+    "40": {
+      "2": 3281030.788365415,
+      "4": 10519627.408052856,
+      "6": 32987690.853332523
+    },
+    "55": {
+      "2": 2437854.205301346,
+      "4": 5841175.681461405,
+      "6": 13764610.82744103
+    },
+    "70": {
+      "2": 1811361.5841033547,
+      "4": 3243397.5100275413,
+      "6": 5743491.172913259
+    },
+    "85": {
+      "2": 1345868.3383241298,
+      "4": 1800943.5055069164,
+      "6": 2396558.1930996915
+    }
+  },
+  "purpose_shares": {
+    "35": [
+      0.4,
+      0.3,
+      0.15,
+      0.1,
+      0.05
+    ],
+    "40": [
+      0.35,
+      0.3,
+      0.15,
+      0.15,
+      0.05
+    ],
+    "55": [
+      0.2,
+      0.15,
+      0.1,
+      0.4,
+      0.15
+    ],
+    "70": [
+      0.05,
+      0.05,
+      0.0,
+      0.5,
+      0.4
+    ],
+    "85": [
+      0.0,
+      0.0,
+      0.0,
+      0.3,
+      0.7
+    ]
+  },
+  "baseline_first_home_age": 45,
+  "opportunity": {
+    "35": {
+      "first_home_purchase_age": 35,
+      "years_earlier_than_baseline": 10,
+      "business_runway_to_65": 30
+    },
+    "40": {
+      "first_home_purchase_age": 40,
+      "years_earlier_than_baseline": 5,
+      "business_runway_to_65": 25
+    },
+    "55": {
+      "first_home_purchase_age": 45,
+      "years_earlier_than_baseline": 0,
+      "business_runway_to_65": 10
+    },
+    "70": {
+      "first_home_purchase_age": 45,
+      "years_earlier_than_baseline": 0,
+      "business_runway_to_65": 0
+    },
+    "85": {
+      "first_home_purchase_age": 45,
+      "years_earlier_than_baseline": 0,
+      "business_runway_to_65": 0
+    }
+  },
+  "tax_examples": {
+    "1000000": {
+      "donor_budget": 1000000.0,
+      "living_gift_received": 858333.3333333334,
+      "donations_tax": 141666.66666666663,
+      "bequest_received": 1000000.0,
+      "estate_duty": 0.0
+    },
+    "10000000": {
+      "donor_budget": 10000000.0,
+      "living_gift_received": 8358333.333333334,
+      "donations_tax": 1641666.666666666,
+      "bequest_received": 8700000.0,
+      "estate_duty": 1300000.0
+    },
+    "40000000": {
+      "donor_budget": 40000000.0,
+      "living_gift_received": 33230000.0,
+      "donations_tax": 6770000.0,
+      "bequest_received": 32375000.0,
+      "estate_duty": 7625000.0
+    }
+  },
+  "safe_transfers": {
+    "85": {
+      "2000000": 607351.5083726691,
+      "5000000": 3607351.508372669,
+      "10000000": 8607351.508372668
+    },
+    "100": {
+      "2000000": 210766.79561677366,
+      "5000000": 3210766.795616774,
+      "10000000": 8210766.795616774
+    },
+    "120": {
+      "2000000": 0.0,
+      "5000000": 2893534.3416137216,
+      "10000000": 7893534.341613721
+    }
+  },
+  "dynasty_paths": {
+    "late_bequests_4pct": 18898683.684878267,
+    "early_gifts_4pct": 18141313.678253505,
+    "early_gifts_5pct": 33745537.9780328,
+    "no_tax_neutral_4pct": 25597470.436348196
+  },
+  "compounding_80_years": {
+    "2": 4875439.156096396,
+    "4": 23049799.069873292,
+    "6": 105795993.48211405
+  },
+  "warnings": [
+    "Receipt ages and uses are scenarios, not forecasts of South African households.",
+    "Tax cases simplify 2026/27 rules and exclude CGT, transfer duty, spouse deductions, trusts, expenses and avoidance.",
+    "The dynasty model assumes fixed real returns, 100-year lives and 30-year generation gaps.",
+    "The safe-transfer test is an illustrative reserve rule, not financial advice."
+  ]
+}

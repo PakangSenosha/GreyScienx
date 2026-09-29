@@ -1,0 +1,11 @@
+{
+  "household_contribution_monthly_break_even": 15931.724241842396,
+  "independence_income_uplift_break_even_share": 0.5786895308668203,
+  "extra_home_transport_km_monthly_break_even": 5699.023704192885,
+  "transport_km_monthly_break_even": 2405.157500787288,
+  "transport_km_monthly_break_even_25pct_surge": 1585.2174437007125,
+  "independence_privacy_welfare_value_monthly_break_even": 13486.898181870198,
+  "salary_where_three_year_home_advantage_is_5pct_of_age60_wealth": 2122406.5580856996,
+  "home_only_capital_advantage_age25": 485528.33454732713,
+  "car_delay_capital_advantage_age25": 128452.33234831861
+}

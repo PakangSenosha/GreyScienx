@@ -1,0 +1,877 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:HH-001
+  slug: economics-of-living-together
+  title: The Economics of Living Together
+  subtitle: From the cohabitation dividend to a hypothetical lifetime model
+  series_id: GSX:HH
+  series_slug: household-economics
+  series_title: Household Economics
+  series_number: '01'
+  paper_number: '01'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/household-economics/economics-of-living-together
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - cohabitation
+  - lifetime-wealth
+  - housing
+  - south-africa
+  keywords:
+  - Cohabitation
+  - Lifetime wealth
+  - Housing
+  - South Africa
+  - Gauteng
+  - economics
+  - living
+  - together
+  - early
+  - cohabitation
+  - delayed
+  - separate
+  - households
+  - compare
+  - gauteng
+  - lifetime
+  - scenario
+  geographies: &id002
+  - South Africa
+  - Gauteng
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: How do early cohabitation, delayed cohabitation, and separate households compare in a Gauteng lifetime scenario?
+  short_answer: 'For two Gauteng adults bringing home R30,000 and R20,000 a month, combining households at 25 rather than 35 leaves about R3.972 million more combined household wealth at 75 in the average scenario, in constant 2026 rand. The direct living-cost saving is about R1.059 million. The larger gap comes from investing that earlier saving and from avoiding expensive negative balances. Limitation: This is a modelled scenario, not a forecast, and it is household wealth rather than each person''s wealth. The manuscript keeps the relationship intact and invests the surplus. The advantage can disappear or reverse if the shared household costs almost as much as two homes, if the saving is consumed, or if separation costs exceed the accumulated benefit. Cohabitation here is a shared household, not a marriage result.'
+  abstract: A Gauteng lifetime scenario comparing early cohabitation, delayed cohabitation and separate households.
+  motivation: A Gauteng lifetime scenario comparing early cohabitation, delayed cohabitation and separate households.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - What is the lifetime household comparison between living together and maintaining separate households?
+  - How does the timing of cohabitation change the cost of living and saving?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa, Gauteng
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:HH-001:R01
+  - GSX:HH-001:R02
+  - GSX:HH-001:R03
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - How do early cohabitation, delayed cohabitation, and separate households compare in a Gauteng lifetime scenario?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:HH-001:M01
+    name: Lifetime household-timing model
+    purpose: The model follows two household paths from age 25 to 75 in constant 2026 rand. They differ in when they combine households. After 35 their housing arrangement matches, so the remaining gap comes from returns on the earlier balance or from the cost of a negative balance. Best, average, and worst cases change growth, returns, shocks, children, and housing.
+    model_class: scenario model
+    statement: The model follows two household paths from age 25 to 75 in constant 2026 rand. They differ in when they combine households. After 35 their housing arrangement matches, so the remaining gap comes from returns on the earlier balance or from the cost of a negative balance. Best, average, and worst cases change growth, returns, shocks, children, and housing.
+    inputs:
+    - Two Gauteng earners
+    - Ten-year difference in household timing
+    - Average-case returns and costs
+    - Surplus is invested
+    - The relationship remains intact
+    outputs:
+    - R01
+    - R02
+    - R03
+    time_step: stated in the manuscript prose
+    implementation_file: research/source/expanded_lifetime_model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:HH-001:A01
+    name: Two Gauteng earners
+    statement: The household is two adults in Gauteng with take-home pay of R30,000 and R20,000 a month. The results are combined household wealth, not each person's legal ownership.
+    value: '30000'
+    unit: constant 2026 rand per month, higher take-home pay
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript research claim and scenario table
+    source_ids:
+    - GSX:HH-001:PDF
+    evidence_strength: illustrative
+    sensitivity: high
+    alternatives:
+    - Different earnings
+    - A different split of expenses and ownership
+  - id: A02
+    canonical_id: GSX:HH-001:A02
+    name: Ten-year difference in household timing
+    statement: The Early couple combines adequate households at 25. The Later couple combines them at 35. From 35 onward the model gives both the same housing arrangement, income, expenses, shocks, and retirement assumptions.
+    value: '10'
+    unit: years
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript lifetime design
+    source_ids:
+    - GSX:HH-001:PDF
+    evidence_strength: model assumption
+    sensitivity: high
+    alternatives:
+    - A shorter or longer period of separate households
+  - id: A03
+    canonical_id: GSX:HH-001:A03
+    name: Average-case returns and costs
+    statement: In the average case, real salary growth and real living-cost growth are both 0.75% a year. The net real investment return is 3% a year after fees and tax drag. The initial monthly cohabitation dividend is R8,500.
+    value: '3'
+    unit: percent net real return per year
+    value_type: declared
+    status: model_assumption
+    provenance: Manuscript average-case table
+    source_ids:
+    - GSX:HH-001:PDF
+    evidence_strength: model assumption
+    sensitivity: high
+    alternatives:
+    - Best case, 5% net real
+    - Worst case, 1% net real
+  - id: A04
+    canonical_id: GSX:HH-001:A04
+    name: Surplus is invested
+    statement: The model invests the available surplus. It does not spend that surplus on a higher lifestyle.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript interpretation
+    source_ids:
+    - GSX:HH-001:PDF
+    evidence_strength: model assumption
+    sensitivity: high
+    alternatives:
+    - The saving is consumed instead of invested
+  - id: A05
+    canonical_id: GSX:HH-001:A05
+    name: The relationship remains intact
+    statement: Both relationships remain intact through the simulation. Separation, custody, maintenance, and a second replacement home are not given a numeric cost.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript limit on what is simulated
+    source_ids:
+    - GSX:HH-001:PDF
+    evidence_strength: model assumption
+    sensitivity: high
+    alternatives:
+    - A breakup whose costs exceed the accumulated benefit
+  parameters:
+  - id: P01
+    name: Two Gauteng earners
+    symbol: see the manuscript
+    description: The household is two adults in Gauteng with take-home pay of R30,000 and R20,000 a month. The results are combined household wealth, not each person's legal ownership.
+    value: '30000'
+    unit: constant 2026 rand per month, higher take-home pay
+    price_year: '2026'
+    scenario_values:
+      central: '30000'
+    source_ids:
+    - GSX:HH-001:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The model follows two household paths from age 25 to 75 in constant 2026 rand. They differ in when they combine households. After 35 their housing arrangement matches, so the remaining gap comes from returns on the earlier balance or from the cost of a negative balance. Best, average, and worst cases change growth, returns, shocks, children, and housing.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:HH-001:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Average case, age 75, early consolidation minus later consolidation
+  role: baseline
+  description: In the average case, the Early household holds R3.972 million more combined wealth at 75 than the Later household, in constant 2026 rand.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The Economics of Living Together
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/household-economics/economics-of-living-together
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/publications/economics-of-living-together-v0.5.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa, Gauteng
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - This is a modelled scenario, not a forecast, and it is household wealth rather than each person's wealth. The manuscript keeps the relationship intact and invests the surplus. The advantage can disappear or reverse if the shared household costs almost as much as two homes, if the saving is consumed, or if separation costs exceed the accumulated benefit. Cohabitation here is a shared household, not a marriage result.
+  source_register:
+  - id: GSX:HH-001:PDF
+    type: manuscript
+    title: The Economics of Living Together
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/household-economics/greyscienx-economics-of-living-together.pdf
+    access_date: '2026-09-27'
+    locator: 19 pages; 0.57 MB
+    supports:
+    - GSX:HH-001:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:HH-001:SRC01
+    type: web_reference
+    title: Review of Income and Wealth study
+    author_or_publisher: onlinelibrary.wiley.com
+    date: see cited resource
+    url: https://onlinelibrary.wiley.com/doi/10.1111/roiw.12483
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-001:SRC02
+    type: web_reference
+    title: NBER research on wage risk and spousal insurance
+    author_or_publisher: nber.org
+    date: see cited resource
+    url: https://www.nber.org/papers/w28294
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-001:SRC03
+    type: web_reference
+    title: World Bank poverty-measurement guidance
+    author_or_publisher: documents1.worldbank.org
+    date: see cited resource
+    url: https://documents1.worldbank.org/curated/en/156931468138883186/pdf/2980000182131497813.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-001:SRC04
+    type: web_reference
+    title: Journal of Urban Economics study
+    author_or_publisher: sciencedirect.com
+    date: see cited resource
+    url: https://www.sciencedirect.com/science/article/pii/S0094119013000284
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-001:SRC05
+    type: web_reference
+    title: Ecological Economics study
+    author_or_publisher: sciencedirect.com
+    date: see cited resource
+    url: https://www.sciencedirect.com/science/article/pii/S092180091500213X
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-001:SRC06
+    type: web_reference
+    title: Stats SA General Household Survey 2024
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0318/P03182024.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-001:SRC07
+    type: web_reference
+    title: Statistics South Africa
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?p=17283
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-001:SRC08
+    type: web_reference
+    title: PayProp Rental Index coverage
+    author_or_publisher: citizen.co.za
+    date: see cited resource
+    url: https://www.citizen.co.za/business/personal-finance/average-rent-in-gauteng-tops-r9k-how-do-other-provinces-measure-up/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-001:SRC09
+    type: web_reference
+    title: Stats SA Income and Expenditure Survey
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/?p=17995
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-001:SRC10
+    type: web_reference
+    title: UCT Retirement Fund investment objectives
+    author_or_publisher: uctrf.co.za
+    date: see cited resource
+    url: https://uctrf.co.za/systems/uctrf/useruploads/UCTRF%20Summary%20of%20Investment%20returns%20for%202025-06%20SA.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:HH-001:SRC11
+    type: web_reference
+    title: South African Reserve Bank
+    author_or_publisher: sarb.co.za
+    date: see cited resource
+    url: https://www.sarb.co.za/en/home/what-we-do/monetary-policy
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:HH-001:R01
+    statement: In the average case, the Early household holds R3.972 million more combined wealth at 75 than the Later household, in constant 2026 rand.
+    value: '3972000'
+    unit: constant 2026 rand
+    price_year: '2026'
+    year_or_period: Average case, age 75, early consolidation minus later consolidation
+    scenario_id: Average case, age 75, early consolidation minus later consolidation
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:HH-001:PDF
+    reproducible_from:
+    - GSX:HH-001:M01
+  - id: R02
+    canonical_id: GSX:HH-001:R02
+    statement: In the average case, the Early household spends about R1.059 million less on living costs over the model. At 35, before the later years are financially identical, its lead is R1.188 million.
+    value: '1059000'
+    unit: constant 2026 rand of living costs avoided
+    price_year: '2026'
+    year_or_period: Average case, lifetime living costs and age-35 lead
+    scenario_id: Average case, lifetime living costs and age-35 lead
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:HH-001:PDF
+    reproducible_from:
+    - GSX:HH-001:M01
+  - id: R03
+    canonical_id: GSX:HH-001:R03
+    statement: 'At 75 the Early household''s lead is R11.287 million in the best case and R1.882 million in the worst case. In the worst case both positions are large funding gaps: about -R16.346 million and -R18.228 million.'
+    value: '11287000'
+    unit: constant 2026 rand, best-case lead at 75
+    price_year: '2026'
+    year_or_period: Best case and worst case at age 75
+    scenario_id: Best case and worst case at age 75
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:HH-001:PDF
+    reproducible_from:
+    - GSX:HH-001:M01
+  headline_results:
+  - GSX:HH-001:R01
+  sensitivity_results:
+  - GSX:HH-001:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - This is a modelled scenario, not a forecast, and it is household wealth rather than each person's wealth. The manuscript keeps the relationship intact and invests the surplus. The advantage can disappear or reverse if the shared household costs almost as much as two homes, if the saving is consumed, or if separation costs exceed the accumulated benefit. Cohabitation here is a shared household, not a marriage result.
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:HH-001:C01
+    claim: For two Gauteng adults bringing home R30,000 and R20,000 a month, combining households at 25 rather than 35 leaves about R3.972 million more combined household wealth at 75 in the average scenario, in constant 2026 rand. The direct living-cost saving is about R1.059 million. The larger gap comes from investing that earlier saving and from avoiding expensive negative balances.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:HH-001:A01
+    - GSX:HH-001:A02
+    - GSX:HH-001:A03
+    - GSX:HH-001:A04
+    derived_from_results: &id004
+    - GSX:HH-001:R01
+    - GSX:HH-001:R02
+    supported_by_sources:
+    - GSX:HH-001:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: This is a modelled scenario, not a forecast, and it is household wealth rather than each person's wealth. The manuscript keeps the relationship intact and invests the surplus. The advantage can disappear or reverse if the shared household costs almost as much as two homes, if the saving is consumed, or if separation costs exceed the accumulated benefit. Cohabitation here is a shared household, not a marriage result.
+    sensitivity: high
+    retrieval_text: For two Gauteng adults bringing home R30,000 and R20,000 a month, combining households at 25 rather than 35 leaves about R3.972 million more combined household wealth at 75 in the average scenario, in constant 2026 rand. The direct living-cost saving is about R1.059 million. The larger gap comes from investing that earlier saving and from avoiding expensive negative balances.
+    citation_text: GreyScienx, GSX:HH-001:C01, version 1.0.
+    href: https://greyscienx.com/research/household-economics/economics-of-living-together/claims/C01
+  - id: C02
+    canonical_id: GSX:HH-001:C02
+    claim: Across the manuscript's three scenarios, earlier household combination still leaves the stronger position at 75. The lead is R11.287 million in the best case, R3.972 million in the average case, and R1.882 million in the worst case. In the worst case that lead only narrows two large funding gaps.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:HH-001:A01
+    - GSX:HH-001:A02
+    - GSX:HH-001:A04
+    - GSX:HH-001:A05
+    derived_from_results:
+    - GSX:HH-001:R01
+    - GSX:HH-001:R03
+    supported_by_sources:
+    - GSX:HH-001:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: Negative amounts are unmet consumption if the household does not change course. They are not a statement that a bank would finance the shortfall. The worst case cannot repair stagnant earnings, repeated unemployment, weak returns, or inadequate retirement income.
+    sensitivity: high
+    retrieval_text: Across the manuscript's three scenarios, earlier household combination still leaves the stronger position at 75. The lead is R11.287 million in the best case, R3.972 million in the average case, and R1.882 million in the worst case. In the worst case that lead only narrows two large funding gaps.
+    citation_text: GreyScienx, GSX:HH-001:C02, version 1.0.
+    href: https://greyscienx.com/research/household-economics/economics-of-living-together/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa, Gauteng
+  incidence:
+  - This is a modelled scenario, not a forecast, and it is household wealth rather than each person's wealth. The manuscript keeps the relationship intact and invests the surplus. The advantage can disappear or reverse if the shared household costs almost as much as two homes, if the saving is consumed, or if separation costs exceed the accumulated benefit. Cohabitation here is a shared household, not a marriage result.
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: This is a modelled scenario, not a forecast, and it is household wealth rather than each person's wealth. The manuscript keeps the relationship intact and invests the surplus. The advantage can disappear or reverse if the shared household costs almost as much as two homes, if the saving is consumed, or if separation costs exceed the accumulated benefit. Cohabitation here is a shared household, not a marriage result.
+  limitations:
+  - This is a modelled scenario, not a forecast, and it is household wealth rather than each person's wealth. The manuscript keeps the relationship intact and invests the surplus. The advantage can disappear or reverse if the shared household costs almost as much as two homes, if the saving is consumed, or if separation costs exceed the accumulated benefit. Cohabitation here is a shared household, not a marriage result.
+  - Negative amounts are unmet consumption if the household does not change course. They are not a statement that a bank would finance the shortfall. The worst case cannot repair stagnant earnings, repeated unemployment, weak returns, or inadequate retirement income.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - This is a modelled scenario, not a forecast, and it is household wealth rather than each person's wealth. The manuscript keeps the relationship intact and invests the surplus. The advantage can disappear or reverse if the shared household costs almost as much as two homes, if the saving is consumed, or if separation costs exceed the accumulated benefit. Cohabitation here is a shared household, not a marriage result.
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/publications/economics-of-living-together-v0.5.md
+    pdf: https://greyscienx.com/research/household-economics/greyscienx-economics-of-living-together.pdf
+    html: https://greyscienx.com/research/household-economics/economics-of-living-together
+    clean_markdown: https://greyscienx.com/research/household-economics/economics-of-living-together/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/publications/economics-of-living-together-v0.5.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:HH-001:PDF
+    result_ids:
+    - GSX:HH-001:R01
+  figures:
+  - id: F01
+    title: Lifetime net-worth trajectories for the Early and Later couples in all three scenarios
+    caption: Figure 1. Total net worth includes liquid investments, pension assets and net housing equity. Negative values are unfunded continuation of the modelled lifestyle.
+    alt_text: Lifetime net-worth trajectories for the Early and Later couples in all three scenarios
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/publications/lifetime-wealth-trajectories-v0.5.png
+    data_file: research/source/economics-of-living-together/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:HH-001:R01
+    source_ids:
+    - GSX:HH-001:PDF
+  - id: F02
+    title: The Early couple's financial lead from age 25 to 75
+    caption: Figure 2. From 35 onward, the direct housing arrangements are identical. The remaining gap changes through investment returns or deficit-financing costs.
+    alt_text: The Early couple's financial lead from age 25 to 75
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/publications/ten-year-head-start-v0.5.png
+    data_file: research/source/economics-of-living-together/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:HH-001:R01
+    source_ids:
+    - GSX:HH-001:PDF
+  - id: F03
+    title: Cumulative lifetime pressures included in the expanded model
+    caption: Figure 3. The bars show the cumulative value of several newly modelled pressures. Fees and tax drag is an opportunity cost; the other bars are spending or income not received.
+    alt_text: Cumulative lifetime pressures included in the expanded model
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/publications/expanded-model-lifetime-pressures-v0.5.png
+    data_file: research/source/economics-of-living-together/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:HH-001:R01
+    source_ids:
+    - GSX:HH-001:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/expanded_lifetime_model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/economics-of-living-together/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/expanded_lifetime_model.py
+  - research/source/economics-of-living-together/model_results.json
+  data_files:
+  - research/source/economics-of-living-together/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/expanded_lifetime_model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:HH-002
+    slug: the-first-three-years-advantage
+    title: The First Three Years Advantage
+    href: https://greyscienx.com/research/household-economics/the-first-three-years-advantage
+    relationship: same_series
+  predecessor_studies:
+  - none
+  successor_studies:
+  - id: GSX:HH-002
+    title: The First Three Years Advantage
+    paper_number: '02'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - cohabitation
+  - lifetime-wealth
+  - housing
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:HH-001:C01
+    predicate: depends_on
+    object_id: GSX:HH-001:A01
+    note: Registered dependency.
+  - subject_id: GSX:HH-001:C01
+    predicate: depends_on
+    object_id: GSX:HH-001:A02
+    note: Registered dependency.
+  - subject_id: GSX:HH-001:C01
+    predicate: depends_on
+    object_id: GSX:HH-001:A03
+    note: Registered dependency.
+  - subject_id: GSX:HH-001:C01
+    predicate: depends_on
+    object_id: GSX:HH-001:A04
+    note: Registered dependency.
+  - subject_id: GSX:HH-001:C01
+    predicate: derived_from
+    object_id: GSX:HH-001:R01
+    note: Registered result.
+  - subject_id: GSX:HH-001:C01
+    predicate: derived_from
+    object_id: GSX:HH-001:R02
+    note: Registered result.
+  - subject_id: GSX:HH-001:C02
+    predicate: depends_on
+    object_id: GSX:HH-001:A01
+    note: Registered dependency.
+  - subject_id: GSX:HH-001:C02
+    predicate: depends_on
+    object_id: GSX:HH-001:A02
+    note: Registered dependency.
+  - subject_id: GSX:HH-001:C02
+    predicate: depends_on
+    object_id: GSX:HH-001:A04
+    note: Registered dependency.
+  - subject_id: GSX:HH-001:C02
+    predicate: depends_on
+    object_id: GSX:HH-001:A05
+    note: Registered dependency.
+  - subject_id: GSX:HH-001:C02
+    predicate: derived_from
+    object_id: GSX:HH-001:R01
+    note: Registered result.
+  - subject_id: GSX:HH-001:C02
+    predicate: derived_from
+    object_id: GSX:HH-001:R03
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The Economics of Living Together. GSX:HH-001. Version 1.0.
+  machine_citation: GreyScienx, GSX:HH-001, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/household-economics/economics-of-living-together
+    html: https://greyscienx.com/research/household-economics/economics-of-living-together
+    markdown: https://greyscienx.com/research/household-economics/economics-of-living-together/markdown
+    json: https://greyscienx.com/api/v1/research/economics-of-living-together
+    pdf: https://greyscienx.com/research/household-economics/greyscienx-economics-of-living-together.pdf
+    api: https://greyscienx.com/api/v1/research/economics-of-living-together
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The Economics of Living Together
+    identifier: GSX:HH-001
+    url: https://greyscienx.com/research/household-economics/economics-of-living-together
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: A Gauteng lifetime scenario comparing early cohabitation, delayed cohabitation and separate households.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: For two Gauteng adults bringing home R30,000 and R20,000 a month, combining households at 25 rather than 35 leaves about R3.972 million more combined household wealth at 75 in the average scenario, in constant 2026 rand. The direct living-cost saving is about R1.059 million. The larger gap comes from investing that earlier saving and from avoiding expensive negative balances.
+    claim_ids:
+    - GSX:HH-001:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:HH-001:PDF
+    page: manuscript Part I
+    token_estimate: 59
+  question_aliases:
+  - What is the lifetime household comparison between living together and maintaining separate households?
+  - How does the timing of cohabitation change the cost of living and saving?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:HH-001, version 1.0
+    claim_level_pattern: GreyScienx, GSX:HH-001:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  - 2 cited external links could not be verified because the server returned a transient error or the request did not complete.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:HH-001
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:HH-001

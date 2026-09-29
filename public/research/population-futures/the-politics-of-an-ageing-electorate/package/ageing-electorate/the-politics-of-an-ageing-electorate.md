@@ -1,0 +1,236 @@
+# The Politics of an Ageing Electorate
+## Voting power, public spending and the risk of fiscal gerontocracy
+
+# Part I: The finding
+
+An ageing population does not automatically become a gerontocracy. The political risk appears earlier and more subtly: older adults can become the most dependable voting bloc long before they form a majority of adults, and long before the median voter is retired.
+
+In the 2025 calibration, people aged 60 or older make up 15.1 percent of adults but 20.7 percent of votes cast. The gap comes from turnout. Applying South Africa's 2024 age-turnout pattern produces a median voter aged 43, four years older than the median adult.
+
+Under the baseline demographic path, the age-60-plus bloc overtakes voters aged 18 to 34 around 2039. By 2100 it supplies 46.0 percent of votes with fixed age-specific turnout, or 47.2 percent in the feedback case. Yet the median voter remains below retirement age: 57 under fixed turnout and 58 with feedback.
+
+Only the accelerated-ageing scenario creates a retired median voter within the century. It crosses age 60 in 2085 with fixed turnout and in 2081 when declining youth support feeds back into lower youth participation. By 2100, voters aged 60 or older cast 57.9 percent of votes in that feedback case.
+
+| 2100 result | Renewal | Baseline ageing | Accelerated ageing |
+|---|---:|---:|---:|
+| Median adult age | 48 | 52 | 59 |
+| Median voter age, fixed turnout | 54 | 57 | 63 |
+| Age 60+ share of votes, fixed turnout | 40.7% | 46.0% | 56.6% |
+| Median voter reaches 60 | Not by 2100 | Not by 2100 | 2085 |
+| Median voter reaches 60 with feedback | Not by 2100 | Not by 2100 | 2081 |
+
+> The danger is not simply that older people vote. It is that unequal turnout, concentrated benefits and weak representation for future taxpayers can turn moderate demographic ageing into persistent fiscal overrepresentation.
+
+The model's strongest conclusion is institutional. A large older bloc can protect pensions and health spending without explicitly voting against younger people. Governments seeking the least politically costly adjustment then place more of an austerity package on education, housing and youth programmes. If younger voters conclude that the welfare state no longer represents them, their support and turnout can weaken, making the original imbalance harder to reverse.
+
+# Part II: Population is not the electorate
+
+Demography describes who exists. Electoral power depends on who is eligible, registered, present at the polls, organised and decisive in marginal contests. An age group can be numerically smaller and politically larger.
+
+The [Electoral Commission's report on the 2024 national and provincial elections](https://www.elections.org.za/content/Documents/Election-reports/National-and-Provincial-Elections/2024-National-and-Provincial-Elections-Report/) estimates turnout of 45 percent among ages 18 to 19, 48 percent at 20 to 29, 49 percent at 30 to 39, 56 percent at 40 to 49, 66 percent at 50 to 59, 78 percent at 60 to 69, 82 percent at 70 to 79 and 68 percent at age 80 or older. These figures are based on identification scans for 9.17 million of the 16.29 million registered voters who voted, then extrapolated to all voters. They are a powerful pattern, but not a perfect census.
+
+The Commission also reports 27.7 million registered voters and overall turnout of 58.6 percent, down from 66.0 percent in 2019 and 73.5 percent in 2014. At the same time, 77 percent of roughly 1.2 million new registrations were under age 29. The political future is therefore not mechanically fixed: mobilisation can alter the electorate even when the population cannot change quickly. [Electoral Commission](https://www.elections.org.za/pw/News-And-Media/News-List/News/News-Article/Electoral-Commission-presents-NPE-2024-Report-to-Parliament%2C-sets-sights-on-2026-Local-Government-Elections?a=AISDGvpz75ps1usOfX7oigs7Yh0VdwYy+pOUbF1N9lY%3D)
+
+Three definitions matter throughout this study:
+
+| Term | Meaning in the model | What it does not mean |
+|---|---|---|
+| Older adult | A person aged 60 or older | Every person has retired or receives a grant |
+| Young adult | A person aged 18 to 34 | Every person shares one policy preference |
+| Median voter | The age dividing votes cast into equal halves | A single voter whose wishes automatically become policy |
+
+The age of 60 is used because it is the current eligibility age for South Africa's old-age grant and the retirement benchmark used across this GreyScienx research series. It is a policy boundary, not a claim that political preferences change abruptly on a birthday.
+
+# Part III: The model
+
+The simulation begins with South Africa in 2025. It uses a population of 63.1 million and 6.6 million people aged 60 or older, matching [Statistics South Africa's 2025 estimate](https://www.statssa.gov.za/?p=19307). The starting age structure is divided into single-year ages, then moved forward annually to 2100.
+
+Births depend on the number of women aged 20 to 39 and the scenario's fertility path. People age through an explicit mortality schedule, with survival improving at different speeds. Net migration is concentrated between ages 18 and 44. These are deliberately simple cohort mechanics. They are designed to expose relationships, not reproduce an official population forecast.
+
+| Scenario | Fertility path | Longevity improvement by 2100 | Net migration | Interpretation |
+|---|---|---:|---:|---|
+| Renewal | 2.21 to 2.05 children per woman | 18% lower age-specific mortality | +1.8 per 1,000 annually | Population renewal partly offsets ageing |
+| Baseline ageing | 2.21 to 1.70 by 2070 | 28% lower mortality | +0.6 per 1,000 | Longer lives and sub-replacement fertility |
+| Accelerated ageing | 2.21 to 1.30 by 2050 | 42% lower mortality | Zero | A severe stress test, not a central forecast |
+
+Statistics South Africa estimates that 26.2 percent of the population was under age 15 and 10.5 percent was aged 60 or older in 2025. It also estimates that the total fertility rate fell from 2.78 in 2008 to 2.21 in 2025. Those observations anchor the direction of the scenarios; the long-run endpoints are modelling choices. [Statistics South Africa](https://www.statssa.gov.za/?p=18613)
+
+The model then applies the Electoral Commission's 2024 turnout rates to each age. A second regime adds a feedback mechanism: as the budget becomes more focused on old-age income and health, support for the welfare state among younger adults weakens; youth turnout falls modestly; and turnout among older adults rises slightly. The loop is intentionally restrained. It changes crossing dates by a few years, not decades.
+
+Finally, each voter age band is assigned a stylised preference over five spending categories. Government moves 62 percent of the way from a fixed starting budget toward the turnout-weighted electorate's preferred budget. This responsiveness assumption is not measured South African behaviour. It is a transparent dial for asking what happens when electoral composition matters but does not dictate every rand.
+
+# Part IV: Could the median voter become retired?
+
+Yes, but not under every plausible path. The model distinguishes an older electorate from a retired median voter.
+
+![Median voter age](assets/median-voter-age.png)
+
+*Figure 1. Median age among adults and votes cast under the 2024 age-turnout pattern. The horizontal line at 60 marks the study's retirement boundary.*
+
+In the renewal path, the median voter rises from 43 to 54 by 2100. In the baseline path it reaches 57. Both electorates are substantially older than today's, yet more than half of votes still come from people under 60.
+
+In accelerated ageing, the median adult reaches 59 and the median voter 63 by 2100. The turnout gap brings the political crossing forward: the median voter reaches 60 in 2085, while the median adult does not reach 60 within the model horizon.
+
+This distinction matters because majority language can be misleading. A party does not need retirees to exceed 50 percent of the electorate before protecting age-linked benefits. A 35 or 40 percent bloc with high turnout, concentrated interests and low tolerance for losses may be more decisive than a larger but fragmented younger population.
+
+Nor is the median-voter result a law. Housing tenure, income, race, province, care obligations, union membership and family transfers can divide people of the same age. A 68-year-old supporting grandchildren may prefer education spending; a 30-year-old financial-sector worker may strongly defend funded pensions. Age changes the probability of an interest, not its certainty.
+
+# Part V: When older voters outnumber young adults
+
+The politically important crossover occurs much earlier than a retired median voter. Under baseline ageing, voters aged 60 or older overtake those aged 18 to 34 in 2039 with fixed turnout and in 2038 with feedback.
+
+![Voting bloc crossover](assets/voting-bloc-crossover.png)
+
+*Figure 2. Vote shares in the baseline demographic path. The comparison is between age 60+ and ages 18 to 34, not between older voters and every working-age voter.*
+
+In 2025, the model assigns 20.7 percent of votes to the older group and 34.3 percent to young adults. By 2050 the relationship reverses: 33.6 percent versus 23.9 percent under fixed turnout. By 2100 it is 46.0 percent versus 17.9 percent.
+
+This does not mean older voters control 46 percent of seats or vote as a single party. It means a government that angers most older voters faces a larger, more reliable electoral penalty than one that imposes a comparable loss on young adults.
+
+The crossover is also sensitive to the chosen age bands. Comparing age 60+ with ages 18 to 29 produces an earlier crossing because the young group is narrower. Comparing age 60+ with everyone aged 18 to 59 produces a much later crossing. The study uses 18 to 34 because the central issue is whether retirees can outweigh the cohort entering employment, housing and family formation.
+
+# Part VI: How an older electorate changes the budget
+
+The model does not assume that an older person wants only a pension. Every age group values health, education, housing and public services. The assumed differences are matters of emphasis.
+
+| Voter age | Old-age income | Health | Education | Housing and youth | Other |
+|---|---:|---:|---:|---:|---:|
+| 18-29 | R18 | R20 | R28 | R29 | R5 |
+| 30-44 | R20 | R22 | R30 | R23 | R5 |
+| 45-59 | R28 | R27 | R24 | R16 | R5 |
+| 60-74 | R42 | R32 | R14 | R7 | R5 |
+| 75+ | R47 | R35 | R9 | R4 | R5 |
+
+These are hypothetical allocations of R100, not survey results. Their purpose is to show how an age shift can alter the political centre even when nobody demands the elimination of another generation's programmes.
+
+![Political budget allocation](assets/political-budget-allocation.png)
+
+*Figure 3. Spending allocation in the accelerated-ageing feedback case. Values inside bars are rounded, so visible labels need not sum exactly to 100.*
+
+In 2025, the model allocates R25.5 to old-age income, R25.4 to health, R25.4 to education and R18.7 to housing and youth programmes. By 2100 in the baseline feedback case, old-age income rises to R29.5 and health to R27.4; education falls to R22.6 and housing and youth to R15.5.
+
+The accelerated feedback case moves further: R31.1 for old-age income and R28.1 for health, against R21.5 for education and R14.3 for housing and youth. The combined elderly-facing share rises from roughly R51 to R59 per R100, while the combined education and youth-facing share falls from R44 to R36.
+
+# Part VII: Which programmes are cut first?
+
+Budgets usually adjust at the margin. Governments do not rewrite the whole state each year; they decide which increase to delay, which benefit to protect and which programme can absorb a smaller real allocation with the least immediate resistance.
+
+The austerity module imposes a R10 consolidation on the accelerated-ageing feedback case. Each category's exposure to cuts falls as its supporting voting bloc becomes more powerful. Old-age income is highly protected when older vote share rises. Health is also protected, but less completely because it serves every generation. Education and housing or youth programmes become more exposed as young vote share falls. "Other" spending retains low protection throughout.
+
+![Austerity incidence](assets/austerity-incidence.png)
+
+*Figure 4. Distribution of a R10 cut under the model's political-protection rule. It is a stress test of political incentives, not a prediction of a particular budget.*
+
+In 2025, old-age income absorbs R1.70 of the cut, health R2.82, education R1.92 and housing or youth R2.37. By 2100, education and housing or youth absorb R7.01 of the R10 adjustment while old-age income absorbs only R0.39. The result is conditional, not inevitable: expenditure floors, strong parent and teacher organisation or coalitions linking grandparents to child outcomes can protect younger-facing investment.
+
+# Part VIII: Why pension reform is politically resistant
+
+Pension reform concentrates losses. A higher eligibility age, lower indexation or stricter means test is easy to describe to a person who expects a benefit. The fiscal gain is spread across taxpayers, creditors and future budgets. This asymmetry creates resistance even when reform improves long-run sustainability.
+
+South Africa's present scale makes the constituency concrete. [National Treasury's 2026 Estimates of National Expenditure](https://www.treasury.gov.za/documents/national%20budget/2026/ene/FullENE.pdf) reports roughly 4.2 million old-age grant beneficiaries in 2025/26 and a target of 4.3 million in 2026/27. It also reports 12.9 million child-support-grant beneficiaries. Both are large constituencies, but the children do not vote, and the adults who represent them turn out at lower rates than older voters on average.
+
+The [2026 Budget Speech](https://www.treasury.gov.za/documents/national%20budget/2026/speech/speech.pdf) places social grants at R292.8 billion and says the social wage exceeds 60 percent of non-interest spending. Basic education, health and social protection account for 70.3 percent of that social wage. The relevant conflict is therefore rarely "pensions or nothing." It is a competition among valued social commitments inside a constrained budget.
+
+Four reform designs reduce political shock:
+
+1. Grandfather people close to eligibility while announcing future changes early.
+
+2. Index future parameters to transparent demographic or fiscal indicators instead of reopening the entire conflict annually.
+
+3. Separate poverty protection from universal age privilege through careful means testing, while avoiding exclusion errors and punitive administration.
+
+4. Pair any pension restraint with visible protection for healthcare, disability and low-income older households.
+
+Means testing wealthy pensioners can preserve a floor for people without retirement savings, but it carries costs. It can discourage saving near the threshold, create complex household tests and weaken middle-class political support for a universal system. The relevant design question is not simply whether targeting saves money, but whether the resulting programme remains administratively credible and politically durable.
+
+# Part IX: What fiscal gerontocracy would look like
+
+Fiscal gerontocracy is not government by every older person. It is a system in which the budget repeatedly protects current older beneficiaries while transferring adjustment to younger and future citizens who have less present political power.
+
+![Fiscal gerontocracy feedback](assets/fiscal-gerontocracy-feedback.png)
+
+*Figure 5. The feedback case links a rising older vote share to a modestly more elderly-focused budget and then to weaker youth support and turnout. The fixed-turnout case leaves demographics unchanged but removes that behavioural reinforcement.*
+
+In the baseline feedback case, the older share of votes rises from 21.3 percent in 2025 to 47.2 percent in 2100. Old-age income plus health rises from R51.0 to R56.9 per R100. The stylised youth support index falls from 71.8 to 59.9. Feedback adds only 1.2 percentage points to the older vote share by 2100, yet it shifts the median voter from 57 to 58 and brings the older-versus-young crossover one year forward.
+
+The limited numerical effect is informative. Demography does most of the work in this model. Political feedback makes the outcome stickier rather than creating it from nothing.
+
+A system becomes gerontocratic when several signals appear together: pensions and health are protected regardless of affordability, parties stop competing for younger non-voters, education and housing take repeated residual cuts, and reform delays transfer costs to smaller future cohorts. The most dangerous signal is falling youth support. If the welfare state is perceived as a one-way transfer to a dominant cohort, younger taxpayers may seek informality, emigration, private provision or political exit instead of reform.
+
+# Part X: What happens to democracy?
+
+Nothing in democracy requires equal voting power for age groups. One person, one vote protects individuals, not generations. Older people also have every right to participate at high rates. The democratic problem is not their participation; it is the systematic absence of people affected by decisions.
+
+Three groups are weakly represented by ordinary elections. Children cannot vote. Future citizens do not yet exist. Young eligible adults vote at lower rates. Policies with long horizons, such as education quality, housing supply, public debt and climate adaptation, can therefore be underweighted even when every election is procedurally fair.
+
+When retirees substantially outnumber young adults, party competition may change in five ways:
+
+1. Campaign platforms place greater weight on benefit security, healthcare access and price protection.
+
+2. Reform becomes incremental and heavily grandfathered, increasing the cost carried by smaller future cohorts.
+
+3. Politicians prefer hidden adjustments, such as weaker service quality or bracket drift, to visible benefit cuts.
+
+4. Younger candidates and policy specialists receive less agenda space unless parties deliberately cultivate them.
+
+5. Intergenerational conflict becomes an electoral identity, even though families continue transferring money, housing and care across age lines.
+
+The family point prevents an overly bleak reading. Many pensioners use grants or pensions to support multigenerational households. Health spending on an older parent can free a working adult's time. Education benefits future workers who will finance pensions. Generations are economically entangled even when budget categories make them look separate.
+
+# Part XI: Institutions that keep ageing democratic
+
+The policy objective is not to neutralise older voters. It is to ensure that every budget states who gains now, who pays later and how the settlement remains legitimate across a lifetime.
+
+| Institution | What it changes | Practical form |
+|---|---|---|
+| Intergenerational budget statement | Makes age incidence visible | Publish taxes, transfers, debt and service benefits by cohort |
+| Long-horizon fiscal rule | Limits promises financed by future workers | Report 30-year costs and automatic stabilisers with each reform |
+| Child and education floor | Protects investment with no direct electorate | Minimum real per-learner funding or outcome-based safeguard |
+| Youth participation strategy | Narrows the turnout gap | Registration, election-day access and sustained party competition |
+| Independent pension commission | Separates evidence from annual election cycles | Recommend parameter changes using published triggers |
+| Deliberative age-mixed assembly | Represents interests poorly captured by party competition | Citizens selected across age, income and province |
+| Sunset and review clauses | Prevents temporary protection becoming permanent privilege | Automatic review of age-linked tax and benefit concessions |
+
+An intergenerational statement should not pretend that every rand belongs to one age. It should show direct cash transfers, service use, tax payments, debt inheritance and the future return from investment. The exercise is valuable precisely because a grant to a grandparent may support a child, while an education cut may reduce the tax base that later finances the grandparent's care.
+
+Youth turnout interventions should also avoid a one-election mentality. Registration is necessary but insufficient. Parties need credible young candidates, internal policy influence and programmes that change material prospects between elections. Otherwise mobilisation becomes a temporary campaign tactic rather than durable representation.
+
+# Part XII: The policy answer
+
+An ageing electorate remains compatible with a generous welfare state and healthy democracy if the settlement is visibly reciprocal. Older people need confidence that poverty and health risks will be covered. Younger people need confidence that education, housing, employment and manageable debt are not residual claims.
+
+The model supports six conclusions.
+
+1. Do not wait for a retired median voter. Older adults become a decisive bloc much earlier because their turnout is higher and their interests are concentrated.
+
+2. Measure electoral power, not population shares alone. In the 2025 calibration, the older vote share is about six percentage points above the older adult share.
+
+3. Protect productive spending during consolidation. Without explicit safeguards, the politically easiest R10 cut shifts increasingly toward education and youth-facing programmes.
+
+4. Reform pensions early and gradually. Delay allows the protected constituency and promised liability to grow together.
+
+5. Preserve poverty protection. Means testing or indexation reform should protect low-income older households and recognise multigenerational transfers.
+
+6. Rebuild youth voice before asking for more tax solidarity. Participation, representation and visible life-stage reciprocity are fiscal institutions, not merely civic programmes.
+
+> The democratic answer to an ageing electorate is not less voice for older citizens. It is stronger voice for younger and future citizens, combined with rules that make every generation's claim visible.
+
+Under renewal or baseline ageing, the model never produces a retired median voter by 2100. That should reassure against crude demographic determinism. But it should not encourage complacency. The baseline electorate still gives voters aged 60 or older almost half of all votes by century end, and the model's austerity rule protects their benefits well before they are a majority.
+
+The threshold that matters is therefore political, not biological: the moment a government believes that losing younger support is cheaper than confronting an organised older constituency. Institutions can move that threshold. Demography sets the pressure; democracy decides how it is distributed.
+
+# Notes: Scope, limitations and sources
+
+This is an armchair political-demographic simulation, not an election forecast, actuarial valuation or estimate of actual preferences. It follows a synthetic South African population from 2025 to 2100 and keeps retirement at age 60. The three demographic paths are scenarios. Only the starting population, older population, fertility observation and age-turnout schedule are tied directly to official statistics.
+
+The population begins at 63.1 million, with approximately 19.3 million people aged 0 to 17, 12.8 million aged 18 to 29, 13.9 million aged 30 to 44, 10.4 million aged 45 to 59, 5.3 million aged 60 to 74 and 1.3 million aged 75 or older. Within each band, people are distributed across single-year ages using smooth weights. Annual mortality rises with age and improves over time according to the scenario. Births are based on women aged 20 to 39 and the scenario's fertility rate. Migration is allocated to ages 18 to 44.
+
+Turnout uses the Electoral Commission's 2024 age-band estimates. The feedback case multiplies youth turnout by a support-linked factor and raises older turnout modestly, capped at 90 percent. The youth support index begins at 72 and falls when the modeled budget becomes more focused on old-age income and health and when young adults lose vote share. The index is a mechanism, not a survey measure.
+
+The model assigns hypothetical spending preferences to five broad age groups and five budget categories. Government starts from R24 for old-age income, R26 for health, R27 for education, R18 for housing and youth programmes and R5 for other spending. It then moves 62 percent toward the turnout-weighted electorate's preferred allocation. No claim is made that every category is interchangeable or that South Africa's actual budget can be divided this way.
+
+The austerity exercise allocates a R10 cut according to category size and political protection. Protection for old-age income and health rises with older vote share; protection for education and housing or youth rises with young vote share. The rule is constructed to reveal the direction of electoral pressure. It is not evidence that a particular government intends to cut a particular programme.
+
+The model omits parties, coalitions, electoral geography, race, sex, class, wealth, public-sector unions, campaign finance, household composition, policy delivery, turnout shocks, constitutional litigation and strategic voting. It treats people aged 60 or older as an analytical older bloc even though many continue working and not all receive a grant. It also treats age preferences as stable through time, whereas future older cohorts may retain different attitudes.
+
+Primary context comes from the [Electoral Commission's 2024 election report](https://www.elections.org.za/content/Documents/Election-reports/National-and-Provincial-Elections/2024-National-and-Provincial-Elections-Report/), its [report presentation notice](https://www.elections.org.za/pw/News-And-Media/News-List/News/News-Article/Electoral-Commission-presents-NPE-2024-Report-to-Parliament%2C-sets-sights-on-2026-Local-Government-Elections?a=AISDGvpz75ps1usOfX7oigs7Yh0VdwYy+pOUbF1N9lY%3D), [Statistics South Africa's 2025 population estimate](https://www.statssa.gov.za/?p=18613), its [older-population note](https://www.statssa.gov.za/?p=19307), [National Treasury's 2026 Estimates of National Expenditure](https://www.treasury.gov.za/documents/national%20budget/2026/ene/FullENE.pdf) and the [2026 Budget Speech](https://www.treasury.gov.za/documents/national%20budget/2026/speech/speech.pdf).

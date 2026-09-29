@@ -1,0 +1,105 @@
+{
+  "years": [
+    2026,
+    2050
+  ],
+  "new_urban_residents_millions": 700.0,
+  "cumulative_demand_usd_trillion": {
+    "Provision floor": 8.54,
+    "Build-out": 17.86,
+    "Convergence": 32.15
+  },
+  "central_total_usd_trillion": 17.86,
+  "central_addressable_usd_trillion": 7.14,
+  "central_sa_sales_usd_bn": 263.9,
+  "central_sa_capture_percent": 3.7,
+  "central_domestic_value_added_usd_bn": 137.2,
+  "central_average_annual_domestic_value_added_usd_bn": 5.49,
+  "central_direct_jobs_thousands": 64.6,
+  "central_supported_jobs_thousands": 103.3,
+  "central_annual_dva_percent_2024_sa_gdp": 1.37,
+  "scenarios": {
+    "Bypass": {
+      "capture_percent": 1.0,
+      "domestic_value_added_share_percent": 35.0,
+      "cumulative_sales_usd_bn": 71.4,
+      "cumulative_domestic_value_added_usd_bn": 25.0,
+      "average_annual_domestic_value_added_usd_bn": 1.0,
+      "average_direct_jobs_thousands": 11.8
+    },
+    "Supplier": {
+      "capture_percent": 3.7,
+      "domestic_value_added_share_percent": 52.0,
+      "cumulative_sales_usd_bn": 263.9,
+      "cumulative_domestic_value_added_usd_bn": 137.2,
+      "average_annual_domestic_value_added_usd_bn": 5.49,
+      "average_direct_jobs_thousands": 64.6
+    },
+    "Systems platform": {
+      "capture_percent": 7.0,
+      "domestic_value_added_share_percent": 65.0,
+      "cumulative_sales_usd_bn": 499.5,
+      "cumulative_domestic_value_added_usd_bn": 324.7,
+      "average_annual_domestic_value_added_usd_bn": 12.99,
+      "average_direct_jobs_thousands": 152.8
+    }
+  },
+  "sector_rows": [
+    {
+      "sector": "Housing and buildings",
+      "total_demand_usd_bn": 5536.9,
+      "addressable_share_percent": 20.0,
+      "sa_capture_percent": 2.0,
+      "sa_sales_usd_bn": 22.1
+    },
+    {
+      "sector": "Transport and logistics",
+      "total_demand_usd_bn": 3572.2,
+      "addressable_share_percent": 45.0,
+      "sa_capture_percent": 4.0,
+      "sa_sales_usd_bn": 64.3
+    },
+    {
+      "sector": "Power",
+      "total_demand_usd_bn": 2857.8,
+      "addressable_share_percent": 55.0,
+      "sa_capture_percent": 5.0,
+      "sa_sales_usd_bn": 78.6
+    },
+    {
+      "sector": "Water and sanitation",
+      "total_demand_usd_bn": 2143.3,
+      "addressable_share_percent": 45.0,
+      "sa_capture_percent": 4.0,
+      "sa_sales_usd_bn": 38.6
+    },
+    {
+      "sector": "Telecom and digital",
+      "total_demand_usd_bn": 1250.3,
+      "addressable_share_percent": 60.0,
+      "sa_capture_percent": 2.0,
+      "sa_sales_usd_bn": 15.0
+    },
+    {
+      "sector": "Waste and circular systems",
+      "total_demand_usd_bn": 893.1,
+      "addressable_share_percent": 45.0,
+      "sa_capture_percent": 3.0,
+      "sa_sales_usd_bn": 12.1
+    },
+    {
+      "sector": "Public and social facilities",
+      "total_demand_usd_bn": 893.1,
+      "addressable_share_percent": 30.0,
+      "sa_capture_percent": 2.0,
+      "sa_sales_usd_bn": 5.4
+    },
+    {
+      "sector": "Industrial and municipal systems",
+      "total_demand_usd_bn": 714.4,
+      "addressable_share_percent": 65.0,
+      "sa_capture_percent": 6.0,
+      "sa_sales_usd_bn": 27.9
+    }
+  ]
+}

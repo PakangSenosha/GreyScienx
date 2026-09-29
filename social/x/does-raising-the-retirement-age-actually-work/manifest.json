@@ -1,0 +1,37 @@
+{
+  "status": "draft-partial",
+  "publication": {
+    "title": "Does Raising the Retirement Age Actually Work?",
+    "url": "https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work.pdf"
+  },
+  "posts": [
+    {
+      "id": "01",
+      "type": "long",
+      "angle": "flagship: fiscal gain versus bridge-year risk",
+      "copy": "Raising the retirement age works—if “works” means improving the public ledger. In this model, the social answer is harder.\n\nThe experiment follows one million people from age 60 and tests retirement at 65, 70 and 75. In the average labour-market scenario, the cumulative public gain rises from R213 billion at 65 to R369 billion at 70 and R448 billion at 75, all versus retirement at 60.\n\nBut the return to each extra five years shrinks: R213bn, then R156bn, then R79bn. Older-worker tax revenue flattens as retention falls, while disability exposure and unsupported bridge years rise.\n\nAt 75, the model produces 1.61 million disability claim-years and 3.99 million unsupported bridge-years. That is not a forecast of destitution. It is a warning that a legal age does not create a suitable job, restore health or replace support.\n\nThe youth result is not fixed either. At age 70, adapted jobs and expanding demand add 0.32 million youth job-years; the average case removes 0.79 million; stagnation and close job competition remove 2.16 million. The assumption about labour demand changes the answer.\n\nSo the policy sequence matters: jobs and health first, occupational flexibility and disability protection next, the age change last. Age 65 is fiscally robust across all three modeled cases. Moving to 70 can work when job design is explicit. Moving to 75 needs a much higher evidence threshold.\n\nThese are cumulative, undiscounted scenario results in constant 2026 rand—not a forecast or budget saving ready to book.\n\nRead the full paper:\nhttps://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work.pdf",
+      "image": "cards/01-flagship.png",
+      "alt": "Black-and-warm-white GreyScienx research poster titled ‘The budget gains. The bridge years decide who pays.’ A four-column stepped comparison shows the modeled cumulative public gain versus retirement at 60 in the average scenario: baseline at age 60, R213 billion at 65, R369 billion at 70 and R448 billion at 75. Notes show that the incremental gain falls from R213 billion to R156 billion to R79 billion. The card labels the values as cumulative, undiscounted, constant 2026 rand for one million people and states that this is a scenario model, not a forecast.",
+      "claim_ids": ["C01", "C02", "C03", "C04", "C05", "C06", "C07", "C08", "C09"],
+      "thread_fallback": [
+        "1/6 Raising the retirement age works—if “works” means improving the public ledger. In this model, the social answer is harder. It follows one million people from 60. https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work.pdf",
+        "2/6 Average case: cumulative public gain versus retirement at 60 is R213bn at 65, R369bn at 70 and R448bn at 75. Constant 2026 rand; undiscounted; not a forecast. https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work.pdf",
+        "3/6 Marginal gains shrink: +R213bn, then +R156bn, then +R79bn. Older-worker tax revenue flattens as retention falls, while disability exposure rises. https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work.pdf",
+        "4/6 At age 75: 1.61m disability claim-years and 3.99m unsupported bridge-years in the model. A legal age does not create a job or restore health. https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work.pdf",
+        "5/6 Youth effects at age 70 depend on labour demand: +0.32m job-years with expansion and adapted jobs; -0.79m average; -2.16m with stagnation and close competition. https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work.pdf",
+        "6/6 Policy sequence: jobs and health first; flexibility and disability protection next; the age change last. Age 65 is fiscally robust, 70 conditional and 75 needs more evidence. https://greyscienx.com/research/population-futures/does-raising-the-retirement-age-actually-work.pdf"
+      ]
+    }
+  ],
+  "claims": [
+    {"id": "C01", "type": "assumption", "source": "p. 5, Part III", "checked": true},
+    {"id": "C02", "type": "model-result", "source": "p. 3 table; p. 8 Figure 2", "checked": true},
+    {"id": "C03", "type": "model-result", "source": "p. 8, Part VI", "checked": true},
+    {"id": "C04", "type": "model-result", "source": "p. 7, Part V table", "checked": true},
+    {"id": "C05", "type": "model-result", "source": "p. 3, Part I table", "checked": true},
+    {"id": "C06", "type": "scenario", "source": "p. 10, Part VIII and Figure 4", "checked": true},
+    {"id": "C07", "type": "interpretation", "source": "p. 3, Part I; p. 14, Part XII", "checked": true},
+    {"id": "C08", "type": "assumption", "source": "p. 15, Notes", "checked": true},
+    {"id": "C09", "type": "interpretation", "source": "p. 7, Part V; p. 9, Part VII", "checked": true}
+  ]
+}

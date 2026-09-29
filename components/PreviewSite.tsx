@@ -48,14 +48,14 @@ export function PreviewSite() {
         <main className="page-shell">
           <p className="eyebrow">Preview</p>
           <h1 className="hub-copy" style={{ fontSize: "3rem", fontWeight: 1000 }}>
-            No distillation is waiting.
+            No article preview is available.
           </h1>
           <p>
-            Submit a manuscript first. GreyScienx will write the research site into this preview.
+            Submit a manuscript first. GreyScienx will prepare an article preview from the text.
           </p>
           <p style={{ marginTop: 28 }}>
             <Link className="button button-primary" href="/">
-              Back to GreyScienx
+              Return to GreyScienx
             </Link>
           </p>
         </main>
@@ -69,7 +69,7 @@ export function PreviewSite() {
       <>
         <SiteHeader />
         <main className="page-shell">
-          <p>Loading distillation…</p>
+          <p>Loading the article preview…</p>
         </main>
       </>
     );

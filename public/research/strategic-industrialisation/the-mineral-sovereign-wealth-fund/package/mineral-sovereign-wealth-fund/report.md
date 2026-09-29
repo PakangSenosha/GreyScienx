@@ -1,0 +1,281 @@
+# The Mineral Sovereign Wealth Fund
+
+## Can South Africa turn temporary mineral advantages into a permanent national financial asset?
+
+# PART I: The answer
+
+## A permanent asset is possible, but only after a political act of self-denial
+
+South Africa could convert part of its mineral advantage into a perpetual financial asset. The arithmetic is not the difficult part. A steady deposit, a diversified portfolio, a return above the withdrawal rate and enough time can turn temporary royalties and industrial dividends into a permanent budget transfer.
+
+The difficult part is deciding which revenue is genuinely saveable while debt is high, services are under pressure and commodity income is volatile. A sovereign wealth fund cannot create a fiscal surplus. If government deposits mineral revenue while borrowing an equal amount at a higher cost, the country has built a leveraged investment portfolio rather than national savings.
+
+The model therefore uses a restrained architecture. All royalties first enter the National Revenue Fund. A transparent rule then transfers only a fraction of royalties, windfall mining tax and dividends from public industrial holdings into a legally separate savings fund. Withdrawals wait 15 years in the central case and then equal 3 per cent of the trailing five-year fund value.
+
+![Fund paths](assets/fund-paths.png)
+
+*Figure 1. The scenarios vary the deposit share, institutional leakage, real return, waiting period and withdrawal rate. The best case is deliberately demanding; the adverse case shows how early withdrawals and weak returns can leave the fund almost exhausted.*
+
+In the central case, the fund reaches about R258 billion in 2042, R586 billion in 2060, R893 billion in 2080 and R1.48 trillion in 2125, all in constant 2026 rand. Its annual budget transfer rises from about R6 billion when withdrawals begin to R16 billion in 2060 and R43 billion in 2125.
+
+That is a useful intergenerational asset, not a replacement for taxation. The 2060 transfer is small beside the present old-age grant, education or debt-service budgets. The fund succeeds when it becomes a stable marginal source of public income and a visible claim owned by future citizens - not when it is burdened with every unmet social promise.
+
+> **Central conclusion.** South Africa can turn mineral rents into a perpetual fund if deposits are additional to ordinary borrowing, the industrial holding company is kept separate from the savings portfolio, withdrawals wait until the asset is mature, and the rule survives bad years. The feasible prize is measured in tens of billions of rand a year, not a self-financing welfare state.
+
+## Seven findings
+
+**First, the available royalty stream is modest.** Mineral and petroleum royalties were R10.6 billion in 2024/25 and are budgeted at R11.8 billion in 2025/26. Saving half creates a deposit of roughly R6 billion before dividends and windfalls, not hundreds of billions.
+
+**Second, dividends matter more than ownership slogans.** Public equity creates wealth only when operating companies earn cash, pay tax, reinvest sensibly and distribute a portion of the remainder. Unsold products, accounting profits and inflated asset values cannot finance the fund.
+
+**Third, a fund and an industrial holding company are different institutions.** The holding company accepts concentrated domestic operating risk. The savings fund should diversify away from South African minerals, the rand and the domestic business cycle.
+
+**Fourth, the waiting period is an economic asset.** Starting transfers in year 15 gives compounding time to establish a base. The adverse case begins after five years, draws 5 per cent and earns only 1.5 per cent real; it ends the century with almost nothing.
+
+**Fifth, the withdrawal rule is more important than the label.** A 3 per cent transfer from a trailing average is slower and less politically exciting than spending current royalties. It is also the mechanism that makes the word “permanent” credible.
+
+**Sixth, high public debt changes the answer.** When the real cost of avoided borrowing exceeds the fund’s expected real return, debt reduction creates more certain public wealth. Only windfalls, realised asset proceeds and genuinely additional industrial dividends make an early fund compelling.
+
+**Seventh, governance must be designed for a future hostile government.** The law should assume that some future minister, coalition or emergency will want the money. Disclosure, independent management, a benchmark, a narrow escape clause and judicially reviewable procedures are not decoration; they are the asset’s political armour.
+
+# PART II: What the fund is - and is not
+
+## Three public balance sheets must not be confused
+
+A mineral sovereign wealth fund sounds like one institution. In practice, the proposal contains three different balance sheets.
+
+The **National Revenue Fund** receives taxes, royalties and other national revenue. SARS states that mineral and petroleum royalties are paid into it. Any sovereign-fund deposit should therefore be visible as a budget transaction, not intercepted off-budget. [SARS, “Mineral and Petroleum Resource Royalty”](https://www.sars.gov.za/types-of-tax/mineral-and-petroleum-resource-royalty/).
+
+The **industrial holding company** owns stakes in mineral-processing, battery-material, hydrogen, storage and supplier businesses. It appoints directors, receives dividends, sells mature holdings and sometimes loses money. Its purpose is industrial value creation.
+
+The **sovereign savings fund** owns diversified financial assets. Its purpose is to transform finite and volatile mineral income into a durable national claim. It should not be the automatic rescuer of the holding company.
+
+![Fund architecture](assets/fund-flow.png)
+
+*Figure 2. A complete chain of custody keeps revenue on budget while separating concentrated industrial risk from the diversified savings portfolio.*
+
+Combining all three obscures failure. A factory can be strategically useful but financially weak. A savings portfolio can earn a good return without creating a single domestic job. A budget can record revenue correctly while spending all of it. Each institution needs its own mandate and accounts.
+
+# PART III: The revenue base
+
+## Mineral wealth is not the same as investable cash
+
+South Africa’s minerals are a national endowment, but the state cannot deposit ore in a portfolio. The depositable flow is the cash captured through royalties, taxes, dividends, licence proceeds and sales of public stakes after lawful costs and budget choices.
+
+The 2020 Budget announced a proposed South African sovereign wealth fund with a target capital amount of about R30 billion. Suggested sources included spectrum proceeds, petroleum, gas or mineral royalties, non-core asset sales, fiscal surpluses and savings. The pandemic and subsequent deficits changed the fiscal setting; in 2023 the Presidency said establishment should be considered when fiscally affordable. [National Treasury, Budget Speech 2020](https://www.treasury.gov.za/documents/national%20budget/2020/speech/speech.pdf); [The Presidency, parliamentary reply on the sovereign wealth fund](https://www.gov.za/news/speeches/president-cyril-ramaphosa-replies-questions-national-assembly-11-may-2023).
+
+![Mineral royalties](assets/royalties.png)
+
+*Figure 3. The fall from R25.3 billion in 2022/23 to R10.6 billion in 2024/25 illustrates why a permanent spending promise cannot be based on one commodity peak. Later bars are National Treasury estimates and forecasts.*
+
+SARS reports that mineral and petroleum royalty payments fell 33.4 per cent to R10.6 billion in 2024/25, largely because prices for platinum-group metals, iron ore and coal declined. The 2026 Budget projects R11.8 billion in 2025/26, R12.1 billion in 2026/27, R12.8 billion in 2027/28 and R13.5 billion in 2028/29. [SARS and National Treasury, Tax Statistics 2025 Highlights](https://www.sars.gov.za/wp-content/uploads/2025taxstats/2025-Tax-Statistics-Highlights.pdf); [National Treasury, Budget Review 2026](https://www.treasury.gov.za/documents/national%20budget/2026/review/FullBR.pdf).
+
+The model does not earmark all mining company tax. Corporate income tax compensates for ordinary public services and applies across the economy. Only a defined windfall component above a published reference path enters the fund. This limits the temptation to call normal revenue “resource savings” while replacing it with debt.
+
+## The central deposit rule
+
+| Source | Central treatment | Reason |
+|---|---|---|
+| Mineral and petroleum royalties | save 50% | recognises depletion while leaving current revenue in the budget |
+| Public industrial dividends | save 80% | converts successful state equity into diversified national wealth |
+| Mining tax above a reference path | save 40% | captures exceptional cycles without earmarking ordinary tax |
+| Mature public-stake sales | save proceeds | prevents privatisation receipts from financing recurring expenditure |
+| Borrowing | never a deposit source | debt is a liability, not national saving |
+
+The rule applies after collection and reporting. It does not alter the royalty rate or assume that higher extraction is always desirable. Environmental rehabilitation, community obligations and mine closure remain costs of production, not optional deductions from the national claim.
+
+# PART IV: From mineral rents to deposits
+
+## The source of the fund changes over time
+
+The central scenario begins in 2027 with a hypothetical R15 billion seed. That is not an observed appropriation. It represents a cautious start below the R30 billion target proposed in 2020.
+
+Royalty deposits dominate initially. Public industrial dividends grow as the Paper 8 production programme reaches utilisation. Windfall tax deposits rise and fall with a stylised commodity cycle. Royalties and dividends then decline as deposits are exhausted, technologies change or the initial industrial assets age.
+
+![Deposit stream](assets/deposit-stream.png)
+
+*Figure 4. The model deliberately lets mineral-linked deposits fade. Permanence comes from converting the flow into financial assets, not assuming mining revenue lasts forever.*
+
+The central deposit stream peaks at roughly R15 billion a year in the early 2040s. Cumulative deposits through 2125 are R582 billion in constant 2026 rand. The fund nevertheless pays cumulative transfers of about R2.17 trillion because prior savings continue earning returns after mineral inflows fade.
+
+This is the economic conversion the paper is testing: temporary mineral income becomes a financial asset that survives the original mines and factories. It works only if the return is real - after inflation, fees and losses - and if withdrawals remain below the portfolio’s sustainable capacity.
+
+# PART V: The central path
+
+## A long accumulation phase changes what the fund can do
+
+The central fund uses five linked rules:
+
+1. A R15 billion starting endowment in 2027.
+2. Fifty per cent of modelled royalties, 80 per cent of public industrial dividends, 40 per cent of mining-tax windfalls and qualifying asset proceeds are deposited.
+3. Eight per cent of potential deposits is lost to under-collection, implementation friction or permitted retention elsewhere, leaving a 92 per cent integrity factor.
+4. The portfolio earns a 4 per cent annual real return after fees.
+5. No transfer occurs before 2042; thereafter the budget receives 3 per cent of the trailing five-year average fund value.
+
+| Year | Fund value | Annual transfer | Interpretation |
+|---:|---:|---:|---|
+| 2042 | R258bn | R5.8bn | first eligible withdrawal |
+| 2060 | R586bn | R16.0bn | meaningful but still supplementary |
+| 2080 | R893bn | R25.6bn | mineral deposits are fading |
+| 2100 | R1.13tn | R32.9bn | portfolio income dominates new deposits |
+| 2125 | R1.48tn | R43.1bn | a durable post-mineral asset remains |
+
+The fund never “pays back” a particular mine or factory. Once deposited, revenue becomes part of a national portfolio. Future transfers should enter the budget as general revenue. Parliament can choose grants, pensions, education or infrastructure, but the same transfer cannot honestly be promised to all four at once.
+
+# PART VI: Best, central and adverse paths
+
+## The spread is institutional, not merely financial
+
+| Driver | Best | Central | Adverse |
+|---|---:|---:|---:|
+| Initial seed | R30bn | R15bn | R5bn |
+| Royalty share saved | 75% | 50% | 25% |
+| Dividend share saved | 100% | 80% | 45% |
+| Deposit integrity | 98% | 92% | 70% |
+| Real return after costs | 4.5% | 4.0% | 1.5% |
+| Withdrawal begins | 2047 | 2042 | 2032 |
+| Withdrawal rate | 2.5% | 3.0% | 5.0% |
+| Fund value in 2125 | R5.19tn | R1.48tn | R18bn |
+
+The best case is not simply a bull market. It assumes nearly complete collection, a larger share of mineral income saved, patient withdrawals and competent low-cost investment. Its R5.19 trillion ending value is a century-long compounding scenario, not a forecast or policy target.
+
+The adverse case combines familiar pressures: small deposits, weak collection, low real returns and early high withdrawals. Mineral inflows keep it alive for decades, but it does not become self-sustaining. The label “sovereign wealth fund” provides no protection against arithmetic or politics.
+
+# PART VII: The withdrawal rule
+
+## A permanent fund pays late and modestly
+
+![Withdrawals](assets/withdrawals.png)
+
+*Figure 5. The annual transfer follows a trailing average rather than the latest market value. This smooths market shocks but cannot rescue an excessive long-run withdrawal rate.*
+
+The central 3 per cent rule is deliberately below the modelled 4 per cent real return. That gap allows the fund to preserve purchasing power, absorb bad years and continue growing after deposits fade. A trailing five-year average slows the effect of both booms and crashes on the budget.
+
+Norway’s fiscal guideline links spending over time to an estimated 3 per cent real return from the Government Pension Fund Global. The analogy is useful as a rule, not as a promise of scale. Norway’s fund was worth NOK21.3 trillion at the end of 2025 and had earned a 4.3 per cent annual net real return from 1998 to 2025; South Africa begins with a far smaller revenue stream and a more constrained fiscal balance. [Norwegian Ministry of Finance, National Budget 2023](https://www.regjeringen.no/contentassets/a19ed57924e84fd7bc4109605dbdd29a/national_budget-_2023_3.1.pdf); [Norges Bank Investment Management, Annual Report 2025](https://www.nbim.no/en/news-and-insights/reports/2025/annual-report-2025/web-report-annual-report-2025/).
+
+![Sustainability map](assets/sustainability-map.png)
+
+*Figure 6. The map holds deposits at R12 billion a year through 2080 to isolate the return-withdrawal relationship. High ending values are compounding scenarios, not forecasts.*
+
+A rule should contain a narrow escape clause for war, constitutional disaster or a severe declared emergency. The escape clause should specify who declares it, the maximum draw, the repayment or rebuilding path and the publication timetable. “Fiscal pressure” on its own is not an emergency; it is the normal condition that the rule exists to resist.
+
+# PART VIII: What the fund can finance
+
+## The transfer is useful precisely because it is not magical
+
+![Budget scale](assets/budget-scale.png)
+
+*Figure 7. Current budget figures are shown only to establish scale. The modelled 2060 transfer is in constant 2026 rand and should not be read as a forecast of future programme costs.*
+
+National Treasury’s 2026/27 budget allocates R121.8 billion to the old-age grant, R283.9 billion to economic development and R432.4 billion to debt-service costs. The central fund’s modelled 2060 transfer is R16 billion in today’s money. [National Treasury, Budget Highlights 2026](https://www.treasury.gov.za/documents/National%20Budget/2026/2026%20Budget%20Highlights.pdf).
+
+At that scale the fund could:
+
+- finance a defined supplement to the old-age grant, not the whole programme;
+- provide stable co-financing for university laboratories, apprenticeships or research;
+- fund a multi-year infrastructure maintenance window; or
+- enter general revenue and reduce the amount raised through tax or debt.
+
+It should not carry simultaneous legal promises to grants, pensions, education and infrastructure. Multiple earmarks convert one uncertain return stream into several rigid liabilities. A stronger design pays one rule-based transfer into the budget and makes elected governments compare uses openly.
+
+# PART IX: The debt-first challenge
+
+## A country cannot save by moving cash between two pockets
+
+South Africa’s gross government debt was expected to stabilise at 78.9 per cent of GDP in 2025/26. Debt-service costs in 2026/27 are R432.4 billion. Ten-year government bond yields fell below 9 per cent in early 2026, but the cost of borrowing remains a central comparison for any fund. [National Treasury, Budget Review 2026, chapter 7](https://www.treasury.gov.za/documents/national%20budget/2026/review/FullBR.pdf).
+
+![Debt trade-off](assets/debt-tradeoff.png)
+
+*Figure 8. The rates are illustrative real rates. Avoided debt service is more certain than an investment return; the figure excludes liquidity, diversification and strategic benefits that may justify a small fund.*
+
+Fifteen annual allocations of R12 billion grow to about R240 billion at a 4 per cent real investment return. The same allocations avoid roughly R259 billion of debt at a 5 per cent real borrowing cost. The R19 billion difference is negative carry.
+
+This does not imply that South Africa should never establish a fund while it has debt. A small fund can create institutional capacity, preserve genuine windfalls and diversify national wealth. The rule should, however, contain a fiscal gate: ordinary mineral revenue is saved only when the budget’s debt rule is met; exceptional windfalls and realised asset sales can be deposited before that gate; public industrial dividends are split between debt reduction and savings; and borrowing is never described as fund capital.
+
+# PART X: How the money should be invested
+
+## Diversify away from the source of wealth
+
+The household analogy is simple. A family whose income, home and business all depend on one mine should not invest all retirement savings in that mine. South Africa already bears mineral-price, electricity, logistics, rand and domestic political risk. The savings portfolio should not repeat those exposures.
+
+![Portfolio design](assets/portfolio.png)
+
+*Figure 9. The illustrative allocation places 80 per cent in global equities and bonds, 10 per cent in inflation-linked assets or cash and 10 per cent in liquid domestic assets. It is a risk design, not an investment recommendation.*
+
+The central illustration uses 55 per cent global equities, 25 per cent global bonds, 10 per cent inflation-linked assets or cash and 10 per cent liquid domestic assets. Currency exposure creates volatility in rand terms but also protects against domestic shocks and imported inflation.
+
+Domestic industrial stakes remain in the holding company. Their dividends can feed the fund, but the fund does not mark its own sponsor’s factories as diversified savings. This also makes performance comparison possible: active industrial policy is judged against explicit commercial and developmental objectives; the savings portfolio is judged against public market benchmarks.
+
+Temasek illustrates commercially managed state equity: its portfolio was S$518 billion in March 2026, with ten- and twenty-year returns of 7.1 and 6.8 per cent. Norway illustrates a separate global resource fund and fiscal rule. They are governance references, not blueprints. [Temasek, “Net Portfolio Value Grows to S$518 billion”](https://www.temasek.com.sg/en/news-and-resources/news-room/news/2026/temasek-net-portfolio-value-grows-to-518b-up-49b-from-last-year).
+
+# PART XI: Governance before capital
+
+## Write the rules for the government most tempted to break them
+
+![Governance locks](assets/governance.png)
+
+*Figure 10. The four locks divide authority: Parliament legislates the purpose, the budget records every flow, an independent manager invests, and the spending rule limits access.*
+
+The Santiago Principles call for a sound legal framework, a publicly disclosed purpose, clear funding and withdrawal arrangements, an effective division of responsibilities, independent operational management, audited financial statements, a risk framework and performance reporting. These are minimum conditions, not evidence that a fund will succeed. [International Forum of Sovereign Wealth Funds, Santiago Principles](https://www.ifswf.org/media-download/15326).
+
+The proposed South African statute should require:
+
+**A single disclosed owner.** The citizens of South Africa are the beneficial owners; government exercises ownership under law. Fund assets cannot be pledged for an SOE, party or private project.
+
+**A formula for deposits.** Each source, reference price, windfall definition and adjustment is published with the budget. The Auditor-General reconciles deposits against SARS and company accounts.
+
+**A professional board.** Appointments use published competence criteria, staggered terms, conflict declarations and removal only for defined cause. Ministers set the mandate but cannot direct individual trades.
+
+**A benchmark and total-cost report.** Returns are shown after fees, in rand and in the portfolio’s currency basket, against an investable benchmark over one, five, ten and twenty years.
+
+**A public register.** The fund publishes holdings, votes, external managers, fees, related parties, valuation methods and every transfer to or from the budget, subject only to narrow transaction-timing protections.
+
+**No automatic industrial bailout.** Any capital returned to the industrial holding company is a new budget appropriation, not an investment-manager decision.
+
+**A reviewable escape clause.** Emergency access requires a supermajority or equivalent high threshold, a quantified cap, independent certification and a reconstruction plan.
+
+The IMF stresses that a resource fund is not a substitute for fiscal policy. Successful frameworks integrate the fund with the budget, disclose stocks and flows, insure against commodity shocks and rely less on unknowable estimates of underground wealth. [IMF, A New Fiscal Framework for Resource-Rich Countries](https://www.imf.org/en/publications/wp/issues/2023/11/03/a-new-fiscal-framework-for-resource-rich-countries-541132); [IMF, How to Design a Fiscal Strategy in a Resource-Rich Country](https://www.elibrary.imf.org/view/journals/061/2021/001/article-A001-en.xml).
+
+# PART XII: Verdict
+
+## Turn the dividend into an inheritance
+
+South Africa can build a mineral sovereign wealth fund, but it should begin with the right ambition. The fund will not become Norway because South Africa has minerals. Norway’s outcome reflects decades of fiscal surplus, high capture, disciplined withdrawals, institutional credibility and a vast petroleum sector. Mineral endowment is the input, not the institution.
+
+The strongest South African design is a three-part system: all mineral revenue remains visible in the National Revenue Fund; a commercial holding company manages concentrated industrial stakes; and a separate sovereign fund invests formula-based deposits mostly outside the domestic mineral cycle.
+
+The central model turns R582 billion of cumulative real deposits into a R1.48 trillion fund and R43 billion annual transfer by 2125 while preserving the asset. That is an economically meaningful inheritance. It could supplement pensions, finance research and infrastructure, or reduce future taxation. It cannot carry the welfare state by itself.
+
+The decisive question is not whether a portfolio can compound. It is whether each generation accepts that some mineral income belongs to citizens not yet born. If deposits are borrowed, withdrawals begin early, factories are bailed out from the fund or rules are rewritten every downturn, the asset will be nominally sovereign and practically empty. If the chain of custody survives, temporary rocks can become permanent financial wealth.
+
+---
+
+# Model assumptions and interpretation
+
+All monetary amounts are constant 2026 rand. The simulation runs from 2027 to 2125. It is a transparent scenario model, not a forecast, actuarial valuation, mineral-reserve estimate or investment recommendation.
+
+The royalty path begins near National Treasury’s 2026/27 estimate and is assumed to rise modestly before declining toward zero as existing mineral advantages, deposits and technologies change. The dividend path represents hypothetical public stakes in the industrial system developed in GreyScienx Papers 4-9; it is not an estimate of any existing public company.
+
+Windfall mining tax is a stylised cycle above an unspecified reference path. Ordinary corporate income tax is not deposited. Asset proceeds are small and temporary. The integrity factor combines collection, implementation and permitted retention; it is not an allegation or corruption estimate.
+
+Real returns are after inflation, fees and ordinary investment losses. Best, central and adverse values are deterministic paths. They do not model annual market volatility, exchange-rate translation, tax changes, environmental liabilities or a probability distribution of outcomes.
+
+Withdrawals are based on the trailing five-year average fund value. Transfers enter the budget as general revenue. The model does not earmark one transfer simultaneously to grants, pensions, education and infrastructure.
+
+The debt comparison assumes a 4 per cent real fund return and 5 per cent real avoided borrowing cost for illustration. Actual relative value depends on future yields, inflation, currency exposure, liquidity and risk.
+
+## Sources
+
+- National Treasury. [Budget Review 2026](https://www.treasury.gov.za/documents/national%20budget/2026/review/FullBR.pdf).
+- National Treasury. [Budget Highlights 2026](https://www.treasury.gov.za/documents/National%20Budget/2026/2026%20Budget%20Highlights.pdf).
+- National Treasury. [Budget Speech 2020](https://www.treasury.gov.za/documents/national%20budget/2020/speech/speech.pdf).
+- South African Revenue Service and National Treasury. [Tax Statistics 2025 Highlights](https://www.sars.gov.za/wp-content/uploads/2025taxstats/2025-Tax-Statistics-Highlights.pdf).
+- South African Revenue Service. [Mineral and Petroleum Resource Royalty](https://www.sars.gov.za/types-of-tax/mineral-and-petroleum-resource-royalty/).
+- The Presidency. [Parliamentary reply on the sovereign wealth fund, 11 May 2023](https://www.gov.za/news/speeches/president-cyril-ramaphosa-replies-questions-national-assembly-11-may-2023).
+- International Monetary Fund. [A New Fiscal Framework for Resource-Rich Countries](https://www.imf.org/en/publications/wp/issues/2023/11/03/a-new-fiscal-framework-for-resource-rich-countries-541132).
+- International Monetary Fund. [How to Design a Fiscal Strategy in a Resource-Rich Country](https://www.elibrary.imf.org/view/journals/061/2021/001/article-A001-en.xml).
+- International Forum of Sovereign Wealth Funds. [Santiago Principles](https://www.ifswf.org/media-download/15326).
+- Norges Bank Investment Management. [Annual Report 2025](https://www.nbim.no/en/news-and-insights/reports/2025/annual-report-2025/web-report-annual-report-2025/).
+- Norwegian Ministry of Finance. [National Budget 2023: Fiscal guideline](https://www.regjeringen.no/contentassets/a19ed57924e84fd7bc4109605dbdd29a/national_budget-_2023_3.1.pdf).
+- Temasek. [“Net Portfolio Value Grows to S$518 billion”](https://www.temasek.com.sg/en/news-and-resources/news-room/news/2026/temasek-net-portfolio-value-grows-to-518b-up-49b-from-last-year).
+- GreyScienx. Industrialisation series, Papers 4-9: *The South African Critical-Minerals Industrial Complex*; *The Manganese-to-Battery Economy*; *The Platinum-to-Hydrogen Economy*; *The Vanadium Grid-Storage Economy*; *The R200-Billion Factory*; and *The Public-Capital Multiplier*.

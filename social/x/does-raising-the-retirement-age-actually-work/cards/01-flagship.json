@@ -1,0 +1,41 @@
+{
+  "edition": "POPULATION FUTURES / PAPER 02.03",
+  "eyebrow": "THE RETIREMENT-AGE TEST",
+  "headlineLines": [
+    "The budget gains.",
+    "The bridge years decide who pays."
+  ],
+  "accentLine": 1,
+  "deck": "Later retirement improves the modeled public balance only if work, health and protection reach the years before eligibility.",
+  "railLabel": "MODEL SCOPE",
+  "railValue": "1m",
+  "railNote": "PEOPLE / AGES 60-75 / NOT A FORECAST",
+  "visualTitle": "CUMULATIVE PUBLIC GAIN VS RETIREMENT AT 60",
+  "qualifier": "AVERAGE SCENARIO / CONSTANT 2026 RAND / UNDISCOUNTED",
+  "steps": [
+    {
+      "name": "AGE 60",
+      "value": "BASE",
+      "note": "Comparison point"
+    },
+    {
+      "name": "AGE 65",
+      "value": "R213bn",
+      "note": "+R213bn from the first five-year shift"
+    },
+    {
+      "name": "AGE 70",
+      "value": "R369bn",
+      "note": "+R156bn from the next five years",
+      "primary": true
+    },
+    {
+      "name": "AGE 75",
+      "value": "R448bn",
+      "note": "+R79bn from the final five years"
+    }
+  ],
+  "caption": "The final five-year step adds only R79bn as unsupported bridge-years reach 3.99m at age 75 in the average model.",
+  "source": "GreyScienx armchair scenario model / Figure 2 / one million people",
+  "url": "greyscienx.com/research/population-futures"
+}

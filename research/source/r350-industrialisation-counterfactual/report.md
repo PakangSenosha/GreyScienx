@@ -80,7 +80,7 @@ The 2026 snapshot makes this visible. Under the best case, about **R180 billion*
 
 *Figure 3. Modelled end-2026 fund anatomy. A cash balance retains financial value, but it has not yet created industrial capacity.*
 
-This is not an arbitrary concern. The Auditor-General's 2024/25 national and provincial infrastructure review examined 152 projects and reported findings on 136 of them, with an average delay of 41 months among the projects assessed. That evidence does not mean every industrial project would fail. It means a model that assumes instant, flawless conversion of appropriations into plants is not a South African base case. [Auditor-General South Africa, PFMA 2024/25 General Report](https://www.agsa.co.za/Portals/0/Reports/PFMA/2024-25/PFMA%20GR%202024-25%20Interactive%20W_compressed_compressed.pdf?ver=3OlKZPN3_6KOKRu9Ru5FzA%3D%3D).
+This is not an arbitrary concern. The Auditor-General's 2024/25 national and provincial infrastructure review examined 152 projects and reported findings on 136 of them, with an average delay of 41 months among the projects assessed. That evidence does not mean every industrial project would fail. It means a model that assumes instant, flawless conversion of appropriations into plants is not a South African base case. [Auditor-General South Africa, PFMA 2024/25 General Report](https://www.agsa.co.za/reports/pfma-general-reports).
 
 ## The scenario architecture
 
@@ -327,7 +327,7 @@ The model uses the 2026/27 allocation as part of the full counterfactual envelop
 
 - [Industrial Development Corporation, Integrated Report 2025](https://www.idc.co.za/integrated-report/wp-content/uploads/2025/09/IDC-Integrated-Report-2025.pdf)
 
-- [Auditor-General South Africa, PFMA 2024/25 General Report](https://www.agsa.co.za/Portals/0/Reports/PFMA/2024-25/PFMA%20GR%202024-25%20Interactive%20W_compressed_compressed.pdf?ver=3OlKZPN3_6KOKRu9Ru5FzA%3D%3D)
+- [Auditor-General South Africa, PFMA 2024/25 General Report](https://www.agsa.co.za/reports/pfma-general-reports)
 
 - [Statistics South Africa, Quarterly Labour Force Survey, Q2 2026](https://www.statssa.gov.za/publications/P0211/Media%20Release%20QLFS%20Q2%202026.pdf)
 

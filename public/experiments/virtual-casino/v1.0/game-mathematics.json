@@ -1,0 +1,272 @@
+[
+  {
+    "gameId": "european_roulette",
+    "game": "European Roulette",
+    "choice": "red",
+    "theoreticalRtp": 0.972972972972973,
+    "houseEdge": 0.027027027027026973,
+    "volatility": "medium",
+    "ruleNote": "37 equiprobable pockets; standard gross payouts."
+  },
+  {
+    "gameId": "european_roulette",
+    "game": "European Roulette",
+    "choice": "dozen",
+    "theoreticalRtp": 0.972972972972973,
+    "houseEdge": 0.027027027027026973,
+    "volatility": "medium",
+    "ruleNote": "37 equiprobable pockets; standard gross payouts."
+  },
+  {
+    "gameId": "european_roulette",
+    "game": "European Roulette",
+    "choice": "column",
+    "theoreticalRtp": 0.972972972972973,
+    "houseEdge": 0.027027027027026973,
+    "volatility": "medium",
+    "ruleNote": "37 equiprobable pockets; standard gross payouts."
+  },
+  {
+    "gameId": "european_roulette",
+    "game": "European Roulette",
+    "choice": "straight",
+    "theoreticalRtp": 0.972972972972973,
+    "houseEdge": 0.027027027027026973,
+    "volatility": "medium",
+    "ruleNote": "37 equiprobable pockets; standard gross payouts."
+  },
+  {
+    "gameId": "european_roulette",
+    "game": "European Roulette",
+    "choice": "split",
+    "theoreticalRtp": 0.972972972972973,
+    "houseEdge": 0.027027027027026973,
+    "volatility": "medium",
+    "ruleNote": "37 equiprobable pockets; standard gross payouts."
+  },
+  {
+    "gameId": "european_roulette",
+    "game": "European Roulette",
+    "choice": "corner",
+    "theoreticalRtp": 0.972972972972973,
+    "houseEdge": 0.027027027027026973,
+    "volatility": "medium",
+    "ruleNote": "37 equiprobable pockets; standard gross payouts."
+  },
+  {
+    "gameId": "american_roulette",
+    "game": "American Roulette",
+    "choice": "red",
+    "theoreticalRtp": 0.9473684210526315,
+    "houseEdge": 0.052631578947368474,
+    "volatility": "medium",
+    "ruleNote": "38 equiprobable pockets including 00; standard gross payouts."
+  },
+  {
+    "gameId": "american_roulette",
+    "game": "American Roulette",
+    "choice": "dozen",
+    "theoreticalRtp": 0.9473684210526315,
+    "houseEdge": 0.052631578947368474,
+    "volatility": "medium",
+    "ruleNote": "38 equiprobable pockets including 00; standard gross payouts."
+  },
+  {
+    "gameId": "american_roulette",
+    "game": "American Roulette",
+    "choice": "column",
+    "theoreticalRtp": 0.9473684210526315,
+    "houseEdge": 0.052631578947368474,
+    "volatility": "medium",
+    "ruleNote": "38 equiprobable pockets including 00; standard gross payouts."
+  },
+  {
+    "gameId": "american_roulette",
+    "game": "American Roulette",
+    "choice": "straight",
+    "theoreticalRtp": 0.9473684210526315,
+    "houseEdge": 0.052631578947368474,
+    "volatility": "medium",
+    "ruleNote": "38 equiprobable pockets including 00; standard gross payouts."
+  },
+  {
+    "gameId": "american_roulette",
+    "game": "American Roulette",
+    "choice": "split",
+    "theoreticalRtp": 0.9473684210526315,
+    "houseEdge": 0.052631578947368474,
+    "volatility": "medium",
+    "ruleNote": "38 equiprobable pockets including 00; standard gross payouts."
+  },
+  {
+    "gameId": "american_roulette",
+    "game": "American Roulette",
+    "choice": "corner",
+    "theoreticalRtp": 0.9473684210526315,
+    "houseEdge": 0.052631578947368474,
+    "volatility": "medium",
+    "ruleNote": "38 equiprobable pockets including 00; standard gross payouts."
+  },
+  {
+    "gameId": "blackjack",
+    "game": "Blackjack",
+    "choice": "basic",
+    "theoreticalRtp": 0.9755,
+    "houseEdge": 0.024499999999999966,
+    "volatility": "medium",
+    "ruleNote": "Auditable resolved-hand probability tables for frozen six-deck S17/DAS/3:2 policy classes; full shoe decisions are a documented production extension."
+  },
+  {
+    "gameId": "blackjack",
+    "game": "Blackjack",
+    "choice": "novice",
+    "theoreticalRtp": 0.9535,
+    "houseEdge": 0.046499999999999986,
+    "volatility": "medium",
+    "ruleNote": "Auditable resolved-hand probability tables for frozen six-deck S17/DAS/3:2 policy classes; full shoe decisions are a documented production extension."
+  },
+  {
+    "gameId": "blackjack",
+    "game": "Blackjack",
+    "choice": "random",
+    "theoreticalRtp": 0.9175,
+    "houseEdge": 0.08250000000000002,
+    "volatility": "medium",
+    "ruleNote": "Auditable resolved-hand probability tables for frozen six-deck S17/DAS/3:2 policy classes; full shoe decisions are a documented production extension."
+  },
+  {
+    "gameId": "baccarat",
+    "game": "Baccarat",
+    "choice": "banker",
+    "theoreticalRtp": 0.9894,
+    "houseEdge": 0.010600000000000054,
+    "volatility": "low-medium",
+    "ruleNote": "Standard eight-deck outcome probabilities; banker pays 0.95 profit and ties push main bets."
+  },
+  {
+    "gameId": "baccarat",
+    "game": "Baccarat",
+    "choice": "player",
+    "theoreticalRtp": 0.9877,
+    "houseEdge": 0.012299999999999978,
+    "volatility": "low-medium",
+    "ruleNote": "Standard eight-deck outcome probabilities; banker pays 0.95 profit and ties push main bets."
+  },
+  {
+    "gameId": "baccarat",
+    "game": "Baccarat",
+    "choice": "tie",
+    "theoreticalRtp": 0.8564,
+    "houseEdge": 0.14359999999999995,
+    "volatility": "low-medium",
+    "ruleNote": "Standard eight-deck outcome probabilities; banker pays 0.95 profit and ties push main bets."
+  },
+  {
+    "gameId": "three_reel_slot",
+    "game": "Three-Reel Slot",
+    "choice": "spin",
+    "theoreticalRtp": 0.96,
+    "houseEdge": 0.040000000000000036,
+    "volatility": "medium",
+    "ruleNote": "Published one-million-stop virtual reel table; 50% hit rate and 31x maximum gross payout."
+  },
+  {
+    "gameId": "high_volatility_slot",
+    "game": "High-Volatility Video Slot",
+    "choice": "spin",
+    "theoreticalRtp": 0.96,
+    "houseEdge": 0.040000000000000036,
+    "volatility": "very high",
+    "ruleNote": "Published one-million-stop table; 14% hit rate and 137x maximum gross payout."
+  },
+  {
+    "gameId": "craps",
+    "game": "Craps / Dice",
+    "choice": "pass_line",
+    "theoreticalRtp": 0.9859,
+    "houseEdge": 0.014100000000000001,
+    "volatility": "medium-high",
+    "ruleNote": "Restricted resolved-bet catalogue: pass line, field, and any seven."
+  },
+  {
+    "gameId": "craps",
+    "game": "Craps / Dice",
+    "choice": "field",
+    "theoreticalRtp": 0.9444,
+    "houseEdge": 0.05559999999999998,
+    "volatility": "medium-high",
+    "ruleNote": "Restricted resolved-bet catalogue: pass line, field, and any seven."
+  },
+  {
+    "gameId": "craps",
+    "game": "Craps / Dice",
+    "choice": "any_seven",
+    "theoreticalRtp": 0.8333,
+    "houseEdge": 0.16669999999999996,
+    "volatility": "medium-high",
+    "ruleNote": "Restricted resolved-bet catalogue: pass line, field, and any seven."
+  },
+  {
+    "gameId": "virtual_sports",
+    "game": "Virtual Sports Betting",
+    "choice": "single",
+    "theoreticalRtp": 0.94,
+    "houseEdge": 0.06000000000000005,
+    "volatility": "high",
+    "ruleNote": "Synthetic independent event probabilities with a declared 6% margin; no real match data."
+  },
+  {
+    "gameId": "virtual_sports",
+    "game": "Virtual Sports Betting",
+    "choice": "parlay",
+    "theoreticalRtp": 0.94,
+    "houseEdge": 0.06000000000000005,
+    "volatility": "high",
+    "ruleNote": "Synthetic independent event probabilities with a declared 6% margin; no real match data."
+  },
+  {
+    "gameId": "crash",
+    "game": "Crash",
+    "choice": "1.25",
+    "theoreticalRtp": 0.97,
+    "houseEdge": 0.030000000000000027,
+    "volatility": "very high",
+    "ruleNote": "Targets are declared before the draw; P(reach target)=0.97/target."
+  },
+  {
+    "gameId": "crash",
+    "game": "Crash",
+    "choice": "2",
+    "theoreticalRtp": 0.97,
+    "houseEdge": 0.030000000000000027,
+    "volatility": "very high",
+    "ruleNote": "Targets are declared before the draw; P(reach target)=0.97/target."
+  },
+  {
+    "gameId": "crash",
+    "game": "Crash",
+    "choice": "5",
+    "theoreticalRtp": 0.97,
+    "houseEdge": 0.030000000000000027,
+    "volatility": "very high",
+    "ruleNote": "Targets are declared before the draw; P(reach target)=0.97/target."
+  },
+  {
+    "gameId": "crash",
+    "game": "Crash",
+    "choice": "10",
+    "theoreticalRtp": 0.97,
+    "houseEdge": 0.030000000000000027,
+    "volatility": "very high",
+    "ruleNote": "Targets are declared before the draw; P(reach target)=0.97/target."
+  },
+  {
+    "gameId": "lottery",
+    "game": "Lottery / Jackpot",
+    "choice": "ticket",
+    "theoreticalRtp": 0.8,
+    "houseEdge": 0.19999999999999996,
+    "volatility": "extreme",
+    "ruleNote": "Published one-million-ticket table; jackpot probability 40 in 1,000,000 and 10,000x gross payout."
+  }
+]

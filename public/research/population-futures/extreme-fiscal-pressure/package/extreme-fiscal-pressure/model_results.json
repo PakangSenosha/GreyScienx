@@ -1,0 +1,215 @@
+{
+  "warning": "Hypothetical scenario model, not a forecast or a legal opinion",
+  "currency": "constant 2026 South African rand",
+  "horizon": "2026-2080",
+  "initial_2050_emergency_need_percent_gdp": 14,
+  "same_initial_shock": "pandemic, war/security mobilisation and recession",
+  "scenarios": {
+    "No 2050 shock": {
+      "gdp_2049_r_trillion": 9.485,
+      "gdp_2050_r_trillion": 9.627,
+      "gdp_2080_r_trillion": 14.373,
+      "gdp_gap_2080_percent": 0.0,
+      "pv_output_loss_2050_2080_r_trillion": 0.0,
+      "official_debt_2080_percent_gdp": 116.0,
+      "hidden_claims_2080_percent_gdp": 12.0,
+      "augmented_burden_2080_percent_gdp": 128.0,
+      "contributors_per_retiree_2080": 1.15,
+      "youth_employment_2080_percent": 52.0,
+      "tfr_2080": 1.65,
+      "pension_wealth_2080_index": 100.0,
+      "inheritance_value_2080_index": 100.0,
+      "trust_2070_index": 48.0,
+      "trust_2080_index": 48.0
+    },
+    "Guardrailed emergency": {
+      "gdp_2049_r_trillion": 9.485,
+      "gdp_2050_r_trillion": 8.76,
+      "gdp_2080_r_trillion": 14.201,
+      "gdp_gap_2080_percent": -1.2,
+      "pv_output_loss_2050_2080_r_trillion": 3.71,
+      "official_debt_2080_percent_gdp": 120.0,
+      "hidden_claims_2080_percent_gdp": 6.0,
+      "augmented_burden_2080_percent_gdp": 126.0,
+      "contributors_per_retiree_2080": 1.13,
+      "youth_employment_2080_percent": 50.0,
+      "tfr_2080": 1.6,
+      "pension_wealth_2080_index": 93.0,
+      "inheritance_value_2080_index": 94.0,
+      "trust_2070_index": 50.5,
+      "trust_2080_index": 50.0,
+      "net_skilled_migration_loss_2080_millions": -0.2
+    },
+    "Extended executive emergency": {
+      "gdp_2049_r_trillion": 9.485,
+      "gdp_2050_r_trillion": 8.76,
+      "gdp_2080_r_trillion": 11.355,
+      "gdp_gap_2080_percent": -21.0,
+      "pv_output_loss_2050_2080_r_trillion": 34.84,
+      "official_debt_2080_percent_gdp": 115.0,
+      "hidden_claims_2080_percent_gdp": 35.0,
+      "augmented_burden_2080_percent_gdp": 150.0,
+      "contributors_per_retiree_2080": 1.0,
+      "youth_employment_2080_percent": 39.0,
+      "tfr_2080": 1.4,
+      "pension_wealth_2080_index": 61.0,
+      "inheritance_value_2080_index": 58.0,
+      "trust_2070_index": 34.3,
+      "trust_2080_index": 35.0,
+      "net_skilled_migration_loss_2080_millions": -1.9
+    },
+    "Permanent constitutional suspension": {
+      "gdp_2049_r_trillion": 9.485,
+      "gdp_2050_r_trillion": 8.76,
+      "gdp_2080_r_trillion": 8.336,
+      "gdp_gap_2080_percent": -42.0,
+      "pv_output_loss_2050_2080_r_trillion": 65.79,
+      "official_debt_2080_percent_gdp": 70.0,
+      "hidden_claims_2080_percent_gdp": 95.0,
+      "augmented_burden_2080_percent_gdp": 165.0,
+      "contributors_per_retiree_2080": 0.77,
+      "youth_employment_2080_percent": 26.0,
+      "tfr_2080": 1.18,
+      "pension_wealth_2080_index": 29.0,
+      "inheritance_value_2080_index": 27.0,
+      "trust_2070_index": 20.3,
+      "trust_2080_index": 18.0,
+      "net_skilled_migration_loss_2080_millions": -4.8
+    }
+  },
+  "first_year_gap_closure_percent_gdp": {
+    "Guardrailed emergency": {
+      "Temporary progressive levy": 2.5,
+      "Transparent reprioritisation": 2.0,
+      "Contingency reserves": 1.0,
+      "Emergency borrowing": 6.0,
+      "Limited pension indexation": 0.5,
+      "Guarantees / liquidity": 2.0
+    },
+    "Extended executive emergency": {
+      "Broad compulsory levy": 4.0,
+      "Service cuts": 3.0,
+      "Forced pension holdings": 3.0,
+      "Monetary finance": 2.5,
+      "Rationing and arrears": 1.5
+    },
+    "Permanent constitutional suspension": {
+      "Confiscatory levies": 3.5,
+      "Pension conversion": 4.0,
+      "Monetary repression": 3.0,
+      "Service rationing": 2.5,
+      "Arrears / default": 1.0
+    }
+  },
+  "cross_study_damage_2070_index": {
+    "Household security / cohabitation": [
+      5,
+      18,
+      42
+    ],
+    "Retirement adequacy": [
+      4,
+      24,
+      51
+    ],
+    "Youth lifetime pensions": [
+      6,
+      28,
+      58
+    ],
+    "Feasible later retirement": [
+      3,
+      17,
+      38
+    ],
+    "Fiscal-democratic balance": [
+      2,
+      34,
+      72
+    ],
+    "Austerity welfare loss": [
+      8,
+      30,
+      65
+    ],
+    "Fertility-policy effectiveness": [
+      4,
+      22,
+      46
+    ],
+    "Hundred-year-life adaptability": [
+      3,
+      20,
+      49
+    ],
+    "Useful early wealth transfers": [
+      2,
+      26,
+      55
+    ],
+    "Managed urban shrinkage": [
+      5,
+      31,
+      62
+    ],
+    "Essential-worker capacity": [
+      4,
+      27,
+      59
+    ]
+  },
+  "measure_frontier": [
+    {
+      "measure": "Health logistics\nand targeted relief",
+      "response_capacity": 86,
+      "institutional_damage": 12,
+      "legitimacy": 82
+    },
+    {
+      "measure": "Temporary progressive\nsolidarity levy",
+      "response_capacity": 72,
+      "institutional_damage": 19,
+      "legitimacy": 72
+    },
+    {
+      "measure": "Emergency borrowing\nwith fiscal anchor",
+      "response_capacity": 78,
+      "institutional_damage": 25,
+      "legitimacy": 77
+    },
+    {
+      "measure": "Time-limited rationing\nof true shortages",
+      "response_capacity": 64,
+      "institutional_damage": 33,
+      "legitimacy": 58
+    },
+    {
+      "measure": "Forced pension-fund\nbond purchases",
+      "response_capacity": 60,
+      "institutional_damage": 66,
+      "legitimacy": 34
+    },
+    {
+      "measure": "Open-ended price\nand wage controls",
+      "response_capacity": 51,
+      "institutional_damage": 75,
+      "legitimacy": 26
+    },
+    {
+      "measure": "Suspended elections\nand judicial review",
+      "response_capacity": 18,
+      "institutional_damage": 94,
+      "legitimacy": 8
+    }
+  ],
+  "key_assumptions": {
+    "baseline_gdp_2026_r_trillion": 6.5,
+    "baseline_population_2026_millions": 64,
+    "baseline_contributors_2026_millions": 18,
+    "baseline_retirees_2026_millions": 6,
+    "discount_rate_real": 0.03,
+    "guardrailed_emergency_end": 2052,
+    "extended_emergency_end": 2058,
+    "permanent_suspension_end": "not restored by 2080"
+  }
+}

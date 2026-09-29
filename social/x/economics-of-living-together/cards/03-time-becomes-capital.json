@@ -1,0 +1,15 @@
+{
+  "edition": "HOUSEHOLD ECONOMICS · PAPER 01.01",
+  "eyebrow": "Time becomes capital",
+  "headline": "The gap grows after both couples share a home",
+  "deck": "At 35, the living arrangement converges. The balance sheets do not.",
+  "visualTitle": "Early household’s modelled lead",
+  "qualifier": "Average scenario · constant 2026 rand",
+  "bars": [
+    {"name": "At age 35", "value": 1.188, "label": "R1.188m", "primary": false},
+    {"name": "At age 75", "value": 3.972, "label": "R3.972m", "primary": true}
+  ],
+  "caption": "After 35, the gap changes through returns or deficit-financing costs—not a continuing housing advantage.",
+  "source": "GreyScienx lifetime model · Combined household net worth",
+  "url": "greyscienx.com/research"
+}

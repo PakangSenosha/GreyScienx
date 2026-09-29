@@ -1,0 +1,78 @@
+{
+  "experimentId": "greyscienx-vc-make-it-big-v1.0",
+  "protocolVersion": "1.0.0",
+  "status": "completed-local-reference-study",
+  "currency": "synthetic-ZAR",
+  "moneyUnit": "integer-cents",
+  "generatedAt": "2026-09-22T00:00:00.000Z",
+  "targetPayoutCents": 10000000,
+  "monthlyBudgetCents": 100000,
+  "maximumMonths": 36,
+  "horizonsMonths": [1, 3, 6, 12, 24, 36],
+  "entrantsPerCell": 100000,
+  "simulationSeed": "greyscienx-vc-make-it-big-v1.0-reference",
+  "strategies": [
+    { "id": "stake_50", "label": "20 bets × R50", "stakeCents": 5000, "betsPerMonth": 20 },
+    { "id": "stake_20", "label": "50 bets × R20", "stakeCents": 2000, "betsPerMonth": 50 },
+    { "id": "stake_10", "label": "100 bets × R10", "stakeCents": 1000, "betsPerMonth": 100 },
+    { "id": "stake_5", "label": "200 bets × R5", "stakeCents": 500, "betsPerMonth": 200 }
+  ],
+  "games": [
+    {
+      "id": "jackpot_slot",
+      "label": "Controlled jackpot slot",
+      "rulesVersion": "class-c-jackpot-slot-1.0",
+      "replicationClass": "C — synthetic experimental game",
+      "ruleType": "discreteMultipliers",
+      "theoreticalRtp": 0.96,
+      "maximumMultiplier": 20000,
+      "sourceReference": "GreyScienx controlled tail-shape model",
+      "assumptions": "Independent spins; gross multiplier table does not change with stake.",
+      "outcomes": [
+        { "multiplier": 0, "probability": 0.989725 },
+        { "multiplier": 1, "probability": 0.01 },
+        { "multiplier": 2000, "probability": 0.0002 },
+        { "multiplier": 5000, "probability": 0.00005 },
+        { "multiplier": 10000, "probability": 0.00002 },
+        { "multiplier": 20000, "probability": 0.000005 }
+      ]
+    },
+    {
+      "id": "crash_target",
+      "label": "Controlled crash target",
+      "rulesVersion": "class-c-crash-target-1.0",
+      "replicationClass": "C — synthetic experimental game",
+      "ruleType": "targetMultiplier",
+      "theoreticalRtp": 0.97,
+      "maximumMultiplier": 20000,
+      "sourceReference": "GreyScienx constant-edge first-passage model",
+      "assumptions": "The target multiplier is declared before the draw; P(reach target) = 0.97 / target multiplier."
+    },
+    {
+      "id": "lottery_tail",
+      "label": "Controlled lottery tail",
+      "rulesVersion": "class-c-lottery-tail-1.0",
+      "replicationClass": "C — synthetic experimental game",
+      "ruleType": "discreteMultipliers",
+      "theoreticalRtp": 0.8,
+      "maximumMultiplier": 100000,
+      "sourceReference": "GreyScienx controlled attempt-count model",
+      "assumptions": "Each wager is one independent ticket; the sole prize is 100,000× gross at probability 8 per million.",
+      "outcomes": [
+        { "multiplier": 0, "probability": 0.999992 },
+        { "multiplier": 100000, "probability": 0.000008 }
+      ]
+    },
+    {
+      "id": "virtual_accumulator",
+      "label": "Controlled virtual accumulator",
+      "rulesVersion": "class-c-accumulator-target-1.0",
+      "replicationClass": "C — synthetic experimental game",
+      "ruleType": "targetMultiplier",
+      "theoreticalRtp": 0.9,
+      "maximumMultiplier": 20000,
+      "sourceReference": "GreyScienx constant-margin first-passage model",
+      "assumptions": "Independent synthetic events; the offered target has P(success) = 0.90 / target multiplier. No real matches are used."
+    }
+  ]
+}

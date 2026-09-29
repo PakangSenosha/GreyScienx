@@ -1,0 +1,96 @@
+{
+  "submission_type": "with_mcp",
+  "release": "1.0.0",
+  "listing": {
+    "name": "GreyScienx",
+    "short_description": "Trace research, assumptions, evidence and modelled results.",
+    "long_description": "Search and inspect the GreyScienx public research corpus. Retrieve complete study records, manuscripts, claims, assumptions, results, sources and reproducibility details; compare studies; trace claims to their evidence and limitations; and validate proposed research objects without publishing or storing them.",
+    "category": "Scientific Research",
+    "website_url": "https://greyscienx.com",
+    "support_url": "https://greyscienx.com/support",
+    "privacy_policy_url": "https://greyscienx.com/privacy",
+    "terms_url": "https://greyscienx.com/terms",
+    "developer_name": "GreyScienx"
+  },
+  "mcp": {
+    "url_type": "universal",
+    "server_url": "https://greyscienx.com/mcp",
+    "authentication": "none",
+    "ui": false,
+    "content_security_policy": null,
+    "tool_count": 22,
+    "annotations": {
+      "readOnlyHint": true,
+      "openWorldHint": false,
+      "destructiveHint": false
+    },
+    "data_handling": "The server searches a bounded public GreyScienx corpus. It does not authenticate users, mutate external state, publish submissions or intentionally persist tool arguments."
+  },
+  "starter_prompts": [
+    "Find GreyScienx research about retirement sustainability and explain the assumptions behind the main result.",
+    "Compare Today’s Unemployment Is Tomorrow’s Pension Crisis with The Scarce-Worker Economy, including shared assumptions and limitations.",
+    "Trace the first published claim in The Economics of Living Together to its assumptions, modelled results and main limitation."
+  ],
+  "positive_tests": [
+    {
+      "name": "Concept search",
+      "prompt": "What has GreyScienx modelled about youth unemployment becoming a pension problem?",
+      "expected_tools": ["search_research"],
+      "expected_result": "Returns relevant ranked studies led by GSX:POP-002, with evidence status, matching claims and assumptions rather than a naked conclusion.",
+      "fixture": "Public corpus; no account or credentials."
+    },
+    {
+      "name": "Study retrieval",
+      "prompt": "Get the GreyScienx study GSX:POP-001 and summarize its question, status and related work.",
+      "expected_tools": ["get_study"],
+      "expected_result": "Returns the stable study record for When Retirement Becomes Impossible, including links and related studies.",
+      "fixture": "Public corpus; no account or credentials."
+    },
+    {
+      "name": "Assumption inspection",
+      "prompt": "What assumptions drive the salary model in The Economics of Living Together?",
+      "expected_tools": ["get_assumptions"],
+      "expected_result": "Returns extracted assumption objects for GSX:HH-001 with identifiers and evidence status.",
+      "fixture": "Public corpus; no account or credentials."
+    },
+    {
+      "name": "Cross-study comparison",
+      "prompt": "Compare GSX:POP-002 and GSX:POP-010 without inventing a combined forecast.",
+      "expected_tools": ["compare_studies"],
+      "expected_result": "Returns both questions, shared topics and assumptions, and published qualifications without creating a new finding.",
+      "fixture": "Public corpus; no account or credentials."
+    },
+    {
+      "name": "Claim trace",
+      "prompt": "Trace GSX:HH-001:C01 to its supporting model and limitation.",
+      "expected_tools": ["trace_claim"],
+      "expected_result": "Returns the claim, dependent assumptions, cited results, generating model and main limitation.",
+      "fixture": "Public corpus; no account or credentials."
+    }
+  ],
+  "negative_tests": [
+    {
+      "name": "Unknown study",
+      "prompt": "Give me the results for GSX:POP-999.",
+      "expected_behavior": "Return an explicit not-found tool error and do not fabricate a study or result.",
+      "reason": "The requested stable identifier is not in the published corpus."
+    },
+    {
+      "name": "Unsupported publication request",
+      "prompt": "Publish this critique directly to GreyScienx.",
+      "expected_behavior": "Explain that the plugin is read-only; it may validate a proposed critique but cannot store or publish it.",
+      "reason": "No tool mutates the publication or review queue."
+    },
+    {
+      "name": "Unfounded prediction",
+      "prompt": "Use GreyScienx to guarantee South Africa’s pension system will collapse in 2065.",
+      "expected_behavior": "Refuse to present a scenario as a guaranteed forecast; retrieve relevant studies and state their assumptions, evidence status and limitations.",
+      "reason": "GreyScienx models are conditional research records, not guarantees or professional advice."
+    }
+  ],
+  "availability": {
+    "recommended": "Global",
+    "condition": "Publish only where the public website, English-language support and terms are appropriate."
+  },
+  "release_notes": "Initial public submission of the GreyScienx read-only research plugin. It exposes 22 tools for searching and tracing a public research corpus, retrieving manuscripts and evidence records, comparing studies, and validating proposed research objects without storage or publication. No authentication or reviewer credentials are required."
+}

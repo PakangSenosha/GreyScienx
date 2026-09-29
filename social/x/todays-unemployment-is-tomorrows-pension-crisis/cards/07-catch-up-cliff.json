@@ -1,0 +1,16 @@
+{
+  "edition": "POPULATION FUTURES · PAPER 02.02",
+  "eyebrow": "The catch-up cliff",
+  "headline": "Late entry turns an ordinary saving rate into an extraordinary one",
+  "deck": "The target is the age-60 wealth of a 15% saver who started at 20.",
+  "visualTitle": "Required contribution after entry",
+  "qualifier": "3% real return · modelled",
+  "bars": [
+    {"name": "Enter at 30", "value": 24, "label": "24%", "primary": false},
+    {"name": "Enter at 40", "value": 51, "label": "51%", "primary": false},
+    {"name": "Enter at 45", "value": 86, "label": "86%", "primary": true}
+  ],
+  "caption": "Catch-up remains possible in the model, but the required share of salary rises rapidly as entry is delayed.",
+  "source": "GreyScienx catch-up model · Wage scar closes gradually",
+  "url": "greyscienx.com/research"
+}

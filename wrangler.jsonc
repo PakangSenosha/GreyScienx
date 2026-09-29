@@ -9,6 +9,10 @@
     {
       "pattern": "greyscienx.com/*",
       "zone_name": "greyscienx.com"
+    },
+    {
+      "pattern": "www.greyscienx.com",
+      "custom_domain": true
     }
   ],
   "main": "vinext/server/fetch-handler",
@@ -16,5 +20,23 @@
     "directory": "dist/client",
     "not_found_handling": "none",
     "binding": "ASSETS"
+  },
+  "account_id": "e314eecf0fd1248880037f6dc392e4ec",
+  "kv_namespaces": [
+    {
+      "binding": "REVIEW_QUEUE",
+      "id": "74aa1d3995d64ca6837a65465f2cfd22"
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 0.01
+    }
   }
 }

@@ -1,0 +1,1024 @@
+schema_version: GreyResearchForm 1.0
+target_object_schema: GreyResearchObject 1.2
+identity:
+  id: GSX:IND-001
+  slug: the-south-african-critical-minerals-industrial-complex
+  title: The South African Critical Minerals Industrial Complex
+  subtitle: Could South Africa turn manganese, platinum-group metals and vanadium into manufactured systems rather than another generation of mineral exports?
+  series_id: GSX:IND
+  series_slug: strategic-industrialisation
+  series_title: Strategic Industrialisation
+  series_number: '04'
+  paper_number: '01'
+  version: '1.0'
+  status: published
+  language: en-ZA
+  date_created: '2026-09-27'
+  date_modified: '2026-09-29'
+  date_published: '2026-09-27'
+  canonical_url: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex
+  previous_version: none
+  supersedes:
+  - none
+  superseded_by:
+  - none
+responsibility:
+  organisation: GreyScienx
+  authors:
+  - name: Pakang Senosha
+    affiliation: University of Pretoria
+    slug: pakang-senosha
+  contributors:
+  - name: none recorded
+    role: No additional contributor is named on the study record.
+  reviewers:
+  - name: none recorded
+    role: No external reviewer is named.
+  corresponding_contact: No separate correspondence address is published. The study page is the public record.
+  ai_assistance:
+    disclosure: GreyScienx manuscripts are prepared with substantial AI assistance in research, drafting, and computation. This record is not peer-reviewed. Participation is not itemised per study until each manuscript is audited.
+    literature_search: not itemised in the published manuscript
+    data_extraction: not itemised in the published manuscript
+    code_generation: not itemised in the published manuscript
+    statistical_analysis: not itemised in the published manuscript
+    figure_generation: not itemised in the published manuscript
+    drafting: not itemised in the published manuscript
+    editing: not itemised in the published manuscript
+    interpretation: not itemised in the published manuscript
+    final_review: not itemised in the published manuscript
+classification:
+  research_type: exploratory_simulation
+  evidence_status: modelled
+  peer_review_status: none
+  external_review_status: none
+  reproducibility_status: reproduced
+  licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  topics:
+  - critical-minerals
+  - industrialisation
+  - south-africa
+  keywords:
+  - Critical minerals
+  - Industrialisation
+  - South Africa
+  - south
+  - african
+  - critical
+  - minerals
+  - industrial
+  - complex
+  - mineral
+  - endowment
+  - converted
+  - depth
+  geographies: &id002
+  - South Africa
+  temporal_coverage:
+    observed_start: see the cited sources in the manuscript
+    observed_end: see the cited sources in the manuscript
+    model_start: see the scenario window in the manuscript
+    model_end: see the scenario window in the manuscript
+  currencies:
+  - ZAR
+  price_basis: constant 2026 prices where the manuscript states a price basis
+research_definition:
+  central_question: How could South African mineral endowment be converted into industrial depth?
+  short_answer: 'On the manuscript''s illustrative value pool, focused integration retains 66.3 percent, compared with 37.6 percent for the existing footprint and 81.4 percent for a frontier partnership case. Limitation: These are not forecasts of GDP or company revenue. Geology is not industrial power: the manuscript distinguishes reserve shares from mined-production shares.'
+  abstract: An integrated strategy for converting mineral endowment into industrial depth.
+  motivation: An integrated strategy for converting mineral endowment into industrial depth.
+  decision_relevance: The study is published so a reader can inspect the scenario, the assumption and the limitation together.
+  main_output: A conditional modelled claim linked to its assumptions and results.
+  bundled_questions: &id001
+  - What industrial system connects critical minerals to domestic production?
+  - How does the critical-minerals complex differ from exporting unprocessed ore?
+  related_questions: *id001
+  exclusions:
+  - The study does not convert a scenario into a forecast.
+  unit_of_analysis: the scenario unit stated in the manuscript
+  population_or_system: South Africa
+  comparator: the comparison case named in the central claim
+  baseline: the baseline case named in the manuscript
+  counterfactual: not_applicable
+  causal_scope: Treat the study as modelled exploratory research unless the manuscript explicitly establishes another evidentiary status.
+epistemic_contract:
+  observed_facts:
+  - Observed figures are those the manuscript attributes to a named external source. They are not model output.
+  derived_facts:
+  - Derived figures are restatements of published amounts into a common price basis where the manuscript says so.
+  modelled_outputs:
+  - GSX:IND-001:R01
+  - GSX:IND-001:R02
+  interpretations:
+  - The central claim is the manuscript's interpretation of its own scenario.
+  normative_judgements:
+  - Policy language in the manuscript is a judgement about the scenario, not an additional empirical result.
+  unresolved_questions:
+  - How could South African mineral endowment be converted into industrial depth?
+  confidence_statement: Only the registered conditional claims have been extracted. Read each with its dependencies and limitation.
+model:
+  models:
+  - id: M01
+    canonical_id: GSX:IND-001:M01
+    name: Value-pool localisation model
+    purpose: The model assigns illustrative shares of a critical-minerals value pool to chain stages and compares an existing footprint, focused integration, frontier partnership and forced autarky.
+    model_class: value-share scenario
+    statement: The model assigns illustrative shares of a critical-minerals value pool to chain stages and compares an existing footprint, focused integration, frontier partnership and forced autarky.
+    inputs:
+    - stage value shares
+    - localisation strategy
+    - utilisation penalty
+    outputs:
+    - share of the modelled value pool
+    time_step: comparative static
+    implementation_file: research/source/critical-minerals-industrial-complex/model.py
+    version: '1.0'
+  assumptions:
+  - id: A01
+    canonical_id: GSX:IND-001:A01
+    name: Illustrative value pool
+    statement: Each stage is assigned an illustrative share of total value added. The shares are a way to expose where value is assumed to remain local. They are not a forecast of GDP or company revenue.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript numerical headline
+    source_ids:
+    - GSX:IND-001:PDF
+    evidence_strength: model construct
+    sensitivity: high
+    alternatives:
+    - A different stage weighting
+  - id: A02
+    canonical_id: GSX:IND-001:A02
+    name: Strategy cases
+    statement: The comparison includes the existing footprint, focused integration, a frontier partnership case, and forced autarky after utilisation and market-access penalties.
+    value: qualitative
+    unit: not a scalar
+    value_type: qualitative
+    status: model_assumption
+    provenance: Manuscript Part I
+    source_ids:
+    - GSX:IND-001:PDF
+    evidence_strength: scenario design
+    sensitivity: high
+    alternatives:
+    - A different partnership assumption
+  parameters:
+  - id: P01
+    name: Illustrative value pool
+    symbol: see the manuscript
+    description: Each stage is assigned an illustrative share of total value added. The shares are a way to expose where value is assumed to remain local. They are not a forecast of GDP or company revenue.
+    value: qualitative
+    unit: see the statement
+    price_year: '2026'
+    scenario_values:
+      central: qualitative
+    source_ids:
+    - GSX:IND-001:PDF
+  variables:
+  - The manuscript states variables in prose rather than a separate symbol table.
+  equations:
+  - The manuscript states the accounting identities in prose. No separate machine equation list is published.
+  constraints:
+  - The result holds inside the stated scenario and the registered limitation.
+  mechanisms:
+  - The model assigns illustrative shares of a critical-minerals value pool to chain stages and compares an existing footprint, focused integration, frontier partnership and forced autarky.
+  calibration:
+    method: The manuscript states the calibration in prose. No separate calibration file is published.
+    target_ids:
+    - GSX:IND-001:R01
+    notes: Calibration targets are the registered results.
+  validation:
+    internal_checks:
+    - The published manuscript is the checked statement of the model.
+    external_benchmarks:
+    - External sources cited in the manuscript are not a second validation suite in this form.
+    holdout_tests:
+    - No holdout test is published.
+scenarios:
+- id: S01
+  name: Value-pool scenarios
+  role: baseline
+  description: The existing footprint retains about 37.6 percent of the modelled pool. Focused integration reaches 66.3 percent. A frontier case with successful technology partnerships reaches 81.4 percent.
+  assumption_overrides:
+    note: The central scenario uses the registered assumptions.
+  probability_status: illustrative
+  probability: not assigned
+  rationale: The manuscript labels this as a scenario.
+data:
+  datasets:
+  - id: D01
+    title: The South African Critical Minerals Industrial Complex
+    description: The published manuscript is the data statement for this form.
+    publisher: GreyScienx
+    url: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex
+    access_date: '2026-09-27'
+    licence: The reading copy is published on greyscienx.com. No separate open licence is stated.
+    file: research/source/critical-minerals-industrial-complex/report.md
+    media_type: text/markdown
+    temporal_coverage: see the scenario window in the manuscript to see the scenario window in the manuscript
+    geographic_coverage: South Africa
+    variables:
+    - see the registered assumptions and results
+    transformations:
+    - see the manuscript
+    limitations:
+    - 'These are not forecasts of GDP or company revenue. Geology is not industrial power: the manuscript distinguishes reserve shares from mined-production shares.'
+  source_register:
+  - id: GSX:IND-001:PDF
+    type: manuscript
+    title: The South African Critical Minerals Industrial Complex
+    author_or_publisher: GreyScienx
+    date: '2026-09-27'
+    url: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex.pdf
+    access_date: '2026-09-27'
+    locator: 25 pages; 2.00 MB
+    supports:
+    - GSX:IND-001:C01
+    contradicts:
+    - none recorded
+    note: Published manuscript used for this semantic-twin extraction. External references remain represented in the manuscript unless separately registered.
+  - id: GSX:IND-001:SRC01
+    type: web_reference
+    title: South Africa Critical Minerals and Metals Strategy, 2025
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/sites/default/files/gcis_document/202505/critical-minerals-and-metals-strategy-south-africa-2025.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC02
+    type: web_reference
+    title: USGS South Africa minerals profile
+    author_or_publisher: usgs.gov
+    date: see cited resource
+    url: https://www.usgs.gov/centers/national-minerals-information-center/south-africa
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC03
+    type: web_reference
+    title: IEA, emerging battery supply chains
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/beyond-nmc-batteries-supply-chain-issues-for-emerging-battery-technologies
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC04
+    type: web_reference
+    title: South African Renewable Energy Masterplan, 2025
+    author_or_publisher: gov.za
+    date: see cited resource
+    url: https://www.gov.za/sites/default/files/gcis_document/202506/south-african-renewable-energy-masterplan.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC05
+    type: web_reference
+    title: South African Hydrogen Society Roadmap
+    author_or_publisher: dsi.gov.za
+    date: see cited resource
+    url: https://www.dsi.gov.za/index.php/resource-center/reports/strategies-and-reports/3574-hydrogen-society-roadmap-for-south-africa-2021
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC06
+    type: web_reference
+    title: IEA electrolyser technology assessment
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/energy-system/hydrogen/electrolysers
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC07
+    type: web_reference
+    title: IEA Global Hydrogen Review 2026
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-hydrogen-review-2026/executive-summary
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC08
+    type: web_reference
+    title: Green Hydrogen Commercialisation Strategy
+    author_or_publisher: thedtic.gov.za
+    date: see cited resource
+    url: https://www.thedtic.gov.za/wp-content/uploads/Full-Report-Green-Hydrogen-Commercialisation-Strategy.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC09
+    type: web_reference
+    title: USGS Mineral Commodity Summaries 2026
+    author_or_publisher: pubs.usgs.gov
+    date: see cited resource
+    url: https://pubs.usgs.gov/publication/mcs2026
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC10
+    type: web_reference
+    title: IEA mineral requirements for storage
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions/mineral-requirements-for-clean-energy-transitions
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC11
+    type: web_reference
+    title: Eskom Battery Energy Storage System programme
+    author_or_publisher: eskom.co.za
+    date: see cited resource
+    url: https://www.eskom.co.za/distribution/battery-energy-storage-system/
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC12
+    type: web_reference
+    title: National Treasury, 2026 Estimates of National Expenditure
+    author_or_publisher: treasury.gov.za
+    date: see cited resource
+    url: https://www.treasury.gov.za/documents/national%20budget/2026/ene/FullENE.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC13
+    type: web_reference
+    title: IEA Global Critical Minerals Outlook 2026
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC14
+    type: web_reference
+    title: CSIR electrochemical energy technologies
+    author_or_publisher: csir.co.za
+    date: see cited resource
+    url: https://www.csir.co.za/what-we-do/natural-environment/energy/electrochemical-energy-technologies
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC15
+    type: web_reference
+    title: Statistics South Africa, manufacturing employment, March 2026
+    author_or_publisher: statssa.gov.za
+    date: see cited resource
+    url: https://www.statssa.gov.za/publications/P0277/P0277March2026.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC16
+    type: web_reference
+    title: IEA Global Critical Minerals Outlook 2026
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-critical-minerals-outlook-2026
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC17
+    type: web_reference
+    title: IEA Global Hydrogen Review 2026
+    author_or_publisher: iea.org
+    date: see cited resource
+    url: https://www.iea.org/reports/global-hydrogen-review-2026
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC18
+    type: web_reference
+    title: US Department of Energy, PGM catalyst supply-chain assessment
+    author_or_publisher: energy.gov
+    date: see cited resource
+    url: https://www.energy.gov/sites/default/files/2024-12/PGM%2520catalyst%2520supply%2520chain%2520report%2520-%2520final%2520draft%25202.25.22%5B1%5D.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  - id: GSX:IND-001:SRC19
+    type: web_reference
+    title: US Department of Energy, advanced-battery supply-chain review
+    author_or_publisher: energy.gov
+    date: see cited resource
+    url: https://www.energy.gov/sites/default/files/2024-12/20212024-Four%20Year%20Review%20of%20Supply%20Chains%20for%20the%20Advanced%20Batteries%20Sector.pdf
+    access_date: '2026-09-29'
+    locator: URL cited in the manuscript
+    supports:
+    - claim-level support not assigned
+    contradicts:
+    - none recorded
+    note: The manuscript cites this resource. Inclusion does not independently validate it or assign it to a specific claim.
+  provenance_notes:
+  - Registered claims are extracted from the published manuscript. They are not a second independent estimate.
+results:
+  result_register:
+  - id: R01
+    canonical_id: GSX:IND-001:R01
+    statement: The existing footprint retains about 37.6 percent of the modelled pool. Focused integration reaches 66.3 percent. A frontier case with successful technology partnerships reaches 81.4 percent.
+    value: '66.3'
+    unit: percent of the modelled value pool, focused integration
+    price_year: '2026'
+    year_or_period: Value-pool scenarios
+    scenario_id: Value-pool scenarios
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:IND-001:PDF
+    reproducible_from:
+    - GSX:IND-001:M01
+  - id: R02
+    canonical_id: GSX:IND-001:R02
+    statement: Forced autarky realises about 52 percent of the value pool after utilisation and market-access penalties, compared with about 62 percent for focused integration and 73 percent for the frontier partnership case on that realised-value comparison.
+    value: '52'
+    unit: percent of the value pool realised under forced autarky
+    price_year: '2026'
+    year_or_period: Realised value after penalties
+    scenario_id: Realised value after penalties
+    model_id: M01
+    evidence_status: modelled
+    uncertainty: The manuscript presents this as a scenario result, not a confidence interval.
+    sensitivity: high
+    source_data_ids:
+    - GSX:IND-001:PDF
+    reproducible_from:
+    - GSX:IND-001:M01
+  headline_results:
+  - GSX:IND-001:R01
+  sensitivity_results:
+  - GSX:IND-001:R02
+  robustness_results:
+  - Robustness is stated through the registered limitation rather than a separate statistical test.
+  negative_or_null_results:
+  - 'These are not forecasts of GDP or company revenue. Geology is not industrial power: the manuscript distinguishes reserve shares from mined-production shares.'
+claims:
+  claim_register:
+  - id: C01
+    canonical_id: GSX:IND-001:C01
+    claim: On the manuscript's illustrative value pool, focused integration retains 66.3 percent, compared with 37.6 percent for the existing footprint and 81.4 percent for a frontier partnership case.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions: &id003
+    - GSX:IND-001:A01
+    - GSX:IND-001:A02
+    derived_from_results: &id004
+    - GSX:IND-001:R01
+    supported_by_sources:
+    - GSX:IND-001:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: 'These are not forecasts of GDP or company revenue. Geology is not industrial power: the manuscript distinguishes reserve shares from mined-production shares.'
+    sensitivity: high
+    retrieval_text: On the manuscript's illustrative value pool, focused integration retains 66.3 percent, compared with 37.6 percent for the existing footprint and 81.4 percent for a frontier partnership case.
+    citation_text: GreyScienx, GSX:IND-001:C01, version 1.0.
+    href: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex/claims/C01
+  - id: C02
+    canonical_id: GSX:IND-001:C02
+    claim: Forced localisation realises about 52 percent of the value pool after utilisation and market-access penalties, below focused integration on the manuscript's realised-value comparison.
+    claim_type: conditional
+    status: conditional
+    evidence_status: modelled
+    confidence: not scored
+    depends_on_assumptions:
+    - GSX:IND-001:A01
+    - GSX:IND-001:A02
+    derived_from_results:
+    - GSX:IND-001:R02
+    supported_by_sources:
+    - GSX:IND-001:PDF
+    contradicted_by_sources:
+    - none recorded
+    qualifies_claims:
+    - none recorded
+    contradicted_claims:
+    - none recorded
+    main_limitation: Nominal local content can rise while actual local value falls if plants fail qualification, lack offtake or operate intermittently.
+    sensitivity: high
+    retrieval_text: Forced localisation realises about 52 percent of the value pool after utilisation and market-access penalties, below focused integration on the manuscript's realised-value comparison.
+    citation_text: GreyScienx, GSX:IND-001:C02, version 1.0.
+    href: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex/claims/C02
+distribution_and_welfare:
+  affected_groups:
+  - South Africa
+  incidence:
+  - 'These are not forecasts of GDP or company revenue. Geology is not industrial power: the manuscript distinguishes reserve shares from mined-production shares.'
+  immediate_beneficiaries:
+  - see the manuscript comparison
+  immediate_cost_bearers:
+  - see the manuscript comparison
+  future_beneficiaries:
+  - see the manuscript comparison
+  future_cost_bearers:
+  - see the manuscript comparison
+  geographic_distribution: *id002
+  intergenerational_effects:
+  - The scenario compares costs and benefits that do not all arrive at the same time.
+  welfare_metrics:
+  - The manuscript's own scenario metric, as registered in the results.
+  rights_and_ethics:
+  - The manuscript separates a modelled result from a prescription.
+  political_economy:
+  - The manuscript states who would have to wait, pay, or be excluded for the scenario to hold.
+limitations_and_risks:
+  main_limitation: 'These are not forecasts of GDP or company revenue. Geology is not industrial power: the manuscript distinguishes reserve shares from mined-production shares.'
+  limitations:
+  - 'These are not forecasts of GDP or company revenue. Geology is not industrial power: the manuscript distinguishes reserve shares from mined-production shares.'
+  - Nominal local content can rise while actual local value falls if plants fail qualification, lack offtake or operate intermittently.
+  data_gaps:
+  - External microdata behind the manuscript are not republished in this form.
+  model_risks:
+  - A different assumption can move or reverse the scenario.
+  implementation_risks:
+  - The scenario is not an implementation plan.
+  external_validity_limits:
+  - The result is for the stated population, price basis and scenario.
+  misuse_risks:
+  - Do not present a modelled scenario as an observed outcome or forecast.
+  - Do not report the catalogue description as a finding.
+  falsification_conditions:
+  - 'These are not forecasts of GDP or company revenue. Geology is not industrial power: the manuscript distinguishes reserve shares from mined-production shares.'
+  update_triggers:
+  - Revise this form when the manuscript version changes.
+artifacts:
+  manuscript:
+    source_markdown: research/source/critical-minerals-industrial-complex/report.md
+    pdf: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex.pdf
+    html: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex
+    clean_markdown: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex/markdown
+  tables:
+  - id: T00
+    title: Tables in the manuscript
+    description: Tables remain in the manuscript and are not exported as separate data files.
+    file: research/source/critical-minerals-industrial-complex/report.md
+    media_type: text/markdown
+    source_ids:
+    - GSX:IND-001:PDF
+    result_ids:
+    - GSX:IND-001:R01
+  figures:
+  - id: F01
+    title: Endowment gap
+    caption: 'Figure 1. The 2025 Critical Minerals and Metals Strategy cites reserve-share estimates of 88 per cent for PGMs, 80 per cent for manganese and 32 per cent for vanadium. USGS estimates for 2024 mined production are lower and measure a different thing: about 70, 40 and 7 per cent respectively. The gap is the first warning against confusing geology with industrial power.'
+    alt_text: Endowment gap
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/endowment-gap.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  - id: F02
+    title: Integrated value chains
+    caption: Figure 2. The three chains are not separate empires. They can share electricity, water, chemical reagents, laboratories, engineering suppliers, industrial parks, logistics, testing and recycling. Coral marks the model's strongest initial localisation targets; grey identifies stages better approached through partnership, gradual learning or imports.
+    alt_text: Integrated value chains
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/integrated-system-map.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  - id: F03
+    title: Readiness heatmap
+    caption: Figure 3. Armchair scores make judgement visible. They are not empirical rankings. High-purity manganese sulphate, catalyst materials, PGM recycling, vanadium electrolyte and VRFB integration combine relatively strong readiness with high strategic value. Cells and complete stacks have high upside but low immediate readiness.
+    alt_text: Readiness heatmap
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/readiness-heatmap.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  - id: F04
+    title: Priority frontier
+    caption: Figure 4. Activities in the upper-right can be built or scaled. Upper-left activities deserve partnership or licensing because the prize is high but readiness is incomplete. The lower quadrants call for selective localisation or a pilot rather than a national-scale bet.
+    alt_text: Priority frontier
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/priority-frontier.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  - id: F05
+    title: Make partner import
+    caption: Figure 5. The recommendation is intentionally mixed. Domestic production, partnerships and imports are tools inside one strategy. Learning and circular services prevent today's import from becoming permanent dependence.
+    alt_text: Make partner import
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/make-partner-import.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  - id: F06
+    title: Capture ladder
+    caption: Figure 6. The focused scenario does not require complete local production. It more than doubles the manganese chain's retained-value share in the model and lifts the portfolio to about two-thirds by targeting advanced materials, integration and services.
+    alt_text: Capture ladder
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/capture-ladder.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  - id: F07
+    title: Stage capture
+    caption: 'Figure 7. In the focused case, resource extraction is overwhelmingly local. Core components remain the weakest stage. This is not automatically a failure: importing a specialised component can enable competitive local systems while capability is built.'
+    alt_text: Stage capture
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/stage-capture.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  - id: F08
+    title: Capital portfolio
+    caption: Figure 8. Illustrative allocation of R253.5 billion. The largest line is shared power, water, rail and port infrastructure. R&D, testing, supplier finance and a closure reserve are part of the productive system rather than overhead to be minimised.
+    alt_text: Capital portfolio
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/capital-portfolio.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  - id: F09
+    title: Bottlenecks
+    caption: Figure 9. Indicative criticality scores. Reliable competitively priced power, bankable offtake and project governance rank above mineral availability because failure in any one can strand an otherwise sound plant.
+    alt_text: Bottlenecks
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/bottlenecks.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  - id: F10
+    title: Policy choice
+    caption: Figure 10. Nominal local content is reduced by an assumed viability factor reflecting plant utilisation, cost competitiveness and market access. Forced autarky retains less realised value than disciplined partnership even though its stated local-content ambition is high.
+    alt_text: Policy choice
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/policy-choice.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  - id: F11
+    title: Sequence
+    caption: Figure 11. Illustrative sequence, not a forecast. Shared utilities and offtake begin first. Advanced materials and catalysts scale next. Cathodes, membrane-electrode assemblies and stack materials deepen through partnership. Selective cells and complete stacks follow only after markets and capabilities are demonstrated.
+    alt_text: Sequence
+    image_file: C:/Users/Deriv/Desktop/GreyScienx/research/source/critical-minerals-industrial-complex/assets/sequence.png
+    data_file: research/source/critical-minerals-industrial-complex/model_results.json
+    spec_file: not published separately from the manuscript
+    chart_type: see the manuscript caption
+    x_axis: see the manuscript caption
+    y_axis: see the manuscript caption
+    series:
+    - see the manuscript caption
+    result_ids:
+    - GSX:IND-001:R01
+    source_ids:
+    - GSX:IND-001:PDF
+  code:
+  - id: CODE01
+    title: Model source
+    file: research/source/critical-minerals-industrial-complex/model.py
+    media_type: text/x-python
+  - id: CODE02
+    title: Model-result baseline
+    file: research/source/critical-minerals-industrial-complex/model_results.json
+    media_type: application/json
+  model_files:
+  - research/source/critical-minerals-industrial-complex/model.py
+  - research/source/critical-minerals-industrial-complex/model_results.json
+  data_files:
+  - research/source/critical-minerals-industrial-complex/model_results.json
+  environment_files:
+  - none published
+  checksums_file: none published
+reproducibility:
+  repository_url: not published as a public code repository
+  code_available: true
+  data_available: true
+  environment_available: false
+  random_seed: the published statement does not rely on a recorded random seed
+  software:
+  - Python 3
+  hardware_notes: not recorded
+  run_command: python research/source/critical-minerals-industrial-complex/model.py
+  build_command: not published
+  validation_command: npm run research:reproduce
+  known_nondeterminism:
+  - No random-seed nondeterminism is stated.
+  reproduction_notes: Populate from the manuscript source package during the reproducibility audit.
+relationships:
+  related_studies:
+  - id: GSX:IND-002
+    slug: the-platinum-to-hydrogen-economy
+    title: The Platinum-to-Hydrogen Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-platinum-to-hydrogen-economy
+    relationship: same_series
+  - id: GSX:IND-003
+    slug: the-manganese-to-battery-economy
+    title: The Manganese-to-Battery Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-manganese-to-battery-economy
+    relationship: same_series
+  - id: GSX:IND-004
+    slug: the-vanadium-grid-storage-economy
+    title: The Vanadium Grid-Storage Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-vanadium-grid-storage-economy
+    relationship: same_series
+  - id: GSX:IND-005
+    slug: the-capital-goods-economy
+    title: The Capital-Goods Economy
+    href: https://greyscienx.com/research/strategic-industrialisation/the-capital-goods-economy
+    relationship: same_series
+  - id: GSX:IND-006
+    slug: the-mineral-sovereign-wealth-fund
+    title: The Mineral Sovereign Wealth Fund
+    href: https://greyscienx.com/research/strategic-industrialisation/the-mineral-sovereign-wealth-fund
+    relationship: same_series
+  predecessor_studies:
+  - none
+  successor_studies:
+  - id: GSX:IND-005
+    title: The Capital-Goods Economy
+    paper_number: '05'
+  shared_assumptions:
+  - Constant-price scenario accounting is shared across the series where the manuscripts say so.
+  shared_datasets:
+  - No shared microdata file is published for the series.
+  shared_models:
+  - Each study keeps its own registered model.
+  shared_topics:
+  - critical-minerals
+  - industrialisation
+  - south-africa
+  critiques:
+  - id: none
+    note: No external critique is recorded.
+  forks:
+  - id: none
+    note: No fork is recorded.
+  graph_edges:
+  - subject_id: GSX:IND-001:C01
+    predicate: depends_on
+    object_id: GSX:IND-001:A01
+    note: Registered dependency.
+  - subject_id: GSX:IND-001:C01
+    predicate: depends_on
+    object_id: GSX:IND-001:A02
+    note: Registered dependency.
+  - subject_id: GSX:IND-001:C01
+    predicate: derived_from
+    object_id: GSX:IND-001:R01
+    note: Registered result.
+  - subject_id: GSX:IND-001:C02
+    predicate: depends_on
+    object_id: GSX:IND-001:A01
+    note: Registered dependency.
+  - subject_id: GSX:IND-001:C02
+    predicate: depends_on
+    object_id: GSX:IND-001:A02
+    note: Registered dependency.
+  - subject_id: GSX:IND-001:C02
+    predicate: derived_from
+    object_id: GSX:IND-001:R02
+    note: Registered result.
+publication:
+  human_citation: GreyScienx. The South African Critical Minerals Industrial Complex. GSX:IND-001. Version 1.0.
+  machine_citation: GreyScienx, GSX:IND-001, version 1.0
+  doi: none assigned
+  isbn: none assigned
+  rights_statement: The reading copy is published on greyscienx.com. No separate open licence is stated.
+  embargo_until: none
+  links:
+    canonical: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex
+    html: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex
+    markdown: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex/markdown
+    json: https://greyscienx.com/api/v1/research/the-south-african-critical-minerals-industrial-complex
+    pdf: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex.pdf
+    api: https://greyscienx.com/api/v1/research/the-south-african-critical-minerals-industrial-complex
+    reproduce: not published as a public code repository
+  schema_org:
+    '@type': ScholarlyArticle
+    headline: The South African Critical Minerals Industrial Complex
+    identifier: GSX:IND-001
+    url: https://greyscienx.com/research/strategic-industrialisation/the-south-african-critical-minerals-industrial-complex
+  sitemap:
+    include: true
+    priority: 0.8
+  feed:
+    include: true
+  llms_txt:
+    include: true
+  content_negotiation:
+    html: true
+    markdown: true
+    json: true
+    pdf: true
+retrieval:
+  retrieval_note: Return the extracted claim with its evidence status, assumptions, results and limitation. Do not return a modelled scenario as a forecast.
+  preferred_summary: An integrated strategy for converting mineral endowment into industrial depth.
+  responsible_answer_template: State the extracted claim, identify it as modelled, list its assumption and result identifiers, and include its main limitation.
+  chunks:
+  - id: CH01
+    heading_path:
+    - Part I
+    content_type: claim
+    text: On the manuscript's illustrative value pool, focused integration retains 66.3 percent, compared with 37.6 percent for the existing footprint and 81.4 percent for a frontier partnership case.
+    claim_ids:
+    - GSX:IND-001:C01
+    assumption_ids: *id003
+    result_ids: *id004
+    source_ids:
+    - GSX:IND-001:PDF
+    page: manuscript Part I
+    token_estimate: 27
+  question_aliases:
+  - What industrial system connects critical minerals to domestic production?
+  - How does the critical-minerals complex differ from exporting unprocessed ore?
+  negative_retrieval_terms:
+  - forecast
+  - peer reviewed
+  - official estimate
+  citation_payload:
+    study_level: GreyScienx, GSX:IND-001, version 1.0
+    claim_level_pattern: GreyScienx, GSX:IND-001:{claim_id}, version 1.0
+quality_control:
+  required_checks:
+    stable_ids: true
+    no_naked_claims: true
+    assumptions_linked: true
+    results_linked: true
+    sources_linked: true
+    units_complete: true
+    price_years_complete: true
+    scenario_labels_complete: true
+    figure_data_available: true
+    alt_text_complete: true
+    text_extraction_verified: true
+    pdf_visual_qa_complete: true
+    links_checked: true
+    reproducibility_checked: true
+    ai_disclosure_complete: true
+    human_final_review: true
+  blocking_issues:
+  - none recorded
+  warnings:
+  - Reproduction verifies the registered JSON baseline; it is not independent empirical validation of the model.
+  - Publisher-reviewed candidate links are accepted as contextual manuscript references, not as independent empirical validation of modelled outputs.
+  - 1 cited external links could not be verified because the server returned a transient error or the request did not complete.
+  reviewer_notes:
+  - Publisher review recorded from Pakang Senosha on 2026-09-29.
+  - Candidate web references are accepted as contextual manuscript references. This decision does not recast modelled outputs as empirically validated claims or assert that every candidate independently proves a scenario result.
+change_log:
+- version: '1.0'
+  date: '2026-09-29'
+  author: GreyScienx
+  summary: Filled the semantic-twin form from the published manuscript. Empty fields now say what is registered or what is not published.
+  changed_ids:
+  - GSX:IND-001
+- version: '1.0'
+  date: '2026-09-29'
+  author: Pakang Senosha
+  summary: Recorded publisher final review, PDF visual approval, and acceptance of candidate links as contextual references.
+  changed_ids:
+  - GSX:IND-001

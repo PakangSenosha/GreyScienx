@@ -1,0 +1,1624 @@
+LAND AUDIT REPORT
+                     NOVEMBER 2017
+                             Version 2
+
+
+
+
+PHASE II: PRIVATE LAND OWNERSHIP
+BY RACE, GENDER AND NATIONALITY
+LAND AUDIT REPORT
+
+
+
+
+       South Africa belongs to
+       all who live in it, united in
+       our diversity.
+       Constitution of the Republic of South Africa Act, 1996
+
+
+
+
+                                 ii
+                                                                   LAND AUDIT REPORT
+
+
+
+TABLE OF CONTENTS
+
+1.     EXECUTIVE SUMMARY	                                                      02
+
+
+2.     INTRODUCTION	                                                           02
+
+
+3.     PURPOSE OF THE REPORT	                                                  03
+
+
+4.     PROBLEM DESCRIPTION	                                                    03
+
+
+5.     DATA	                                                                   03
+
+
+6.     METHODOLOGY	                                                            03
+
+
+7.     SCOPE AND LIMITATIONS	                                                  04
+
+
+8.     DETAILED FINDINGS	                                                      05
+
+SECTION A: LAND OWNERSHIP IN SOUTH AFRICA	                                     05
+8.1   Land ownership	                                                          05
+8.2   Private land ownership	                                                  06
+
+
+SECTION B: FARMS AND AGRICULTURAL HOLDINGS	                                    07
+8.3   Farms and agricultural holdings ownership by race	                       07
+8.4   Farms and agricultural holdings ownership by gender	                     09
+8.5   Farms and agricultural holdings ownership by nationality	                11
+
+
+SECTION C: ERVEN OWNERSHIP	                                                    12
+8.6   Erven ownership by race	                                                 12
+8.7   Erven ownership by gender	                                               13
+8.8   Erven ownership by nationality	                                          14
+
+
+SECTION D: SECTIONAL TITLE OWNERSHIP	                                          15
+8.9   Sectional title ownership	                                               15
+8.10  Sectional title ownership by race	                                       16
+8.11  Sectional title ownership by nationality	                                18
+8.12  Sectional title ownership by gender	                                     19
+
+
+9.     CONCLUSION	                                                             20
+
+
+10.    RECOMMENDATIONS	                                                        21
+
+
+11.    GLOSSARY	                                                               25
+
+
+
+
+                                                   01
+LAND AUDIT REPORT
+
+
+
+1.        EXECUTIVE SUMMARY
+
+The Land Audit reveals the relationship of South Africans to one another through the management of land as a
+resource for sustainable development and nation-building.
+
+
+It shows that 114 223 276 ha or 94% of 121 924 881 ha land in the country is registered in the Deeds Office. The
+outstanding 7 701 605 ha or 6% is unregistered trust state land in the Eastern Cape and Limpopo at 5 545 156
+ha.1 The department has embarked on a process to survey, register and vest that state trust land to individual and
+community owners via, among others, applicable legislative instruments.
+
+
+The Land Audit also shows that individuals, companies, and trusts own 89 523 044 ha or 90% of the 114 223 276 ha
+land. Individuals own 37 800 986 ha or 39% of this total land; followed by trusts at 29 291 857 ha or 31%; companies
+at 23 199 904 or 25%; CBOs at 3 549 489 ha or 4%; and co-ownership at 883 589 ha or 1%. The same individuals
+own most of these companies, trusts and CBOs.
+
+
+Farms2 and agricultural holdings - with 469 258 or 6% of total land parcels and 111 025 515 ha or 97% of the total
+land - are owned by 588 045 or 7% of total landowners.
+
+Erven in urban areas, which number 6 839 985 or 94% of total land parcels, with only have 3 197 760 ha or 3% of
+the total land – are owned by 8 469 845 or 93% of the total owners of land, with an average of 0.4 ha per owner.
+With 65% or 56 million of the total population found in these tiny land parcels, they command higher locational rent
+and prices than any in the R8 trillion national property market3.
+
+
+The Land Audit reveals that Whites own 26 663 144 ha or 72% of the total 37 031 283 ha farms and agricultural
+holdings by individual landowners; followed by Coloured at 5 371 383 ha or 15%, Indians at 2 031 790 ha or 5%,
+Africans at 1 314 873 ha or 4%, other at 1 271 562 ha or 3%, and co-owners at 425 537 ha or 1%.
+
+
+Individual males own 26 202 689 ha or 72% of the total farms and agricultural holdings owned by individual owners;
+followed by females at 4 871 013 or 13%. Male-female own 3 970 315 ha or 11%, co-owners 655 242 ha or 2%, and
+other 1 379 029 ha or 3%.
+
+
+Finally, South African individuals own 33 996 255 ha or 92% of the total farms and agricultural holdings; followed
+by foreign individuals at 769 284 ha or 2%; co-ownership at 933 728 ha or 2%; and other at 1 379 023 ha or 4%.
+
+
+2.        INTRODUCTION
+
+The Department of Rural Development and Land Reform published in 2013 the first Land Audit on State-Owned
+Land. That Land Audit revealed, among its findings, that most of this state land was unsurveyed and unregistered
+trust land which is occupied by individuals and communities in the former homelands. The department has embarked
+on a process to survey, register and vest that trust land to individual and community owners through the Communal
+Land Tenure Bill.
+
+
+In the meantime, Cabinet instructed the department to conduct a second Land Audit with particular focus on private
+ownership and use of land by race, nationality and gender. Work commenced to this end in 2014 under the leadership
+
+1. See Maps 1 and 2.
+2. See Annexure 1.
+3. South African Property Owners Association and South African Institute of Black Property Practitioners, 2017.
+
+
+                                                                    02
+                                                                                                   LAND AUDIT REPORT
+
+
+
+of the Offices of the Chief Surveyor-General and the Chief Registrar of Deeds in partnership with other Government
+departments and State-Owned Entities.
+
+
+3.      PURPOSE OF THE REPORT
+
+The purpose of this Land Audit is to provide information on private land ownership by race, nationality, and gender
+as of 2015.
+
+
+4.      PROBLEM DESCRIPTION
+
+Since the dawn of democracy in South Africa no official information has been published on land ownership according
+race, gender and nationality.
+
+
+There is need to show who owns South African land and to track progress of land reform to fulfil section 25(5) of the
+Constitution objectives to enable South African citizens access to land on equitable racial and gender basis.
+
+
+5.      DATA
+
+The primary source of information in this report was obtained from the: a) Office of the Chief Registrar of Deeds
+for land ownership information; b) Office of the Chief Surveyor-General for cadastral information; c) Department of
+Home Affairs for population register that contains nationality of origin and gender of South African citizens; and d)
+Statistics South Africa for census data that contain the race of individuals.
+
+
+Records pertaining to land ownership are available electronically in the Deeds Registration System (DRS). These
+records contain only the name, surname and South African identity number or date of birth – but not race.
+
+
+The DHA maintains the electronic population register which contains, amongst others, names, surnames, South
+African identity numbers, nationality and gender - but not the race of South African citizens.
+
+Stats SA is the only institution that officially collects and keeps a database that has the race of individuals.
+
+
+6.      METHODOLOGY
+
+The process involved data preparation, owner classification, exporting individual’s data, processing by the DHA and
+Stats SA, importing of results and analysis.
+
+
+        Data                                            Owner                                     Export Individual’s
+     preparation                                     Classification                                      data
+
+
+
+
+Processing by DHA                                   Import DHA and
+                                                    Stats SA Result/                                    Analysis
+   and Stats SA
+                                                         output
+
+Figure 1 High level process
+
+                                                           03
+LAND AUDIT REPORT
+
+
+
+The data preparation process involved database design, and importing of land ownership data from text files into
+the database.
+
+
+Classification of land owners was the first step. Classification of owners was done in two levels. The initial
+classification distinguished between private and state owners. Three classification categories were used, namely:
+state, private and other.
+
+
+Private landowners were classified into five sub-categories of individuals, companies, community-based organisations
+(CBOs), and trusts. CBOs include Community Property Associations (CPAs), Churches, Home Owners Associations
+(HOAs) and others. Individuals are natural persons. Companies are Close Corporation and PTY (Ltd), excluding
+public entities. Five categories were used to classify land ownership according to gender. These classifications are
+male, female, male-female, co-ownership and other. Male-female was used to classify land owned jointly by male(s)
+and female(s). Other was used to classify land owned by owners that were not found in the DHA population register.
+Co-ownership was used to classify land where the land is owned by the combination of the four classifications.
+
+
+Incomplete owner names that made it impossible to determine if the owner is state or private were classified as
+other.
+
+
+Land owned by national government, municipalities, provincial government, public entities, public schools were
+classified as state, including land in the name of Ingonyama Trust. Ownership of land by companies, trusts,
+individuals, community-based organisations were all classified as private.
+
+
+Owner information of Individuals was prepared to meet the DHA and Stats SA requirements for successful processing.
+Individual owners were then exported for processing by the DHA and Stats SA. The output was then imported back
+into the database for analysis.
+
+
+The database extracted from the DRS included owner names, owner surname, ID number or date of birth for
+individuals. The owner names, owner surname and identity number were used to extract race of individuals from
+the census data. In cases where the owner information is not idetified in the census database, the names and
+surnames were used to try to determine the race – conscious of the limitations that this carries. A combination of
+names, surname and ID number or date of birth and in other cases only the ID number was used to extract data
+from the population register.
+
+
+Parallel to the process of extracting race information from Stats SA, a rigorous process of aligning deeds data to
+current provincial boundaries, updating missing extents using the cadastral database, capturing of extents from
+original documents and converting extents to hectares.
+
+
+7.      SCOPE AND LIMITATIONS
+
+The land audit only provides information on the private individual ownership of farms, agricultural holdings, erven
+and sectional title units by race, gender and nationality.
+
+
+The land audit provides such private landownership only on the basis of land parcels registered at the Deeds Office
+as of 2015.
+
+
+The private landownership classification according to race, gender and nationality was not done on companies,
+trusts and CBOs because these entities cannot be racially classified.
+
+                                                       04
+                                                                                                             LAND AUDIT REPORT
+
+
+
+The indirect extraction of race data through a combination of names, surname and ID number or date of birth
+exposed the land audit to the risk of under- or over-reporting.
+
+
+8.       DETAILED FINDINGS
+
+SECTION A: LAND OWNERSHIP IN SOUTH AFRICA
+
+8.1      Land ownership
+
+
+Table 1: Number of landowners by land type, parcels, extent in hectares and landowner type.
+ Land Parcel Type                                       Parcels                          Extent                Owners4
+                                                     No.               %              Ha              %       No.        %
+ Erven                                              6 839 985         94           3 197 760          3      8 469 845   93
+ Agricultural Holdings                                  50 253         1              340 272         1        60 623     1
+ Farms                                                419 005          5         110 685 243         96       527 422     6
+ Total                                              7 309 243         100       114 223 276          100     9 057 890   100
+
+
+Table 1 shows that a total of 7 309 243 land parcels and a total of 114 223 276 ha (or 94% of SA land) in the Deeds
+Office has a total of 9 057 890 owners in the country. A total of 6 839 985 ervens or 94% of total land parcels has a
+total of 8 469 845 or 93% owners at an average of 0.4 ha per owner.
+
+
+Table 1 also shows that there are 50 253 agricultural holdings, a relic of subdivisions of large estates in the Union
+of South Africa, which constitute 340 272 ha or 1% of total land and parcels. They are owned by 527 422 or 6% of
+the total owners at 6 ha per owner. They are now being converted to non-agricultural commercial, residential and
+industrial land uses.
+
+
+Table 1 further shows that there are 527 422 or 6% of the total who own 419 005 farms with 110 685 243 ha or 96%
+of farm land, at an average of 210 ha farmland per owner.
+
+
+
+
+4. Deeds’ Unique Owner Number reveals the number of properties owned by an individual or corporate entity.
+
+
+
+
+                                                                    05
+LAND AUDIT REPORT
+
+
+
+8.2      Private land ownership
+
+
+Table 2: Private landownership by category in hectares
+ Province       Individuals        Companies            CBOs               Trusts           Co-             Total Ha
+                                                                                          ownership
+                  Ha          %        Ha      %       Ha        %         Ha       %         Ha       %
+ EC            4 692 320      43   1 982 479 18        190 249 2         3 964 671 36     69 870       1   10 899 589
+ FS            5 005 878      42   1 978 952 16        126 044 1         4 894 214 41     31 470       0   12 036 559
+ GP              546 612      40      618 342 45       60 650 4           133 797 10      11 556       1    1 370 957
+ KZN           1 579 543      30   1 627 042 31        300 556 6         1 562 455 30    161 950       3    5 231 547
+ LP            1 718 861      22   3 918 210 50        705 466 9         1 355 839 17     60 564       1    7 758 940
+ MP            1 432 232      28   2 219 322 43        240 947 5         1 219 721 24     36 185       1    5 148 407
+ NW            3 215 926      42   2 025 825 26        341 807 4         1 953 015 26    117 724       2    7 654 297
+ NC          15 083 393       47   5 641 747 18     1 247 673 4       10 057 482 31      126 464       0   32 156 759
+ WC            3 756 518      32   3 187 986 27        336 097 3         4 150 662 35    26 7807       2   11 699 071
+ Total       37 031 283       39 23 199 904 25      3 549 489 4       29 291 857 31      883 589       1   93 956 125
+
+
+Table 2 shows that 93 956 125 ha or 82% of the total 114 223 273 ha land is owned by private landowners. It also
+shows that 89 523 044 ha or 95% of that total is owned by individuals (41%), companies (26%) and trusts (33%) –
+followed by CBOs at 3 549 489 ha or 4%, and co-landowners at 883 589 ha or 1%.
+
+
+Table 2 further shows that individuals own 37 031 283 ha or 39% of 93 956 125 ha; followed by trusts at 29 291
+857ha or 31%; companies at 23 199 904 ha or 25%; CBOs at 3 549 489 ha or 4%; and co-ownership at 883 589
+ha or 1%.
+
+
+Table 2, furthermore, shows that individuals are largest landowners at 15 083 393 ha or 47% in the NC; whereas
+companies own 3 918 210 ha or 50% of land in LP; and trusts are the largest owners at 4 894 214 ha or 41% in the
+FS.
+
+
+Table 3: Number of private landowners
+ Province               Individuals         Companies                Trusts              CBOs               Total
+                        No.           %      No.        %          No.          %       No.        %
+ EC                     659 469       96      10 554     2           11 628     2        2 785     0         684 436
+ FS                     484 942       96       8 527     2           11 061     2        1 520     0         506 050
+ GP                    2 031 370      96      61 350     3           23 643     1        7 761     0       2 124 124
+ KZN                    812 027       95      22 079     3           16 361     2        3 065     0         853 532
+ LP                     196 256       96      11 521     5            5 372     3        1 153     1         214 302
+ MP                     336 211       95      11 569     3            6 067     1        1 645     1         355 492
+ NW                     300 486       84      10 873     3            6 839     2        1 586     1         319 784
+ NC                     195 052       95        4308     2            4 247     2        1 224     1         204 831
+ WC                    1 134 283      94      35 281     3           32 996     3        5 188     0       1 207 748
+ Total                 6 150 096      95    176 062      3         118 214      2       25 927     1       6 470 299
+
+
+Table 3 shows that there is a total of 6 470 299 landowners in the country: 6 150 096 or 95% of which are individuals;
+176 062 or 3% are companies; 118 214 or 2% are trusts; and 25 927 or 1% are CBOs.
+
+
+                                                        06
+                                                                                                  LAND AUDIT REPORT
+
+
+
+GP has 2 124 124 or 33% of all these private landowners, followed by WC at 1 207 748 or 19%, and KZN at 853 532
+or 13% of the total.
+
+
+Analysis of Table 3 and 4 reveals that the average land by an owner nationally is 94 ha per landowner. But the
+analysis shows that trusts have the highest national average at 248 ha, followed by CBOs at 137 ha, companies at
+132 ha, and individuals at 6 ha. NC has the highest average land at 157 ha, with its trusts average land at 2 368 ha,
+companies at 1 309 ha; and CBOs at 1 019 ha per CBO.
+
+
+SECTION B: FARMS5 AND AGRICULTURAL HOLDINGS
+
+8.3       Farms and agricultural holdings ownership by race
+
+
+Table 4 shows that a total of 37 078 289 ha farms and agricultural holdings are owned by individuals: 26 663 144 ha
+or 72% of which are Whites; followed by Coloured at 5 371 383 ha or 15%; Indians at 2 031 790 ha or 5%; Africans
+at 1 314 873 ha or 4%. Co-owners own 425 537 ha or 1% and other own 1 271 562 ha or 3%.
+
+
+Table 4 also shows that the largest size of farms and agricultural holdings is owned by white individuals at 11 498 449
+ha or 77% in the NC and that nowhere in the country is the share of whites less that than 53%; whereas the largest
+size owned by Africans is 270 423 ha or 17% in KZN; with the largest size for Indians being 746 820 ha or 5% in NC;
+and Coloureds with the largest size at 2 222 206 ha or 15% in NC.
+
+
+
+
+5. A separate comprehensive agricultural land audit is being prepared for publication.
+
+
+
+
+                                                                        07
+     Table 4: Individual land ownership by race in hectares
+     Province            White                African            Coloured               Indian               Other              Co-own                Total
+                           Ha         %         Ha        %         Ha         %          Ha         %         Ha         %        Ha        %
+     EC                   3 007 709   65        250 536    5        773 026    17         385 685    8         151 849    3         42 723   1        4 611 528
+     FS                   3 748 192   75        153 080    3        646 872    13         246 453    5         193 548    4         21 119   0        5 009 264
+     GP                    275 021    59         30 266    7          81 597   18          51 332    11         15 925    3          8 528   2         462 669
+                                                                                                                                                                    LAND AUDIT REPORT
+
+
+
+
+     KZN                   853 152    53        270 423 17          248 286    15         107 723    7          72 033    4         65 875   4        1 617 493
+     LP                   1 139 454   65        180 858 10          220 738    13         115 588    7          73 174    4         20 165   1        1 749 977
+     MP                    967 634    67        108 792    8        219 792    15          83 580    6          41 702    3         19 652   1        1 441 152
+     NW                   2 408 880   73        198 279    6        397 552    12         119 744    4         114 219    3         72 536   2        3 311 210
+     NC                  11 498 449   77         69 350    1      2 222 206    15         746 820    5         414 065    3         60 112   0      15 011 002
+     WC                   2 764 652   72         53 287    1         561315    15         174 865    4         195 047    5        114 827   3        3 863 994
+     Total               26 663 144   72      1 314 873    4       5 371 383   15       2 031 790    5       1 271 562    3        425 537   1      37 078 289
+
+
+     Table 5 shows that a total 181 532 individuals own all farms and holdings in the country: that 95 673 or 53% of these are white; 40 494 or 22% are Africans;
+     22 127 or 12% are Coloureds 15 601; 9% are Indians; and other is 7 637 ha or 4%.
+
+
+
+
+08
+     Table 5 also reveals that an average of 204 ha is owned by these individuals nationally; 229 ha in WC; 2 089 ha in NC; 137 ha in the NW; 111 ha in MP; 110
+     ha in LP; 54 ha in in KZN; 10 ha in GP; 330 ha in FS; and 395 ha in the EC.
+
+
+     KZN has the highest number of total African landowners at 11 215 and Indian landowners at 5 960; whilst GP has the highest number of total White landowners
+     at 26 622 and Coloured landowners at 6 220.
+                                                                                                LAND AUDIT REPORT
+
+
+
+Table 5: Number of Individual landowners per race
+Province             White            African          Coloured           Indian           Other         Total
+                   No.       %       No.         %     No.        %      No.       %      No.      %
+EC                  6 047    52        2 747     23      1 492   13         895    8        499    4       11 680
+FS                 10 034    66        1 684     11      1 977   13         833    5        649    4       15 177
+GP                 26 622    56        8 887     19      6 220   13       3 640    8       2222    5       47 591
+KZN                 8 748    29       11 215     37      2 711    9       5 960    20      1 358   4       29 992
+LP                  8 225    52        4 690     29      1 679   10         777    5        542    3       15 913
+MP                  7 375    57        2 891     22      1 575   12         722    5        457    3       13 020
+NW                 12 265    51        7 652     32      2 400   10       1 040    4        764    3       24 121
+NC                  5 247    73            170   2       1 175   16         404    6        191    3        7 187
+WC                 11 110    66            558   3       2 898   17       1 330    8        955    6       16 851
+Total              95 673    53      40 494      22    22 127    12      15 601    9       7 637   4     181 532
+
+
+Table 4 and 5 further reveal that White landowners own far above the national average ha except in GP, where their
+lowest score is the provincial average of 10 ha. Their highest average size at 2 191 ha is in NC, followed by MP at
+968 ha, EC at 487 ha, FS at 374 ha, WC at 249 ha, NW at 196 ha, LP at 139 ha, and KZN their lowest at 98 ha.
+
+
+In contrast, African landowners highest average holding is 409 ha in NC, followed by WC at 96 ha, 91 ha in EC, 90
+ha in FS, 38 ha in LP, 37 ha in MP, 26 ha in NW, 24 ha in KZN, and their lowest at 3 ha in GP.
+
+
+Coloured and Indian landowners are in-between the two extreme points above. They are above national and
+provincial averages. Coloured landowners own higher land extents than their Indian counterparts.
+
+
+8.4     Farms and Agricultural holdings ownership by gender
+
+
+Table 6 shows that males and females own a total of 37 078 289 ha farms and agricultural holdings land in the
+country: with 26 202 689 ha or 71 owned by males; followed by females at 4 871 013 ha or 13%; male-female at
+3 970 315 ha or 11%; co-owners at 655 242 ha or 2%; and other at 1 379 029 ha or 3%.
+
+
+Table 6 also show that NC has the largest farmland of 15 011 002 ha or 40% owned by males; followed by FS at
+5 009 264 ha or 13%; EC at 4 611 528 ha or 12%; WC at 3 863 994 ha or 10%; NW at 3 311 210 ha or 9%184 403 ha
+or 9%; LP at 1 749 977 ha or 5%; KZN at 1 617 493 ha or 4%; MP at 1 441 152 ha or 4%; GP at 442 669 ha or 1%.
+
+
+Table 6 further shows that males own the largest size of farms and agricultural holdings at 11 000 772 ha of 73%
+is in NC; followed by 3 704 812 ha or 80% in EC; FS at 3 518 907 ha or 70%; WC at 2 782 161 ha or 72%; NW at
+2 047 590 ha or 62%; LP 1 022 724 ha or 58%; MP at 955 454 ha or 66%; KZN at 934 891 ha or 58%; and GP at
+235 362 ha or 51%. Females own the largest farmland also in NC at 1 882 645 ha or 12%; followed by FS at 854 107
+ha or 17%; NW at 487 229 ha or 15% and EC at 439 032 ha or 9%. The rest of the provinces are below 9%.
+
+
+
+
+                                                        09
+LAND AUDIT REPORT
+
+
+
+Table 6: Individual land owners by gender in hectares
+ Province    Male                 Female           Male-Female          Co-owners          Other             Total
+             Ha               %   Ha         %     Ha              %    Ha            %    Ha            %
+ EC            3 704 812 80        439 032    9         229 159    5      60 218       1     178 308     4     4 611 528
+ FS            3 518 907 70        854 107 17           414 059    8      44 566       1     177 626     3     5 009 264
+ GP               235 362 51        112 110 24            98 483 21           6 060    1        10 654   2       462 669
+ KZN              934 891 58       134 896    8         130 532    8      86 998       5        330 76 20      1 617 493
+ LP            1 022 742 58        275 057 16           315 703 18        46 164       3        90 310   5     1 749 977
+ MP               955 454 66       218 791 15           190 483 13        27 293       2        49 131   3     1 441 152
+ NW            2 047 590 62        487 229 15           523 392 16       120 084       4     132 914     4     3 311 210
+ NC           11 000 772 73       1882 645 12       1 693 539      11    166 088       1     267 958     2    15 011 002
+ WC            2 782 161 72        467 145 12           374 965 10        97 772       2     141 951     4     3 863 994
+ Total        26 202 689 71       4 871 013 13      3 970 315      11    655 242       2   1 379 029     3    37 078 289
+
+
+Table 7 shows that a total of 181 532 male and females own farms and agricultural holdings: with the number of
+males being 95 050 or 52%; and other numbering 25 833 or 14%. Table 7 also shows that GP has the highest
+number of male and female farms and agricultural holdings at 47 591 or 26%; followed by KZN at 29 992 or 16% and
+NW at 24 121 or 13%. The rest of provinces have 10% or less male and female farmland and agricultural holdings.
+
+
+Table 7: Number of individual land owners by gender
+ Province                  Male                   Female                  Other                 Total
+                        No.            %      No.              %        No.           %
+ EC                      6 145         53         3 016     26           2 519        22            11 680
+ FS                      9 182         60         5 119     34               876      6             15 177
+ GP                     26 690         56     19 139        40           1 762        4             47 591
+ KZN                    12 674         42         8 780     29           8 538        28            29 992
+ LP                      8 135         51         5 283     33           2 495        16            15 913
+ MP                      7 139         55         4 480     34           1 401        11            13 020
+ NW                     11 154         46         6 739     28           6 228        26            24 121
+ NC                      4 536         63         2 318     32               333      5              7 187
+ WC                      9 395         56         5 775     34           1 681        10            16 851
+ Total                  95 050         52     60 649        34          25 833        14           181 532
+
+
+Table 6 and 7 reveal that male individuals own above the national average farmland and agricultural holding except
+in GP, where they own lower than the 10 ha provincial average. Their highest average size is 2 425 ha in NC,
+followed by EC at 603 ha, FS at 382 ha, WC at 296 per, NW at 184 ha, MP at 134 ha, LP at 126 ha, and KZN their
+lowest at 74 ha.
+
+
+In contrast, female individual landowners’ highest average holding is 818 ha in NC, followed by FS at 167 ha, 146
+ha in EC, 81 ha in WC, 72 ha in NW, 52 ha in LP, 49 ha in MP, 15 ha in KZN, and their lowest at 6 ha in GP.
+
+
+The male average farm and agricultural holding is 276 ha in contrast to the female of 80 ha. The provincial averages
+for both males and females are 395 ha in EC, 330 ha in FS, 10 ha in GP, 54 ha in KZN, 110 ha in LP, 111 ha in LP,
+137 ha in MP, 137 ha in NW, 2 087 ha in NC, and 229 ha in WC.
+
+
+
+
+                                                          10
+                                                                                                LAND AUDIT REPORT
+
+
+
+8.5      Farms and Agricultural holdings ownership by nationality
+
+
+Table 8 shows that South Africans own 33 996 255 ha or 92% of total farm and agricultural holdings while foreign
+nationals own 769 284 ha or 2%. Foreign nationals own more farmland in NC at 294 779 ha, followed by WC at 112
+238 ha, FS at 72 538 ha, LP at 70 157 ha, NW at 56 055 ha, GP at 45 117 ha, KZN at 43 666 ha, and the least in
+MP at 27 291 ha.
+
+
+Table 8: Individual landowners by nationality in hectares
+ Province           South African           Foreign            Co-ownership            Other              Total
+                       Ha          %        Ha        %         Ha          %        Ha         %
+ EC                   4 308 421 93          47 444 1            77 355 2             178 308 4           4 611 528
+ FS                   4 700 599 94          72 538 1            58 502 1             177 626 4           5 009 264
+ GP                     392 636 85          45 117 10           14 268 3              10 648 2             462 669
+ KZN                  1 140 986 70          43 666 3           102 666 6             330 176 20          1 617 493
+ LP                   1 521 969 87          70 157 4            67 541 4              90 310 5           1 749 977
+ MP                   1 328 961 92          27 291 2            35 769 3              49 131 3           1 441 152
+ NW                   2 978 894 90          56 055 2           143 346 4             132 914 4           3 311 210
+ NC                 14 126 948 94          294 779 2           321 317 2             267 958 2          15 011 002
+ WC                   3 496 840 90         112 238 2            112 964 3            141 951 4           3 863 994
+ Total              33 996 255 92          769 284 2           933 728 2           1 379 023 4          37 078 289
+
+
+Table 9 shows that there is a total of 181 532 South African and foreign owners of farm and agricultural holding:
+143 493 or 79% of whom are South African nationals, followed by foreign nationals at 12 213 or 7%. The highest
+farm and agricultural holding average size owned by South Africans is 2 140 ha per person in NC, followed by 500
+ha in EC, 342 ha in FS, 255 ha in WC, 175 ha in NW, 123 ha in LP and MP, 58 ha in KZN, and the least at 10 ha in
+GP.
+
+
+Tables 8 and 9 reveal that the highest farm and agricultural holding average size owned by foreign nationals is 1
+165 ha in NC, followed by 135 ha in FS, 87 ha in EC, 77 ha in WC, 68 ha in NW, 32 ha in MP, 27 ha in KZN, and 9
+ha in GP.
+
+
+The average farm and agricultural holding size for South African citizens is 237 ha, in contrast to that of foreign
+nationals at 63 ha. The provincial average sizes for South African and foreign nationals is 395 ha for EC, 330 ha for
+FS, 10 ha for GP, 54 ha for KZN, 110 for LP, 111 ha for MP, 137 ha for NW, 2 089 ha for NC, and 229 ha for WC.
+
+
+GP has the highest number of foreign nationals owning farms and agricultural holdings at 5 099 or 11%; followed
+by WC at 1 465 or 9%; and LP and MP at 6% each. NC and NW both have the least number of foreign nationals
+owning farms and agricultural holdings at 253 and 828 or 3% each of total farms and agricultural holdings owned
+by foreign nationals respectively.
+
+
+
+
+                                                          11
+LAND AUDIT REPORT
+
+
+
+Table 9: Number of individual land owners by nationality
+ Province       South African             Foreign             Other                Total
+                  No.        %        No.           %        No.         %
+ EC                  8 616   74            545      5        2 519       22         11 680
+ FS                 13 765   91            536      3          876       6          15 177
+ GP                 40 734   86           5 099     11       1 758       4          47 591
+ KZN                19 807   66           1 647     5        8 538       29         29 992
+ LP                 12 424   78            995      6        2 494       16         15 913
+ MP                 10 774   83            845      6        1 401       11         13 020
+ NW                 17 067   71            828      3        6 226       26         24 121
+ NC                  6 601   92            253      3          333       5           7 187
+ WC                 13 705   81           1 465     9        1 681       9          16 851
+ Total            143 493    79       12 213        7    25 826          14        181 532
+
+
+SECTION C: ERVEN OWNERSHIP
+
+8.6      Erven ownership by race
+
+
+Table 10 shows that a total of 722 667 ha erven land is owned by all races in the country: 357 507 ha or 49% of
+which is owned by Whites; followed by Africans at 219 033 ha or 30%; Coloured and Indian at 54 522 and 55 909
+ha or 8% respectively; co-ownership and other at 5%.
+
+
+Table 10: Individuals’ erven land ownership by race in hectares
+ Province       White           African           Coloured           Indian        Co-ownership    Other        Total
+               Ha       %        Ha        %       Ha    %          Ha        %      Ha      %     Ha      %
+ EC           26 379 19       93 868 67           6 764 5           5 427     4      4 233   3     3 169   2   139 839
+ FS            7 543 28       15 388 58           1 760 7            892      3       366    1      586    2    26 535
+ GP           32 056 34       40 849 43           8 325 9           7 009     7      2 557   3     3 461   4    94 257
+ KZN          19 749 25       30 675 39           6 043 8          15 232     20     3 205   4     2 832   4    77 735
+ LP            5 680 28       11 688 58           1 378 7            981      5       207    1      319    2    20 253
+ MP             6 511 31      11 281 54           1 335 6            854      4       275    1      460    2    20 715
+ NW            7 140 40           7 922 45        1 238 7            720      4       239    1      429    2    17 688
+ NC          152 624 83           2 356    1      12 560 7         13 515     7       347    0     3 002   2   184 403
+ WC           99 825 71           5 008    4      15 119 11        11 280     8      2903    2     7 107   5   141 242
+ Total       357 507 49      219 033 30           54 522 8         55 909     8     14 332   2    21 365   3   722 667
+
+
+Table 10 also show that NC has the largest erven land at 184 403 ha or 25% in the country; followed by WC at
+141 242 ha or 19%; EC at 139 839 ha or 19%; GP at 94 257 ha or 13%; KZN at 77 735 ha or 11%; FS at 26 535 ha
+or 4%; MP at 20 715 ha or 3%; and the rest of provinces at 3% and less.
+
+
+Whites own the largest extent of erven land among racial groups at 152 624 ha or 83% in NC; Africans own the
+largest erven land among racial groups in EC at 93 868 ha or 67%; Coloureds in the WC own the largest size of
+erven land at 15 119 ha or 11%, but less extent than Whites; similarly, Indians own their highest racial group erven
+land in KZN at 15 232 ha or 20%, but less than Africans at 39% and Whites at 25% respectively.
+
+
+
+
+                                                         12
+                                                                                                       LAND AUDIT REPORT
+
+
+
+Table 11 shows that a total of 5 969 445 individuals own all erven in the country: that 3 321 476 or 56% of these
+individuals are Africans; 1 552 653 or 26% are Whites; 507 829 or 9% are Coloureds; and 414 069 or 7% are Indians.
+
+
+Table 11: Number of Individual landowners per race
+Province            White             African             Coloured             Indian             Other         Total
+                   No        %        No            %      No        %         No           %     No      %
+EC                169 622 26         361 469 56            62 054 10          35 939        6    18 705   3     647 789
+FS                  74 287 16        354 461 75            22 608       5     11 030        2     7 379   2     469 765
+GP                414 120 21       1 296 797 65           118 635       6    105 010        5    49 217   2    1 983 779
+KZN               139 287 18         438 085 56            44 207       6    136 451 17          24 005   3     782 035
+LP                  21 788 12        145 655 82             5 604       3      3 834        2     1 804   1     178 685
+MP                  54 466 17        242 427 75            12 443       4      8 555        3     4 575   1     322 466
+NW                  52 034 19        198 429 71            14 613       5      8 568        3     4 957   2     278 601
+NC                  84 041 44         56 926 30            29 962 16          12 049        6     5 915   3     188 893
+WC                543 008 49         227 227 20           197 703 18          92 633        8    56 861   5    1 117 432
+Total           1 552 653 26       3 321 476 56           507 829       9    414 069        7   173 418   3    5 969 445
+
+
+Table 11 reveals a rare case where the racial composition of South Africa is reflected by the numerical dominance
+of African people who are about 80% of the total population, and in human settlements. This confirms the fact that
+the majority of erven land is primarily used for residential purposes.
+
+
+Table 11 does not say anything about the location, settlement quality and value of erven land. Suffice to say that
+urban land issues are essentially about human settlement and housing.
+
+
+8.7     Erven ownership by gender
+
+
+Table 12: Individuals’ erven land owners by gender in hectares
+Province             Male             Female            Male-Female         Co-ownership          Other         Total
+                   Ha       %        Ha         %        Ha         %        Ha        %         Ha       %
+EC                29 713    21     15 553      11        11 711     8        1 324      1       81 538    58    139 839
+FS                 7 672     5       8 452   32           7 400     28        401       2         2 610   10     26 535
+GP                26 699    19     23 801    25          36 992     39       2 144      2         4 621   5      94 257
+KZN               28 306    20     16 166    21          19 937     26       2 133      3        11 193   14     77 735
+LP                 7 446     5       6 090   30           4 474     22        185       1         2 058   10     20 253
+MP                 7 422     5       5 565   27           6 524     31        291       1          914    4      20 715
+NW                 5 004     4       6 111   35           5 370     30        214       1          989    6      17 688
+NC               137 660    98     17 474       9        20 062     11        150       0         9 057   5     184 403
+WC                86 527    62      26 115   18          28 026     20        210       0          364    0     141 242
+Total            336 448    46    125 327    17         140 497     19       7 052      1       113 344   16    722 667
+
+
+Tables 12 shows that individuals own a total of 722 667 ha erven land in the country: the total of which at 336 448
+ha or 46% is owned by men; followed by 125 327 ha or 17% by females; and 140 497 ha or 19% by male-female
+joint owners; and 7 052 ha or 1% co-owned.
+
+
+
+
+                                                           13
+LAND AUDIT REPORT
+
+
+
+Males own the highest extent of erven land in NC at 137 660 ha or 98%; while women own the highest erven land
+in WC at 26 115 ha or 18%; the highest erven land by men and women 36 992 ha or 39% or erven land in GP.
+
+
+Table 13 shows that at total of 5 969 445 individuals own erven land in the country: 2 961 794 or 50% of whom are
+females; 2 655 724 or 44% are males; and 351 947 or 6% are other.
+
+
+Table 13: Number of individuals’ erven land owners by gender
+ Province               Male                Female                   Other             Total
+                     No         %          No            %       No              %
+ EC                  270 152    42        322 019        50      55 635          9      647 806
+ FS                  205 216    44        237 052        50      27 497          6      469 765
+ GP                  870 928    44        988 938        50     123 914          6    1 983 780
+ KZN                 338 674    43        376 103        48      67 258          9      782 035
+ LP                   73 423    41         81 518        46      23 744          13     178 685
+ MP                  147 428    46        156 603        49      18 435          6      322 466
+ NW                  124 246    45        134 455        48      19 900          7      278 601
+ NC                   84 995    45         96 757        51         7 143        4      188 895
+ WC                  540 662    48        568 349        51         8 421        1    1 117 432
+ Total             2 655 724    44      2 961 794        50     351 947          6    5 969 465
+
+
+Table 13 also shows that females own 50% or more erven land in five provinces; that females own higher erven land
+percentages than males in all province; that females are the highest erven landowners at 988 938 or 50% in GP;
+and that the highest proportion of female erven owners is 568 349 or 51% in WC.
+
+
+8.8      Erven ownership by nationality
+
+
+Table 14 shows that a total of 722 667 ha of erven land is owned by South African and foreign nationals: 570 009
+ha or 79% of which is owned by South African nationals; 20 649 ha or 3% by foreign nationals; 18 667 ha or 3% is
+owned by South African and foreign nationals jointly; and 113 342 ha or 16% of erven land is other.
+
+
+Table 14: Individual erven land owners by nationality in hectares
+ Province          South African          Foreign             Co-ownership              Other          Total
+                     Ha         %         Ha         %         Ha            %        Ha          %
+ EC                  54 932     39         1 416     1          1 952        1        81 538      58   139 839
+ FS                  22 571     85             630   2              724      3          2 610     10    26 535
+ GP                  78 463     83         5 860     6          5 313        6          4 621     5     94 257
+ KZN                 59 749     77         2 992     4          3 802        5         11 192     14    77 735
+ LP                  17 361     86             361   2              472      2          2 058     10    20 253
+ MP                  18 401     89             673   3              727      4             913    4     20 715
+ NW                  15 709     89             443   3              547      3             989    6     17 688
+ NC                 169 595     92         3 447     2          2 304        1          9 057     5    184 403
+ WC                 133 227     94         4 825     3          2 826        2             364    0    141 242
+ Total              570 009     79        20 649     3         18 667        3        113 342     16   722 667
+
+
+
+
+                                                         14
+                                                                                                   LAND AUDIT REPORT
+
+
+
+Table 14 also shows that more than 25% or 184 403 ha of all erven land owned by South African and foreign
+nationals is in NC; followed by WC at 141 242 ha or 19%; EC at 139 839 ha or 10%; GP at 94 257 ha or 13%; KZN
+at 77 735 ha or 11%; FS at 26 535 ha or 4%; and other provinces at less the 3%.
+
+
+Table 15 shows that a total of 5 969 465 South African and foreign nationals are owners of erven land in the country:
+5 416 890 or 91% of which are South African nationals; 200 629 or 3% are foreign nationals; and 351 946 or 6%
+are other.
+
+
+Table 15: Number of individual erven land owners by nationality
+ Province             South African             Foreign                Other               Total
+                        No           %          No         %         No          %
+ EC                     580 567      90          11 604    2          55 635     8          647 806
+ FS                     435 000      93           7 268    1          27 497     6          469 765
+ GP                   1 771 387      89         88 479     5         123 914     6        1 983 780
+ KZN                    693 422      89         21 355     3          67 258     8          782 035
+ LP                     151 478      85           3 463    2          23 744    13          178 685
+ MP                     296 358      92           7 673    2          18 435     6          322 466
+ NW                     253 024      91           5 677    2          19 900     7          278 601
+ NC                     177 128      94           4 624    2           7 143     4          188 895
+ WC                   1 058 526      95         50 486     4           8 420     1        1 117 432
+ Total                5 416 890      91        200 629     3         351 946     6        5 969 465
+
+
+Table 15 also shows that the highest number of erven land owners are found in GP at 1 983 780 or 33% of total
+erven land owners; followed by WC at 1 117 432 or 19%; KZN at 782 035 or 13%; EC at 647 806 or 11%; FS at
+469 765 or 8%; and the rest of provinces at less than 6%.
+
+
+Table 15 further shows that the highest concentration of foreign erf land owners is in GP at 88 479, followed by WC
+at 50 486, KZN at 21 355, and EC at 11 604. The rest of the provinces have less than 8 000 000 of foreign erf land
+owners each.
+
+
+SECTION D: SECTIONAL TITLE OWNERSHIP
+
+8.9      Sectional title ownership
+
+
+Table 16 shows that individuals, companies, CBOs, and Trusts own a total of 50 038 ha sectional title units in the
+country: 37 523 ha or 75% of which is owned by companies; followed by individuals at 10 980 ha or 22%; trusts at
+1 059 ha or 2%; and CBOs at 24 ha or 0%.
+
+
+Table 16 also shows that 83% of sectional title units land is found in GP at 41 689 ha or 83%; LP at 1 615 ha or
+1%; and the rest of the provinces following at less than 1%. The highest extent of sectional title units owned by
+companies is at 36 187 ha or 87% in GP. Similarly, the highest extent of sectional title units by individuals is 4 770
+ha or 11% in GP; followed by Trusts at 570 ha or 1% also in GP.
+
+
+
+
+                                                          15
+LAND AUDIT REPORT
+
+
+
+Table 16: Private Sectional title ownership
+ Province           Individuals         Companies              CBOs           Trusts        Co-ownership       Total
+                      Ha        %        Ha          %     Ha         %      Ha        %    Ha         %
+ EC                       680   86             54    7           2    0        33      4     21        3           790
+ FS                    1 232    92             48    4           6    0        38      3     22        2         1 346
+ GP                    4 770    11       36 187      87          8    0       570      1     16        0        41 698
+ KZN                      979   65            320    21          2    0       116      8     99        7         1 517
+ LP                    1 541    95             53    3           0    0        14      1       7       0         1 615
+ MP                       104   58             45    25          0    0        12      7     18        10          180
+ NW                    1 134    71            429    27          0    0        16      1     13        1         1 592
+ NC                         6   49              4    34          0    0           2    13      0       4             12
+ WC                       533   41            382    30          6    0       258      20   109        8         1 288
+ Total               10 980     22       37 523      75         24    0     1 059      2    453        1        50 038
+
+
+Table 17 shows that there is a total of 817 999 sectional title landowners in the country: 726 966 or 89% of whom are
+individuals; followed by companies at 46 927 or 6%; trusts at 42 878 ha or 5%; and CBOs at 1 228 or 0%.
+
+
+Table 17: Number of private Sectional title ownership
+ Province           Individuals       Companies            Trusts             CBOs             Total
+                     No         %       No          %      No         %      No        %
+ EC                  30 162 90            1 153 3              2 146 6            80 0             33 541
+ FS                  25 844 88            1 004 3              2 504 8            51 0             29 403
+ GP                 360 802 91          19 022 5           15 254 4            442 0             395 520
+ KZN                154 106 89          10 274 6               7 999 5         243 0             172 622
+ LP                   8 607 81            1 085 10              900 8             10 0             10 602
+ MP                  11 718 86            1 084 8               939 6             10 0             13 751
+ NW                  18 394 87            1 308 6              1 410 7            13 0             21 125
+ NC                       817 85              66 7               81 8             2 0                966
+ WC                 116 516 83          11 931 9           11 645 8            377 0             140 469
+ Total              726 966 89          46 927 6           42 878 5          1 228 0             817 999
+
+
+Table 17 also shows that about 48% or 395 520 of these individual sectional title owners are in GP; followed by
+KZN at 172 622 or 21%; and WC at 140 469 or 17%. The highest number of individual sectional title unit owners
+is 360 802 or 91% in GP; followed by 154 106 or 89% in KZN; and 116 516 or 83% in WC. The highest number of
+companies is 19 022 in GP; followed by 11 931 in WC; and 10 274 in KZN. The highest number of trusts is also in
+GP at 15 254 or 4%.
+
+
+8.10     Sectional title ownership by race
+
+
+Table 18 shows that a total of 11 395 ha of sectional title units in the country is owned by individuals: 5 118 ha or 45%
+of which are Whites; 2 375 ha or 21% Coloureds; 1 989 ha or 17% Africans; 556 ha or 6% Indians; and co-owners
+at 703 ha or 6%.
+
+
+
+
+                                                          16
+                                                                                                                     LAND AUDIT REPORT
+
+
+
+Table 18: Individual Sectional title owners by race in hectares
+ Province       White          African            Coloured               Indian             Other             Co-ownership    Total
+               Ha       %      Ha         %         Ha         %         Ha       %         Ha           %     Ha        %
+ EC              388 55            128    18             22    3         123      18             8        1        32     5      701
+ FS              631 50             14     1         230      18          10      1         341       27           27     2     1 253
+ GP            1 964 40        1 523      31         734      15         227      5         173           4     304       6     4 924
+ KZN             578 54             86     8             84    8         136      13         41           4     149      14     1 073
+ LP            1 069 69            176    11         188      12              4   0         103           7         6     0     1 547
+ MP               70 58             15    12              7    6              5   4              3        2        22    18      121
+ NW               59     5          16     1        1 046     91              6   1              4        0        15     1     1 146
+ NC                 4 65             1     8              1   11              0   5              0        2         1     8           6
+ WC              354 57             30     5             63   10          45      7          31           5     101      16      624
+ Total         5 118 45        1 989      17        2 375     21         556      5         703           6     655       6    11 395
+
+
+Table 18 also shows that 4 924 ha or 43% of all sectional title units in the country is in GP; followed by LP at 1547
+ha; FS at 1 253 ha; NW at 1 146 ha; KZN at 1 073 ha; EC at 701 ha; WC at 624 ha; and NC at 6 ha.
+
+
+Table 18 further shows that Whites own 50% and above of sectional title units land in EC, FS, KZN, LP, MP, NC,
+and WC. Africans own the highest at 31% or 1 523 ha in GP; Coloureds own 91% or 1 046 ha in NW; and Indians’
+highest is 13% or 103 ha in KZN.
+
+
+Table 19 shows that the total number of sectional title unit owners is 726 966 in the country: 347 440 or 48% of whom
+are Whites; 145 595 or 20% Africans; 100 053 or 14% Indians; and 91 425 or 12% Coloureds.
+
+
+Table 19: Number of Individual Sectional Title owners by race
+ Province              White              African             Coloured                  Indian                  Other         Total
+                    No         %          No        %         No          %            No            %        No         %
+ EC                 16 894 56             3 884 13             4 662      15            3 083        10        1 639     5     30 162
+ FS                 16 276 63             3 514 14             3 314      13            1 628        6         1 112     40    25 844
+ GP                 161 915 45           93 897 26            41 833      11           42 907        12       20 250     6    360 802
+ KZN                64 257 42            25 579 17            18 525      12           36 349        23        9 396     6    154 106
+ LP                    4 058 47           2 855 33                 858    10             545         6          291      3      8 607
+ MP                    5 910 53           3 135 24             1 266      11             917         8          490      47    11 718
+ NW                 10 857 59             3 239 18             2 348      13            1 209        6          741      4     18 394
+ NC                      526 64                104 13              111    13                46       6              30   4        817
+ WC                 66 747 57             9 388     8         18 508      16           13 369        11        8 504     7    116 516
+ Total              347 440 48           145 595 20           91 425      12       100 053           14       42 453     6    726 966
+
+
+Table 19 also shows that about 50% or 360 802 of these sectional title unit owners are in GP; followed by KZN with
+154 106 or 21%; WC with 116 516 or 16%; EC with 30 162 or 4%; and the rest of the provinces at less than 3% each.
+
+
+Table 19 further shows that the highest number of White sectional title unit owners is 161 915 or 45% in GP.
+Similarly, the highest number of African sectional title owners is at 93 897 or 26% in GP. Again the highest number
+of sectional title owners for Indians and Coloureds is in GP at 42 907 and 41 833 or 12% and 11% respectively.
+
+
+
+
+                                                                17
+LAND AUDIT REPORT
+
+
+
+8.11     Sectional title ownership by nationality
+
+
+Table 20 shows that South African and foreign nationals own a total of 11 395 ha sectional title units in the country:
+9 305 ha or 82% of which are owned by South Africa nationals; 1 138 ha or 10% by foreign nationals; co-ownership
+at 724 ha or 6%; and other at 229 ha or 2%.
+
+
+Table 20 also shows that more than 43% of all South African and foreign sectional title unit is in GP at 4 924 ha;
+followed by LP at 1 547 ha or 13% %; FS at 1 253 ha or 11%; and NW at 1 146 ha or 10%.
+
+
+Table 20: Individual Sectional title owners by nationality in hectares
+ Province         South African         Foreign               Other              Co-ownership          Total
+                     Ha         %      Ha          %         Ha         %         Ha         %
+ EC                     534    76        135       19             3     0              29    4            701
+ FS                   1 216    97           17     1              1     0              18    1          1 253
+ GP                   3 878    79        498       10        175        4          372       8          4 924
+ KZN                    513    48        386       36         15        1          160      15          1 073
+ LP                   1 538    99            4     0              1     0               4    0          1 547
+ MP                       85   70            6     5              1     1              28   23            121
+ NW                   1 132    99            4     0              2     0               8    1          1 146
+ NC                        5   80            1     11             0     0               1    8                 6
+ WC                     403    65           87     14         31        5          104      17            624
+ Total                9 305    82      1 138       10        229        2          724       6         11 395
+
+
+Table 20 further shows that the highest extent of sectional title units owned by South Africans at 3 878 ha or 79% is
+in GP; followed by 1 538 ha or 99% in LP; 1 216 ha or 97% in FS; and NW at 1 132 ha or 99%. About 90% or 1 019
+ha of sectional title units are foreign owned in GP, KZN and EC.
+
+
+Table 21: Number of Individual Sectional title owners by nationality
+ Province        South African           Foreign                       Other                Total
+                   No          %        No              %             No          %
+ EC                24 096      80         5 352         18                 714     2         30 162
+ FS                23 009      89         2 524         10                 311     1         25 844
+ GP               299 462      83       47 401          13            13 939       4        360 802
+ KZN              100 693      65       49 624          32             3 789       2        154 106
+ LP                 7 800      91            571        7                  236     3          8 607
+ MP                 9 368      82         2 058         15                 292     2         11 718
+ NW                16 951      92         1 031         6                  412     2         18 394
+ NC                     700    86            111        14                   6     1             817
+ WC                85 069      73       24 000          21             7 447       6        116 516
+ Total            567 148      78      132 672          18            27 146       4        726 966
+
+
+Table 21 shows that the total number of South African and foreign sectional title unit owners is 726 966 in the
+country: 567 148 or 78% of whom are South African nationals; 132 672 or 18% Foreign nationals; and 27 146 or
+4% are other.
+
+
+
+
+                                                             18
+                                                                                                      LAND AUDIT REPORT
+
+
+
+Table 21 also shows that about 50% or 360 802 of South African and Foreign sectional title unit owners are in GP;
+followed by KZN with 154 106 or 21%; WC with 116 516 or 16%; EC with 30 162 or 4%; and the rest of the provinces
+at less than 3% each.
+
+
+Table 21 further shows that the highest number of South African sectional title unit owners of 299 462 or 83% are in
+GP. In contrast, the highest number of Foreign sectional title owners at 49 624 or 32% is in KZN.
+
+
+8.12     Sectional title ownership by gender
+
+
+Table 22 shows that a total of 11 395 ha sectional title units in the country is owned by individuals: 4 585 ha or 40%
+of which is owned by joint males and females; 3 668 ha or 32% by females; 2 636 ha or 23% by males; and 277 ha
+or 2% is co-owned.
+
+
+Table 22: Individual Sectional title owners by gender in hectares
+ Province           Male             Female           Male-Female            Other        Co-ownership         Total
+                 Ha        %       Ha         %        Ha         %        Ha        %       Ha         %
+ EC                323     46           57    8           313     45            3    0            5      1         701
+ FS                170     14         550     44          529     42            1    0            3      0       1 253
+ GP              1 254     25       1 466     30        1 832     37        175      4        197        4       4 924
+ KZN               475     44         219     20          340     32          15     1          25       2       1 073
+ LP                203     13       1 057     68          284     18            1    0            1      0       1 547
+ MP                   26   21           39    32            43    35            1    1          12      10         121
+ NW                   33   3            28    2         1 081     94            2    0            2      0        1146
+ NC                    2   34            3    42             1    23            0    0            0      0             6
+ WC                151     24         249     40          162     26          31     5          31       5         624
+ Total           2 636     23       3 668     32        4 585     40        229      2        277        3     11 395
+
+
+Table 22 also shows that more than 43% or 4 924 ha of male and female sectional title unit land is in GP; followed
+by LP at 1 547 ha or 13%; FS at 1 253 ha or 11%; and NW at 1 146 ha or 10%.
+
+
+Table 22 further shows that the highest extent of male-female sectional title land at 1 832 ha or 37% is in GP. The
+highest owned extent female sectional title units is 1 466 ha or 30% also in GP. Similarly, the extent of male sectional
+title units at 1 254 ha or 25% is in GP.
+
+
+Table 23 shows that the total number of individuals sectional title unit owners is 726 966 in the country: 371 525 or
+51% of whom are females; 328 295 or 45% males; and 27 146 or 4% are other.
+
+
+Table 23 also shows that about 50% or 360 802 of individuals sectional title unit owners are found in GP; followed
+by KZN with 154 106 or 21%; WC with 116 516 or 16%; EC with 30 162 or 4%; and the rest of the provinces at less
+than 3% each.
+
+
+
+
+                                                            19
+LAND AUDIT REPORT
+
+
+
+Table 23: Number of Individual Sectional title owners by gender
+ Province              Male              Female              Other           Total
+                     No        %        No        %        No        %
+ EC                  13 389    44       16 059    53          714    2         30 162
+ FS                  11 535    45       13 998    54          311    1         25 844
+ GP                 162 642    45      184 221    51      13 939     4        360 802
+ KZN                 69 834    45       80 483    52         3 789   2        154 106
+ LP                   4 008    47        4 363    51          236    3           8 607
+ MP                   5 823    50        5 603    48          292    2          11 718
+ NW                   9 037    49        8 945    49          412    2         18 394
+ NC                     346    42          465    57            6    1             817
+ WC                  51 681    44       57 388    49         7 447   6        116 516
+ Total              328 295    45      371 525    51      27 146     4        726 966
+
+Table 23 further shows that the highest number of female sectional title unit owners of 184 221 or 51% are found in
+GP. Similarly, the highest number of male sectional title owners at 162 642 or 45% is found in GP.
+
+
+9.       CONCLUSION
+
+This Land Audit set out to provide information on private land ownership by race, nationality, and gender.
+
+
+The task was complex and time consuming as data had to be sought from many different sources for processing
+and different techniques and analysis applied to produce credible information.
+
+
+The Deeds Office – the official repository of land rights in the country – currently does not register land rights by
+race. It also does not compel landowners to register at Deeds subdivision and land use changes permits from the
+Surveyor and Municipal Councils respectively. The result is that there are surveyed land parcels that have changed
+land uses but are still registered at Deeds in their old land use classification; thereby losing local government
+potential revenue.
+
+On the whole, the land audit exercise revealed, firstly, the need to improve within the department on the data
+management, human capacity, organisational and technology resources.
+
+
+Secondly, the land audit exercise revealed the need between the department and other national departments and
+state-owned entities to ensure comprehensive, up-to-date, credible and accessible national land information.
+
+
+Thirdly, this exercise revealed areas of land tenure legislation that need urgent attention.
+
+
+Fourthly, the land audit exercise revealed the capture for private gain socially created land value that is lost as
+revenue to society and economy for especially land reform and post-settlement development.
+
+
+Finally, this exercise has revealed that we have just taken the first steps upon a long journey towards the goal of
+the sustainable relationship of South African citizens to one another through the effective management of land as a
+resource and nation-building.
+
+
+
+
+                                                        20
+                                                                                                  LAND AUDIT REPORT
+
+
+
+10.     RECOMMENDATIONS
+
+ RECOMMENDATION 1:
+ The Department of Rural Development and Land Reform should establish a Land Administration
+ Commission (LAC).
+
+
+A document entitled Land Administration Guidelines was published by the United Nations in 1996 to advice Central
+European Countries that were involved in establishing land administration systems after the break-up of the former
+Soviet bloc. It defined land administration as including:
+
+
+   The functions involved in regulating the development and use of the land, gathering revenue from the land
+   (through sale, lease, or taxation, etc.), and resolving conflicts concerning the ownership and use of the land. It is
+   concerned both with private lands and public lands and involves: land settlement; land survey; land registration;
+   land valuation and assessment; land-use control and management; infrastructure and utilities management.
+   Land administration is the process of recording and distributing information about the ownership, value and the
+   use of land and its associated resources. Such processes include the determination or adjudication of rights and
+   other attributes of the land, the survey and description of these, their detailed documentation and the provision
+   of relevant information in support of land markets.
+
+
+In its Medium-Term Strategic Framework, the department identified the establishment of an effective and efficient
+land administration system for the period 2015-2019. To this end, in its re-engineering process to improve its
+organisational structure, the department is planning to create the Land Administration Commission from its existing
+specialist functional areas of land survey, land registration, land valuation, and land-use control and management.
+
+
+The functions and mandate of this Land Administration Commission, which would address the myriad of the
+challenges experienced in compiling this Land Audit, to cite the United National, will be to:
+• Meet the needs of all users in both the public and private sectors without bias or favour;
+• Develop land information management policies in line with those of the national Government;
+• Set and monitor technical standards, especially for data capture, including field survey, data processing and
+    data exchange;
+• Provide “methodological guidance” to ensure that all procedures are well understood and new opportunities for
+    improvement are identified;
+• Make recommendations for improving the efficiency of all land administration processes in the light of changing
+    circumstances;
+• Recommend changes to the law where these will improve the service to be provided;
+• Archive data that are needed in the long-term national interest;
+• Undertake production work where it is in the national interest for that work to be undertaken by Government, for
+    example where military matters are involved;
+• Address matters of personal privacy and the confidentiality of data in order to protect the interest of private
+    citizens; and
+• Define the legal liability of public sector and private sector data providers and ensure that title to land is
+    guaranteed. (UN, 1996: pp 61-62).
+
+
+Finally, with particular focus on the data and methodological challenges that have confronted the preparation of this
+Land Audit, the United Nations offered the following advice on land information:
+
+
+
+                                                          21
+LAND AUDIT REPORT
+
+
+
+Land management must be based on knowledge, knowledge depends on information, and information depends on
+the methods of data collection and the manner in which their results are communicated. Land-related information
+is an important and expensive resource that must be managed efficiently in order to maximize its potential benefits.
+Land information management entails:
+• Determining the requirements of the State and of the general public for land-related information;
+• Examining how the information is actually used in the decision-making process, how information flows from one
+    producer or user to another, and what constraints there are upon that flow;
+• Developing policies for determining priorities, allocating the necessary re-sources, assigning responsibilities for
+    action, and setting standards of performance and methods for monitoring them;
+• Improving existing land information systems or introducing new ones;
+• Assessing and designing new tools and techniques; and
+• Ensuring that matters of privacy and data security are respected. (ibid: p 61).
+
+
+The following are the most immediate measures that are proposed towards the establishment of Land Administration
+Commission:
+a) The re-engineering process to improve the organisational structure of the department should proceed to
+   establish the Land Administration Commission;
+b) The specialist functions within the department that are responsible for land survey, land registration, land
+    valuation, and land-use control and management must be assembled within the department in order to perform
+    the following:
+   i) Develop land information management policies in line with those of the national Government;
+   ii) Set and monitor technical standards, especially for data capture, including field survey, data processing and
+         data exchange;
+   iii) Provide “methodological guidance” to ensure that all procedures are well understood and new opportunities
+         for improvement are identified;
+   iv) Make recommendations for improving the efficiency of all land administration processes in the light of
+         changing circumstances;
+   v) Recommend changes to the law where these will improve the service to be provided;
+   vi) Archive data that are needed in the long-term national interest;
+   vii) Update and verify extents using original cadastral documents and Deeds data, especially in townships;
+   viii) Reflect the extents as they appear in cadastral record and title deeds;
+   ix) Identify and remove the duplication of records within the Deeds System;
+   x) Survey, register, and vest trust state land in the former homeland areas;
+   xi) Ensure that private and public sector entities get their land parcels surveyed are compelled to register
+         changed land use at Deeds; and
+   xii). Invoke the Spatial Data Infrastructure Act to foster a national coordination locus and better data management
+         environment among state entities.
+c) Support the Department of Human Settlement to transfer title of RDP Housing as well as the old housing Stock
+    in the urban black townships to its millions of rightful black owners, including the update and verification of
+    extents using original cadastral documents and Deeds data, especially in townships; and
+d) The Department of Rural Development and Land Reform should hold a Mini-Operation Phakisa on the Land
+    Administration Commission so that national, provincial and local governments and state-owned entities should
+    not only understand it, but enter into specific arrangement to be served by it.
+
+
+
+
+                                                        22
+                                                                                                 LAND AUDIT REPORT
+
+
+
+
+  RECOMMENDATION 2:
+  The Department of Rural Development and Land Reform should introduce an overarching Legislation
+  on National Land Rights.
+
+
+The injunction of the Constitution that South Africa belongs to all must be translated into a lived experience for the
+majority of South African citizens that is founded on an overarching National Land Rights Legislation whose primary
+function is to:
+i) Define the rights, restriction and responsibilities of South African citizens to land;
+ii) Vest land as the common property to the people of South Africa as a whole;
+iii) Collect land values created by the state and society into a Public Fund - for Land Reform, Inclusive and
+     Sustainable Development - rather than to continue collecting them as unearned income for private gain by a
+     few;
+iv) Outline the land governance framework for the state, public, private, and communal land tenure systems; and
+v) Determine transitional mechanisms, where need be, of moving from the current land tenure systems to the new
+     land tenure system set on the basis of this overarching National Land Rights Legislation.
+
+
+In section 25(6 and 9), the Constitution instructs the state to pass such a land tenure legislation. To that end, the
+1997 the White Paper on Land Policy, acknowledging that instruction, promised to produce a Green Paper on
+Land Tenure to address a myriad of complex land rights that were inherited from apartheid and former Homeland
+Administrations. The promised Green Paper was produced in 2011 with four land tenure systems state, communal,
+private and public land tenure. What is left now is to pass an overarching National Land Rights Legislation to
+operationalise the Constitutional injunction.
+
+
+In the meantime, amendments of the Extension of Security of Tenure Act, Community Property Associations Act,
+coupled with the annual renewal of the Interim Protection of Informal Rights Act, and the Communal Land Tenure
+Rights Bill – were set in motion to address pertinent areas of insecure land tenure that are of extreme pressure and
+urgency to obtain relief.
+
+
+The Constitutional Court declared as unconstitutional the Communal Land Rights Act in 2010. Most recently, another
+land tenure act of the apartheid era has been declared unconstitutional and void by our courts of law.
+
+
+  RECOMMENDATION 3:
+  The Department of Rural Development and Land Reform should establish a Land Reform Fund (LRF).
+
+
+In November 2011 the National Development Plan on the Integrated and Inclusive Rural Economy recommended
+an innovative model in Chapter 6 that would leverage more funds to support the financing of land reform in addition
+to the existing fiscal resources.
+
+
+In November 2016 Operation Phakisa for Agriculture, Land Reform and Rural Development proposed the
+establishment of the Land Reform and Development Fund to finance the land reform programmes of redistribution,
+restitution, tenure reform and land settlement through public-private-community participation.
+
+
+The first proposed funding source to finance the Land Reform Fund are already operational through the participation
+of private sector funding and farmers in the land reform programmes of restitution, redistribution and tenure reform.
+
+
+
+                                                          23
+LAND AUDIT REPORT
+
+
+
+These include Partners in Agri-Land Solution (or PALS), Vumelana Advisory Fund in Restitution cases, the Sugar
+Industry Partnership with the Restitution Commission, and Strengthening Relative Rights for People Working the
+Land (SRR or 50/50). Additional discussions have also started in bringing State-owned entities to finance and
+manage this Fund.
+
+
+The second proposed funding source to finance the Land Reform Fund is through the collection of land values
+through a land value tax4 using the Municipal Property Rates Act. The essence of Land Reform Fund is that it will
+ensure that all landowners contribute to the national and constitutional imperative of land reform and post-settlement
+inclusive and sustainable development according to the Law of Rent6.
+
+
+The Ready-to-Govern and RDP policy documents and public-private-community meetings have passed resolutions
+for the introduction of a land value tax. Land values are presently privately collected by banks, insurance companies,
+institutional investors, and big landowners. The collection of the land value tax will now made more possible by the
+existence of the Office of the Valuer-General as has been shown in all land reform programmes.
+
+
+The third proposed funding source to finance the Land Reform Fund is for the department to corporatize its property
+management portfolio and agricultural land holding account (ALHA) – both of which are currently dormant but can
+be easily and successfully set in motion as trading accounts. There is long experience in this regard which began in
+1936 through the Land Development and Trust Fund Act and ceased to operate at the end of the apartheid.
+
+
+
+
+6. Joe Sarling, 2014. Exploring land value tax.
+
+                                                        24
+                                                                                      LAND AUDIT REPORT
+
+
+
+11.    GLOSSARY
+
+Cadastre              A register of land information. According to the International Federation of
+                      Surveyors (FIG) definition, a cadastre is normally a parcel based and up-to-
+                      date land information system containing a record of interests in land (i.e., rights,
+                      restrictions, and responsibilities). It usually includes a geometric description
+                      of land parcels linked to other records describing the nature of the interests,
+                      the ownership or control of those interests, and often the value of the parcel
+                      and its improvements. It may be established for fiscal purposes (e.g., valuation
+                      and equitable taxation), legal purposes (e.g., conveyancing), to assist in the
+                      management of land and land use (e.g., for planning and other administrative
+                      purposes), and to facilitate sustainable development and environmental
+                      protection.
+Community-based       This includes non-governmental organizations, churches,
+Organisations
+Co-ownership          Land owned by owners who are classified in different categories e.g. land parcel
+                      co-owned by Individual(s) and a Trust, male and female, etc
+
+Department            The Department of Rural Development and Land Reform
+Foreign               Individuals whose country of birth is not South Africa
+Individuals           Natural persons owning land
+Land                  That volume of space that encompasses the surface of the Earth, all things that
+                      are attached to it, the rocks and minerals that are just below it, areas covered
+                      by water such as seas and lakes, all building and construction, and all natural
+                      vegetation. Legally, land extends from the centre of the Earth to the infinite in
+                      the sky” (UN, 1996)
+Land Administration   A process of determining, recording and disseminating information about
+                      land tenure, value, use and its associated resources when implementing land
+                      management policies about relationship between land and people [UNEC];
+                      it is “the processes of regulating land and property development, the use,
+                      conservation of land, the gathering of revenues from the land sales, leasing,
+                      and taxation, and the resolving of conflicts concerning the ownership and use of
+                      land”; (Dale and McLaughlin); it is … concerned with the social, legal, economic
+                      and technical framework within which land managers and administrators must
+                      operate (UN-ECE, 1996).
+Land Development      The processes of implementing land-use planning or development proposals
+                      for building new urban neighbourhoods and new physical infrastructure and
+                      managing the change of existing urban or rural land use through granting of
+                      planning permissions and land-use permits.
+Land management       The process by which the resources of land are put to good effect. It covers
+                      all activities concerned with the management of land as a resource both from
+                      an environmental and from an economic perspective. It can include farming,
+                      mineral extraction, property and estate management, and the physical planning
+                      of towns and the countryside.
+
+
+
+
+                                             25
+LAND AUDIT REPORT
+
+
+
+
+ Land Reform              The various processes involved in altering the pattern of land tenure and land
+                          use of a specified area. Some of the processes involve land administration, but
+                          most of the processes are intensely political.
+ Land Tenure              Defines and regulates how people, communities and others gain access to
+                          natural resources, whether through formal law or informal arrangements. The
+                          rules of tenure determine who can use which resources, for how long, and under
+                          what conditions. They may be based on written policies and laws, as well as on
+                          unwritten customs and practices
+ Land-Use                 The control of land-use through planning policies, regulations and enforcement;
+                          the implementation of construction planning through granting of permits; and the
+                          adjudication of land use conflicts. The design of adequate systems in the area
+                          of Land Tenure and Land Value should lead to the establishment of an efficient
+                          land market; and the design of adequate systems in the areas of Land-Use
+                          Control and Development should lead to an effective land-use administration.
+ Land Value               The assessment of the value of land and properties; the gathering of revenues
+                          through taxation; and the adjudication of land valuation and taxation disputes.
+
+ Nationality              Country of birth of a person as captured in the population register.
+
+ Other                    Individual that opted not to disclose their Race on the census questioner
+                          Record of individuals owner not found in the DHA database. This could be as a
+                          result of incomplete information in the Deeds database
+                          Extent calculated by subtracting the total extent of registered land parcels from
+                          the known extent of provinces
+                          Used to classify land owned by land owners that were not found in the DHA
+                          population register
+                          Owner that could not be classified due to incomplete information in the deeds
+                          database
+                          Land that is surveyed but not registered at the deeds office
+ Private                  First level classification of non-state owners i.e. Individuals, Companies,
+                          churches, etc.
+ State                    Department of state or administration in the national, provincial or local sphere
+                          of government and public entities.
+
+ Trust                    Trusts in terms of Trust Property Control Act, No 57 of 1988 (“the Trust Act”).
+
+ Unique land owner name   Land title name that are used for each land parcel in the Deeds Office Database.
+
+
+
+
+                                              26
+                                                                                         LAND AUDIT REPORT
+
+
+
+12.    REFERENCES
+
+1. Hartzok, Alanna. 2013. Socializing Land Rent, Untaxing Production. Paper prepared for presentation at the
+   “Annual World Bank Conference on Land and Poverty”. The World Bank – Washington DC, April 8 – 11, 2013.
+2. Sarling, Joe. 2014. Exploring land value tax: 4. Fighting sprawl and incentivizing density. Comment Today.
+   Commenttoday.org
+3. Williamson, Ian; Enemark Stig; Rajabifard Abbas. 2010. Land Administration for Sustainable Development.
+   ESRI Press. Redlands. California.
+4. Economic Commission for Europe. 1996. Land Administration Guidelines: With Special Reference to Countries
+   in Transition. United Nations. Geneva.
+5. Department of Agriculture, Forestry and Fisheries. undated. Draft policy document on the Preservation and
+   Development of Agricultural Land. Pretoria.
+6. Department of Rural Development and Land Reform. 2015. Office of the Chief Surveyor General. South African
+   Farms. Pretoria.
+
+
+
+
+                                                     27
+     MAP 1: EASTERN CAPE PROVINCE
+                                                                       LAND AUDIT REPORT
+
+
+
+
+                                                   Unregistered land
+
+
+
+
+28
+                                                   parcels
+
+
+
+
+                                    Source: DRDLR, 2015
+     MAP 2: LIMPOPO PROVINCE
+
+
+                                  Unregistered land
+                                  parcels
+
+
+
+                                     Kruger
+                                     National
+                                     Park
+
+
+
+
+29
+            Source: DRDLR, 2015
+                                                      LAND AUDIT REPORT
+LAND AUDIT REPORT
+
+
+
+ANNEX 1: SOUTH AFRICAN LAND BY LAND USE AND EXTENT
+
+
+
+
+Source: DAFF, Undated
+
+
+
+
+                            30
+                                                                                                                                                     LAND AUDIT REPORT
+
+
+
+
+NOTES
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+...
+
+
+                                                                                        31
+LAND AUDIT REPORT
+
+
+
+
+NOTES
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+.....................................................................................................................................................................................
+...
+
+
+                                                                                      32
+OFFICE OF THE DIRECTOR-GENERAL
+         www.drdlr.gov.za
+      Toll-Free: 0800 007 095
+         @DRDLR_online
+        Department of Rural
+   Development and Land Reform
+     184 Jeff Masemola Street
+             PRETORIA
+                0001
+                         ISBN: 978-0-621-46106-0
+

@@ -413,7 +413,7 @@ The report keeps mathematical notation out of the main text. The economics remai
 - [Statistics South Africa, Quarterly Labour Force Survey](https://www.statssa.gov.za/?page_id=1854&PPN=P0211) and [mid-year population estimates](https://www.statssa.gov.za/?page_id=1854&PPN=P0302) for the labour and population context.
 - [OECD, Pensions at a Glance 2025](https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en.html) for comparative retirement, employment and pension-system evidence.
 - [United Nations, World Population Prospects](https://population.un.org/wpp/) for international demographic framing.
-- [International Labour Organization, World Employment and Social Outlook](https://www.ilo.org/publications/flagship-reports/world-employment-and-social-outlook) for labour-market context.
+- [International Labour Organization, World Employment and Social Outlook: Trends 2025](https://doi.org/10.54394/IZLN1673) for labour-market context.
 - [World Health Organization, health workforce](https://www.who.int/health-topics/health-workforce) for the human-service staffing constraint.
 - [International Monetary Fund, Gen-AI and the future of work](https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379) for automation exposure and complementarity.
 

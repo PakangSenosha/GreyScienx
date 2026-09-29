@@ -1,0 +1,28 @@
+{
+  "units": "constant 2026 rand billions",
+  "central_fund_value": {
+    "2042": 257.5,
+    "2060": 585.5,
+    "2080": 893.2,
+    "2100": 1132.5,
+    "2125": 1481.9
+  },
+  "central_transfer": {
+    "2042": 5.8,
+    "2060": 16.0,
+    "2080": 25.6,
+    "2100": 32.9,
+    "2125": 43.1
+  },
+  "ending_fund_values": {
+    "Best": 5185.4,
+    "Central": 1481.9,
+    "Adverse": 18.4
+  },
+  "cumulative_central_deposits": 582.0,
+  "cumulative_central_transfers": 2173.5,
+  "model_years": [
+    2027,
+    2125
+  ]
+}
