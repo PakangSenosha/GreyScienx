@@ -19,6 +19,6 @@ export async function GET(_request: Request, context: RouteContext<"/api/experim
     methods: casinoData.methods,
     downloads: casinoDownloadFiles.map((file) => ({ file, url: `/experiments/virtual-casino/v1.0/${file}` })),
   };
-  if (!(resource in resources)) return Response.json({ error: "Unknown read-only resource" }, { status: 404 });
-  return Response.json(resources[resource], { headers: { "Cache-Control": "public, max-age=3600, immutable", "X-Experiment-Mode": "synthetic-read-only" } });
+  if (!(resource in resources)) return Response.json({ error: "Unknown read-only resource" }, { status: 404, headers: { "X-Robots-Tag": "noindex, nofollow, noarchive" } });
+  return Response.json(resources[resource], { headers: { "Cache-Control": "public, max-age=3600, immutable", "X-Experiment-Mode": "synthetic-read-only", "X-Robots-Tag": "noindex, nofollow, noarchive" } });
 }

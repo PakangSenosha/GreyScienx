@@ -8,10 +8,6 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { getTopicRecord, listTopicRecords } from "@/lib/research/registry";
 import { topicJsonLd } from "@/lib/research/jsonld";
 
-function sitePath(href: string) {
-  return new URL(href).pathname;
-}
-
 type TopicPageProps = {
   params: Promise<{ slug: string }>;
 };
@@ -49,10 +45,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
             <h1>{topic.title}</h1>
             <p className="dek">{topic.definition}</p>
             <div className="hero-actions">
-              <a className="button button-primary" href={`/api/v1/topics/${topic.slug}`}>
-                Topic JSON
-              </a>
-              <Link className="button button-ghost" href="/research">
+              <Link className="button button-primary" href="/research">
                 All research
               </Link>
             </div>
@@ -126,7 +119,7 @@ function TopicRecord({ topic }: { topic: NonNullable<ReturnType<typeof getTopicR
           <ul className="dossier-questions">
             {topic.claims.map((claim) => (
               <li key={claim.id}>
-                <Link href={sitePath(claim.href)}>{claim.study_id}</Link>
+                <strong>{claim.study_id}</strong>
                 {": "}
                 {claim.claim}
               </li>
@@ -143,7 +136,7 @@ function TopicRecord({ topic }: { topic: NonNullable<ReturnType<typeof getTopicR
           <ul className="dossier-questions">
             {topic.assumptions.map((assumption) => (
               <li key={assumption.id}>
-                <Link href={sitePath(assumption.href)}>{assumption.name}</Link>
+                <strong>{assumption.name}</strong>
                 {` · ${assumption.sensitivity} sensitivity · ${assumption.study_id}`}
               </li>
             ))}
@@ -159,7 +152,7 @@ function TopicRecord({ topic }: { topic: NonNullable<ReturnType<typeof getTopicR
           <ul className="dossier-questions">
             {topic.datasets.map((dataset) => (
               <li key={`${dataset.study_id}-${dataset.id}`}>
-                <Link href={sitePath(dataset.href)}>{dataset.title}</Link>
+                <strong>{dataset.title}</strong>
                 {` · ${dataset.study_id}`}
               </li>
             ))}

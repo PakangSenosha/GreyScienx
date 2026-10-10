@@ -10,5 +10,5 @@ export function GET() {
     syntheticOnly: true,
     publicWriteEndpoints: false,
     summaryUrl: `/api/experiments/${casinoData.metadata.experimentId}/summary`,
-  }, { headers: { "Cache-Control": "public, max-age=3600, immutable" } });
+  }, { headers: { "Cache-Control": "public, max-age=3600, immutable", "X-Robots-Tag": "noindex, nofollow, noarchive" } });
 }

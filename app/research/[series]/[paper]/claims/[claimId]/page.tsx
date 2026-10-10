@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getPaper, researchSeries } from "@/lib/catalog";
 import { getStudy } from "@/lib/research/registry";
+import { agentOnlyRobots } from "@/lib/research/visibility";
 import { site } from "@/lib/site";
 
 type ClaimPageProps = {
@@ -33,6 +34,7 @@ export async function generateMetadata({ params }: ClaimPageProps): Promise<Meta
     title: `${claim.claim.local_id} · ${claim.study.title}`,
     description: claim.claim.claim,
     alternates: { canonical: claim.claim.href },
+    robots: agentOnlyRobots,
   };
 }
 

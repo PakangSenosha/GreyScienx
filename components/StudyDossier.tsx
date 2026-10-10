@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { packageFor } from "@/lib/research/packages";
 import type { ResearchObject } from "@/lib/research/schema";
 
@@ -21,9 +20,7 @@ export function StudyDossier({ study }: { study: ResearchObject }) {
             </p>
           </div>
           <div className="machine-links">
-            <Link href={`/research/${study.series_slug}/${study.slug}/claims/${lead.local_id}`}>
-              {lead.local_id}
-            </Link>
+            <span>{lead.local_id}</span>
           </div>
         </section>
       ) : null}
@@ -48,7 +45,6 @@ export function StudyDossier({ study }: { study: ResearchObject }) {
           title: item.name,
           text: item.statement,
           meta: item.value ? `${item.value} ${item.unit ?? ""}`.trim() : item.sensitivity,
-          href: `/research/${study.series_slug}/${study.slug}/assumptions/${item.local_id}`,
         }))}
       />
       <RecordBlock
@@ -60,7 +56,6 @@ export function StudyDossier({ study }: { study: ResearchObject }) {
           title: item.name,
           text: item.statement,
           meta: item.id,
-          href: `/research/${study.series_slug}/${study.slug}/models/${item.local_id}`,
         }))}
       />
       <RecordBlock
@@ -72,7 +67,6 @@ export function StudyDossier({ study }: { study: ResearchObject }) {
           title: item.value ? `${item.value} ${item.unit}`.trim() : item.local_id,
           text: item.statement,
           meta: item.scenario,
-          href: `/research/${study.series_slug}/${study.slug}/results/${item.local_id}`,
         }))}
       />
 
@@ -105,7 +99,6 @@ export function StudyDossier({ study }: { study: ResearchObject }) {
           title: claim.id,
           text: claim.claim,
           meta: `Modelled · ${claim.sensitivity} sensitivity`,
-          href: `/research/${study.series_slug}/${study.slug}/claims/${claim.local_id}`,
         }))}
       />
 
@@ -129,11 +122,6 @@ export function StudyDossier({ study }: { study: ResearchObject }) {
         </div>
         <div className="machine-links">
           <a href={study.links.pdf}>Manuscript PDF</a>
-          <Link href={`/research/${study.series_slug}/${study.slug}/markdown`}>Full Markdown twin</Link>
-          <a href={study.links.manuscript}>Manuscript API</a>
-          <Link href={`/research/${study.series_slug}/${study.slug}/data`}>Datasets</Link>
-          <Link href={`/research/${study.series_slug}/${study.slug}/reproduce`}>Reproducibility</Link>
-          <a href={`/api/v1/research/${study.slug}/datasets`}>Datasets JSON</a>
         </div>
       </section>
     </>
@@ -149,7 +137,7 @@ function RecordBlock({
   label: string;
   count: number;
   intro: string;
-  rows: Array<{ id: string; title: string; text: string; meta: string; href?: string }>;
+  rows: Array<{ id: string; title: string; text: string; meta: string }>;
 }) {
   if (count === 0) return null;
   return (
@@ -168,15 +156,9 @@ function RecordBlock({
         <div className="paper-list">
           {rows.map((row) => (
             <article className="paper-row" key={row.id}>
-              {row.href ? (
-                <Link className="paper-row-link" href={row.href}>
-                  <RowBody row={row} />
-                </Link>
-              ) : (
-                <div className="paper-row-link">
-                  <RowBody row={row} />
-                </div>
-              )}
+              <div className="paper-row-link">
+                <RowBody row={row} />
+              </div>
             </article>
           ))}
         </div>

@@ -1,0 +1,356 @@
+{
+  "$schema": "https://developers.openai.com/plugins/schemas/chatgpt-app-submission.v1.json",
+  "schema_version": 1,
+  "app_info": {
+    "display_name": "GreyScienx",
+    "subtitle": "Trace evidence and models",
+    "description": "Search and inspect the GreyScienx public research corpus. Retrieve complete study records, manuscripts, claims, assumptions, results, sources and reproducibility details; compare studies; trace claims to their evidence and limitations; render an accessible analysis-summary card; and validate proposed research objects without publishing or storing them.",
+    "category": "EDUCATION"
+  },
+  "tools": {
+    "search_research": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "search_research retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "search_research consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "search_research returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_study": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_study retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_study consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_study returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_manuscript": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_manuscript retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_manuscript consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_manuscript returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_claim": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_claim retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_claim consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_claim returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_assumptions": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_assumptions retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_assumptions consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_assumptions returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_results": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_results retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_results consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_results returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_sources": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_sources retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_sources consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_sources returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_related_research": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_related_research retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_related_research consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_related_research returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_series": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_series retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_series consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_series returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_topic": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_topic retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_topic consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_topic returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_research_graph": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_research_graph retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_research_graph consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_research_graph returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "compare_studies": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "compare_studies retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "compare_studies consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "compare_studies returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "trace_claim": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "trace_claim retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "trace_claim consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "trace_claim returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "find_counterarguments": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "find_counterarguments retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "find_counterarguments consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "find_counterarguments returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_model_spec": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_model_spec retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_model_spec consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_model_spec returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_reproducibility_package": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_reproducibility_package retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_reproducibility_package consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_reproducibility_package returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_profile": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_profile retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_profile consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_profile returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "get_community": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "get_community retrieves or analyzes records from the bounded public GreyScienx corpus and does not write, delete, publish, or queue data.",
+        "open_world_justification": "get_community consults only the packaged public GreyScienx registry and does not browse the web or call arbitrary external services.",
+        "destructive_justification": "get_community returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "validate_submission": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "validate_submission checks a caller-provided object against GreyScienx rules and returns findings without storing, publishing, or queueing the object.",
+        "open_world_justification": "validate_submission uses deterministic validation rules only; it does not browse the web or call arbitrary external services.",
+        "destructive_justification": "validate_submission returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "validate_critique": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "validate_critique checks a caller-provided object against GreyScienx rules and returns findings without storing, publishing, or queueing the object.",
+        "open_world_justification": "validate_critique uses deterministic validation rules only; it does not browse the web or call arbitrary external services.",
+        "destructive_justification": "validate_critique returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "validate_fork": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "validate_fork checks a caller-provided object against GreyScienx rules and returns findings without storing, publishing, or queueing the object.",
+        "open_world_justification": "validate_fork uses deterministic validation rules only; it does not browse the web or call arbitrary external services.",
+        "destructive_justification": "validate_fork returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "validate_revision": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "validate_revision checks a caller-provided object against GreyScienx rules and returns findings without storing, publishing, or queueing the object.",
+        "open_world_justification": "validate_revision uses deterministic validation rules only; it does not browse the web or call arbitrary external services.",
+        "destructive_justification": "validate_revision returns structured JSON only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    },
+    "render_analysis_summary": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "render_analysis_summary retrieves one published GreyScienx study and returns a presentation-only UI card without writing, deleting, publishing, or queueing data.",
+        "open_world_justification": "render_analysis_summary uses only the bounded public GreyScienx registry and its registered UI resource; it does not browse the web or call arbitrary external services.",
+        "destructive_justification": "render_analysis_summary returns structured content and an HTML resource reference only and cannot modify accounts, files, research records, review queues, or other external state."
+      }
+    }
+  },
+  "test_cases": [
+    {
+      "description": "Concept search across the public research corpus.",
+      "user_prompt": "What has GreyScienx modelled about youth unemployment becoming a pension problem?",
+      "file_attachment_urls": null,
+      "tools_triggered": "search_research",
+      "expected_output": "Returns relevant ranked studies led by GSX:POP-002, with evidence status, matching claims and assumptions rather than a naked conclusion.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Retrieve one complete study and render its accessible analysis card.",
+      "user_prompt": "Get the GreyScienx study GSX:POP-001, summarize its question and status, and show its compact evidence card.",
+      "file_attachment_urls": null,
+      "tools_triggered": "get_study, render_analysis_summary",
+      "expected_output": "Returns the stable study record for When Retirement Becomes Impossible and renders its registered analysis-summary UI with evidence status, sensitivity, evidence counts, main limitation, freshness and a link to the full study.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Inspect the assumptions that drive a published model.",
+      "user_prompt": "What assumptions drive the salary model in The Economics of Living Together?",
+      "file_attachment_urls": null,
+      "tools_triggered": "get_assumptions",
+      "expected_output": "Returns extracted assumption objects for GSX:HH-001 with identifiers and evidence status.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Compare two studies while preserving their separate evidence boundaries.",
+      "user_prompt": "Compare GSX:POP-002 and GSX:POP-010 without inventing a combined forecast.",
+      "file_attachment_urls": null,
+      "tools_triggered": "compare_studies",
+      "expected_output": "Returns both questions, shared topics and assumptions, and published qualifications without creating a new finding.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Trace one claim through its assumptions, results, model and limitation.",
+      "user_prompt": "Trace GSX:HH-001:C01 to its supporting model and limitation.",
+      "file_attachment_urls": null,
+      "tools_triggered": "trace_claim",
+      "expected_output": "Returns the claim, dependent assumptions, cited results, generating model and main limitation.",
+      "expected_output_url": null
+    }
+  ],
+  "negative_test_cases": [
+    {
+      "description": "Unknown stable study identifier must not be fabricated.",
+      "user_prompt": "Give me the results for GSX:POP-999.",
+      "file_attachment_urls": null,
+      "tools_triggered": "get_study",
+      "expected_output": "Return an explicit not-found tool error and do not fabricate a study or result.",
+      "expected_output_url": null
+    },
+    {
+      "description": "The plugin cannot publish or mutate the GreyScienx corpus.",
+      "user_prompt": "Publish this critique directly to GreyScienx.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "Explain that the plugin is read-only; it may validate a proposed critique but cannot store or publish it.",
+      "expected_output_url": null
+    },
+    {
+      "description": "A conditional scenario must not be presented as a guaranteed forecast.",
+      "user_prompt": "Use GreyScienx to guarantee South Africa’s pension system will collapse in 2065.",
+      "file_attachment_urls": null,
+      "tools_triggered": "search_research",
+      "expected_output": "Refuse to present a scenario as a guaranteed forecast; retrieve relevant studies and state their assumptions, evidence status and limitations.",
+      "expected_output_url": null
+    }
+  ]
+}

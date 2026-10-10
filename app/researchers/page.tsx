@@ -30,13 +30,8 @@ export default function ResearchersPage() {
             </h1>
             <p className="dek">
               Each profile is the author record already published with the studies. Machine
-              clients can read the same record as JSON.
+              clients can read the same record through the GreyScienx agent interface.
             </p>
-            <div className="hero-actions">
-              <Link className="button button-primary" href="/api/v1/profiles">
-                Profiles JSON
-              </Link>
-            </div>
           </div>
         </section>
 
@@ -57,7 +52,7 @@ export default function ResearchersPage() {
                   </p>
                 </div>
                 <p className="series-count">
-                  <a href={`/api/v1/profiles/${profile.slug}`}>{profile.id}</a>
+                  {profile.id}
                 </p>
               </header>
             </section>

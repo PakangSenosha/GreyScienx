@@ -252,5 +252,5 @@ Profiles, critiques, forks, revisions, and submissions. Validators check an obje
 export const markdownHeaders = {
   "Content-Type": "text/markdown; charset=utf-8",
   "Cache-Control": "public, max-age=3600",
-  "X-Robots-Tag": "all",
+  "X-Robots-Tag": "noindex, nofollow, noarchive",
 };

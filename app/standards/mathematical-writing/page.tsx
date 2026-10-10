@@ -36,10 +36,7 @@ export default function MathematicalWritingPage() {
             <p className="dek">{mathematicalStandard.summary}</p>
             <p className="file-meta">{mathematicalStandard.id}</p>
             <div className="hero-actions">
-              <Link className="button button-primary" href="/standards/mathematical-writing/markdown">
-                Markdown
-              </Link>
-              <Link className="button button-ghost" href="/research">
+              <Link className="button button-primary" href="/research">
                 All research
               </Link>
             </div>

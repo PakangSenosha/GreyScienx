@@ -4,10 +4,12 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { graphSummary } from "@/lib/research/graph";
 import { researchObjects } from "@/lib/research/registry";
+import { agentOnlyRobots } from "@/lib/research/visibility";
 
 export const metadata: Metadata = {
   title: "Research graph",
   description: "How GreyScienx studies, claims, assumptions, results, and models connect.",
+  robots: agentOnlyRobots,
 };
 
 export default function ResearchGraphPage() {

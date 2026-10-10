@@ -116,12 +116,8 @@ export default async function PaperPage({
             </p>
           </div>
           <div className="machine-links">
-            <a href={`/api/v1/research/${study.slug}`}>JSON record</a>
-            <a href={`/research/${study.series_slug}/${study.slug}/markdown`}>Full Markdown twin</a>
             <Link href="/standards/mathematical-writing">Mathematical standard</Link>
-            <Link href={`/research/${study.series_slug}/${study.slug}/reproduce`}>Reproducibility</Link>
             <Link href="/community">Community</Link>
-            <Link href={`/research/${study.series_slug}/${study.slug}/versions`}>Version history</Link>
           </div>
         </section>
 
@@ -141,10 +137,6 @@ export default async function PaperPage({
             </p>
           </div>
           <div className="machine-links">
-            <a href={`/api/v1/research/${study.slug}/critiques`}>Critiques</a>
-            <a href={`/api/v1/research/${study.slug}/forks`}>Forks</a>
-            <a href={`/api/v1/research/${study.slug}/revisions`}>Revisions</a>
-            <Link href={`/research/${study.series_slug}/${study.slug}/versions`}>Version history</Link>
             {study.authors.map((author) => (
               <Link key={author.slug} href={`/about/${author.slug}`}>
                 {author.name}

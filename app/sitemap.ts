@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { researchSeries } from "@/lib/catalog";
-import { listTopicRecords, researchObjects } from "@/lib/research/registry";
+import { listTopicRecords } from "@/lib/research/registry";
 import { site } from "@/lib/site";
 import { articleUrl } from "@/lib/urls";
 
@@ -18,12 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${origin}/series`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${origin}/topics`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${origin}/standards/mathematical-writing`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
-    { url: `${origin}/research/graph`, lastModified: now, changeFrequency: "weekly", priority: 0.5 },
     { url: `${origin}/community`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${origin}/researchers`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${origin}/feed.xml`, lastModified: now, changeFrequency: "weekly", priority: 0.4 },
-    { url: `${origin}/research/index.md`, lastModified: now, changeFrequency: "weekly", priority: 0.5 },
-    { url: `${origin}/series/index.md`, lastModified: now, changeFrequency: "weekly", priority: 0.4 },
     { url: `${origin}/about/pakang-senosha`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
     { url: `${origin}/experiments/virtual-casino`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${origin}/experiments/virtual-casino/house-edge`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
@@ -56,49 +52,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: "monthly",
         priority: 0.8,
-      });
-    }
-  }
-
-  for (const study of researchObjects) {
-    pages.push({
-      url: study.links.markdown,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.4,
-    });
-    pages.push({
-      url: `${origin}/research/${study.series_slug}/${study.slug}/data`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    });
-    pages.push({
-      url: `${origin}/research/${study.series_slug}/${study.slug}/reproduce`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    });
-    pages.push({
-      url: `${origin}/research/${study.series_slug}/${study.slug}/versions`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    });
-    for (const claim of study.claims) {
-      pages.push({
-        url: claim.href,
-        lastModified: now,
-        changeFrequency: "monthly",
-        priority: 0.5,
-      });
-    }
-    for (const item of [...study.assumptions, ...study.results, ...study.models]) {
-      pages.push({
-        url: item.href,
-        lastModified: now,
-        changeFrequency: "monthly",
-        priority: 0.4,
       });
     }
   }

@@ -91,9 +91,7 @@ export default async function ResearchPage({ searchParams }: ResearchPageProps) 
               <Link href="/series">Series</Link>
               <Link href="/topics">Topics</Link>
               <Link href="/standards/mathematical-writing">Mathematical standard</Link>
-              <Link href="/research/graph">Graph</Link>
               <Link href="/community">Community</Link>
-              <a href="/feed.xml">Feed</a>
             </p>
           </div>
         </section>

@@ -37,10 +37,7 @@ export default async function CommunityPage() {
               the shape. A person reviews the object before it joins the public record.
             </p>
             <div className="hero-actions">
-              <a className="button button-primary" href="/api/v1/community">
-                Community JSON
-              </a>
-              <Link className="button button-ghost" href="/researchers">
+              <Link className="button button-primary" href="/researchers">
                 Profiles
               </Link>
             </div>
@@ -83,13 +80,6 @@ export default async function CommunityPage() {
               <p>The review queue is empty.</p>
             )}
           </div>
-          <p className="archive-links">
-            <Link href="/api/v1/profiles">Profiles</Link>
-            <a href="/api/v1/critiques">Critiques</a>
-            <a href="/api/v1/forks">Forks</a>
-            <a href="/api/v1/revisions">Revisions</a>
-            <a href="/api/v1/submissions">Submissions</a>
-          </p>
         </section>
 
         <div className="series-stack">

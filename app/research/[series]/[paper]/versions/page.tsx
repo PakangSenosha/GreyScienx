@@ -5,6 +5,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { researchSeries } from "@/lib/catalog";
 import { getStudy } from "@/lib/research/registry";
+import { agentOnlyRobots } from "@/lib/research/visibility";
 
 export function generateStaticParams() {
   return researchSeries.flatMap((series) => series.papers.map((paper) => ({ series: series.slug, paper: paper.slug })));
@@ -13,7 +14,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps<"/research/[series]/[paper]/versions">): Promise<Metadata> {
   const { paper } = await params;
   const study = getStudy(paper);
-  return study ? { title: `Version history · ${study.title}` } : {};
+  return study ? { title: `Version history · ${study.title}`, robots: agentOnlyRobots } : {};
 }
 
 export default async function VersionsPage({ params }: PageProps<"/research/[series]/[paper]/versions">) {

@@ -54,10 +54,7 @@ export default async function SeriesPage({ params }: SeriesPageProps) {
               {series.study_count} studies · {series.geographies.join(", ")}
             </p>
             <div className="hero-actions">
-              <a className="button button-primary" href={`/api/v1/series/${series.slug}`}>
-                Series JSON
-              </a>
-              <Link className="button button-ghost" href="/research">
+              <Link className="button button-primary" href="/research">
                 All research
               </Link>
             </div>

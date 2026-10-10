@@ -12,6 +12,11 @@ import { researchGraph } from "./graph";
 import { compareStudies, findCounterarguments, modelSpec, reproducibilityPackage, traceClaim } from "./inquiry";
 import { manuscriptResponse } from "./manuscripts";
 import {
+  ANALYSIS_SUMMARY_RESOURCE_URI,
+  analysisSummaryResource,
+  buildAnalysisSummaryPayload,
+} from "./conversational-ui";
+import {
   getSeriesRecord,
   getClaim,
   getStudy,
@@ -212,6 +217,37 @@ const tools = [
       object: { type: "object", description: "The proposed revision.", additionalProperties: true },
     }, ["object"]),
   },
+  {
+    name: "render_analysis_summary",
+    title: "Render GreyScienx analysis summary",
+    description:
+      "Render a compact GreyScienx analysis-summary widget for one published study. First call get_study and, when a claim is central to the answer, get_claim or trace_claim; then pass the selected study id and optional claim id here. The widget shows the finding, evidence status, sensitivity, evidence counts, main limitation, freshness and a handoff to the full study.",
+    inputSchema: objectSchema({
+      study_id: { type: "string", description: "GSX id or paper slug already selected from a GreyScienx data tool." },
+      claim_id: { type: "string", description: "Optional published claim id such as C01." },
+    }, ["study_id"]),
+    outputSchema: objectSchema({
+      widget: { type: "string", const: "analysis_summary" },
+      widget_version: { type: "string" },
+      status: { type: "string", const: "complete" },
+      study: { type: "object", additionalProperties: true },
+      finding: { type: "object", additionalProperties: true },
+      evidence: { type: "object", additionalProperties: true },
+      freshness: { type: "object", additionalProperties: true },
+      links: { type: "object", additionalProperties: true },
+      citation: { type: "string" },
+    }, ["widget", "widget_version", "status", "study", "finding", "evidence", "freshness", "links", "citation"]),
+    _meta: {
+      ui: {
+        resourceUri: ANALYSIS_SUMMARY_RESOURCE_URI,
+        visibility: ["model", "app"],
+      },
+      "openai/outputTemplate": ANALYSIS_SUMMARY_RESOURCE_URI,
+      "openai/widgetAccessible": true,
+      "openai/toolInvocation/invoking": "Preparing the GreyScienx evidence summary…",
+      "openai/toolInvocation/invoked": "GreyScienx evidence summary ready.",
+    },
+  },
 ].map((tool) => ({
   ...tool,
   annotations: READ_ONLY_TOOL_ANNOTATIONS,
@@ -221,7 +257,7 @@ type RpcMessage = {
   jsonrpc?: string;
   id?: string | number | null;
   method?: string;
-  params?: { name?: string; arguments?: Record<string, unknown> };
+  params?: { name?: string; arguments?: Record<string, unknown>; uri?: string };
 };
 
 export async function handleMcpRequest(request: Request) {
@@ -262,7 +298,7 @@ export function discovery() {
     protocol: "mcp",
     protocolVersion: PROTOCOL,
     transport: "stateless-json-rpc",
-    version: "1.2.0",
+    version: "1.3.0",
     description:
       "Read-only research tools for GreyScienx studies, plus community validators that check an object and do not publish it. POST JSON-RPC messages to this URL. There is no hosted model.",
     tools: tools.map((tool) => ({
@@ -270,6 +306,13 @@ export function discovery() {
       description: tool.description,
       annotations: tool.annotations,
     })),
+    resources: [
+      {
+        uri: ANALYSIS_SUMMARY_RESOURCE_URI,
+        name: "greyscienx-analysis-summary",
+        mimeType: analysisSummaryResource().mimeType,
+      },
+    ],
   };
 }
 
@@ -284,8 +327,8 @@ async function dispatch(message: RpcMessage) {
     const requested = (message.params as { protocolVersion?: string } | undefined)?.protocolVersion;
     return rpc(id, {
       protocolVersion: typeof requested === "string" ? requested : PROTOCOL,
-      capabilities: { tools: { listChanged: false } },
-      serverInfo: { name: "GreyScienx", version: "1.2.0" },
+      capabilities: { tools: { listChanged: false }, resources: { listChanged: false } },
+      serverInfo: { name: "GreyScienx", version: "1.3.0" },
       instructions:
         "GreyScienx tools return modelled research records with their evidence status. Read a claim with its assumptions and limitation. Community validators check an object and do not publish it.",
     });
@@ -293,6 +336,37 @@ async function dispatch(message: RpcMessage) {
   if (message.method === "ping") return rpc(id, {});
   if (message.method === "tools/list") return rpc(id, { tools });
   if (message.method === "tools/call") return rpc(id, await callTool(message.params));
+  if (message.method === "resources/list") {
+    const resource = analysisSummaryResource();
+    return rpc(id, {
+      resources: [
+        {
+          uri: resource.uri,
+          name: resource.name,
+          title: resource.title,
+          description: resource.description,
+          mimeType: resource.mimeType,
+          _meta: resource._meta,
+        },
+      ],
+    });
+  }
+  if (message.method === "resources/read") {
+    if (message.params?.uri !== ANALYSIS_SUMMARY_RESOURCE_URI) {
+      return rpc(id, errorBody(-32002, "Resource not found"));
+    }
+    const resource = analysisSummaryResource();
+    return rpc(id, {
+      contents: [
+        {
+          uri: resource.uri,
+          mimeType: resource.mimeType,
+          text: resource.text,
+          _meta: resource._meta,
+        },
+      ],
+    });
+  }
   return rpc(id, errorBody(-32601, "Method not found"));
 }
 
@@ -305,7 +379,12 @@ async function callTool(params: RpcMessage["params"]) {
   }
   try {
     const payload = await runTool(tool.name, args);
-    return { content: [{ type: "text", text: JSON.stringify(payload, null, 2) }], isError: false };
+    const result: Record<string, unknown> = {
+      content: [{ type: "text", text: JSON.stringify(payload, null, 2) }],
+      isError: false,
+    };
+    if (tool.name === "render_analysis_summary") result.structuredContent = payload;
+    return result;
   } catch (error) {
     const message = error instanceof Error ? error.message : "Tool failed";
     return { content: [{ type: "text", text: message }], isError: true };
@@ -367,6 +446,10 @@ async function runTool(name: string, args: Record<string, unknown>) {
   if (name === "validate_critique") return validateCritique(args.object);
   if (name === "validate_fork") return validateFork(args.object);
   if (name === "validate_revision") return validateRevision(args.object);
+  if (name === "render_analysis_summary") {
+    const study = requireStudy(args);
+    return buildAnalysisSummaryPayload(study, optionalString(args, "claim_id"));
+  }
   throw new Error(`Unknown tool ${name}`);
 }
 
@@ -430,5 +513,6 @@ function mcpHeaders() {
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type, Accept, MCP-Protocol-Version",
     "Cache-Control": "no-store",
+    "X-Robots-Tag": "noindex, nofollow, noarchive",
   };
 }

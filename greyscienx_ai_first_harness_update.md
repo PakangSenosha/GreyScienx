@@ -1795,7 +1795,7 @@ Dedicated plotting tables may still be added where useful, but every published f
 
 ## Live deployment validation
 
-The verified corpus was deployed to the Cloudflare Worker serving `greyscienx.com/*` and the `www.greyscienx.com` custom domain on 29 September 2026. The current deployed Worker version is `9109522e-e887-486e-bd9b-aa4be3e6e1f0`.
+The verified corpus was deployed to the Cloudflare Worker serving `greyscienx.com/*` and the `www.greyscienx.com` custom domain on 29 September 2026. The current deployed Worker version is `1aad0ded-431d-4ea0-a27c-958361e2625a`.
 
 The repeatable live validator passed every test:
 
@@ -1829,3 +1829,18 @@ The following are not represented as completed machine checks because software c
 - empirical proof of third-party search-engine inclusion, which requires crawler ingestion and later observation or search-console data
 
 These gates do not require another architecture. They use the review, versioning, verification and publication structures now present in the harness.
+
+## OpenAI public-plugin submission readiness
+
+GreyScienx is connected privately in ChatGPT and has been prepared for a separate public **With MCP** directory submission. The production release now includes:
+
+- 22 MCP tools with explicit `readOnlyHint: true`, `openWorldHint: false` and `destructiveHint: false` annotations
+- public privacy, terms and support pages
+- a 512 × 512 production logo at `/brand/greyscienx-app-icon.png`
+- a portable Agent Plugins 1.0 twin in `plugins/greyscienx/`
+- a packaged archive at `plugins/greyscienx-plugin-1.0.0.zip`
+- complete listing copy, starter prompts, five positive tests, three negative tests and release notes in `research/templates/semantic-twin/openai-public-plugin-submission.json`
+
+The production build, lint, 14 research integrity tests and plugin-package checks pass. The live deployment validator passes 29 of 29 checks, all three policy pages and the logo return HTTP 200, and all 22 live tool annotations match the declared read-only behaviour.
+
+The OpenAI Platform project `Personal / Greyscienx` has been created. Individual developer verification was completed through OpenAI's Persona flow and the organization now reports **Identity in review**. OpenAI continues to block public-draft creation until that review is approved. After approval, the prepared submission can be entered, domain-verified, scanned and submitted for review.

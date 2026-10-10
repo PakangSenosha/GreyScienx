@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { researchSeries } from "@/lib/catalog";
 import { getStudy, getSubobject } from "@/lib/research/registry";
+import { agentOnlyRobots } from "@/lib/research/visibility";
 import { site } from "@/lib/site";
 
 const allowed = ["assumptions", "results", "models"] as const;
@@ -52,6 +53,7 @@ export async function generateMetadata({ params }: SubobjectPageProps): Promise<
     title: `${loaded.item.local_id} · ${loaded.study.title}`,
     description: statementFor(loaded.kind, loaded.item),
     alternates: { canonical: loaded.item.href },
+    robots: agentOnlyRobots,
   };
 }
 

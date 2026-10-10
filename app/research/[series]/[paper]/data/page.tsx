@@ -6,6 +6,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { getPaper, researchSeries } from "@/lib/catalog";
 import { packageFor } from "@/lib/research/packages";
 import { getStudy } from "@/lib/research/registry";
+import { agentOnlyRobots } from "@/lib/research/visibility";
 
 export const dynamicParams = false;
 
@@ -21,6 +22,7 @@ export async function generateMetadata({ params }: DataPageProps): Promise<Metad
   return {
     title: `Datasets · ${loaded.study.title}`,
     description: `Dataset record for ${loaded.study.title}.`,
+    robots: agentOnlyRobots,
   };
 }
 

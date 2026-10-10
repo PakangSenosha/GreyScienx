@@ -4,6 +4,7 @@ import { getStudy } from "@/lib/research/registry";
 const headers = {
   "Access-Control-Allow-Origin": "*",
   "Cache-Control": "public, max-age=3600",
+  "X-Robots-Tag": "noindex, nofollow, noarchive",
   Vary: "Accept",
 };
 
